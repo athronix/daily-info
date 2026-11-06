@@ -1,16 +1,27 @@
 # 站点端到端验收 · 2026-11-05
 
-绑定 `http://[::1]:51354`（IPv6 回环 + 禁用代理），共 18 项检查，通过 18，失败 0，提示 6。
+绑定 `http://[::1]:59107`（IPv6 回环 + 禁用代理），共 29 项检查，通过 29，失败 0，提示 6。
 
 | 检查 | 结论 | 明细 |
 | --- | --- | --- |
-| 首屏 / | PASS | status=200 type=text/html bytes=16490 |
+| 首屏 / | PASS | status=200 type=text/html bytes=25985 |
 | 前端能力 · 搜索框 #q | PASS | 源码含 'id="q"' |
 | 前端能力 · 搜索 input 监听 | PASS | 源码含 "addEventListener('input'" |
 | 前端能力 · 搜索过滤 state.q | PASS | 源码含 'state.q' |
 | 前端能力 · 日期切换 dates | PASS | 源码含 'state.index.dates' |
 | 前端能力 · 读取 index.json | PASS | 源码含 'data/index.json' |
 | 前端能力 · 按日期加载切片 | PASS | 源码含 "data/'+date+'.json'" |
+| 前端能力 · 日期导航 #days | PASS | 源码含 'id="days"' |
+| 前端能力 · 分类导航 #cats | PASS | 源码含 'id="cats"' |
+| 前端能力 · 分类筛选 state.cat | PASS | 源码含 'state.cat' |
+| 前端能力 · 默认打开最新日期 | PASS | 源码含 'idx.dates[0].date' |
+| 前端能力 · 双维度 URL hash | PASS | 源码含 'writeHash' |
+| 前端能力 · 订阅引导面板 | PASS | 源码含 'id="sub-modal"' |
+| 前端能力 · 订阅按钮是 button | PASS | 源码含 'id="subscribe" type="button"' |
+| 前端能力 · 订阅地址绝对化 | PASS | 源码含 'new URL(u,location.href)' |
+| 前端能力 · 一键复制订阅地址 | PASS | 源码含 'class="copy"' |
+| 前端能力 · 订阅入口不再直跳 .atom | PASS | 顶栏无 <a class=btn href=feed.atom> 直链 |
+| 前端能力 · 保留阅读器自动发现 | PASS | head 内 rel=alternate 仍在 |
 | /data/index.json | PASS | status=200 dates=2 feeds=5 |
 | 索引含当日 | PASS | dates=['2026-11-05', '2026-11-04'] |
 | /data/latest.json | PASS | status=200 date=2026-11-05 |

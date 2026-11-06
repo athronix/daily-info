@@ -358,3 +358,27 @@ entry 级 alternate 必须保持外部原文地址，绝不能替换成本站域
 
 **附带教训**：域名替换是纯文本 `str.replace(old_base, new_base)`，只命中真实占位域名，
 不会误伤 `tag:daily-info.local,...` 这类不带斜杠与 `https://` 前缀的稳定 ID。
+
+## P32 · 订阅按钮别直链 `.atom`：浏览器打开就是 XML 源码
+
+**现象**：顶栏「订阅 RSS」写成 `<a href="feed.atom">`，页脚 5 个 profile 也是
+`<a href="*.atom">`。用户点击后浏览器把 `application/atom+xml` 渲染成 XML 源码树，
+体验极差，且容易被误认为「订阅页坏了」。
+
+**根因**：Atom / RSS 是给**阅读器**消费的机器可读源文件，不是给人看的网页；
+配对了 MIME 反而会让浏览器老老实实显示源码，这不是 bug，是入口设计错了。
+
+**规避**：
+1. 顶栏与页脚入口一律改为 `<button>`，打开订阅引导 modal：解释源文件用途、
+   用 `new URL(f.url, location.href).href` 生成**绝对地址**展示并提供一键复制
+   （`navigator.clipboard` + `execCommand('copy')` 兜底，兼容 `file://`）；
+2. 只保留一个明确标注「查看源文件（会显示 XML）」的次级链接给高级用户；
+3. `<head>` 里的 `rel="alternate"` 自动发现链接**必须保留**，阅读器输入站点首页即可识别；
+4. 不要靠给 Atom 加 XSL 样式表来「美化源码页」：会改动 feed 生成契约，
+   且 GitHub Pages 对 `.xsl` 的 MIME 不可控，跨浏览器风险高于收益。
+
+**验收**：`check_release.py` 增加静态检查「订阅入口不再直跳 .atom」「保留阅读器自动发现」；
+Chrome headless `--dump-dom` 双场景断言 16/16（`reports/site-ui-check-2026-11-06.md`）。
+**断言写法注意**：DOM 里含 `<script>` 源码，JS 模板字面量里的 `<button class="feed"` 会被
+正则误计数；Chrome 还会把布尔属性序列化成 `readonly=""`。断言前先剔除 `<script>`，
+并用 `<input[^>]*value="...">` 而非固定属性顺序，否则会产生 3 项纯误报。

@@ -107,7 +107,9 @@ Atom 可解析且稳定 ID 未变、feed 级 self/alternate 指向新域名、JS
 | `prepare_pages.py` dry-run | 0 问题，14 文件 / 782,368 B | 本报告 §3；`manifest.json` 记录 sha256 |
 | `--apply` + 二次执行 | `changed=0`，字节幂等 | 本地日志 |
 | 子路径端到端（IPv6 `::1` HTTP） | **14/14 PASS** | `reports/pages-subpath-check-2026-11-06.md` |
-| 日报核验 | **35/35，violations=0** | `reports/verify-2026-11-05.md` |
+| 线上站点与订阅源 | **15/15 HTTP 200** | `reports/pages-live-check-2026-11-06.md`；6 个 `.atom` MIME 正确 |
+| 前端导航与订阅交互（真实浏览器） | **16/16 PASS** | `reports/site-ui-check-2026-11-06.md`；默认最新日期 / 分类筛选 / hash / 订阅面板 |
+| 日报核验 | **35/35，violations=0**（全归档 49/49） | `reports/verify-2026-11-05.md`、`reports/verify-2026-11-06.md` |
 | 站点端到端 | **18/18 PASS** | `reports/release-check-2026-11-05.md` |
 | 全脚本 `py_compile` | 0 错误 | 三关验证第 1 关 |
 | 凭据明文扫描 | 0 命中 | 发布前扫描；`.env` 未入库 |

@@ -12,6 +12,7 @@
   5 个 profile Atom         200 + XML 可解析 + entry id 唯一
   /feed.json                200 + JSON Feed items > 0
   前端能力（静态源码检查）  #q 搜索框 / input 监听 / dates 切换 / state.q 过滤
+                          日期 + 分类双维导航 / 默认最新日期 / 订阅引导面板（不直跳 .atom）
 
 网络约定：绑定 IPv6 `::1`，urllib 显式禁用代理（ProxyHandler({})），
 规避本机 TUN 对 IPv4 127.0.0.1 裸 TCP 的拦截（见 pitfalls P17 与用户环境约定）。
@@ -25,6 +26,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import socket
 import sys
 import threading
@@ -89,8 +91,23 @@ def main() -> int:
                               ("搜索过滤 state.q", "state.q"),
                               ("日期切换 dates", "state.index.dates"),
                               ("读取 index.json", "data/index.json"),
-                              ("按日期加载切片", "data/'+date+'.json'")]:
+                              ("按日期加载切片", "data/'+date+'.json'"),
+                              ("日期导航 #days", 'id="days"'),
+                              ("分类导航 #cats", 'id="cats"'),
+                              ("分类筛选 state.cat", "state.cat"),
+                              ("默认打开最新日期", "idx.dates[0].date"),
+                              ("双维度 URL hash", "writeHash"),
+                              ("订阅引导面板", 'id="sub-modal"'),
+                              ("订阅按钮是 button", 'id="subscribe" type="button"'),
+                              ("订阅地址绝对化", "new URL(u,location.href)"),
+                              ("一键复制订阅地址", 'class="copy"')]:
             rec(f"前端能力 · {label}", needle in html_text, f"源码含 {needle!r}")
+        rec("前端能力 · 订阅入口不再直跳 .atom",
+            not re.search(r'<a[^>]*class="btn"[^>]*href="feed\.atom"', html_text),
+            "顶栏无 <a class=btn href=feed.atom> 直链")
+        rec("前端能力 · 保留阅读器自动发现",
+            'rel="alternate" type="application/atom+xml"' in html_text,
+            "head 内 rel=alternate 仍在")
 
         # 索引与切片
         code, _, body = get("/data/index.json")
