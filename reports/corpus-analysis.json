@@ -1,0 +1,1693 @@
+{
+  "generated_by": "scripts/analyze_corpus.py",
+  "corpus_root": "D:\\Users\\towyq\\Documents\\Projects\\personal-daily-info\\.research\\repos",
+  "corpora": [
+    {
+      "corpus": "daily-rss",
+      "label": "技术日报",
+      "files": 256,
+      "chars": {
+        "total": 3503826,
+        "mean": 13687,
+        "median": 14178,
+        "min": 1816,
+        "max": 25583
+      },
+      "lines": {
+        "total": 57153,
+        "mean": 223.3,
+        "median": 217.5,
+        "min": 65,
+        "max": 573
+      },
+      "adoption": {
+        "h1": {
+          "count": 208,
+          "pct": 81.2
+        },
+        "h2_count": {
+          "count": 256,
+          "pct": 100.0
+        },
+        "cn_numbered_sections": {
+          "count": 0,
+          "pct": 0.0
+        },
+        "cn_numbered_h3": {
+          "count": 6,
+          "pct": 2.3
+        },
+        "num_sections": {
+          "count": 0,
+          "pct": 0.0
+        },
+        "blockquote_lines": {
+          "count": 249,
+          "pct": 97.3
+        },
+        "hr": {
+          "count": 256,
+          "pct": 100.0
+        },
+        "table_rows": {
+          "count": 199,
+          "pct": 77.7
+        },
+        "code_fences": {
+          "count": 1,
+          "pct": 0.4
+        },
+        "bold_spans": {
+          "count": 256,
+          "pct": 100.0
+        },
+        "list_items": {
+          "count": 256,
+          "pct": 100.0
+        },
+        "arrow_links": {
+          "count": 10,
+          "pct": 3.9
+        },
+        "md_links": {
+          "count": 219,
+          "pct": 85.5
+        },
+        "has_reference_block": {
+          "count": 159,
+          "pct": 62.1
+        },
+        "has_disclaimer": {
+          "count": 110,
+          "pct": 43.0
+        },
+        "has_missing_marker": {
+          "count": 0,
+          "pct": 0.0
+        },
+        "has_generation_note": {
+          "count": 148,
+          "pct": 57.8
+        },
+        "has_editor_note": {
+          "count": 255,
+          "pct": 99.6
+        }
+      },
+      "structure": {
+        "h2_mean": 9.2,
+        "h3_mean": 15,
+        "list_items_mean": 57.9,
+        "bold_spans_mean": 66.2,
+        "urls_mean": 64.2,
+        "arrow_links_mean": 3.2,
+        "numeric_line_ratio_mean": 0.4122,
+        "cjk_ratio_mean": 0.2621
+      },
+      "top_h2": [
+        {
+          "section": "💡 编者观察",
+          "files": 245,
+          "pct": 95.7
+        },
+        {
+          "section": "🌐 开源社区动态",
+          "files": 230,
+          "pct": 89.8
+        },
+        {
+          "section": "💰 投融资快报",
+          "files": 221,
+          "pct": 86.3
+        },
+        {
+          "section": "🛠️ 开发者工具更新",
+          "files": 184,
+          "pct": 71.9
+        },
+        {
+          "section": "🔥 核心主题聚合",
+          "files": 182,
+          "pct": 71.1
+        },
+        {
+          "section": "📅 今日活动预告",
+          "files": 161,
+          "pct": 62.9
+        },
+        {
+          "section": "📊 论文精选",
+          "files": 157,
+          "pct": 61.3
+        },
+        {
+          "section": "🤖 LLM 动态速递",
+          "files": 149,
+          "pct": 58.2
+        },
+        {
+          "section": "📊 今日数据概览",
+          "files": 126,
+          "pct": 49.2
+        },
+        {
+          "section": "📰 行业深度",
+          "files": 106,
+          "pct": 41.4
+        },
+        {
+          "section": "📊 今日数据",
+          "files": 72,
+          "pct": 28.1
+        },
+        {
+          "section": "📬 Newsletter 精选",
+          "files": 58,
+          "pct": 22.7
+        },
+        {
+          "section": "🔥 核心主题",
+          "files": 43,
+          "pct": 16.8
+        },
+        {
+          "section": "🛠️ 开发者工具",
+          "files": 39,
+          "pct": 15.2
+        },
+        {
+          "section": "📰 行业深度（值得细读）",
+          "files": 33,
+          "pct": 12.9
+        },
+        {
+          "section": "🤖 LLM 动态速递（12 条）",
+          "files": 21,
+          "pct": 8.2
+        },
+        {
+          "section": "🤖 LLM 动态",
+          "files": 19,
+          "pct": 7.4
+        },
+        {
+          "section": "📌 今日速览",
+          "files": 15,
+          "pct": 5.9
+        },
+        {
+          "section": "🔥 今日核心主题",
+          "files": 11,
+          "pct": 4.3
+        },
+        {
+          "section": "📰 行业深度阅读",
+          "files": 10,
+          "pct": 3.9
+        },
+        {
+          "section": "🤖 LLM 动态速递（14 条）",
+          "files": 10,
+          "pct": 3.9
+        },
+        {
+          "section": "📅 今日值得关注",
+          "files": 8,
+          "pct": 3.1
+        },
+        {
+          "section": "📬 Newsletter 精选（克军订阅）",
+          "files": 8,
+          "pct": 3.1
+        },
+        {
+          "section": "🤖 LLM 动态速递（15 条）",
+          "files": 7,
+          "pct": 2.7
+        },
+        {
+          "section": "🤖 LLM 动态速递（13 条）",
+          "files": 7,
+          "pct": 2.7
+        }
+      ],
+      "urls_total": 16430,
+      "arrow_links_total": 830,
+      "md_links_total": 13736,
+      "unique_domains": 1159,
+      "top_domains": [
+        {
+          "domain": "github.com",
+          "count": 1988
+        },
+        {
+          "domain": "techcrunch.com",
+          "count": 1177
+        },
+        {
+          "domain": "huggingface.co",
+          "count": 1115
+        },
+        {
+          "domain": "arxiv.org",
+          "count": 1083
+        },
+        {
+          "domain": "infoq.com",
+          "count": 818
+        },
+        {
+          "domain": "aibusiness.com",
+          "count": 733
+        },
+        {
+          "domain": "news.ycombinator.com",
+          "count": 595
+        },
+        {
+          "domain": "tldr.tech",
+          "count": 576
+        },
+        {
+          "domain": "siliconangle.com",
+          "count": 542
+        },
+        {
+          "domain": "marktechpost.com",
+          "count": 491
+        },
+        {
+          "domain": "wired.com",
+          "count": 465
+        },
+        {
+          "domain": "arstechnica.com",
+          "count": 438
+        },
+        {
+          "domain": "interconnects.ai",
+          "count": 298
+        },
+        {
+          "domain": "technologyreview.com",
+          "count": 285
+        },
+        {
+          "domain": "langchain.com",
+          "count": 255
+        },
+        {
+          "domain": "kdnuggets.com",
+          "count": 222
+        },
+        {
+          "domain": "lastweekin.ai",
+          "count": 213
+        },
+        {
+          "domain": "bensbites.com",
+          "count": 196
+        },
+        {
+          "domain": "blog.langchain.dev",
+          "count": 171
+        },
+        {
+          "domain": "notes.jim-nielsen.com",
+          "count": 170
+        },
+        {
+          "domain": "openai.com",
+          "count": 148
+        },
+        {
+          "domain": "magazine.sebastianraschka.com",
+          "count": 146
+        },
+        {
+          "domain": "quaily.com",
+          "count": 142
+        },
+        {
+          "domain": "venturebeat.com",
+          "count": 132
+        },
+        {
+          "domain": "therundownai.beehiiv.com",
+          "count": 131
+        }
+      ],
+      "format_evolution_by_month": [
+        {
+          "month": "2026-02",
+          "files": 16,
+          "arrow": 0,
+          "md": 182,
+          "urls": 227,
+          "arrow_per_file": 0.0,
+          "md_per_file": 11.4
+        },
+        {
+          "month": "2026-03",
+          "files": 31,
+          "arrow": 0,
+          "md": 453,
+          "urls": 860,
+          "arrow_per_file": 0.0,
+          "md_per_file": 14.6
+        },
+        {
+          "month": "2026-04",
+          "files": 29,
+          "arrow": 0,
+          "md": 770,
+          "urls": 977,
+          "arrow_per_file": 0.0,
+          "md_per_file": 26.6
+        },
+        {
+          "month": "2026-05",
+          "files": 29,
+          "arrow": 0,
+          "md": 1854,
+          "urls": 1854,
+          "arrow_per_file": 0.0,
+          "md_per_file": 63.9
+        },
+        {
+          "month": "2026-06",
+          "files": 28,
+          "arrow": 0,
+          "md": 1784,
+          "urls": 1784,
+          "arrow_per_file": 0.0,
+          "md_per_file": 63.7
+        },
+        {
+          "month": "2026-07",
+          "files": 31,
+          "arrow": 0,
+          "md": 2126,
+          "urls": 2141,
+          "arrow_per_file": 0.0,
+          "md_per_file": 68.6
+        },
+        {
+          "month": "2026-08",
+          "files": 28,
+          "arrow": 0,
+          "md": 2487,
+          "urls": 2495,
+          "arrow_per_file": 0.0,
+          "md_per_file": 88.8
+        },
+        {
+          "month": "2026-09",
+          "files": 30,
+          "arrow": 138,
+          "md": 2621,
+          "urls": 2838,
+          "arrow_per_file": 4.6,
+          "md_per_file": 87.4
+        },
+        {
+          "month": "2026-10",
+          "files": 30,
+          "arrow": 316,
+          "md": 1459,
+          "urls": 2877,
+          "arrow_per_file": 10.5,
+          "md_per_file": 48.6
+        },
+        {
+          "month": "2026-11",
+          "files": 4,
+          "arrow": 376,
+          "md": 0,
+          "urls": 377,
+          "arrow_per_file": 94.0,
+          "md_per_file": 0.0
+        }
+      ]
+    },
+    {
+      "corpus": "daily-investor-observations",
+      "label": "投资观察/美股日报",
+      "files": 137,
+      "chars": {
+        "total": 1480381,
+        "mean": 10806,
+        "median": 11351,
+        "min": 1464,
+        "max": 31368
+      },
+      "lines": {
+        "total": 40356,
+        "mean": 294.6,
+        "median": 322,
+        "min": 68,
+        "max": 542
+      },
+      "adoption": {
+        "h1": {
+          "count": 136,
+          "pct": 99.3
+        },
+        "h2_count": {
+          "count": 137,
+          "pct": 100.0
+        },
+        "cn_numbered_sections": {
+          "count": 3,
+          "pct": 2.2
+        },
+        "cn_numbered_h3": {
+          "count": 0,
+          "pct": 0.0
+        },
+        "num_sections": {
+          "count": 91,
+          "pct": 66.4
+        },
+        "blockquote_lines": {
+          "count": 113,
+          "pct": 82.5
+        },
+        "hr": {
+          "count": 125,
+          "pct": 91.2
+        },
+        "table_rows": {
+          "count": 127,
+          "pct": 92.7
+        },
+        "code_fences": {
+          "count": 12,
+          "pct": 8.8
+        },
+        "bold_spans": {
+          "count": 132,
+          "pct": 96.4
+        },
+        "list_items": {
+          "count": 137,
+          "pct": 100.0
+        },
+        "arrow_links": {
+          "count": 0,
+          "pct": 0.0
+        },
+        "md_links": {
+          "count": 3,
+          "pct": 2.2
+        },
+        "has_reference_block": {
+          "count": 117,
+          "pct": 85.4
+        },
+        "has_disclaimer": {
+          "count": 89,
+          "pct": 65.0
+        },
+        "has_missing_marker": {
+          "count": 73,
+          "pct": 53.3
+        },
+        "has_generation_note": {
+          "count": 25,
+          "pct": 18.2
+        },
+        "has_editor_note": {
+          "count": 90,
+          "pct": 65.7
+        }
+      },
+      "structure": {
+        "h2_mean": 13.5,
+        "h3_mean": 18.8,
+        "list_items_mean": 62.3,
+        "bold_spans_mean": 74.7,
+        "urls_mean": 0.4,
+        "arrow_links_mean": 0,
+        "numeric_line_ratio_mean": 0.4868,
+        "cjk_ratio_mean": 0.3486
+      },
+      "top_h2": [
+        {
+          "section": "风险提示",
+          "files": 90,
+          "pct": 65.7
+        },
+        {
+          "section": "今日一句话总结",
+          "files": 90,
+          "pct": 65.7
+        },
+        {
+          "section": "宏观环境",
+          "files": 89,
+          "pct": 65.0
+        },
+        {
+          "section": "市场宽度与参与度",
+          "files": 89,
+          "pct": 65.0
+        },
+        {
+          "section": "板块轮动判断",
+          "files": 89,
+          "pct": 65.0
+        },
+        {
+          "section": "最终结论",
+          "files": 89,
+          "pct": 65.0
+        },
+        {
+          "section": "大盘表现总览",
+          "files": 87,
+          "pct": 63.5
+        },
+        {
+          "section": "机构观点与资金流",
+          "files": 87,
+          "pct": 63.5
+        },
+        {
+          "section": "重点个股新闻与异动",
+          "files": 86,
+          "pct": 62.8
+        },
+        {
+          "section": "盘中走势复盘",
+          "files": 84,
+          "pct": 61.3
+        },
+        {
+          "section": "财报日历与财报解读",
+          "files": 84,
+          "pct": 61.3
+        },
+        {
+          "section": "主题与风格表现",
+          "files": 81,
+          "pct": 59.1
+        },
+        {
+          "section": "技术面分析",
+          "files": 80,
+          "pct": 58.4
+        },
+        {
+          "section": "重点关注股观察",
+          "files": 68,
+          "pct": 49.6
+        },
+        {
+          "section": "明日交易计划/观察清单",
+          "files": 52,
+          "pct": 38.0
+        },
+        {
+          "section": "🌍 全球市场概览",
+          "files": 43,
+          "pct": 31.4
+        },
+        {
+          "section": "💡 投资启示",
+          "files": 42,
+          "pct": 30.7
+        },
+        {
+          "section": "板块表现",
+          "files": 41,
+          "pct": 29.9
+        },
+        {
+          "section": "🇺🇸 美股洞察",
+          "files": 39,
+          "pct": 28.5
+        },
+        {
+          "section": "🇨🇳 A 股洞察",
+          "files": 39,
+          "pct": 28.5
+        },
+        {
+          "section": "🇭🇰 港股洞察",
+          "files": 39,
+          "pct": 28.5
+        },
+        {
+          "section": "行业/技术趋势独立分析",
+          "files": 39,
+          "pct": 28.5
+        },
+        {
+          "section": "🔥 跨市场主题",
+          "files": 38,
+          "pct": 27.7
+        },
+        {
+          "section": "明日交易计划 / 观察清单",
+          "files": 19,
+          "pct": 13.9
+        },
+        {
+          "section": "我的重点关注股观察",
+          "files": 14,
+          "pct": 10.2
+        }
+      ],
+      "urls_total": 54,
+      "arrow_links_total": 0,
+      "md_links_total": 47,
+      "unique_domains": 21,
+      "top_domains": [
+        {
+          "domain": "cnbc.com",
+          "count": 15
+        },
+        {
+          "domain": "techmeme.com",
+          "count": 9
+        },
+        {
+          "domain": "finance.yahoo.com",
+          "count": 5
+        },
+        {
+          "domain": "news.google.com",
+          "count": 2
+        },
+        {
+          "domain": "tradingeconomics.com",
+          "count": 2
+        },
+        {
+          "domain": "fred.stlouisfed.org",
+          "count": 2
+        },
+        {
+          "domain": "cmegroup.com",
+          "count": 2
+        },
+        {
+          "domain": "wsj.com",
+          "count": 2
+        },
+        {
+          "domain": "feishu.cn",
+          "count": 2
+        },
+        {
+          "domain": "longbridge.com",
+          "count": 2
+        },
+        {
+          "domain": "abcnews.com",
+          "count": 1
+        },
+        {
+          "domain": "forbes.com",
+          "count": 1
+        },
+        {
+          "domain": "metamask.io",
+          "count": 1
+        },
+        {
+          "domain": "csimarket.com",
+          "count": 1
+        },
+        {
+          "domain": "trefis.com",
+          "count": 1
+        },
+        {
+          "domain": "indexes.nasdaqomx.com",
+          "count": 1
+        },
+        {
+          "domain": "ishares.com",
+          "count": 1
+        },
+        {
+          "domain": "milbank.com",
+          "count": 1
+        },
+        {
+          "domain": "github.com",
+          "count": 1
+        },
+        {
+          "domain": "cnn.com",
+          "count": 1
+        },
+        {
+          "domain": "schwab.com",
+          "count": 1
+        }
+      ],
+      "format_evolution_by_month": [
+        {
+          "month": "2026-02",
+          "files": 3,
+          "arrow": 0,
+          "md": 0,
+          "urls": 0,
+          "arrow_per_file": 0.0,
+          "md_per_file": 0.0
+        },
+        {
+          "month": "2026-03",
+          "files": 16,
+          "arrow": 0,
+          "md": 0,
+          "urls": 0,
+          "arrow_per_file": 0.0,
+          "md_per_file": 0.0
+        },
+        {
+          "month": "2026-04",
+          "files": 27,
+          "arrow": 0,
+          "md": 0,
+          "urls": 0,
+          "arrow_per_file": 0.0,
+          "md_per_file": 0.0
+        },
+        {
+          "month": "2026-06",
+          "files": 5,
+          "arrow": 0,
+          "md": 24,
+          "urls": 24,
+          "arrow_per_file": 0.0,
+          "md_per_file": 4.8
+        },
+        {
+          "month": "2026-07",
+          "files": 20,
+          "arrow": 0,
+          "md": 14,
+          "urls": 14,
+          "arrow_per_file": 0.0,
+          "md_per_file": 0.7
+        },
+        {
+          "month": "2026-08",
+          "files": 21,
+          "arrow": 0,
+          "md": 0,
+          "urls": 0,
+          "arrow_per_file": 0.0,
+          "md_per_file": 0.0
+        },
+        {
+          "month": "2026-09",
+          "files": 21,
+          "arrow": 0,
+          "md": 0,
+          "urls": 1,
+          "arrow_per_file": 0.0,
+          "md_per_file": 0.0
+        },
+        {
+          "month": "2026-10",
+          "files": 22,
+          "arrow": 0,
+          "md": 9,
+          "urls": 15,
+          "arrow_per_file": 0.0,
+          "md_per_file": 0.4
+        },
+        {
+          "month": "2026-11",
+          "files": 2,
+          "arrow": 0,
+          "md": 0,
+          "urls": 0,
+          "arrow_per_file": 0.0,
+          "md_per_file": 0.0
+        }
+      ]
+    },
+    {
+      "corpus": "daily-investor-ideas",
+      "label": "AI 产品创意日报",
+      "files": 223,
+      "chars": {
+        "total": 2730988,
+        "mean": 12247,
+        "median": 11842,
+        "min": 4883,
+        "max": 23828
+      },
+      "lines": {
+        "total": 74238,
+        "mean": 332.9,
+        "median": 350,
+        "min": 166,
+        "max": 542
+      },
+      "adoption": {
+        "h1": {
+          "count": 223,
+          "pct": 100.0
+        },
+        "h2_count": {
+          "count": 223,
+          "pct": 100.0
+        },
+        "cn_numbered_sections": {
+          "count": 0,
+          "pct": 0.0
+        },
+        "cn_numbered_h3": {
+          "count": 0,
+          "pct": 0.0
+        },
+        "num_sections": {
+          "count": 0,
+          "pct": 0.0
+        },
+        "blockquote_lines": {
+          "count": 192,
+          "pct": 86.1
+        },
+        "hr": {
+          "count": 223,
+          "pct": 100.0
+        },
+        "table_rows": {
+          "count": 180,
+          "pct": 80.7
+        },
+        "code_fences": {
+          "count": 18,
+          "pct": 8.1
+        },
+        "bold_spans": {
+          "count": 223,
+          "pct": 100.0
+        },
+        "list_items": {
+          "count": 223,
+          "pct": 100.0
+        },
+        "arrow_links": {
+          "count": 0,
+          "pct": 0.0
+        },
+        "md_links": {
+          "count": 115,
+          "pct": 51.6
+        },
+        "has_reference_block": {
+          "count": 221,
+          "pct": 99.1
+        },
+        "has_disclaimer": {
+          "count": 204,
+          "pct": 91.5
+        },
+        "has_missing_marker": {
+          "count": 0,
+          "pct": 0.0
+        },
+        "has_generation_note": {
+          "count": 204,
+          "pct": 91.5
+        },
+        "has_editor_note": {
+          "count": 24,
+          "pct": 10.8
+        }
+      },
+      "structure": {
+        "h2_mean": 6.2,
+        "h3_mean": 10.6,
+        "list_items_mean": 146.4,
+        "bold_spans_mean": 112.9,
+        "urls_mean": 8.0,
+        "arrow_links_mean": 0,
+        "numeric_line_ratio_mean": 0.3219,
+        "cjk_ratio_mean": 0.4121
+      },
+      "top_h2": [
+        {
+          "section": "📊 今日核心洞察",
+          "files": 221,
+          "pct": 99.1
+        },
+        {
+          "section": "🎯 潜在需求分析",
+          "files": 219,
+          "pct": 98.2
+        },
+        {
+          "section": "🚀 新产品创意",
+          "files": 214,
+          "pct": 96.0
+        },
+        {
+          "section": "📈 优先级排序",
+          "files": 155,
+          "pct": 69.5
+        },
+        {
+          "section": "📝 明日预告",
+          "files": 152,
+          "pct": 68.2
+        },
+        {
+          "section": "🔍 验证计划（下周执行）",
+          "files": 149,
+          "pct": 66.8
+        },
+        {
+          "section": "📎 附录：数据来源链接",
+          "files": 105,
+          "pct": 47.1
+        },
+        {
+          "section": "📌 选题声明",
+          "files": 24,
+          "pct": 10.8
+        },
+        {
+          "section": "📌 今日总结",
+          "files": 8,
+          "pct": 3.6
+        },
+        {
+          "section": "📌 今日行动建议",
+          "files": 8,
+          "pct": 3.6
+        },
+        {
+          "section": "🧭 今日行动建议",
+          "files": 7,
+          "pct": 3.1
+        },
+        {
+          "section": "📈 技术趋势",
+          "files": 6,
+          "pct": 2.7
+        },
+        {
+          "section": "💡 新产品创意",
+          "files": 6,
+          "pct": 2.7
+        },
+        {
+          "section": "🔍 验证计划（本周执行）",
+          "files": 5,
+          "pct": 2.2
+        },
+        {
+          "section": "📝 今日一句话总结",
+          "files": 4,
+          "pct": 1.8
+        },
+        {
+          "section": "⚠️ 风险提示",
+          "files": 4,
+          "pct": 1.8
+        },
+        {
+          "section": "📝 今日总结",
+          "files": 4,
+          "pct": 1.8
+        },
+        {
+          "section": "🧭 今日一句话总结",
+          "files": 4,
+          "pct": 1.8
+        },
+        {
+          "section": "🧭 今日判断与行动建议",
+          "files": 4,
+          "pct": 1.8
+        },
+        {
+          "section": "📝 总结",
+          "files": 3,
+          "pct": 1.3
+        },
+        {
+          "section": "⚡ 快速灵感",
+          "files": 3,
+          "pct": 1.3
+        },
+        {
+          "section": "💰 商业化与落地建议",
+          "files": 3,
+          "pct": 1.3
+        },
+        {
+          "section": "🔭 明日观察清单",
+          "files": 3,
+          "pct": 1.3
+        },
+        {
+          "section": "📚 参考链接",
+          "files": 2,
+          "pct": 0.9
+        },
+        {
+          "section": "📌 今日一句话总结",
+          "files": 2,
+          "pct": 0.9
+        }
+      ],
+      "urls_total": 1776,
+      "arrow_links_total": 0,
+      "md_links_total": 1767,
+      "unique_domains": 194,
+      "top_domains": [
+        {
+          "domain": "github.com",
+          "count": 479
+        },
+        {
+          "domain": "huggingface.co",
+          "count": 357
+        },
+        {
+          "domain": "arxiv.org",
+          "count": 348
+        },
+        {
+          "domain": "news.ycombinator.com",
+          "count": 157
+        },
+        {
+          "domain": "technologyreview.com",
+          "count": 117
+        },
+        {
+          "domain": "reuters.com",
+          "count": 13
+        },
+        {
+          "domain": "openai.com",
+          "count": 13
+        },
+        {
+          "domain": "anthropic.com",
+          "count": 13
+        },
+        {
+          "domain": "techcrunch.com",
+          "count": 9
+        },
+        {
+          "domain": "ft.com",
+          "count": 8
+        },
+        {
+          "domain": "bloomberg.com",
+          "count": 7
+        },
+        {
+          "domain": "blog.pragmaticengineer.com",
+          "count": 7
+        },
+        {
+          "domain": "devflokers.com",
+          "count": 7
+        },
+        {
+          "domain": "cnbc.com",
+          "count": 5
+        },
+        {
+          "domain": "claude.com",
+          "count": 4
+        },
+        {
+          "domain": "nytimes.com",
+          "count": 4
+        },
+        {
+          "domain": "wired.com",
+          "count": 4
+        },
+        {
+          "domain": "blog.google",
+          "count": 4
+        },
+        {
+          "domain": "bbc.co.uk",
+          "count": 4
+        },
+        {
+          "domain": "nature.com",
+          "count": 4
+        },
+        {
+          "domain": "techstartups.com",
+          "count": 3
+        },
+        {
+          "domain": "blog.mean.ceo",
+          "count": 3
+        },
+        {
+          "domain": "fortune.com",
+          "count": 3
+        },
+        {
+          "domain": "theguardian.com",
+          "count": 3
+        },
+        {
+          "domain": "axios.com",
+          "count": 3
+        }
+      ],
+      "format_evolution_by_month": [
+        {
+          "month": "2026-02",
+          "files": 3,
+          "arrow": 0,
+          "md": 0,
+          "urls": 0,
+          "arrow_per_file": 0.0,
+          "md_per_file": 0.0
+        },
+        {
+          "month": "2026-03",
+          "files": 26,
+          "arrow": 0,
+          "md": 57,
+          "urls": 64,
+          "arrow_per_file": 0.0,
+          "md_per_file": 2.2
+        },
+        {
+          "month": "2026-04",
+          "files": 16,
+          "arrow": 0,
+          "md": 28,
+          "urls": 30,
+          "arrow_per_file": 0.0,
+          "md_per_file": 1.8
+        },
+        {
+          "month": "2026-05",
+          "files": 27,
+          "arrow": 0,
+          "md": 223,
+          "urls": 223,
+          "arrow_per_file": 0.0,
+          "md_per_file": 8.3
+        },
+        {
+          "month": "2026-06",
+          "files": 28,
+          "arrow": 0,
+          "md": 366,
+          "urls": 366,
+          "arrow_per_file": 0.0,
+          "md_per_file": 13.1
+        },
+        {
+          "month": "2026-07",
+          "files": 31,
+          "arrow": 0,
+          "md": 461,
+          "urls": 461,
+          "arrow_per_file": 0.0,
+          "md_per_file": 14.9
+        },
+        {
+          "month": "2026-08",
+          "files": 30,
+          "arrow": 0,
+          "md": 479,
+          "urls": 479,
+          "arrow_per_file": 0.0,
+          "md_per_file": 16.0
+        },
+        {
+          "month": "2026-09",
+          "files": 28,
+          "arrow": 0,
+          "md": 153,
+          "urls": 153,
+          "arrow_per_file": 0.0,
+          "md_per_file": 5.5
+        },
+        {
+          "month": "2026-10",
+          "files": 30,
+          "arrow": 0,
+          "md": 0,
+          "urls": 0,
+          "arrow_per_file": 0.0,
+          "md_per_file": 0.0
+        },
+        {
+          "month": "2026-11",
+          "files": 4,
+          "arrow": 0,
+          "md": 0,
+          "urls": 0,
+          "arrow_per_file": 0.0,
+          "md_per_file": 0.0
+        }
+      ]
+    },
+    {
+      "corpus": "blogpost",
+      "label": "深度技术文章",
+      "files": 333,
+      "chars": {
+        "total": 4486475,
+        "mean": 13473,
+        "median": 11286,
+        "min": 723,
+        "max": 57702
+      },
+      "lines": {
+        "total": 144670,
+        "mean": 434.4,
+        "median": 369,
+        "min": 29,
+        "max": 1421
+      },
+      "adoption": {
+        "h1": {
+          "count": 332,
+          "pct": 99.7
+        },
+        "h2_count": {
+          "count": 328,
+          "pct": 98.5
+        },
+        "cn_numbered_sections": {
+          "count": 265,
+          "pct": 79.6
+        },
+        "cn_numbered_h3": {
+          "count": 0,
+          "pct": 0.0
+        },
+        "num_sections": {
+          "count": 6,
+          "pct": 1.8
+        },
+        "blockquote_lines": {
+          "count": 291,
+          "pct": 87.4
+        },
+        "hr": {
+          "count": 323,
+          "pct": 97.0
+        },
+        "table_rows": {
+          "count": 298,
+          "pct": 89.5
+        },
+        "code_fences": {
+          "count": 254,
+          "pct": 76.3
+        },
+        "bold_spans": {
+          "count": 326,
+          "pct": 97.9
+        },
+        "list_items": {
+          "count": 325,
+          "pct": 97.6
+        },
+        "arrow_links": {
+          "count": 0,
+          "pct": 0.0
+        },
+        "md_links": {
+          "count": 163,
+          "pct": 48.9
+        },
+        "has_reference_block": {
+          "count": 130,
+          "pct": 39.0
+        },
+        "has_disclaimer": {
+          "count": 57,
+          "pct": 17.1
+        },
+        "has_missing_marker": {
+          "count": 0,
+          "pct": 0.0
+        },
+        "has_generation_note": {
+          "count": 64,
+          "pct": 19.2
+        },
+        "has_editor_note": {
+          "count": 19,
+          "pct": 5.7
+        }
+      },
+      "structure": {
+        "h2_mean": 8.6,
+        "h3_mean": 14.0,
+        "list_items_mean": 42.1,
+        "bold_spans_mean": 56.1,
+        "urls_mean": 5.2,
+        "arrow_links_mean": 0,
+        "numeric_line_ratio_mean": 0.2075,
+        "cjk_ratio_mean": 0.3371
+      },
+      "top_h2": [
+        {
+          "section": "总结与展望",
+          "files": 71,
+          "pct": 21.3
+        },
+        {
+          "section": "参考资料",
+          "files": 52,
+          "pct": 15.6
+        },
+        {
+          "section": "参考文献",
+          "files": 31,
+          "pct": 9.3
+        },
+        {
+          "section": "结论",
+          "files": 23,
+          "pct": 6.9
+        },
+        {
+          "section": "结语",
+          "files": 21,
+          "pct": 6.3
+        },
+        {
+          "section": "总结",
+          "files": 16,
+          "pct": 4.8
+        },
+        {
+          "section": "参考链接",
+          "files": 15,
+          "pct": 4.5
+        },
+        {
+          "section": "核心问题定义",
+          "files": 10,
+          "pct": 3.0
+        },
+        {
+          "section": "关键数据一览",
+          "files": 10,
+          "pct": 3.0
+        },
+        {
+          "section": "参考来源",
+          "files": 9,
+          "pct": 2.7
+        },
+        {
+          "section": "参考资源",
+          "files": 7,
+          "pct": 2.1
+        },
+        {
+          "section": "参考",
+          "files": 7,
+          "pct": 2.1
+        },
+        {
+          "section": "引言",
+          "files": 5,
+          "pct": 1.5
+        },
+        {
+          "section": "实际案例与数据验证",
+          "files": 5,
+          "pct": 1.5
+        },
+        {
+          "section": "附录：参考资源",
+          "files": 4,
+          "pct": 1.2
+        },
+        {
+          "section": "对开发者的启示",
+          "files": 4,
+          "pct": 1.2
+        },
+        {
+          "section": "局限性与开放问题",
+          "files": 4,
+          "pct": 1.2
+        },
+        {
+          "section": "核心问题",
+          "files": 3,
+          "pct": 0.9
+        },
+        {
+          "section": "背景分析",
+          "files": 3,
+          "pct": 0.9
+        },
+        {
+          "section": "摘要",
+          "files": 3,
+          "pct": 0.9
+        },
+        {
+          "section": "核心观点",
+          "files": 3,
+          "pct": 0.9
+        },
+        {
+          "section": "🔗 相关资源",
+          "files": 3,
+          "pct": 0.9
+        },
+        {
+          "section": "背景",
+          "files": 2,
+          "pct": 0.6
+        },
+        {
+          "section": "最佳实践总结",
+          "files": 2,
+          "pct": 0.6
+        },
+        {
+          "section": "实际案例：SeekDB Agent 记忆系统实现",
+          "files": 2,
+          "pct": 0.6
+        }
+      ],
+      "urls_total": 1716,
+      "arrow_links_total": 0,
+      "md_links_total": 1156,
+      "unique_domains": 393,
+      "top_domains": [
+        {
+          "domain": "github.com",
+          "count": 566
+        },
+        {
+          "domain": "huggingface.co",
+          "count": 177
+        },
+        {
+          "domain": "arxiv.org",
+          "count": 79
+        },
+        {
+          "domain": "news.ycombinator.com",
+          "count": 40
+        },
+        {
+          "domain": "x.com",
+          "count": 33
+        },
+        {
+          "domain": "example.com",
+          "count": 28
+        },
+        {
+          "domain": "anthropic.com",
+          "count": 21
+        },
+        {
+          "domain": "technologyreview.com",
+          "count": 20
+        },
+        {
+          "domain": "youtube.com",
+          "count": 18
+        },
+        {
+          "domain": "openai.com",
+          "count": 18
+        },
+        {
+          "domain": "modelcontextprotocol.io",
+          "count": 15
+        },
+        {
+          "domain": "mdn.alipayobjects.com",
+          "count": 15
+        },
+        {
+          "domain": "moltbook.com",
+          "count": 13
+        },
+        {
+          "domain": "mongodb.com",
+          "count": 11
+        },
+        {
+          "domain": "w3.org",
+          "count": 10
+        },
+        {
+          "domain": "playwright.dev",
+          "count": 10
+        },
+        {
+          "domain": "lucumr.pocoo.org",
+          "count": 8
+        },
+        {
+          "domain": "duckdb.org",
+          "count": 8
+        },
+        {
+          "domain": "simonwillison.net",
+          "count": 7
+        },
+        {
+          "domain": "code.claude.com",
+          "count": 7
+        },
+        {
+          "domain": "medium.com",
+          "count": 7
+        },
+        {
+          "domain": "youtu.be",
+          "count": 7
+        },
+        {
+          "domain": "python.langchain.com",
+          "count": 6
+        },
+        {
+          "domain": "cobusgreyling.substack.com",
+          "count": 6
+        },
+        {
+          "domain": "hindsight.vectorize.io",
+          "count": 6
+        }
+      ],
+      "format_evolution_by_month": [
+        {
+          "month": "2026-02",
+          "files": 17,
+          "arrow": 0,
+          "md": 62,
+          "urls": 89,
+          "arrow_per_file": 0.0,
+          "md_per_file": 3.6
+        },
+        {
+          "month": "2026-03",
+          "files": 45,
+          "arrow": 0,
+          "md": 112,
+          "urls": 222,
+          "arrow_per_file": 0.0,
+          "md_per_file": 2.5
+        },
+        {
+          "month": "2026-04",
+          "files": 32,
+          "arrow": 0,
+          "md": 38,
+          "urls": 99,
+          "arrow_per_file": 0.0,
+          "md_per_file": 1.2
+        },
+        {
+          "month": "2026-05",
+          "files": 29,
+          "arrow": 0,
+          "md": 133,
+          "urls": 165,
+          "arrow_per_file": 0.0,
+          "md_per_file": 4.6
+        },
+        {
+          "month": "2026-06",
+          "files": 27,
+          "arrow": 0,
+          "md": 125,
+          "urls": 160,
+          "arrow_per_file": 0.0,
+          "md_per_file": 4.6
+        },
+        {
+          "month": "2026-07",
+          "files": 34,
+          "arrow": 0,
+          "md": 168,
+          "urls": 197,
+          "arrow_per_file": 0.0,
+          "md_per_file": 4.9
+        },
+        {
+          "month": "2026-08",
+          "files": 31,
+          "arrow": 0,
+          "md": 106,
+          "urls": 128,
+          "arrow_per_file": 0.0,
+          "md_per_file": 3.4
+        },
+        {
+          "month": "2026-09",
+          "files": 37,
+          "arrow": 0,
+          "md": 220,
+          "urls": 281,
+          "arrow_per_file": 0.0,
+          "md_per_file": 5.9
+        },
+        {
+          "month": "2026-10",
+          "files": 40,
+          "arrow": 0,
+          "md": 93,
+          "urls": 191,
+          "arrow_per_file": 0.0,
+          "md_per_file": 2.3
+        },
+        {
+          "month": "2026-11",
+          "files": 6,
+          "arrow": 0,
+          "md": 5,
+          "urls": 15,
+          "arrow_per_file": 0.0,
+          "md_per_file": 0.8
+        }
+      ]
+    }
+  ]
+}

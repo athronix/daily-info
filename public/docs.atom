@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:feed xmlns:ns0="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
+  <ns0:id>tag:daily-info.local,2026:docs</ns0:id>
+  <ns0:title>每日信息 · 文档变更雷达</ns0:title>
+  <ns0:subtitle>挖掘 · 聚合 · 研判 · 订阅；每条附原文链接；内容仅供参考，不构成投资建议</ns0:subtitle>
+  <ns0:link rel="self" type="application/atom+xml" href="https://daily-info.local/docs.atom" />
+  <ns0:link rel="alternate" type="text/html" href="https://daily-info.local/index.html" />
+  <ns0:updated>2026-11-05T11:52:53.812318Z</ns0:updated>
+  <ns0:author>
+    <ns0:name>Personal Daily Info</ns0:name>
+  </ns0:author>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-05:0aa88563920e1cf5</ns0:id>
+    <ns0:title>[文档与变更] Sony reports Q2 revenue of ~$21.7B, operating profit of $3.94B, both above est., and 2.6M PS5 sales, as GTA VI sparks a US sales jump, especially of the PS5 Pro (Takashi Mochizuki/Bloomberg)</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.techmeme.com/261105/p9" />
+    <ns0:published>2026-11-05T10:30:29Z</ns0:published>
+    <ns0:updated>2026-11-05T11:52:53.812318Z</ns0:updated>
+    <ns0:category term="docs-changelog" label="文档与变更" />
+    <ns0:summary type="text">Takashi Mochizuki / Bloomberg: Sony reports Q2 revenue of ~$21.7B, operating profit of $3.94B, both above est., and 2.6M PS5 sales, as GTA VI sparks a US sales jump, especially of the PS5 Pro — Sony Group Corp. raised its profit outlook after a string of entertainment hits propelled better-than-expe</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;索尼 Q2 营收约 217 亿美元、营业利润 39.4 亿美元，PS5 销量 260 万台，均高于预期&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：21.7 / 3.94 / 2.6 · 相关方：Sony / PS5 / GTA VI&lt;/p&gt;&lt;p&gt;Takashi Mochizuki / Bloomberg: Sony reports Q2 revenue of ~$21.7B, operating profit of $3.94B, both above est., and 2.6M PS5 sales, as GTA VI sparks a US sales jump, especially of the PS5 Pro — Sony Group Corp. raised its profit outlook after a string of entertainment hits propelled better-than-expe&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;同一天里硬件厂商给出量、价、利三个方向的读数，适合作为财报类信源的结构基线。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;提醒变更板块不该只收版本号：带数字的业绩公告同样是可核验的变更记录。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;按 3 个口径核对转载与原始公告，若有 1 处不一致则在日报里标注二次转述。&lt;/p&gt;&lt;p&gt;来源：Techmeme · 发布于 2026-11-05T10:30 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.techmeme.com/261105/p9" rel="noopener noreferrer"&gt;https://www.techmeme.com/261105/p9&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+</ns0:feed>

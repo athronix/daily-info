@@ -1,0 +1,268 @@
+{
+  "file": "tech_and_finance_feeds.opml",
+  "parsed": 60,
+  "passed": 38,
+  "added": [
+    "DeepMind Blog",
+    "Hacker News"
+  ],
+  "replaced_gnews": [],
+  "skipped": [
+    [
+      "OpenAI Blog",
+      "URL 已登记"
+    ],
+    [
+      "Hugging Face Blog",
+      "URL 已登记"
+    ],
+    [
+      "Google AI Blog",
+      "URL 已登记"
+    ],
+    [
+      "MIT Tech Review AI",
+      "URL 已登记"
+    ],
+    [
+      "Ars Technica AI",
+      "URL 已登记"
+    ],
+    [
+      "TechCrunch AI",
+      "URL 已登记"
+    ],
+    [
+      "The Verge AI",
+      "URL 已登记"
+    ],
+    [
+      "AWS Machine Learning Blog",
+      "URL 已登记"
+    ],
+    [
+      "Product Hunt Daily",
+      "URL 已登记"
+    ],
+    [
+      "Engadget",
+      "URL 已登记"
+    ],
+    [
+      "Yanko Design",
+      "URL 已登记"
+    ],
+    [
+      "SlashGear",
+      "URL 已登记"
+    ],
+    [
+      "Geeky Gadgets",
+      "URL 已登记"
+    ],
+    [
+      "少数派 (sspai)",
+      "URL 已登记"
+    ],
+    [
+      "TechCrunch Startups",
+      "URL 已登记"
+    ],
+    [
+      "Pandaily",
+      "URL 已登记"
+    ],
+    [
+      "Reddit r/opensource",
+      "URL 已登记"
+    ],
+    [
+      "Dev.to (Open Source)",
+      "同域已有启用源 ['devto']"
+    ],
+    [
+      "GitHub Engineering",
+      "同域已有启用源 ['github-blog', 'github-changelog']"
+    ],
+    [
+      "Linux Foundation",
+      "URL 已登记"
+    ],
+    [
+      "开源中国 (OSCHINA)",
+      "URL 已登记"
+    ],
+    [
+      "InfoQ China",
+      "URL 已登记"
+    ],
+    [
+      "The Go Blog",
+      "URL 已登记"
+    ],
+    [
+      "Rust Blog",
+      "URL 已登记"
+    ],
+    [
+      "Wired",
+      "同域已有启用源 ['wired-ai']"
+    ],
+    [
+      "Ars Technica Science",
+      "URL 已登记"
+    ],
+    [
+      "Space.com",
+      "URL 已登记"
+    ],
+    [
+      "Semiconductor Eng.",
+      "URL 已登记"
+    ],
+    [
+      "MIT Tech Review Tech",
+      "同域已有启用源 ['mit-tr-ai', 'mit-tr-all']"
+    ],
+    [
+      "Nature News",
+      "URL 已登记"
+    ],
+    [
+      "Phys.org",
+      "URL 已登记"
+    ],
+    [
+      "arXiv cs.AI",
+      "同域已有启用源 ['arxiv-cs-lg', 'arxiv-cs-cv']"
+    ],
+    [
+      "Quanta Magazine",
+      "URL 已登记"
+    ],
+    [
+      "SciTechDaily",
+      "URL 已登记"
+    ],
+    [
+      "New Scientist",
+      "同域已有启用源 ['newscientist']"
+    ],
+    [
+      "Cell Press",
+      "URL 已登记"
+    ]
+  ],
+  "refused": [
+    {
+      "name": "Ahead of AI",
+      "status": 20,
+      "reason": "ParseError: unclosed CDATA section: line 192, column 157966"
+    },
+    {
+      "name": "Gizmodo",
+      "status": 403,
+      "reason": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "Uncrate",
+      "status": 404,
+      "reason": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "name": "Cool Hunting",
+      "status": 403,
+      "reason": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "TrendHunter Tech",
+      "status": 403,
+      "reason": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "WSJ Venture Capital",
+      "status": 403,
+      "reason": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "36氪 (36Kr)",
+      "status": 4,
+      "reason": "ParseError: not well-formed (invalid token): line 10, column 168"
+    },
+    {
+      "name": "IT桔子 (RSSHub)",
+      "status": 403,
+      "reason": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "投资界 (Pedaily)",
+      "status": 404,
+      "reason": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "name": "智通财经 (港股资讯)",
+      "status": 403,
+      "reason": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "PitchBook News",
+      "status": 403,
+      "reason": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "VentureBeat Fin",
+      "status": 429,
+      "reason": "HTTPError: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "name": "KrASIA",
+      "status": 404,
+      "reason": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "name": "GitHub Trending (Atom)",
+      "status": 406,
+      "reason": "HTTPError: HTTP Error 406: Not Acceptable"
+    },
+    {
+      "name": "IEEE Spectrum",
+      "status": 404,
+      "reason": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "name": "TechNode",
+      "status": 403,
+      "reason": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "IoT World Today",
+      "status": 4,
+      "reason": "ParseError: not well-formed (invalid token): line 183, column 89"
+    },
+    {
+      "name": "Green Car Reports",
+      "status": 403,
+      "reason": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "BioSpace News",
+      "status": 404,
+      "reason": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "name": "Science Magazine News",
+      "status": 403,
+      "reason": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "EurekAlert! News",
+      "status": 403,
+      "reason": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "科学网要闻",
+      "status": 404,
+      "reason": "HTTPError: HTTP Error 404: Not Found"
+    }
+  ]
+}

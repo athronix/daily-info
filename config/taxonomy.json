@@ -1,0 +1,82 @@
+{
+  "version": "1.0.0",
+  "principle": "三段式分类：category_hint(信源先验) → rule_hit(关键词/实体规则) → ai_adjudicate(仅对冲突或低置信条目调用模型)。分类结果必须可解释，记录 matched_rules。",
+  "groups": [
+    {"key":"tech","label":"技术与工程","categories":["ai-models","agent-engineering","dev-tools","research-papers","docs-changelog"]},
+    {"key":"business","label":"商业与市场","categories":["industry-capital","market-invest"]},
+    {"key":"observe","label":"观察与研判","categories":["community","deep-read","security-governance"]}
+  ],
+  "categories": [
+    {"key":"ai-models","label":"模型与研究","quota_per_day":8,"weight":1.0,
+     "keywords_zh":["大模型","模型发布","开源权重","推理","微调","多模态","token","参数量","基准测试","蒸馏","量化"],
+     "keywords_en":["LLM","foundation model","open weights","inference","fine-tune","multimodal","benchmark","MoE","distillation","quantization","reasoning model"]},
+    {"key":"agent-engineering","label":"Agent 与工程","quota_per_day":8,"weight":1.2,
+     "keywords_zh":["智能体","上下文工程","记忆系统","多智能体","工具调用","编排","可观测","评测","工作流"],
+     "keywords_en":["agent","MCP","context engineering","memory","multi-agent","tool use","orchestration","observability","eval","harness","skill","workflow"]},
+    {"key":"dev-tools","label":"开发者工具与版本","quota_per_day":6,"weight":0.9,
+     "keywords_zh":["版本发布","更新日志","开源项目","框架","CLI","SDK","依赖","构建工具"],
+     "keywords_en":["release","changelog","v1.","framework","CLI","SDK","library","repo","trending","package","breaking change"]},
+    {"key":"research-papers","label":"论文与学术","quota_per_day":5,"weight":0.9,
+     "keywords_zh":["论文","预印本","研究","实验","方法","综述"],
+     "keywords_en":["arXiv","paper","preprint","study","we propose","ablation","SOTA","cs.AI","cs.CL"]},
+    {"key":"docs-changelog","label":"文档与变更","quota_per_day":5,"weight":1.1,
+     "keywords_zh":["文档更新","变更","迁移指南","弃用","规范","接口变更"],
+     "keywords_en":["docs","changelog","release notes","migration","deprecated","RFC","spec","API change","breaking"]},
+    {"key":"industry-capital","label":"产业与资本","quota_per_day":6,"weight":0.9,
+     "keywords_zh":["融资","并购","估值","营收","上市","裁员","合作","监管","市场"],
+     "keywords_en":["funding","raises","valuation","acquisition","IPO","revenue","layoff","partnership","regulation","antitrust"]},
+    {"key":"market-invest","label":"市场与投资","quota_per_day":6,"weight":0.9,
+     "keywords_zh":["美股","收盘","指数","利率","财报","收益率","板块","仓位","风险"],
+     "keywords_en":["S&P","Nasdaq","Fed","yield","earnings","RSI","sector","equity","Treasury","VIX","close"]},
+    {"key":"security-governance","label":"安全与治理","quota_per_day":5,"weight":1.1,
+     "keywords_zh":["漏洞","投毒","越权","泄露","供应链","审计","权限","隐私","合规"],
+     "keywords_en":["vulnerability","prompt injection","supply chain","exfiltration","CVE","permission","audit","privacy","governance","backdoor"]},
+    {"key":"community","label":"社区与观点","quota_per_day":5,"weight":0.8,
+     "keywords_zh":["讨论","观点","吐槽","教程","实践","问答"],
+     "keywords_en":["Show HN","Ask HN","discussion","opinion","tutorial","AMA","HN","comments"]},
+    {"key":"deep-read","label":"深度长文","quota_per_day":3,"weight":1.2,
+     "keywords_zh":["深度","长文","拆解","复盘","访谈","译文","分析"],
+     "keywords_en":["deep dive","long read","analysis","interview","translation","essay","retrospective"]}
+  ],
+  "fallback_category": "community",
+  "tags": {
+    "user_focus": {"label":"个人重点关注","weight_bonus":0.15,"keywords":["WorkBuddy","CodeBuddy","Hermes","kmaster","MCP","A2A","skill","automation","定时任务","agent 部署","WinVM"]},
+    "signal_type": {"enum":["release","funding","incident","research","opinion","tutorial","market-data","product"]},
+    "region": {"enum":["cn","global"]}
+  },
+  "entity_aliases": {
+    "Anthropic": ["anthropic","claude"],
+    "OpenAI": ["openai","gpt-","chatgpt","codex"],
+    "Google": ["google deepmind","gemini","deepmind"],
+    "Meta": ["meta ai","llama"],
+    "Hugging Face": ["huggingface","hugging face"],
+    "GitHub": ["github","gh-"],
+    "NVIDIA": ["nvidia","geforce","cuda"],
+    "WorkBuddy": ["workbuddy","codebuddy"]
+  },
+  "clustering": {
+    "method": "hybrid",
+    "stages": [
+      {"name":"exact","rule":"canonical_url 相同或 guid 相同 → 同簇"},
+      {"name":"entity","rule":"标题实体集合 Jaccard >= 0.5 且发布时间差 < 48h → 同簇"},
+      {"name":"lexical","rule":"中文字符 bigram / 英文 token 的 TF-IDF 余弦 >= 0.62 → 同簇"},
+      {"name":"ai_adjudicate","rule":"仅对 0.45 <= similarity < 0.62 的边界对调用模型判定同事件"}
+    ],
+    "similarity_threshold": 0.62,
+    "ai_boundary_low": 0.45,
+    "max_cluster_size": 8,
+    "time_window_hours": 30,
+    "cluster_title_source": "AI 生成，长度 <= 24 字，必须可由簇内至少 2 条标题佐证"
+  },
+  "quality_rules": {
+    "require_source_url": true,
+    "require_published_at": true,
+    "max_summary_chars": 300,
+    "max_why_matters_chars": 120,
+    "forbid_ai_invented_url": true,
+    "forbid_ai_invented_number": true,
+    "missing_data_marker": "暂无可靠数据",
+    "link_check_sample_ratio": 0.1,
+    "min_sources_ok_ratio": 0.7
+  }
+}

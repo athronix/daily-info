@@ -1,0 +1,11 @@
+# 本项目多处依赖「字节比较幂等」（V5 二次构建、Atom 幂等写入、manifest sha256）。
+# 统一在仓库内保存 LF，禁止 Git 在 checkout 时改写成 CRLF，否则同一次构建的
+# 产物会被判定为 changed，破坏确定性重建契约。
+* text=auto eol=lf
+
+# 二进制资产不做任何转换
+*.jpg binary
+*.png binary
+*.gif binary
+*.ico binary
+*.pdf binary

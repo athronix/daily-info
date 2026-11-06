@@ -1,0 +1,129 @@
+{
+  "version": "1.1.0",
+  "changelog": "1.1.0 (2026-11-05)：数字白名单收紧——published_at 等元数据不计入原文，无实质读数条目拒绝入报；修复日期年份冒充可核验数字的虚高统计",
+  "based_on": "docs/12-内容规范与逆向研究.md（daily-rss / daily-investor / blogpost 语料实测）",
+  "goal": "实在、具体、有效、丰富；宁可少一条，也不发一条空话",
+  "item_seven_elements": {
+    "fact_anchor": {
+      "label": "事实锚点",
+      "required": true,
+      "max_chars": 120,
+      "rule": "一句话说清『谁 + 做了什么』，必须是对原文标题/摘要的压缩，不得引入新主体或新事件；不得含 URL"
+    },
+    "numbers": {
+      "label": "可核验数字",
+      "required": true,
+      "min_count": 1,
+      "max_count": 5,
+      "rule": "每条至少 1 个数字/版本/百分比；每个值必须能在该条目原文 title + summary_raw + metrics 值中逐字找到。published_at / fetched_at 等采集元数据不计入原文（禁止用发布时间里的年份冒充新闻读数）；找不到即丢弃并记 warning，全文无实质数字的条目直接拒绝入报，不放宽阈值、不造数字"
+    },
+    "entities": {
+      "label": "关键实体",
+      "required": true,
+      "min_count": 1,
+      "max_count": 6,
+      "rule": "机构/项目/产品/规范名，必须出现在原文 title + summary_raw + metrics 值中；published_at 等采集元数据不计入原文"
+    },
+    "evidence_urls": {
+      "label": "原文佐证",
+      "required": true,
+      "min_count": 1,
+      "max_count": 5,
+      "rule": "必须来自同簇成员的 canonical_url；跨源多条佐证加分；AI 自带的新 URL 一律忽略"
+    },
+    "why_matters": {
+      "label": "为什么值得看",
+      "required": true,
+      "max_chars": 120,
+      "rule": "基于原文的判断，不得复述标题；不得含『持续关注』『值得留意』等空话"
+    },
+    "impact": {
+      "label": "对我意味着什么",
+      "required": true,
+      "max_chars": 160,
+      "rule": "必须锚定 user_focus（WorkBuddy / MCP / A2A / skill / automation / agent 部署 / WinVM / 数据基建）之一，说明对当前工作的具体影响；无直接影响时写『暂无直接影响』并说明原因"
+    },
+    "next_action": {
+      "label": "下一步可验证动作",
+      "required": true,
+      "max_chars": 160,
+      "rule": "必须含判定阈值或可证伪条件（如『若 X 超过 N』『复现 Y 后判定』『对照 Z 字段』）；禁止『持续关注/后续跟进/保持观察』"
+    }
+  },
+  "optional_item_fields": {
+    "signal_type": {"enum": ["release", "funding", "incident", "research", "opinion", "tutorial", "market-data", "product", "docs-change"]},
+    "confidence": {"enum": ["fact", "multi-source", "inference", "unverified"], "default": "fact",
+                   "rule": "推断必须显式标 inference；无独立证据标 unverified"},
+    "region": {"enum": ["cn", "global"]}
+  },
+  "headline": {"max_chars": 80, "must_be_judgement": true, "min_supporting_clusters": 2},
+  "lead": {
+    "label": "数据化导语",
+    "required": true,
+    "max_chars": 220,
+    "must_contain_number": true,
+    "rule": "借鉴 blogpost：开篇给可核验数字与今日张力；数字必须来自当天任一入选条目的原文"
+  },
+  "themes": {
+    "min": 6, "max": 8,
+    "min_evidence_clusters": 2,
+    "title_max_chars": 24,
+    "must_be_judgement": true,
+    "rule": "主题名是判断句/张力句，不是名词标签（借鉴 daily-rss 2026-11-04 的七个主题）"
+  },
+  "sections": {
+    "max": 12,
+    "items_per_section": {"min": 1, "max": 12},
+    "omit_empty": true,
+    "daily_total_items": {"min": 20, "target": 40, "max": 60}
+  },
+  "editor_note": {"min_chars": 400, "max_chars": 600, "must_anchor_user_focus": true},
+  "watch_signals": {
+    "label": "待验证信号清单",
+    "required": true,
+    "min": 3,
+    "max": 8,
+    "rule": "借鉴 daily-investor『最值得关注的 5 个信号』：每条含『若 X 达到 N 则判定 Y』的可证伪阈值"
+  },
+  "data_overview": {
+    "label": "今日数据概览",
+    "required": true,
+    "fields": ["sources_ok", "sources_total", "total_items", "clusters", "selected", "published_items", "failed_sources"],
+    "rule": "把 pipeline 健康度写进产物（借鉴 daily-rss『今日数据概览』）"
+  },
+  "display": {
+    "link_style": "arrow_line",
+    "link_style_note": "链接独立成行 → https://…，不与标题混排（daily-rss 2026-11 改版实证）",
+    "bold_judgement": true,
+    "reference_summary": true,
+    "generation_note": true,
+    "disclaimer": "内容仅供参考，不构成投资建议；外部事实未独立验证；取不到可靠数据处标注「暂无可靠数据」"
+  },
+  "quality_rules": {
+    "missing_data_marker": "暂无可靠数据",
+    "no_estimation": true,
+    "inference_must_be_labeled": true,
+    "no_ai_invented_url": true,
+    "no_ai_invented_number": true,
+    "no_ai_invented_entity": true,
+    "forbid_vague_next_action": ["持续关注", "后续跟进", "保持观察", "值得留意", "继续跟踪"],
+    "credential_scan": true
+  },
+  "verification": {
+    "check_id": "V8",
+    "min_seven_element_pass_ratio": 0.8,
+    "min_items_with_numbers_ratio": 0.7,
+    "require_lead_number": true,
+    "require_watch_signals": true,
+    "number_whitelist_scope": "title+summary_raw+metrics",
+    "number_whitelist_excludes": ["published_at", "fetched_at"],
+    "number_whitelist_effective_from": "2026-11-05",
+    "fail_action": "核验不通过则禁止分发；仍保留产物供排查"
+  },
+  "richness_baseline_from_corpus": {
+    "daily_rss": {"numeric_line_ratio": 0.412, "h2_mean": 9.2, "bold_mean": 66.2, "unique_domains": 1159},
+    "daily_investor_observations": {"numeric_line_ratio": 0.487, "h2_mean": 13.5, "missing_marker_files_pct": 53.3},
+    "blogpost": {"cn_numbered_sections_pct": 79.6, "table_pct": 89.5, "code_fence_pct": 76.3},
+    "note": "基准来自 scripts/analyze_corpus.py 实测，用于对比本项目内容丰富度，不作为硬性达标线"
+  }
+}

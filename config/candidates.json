@@ -1,0 +1,1302 @@
+{
+  "version": "1.0.0",
+  "note": "候选信源池：来自用户 60 站清单 + 2026-11-05 网络检索的高质量源汇总（Feeder / Feedspot / Inoreader / AI Edge Briefing / Letta ai-news skill）。体检通过后由 probe_candidates.py 输出报告，人工把可用项搬入 sources.json。禁止把未体检的 URL 直接启用。",
+  "candidates": [
+    {
+      "id": "google-research-blog",
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "kind": "rss",
+      "cat": "research-papers",
+      "lang": "en",
+      "from": "用户清单"
+    },
+    {
+      "id": "mistral-news",
+      "name": "Mistral AI News",
+      "url": "https://mistral.ai/news/rss",
+      "kind": "rss",
+      "cat": "ai-models",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "nvidia-blog",
+      "name": "NVIDIA Blog",
+      "url": "https://blogs.nvidia.com/feed/",
+      "kind": "rss",
+      "cat": "ai-models",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "aws-ml-blog",
+      "name": "AWS ML Blog",
+      "url": "https://aws.amazon.com/blogs/machine-learning/feed/",
+      "kind": "rss",
+      "cat": "agent-engineering",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "mit-news-ai",
+      "name": "MIT News AI",
+      "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
+      "kind": "rss",
+      "cat": "research-papers",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "anthropic-news-community",
+      "name": "Anthropic News (社区维护 feed)",
+      "url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
+      "kind": "rss",
+      "cat": "ai-models",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "import-ai",
+      "name": "Import AI (Jack Clark)",
+      "url": "https://www.import.ai/feed",
+      "kind": "rss",
+      "cat": "deep-read",
+      "lang": "en",
+      "from": "用户清单"
+    },
+    {
+      "id": "allenai-blog",
+      "name": "Allen AI Blog",
+      "url": "https://allenai.org/blog/rss.xml",
+      "kind": "rss",
+      "cat": "research-papers",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "cohere-blog",
+      "name": "Cohere Blog",
+      "url": "https://cohere.com/blog/rss.xml",
+      "kind": "rss",
+      "cat": "ai-models",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "bair-blog",
+      "name": "BAIR Blog",
+      "url": "https://bair.berkeley.edu/blog/feed.xml",
+      "kind": "rss",
+      "cat": "research-papers",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "lilianweng",
+      "name": "Lil'Log (Lilian Weng)",
+      "url": "https://lilianweng.github.io/index.xml",
+      "kind": "rss",
+      "cat": "deep-read",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "the-decoder",
+      "name": "The Decoder",
+      "url": "https://the-decoder.com/feed/",
+      "kind": "rss",
+      "cat": "ai-models",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "kdnuggets",
+      "name": "KDnuggets",
+      "url": "https://www.kdnuggets.com/feed",
+      "kind": "rss",
+      "cat": "agent-engineering",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "the-gradient",
+      "name": "The Gradient",
+      "url": "https://thegradient.pub/rss.xml",
+      "kind": "rss",
+      "cat": "deep-read",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "deepseek-news",
+      "name": "DeepSeek News",
+      "url": "https://api-docs.deepseek.com/news/rss.xml",
+      "kind": "rss",
+      "cat": "ai-models",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "qwen-blog",
+      "name": "Qwen Blog",
+      "url": "https://qwenlm.github.io/blog/feed.xml",
+      "kind": "rss",
+      "cat": "ai-models",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "xai-news",
+      "name": "xAI News",
+      "url": "https://x.ai/news/rss.xml",
+      "kind": "rss",
+      "cat": "ai-models",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "hf-spaces-new",
+      "name": "HF Spaces 新建",
+      "url": "https://huggingface.co/api/spaces?sort=createdAt&direction=-1&limit=30",
+      "kind": "json_api",
+      "cat": "dev-tools",
+      "lang": "en",
+      "from": "用户清单"
+    },
+    {
+      "id": "arxiv-cs-lg",
+      "name": "arXiv cs.LG",
+      "url": "https://rss.arxiv.org/rss/cs.LG",
+      "kind": "rss",
+      "cat": "research-papers",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "arxiv-cs-cv",
+      "name": "arXiv cs.CV",
+      "url": "https://rss.arxiv.org/rss/cs.CV",
+      "kind": "rss",
+      "cat": "research-papers",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "sifted",
+      "name": "Sifted (欧洲创投)",
+      "url": "https://sifted.eu/feed",
+      "kind": "rss",
+      "cat": "industry-capital",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "eu-startups",
+      "name": "EU-Startups",
+      "url": "https://www.eu-startups.com/feed/",
+      "kind": "rss",
+      "cat": "industry-capital",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "yc-blog",
+      "name": "Y Combinator Blog",
+      "url": "https://www.ycombinator.com/blog/rss/",
+      "kind": "rss",
+      "cat": "industry-capital",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "first-round-review",
+      "name": "First Round Review",
+      "url": "https://review.firstround.com/feed.xml",
+      "kind": "rss",
+      "cat": "deep-read",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "tech-eu",
+      "name": "Tech.eu",
+      "url": "https://tech.eu/feed",
+      "kind": "rss",
+      "cat": "industry-capital",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "inc42",
+      "name": "Inc42",
+      "url": "https://inc42.com/feed/",
+      "kind": "rss",
+      "cat": "industry-capital",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "tech-in-asia",
+      "name": "Tech in Asia",
+      "url": "https://www.techinasia.com/feed",
+      "kind": "rss",
+      "cat": "industry-capital",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "fastcompany",
+      "name": "Fast Company",
+      "url": "https://www.fastcompany.com/latest/rss",
+      "kind": "rss",
+      "cat": "industry-capital",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "pedaily",
+      "name": "投资界 Pedaily",
+      "url": "https://www.pedaily.cn/rss/",
+      "kind": "rss",
+      "cat": "industry-capital",
+      "lang": "zh",
+      "from": "用户清单"
+    },
+    {
+      "id": "36kr-newsflash",
+      "name": "36氪快讯",
+      "url": "https://36kr.com/feed-newsflash",
+      "kind": "rss",
+      "cat": "industry-capital",
+      "lang": "zh",
+      "from": "用户清单"
+    },
+    {
+      "id": "tmtpost",
+      "name": "钛媒体",
+      "url": "https://www.tmtpost.com/rss",
+      "kind": "rss",
+      "cat": "industry-capital",
+      "lang": "zh",
+      "from": "用户清单"
+    },
+    {
+      "id": "aastocks",
+      "name": "AASTOCKS 港股",
+      "url": "https://www.aastocks.com/en/stocks/news/rss",
+      "kind": "rss",
+      "cat": "market-invest",
+      "lang": "zh",
+      "from": "用户清单"
+    },
+    {
+      "id": "zhitongcaijing",
+      "name": "智通财经",
+      "url": "https://www.zhitongcaijing.com/rss",
+      "kind": "rss",
+      "cat": "market-invest",
+      "lang": "zh",
+      "from": "用户清单"
+    },
+    {
+      "id": "fortune-term-sheet",
+      "name": "Fortune Term Sheet",
+      "url": "https://fortune.com/section/term-sheet/feed/",
+      "kind": "rss",
+      "cat": "industry-capital",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "techcrunch-startups",
+      "name": "TechCrunch Startups",
+      "url": "https://techcrunch.com/category/startups/feed/",
+      "kind": "rss",
+      "cat": "industry-capital",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "gizmodo",
+      "name": "Gizmodo",
+      "url": "https://gizmodo.com/feed",
+      "kind": "rss",
+      "cat": "dev-tools",
+      "lang": "en",
+      "from": "用户清单"
+    },
+    {
+      "id": "uncrate",
+      "name": "Uncrate",
+      "url": "https://uncrate.com/feed/",
+      "kind": "rss",
+      "cat": "dev-tools",
+      "lang": "en",
+      "from": "用户清单"
+    },
+    {
+      "id": "yankodesign",
+      "name": "Yanko Design",
+      "url": "https://www.yankodesign.com/feed/",
+      "kind": "rss",
+      "cat": "dev-tools",
+      "lang": "en",
+      "from": "用户清单"
+    },
+    {
+      "id": "engadget",
+      "name": "Engadget",
+      "url": "https://www.engadget.com/rss.xml",
+      "kind": "rss",
+      "cat": "dev-tools",
+      "lang": "en",
+      "from": "用户清单"
+    },
+    {
+      "id": "coolhunting",
+      "name": "Cool Hunting",
+      "url": "https://coolhunting.com/feed/",
+      "kind": "rss",
+      "cat": "dev-tools",
+      "lang": "en",
+      "from": "用户清单"
+    },
+    {
+      "id": "kickstarter-blog",
+      "name": "Kickstarter Blog",
+      "url": "https://www.kickstarter.com/blog.atom",
+      "kind": "atom",
+      "cat": "dev-tools",
+      "lang": "en",
+      "from": "用户清单"
+    },
+    {
+      "id": "newatlas",
+      "name": "New Atlas",
+      "url": "https://newatlas.com/index.rss",
+      "kind": "rss",
+      "cat": "dev-tools",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "extremetech",
+      "name": "ExtremeTech",
+      "url": "https://www.extremetech.com/feed",
+      "kind": "rss",
+      "cat": "dev-tools",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "techradar",
+      "name": "TechRadar",
+      "url": "https://www.techradar.com/feeds.xml",
+      "kind": "rss",
+      "cat": "dev-tools",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "cnet",
+      "name": "CNET News",
+      "url": "https://www.cnet.com/rss/news/",
+      "kind": "rss",
+      "cat": "dev-tools",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "mashable",
+      "name": "Mashable",
+      "url": "https://mashable.com/feeds/rss/all",
+      "kind": "rss",
+      "cat": "community",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "zdnet",
+      "name": "ZDNET",
+      "url": "https://www.zdnet.com/news/rss.xml",
+      "kind": "rss",
+      "cat": "dev-tools",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "springwise",
+      "name": "Springwise (新趋势产品)",
+      "url": "https://www.springwise.com/feed/",
+      "kind": "rss",
+      "cat": "dev-tools",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "core77",
+      "name": "Core77 (工业设计)",
+      "url": "https://www.core77.com/feed",
+      "kind": "rss",
+      "cat": "dev-tools",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "devto",
+      "name": "DEV Community",
+      "url": "https://dev.to/feed",
+      "kind": "rss",
+      "cat": "dev-tools",
+      "lang": "en",
+      "from": "用户清单"
+    },
+    {
+      "id": "tldr-webdev",
+      "name": "TLDR Web Dev",
+      "url": "https://tldr.tech/api/rss/webdev",
+      "kind": "rss",
+      "cat": "dev-tools",
+      "lang": "en",
+      "from": "用户清单"
+    },
+    {
+      "id": "tldr-engineering",
+      "name": "TLDR Engineering",
+      "url": "https://tldr.tech/api/rss/engineering",
+      "kind": "rss",
+      "cat": "dev-tools",
+      "lang": "en",
+      "from": "用户清单"
+    },
+    {
+      "id": "tldr-tech",
+      "name": "TLDR Tech",
+      "url": "https://tldr.tech/api/rss/tech",
+      "kind": "rss",
+      "cat": "dev-tools",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "oschina",
+      "name": "OSCHINA 开源中国",
+      "url": "https://www.oschina.net/news/rss",
+      "kind": "rss",
+      "cat": "dev-tools",
+      "lang": "zh",
+      "from": "用户清单"
+    },
+    {
+      "id": "linuxfoundation",
+      "name": "Linux Foundation Blog",
+      "url": "https://www.linuxfoundation.org/blog/feed/",
+      "kind": "rss",
+      "cat": "dev-tools",
+      "lang": "en",
+      "from": "用户清单"
+    },
+    {
+      "id": "apache-foundation-blog",
+      "name": "Apache Foundation Blog",
+      "url": "https://blogs.apache.org/foundation/feed/",
+      "kind": "rss",
+      "cat": "dev-tools",
+      "lang": "en",
+      "from": "用户清单"
+    },
+    {
+      "id": "cncf-blog",
+      "name": "CNCF Blog",
+      "url": "https://www.cncf.io/feed/",
+      "kind": "rss",
+      "cat": "dev-tools",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "thenewstack",
+      "name": "The New Stack",
+      "url": "https://thenewstack.io/feed/",
+      "kind": "rss",
+      "cat": "dev-tools",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "stackoverflow-blog",
+      "name": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/feed/",
+      "kind": "rss",
+      "cat": "dev-tools",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "martinfowler",
+      "name": "Martin Fowler",
+      "url": "https://martinfowler.com/feed.atom",
+      "kind": "atom",
+      "cat": "deep-read",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "lwn",
+      "name": "LWN.net",
+      "url": "https://lwn.net/headlines/newrss",
+      "kind": "rss",
+      "cat": "dev-tools",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "hackaday",
+      "name": "Hackaday",
+      "url": "https://hackaday.com/blog/feed",
+      "kind": "rss",
+      "cat": "dev-tools",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "theregister",
+      "name": "The Register Software",
+      "url": "https://www.theregister.com/software/headlines.atom",
+      "kind": "atom",
+      "cat": "dev-tools",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "techrepublic",
+      "name": "TechRepublic",
+      "url": "https://www.techrepublic.com/rssfeeds/articles/",
+      "kind": "rss",
+      "cat": "dev-tools",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "oreilly-radar",
+      "name": "O'Reilly Radar",
+      "url": "https://feeds.feedburner.com/oreilly/radar/atom1.0",
+      "kind": "atom",
+      "cat": "deep-read",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "gh-releases-ollama",
+      "name": "ollama Releases",
+      "url": "https://github.com/ollama/ollama/releases.atom",
+      "kind": "git_atom",
+      "cat": "docs-changelog",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "gh-releases-vscode",
+      "name": "VS Code Releases",
+      "url": "https://github.com/microsoft/vscode/releases.atom",
+      "kind": "git_atom",
+      "cat": "docs-changelog",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "gh-releases-langchain",
+      "name": "LangChain Releases",
+      "url": "https://github.com/langchain-ai/langchain/releases.atom",
+      "kind": "git_atom",
+      "cat": "docs-changelog",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "reddit-opensource",
+      "name": "r/opensource",
+      "url": "https://www.reddit.com/r/opensource/hot.rss",
+      "kind": "rss",
+      "cat": "community",
+      "lang": "en",
+      "from": "用户清单"
+    },
+    {
+      "id": "ieee-spectrum",
+      "name": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/feeds/feed.rss",
+      "kind": "rss",
+      "cat": "research-papers",
+      "lang": "en",
+      "from": "用户清单"
+    },
+    {
+      "id": "ieee-spectrum-alt",
+      "name": "IEEE Spectrum (alternate)",
+      "url": "https://spectrum.ieee.org/rss",
+      "kind": "rss",
+      "cat": "research-papers",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "semiengineering",
+      "name": "Semiconductor Engineering",
+      "url": "https://semiengineering.com/feed/",
+      "kind": "rss",
+      "cat": "research-papers",
+      "lang": "en",
+      "from": "用户清单"
+    },
+    {
+      "id": "semiwiki",
+      "name": "SemiWiki",
+      "url": "https://semiwiki.com/feed/",
+      "kind": "rss",
+      "cat": "research-papers",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "eetimes",
+      "name": "EE Times",
+      "url": "https://www.eetimes.com/feed/",
+      "kind": "rss",
+      "cat": "research-papers",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "semianalysis",
+      "name": "SemiAnalysis",
+      "url": "https://semianalysis.com/feed/",
+      "kind": "rss",
+      "cat": "industry-capital",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "tomshardware",
+      "name": "Tom's Hardware",
+      "url": "https://www.tomshardware.com/feeds/all",
+      "kind": "rss",
+      "cat": "dev-tools",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "space-com",
+      "name": "Space.com",
+      "url": "https://www.space.com/feeds/all.xml",
+      "kind": "rss",
+      "cat": "research-papers",
+      "lang": "en",
+      "from": "用户清单"
+    },
+    {
+      "id": "spacenews",
+      "name": "SpaceNews",
+      "url": "https://spacenews.com/feed/",
+      "kind": "rss",
+      "cat": "industry-capital",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "spaceflightnow",
+      "name": "Spaceflight Now",
+      "url": "https://spaceflightnow.com/feed/",
+      "kind": "rss",
+      "cat": "research-papers",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "payloadspace",
+      "name": "Payload Space",
+      "url": "https://payloadspace.com/feed/",
+      "kind": "rss",
+      "cat": "industry-capital",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "nasa-news",
+      "name": "NASA News Releases",
+      "url": "https://www.nasa.gov/news-release/feed/",
+      "kind": "rss",
+      "cat": "research-papers",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "biospace",
+      "name": "BioSpace",
+      "url": "https://www.biospace.com/rss",
+      "kind": "rss",
+      "cat": "research-papers",
+      "lang": "en",
+      "from": "用户清单"
+    },
+    {
+      "id": "greencarreports",
+      "name": "GreenCarReports",
+      "url": "https://www.greencarreports.com/rss.xml",
+      "kind": "rss",
+      "cat": "dev-tools",
+      "lang": "en",
+      "from": "用户清单"
+    },
+    {
+      "id": "iotworldtoday",
+      "name": "IoT World Today",
+      "url": "https://www.iotworldtoday.com/feed",
+      "kind": "rss",
+      "cat": "agent-engineering",
+      "lang": "en",
+      "from": "用户清单"
+    },
+    {
+      "id": "technode",
+      "name": "TechNode 动点科技",
+      "url": "https://technode.com/feed/",
+      "kind": "rss",
+      "cat": "industry-capital",
+      "lang": "en",
+      "from": "用户清单"
+    },
+    {
+      "id": "wired-science",
+      "name": "WIRED Science",
+      "url": "https://www.wired.com/feed/tag/science/latest/rss",
+      "kind": "rss",
+      "cat": "research-papers",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "ars-science",
+      "name": "Ars Technica Science",
+      "url": "https://arstechnica.com/science/feed/",
+      "kind": "rss",
+      "cat": "research-papers",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "eurekalert-tech",
+      "name": "EurekAlert 工程技术",
+      "url": "https://www.eurekalert.org/rss/technology_engineering.xml",
+      "kind": "rss",
+      "cat": "research-papers",
+      "lang": "en",
+      "from": "用户清单"
+    },
+    {
+      "id": "nature",
+      "name": "Nature",
+      "url": "https://www.nature.com/nature.rss",
+      "kind": "rss",
+      "cat": "research-papers",
+      "lang": "en",
+      "from": "用户清单"
+    },
+    {
+      "id": "science-news",
+      "name": "Science News",
+      "url": "https://www.science.org/rss/news_current.xml",
+      "kind": "rss",
+      "cat": "research-papers",
+      "lang": "en",
+      "from": "用户清单"
+    },
+    {
+      "id": "newscientist",
+      "name": "New Scientist",
+      "url": "https://www.newscientist.com/feed/",
+      "kind": "rss",
+      "cat": "research-papers",
+      "lang": "en",
+      "from": "用户清单"
+    },
+    {
+      "id": "scientificamerican",
+      "name": "Scientific American",
+      "url": "https://www.scientificamerican.com/platform/syndication/rss/",
+      "kind": "rss",
+      "cat": "research-papers",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "sciencedaily-all",
+      "name": "ScienceDaily 全站",
+      "url": "https://www.sciencedaily.com/rss/all.xml",
+      "kind": "rss",
+      "cat": "research-papers",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "scitechdaily",
+      "name": "SciTechDaily",
+      "url": "https://scitechdaily.com/feed/",
+      "kind": "rss",
+      "cat": "research-papers",
+      "lang": "en",
+      "from": "用户清单"
+    },
+    {
+      "id": "cell-press",
+      "name": "Cell Press",
+      "url": "https://www.cell.com/rss/",
+      "kind": "rss",
+      "cat": "research-papers",
+      "lang": "en",
+      "from": "用户清单"
+    },
+    {
+      "id": "nautilus",
+      "name": "Nautilus",
+      "url": "https://nautil.us/feed/",
+      "kind": "rss",
+      "cat": "deep-read",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "bbc-science",
+      "name": "BBC Science & Environment",
+      "url": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml",
+      "kind": "rss",
+      "cat": "research-papers",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "sciencenet",
+      "name": "科学网",
+      "url": "https://www.sciencenet.cn/rss.aspx",
+      "kind": "rss",
+      "cat": "research-papers",
+      "lang": "zh",
+      "from": "用户清单"
+    },
+    {
+      "id": "nature-biotech",
+      "name": "Nature Biotechnology",
+      "url": "https://www.nature.com/natbiotech.rss",
+      "kind": "rss",
+      "cat": "research-papers",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "bleepingcomputer",
+      "name": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "kind": "rss",
+      "cat": "security-governance",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "schneier",
+      "name": "Schneier on Security",
+      "url": "https://www.schneier.com/feed/atom/",
+      "kind": "atom",
+      "cat": "security-governance",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "krebsonsecurity",
+      "name": "Krebs on Security",
+      "url": "https://krebsonsecurity.com/feed/",
+      "kind": "rss",
+      "cat": "security-governance",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "thehackernews",
+      "name": "The Hacker News",
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "kind": "rss",
+      "cat": "security-governance",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "therecord",
+      "name": "The Record",
+      "url": "https://therecord.media/feed",
+      "kind": "rss",
+      "cat": "security-governance",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "darkreading",
+      "name": "Dark Reading",
+      "url": "https://www.darkreading.com/rss.xml",
+      "kind": "rss",
+      "cat": "security-governance",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "securityweek",
+      "name": "SecurityWeek",
+      "url": "https://www.securityweek.com/feed/",
+      "kind": "rss",
+      "cat": "security-governance",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "helpnetsecurity",
+      "name": "Help Net Security",
+      "url": "https://www.helpnetsecurity.com/feed/",
+      "kind": "rss",
+      "cat": "security-governance",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "techmeme",
+      "name": "Techmeme",
+      "url": "https://www.techmeme.com/feed.xml",
+      "kind": "rss",
+      "cat": "community",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "platformer",
+      "name": "Platformer",
+      "url": "https://www.platformer.news/feed",
+      "kind": "rss",
+      "cat": "deep-read",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "restofworld",
+      "name": "Rest of World",
+      "url": "https://restofworld.org/feed/",
+      "kind": "rss",
+      "cat": "deep-read",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "themarkup",
+      "name": "The Markup",
+      "url": "https://themarkup.org/feed/rss",
+      "kind": "rss",
+      "cat": "security-governance",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "guardian-ai",
+      "name": "The Guardian AI",
+      "url": "https://www.theguardian.com/technology/artificialintelligenceai/rss",
+      "kind": "rss",
+      "cat": "industry-capital",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "semafor-tech",
+      "name": "Semafor Technology",
+      "url": "https://www.semafor.com/rss/technology",
+      "kind": "rss",
+      "cat": "industry-capital",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "epoch-ai",
+      "name": "Epoch AI",
+      "url": "https://epoch.ai/feed",
+      "kind": "rss",
+      "cat": "research-papers",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "youtube-yannic",
+      "name": "Yannic Kilcher (YouTube RSS)",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCZHmQk67mSJgfCCTn7xBfew",
+      "kind": "atom",
+      "cat": "research-papers",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "youtube-twominutepapers",
+      "name": "Two Minute Papers (YouTube RSS)",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
+      "kind": "atom",
+      "cat": "research-papers",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "youtube-fireship",
+      "name": "Fireship (YouTube RSS)",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
+      "kind": "atom",
+      "cat": "dev-tools",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "youtube-karpathy",
+      "name": "Andrej Karpathy (YouTube RSS)",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXUPKJO5MZQN11PqgIvyuvQ",
+      "kind": "atom",
+      "cat": "deep-read",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "google-news-cn-funding",
+      "name": "Google News · 中国融资",
+      "url": "https://news.google.com/rss/search?q=%E8%9E%8D%E8%B5%84%20OR%20%E7%8B%AC%E8%A7%92%E5%85%BD%20when%3A2d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+      "kind": "rss",
+      "cat": "industry-capital",
+      "lang": "zh",
+      "from": "网络检索"
+    },
+    {
+      "id": "google-news-hk-ipo",
+      "name": "Google News · 港股 IPO",
+      "url": "https://news.google.com/rss/search?q=%E6%B8%AF%E8%82%A1%20IPO%20when%3A3d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+      "kind": "rss",
+      "cat": "market-invest",
+      "lang": "zh",
+      "from": "网络检索"
+    },
+    {
+      "id": "google-news-chip",
+      "name": "Google News · 半导体先进制程",
+      "url": "https://news.google.com/rss/search?q=semiconductor%20OR%20chiplet%20OR%20foundry%20when%3A2d&hl=en-US&gl=US&ceid=US:en",
+      "kind": "rss",
+      "cat": "research-papers",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "google-news-opensource",
+      "name": "Google News · 开源发布",
+      "url": "https://news.google.com/rss/search?q=open%20source%20model%20release%20when%3A2d&hl=en-US&gl=US&ceid=US:en",
+      "kind": "rss",
+      "cat": "dev-tools",
+      "lang": "en",
+      "from": "网络检索"
+    },
+    {
+      "id": "opml-refused-ahead-of-ai",
+      "name": "Ahead of AI",
+      "url": "https://magazine.sebastianraschka.com/feed",
+      "kind": "rss",
+      "cat": "",
+      "lang": "en",
+      "from": "用户OPML清单(tech_and_finance_feeds)"
+    },
+    {
+      "id": "opml-refused-gizmodo",
+      "name": "Gizmodo",
+      "url": "https://gizmodo.com/feed",
+      "kind": "rss",
+      "cat": "",
+      "lang": "en",
+      "from": "用户OPML清单(tech_and_finance_feeds)"
+    },
+    {
+      "id": "opml-refused-uncrate",
+      "name": "Uncrate",
+      "url": "https://uncrate.com/feed/",
+      "kind": "rss",
+      "cat": "",
+      "lang": "en",
+      "from": "用户OPML清单(tech_and_finance_feeds)"
+    },
+    {
+      "id": "opml-refused-cool-hunting",
+      "name": "Cool Hunting",
+      "url": "https://coolhunting.com/feed/",
+      "kind": "rss",
+      "cat": "",
+      "lang": "en",
+      "from": "用户OPML清单(tech_and_finance_feeds)"
+    },
+    {
+      "id": "opml-refused-trendhunter-tech",
+      "name": "TrendHunter Tech",
+      "url": "https://www.trendhunter.com/rss/category/Tech",
+      "kind": "rss",
+      "cat": "",
+      "lang": "en",
+      "from": "用户OPML清单(tech_and_finance_feeds)"
+    },
+    {
+      "id": "opml-refused-wsj-venture-capital",
+      "name": "WSJ Venture Capital",
+      "url": "https://feeds.a.dj.com/rss/WSJcomVentureCapital.xml",
+      "kind": "rss",
+      "cat": "",
+      "lang": "en",
+      "from": "用户OPML清单(tech_and_finance_feeds)"
+    },
+    {
+      "id": "opml-refused-36-36kr",
+      "name": "36氪 (36Kr)",
+      "url": "https://36kr.com/feed",
+      "kind": "rss",
+      "cat": "",
+      "lang": "en",
+      "from": "用户OPML清单(tech_and_finance_feeds)"
+    },
+    {
+      "id": "opml-refused-it-rsshub",
+      "name": "IT桔子 (RSSHub)",
+      "url": "https://rsshub.app/itjuzi/merge",
+      "kind": "rss",
+      "cat": "",
+      "lang": "en",
+      "from": "用户OPML清单(tech_and_finance_feeds)"
+    },
+    {
+      "id": "opml-refused-pedaily",
+      "name": "投资界 (Pedaily)",
+      "url": "https://news.pedaily.cn/rss.xml",
+      "kind": "rss",
+      "cat": "",
+      "lang": "en",
+      "from": "用户OPML清单(tech_and_finance_feeds)"
+    },
+    {
+      "id": "opml-refused-",
+      "name": "智通财经 (港股资讯)",
+      "url": "https://rsshub.app/zhitongcaijing/home",
+      "kind": "rss",
+      "cat": "",
+      "lang": "en",
+      "from": "用户OPML清单(tech_and_finance_feeds)"
+    },
+    {
+      "id": "opml-refused-pitchbook-news",
+      "name": "PitchBook News",
+      "url": "https://pitchbook.com/news/rss",
+      "kind": "rss",
+      "cat": "",
+      "lang": "en",
+      "from": "用户OPML清单(tech_and_finance_feeds)"
+    },
+    {
+      "id": "opml-refused-venturebeat-fin",
+      "name": "VentureBeat Fin",
+      "url": "https://venturebeat.com/feed/",
+      "kind": "rss",
+      "cat": "",
+      "lang": "en",
+      "from": "用户OPML清单(tech_and_finance_feeds)"
+    },
+    {
+      "id": "opml-refused-krasia",
+      "name": "KrASIA",
+      "url": "https://kr-asia.com/feed",
+      "kind": "rss",
+      "cat": "",
+      "lang": "en",
+      "from": "用户OPML清单(tech_and_finance_feeds)"
+    },
+    {
+      "id": "opml-refused-github-trending-atom",
+      "name": "GitHub Trending (Atom)",
+      "url": "https://github.com/trending.atom",
+      "kind": "rss",
+      "cat": "",
+      "lang": "en",
+      "from": "用户OPML清单(tech_and_finance_feeds)"
+    },
+    {
+      "id": "opml-refused-ieee-spectrum",
+      "name": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/feeds/atom.xml",
+      "kind": "rss",
+      "cat": "",
+      "lang": "en",
+      "from": "用户OPML清单(tech_and_finance_feeds)"
+    },
+    {
+      "id": "opml-refused-technode",
+      "name": "TechNode",
+      "url": "https://technode.com/feed/",
+      "kind": "rss",
+      "cat": "",
+      "lang": "en",
+      "from": "用户OPML清单(tech_and_finance_feeds)"
+    },
+    {
+      "id": "opml-refused-iot-world-today",
+      "name": "IoT World Today",
+      "url": "https://www.iotworldtoday.com/rss.xml",
+      "kind": "rss",
+      "cat": "",
+      "lang": "en",
+      "from": "用户OPML清单(tech_and_finance_feeds)"
+    },
+    {
+      "id": "opml-refused-green-car-reports",
+      "name": "Green Car Reports",
+      "url": "https://www.greencarreports.com/news.rss",
+      "kind": "rss",
+      "cat": "",
+      "lang": "en",
+      "from": "用户OPML清单(tech_and_finance_feeds)"
+    },
+    {
+      "id": "opml-refused-biospace-news",
+      "name": "BioSpace News",
+      "url": "https://www.biospace.com/rss/",
+      "kind": "rss",
+      "cat": "",
+      "lang": "en",
+      "from": "用户OPML清单(tech_and_finance_feeds)"
+    },
+    {
+      "id": "opml-refused-science-magazine-news",
+      "name": "Science Magazine News",
+      "url": "https://www.science.org/blogs/news/feed",
+      "kind": "rss",
+      "cat": "",
+      "lang": "en",
+      "from": "用户OPML清单(tech_and_finance_feeds)"
+    },
+    {
+      "id": "opml-refused-eurekalert-news",
+      "name": "EurekAlert! News",
+      "url": "https://www.eurekalert.org/rss.xml",
+      "kind": "rss",
+      "cat": "",
+      "lang": "en",
+      "from": "用户OPML清单(tech_and_finance_feeds)"
+    },
+    {
+      "id": "opml-refused-",
+      "name": "科学网要闻",
+      "url": "http://www.sciencenet.cn/xml/news-0.xml",
+      "kind": "rss",
+      "cat": "",
+      "lang": "en",
+      "from": "用户OPML清单(tech_and_finance_feeds)"
+    }
+  ]
+}

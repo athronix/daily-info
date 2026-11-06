@@ -1,0 +1,30 @@
+# 凭据绝不入库（common.load_dotenv 的第三兜底路径）
+.env
+.env.*
+*.local.env
+
+# 运行态中间数据（可由脚本重建；data/digest 是 Git-as-DB 交付物，保留入库）
+data/raw/
+data/normalized/
+data/clusters/
+data/candidate/
+data/state/
+# P1 资料库沉淀包：export_library.py 可从 digest.json 确定性重建，
+# 上传资料库后不入库，避免与 data/digest 重复形成两份事实源
+data/library/
+
+# 参考仓库研究副本：97MB 第三方浅克隆，含他人仓库里的明文凭据样本，
+# 只保留 docs/01-参考仓库深度研究.md 的结论，副本本身绝不入库
+.research/
+
+# 本地助手记忆（含内部路径与待授权事项，不随公开仓库发布）
+.workbuddy/
+
+# GitHub Pages 本地预演产物（prepare_pages.py 生成，可随时重建）
+pages-dist/
+dist/
+
+# Python
+__pycache__/
+*.pyc
+.venv/

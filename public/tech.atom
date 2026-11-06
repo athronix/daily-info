@@ -1,0 +1,352 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:feed xmlns:ns0="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
+  <ns0:id>tag:daily-info.local,2026:tech</ns0:id>
+  <ns0:title>每日信息 · 只看技术</ns0:title>
+  <ns0:subtitle>挖掘 · 聚合 · 研判 · 订阅；每条附原文链接；内容仅供参考，不构成投资建议</ns0:subtitle>
+  <ns0:link rel="self" type="application/atom+xml" href="https://daily-info.local/tech.atom" />
+  <ns0:link rel="alternate" type="text/html" href="https://daily-info.local/index.html" />
+  <ns0:updated>2026-11-05T11:52:53.812318Z</ns0:updated>
+  <ns0:author>
+    <ns0:name>Personal Daily Info</ns0:name>
+  </ns0:author>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-05:86809fee4f8cf7e7</ns0:id>
+    <ns0:title>[社区与观点] 新玩意 255｜少数派的编辑们最近买了啥？</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://sspai.com/post/118541" />
+    <ns0:published>2026-11-05T09:11:28.852000Z</ns0:published>
+    <ns0:updated>2026-11-05T11:52:53.812318Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="社区与观点" />
+    <ns0:summary type="text">The digital publication Sspai introduces a recurring feature titled "New Toys," which aims to satisfy reader curiosity about the editorial team's personal purchases. In this segment, editors share firsthand accounts and usage experiences of the latest gadgets and products they have recently acquired</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;少数派「新玩意」第 255 期由编辑分享近期个人购入的数码产品与上手体验&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：255 · 相关方：Sspai / New Toys&lt;/p&gt;&lt;p&gt;The digital publication Sspai introduces a recurring feature titled &amp;quot;New Toys,&amp;quot; which aims to satisfy reader curiosity about the editorial team&amp;#x27;s personal purchases. In this segment, editors share firsthand accounts and usage experiences of the latest gadgets and products they have recently acquired&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;一手使用体验补足参数表之外的信息，但抓取摘要不含价格与型号，可核验性有限。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对设备选型只能当线索：进入比较表前必须补齐 2 项可核验规格。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;若补齐型号与价格后仍缺 1 项，则本期不纳入设备候选清单。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-05T09:11 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://sspai.com/post/118541" rel="noopener noreferrer"&gt;https://sspai.com/post/118541&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-05:f1e03683a29d4bc1-c</ns0:id>
+    <ns0:title>[论文与学术] Dexterous Robotic Hands in the Foundation-Model Era: A Full-Stack Survey of Hardware, Data, Cross-Embodiment Transfer, Learning, and Evaluation</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://arxiv.org/abs/2611.06724" />
+    <ns0:published>2026-11-05T05:00:00Z</ns0:published>
+    <ns0:updated>2026-11-05T11:52:53.812318Z</ns0:updated>
+    <ns0:category term="research-papers" label="论文与学术" />
+    <ns0:summary type="text">arXiv:2611.06724v1 Announce Type: cross Abstract: Dexterous robotic hands are increasingly coupled to large-scale human data and foundation models, yet progress in hardware, representation learning and evaluation is often assessed separately. This survey reviews work from January 2024 to early Novem</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;arXiv 2611.06724 综述基础模型时代灵巧机械手在硬件、数据、跨本体迁移与评测上的全栈进展&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2611.06724 / 2024 · 相关方：arXiv / foundation models&lt;/p&gt;&lt;p&gt;arXiv:2611.06724v1 Announce Type: cross Abstract: Dexterous robotic hands are increasingly coupled to large-scale human data and foundation models, yet progress in hardware, representation learning and evaluation is often assessed separately. This survey reviews work from January 2024 to early Novem&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把硬件、数据与评测拆开综述，等于承认单一指标无法代表具身能力的进展。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 3D 资产与具身链路的评估表有参考价值：至少分 4 列，别压成一个分数。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对综述给出的 4 个维度是否都有量化基准，若缺 1 列则标注该维度暂无可靠数据。&lt;/p&gt;&lt;p&gt;来源：arXiv cs.AI · 发布于 2026-11-05T05:00 UTC · 归类：research-papers&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://arxiv.org/abs/2611.06724" rel="noopener noreferrer"&gt;https://arxiv.org/abs/2611.06724&lt;/a&gt;&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://arxiv.org/abs/2611.06724v1" rel="noopener noreferrer"&gt;https://arxiv.org/abs/2611.06724v1&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-05:0aa88563920e1cf5</ns0:id>
+    <ns0:title>[文档与变更] Sony reports Q2 revenue of ~$21.7B, operating profit of $3.94B, both above est., and 2.6M PS5 sales, as GTA VI sparks a US sales jump, especially of the PS5 Pro (Takashi Mochizuki/Bloomberg)</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.techmeme.com/261105/p9" />
+    <ns0:published>2026-11-05T10:30:29Z</ns0:published>
+    <ns0:updated>2026-11-05T11:52:53.812318Z</ns0:updated>
+    <ns0:category term="docs-changelog" label="文档与变更" />
+    <ns0:summary type="text">Takashi Mochizuki / Bloomberg: Sony reports Q2 revenue of ~$21.7B, operating profit of $3.94B, both above est., and 2.6M PS5 sales, as GTA VI sparks a US sales jump, especially of the PS5 Pro — Sony Group Corp. raised its profit outlook after a string of entertainment hits propelled better-than-expe</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;索尼 Q2 营收约 217 亿美元、营业利润 39.4 亿美元，PS5 销量 260 万台，均高于预期&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：21.7 / 3.94 / 2.6 · 相关方：Sony / PS5 / GTA VI&lt;/p&gt;&lt;p&gt;Takashi Mochizuki / Bloomberg: Sony reports Q2 revenue of ~$21.7B, operating profit of $3.94B, both above est., and 2.6M PS5 sales, as GTA VI sparks a US sales jump, especially of the PS5 Pro — Sony Group Corp. raised its profit outlook after a string of entertainment hits propelled better-than-expe&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;同一天里硬件厂商给出量、价、利三个方向的读数，适合作为财报类信源的结构基线。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;提醒变更板块不该只收版本号：带数字的业绩公告同样是可核验的变更记录。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;按 3 个口径核对转载与原始公告，若有 1 处不一致则在日报里标注二次转述。&lt;/p&gt;&lt;p&gt;来源：Techmeme · 发布于 2026-11-05T10:30 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.techmeme.com/261105/p9" rel="noopener noreferrer"&gt;https://www.techmeme.com/261105/p9&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-05:38e387c5903f171f</ns0:id>
+    <ns0:title>[开发者工具与版本] Nintendo reports Q2 net profit down 16% YoY to $468M, as rising Switch 2 component costs cut into its margins; Switch 2's H1 FY 2027 sales fell 37% YoY to 6.49M (Takashi Mochizuki/Bloomberg</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.techmeme.com/261105/p13" />
+    <ns0:published>2026-11-05T11:05:06Z</ns0:published>
+    <ns0:updated>2026-11-05T11:52:53.812318Z</ns0:updated>
+    <ns0:category term="dev-tools" label="开发者工具与版本" />
+    <ns0:summary type="text">Takashi Mochizuki / Bloomberg: Nintendo reports Q2 net profit down 16% YoY to $468M, as rising Switch 2 component costs cut into its margins; Switch 2's H1 FY 2027 sales fell 37% YoY to 6.49M — Nintendo Co. reported a surprise quarterly profit decline, hurt by a dearth of major new game releases and</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;任天堂 Q2 净利同比降 16% 至 4.68 亿美元，Switch 2 上半财年销量降 37% 至 649 万台&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：16% / 468 / 37% / 6.49 · 相关方：Nintendo / Switch 2 / Bloomberg&lt;/p&gt;&lt;p&gt;Takashi Mochizuki / Bloomberg: Nintendo reports Q2 net profit down 16% YoY to $468M, as rising Switch 2 component costs cut into its margins; Switch 2&amp;#x27;s H1 FY 2027 sales fell 37% YoY to 6.49M — Nintendo Co. reported a surprise quarterly profit decline, hurt by a dearth of major new game releases and&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;成本上升与销量下滑同时出现，是「新硬件放量就能摊薄成本」这一假设的直接反例。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;可用于成本模型评审：把组件成本列为独立变量，别把它藏在规模效应里。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;把 16% 与 37% 代入同一张成本表，若无法解释 2 个方向同时恶化则标注口径存疑。&lt;/p&gt;&lt;p&gt;来源：Techmeme · 发布于 2026-11-05T11:05 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.techmeme.com/261105/p13" rel="noopener noreferrer"&gt;https://www.techmeme.com/261105/p13&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-05:c5c9e9a97cf4fa76</ns0:id>
+    <ns0:title>[开发者工具与版本] Commerzbank in 'Position of Strength' Ahead of UniCredit Deal, CEO Says</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.bloomberg.com/news/videos/2026-11-05/commerzbank-in-position-of-strength-ahead-of-deal-ceo-video" />
+    <ns0:published>2026-11-05T07:31:20Z</ns0:published>
+    <ns0:updated>2026-11-05T11:52:53.812318Z</ns0:updated>
+    <ns0:category term="dev-tools" label="开发者工具与版本" />
+    <ns0:summary type="text">Commerzbank CEO Bettina Orlopp speaks on Bloomberg Television after the lender reported a better-than-expected 45% jump in profit, in one of the last quarterly results as an independent bank before UniCredit SpA takes control of the German rival. "I think we can act out of a position of strength," O</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Commerzbank CEO 称利润同比跳升 45%，为 UniCredit 接管前最后几份独立季报之一&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：45% · 相关方：Commerzbank / UniCredit / Bettina Orlopp&lt;/p&gt;&lt;p&gt;Commerzbank CEO Bettina Orlopp speaks on Bloomberg Television after the lender reported a better-than-expected 45% jump in profit, in one of the last quarterly results as an independent bank before UniCredit SpA takes control of the German rival. &amp;quot;I think we can act out of a position of strength,&amp;quot; O&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;业绩读数与并购时点叠在一起，单点增长不能外推为独立经营的长期趋势。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;与本项目数据基建无直接技术关联，仅作为「单点指标不可外推」的反例记入观察口径。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;若后续 2 个季度仍只有单季读数，则判定该指标不足以支撑趋势判断，移出主线。&lt;/p&gt;&lt;p&gt;来源：Bloomberg Markets · 发布于 2026-11-05T07:31 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.bloomberg.com/news/videos/2026-11-05/commerzbank-in-position-of-strength-ahead-of-deal-ceo-video" rel="noopener noreferrer"&gt;https://www.bloomberg.com/news/videos/2026-11-05/commerzbank-in-position-of-strength-ahead-of-deal-ceo-video&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-05:bc3eb0974c00d7ec</ns0:id>
+    <ns0:title>[开发者工具与版本] Baidu released ERNIE 5.5 Flash Base</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://ernie.baidu.com/release/ernie-5-5-flash-base" />
+    <ns0:published>2026-11-05T09:29:12Z</ns0:published>
+    <ns0:updated>2026-11-05T11:52:53.812318Z</ns0:updated>
+    <ns0:category term="dev-tools" label="开发者工具与版本" />
+    <ns0:summary type="text">轻量版命名与社区讨论热度同时出现，说明发布关注点在推理成本而非参数规模。</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;百度发布 ERNIE 5.5 Flash Base，HN 讨论帖记录 30 分与 23 条评论&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：5.5 / 30 / 23 · 相关方：Baidu / ERNIE 5.5 Flash Base&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;轻量版命名与社区讨论热度同时出现，说明发布关注点在推理成本而非参数规模。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;若接入层要加国内模型候选，先记录上下文与定价口径，再决定是否进 provider 切换配置。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照官方发布页核对 2 项规格，若与转述不一致则以官方为准并标注修正来源。&lt;/p&gt;&lt;p&gt;来源：HN Algolia front_page (points/comments) · 发布于 2026-11-05T09:29 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://ernie.baidu.com/release/ernie-5-5-flash-base" rel="noopener noreferrer"&gt;https://ernie.baidu.com/release/ernie-5-5-flash-base&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-05:34b7b58c0d055d38</ns0:id>
+    <ns0:title>[开发者工具与版本] MCP C# SDK 2.0 默认启用 HTTP 无状态模式，新增多轮请求能力</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.infoq.cn/article/80iUxvCNB59aOgyXB7LN" />
+    <ns0:published>2026-11-05T07:31:03.584000Z</ns0:published>
+    <ns0:updated>2026-11-05T11:52:53.812318Z</ns0:updated>
+    <ns0:category term="dev-tools" label="开发者工具与版本" />
+    <ns0:summary type="text">点击查看原文&gt; 〔Folo分类:开源项目〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;MCP C# SDK 2.0 把 HTTP 无状态模式设为默认，并新增多轮请求能力&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2.0 · 相关方：MCP C# SDK 2.0 / HTTP&lt;/p&gt;&lt;p&gt;点击查看原文&amp;gt; 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;默认行为变更比新增功能更危险：不升级配置的连接会在无感知情况下丢掉会话语义。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;直接影响 MCP 接入层与 bridge 的长连接假设，需确认状态保持由哪一端负责。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;用现有会话用例跑 2 次兼容测试，若出现 1 次状态丢失则显式声明有状态模式后再升级。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-05T07:31 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.infoq.cn/article/80iUxvCNB59aOgyXB7LN" rel="noopener noreferrer"&gt;https://www.infoq.cn/article/80iUxvCNB59aOgyXB7LN&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-05:67688dbdebfe4c7a</ns0:id>
+    <ns0:title>[开发者工具与版本] Build a ESP32 S3 Powered Smart Thermostat with Home Assistant Support for $70</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.geeky-gadgets.com/open-source" />
+    <ns0:published>2026-11-05T10:13:00Z</ns0:published>
+    <ns0:updated>2026-11-05T11:52:53.812318Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="开发者工具与版本" />
+    <ns0:summary type="text">Building an open source smart thermostat is an engaging project that blends technical skills with practical applications. According to Designing Good Ideas, this project revolves around the ESP32-S3 microcontroller, which offers both WiFi and Bluetooth connectivity. Key components include an OLED di</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Geeky Gadgets 介绍用 ESP32-S3 与 Home Assistant 搭开源智能恒温器，成本约 70 美元&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：32 / 70 · 相关方：ESP32 / Home Assistant / Designing Good Ideas&lt;/p&gt;&lt;p&gt;Building an open source smart thermostat is an engaging project that blends technical skills with practical applications. According to Designing Good Ideas, this project revolves around the ESP32-S3 microcontroller, which offers both WiFi and Bluetooth connectivity. Key components include an OLED di&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把成本、连接协议与固件可改性同时写清，是自动化设备选型里少见的可核验口径。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;可作本地 automation 的低成本参照，但需确认固件支持离线控制，避免绑死云服务。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对断网场景下本地控制是否可用，若必须联网则判定不适合作为离线基线设备。&lt;/p&gt;&lt;p&gt;来源：Geeky Gadgets · 发布于 2026-11-05T10:13 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.geeky-gadgets.com/open-source" rel="noopener noreferrer"&gt;https://www.geeky-gadgets.com/open-source&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-05:a905c89b66d2487a</ns0:id>
+    <ns0:title>[开发者工具与版本] 普林斯顿CS女学霸，突然告别Anthropic！一手带火Claude Code</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&amp;mid=2652740261&amp;idx=2&amp;sn=ad848ca27112af01508620b4099ac007&amp;chksm=f0078dd514b88f7cf496c4650a00f222b3f0a51fb4dcdcf4d883bf4befaf4032aa612eccd5e3&amp;scene=0&amp;xtrack=1" />
+    <ns0:published>2026-11-05T10:40:00Z</ns0:published>
+    <ns0:updated>2026-11-05T11:52:53.812318Z</ns0:updated>
+    <ns0:category term="dev-tools" label="开发者工具与版本" />
+    <ns0:summary type="text">AI、生成模型、深度学习｜Anthropic旗下Claude Code团队近期遭遇严重人才流失：10天内4位核心成员相继离职，包括产品总负责人兼创始产品经理Cat Wu（4日凌晨宣布离任）、CLI核心开发者Thariq Shihipar及桌面版主创Anthony Mor等。Cat Wu在告别信中确认上周五为其最后工作日。此次密集离职引发业界对Claude Code项目稳定性与团队凝聚力的广泛关注，凸显AI初创企业在高速发展期面临的人才管理挑战。</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Anthropic 旗下 Claude Code 团队 10 天内 4 位核心成员离职，含产品负责人 Cat Wu&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：10 / 4 · 相关方：Anthropic / Claude Code / Cat Wu&lt;/p&gt;&lt;p&gt;AI、生成模型、深度学习｜Anthropic旗下Claude Code团队近期遭遇严重人才流失：10天内4位核心成员相继离职，包括产品总负责人兼创始产品经理Cat Wu（4日凌晨宣布离任）、CLI核心开发者Thariq Shihipar及桌面版主创Anthony Mor等。Cat Wu在告别信中确认上周五为其最后工作日。此次密集离职引发业界对Claude Code项目稳定性与团队凝聚力的广泛关注，凸显AI初创企业在高速发展期面临的人才管理挑战。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;推断：核心贡献者密度下降会先反映在版本节奏上，比功能清单更能预判工具链稳定性。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对依赖 Claude Code 的开发侧 automation 链路，需要准备供应商变更时的可替换入口。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;记录未来 2 个版本的发布日期，若间隔拉长超过 30 天则启用备用工具链并跑一次 smoke。&lt;/p&gt;&lt;p&gt;来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-05T10:40 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;证据状态：推断&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&amp;amp;mid=2652740261&amp;amp;idx=2&amp;amp;sn=ad848ca27112af01508620b4099ac007&amp;amp;chksm=f0078dd514b88f7cf496c4650a00f222b3f0a51fb4dcdcf4d883bf4befaf4032aa612eccd5e3&amp;amp;scene=0&amp;amp;xtrack=1" rel="noopener noreferrer"&gt;https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&amp;amp;mid=2652740261&amp;amp;idx=2&amp;amp;sn=ad848ca27112af01508620b4099ac007&amp;amp;chksm=f0078dd514b88f7cf496c4650a00f222b3f0a51fb4dcdcf4d883bf4befaf4032aa612eccd5e3&amp;amp;scene=0&amp;amp;xtrack=1&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-05:a33b385a4bffab34</ns0:id>
+    <ns0:title>[Agent 与工程] 从3D生成到世界模型，这家AI公司想和年轻人一起定义问题</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw%3D%3D&amp;mid=2247939340&amp;idx=1&amp;sn=897b309215b80e03ae894413179c8aeb&amp;chksm=e951f581ce1a321e075734ebad0a9c9d7925fcb7409ede6312f8594597c2ceb04afccd3c1358&amp;scene=126&amp;sessionid=0" />
+    <ns0:published>2026-11-05T08:10:00Z</ns0:published>
+    <ns0:updated>2026-11-05T11:52:53.812318Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="Agent 与工程" />
+    <ns0:summary type="text">扩散模型、Agent、生成模型｜AI行业虽持续高薪争抢顶尖人才，但愈发重视实际贡献而非仅潜力。年轻研究者陷入困境：企业倾向录用已有成果者，却可能减少其参与核心项目的机会，导致代表作难以产出。由此，人才竞争标准升级——不仅企业筛选人才，年轻人也需主动评估平台：能否提供核心项目参与权、技术路线决策机会及与能力匹配的任务资源，以支撑下一项关键成果的诞生。</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;行业访谈讨论从 3D 生成到世界模型的路线，并指出年轻研究者缺少核心项目参与权&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：3 · 相关方：扩散模型 / Agent / 生成模型&lt;/p&gt;&lt;p&gt;扩散模型、Agent、生成模型｜AI行业虽持续高薪争抢顶尖人才，但愈发重视实际贡献而非仅潜力。年轻研究者陷入困境：企业倾向录用已有成果者，却可能减少其参与核心项目的机会，导致代表作难以产出。由此，人才竞争标准升级——不仅企业筛选人才，年轻人也需主动评估平台：能否提供核心项目参与权、技术路线决策机会及与能力匹配的任务资源，以支撑下一项关键成果的诞生。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把「平台能否给决策权」当成技术路线选择变量，这是组织问题，不是模型能力问题。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 skill 与 automation 的分工有提醒：把决策权写进配置，执行者才不会因看不到全貌反复返工。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;抽查 3 个 skill 是否把判定阈值写进配置文件，若有 1 个只靠提示词则补成可检查字段。&lt;/p&gt;&lt;p&gt;来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-05T08:10 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw%3D%3D&amp;amp;mid=2247939340&amp;amp;idx=1&amp;amp;sn=897b309215b80e03ae894413179c8aeb&amp;amp;chksm=e951f581ce1a321e075734ebad0a9c9d7925fcb7409ede6312f8594597c2ceb04afccd3c1358&amp;amp;scene=126&amp;amp;sessionid=0" rel="noopener noreferrer"&gt;http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw%3D%3D&amp;amp;mid=2247939340&amp;amp;idx=1&amp;amp;sn=897b309215b80e03ae894413179c8aeb&amp;amp;chksm=e951f581ce1a321e075734ebad0a9c9d7925fcb7409ede6312f8594597c2ceb04afccd3c1358&amp;amp;scene=126&amp;amp;sessionid=0&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-05:69a0892172f62fa7</ns0:id>
+    <ns0:title>[Agent 与工程] 5000词需求文档，Claude也只能交付14%！实测28种Agent组合</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&amp;mid=2652740261&amp;idx=3&amp;sn=909eccd24098bcb2c52a24856fcd1ece&amp;chksm=f05d21f7f508332c98e602698a05cb81545bc85a81ae8f743d80f99e7abf69b3de0b04104517&amp;scene=0&amp;xtrack=1" />
+    <ns0:published>2026-11-05T10:50:00Z</ns0:published>
+    <ns0:updated>2026-11-05T11:52:53.812318Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="Agent 与工程" />
+    <ns0:summary type="text">Agent、生成模型、深度学习｜复旦大学等机构提出LoLBench基准，用于评估AI Agent在大型软件系统（平均240万行代码）中从需求到功能交付的全流程能力。不同于简单工具调用或文件修改，该任务需Agent理解需求约束、分析模块依赖、定位修改点、实施变更并验证正确性，覆盖软件工程核心分析与决策环节，旨在衡量其在真实复杂长期演进系统中的端到端开发能力。</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;复旦大学等提出 LoLBench，实测 28 种 Agent 组合在 240 万行代码系统上从需求到交付的全流程&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：5000 / 14% / 28 / 240 · 相关方：LoLBench / 复旦大学 / Claude&lt;/p&gt;&lt;p&gt;Agent、生成模型、深度学习｜复旦大学等机构提出LoLBench基准，用于评估AI Agent在大型软件系统（平均240万行代码）中从需求到功能交付的全流程能力。不同于简单工具调用或文件修改，该任务需Agent理解需求约束、分析模块依赖、定位修改点、实施变更并验证正确性，覆盖软件工程核心分析与决策环节，旨在衡量其在真实复杂长期演进系统中的端到端开发能力。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;5000 词需求下最好组合只交付 14%，长程失败集中在定位修改点与验证正确性，而非生成代码。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;直接对应 WinVM Bridge 两条委派路径：复杂任务走 A2A 前必须有可复现验收脚本，否则失败无法归因。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;用同一份需求跑 2 条委派路径各一次，若交付率差异小于 10 个百分点则判定路径选择现阶段不产生收益。&lt;/p&gt;&lt;p&gt;来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-05T10:50 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&amp;amp;mid=2652740261&amp;amp;idx=3&amp;amp;sn=909eccd24098bcb2c52a24856fcd1ece&amp;amp;chksm=f05d21f7f508332c98e602698a05cb81545bc85a81ae8f743d80f99e7abf69b3de0b04104517&amp;amp;scene=0&amp;amp;xtrack=1" rel="noopener noreferrer"&gt;https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&amp;amp;mid=2652740261&amp;amp;idx=3&amp;amp;sn=909eccd24098bcb2c52a24856fcd1ece&amp;amp;chksm=f05d21f7f508332c98e602698a05cb81545bc85a81ae8f743d80f99e7abf69b3de0b04104517&amp;amp;scene=0&amp;amp;xtrack=1&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-05:2682390061645f27</ns0:id>
+    <ns0:title>[模型与研究] Ricursive releases Ripple-65B Preview, a general-purpose variant of its AI model for automating advanced chip design, under Apache 2.0, costing $0.60/1M output (Carl Franzen/VentureBeat)</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.techmeme.com/261105/p14" />
+    <ns0:published>2026-11-05T11:10:01Z</ns0:published>
+    <ns0:updated>2026-11-05T11:52:53.812318Z</ns0:updated>
+    <ns0:category term="ai-models" label="模型与研究" />
+    <ns0:summary type="text">Carl Franzen / VentureBeat: Ricursive releases Ripple-65B Preview, a general-purpose variant of its AI model for automating advanced chip design, under Apache 2.0, costing $0.60/1M output — There's another American victory worth paying attention to today: a new, open weights AI model that its creato</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Ricursive 以 Apache 2.0 发布 Ripple-65B Preview 用于自动化芯片设计，输出定价 0.60 美元每百万 token&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：65 / 0.60 / 2.0 · 相关方：Ricursive / Ripple-65B / Apache 2.0 / VentureBeat&lt;/p&gt;&lt;p&gt;Carl Franzen / VentureBeat: Ricursive releases Ripple-65B Preview, a general-purpose variant of its AI model for automating advanced chip design, under Apache 2.0, costing $0.60/1M output — There&amp;#x27;s another American victory worth paying attention to today: a new, open weights AI model that its creato&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;专用模型用宽松许可证放行并给出可核算单价，把「能不能自建」变成一道成本题。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;可直接填进自建 vs 托管的成本模型：0.60 是可比单价，不必再靠估算。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;把 0.60 代入 12 个月 TCO 表，若与本地推理差距小于 20% 则判定自建无成本优势。&lt;/p&gt;&lt;p&gt;来源：Techmeme · 发布于 2026-11-05T11:10 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.techmeme.com/261105/p14" rel="noopener noreferrer"&gt;https://www.techmeme.com/261105/p14&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-05:5e468467bd2ef4e7</ns0:id>
+    <ns0:title>[模型与研究] [AINews] It's Swapping Season</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://latent.space/p/ainews-it-s-swapping-season" />
+    <ns0:published>2026-11-05T06:24:09Z</ns0:published>
+    <ns0:updated>2026-11-05T11:52:53.812318Z</ns0:updated>
+    <ns0:category term="ai-models" label="模型与研究" />
+    <ns0:summary type="text">November 4, 2026 — OpenAI’s Linux kernel security work, Kimi K3.1 Pro’s open weights, and Ricursive’s Ripple-65B.</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Latent Space 的 AINews 汇总 OpenAI 内核安全工作、Kimi K3.1 Pro 开放权重与 Ripple-65B&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：3.1 / 65 / 4 · 相关方：OpenAI / Kimi K3.1 Pro / Ripple-65B&lt;/p&gt;&lt;p&gt;November 4, 2026 — OpenAI’s Linux kernel security work, Kimi K3.1 Pro’s open weights, and Ricursive’s Ripple-65B.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;同一期里安全、开放权重、专用模型三条线并行，模型新闻已不能按「更大更强」单轴排序。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;订阅侧需按「安全 / 权重 / 专用」分 profile，否则这类汇总会把不同决策信号混成一条。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;把该期 3 个主题分别映射到现有 profile，若有 1 个找不到归口则新增分类再重跑 build_feeds.py。&lt;/p&gt;&lt;p&gt;来源：Latent Space · 发布于 2026-11-05T06:24 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://latent.space/p/ainews-it-s-swapping-season" rel="noopener noreferrer"&gt;https://latent.space/p/ainews-it-s-swapping-season&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-05:9e8d2781cc4f5fb6</ns0:id>
+    <ns0:title>[模型与研究] 清华、伯克利开源uni-robot-agent：GPT-6 Astra竟输给了Qwen3.8-Flash-Next</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://mp.weixin.qq.com/s?__biz=Mzg4MDE3OTA5NA%3D%3D&amp;mid=2247607249&amp;idx=1&amp;sn=edf1b03f303a47b0b2677fce536b580f&amp;chksm=ce8e6a2f7b553ff7c24297158aabde1386f99f9b2d9bc2e12db8da63e2c16752380268b294ed&amp;scene=0&amp;xtrack=1" />
+    <ns0:published>2026-11-05T09:50:00Z</ns0:published>
+    <ns0:updated>2026-11-05T11:52:53.812318Z</ns0:updated>
+    <ns0:category term="ai-models" label="模型与研究" />
+    <ns0:summary type="text">机器人、Agent、深度学习｜当前机器人使用智能体（RUA）虽具零样本操作能力，但高度依赖前沿闭源模型，研究者无法获取模型权重，难以利用真实机器人数据持续优化；API调用成本高昂且推理过程不可定制，严重制约大规模实验。为推动RUA研究普惠化，清华大学丁宁、刘知远、徐梦迪、周伯文等联合强化学习团队提出新范式，聚焦开源、低成本、可迭代的RUA训练框架。</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;清华与伯克利团队开源 uni-robot-agent，用开源模型替代闭源前沿模型驱动机器人智能体&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：3.8 / 6 · 相关方：uni-robot-agent / Qwen3.8-Flash-Next / GPT-6 / 清华大学&lt;/p&gt;&lt;p&gt;机器人、Agent、深度学习｜当前机器人使用智能体（RUA）虽具零样本操作能力，但高度依赖前沿闭源模型，研究者无法获取模型权重，难以利用真实机器人数据持续优化；API调用成本高昂且推理过程不可定制，严重制约大规模实验。为推动RUA研究普惠化，清华大学丁宁、刘知远、徐梦迪、周伯文等联合强化学习团队提出新范式，聚焦开源、低成本、可迭代的RUA训练框架。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把机器人智能体从依赖闭源 API 的调用题，改成可拿权重、可迭代的训练题，实验成本结构随之改变。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;与本地 Agent 部署和 3D/具身资产链路一致：模型权重可得，才谈得上把真实机器人数据回流进自有训练环。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照该框架的 2 个训练入口跑一次最小复现，若显存需求超过本机可用量 80% 则判定只能读代码不落地。&lt;/p&gt;&lt;p&gt;来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-05T09:50 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://mp.weixin.qq.com/s?__biz=Mzg4MDE3OTA5NA%3D%3D&amp;amp;mid=2247607249&amp;amp;idx=1&amp;amp;sn=edf1b03f303a47b0b2677fce536b580f&amp;amp;chksm=ce8e6a2f7b553ff7c24297158aabde1386f99f9b2d9bc2e12db8da63e2c16752380268b294ed&amp;amp;scene=0&amp;amp;xtrack=1" rel="noopener noreferrer"&gt;https://mp.weixin.qq.com/s?__biz=Mzg4MDE3OTA5NA%3D%3D&amp;amp;mid=2247607249&amp;amp;idx=1&amp;amp;sn=edf1b03f303a47b0b2677fce536b580f&amp;amp;chksm=ce8e6a2f7b553ff7c24297158aabde1386f99f9b2d9bc2e12db8da63e2c16752380268b294ed&amp;amp;scene=0&amp;amp;xtrack=1&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-04:dd91fc9ec8712e06</ns0:id>
+    <ns0:title>[深度长文] Read the muse spark open license before wiring it into anything</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.reddit.com/r/LocalLLaMA/comments/1xnis75/read_the_muse_spark_open_license_before_wiring_it" />
+    <ns0:published>2026-11-04T08:13:49Z</ns0:published>
+    <ns0:updated>2026-11-04T13:33:31.530620Z</ns0:updated>
+    <ns0:category term="ai-models" label="深度长文" />
+    <ns0:summary type="text">that 72 hours thread from a few weeks back had the best point down in the comments, open weights only ever meant you can download them. muse spark open is 816B and beam is 501B, so for most ppl here the only drop that week that fits a 24GB card was nvidias bolt so the big ones mostly get used thru a</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;r/LocalLLaMA 讨论：接入前先读 Muse Spark 开放许可证（72 小时长帖的核心结论）&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：72 · 相关方：Muse Spark&lt;/p&gt;&lt;p&gt;that 72 hours thread from a few weeks back had the best point down in the comments, open weights only ever meant you can download them. muse spark open is 816B and beam is 501B, so for most ppl here the only drop that week that fits a 24GB card was nvidias bolt so the big ones mostly get used thru a&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;开放权重不等于自由使用的社区共识在扩散，许可证成为实际约束&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;专家包/模型选型清单应加许可证字段&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;检查模型引用清单，缺许可证标注的条目大于 0 即补全&lt;/p&gt;&lt;p&gt;来源：r/LocalLLaMA · 发布于 2026-11-04T08:13 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.reddit.com/r/LocalLLaMA/comments/1xnis75/read_the_muse_spark_open_license_before_wiring_it" rel="noopener noreferrer"&gt;https://www.reddit.com/r/LocalLLaMA/comments/1xnis75/read_the_muse_spark_open_license_before_wiring_it&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-04:b1057d03bb7d92f8</ns0:id>
+    <ns0:title>[社区与观点] Copper Follows Stock Markets Higher as Democrats Sweep Congress</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.bloomberg.com/news/articles/2026-11-04/copper-holds-losses-below-14-000-on-us-midterm-risks-to-stocks" />
+    <ns0:published>2026-11-04T02:47:04Z</ns0:published>
+    <ns0:updated>2026-11-04T13:33:31.530620Z</ns0:updated>
+    <ns0:category term="dev-tools" label="社区与观点" />
+    <ns0:summary type="text">Copper climbed as stock markets turned higher and the dollar dropped after US midterm elections that saw the Democrats sweep Congress.</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;铜价随股市走高：民主党横扫国会后美元回落&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2026-11-04 · 相关方：Copper&lt;/p&gt;&lt;p&gt;Copper climbed as stock markets turned higher and the dollar dropped after US midterm elections that saw the Democrats sweep Congress.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;大宗与汇率的选举联动样本，商品端对政策预期敏感&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;无直接影响&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;暂无可验证动作&lt;/p&gt;&lt;p&gt;来源：Bloomberg Markets · 发布于 2026-11-04T02:47 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.bloomberg.com/news/articles/2026-11-04/copper-holds-losses-below-14-000-on-us-midterm-risks-to-stocks" rel="noopener noreferrer"&gt;https://www.bloomberg.com/news/articles/2026-11-04/copper-holds-losses-below-14-000-on-us-midterm-risks-to-stocks&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-04:b78da7331acb254d</ns0:id>
+    <ns0:title>[社区与观点] InteractionBench: Measuring Timing, Task Accuracy, Whisper and Volume, and Grounding in Real-Time Voice Systems</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://arxiv.org/abs/2611.02430" />
+    <ns0:published>2026-11-04T05:00:00Z</ns0:published>
+    <ns0:updated>2026-11-04T13:33:31.530620Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="社区与观点" />
+    <ns0:summary type="text">arXiv:2611.02430v1 Announce Type: cross Abstract: Most benchmarks for real-time voice systems focus on one aspect, such as turn-taking, instruction following, paralinguistic control, or conversational memory, each with its own data and set of systems. We present InteractionBench, a benchmark and eva</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;arXiv 2611.02430：InteractionBench 测量实时语音系统的时序/任务/耳语/音量四维指标&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2611.02430 · 相关方：arXiv / InteractionBench&lt;/p&gt;&lt;p&gt;arXiv:2611.02430v1 Announce Type: cross Abstract: Most benchmarks for real-time voice systems focus on one aspect, such as turn-taking, instruction following, paralinguistic control, or conversational memory, each with its own data and set of systems. We present InteractionBench, a benchmark and eva&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;实时语音 agent 的评测从单维走向四维，社区基准在补齐&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;若做语音类 skill，可引用其指标定义&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;暂无可验证动作&lt;/p&gt;&lt;p&gt;来源：arXiv cs.CL · 发布于 2026-11-04T05:00 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://arxiv.org/abs/2611.02430" rel="noopener noreferrer"&gt;https://arxiv.org/abs/2611.02430&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-04:4e591c9fc9bfe484</ns0:id>
+    <ns0:title>[安全与治理] Auditing Escalation Reliability in Healthcare LLM Agents: A Perturbation-Controlled Benchmark of Workflow-State Failures</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://arxiv.org/abs/2610.21270" />
+    <ns0:published>2026-11-04T05:00:00Z</ns0:published>
+    <ns0:updated>2026-11-04T13:33:31.530620Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="安全与治理" />
+    <ns0:summary type="text">arXiv:2610.21270v2 Announce Type: replace-cross Abstract: Trustworthy biomedical AI requires reliable action selection when evidence is missing, stale, conflicting, or late, not only accurate answers on static inputs. We instantiate an episode-level evaluation protocol as 400 synthetic healthcare wo</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;arXiv 2610.21270：医疗 LLM agent 动作升级可靠性的扰动审计框架&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2610.21270 · 相关方：arXiv / Healthcare LLM Agents&lt;/p&gt;&lt;p&gt;arXiv:2610.21270v2 Announce Type: replace-cross Abstract: Trustworthy biomedical AI requires reliable action selection when evidence is missing, stale, conflicting, or late, not only accurate answers on static inputs. We instantiate an episode-level evaluation protocol as 400 synthetic healthcare wo&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;高风险领域 agent 的动作升级可靠性开始有可复用的审计方法&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;专家包的合规检查可借用其扰动测试思路&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对 1 个高风险类专家包跑其审计流程，发现至少 1 个失败模式则推广&lt;/p&gt;&lt;p&gt;来源：arXiv cs.CL · 发布于 2026-11-04T05:00 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://arxiv.org/abs/2610.21270" rel="noopener noreferrer"&gt;https://arxiv.org/abs/2610.21270&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-04:5b09b5e73f392dd7</ns0:id>
+    <ns0:title>[产业与资本] Swiss Pharmaceutical Industry Loses Ground in Global Innovation Race</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.bloomberg.com/news/articles/2026-11-04/swiss-pharmaceutical-industry-loses-ground-in-global-innovation-race" />
+    <ns0:published>2026-11-04T11:00:00Z</ns0:published>
+    <ns0:updated>2026-11-04T13:33:31.530620Z</ns0:updated>
+    <ns0:category term="dev-tools" label="产业与资本" />
+    <ns0:summary type="text">Innovation in Switzerland’s pharmaceutical industry has fallen for the second year in a row, a new study shows, underscoring how it is trailing foreign competitors in digital research and clinical trials.</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;彭博：瑞士制药业全球创新排名连续第二年下滑&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2026-11-04 · 相关方：Swiss Pharmaceutical Industry&lt;/p&gt;&lt;p&gt;Innovation in Switzerland’s pharmaceutical industry has fallen for the second year in a row, a new study shows, underscoring how it is trailing foreign competitors in digital research and clinical trials.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;高新制造的创新份额转移是慢变量，但对产业地图判断有用&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;暂无直接影响，作为高新科技板块的背景条目&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;暂无可验证动作；下季度再现同类排名数据则合并跟踪&lt;/p&gt;&lt;p&gt;来源：Bloomberg Markets · 发布于 2026-11-04T11:00 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.bloomberg.com/news/articles/2026-11-04/swiss-pharmaceutical-industry-loses-ground-in-global-innovation-race" rel="noopener noreferrer"&gt;https://www.bloomberg.com/news/articles/2026-11-04/swiss-pharmaceutical-industry-loses-ground-in-global-innovation-race&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-04:124c94d8eb3bb74b</ns0:id>
+    <ns0:title>[论文与学术] Routing Subspaces: Auditing Evaluation-to-Deployment Mismatch in Fine-Tuned Language Models</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://arxiv.org/abs/2607.20436" />
+    <ns0:published>2026-11-04T05:00:00Z</ns0:published>
+    <ns0:updated>2026-11-04T13:33:31.530620Z</ns0:updated>
+    <ns0:category term="research-papers" label="论文与学术" />
+    <ns0:summary type="text">arXiv:2607.20436v2 Announce Type: replace Abstract: Safety evaluations often assume that behavior observed during testing reflects behavior in ordinary use, but fine-tuning can break this assumption. A checkpoint can appear fixed under evaluation-style prompts while the same behavior persists under </ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;arXiv 2607.20436：Routing Subspaces 审计评估到部署的行为失配&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2607.20436 · 相关方：arXiv / safety evaluation&lt;/p&gt;&lt;p&gt;arXiv:2607.20436v2 Announce Type: replace Abstract: Safety evaluations often assume that behavior observed during testing reflects behavior in ordinary use, but fine-tuning can break this assumption. A checkpoint can appear fixed under evaluation-style prompts while the same behavior persists under &lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;安全评测假设评测时行为等于部署行为，被给出证伪路径&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;skill 合规检查应加部署态抽检，不能只靠发布前评测&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;抽检 3 个已上线 skill，若行为偏移超过 10% 则建立常态抽检&lt;/p&gt;&lt;p&gt;来源：arXiv cs.CL · 发布于 2026-11-04T05:00 UTC · 归类：research-papers&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://arxiv.org/abs/2607.20436" rel="noopener noreferrer"&gt;https://arxiv.org/abs/2607.20436&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-04:0ee4b2ffd1ac8e3f</ns0:id>
+    <ns0:title>[论文与学术] Optimize the Harness, Not the Model: Fitting a Minimal Agent to a Self-Hostable LLM for Investigative Analysis</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://arxiv.org/abs/2611.03434" />
+    <ns0:published>2026-11-04T05:00:00Z</ns0:published>
+    <ns0:updated>2026-11-04T13:33:31.530620Z</ns0:updated>
+    <ns0:category term="research-papers" label="论文与学术" />
+    <ns0:summary type="text">arXiv:2611.03434v1 Announce Type: cross Abstract: Government intelligence teams need LLM agents that can analyze large, messy evidence collections, but security and cost constraints often rule out hosted frontier models and broad, hard-to-audit tool surfaces. We report CLEO: Constrained Loop for Env</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;arXiv 2611.03434：政府情报场景下优化 harness 而非模型的最小 agent 适配&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2611.03434 · 相关方：arXiv / harness&lt;/p&gt;&lt;p&gt;arXiv:2611.03434v1 Announce Type: cross Abstract: Government intelligence teams need LLM agents that can analyze large, messy evidence collections, but security and cost constraints often rule out hosted frontier models and broad, hard-to-audit tool surfaces. We report CLEO: Constrained Loop for Env&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;又一独立证据：harness 工程质量正在取代模型能力成为瓶颈&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;与 agent-desktop / t3code 的工作台之争互相佐证&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;纳入本周 harness 主题证据池，主题簇不少于 3 个则在周报立题&lt;/p&gt;&lt;p&gt;来源：arXiv cs.CL · 发布于 2026-11-04T05:00 UTC · 归类：research-papers&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://arxiv.org/abs/2611.03434" rel="noopener noreferrer"&gt;https://arxiv.org/abs/2611.03434&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-04:eda942a44782fe64</ns0:id>
+    <ns0:title>[论文与学术] [AI 产品创意] 💡 AI 产品创意日报 | 2026-11-04</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://github.com/kejun/daily-investor/blob/main/ideas/2026-11-04-ai-product-ideas.md" />
+    <ns0:published>2026-11-03T23:01:26Z</ns0:published>
+    <ns0:updated>2026-11-04T13:33:31.530620Z</ns0:updated>
+    <ns0:category term="research-papers" label="论文与学术" />
+    <ns0:summary type="text">💡 AI 产品创意日报 | 2026-11-04 生成时间：2026 年 11 月 4 日 7:00 AM (Asia/Shanghai) 数据来源：Hacker News 首页、Hugging Face Blog、GitHub Trending（11/3）、arXiv CS.AI 📊 今日核心洞察 一句话主题：Agent 开始「动手」了，但没人能证明它动的手是对的 今天的信息流里，Agent 的主题悄悄换了位置：从「Agent 能说什么」变成「Agent 能做什么」。 GitHub Trending 第一名是 Vercel Labs 的 agent-desktop——一个让 agent 通过</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;克军 AI 产品创意日报 2026-11-04（7:00 生成，数据来源含 HN 首页、HF Blog、GitHub Trending、arXiv）&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：7 · 相关方：AI 产品创意日报 / Hacker News&lt;/p&gt;&lt;p&gt;💡 AI 产品创意日报 | 2026-11-04 生成时间：2026 年 11 月 4 日 7:00 AM (Asia/Shanghai) 数据来源：Hacker News 首页、Hugging Face Blog、GitHub Trending（11/3）、arXiv CS.AI 📊 今日核心洞察 一句话主题：Agent 开始「动手」了，但没人能证明它动的手是对的 今天的信息流里，Agent 的主题悄悄换了位置：从「Agent 能说什么」变成「Agent 能做什么」。 GitHub Trending 第一名是 Vercel Labs 的 agent-desktop——一个让 agent 通过&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把当日技术信号转成产品创意与验证计划的成例，漏斗结构可抄&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;周报的下周可验证动作可借用其优先级排序格式&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对比其创意清单与我们的 watch_signals，重合不少于 2 条即说明选题有效&lt;/p&gt;&lt;p&gt;来源：克军三仓库最新日报（聚合 Atom） · 发布于 2026-11-03T23:01 UTC · 归类：research-papers&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/kejun/daily-investor/blob/main/ideas/2026-11-04-ai-product-ideas.md" rel="noopener noreferrer"&gt;https://github.com/kejun/daily-investor/blob/main/ideas/2026-11-04-ai-product-ideas.md&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-04:0f281cabd4f69d19</ns0:id>
+    <ns0:title>[开发者工具与版本] BYOK and enterprise custom models in the Copilot usage API</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://github.blog/changelog/2026-11-03-byok-and-enterprise-custom-models-in-the-copilot-usage-api" />
+    <ns0:published>2026-11-04T00:32:19Z</ns0:published>
+    <ns0:updated>2026-11-04T13:33:31.530620Z</ns0:updated>
+    <ns0:category term="dev-tools" label="开发者工具与版本" />
+    <ns0:summary type="text">The Copilot usage metrics API now shows bring your own key (BYOK) usage across GitHub Copilot, so you can separate it from Copilot-hosted model usage. Reports cover two kinds of… The post BYOK and enterprise custom models in the Copilot usage API appeared first on The GitHub Blog.</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;GitHub Copilot 用量 API 新增 BYOK 与企业自定义模型用量拆分&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2026-11-04 · 相关方：GitHub Copilot / BYOK&lt;/p&gt;&lt;p&gt;The Copilot usage metrics API now shows bring your own key (BYOK) usage across GitHub Copilot, so you can separate it from Copilot-hosted model usage. Reports cover two kinds of… The post BYOK and enterprise custom models in the Copilot usage API appeared first on The GitHub Blog.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;BYOK 用量可被单独计量，企业成本归因有了官方口径&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;cc-switch / 多 provider 场景的成本归因可参考其字段设计&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照其 API 字段，若能覆盖我们 5 类 provider 中至少 4 类则接入成本看板&lt;/p&gt;&lt;p&gt;来源：GitHub Changelog · 发布于 2026-11-04T00:32 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.blog/changelog/2026-11-03-byok-and-enterprise-custom-models-in-the-copilot-usage-api" rel="noopener noreferrer"&gt;https://github.blog/changelog/2026-11-03-byok-and-enterprise-custom-models-in-the-copilot-usage-api&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-04:76342e728d2769e6</ns0:id>
+    <ns0:title>[模型与研究] Axion1-0/Axion-1.0-35B · Hugging Face</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.reddit.com/r/LocalLLaMA/comments/1xnjiu4/axion10axion1035b_hugging_face" />
+    <ns0:published>2026-11-04T09:02:58Z</ns0:published>
+    <ns0:updated>2026-11-04T13:33:31.530620Z</ns0:updated>
+    <ns0:category term="ai-models" label="模型与研究" />
+    <ns0:summary type="text">We introduce Axion 1.0, a fully open agent foundation model that combines strong and broad agentic capabilities with a remarkably simple training recipe. Axion 1.0 is trained in only three stages: two lightweight supervised fine-tuning stages followed by reinforcement learning, without dedicated mid</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Axion 1.0-35B 开源：主打全面 agentic 能力的开放基础模型&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：1.0 / 35 · 相关方：Axion / Hugging Face&lt;/p&gt;&lt;p&gt;We introduce Axion 1.0, a fully open agent foundation model that combines strong and broad agentic capabilities with a remarkably simple training recipe. Axion 1.0 is trained in only three stages: two lightweight supervised fine-tuning stages followed by reinforcement learning, without dedicated mid&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;开放权重在 agent 专用基座上又补了一档 35B 选择&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;本地 agent 试验可加入该模型做横向对比&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;跑同一 agent 基准，若成功率不高于现有基线 5% 则不纳入选型&lt;/p&gt;&lt;p&gt;来源：r/LocalLLaMA · 发布于 2026-11-04T09:02 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.reddit.com/r/LocalLLaMA/comments/1xnjiu4/axion10axion1035b_hugging_face" rel="noopener noreferrer"&gt;https://www.reddit.com/r/LocalLLaMA/comments/1xnjiu4/axion10axion1035b_hugging_face&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-04:82af5102f1563486</ns0:id>
+    <ns0:title>[模型与研究] Using Strata IQ4 Qwen Flash to edit Qwen 3.5 0.6B weight based on MIT CSAIL</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.reddit.com/r/LocalLLaMA/comments/1xnjwte/using_strata_iq4_qwen_flash_to_edit_qwen_35_06b" />
+    <ns0:published>2026-11-04T09:28:48Z</ns0:published>
+    <ns0:updated>2026-11-04T13:33:31.530620Z</ns0:updated>
+    <ns0:category term="ai-models" label="模型与研究" />
+    <ns0:summary type="text">EDIT : NON COMPRESS GRAPH : https://n.uguu.se/ojTfpwwD.png Because why not. Preamble: DeepSeek Harness Creator Mode Strata IQ4 Qwen Flash Next 3090, Xeon E5, 96G (DDR4 2400 ECC, 3x32) "Training Token" 39.8M Context cache, 1.1M actual token. "Time to traing" 3h 12m Strata, 41 tok/s decode Qwen 0.6B R</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;r/LocalLLaMA：用 Strata IQ4 编辑 Qwen 3.5 0.6B 权重的实验记录&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：3.5 / 0.6 · 相关方：Qwen / Strata IQ4&lt;/p&gt;&lt;p&gt;EDIT : NON COMPRESS GRAPH : https://n.uguu.se/ojTfpwwD.png Because why not. Preamble: DeepSeek Harness Creator Mode Strata IQ4 Qwen Flash Next 3090, Xeon E5, 96G (DDR4 2400 ECC, 3x32) &amp;quot;Training Token&amp;quot; 39.8M Context cache, 1.1M actual token. &amp;quot;Time to traing&amp;quot; 3h 12m Strata, 41 tok/s decode Qwen 0.6B R&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;权重可编辑性从论文走向民间复现，小模型成为试验场&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对模型即数据的运维假设提出挑战，权重版本管理更重要&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;仅作观察项，若出现可复现的安全事件再升级关注&lt;/p&gt;&lt;p&gt;来源：r/LocalLLaMA · 发布于 2026-11-04T09:28 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;证据状态：推断&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.reddit.com/r/LocalLLaMA/comments/1xnjwte/using_strata_iq4_qwen_flash_to_edit_qwen_35_06b" rel="noopener noreferrer"&gt;https://www.reddit.com/r/LocalLLaMA/comments/1xnjwte/using_strata_iq4_qwen_flash_to_edit_qwen_35_06b&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-04:6385d8e47a02bbd3</ns0:id>
+    <ns0:title>[模型与研究] v2.1.318</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://github.com/anthropics/claude-code/releases/tag/v2.1.318" />
+    <ns0:published>2026-11-04T00:01:03Z</ns0:published>
+    <ns0:updated>2026-11-04T13:33:31.530620Z</ns0:updated>
+    <ns0:category term="dev-tools" label="模型与研究" />
+    <ns0:summary type="text">What's changed Added a record of your answer when Claude Code asks to turn on the mods it writes in a session Added assume_role on mantle upstreams of the Claude apps gateway, for a role in another AWS account and for per-developer AWS cost attribution Added an effort option to a mod's $.model.fork,</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;claude-code 发布 v2.1.318，新增会话修改记录等变更&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2.1.318 · 相关方：Claude Code&lt;/p&gt;&lt;p&gt;What&amp;#x27;s changed Added a record of your answer when Claude Code asks to turn on the mods it writes in a session Added assume_role on mantle upstreams of the Claude apps gateway, for a role in another AWS account and for per-developer AWS cost attribution Added an effort option to a mod&amp;#x27;s $.model.fork,&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;高频小版本迭代本身是信号：harness 层竞争在加速&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;kmaster-studio 桥接的 agent CLI 行为可能随版本漂移&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;升级后跑 bridge smoke，0 失败才进入主干&lt;/p&gt;&lt;p&gt;来源：claude-code Releases · 发布于 2026-11-04T00:01 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.318" rel="noopener noreferrer"&gt;https://github.com/anthropics/claude-code/releases/tag/v2.1.318&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-04:d41f5a6be2f677ec</ns0:id>
+    <ns0:title>[模型与研究] [技术日报] AI 技术日报 · 2026-11-04（周三）</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://github.com/kejun/daily-rss/blob/main/2026/11/2026-11-04.md" />
+    <ns0:published>2026-11-03T22:03:13Z</ns0:published>
+    <ns0:updated>2026-11-04T13:33:31.530620Z</ns0:updated>
+    <ns0:category term="ai-models" label="模型与研究" />
+    <ns0:summary type="text">AI 技术日报 · 2026-11-04（周三） 覆盖 29 个信源 · 去重聚合 · 全中文精编 今日主线：同一个数字，两种读法。 Anthropic 交出单季 170 亿美元营收（同比增长 11 倍），同时亏损扩大、单位算力毛利变差——"AI 需求是真的"和"AI 生意还不成立"这两句话，第一次可以同时成立。另一侧，开源权重把前沿继续往消费级硬件上搬：753B 科学模型、290B 本地 MoE、纯 C 从磁盘流式加载专家。而今天 HN 上票数最高的不是模型，是 Postman 偷偷装 AI 插件并尝试上传全部 API 数据（815 分）——信任，正在成为这个行业最稀缺的资源。 📌 今日速览</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;克军 AI 技术日报 2026-11-04：覆盖 29 个信源，Anthropic 单季 170 亿美元营收同比增长超 11 倍但亏损同步扩大&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：29 / 170 / 11 · 相关方：Anthropic&lt;/p&gt;&lt;p&gt;AI 技术日报 · 2026-11-04（周三） 覆盖 29 个信源 · 去重聚合 · 全中文精编 今日主线：同一个数字，两种读法。 Anthropic 交出单季 170 亿美元营收（同比增长 11 倍），同时亏损扩大、单位算力毛利变差——&amp;quot;AI 需求是真的&amp;quot;和&amp;quot;AI 生意还不成立&amp;quot;这两句话，第一次可以同时成立。另一侧，开源权重把前沿继续往消费级硬件上搬：753B 科学模型、290B 本地 MoE、纯 C 从磁盘流式加载专家。而今天 HN 上票数最高的不是模型，是 Postman 偷偷装 AI 插件并尝试上传全部 API 数据（815 分）——信任，正在成为这个行业最稀缺的资源。 📌 今日速览&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;同日多源交叉印证 AI 需求为真与 AI 生意未成立可以并存&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;接入为订阅源后，本系统可引用其去重结论做二级校验&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照我们的入选簇与其日报主题重合度，重合不低于 50% 说明信源结构有效&lt;/p&gt;&lt;p&gt;来源：克军三仓库最新日报（聚合 Atom） · 发布于 2026-11-03T22:03 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/kejun/daily-rss/blob/main/2026/11/2026-11-04.md" rel="noopener noreferrer"&gt;https://github.com/kejun/daily-rss/blob/main/2026/11/2026-11-04.md&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-04:85178b68c56ca0dc</ns0:id>
+    <ns0:title>[模型与研究] [Paper] SpecPilot: Autonomous Algorithm Discovery and Systems Optimization for Speculative Decoding 🚀🚀🚀</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.reddit.com/r/LocalLLaMA/comments/1xnjrgj/paper_specpilot_autonomous_algorithm_discovery" />
+    <ns0:published>2026-11-04T09:18:44Z</ns0:published>
+    <ns0:updated>2026-11-04T13:33:31.530620Z</ns0:updated>
+    <ns0:category term="ai-models" label="模型与研究" />
+    <ns0:summary type="text">Speculative decoding accelerates memory-bound LLM decoding with a lightweight drafter, and parallel drafters extend this speedup by drafting a whole block in one forward pass. However, it remains unclear whether their released systems (stock) attain the full speedup that parallel drafting permits. W</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;SpecPilot 论文帖：并行投机解码离理论加速上限仍有差距，识别出三项系统挑战&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2026-11-04 · 相关方：SpecPilot / speculative decoding&lt;/p&gt;&lt;p&gt;Speculative decoding accelerates memory-bound LLM decoding with a lightweight drafter, and parallel drafters extend this speedup by drafting a whole block in one forward pass. However, it remains unclear whether their released systems (stock) attain the full speedup that parallel drafting permits. W&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;投机解码的工程上限被重新校准，社区实测与论文宣称的差距被摆上台面&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;kmaster 推理服务若上并行 drafter，需按其三项挑战做验收&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在我们的负载上复测 draft 接受率，低于其报告值 20% 则判定收益不成立&lt;/p&gt;&lt;p&gt;来源：r/LocalLLaMA · 发布于 2026-11-04T09:18 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.reddit.com/r/LocalLLaMA/comments/1xnjrgj/paper_specpilot_autonomous_algorithm_discovery" rel="noopener noreferrer"&gt;https://www.reddit.com/r/LocalLLaMA/comments/1xnjrgj/paper_specpilot_autonomous_algorithm_discovery&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-04:88c23216a431785a</ns0:id>
+    <ns0:title>[模型与研究] Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop" />
+    <ns0:published>2026-11-04T08:46:29Z</ns0:published>
+    <ns0:updated>2026-11-04T13:33:31.530620Z</ns0:updated>
+    <ns0:category term="ai-models" label="模型与研究" />
+    <ns0:summary type="text">硬件侧可信固件正在变成对开放推理栈的隐性锁，比模型层封锁更难绕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;HN 热帖：Nvidia RTX Spark 加密固件使第三方推理速度降至官方的 35%&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：35 · 相关方：Nvidia / RTX Spark&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;硬件侧可信固件正在变成对开放推理栈的隐性锁，比模型层封锁更难绕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;本地推理选型需把 Nvidia 消费级卡的不确定性计入成本&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;若后续实测降幅收窄到 15% 以内则解除对 RTX 系本地推理的选型顾虑&lt;/p&gt;&lt;p&gt;来源：HN Algolia front_page (points/comments) · 发布于 2026-11-04T08:46 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop" rel="noopener noreferrer"&gt;https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-04:e36b6618722d511a</ns0:id>
+    <ns0:title>[Agent 与工程] Desiderata for the Theory of Agents</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.lesswrong.com/posts/sqjti8dxcKSvZJikd/desiderata-for-the-theory-of-agents" />
+    <ns0:published>2026-11-04T11:25:12Z</ns0:published>
+    <ns0:updated>2026-11-04T13:33:31.530620Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="Agent 与工程" />
+    <ns0:summary type="text">TLDR: I give informal conceptual desiderata for the theory of agents we need to solve ASI alignment, and show a few examples of how existing theories fall short of these desiderata. A Theory of What? The word "agent" is often used in the AI safety discourse and in other research communities, but the</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;LessWrong 长文提出 ASI 对齐所需的 agent 理论 desiderata，并指出现有理论的不足&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2026-11-04 · 相关方：ASI alignment / theory of agents&lt;/p&gt;&lt;p&gt;TLDR: I give informal conceptual desiderata for the theory of agents we need to solve ASI alignment, and show a few examples of how existing theories fall short of these desiderata. A Theory of What? The word &amp;quot;agent&amp;quot; is often used in the AI safety discourse and in other research communities, but the&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;指出 agent 一词在安全讨论中定义漂移，现有理论不满足基本 desiderata&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;写专家包与 A2A 规范时术语需先定义再使用，避免同类漂移&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照 A2A 文档做术语审计，出现至少 1 处歧义即修订&lt;/p&gt;&lt;p&gt;来源：LessWrong · 发布于 2026-11-04T11:25 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.lesswrong.com/posts/sqjti8dxcKSvZJikd/desiderata-for-the-theory-of-agents" rel="noopener noreferrer"&gt;https://www.lesswrong.com/posts/sqjti8dxcKSvZJikd/desiderata-for-the-theory-of-agents&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-04:933d4b5508fd6df0</ns0:id>
+    <ns0:title>[Agent 与工程] Learning by Doing: Autonomously Compiling and Curating Agent Skills from Verified Traces</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://arxiv.org/abs/2611.01386" />
+    <ns0:published>2026-11-04T05:00:00Z</ns0:published>
+    <ns0:updated>2026-11-04T13:33:31.530620Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="Agent 与工程" />
+    <ns0:summary type="text">arXiv:2611.01386v1 Announce Type: cross Abstract: Memory systems for production LLM agents mostly store semantic memory (facts about users and domains) or episodic memory (earlier interactions). Research systems such as Trace2Skill, WikiSkill, and SkillRevise learn procedures from agent runs, packag</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;arXiv 2611.01386：生产 LLM agent 通过边做边学自主编译并策展 agent skills 记忆&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2611.01386 · 相关方：arXiv / memory system&lt;/p&gt;&lt;p&gt;arXiv:2611.01386v1 Announce Type: cross Abstract: Memory systems for production LLM agents mostly store semantic memory (facts about users and domains) or episodic memory (earlier interactions). Research systems such as Trace2Skill, WikiSkill, and SkillRevise learn procedures from agent runs, packag&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把经验沉淀为可复用技能库，补上语义记忆之外的程序性记忆一层&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 kmaster-studio 的记忆层设计有直接参考：skill 自动生成值得原型验证&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在其基准上复现 skill 生成，若成功率低于原文报告 10% 以上则判定不可迁移&lt;/p&gt;&lt;p&gt;来源：arXiv cs.CL · 发布于 2026-11-04T05:00 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://arxiv.org/abs/2611.01386" rel="noopener noreferrer"&gt;https://arxiv.org/abs/2611.01386&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-04:24fd804e8078a564</ns0:id>
+    <ns0:title>[Agent 与工程] Agent Skill Evaluation and Evolution: Frameworks and Benchmarks</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://arxiv.org/abs/2606.11435" />
+    <ns0:published>2026-11-04T05:00:00Z</ns0:published>
+    <ns0:updated>2026-11-04T13:33:31.530620Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="Agent 与工程" />
+    <ns0:summary type="text">arXiv:2606.11435v2 Announce Type: replace Abstract: The growth of agent skills has transformed how agentic systems are built, evaluated, and deployed. As skill libraries continue to scale, rigorous evaluation becomes critical to ensuring their utility, quality, and safety in real-world applications.</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;arXiv 2606.11435 提出 agent skill 的评估与演化框架和基准&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2606.11435 · 相关方：arXiv / agent skill&lt;/p&gt;&lt;p&gt;arXiv:2606.11435v2 Announce Type: replace Abstract: The growth of agent skills has transformed how agentic systems are built, evaluated, and deployed. As skill libraries continue to scale, rigorous evaluation becomes critical to ensuring their utility, quality, and safety in real-world applications.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;skill 质量首次被系统性度量与迭代，而不是靠人工感觉&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;可直接用于专家包质量审查的评分维度设计&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;精读其 benchmark 维度，若不少于 3 个维度可复用则纳入 monitor-quality-audit&lt;/p&gt;&lt;p&gt;来源：arXiv cs.CL · 发布于 2026-11-04T05:00 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://arxiv.org/abs/2606.11435" rel="noopener noreferrer"&gt;https://arxiv.org/abs/2606.11435&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-04:adafdd4764cb9dbb</ns0:id>
+    <ns0:title>[Agent 与工程] Agentic cheminformatics with Google Antigravity</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity" />
+    <ns0:published>2026-11-03T17:01:49Z</ns0:published>
+    <ns0:updated>2026-11-04T13:33:31.530620Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="Agent 与工程" />
+    <ns0:summary type="text">Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Google DeepMind 发布 Antigravity 驱动的 agentic cheminformatics，用 Cheminformatics Skills 加速药物发现&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2026-11-03 · 相关方：Google Antigravity / Cheminformatics Skills&lt;/p&gt;&lt;p&gt;Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;官方把 Skills 作为领域 agent 的一等抽象推向垂直行业，验证技能化路线的产品价值&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;与 skill-creator / 专家包工作同向：领域技能包正在成为大厂产品形态&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照其 Skills 结构与 canonical AgentRole schema，若字段覆盖率不低于 80% 则考虑对齐&lt;/p&gt;&lt;p&gt;来源：Google DeepMind Blog · 发布于 2026-11-03T17:01 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity" rel="noopener noreferrer"&gt;https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-04:51a16b58b8504ef7</ns0:id>
+    <ns0:title>[Agent 与工程] Dependabot version updates support Agent Package Manager</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://github.blog/changelog/2026-11-03-dependabot-version-updates-support-agent-package-manager" />
+    <ns0:published>2026-11-03T20:24:07Z</ns0:published>
+    <ns0:updated>2026-11-04T13:33:31.530620Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="Agent 与工程" />
+    <ns0:summary type="text">You can now keep your AI agent skills, prompts, and instructions up to date with Dependabot version updates for Agent Package Manager (APM). Dependabot opens pull requests to update supported… The post Dependabot version updates support Agent Package Manager appeared first on The GitHub Blog.</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;GitHub Dependabot 版本更新支持 Agent Package Manager，可自动更新 agent skills、prompts 与 instructions&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2026-11-03 · 相关方：GitHub / Dependabot / Agent Package Manager&lt;/p&gt;&lt;p&gt;You can now keep your AI agent skills, prompts, and instructions up to date with Dependabot version updates for Agent Package Manager (APM). Dependabot opens pull requests to update supported… The post Dependabot version updates support Agent Package Manager appeared first on The GitHub Blog.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;skills/prompt 第一次有了包管理与自动升级通道，agent 配置开始像依赖一样被治理&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;直接命中 skill 资产化方向：WorkBuddy / hermes 的 skills 可考虑走 APM 式版本更新而非手工同步&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在测试仓库注册 1 个 skill 包，若 Dependabot 能自动开 PR 更新则判定可迁移到 skills 发布流程&lt;/p&gt;&lt;p&gt;来源：GitHub Changelog · 发布于 2026-11-03T20:24 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.blog/changelog/2026-11-03-dependabot-version-updates-support-agent-package-manager" rel="noopener noreferrer"&gt;https://github.blog/changelog/2026-11-03-dependabot-version-updates-support-agent-package-manager&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+</ns0:feed>

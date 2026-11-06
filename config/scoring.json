@@ -1,0 +1,47 @@
+{
+  "version": "1.0.0",
+  "formula": "score = 100 * Σ(weight_i * normalized_component_i)，各分量裁剪到 [0,1] 后加权求和；cluster_score 取簇内最高分并叠加 size_bonus",
+  "weights": {
+    "source_quality": 0.25,
+    "freshness": 0.20,
+    "engagement": 0.15,
+    "relevance": 0.20,
+    "novelty": 0.12,
+    "coverage": 0.08
+  },
+  "components": {
+    "source_quality": "min(1, source.weight / 1.2)；失效源不进入打分",
+    "freshness": "exp(-ln(2) * age_hours / half_life_hours)",
+    "engagement": "log1p(hn_points)/log1p(500)、log1p(comments)/log1p(300)、log1p(github_stars)/log1p(5000) 取最大值；无指标时用 source_quality * 0.5 兜底",
+    "relevance": "min(1, category_weight/1.2 * 0.5 + keyword_hits*0.08 + user_focus_bonus)",
+    "novelty": "近 7 天 seen.db 未出现过的规范化标题 → 1.0；同主题重复出现按 1/(1+repeat_count) 衰减",
+    "coverage": "同一簇内独立信源数 / min(5, 簇大小)，多源互证加分"
+  },
+  "freshness": {
+    "half_life_hours": 18,
+    "max_age_hours": 30,
+    "future_skew_tolerance_minutes": 30
+  },
+  "engagement_caps": {"hn_points": 500, "comments": 300, "github_stars": 5000},
+  "relevance": {"keyword_bonus_per_hit": 0.08, "user_focus_bonus": 0.15, "max_keyword_hits": 5},
+  "novelty": {"compare_days": 7, "rising_topic_bonus": 0.1, "rising_definition": "近 3 天簇数量较前 3 天增长 >= 100% 且簇数 >= 3"},
+  "cluster": {"size_bonus_per_extra_source": 0.04, "size_bonus_cap": 0.2, "penalty_single_source_claim": 0.05},
+  "selection": {
+    "daily_total": 40,
+    "per_category_quota_from_taxonomy": true,
+    "min_score": 45,
+    "must_include_top_n": 5,
+    "core_theme_count": 8,
+    "tie_breaker": ["cluster_score desc", "independent_source_count desc", "published_at desc", "id asc"]
+  },
+  "watchlist": {
+    "symbols": ["SPX", "NDX", "SOX", "VIX", "AAPL", "NVDA", "MSFT"],
+    "repos": ["anthropics/claude-code", "openai/codex", "langchain-ai/langchain", "modelcontextprotocol/servers"],
+    "companies": ["Anthropic", "OpenAI", "Google", "Meta", "Hugging Face", "NVIDIA", "WorkBuddy", "Tencent"],
+    "docs": ["MCP specification", "Model Context Protocol changelog", "WorkBuddy docs"]
+  },
+  "degraded_mode": {
+    "trigger": "可用信源数 / 启用信源数 < 0.7 或 AI 调用失败",
+    "behavior": "仍出报，但 digest.json 的 quality.ai_status 记为 degraded、headline 前缀加「[降级]」，且只输出规则生成的标题与原文摘要，不生成研判与编者观察"
+  }
+}

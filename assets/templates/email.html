@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>{date} 每日信息</title></head>
+<body style="margin:0;padding:0;background:#f7f8f6;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;color:#1f2521;">
+<div style="max-width:680px;margin:0 auto;padding:26px 18px;">
+  <div style="font-size:12px;letter-spacing:.14em;color:#8d968e;margin-bottom:14px;">每日信息 · DIGEST</div>
+  <div style="background:#fff;border:1px solid #e5e8e2;border-radius:14px;padding:26px 28px;">
+    <div style="font-size:12px;color:#8d968e;margin-bottom:10px;">{date} · Asia/Shanghai</div>
+    <h1 style="font-size:23px;line-height:1.45;margin:0 0 16px;font-weight:650;">{headline}</h1>
+    <div style="font-size:12px;color:#8d968e;border-top:1px solid #e5e8e2;padding-top:14px;">
+      入报 {item_count} 条 · 主线 {theme_count} 条 · 信源 {sources_ok}/{sources_total} 可用 · AI 状态 {ai_status}
+    </div>
+    <div style="margin-top:18px;font-size:14px;line-height:1.8;">{themes_html}</div>
+    <div style="margin-top:20px;font-size:14px;line-height:1.8;">{sections_html}</div>
+    <div style="margin-top:22px;padding:16px 18px;background:#f1f3ef;border-left:3px solid #3f7d63;border-radius:8px;font-size:13.5px;color:#5c665e;">
+      <strong style="color:#1f2521;">编者观察</strong><br>{editor_note}
+    </div>
+    <div style="margin-top:22px;font-size:13px;">
+      <a href="{site_url}" style="color:#3f7d63;">在线阅读完整日报 →</a>
+      &nbsp;·&nbsp;<a href="{feed_url}" style="color:#3f7d63;">订阅 Atom</a>
+    </div>
+  </div>
+  <div style="font-size:11.5px;color:#8d968e;line-height:1.8;padding:18px 4px;">
+    本邮件由规则层采集/去重/打分 + AI 研判生成，所有条目附原文链接；外部事实未独立验证。<br>
+    内容仅供参考，不构成投资建议。取不到可靠数据处标注「暂无可靠数据」。<br>
+    附件为当日 Atom 全文订阅源文件（可直接导入阅读器）。
+  </div>
+</div>
+</body></html>

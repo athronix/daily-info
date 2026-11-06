@@ -1,0 +1,90 @@
+{
+  "site": {
+    "title": "每日信息",
+    "subtitle": "挖掘 · 聚合 · 研判 · 订阅",
+    "timezone": "Asia/Shanghai",
+    "version": "1.0.0"
+  },
+  "generated_at": "2026-11-05T11:52:53.812318Z",
+  "dates": [
+    {
+      "date": "2026-11-05",
+      "headline": "开源权重压低了能力门槛，验收与配置抬高了落地门槛",
+      "lead": "0.60 美元每百万输出 token、14% 的交付率、620 亿欧元认购与 26.8.1 版本一次修掉 19 个 CVE：今天最硬的读数都指向同一件事——能力扩散在加速，真正决定能不能用的是验收链、配置与默认行为。按收紧后的白名单口径，9 条只靠日期年份充数的条目已被拒入报，入报 23 条全部带实质读数。",
+      "demo": false,
+      "stats": {
+        "sources_ok": 184,
+        "sources_total": 185,
+        "total_items": 3125,
+        "clusters": 3002,
+        "selected": 40,
+        "published_items": 23,
+        "seven_element_pass": 23,
+        "seven_element_ratio": 1.0,
+        "items_with_numbers": 23,
+        "substantive_number_ratio": 1.0,
+        "rejected_no_number": 0,
+        "unique_reference_domains": 13
+      },
+      "section_count": 9,
+      "item_count": 23,
+      "ai_status": "ok",
+      "seven_element_ratio": 1.0,
+      "theme_count": 7,
+      "watch_signal_count": 6,
+      "reference_domains": 13
+    },
+    {
+      "date": "2026-11-04",
+      "headline": "Agent 技能进入包管理时代，harness 与信任成本同日升温",
+      "lead": "今日 40 个候选簇中，skill 治理（Dependabot APM + 2 篇 arXiv）、harness 之争（agent-desktop 12,669 星拆解、优化 harness 论文）、信任三案（Gemini 训练 / Muse 许可证 / RTX 固件降至 35%）与选举日市场四线联动构成四条主线。",
+      "demo": false,
+      "stats": {
+        "sources_ok": 67,
+        "sources_total": 68,
+        "total_items": 804,
+        "clusters": 799,
+        "selected": 40,
+        "published_items": 35,
+        "seven_element_pass": 35,
+        "seven_element_ratio": 1.0,
+        "items_with_numbers": 35,
+        "unique_reference_domains": 14
+      },
+      "section_count": 10,
+      "item_count": 35,
+      "ai_status": "ok",
+      "seven_element_ratio": 1.0,
+      "theme_count": 6,
+      "watch_signal_count": 5,
+      "reference_domains": 14
+    }
+  ],
+  "feeds": [
+    {
+      "id": "all",
+      "label": "全量日报",
+      "url": "all.atom"
+    },
+    {
+      "id": "high-signal",
+      "label": "高信噪",
+      "url": "high-signal.atom"
+    },
+    {
+      "id": "tech",
+      "label": "只看技术",
+      "url": "tech.atom"
+    },
+    {
+      "id": "invest",
+      "label": "只看市场",
+      "url": "invest.atom"
+    },
+    {
+      "id": "docs",
+      "label": "文档变更雷达",
+      "url": "docs.atom"
+    }
+  ]
+}

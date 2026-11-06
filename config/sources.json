@@ -1,0 +1,3723 @@
+{
+  "version": "1.0.0",
+  "timezone": "Asia/Shanghai",
+  "window_hours": 30,
+  "defaults": {
+    "timeout_sec": 20,
+    "retries": 2,
+    "backoff_sec": 2,
+    "concurrency": 8,
+    "user_agent": "Mozilla/5.0 (compatible; PersonalDailyInfo/1.0; +local)",
+    "respect_robots": true,
+    "min_interval_sec": 1
+  },
+  "tiers": {
+    "A": "官方/稳定 feed，直接解析 XML 或 JSON，主链路",
+    "B": "结构化 API，需注意限流或动态参数，含 GitHub Releases / arXiv API",
+    "C": "HTML 抓取或易变源，需专用解析器，失败可整源降级不阻断日报",
+    "X": "实测已失效或不返回 feed，禁用并保留证据，等待替代源"
+  },
+  "sources": [
+    {
+      "id": "tldr-ai",
+      "name": "TLDR AI",
+      "url": "https://tldr.tech/api/rss/ai",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "ai-models",
+      "lang": "en",
+      "weight": 1.0,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "text/xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "rundown-ai",
+      "name": "The Rundown AI",
+      "url": "https://rss.beehiiv.com/feeds/2R3C6Bt5wj.xml",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "ai-models",
+      "lang": "en",
+      "weight": 0.9,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "hn-front",
+      "name": "Hacker News Front Page",
+      "url": "https://hnrss.org/frontpage",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "community",
+      "lang": "en",
+      "weight": 1.0,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "mit-tr-ai",
+      "name": "MIT Technology Review AI",
+      "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed/",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "industry-capital",
+      "lang": "en",
+      "weight": 1.1,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "wired-ai",
+      "name": "WIRED AI",
+      "url": "https://www.wired.com/feed/tag/ai/latest/rss",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "industry-capital",
+      "lang": "en",
+      "weight": 0.9,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "ars-ai",
+      "name": "Ars Technica AI",
+      "url": "https://arstechnica.com/ai/feed/",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "industry-capital",
+      "lang": "en",
+      "weight": 1.0,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "techcrunch-ai",
+      "name": "TechCrunch AI",
+      "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "industry-capital",
+      "lang": "en",
+      "weight": 1.0,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "marktechpost",
+      "name": "MarkTechPost",
+      "url": "https://www.marktechpost.com/feed/",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "ai-models",
+      "lang": "en",
+      "weight": 0.8,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "hf-blog",
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "ai-models",
+      "lang": "en",
+      "weight": 1.1,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "infoq-aiml",
+      "name": "InfoQ AI/ML/Data Eng",
+      "url": "https://feed.infoq.com/ai-ml-data-eng/",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "agent-engineering",
+      "lang": "en",
+      "weight": 1.0,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "interconnects",
+      "name": "Interconnects (Nathan Lambert)",
+      "url": "https://www.interconnects.ai/feed",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "deep-read",
+      "lang": "en",
+      "weight": 1.2,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "ahead-of-ai",
+      "name": "Ahead of AI (Sebastian Raschka)",
+      "url": "https://magazine.sebastianraschka.com/feed",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "deep-read",
+      "lang": "en",
+      "weight": 1.2,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "last-week-in-ai",
+      "name": "Last Week in AI",
+      "url": "https://lastweekin.ai/feed",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "ai-models",
+      "lang": "en",
+      "weight": 0.9,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "arxiv-cs-ai",
+      "name": "arXiv cs.AI",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "research-papers",
+      "lang": "en",
+      "weight": 0.8,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "arxiv-cs-cl",
+      "name": "arXiv cs.CL",
+      "url": "https://export.arxiv.org/rss/cs.CL",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "research-papers",
+      "lang": "en",
+      "weight": 0.8,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "openai-blog",
+      "name": "OpenAI Blog",
+      "url": "https://openai.com/blog/rss.xml",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "ai-models",
+      "lang": "en",
+      "weight": 1.1,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "text/xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "github-blog",
+      "name": "GitHub Blog",
+      "url": "https://github.blog/feed/",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "dev-tools",
+      "lang": "en",
+      "weight": 0.9,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "the-verge",
+      "name": "The Verge",
+      "url": "https://www.theverge.com/rss/index.xml",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "industry-capital",
+      "lang": "en",
+      "weight": 0.8,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "producthunt",
+      "name": "Product Hunt",
+      "url": "https://www.producthunt.com/feed",
+      "kind": "atom",
+      "tier": "A",
+      "category_hint": "dev-tools",
+      "lang": "en",
+      "weight": 0.6,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/atom+xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "nature-mi",
+      "name": "Nature Machine Intelligence",
+      "url": "https://www.nature.com/natmachintell.rss",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "research-papers",
+      "lang": "en",
+      "weight": 1.0,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "sspai",
+      "name": "少数派",
+      "url": "https://sspai.com/feed",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "community",
+      "lang": "zh",
+      "weight": 0.7,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "qbitai",
+      "name": "量子位",
+      "url": "https://www.qbitai.com/feed",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "ai-models",
+      "lang": "zh",
+      "weight": 0.8,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "solidot",
+      "name": "Solidot 奇客资讯",
+      "url": "https://www.solidot.org/index.rss",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "community",
+      "lang": "zh",
+      "weight": 0.7,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "geekpark",
+      "name": "极客公园",
+      "url": "https://www.geekpark.net/rss",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "industry-capital",
+      "lang": "zh",
+      "weight": 0.7,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "appinn",
+      "name": "小众软件",
+      "url": "https://feeds.appinn.com/appinns/",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "dev-tools",
+      "lang": "zh",
+      "weight": 0.6,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-04",
+        "note": "跳转到 feeds-origin.appinn.com，属正常"
+      }
+    },
+    {
+      "id": "wsj-markets",
+      "name": "WSJ Markets",
+      "url": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "market-invest",
+      "lang": "en",
+      "weight": 0.9,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "cnbc-markets",
+      "name": "CNBC Markets",
+      "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "market-invest",
+      "lang": "en",
+      "weight": 0.9,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "openai-news",
+      "name": "OpenAI News（官方 RSS）",
+      "url": "https://openai.com/news/rss.xml",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "ai-models",
+      "lang": "en",
+      "weight": 1.2,
+      "enabled": true,
+      "note": "来自推荐清单；实测官方 RSS 可用，比 blog/rss.xml 更权威",
+      "health": {
+        "status": 200,
+        "content_type": "text/xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "google-ai-blog",
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "ai-models",
+      "lang": "en",
+      "weight": 1.1,
+      "enabled": true,
+      "note": "推荐清单 DeepMind 项的可用替代：302 到 blog.google/innovation-and-ai/technology/ai/rss/",
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "deepmind-blog",
+      "name": "Google DeepMind Blog",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/rss/",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "ai-models",
+      "lang": "en",
+      "weight": 1.2,
+      "enabled": true,
+      "note": "2026-11-05 纠错：旧链 deepmind.google/blog/rss.xml 返回 200 但响应体是未声明 Content-Encoding 的 gzip，parse_feed 会失败；换用 blog.google 官方 DeepMind 板块 feed（实测 200 标准 XML）。同时在 common.decode_payload 增加 gzip 魔数兜底，避免其它源重踩。",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "ms-research",
+      "name": "Microsoft Research",
+      "url": "https://www.microsoft.com/en-us/research/feed/",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "research-papers",
+      "lang": "en",
+      "weight": 1.0,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "bensbites",
+      "name": "Ben's Bites",
+      "url": "https://www.bensbites.com/feed",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "ai-models",
+      "lang": "en",
+      "weight": 0.9,
+      "enabled": true,
+      "note": "推荐清单命中；也是 daily-rss 的 5 份 Newsletter 之一",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "latent-space",
+      "name": "Latent Space",
+      "url": "https://latent.space/feed",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "deep-read",
+      "lang": "en",
+      "weight": 1.2,
+      "enabled": true,
+      "note": "AI 工程深度访谈，补充 deep-read 板块",
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "simonwillison",
+      "name": "Simon Willison's Weblog",
+      "url": "https://simonwillison.net/atom/everything/",
+      "kind": "atom",
+      "tier": "A",
+      "category_hint": "agent-engineering",
+      "lang": "en",
+      "weight": 1.2,
+      "enabled": true,
+      "note": "daily-rss 高频引用域名（120 次），直接订阅其 Atom",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "lesswrong",
+      "name": "LessWrong",
+      "url": "https://www.lesswrong.com/feed.xml",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "deep-read",
+      "lang": "en",
+      "weight": 0.9,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "pragmatic-engineer",
+      "name": "The Pragmatic Engineer",
+      "url": "https://newsletter.pragmaticengineer.com/feed",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "dev-tools",
+      "lang": "en",
+      "weight": 1.1,
+      "enabled": true,
+      "note": "daily-investor ideas 流高频引用源",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "a16z-news",
+      "name": "a16z Newsletter",
+      "url": "https://www.a16z.news/feed",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "industry-capital",
+      "lang": "en",
+      "weight": 1.0,
+      "enabled": true,
+      "note": "投融资视角的一手判断",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "hnrss-best",
+      "name": "HN Best（历史最优）",
+      "url": "https://hnrss.org/best",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "community",
+      "lang": "en",
+      "weight": 1.0,
+      "enabled": true,
+      "note": "与 frontpage 互补，降低单日噪声",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "reddit-localllama",
+      "name": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/hot.rss",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "ai-models",
+      "lang": "en",
+      "weight": 0.9,
+      "enabled": true,
+      "note": "实测 200；同域其它子版易 429，抓取需低速 + 缓存",
+      "health": {
+        "status": 200,
+        "content_type": "application/atom+xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "reddit-artificial",
+      "name": "r/artificial",
+      "url": "https://www.reddit.com/r/artificial.rss",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "community",
+      "lang": "en",
+      "weight": 0.7,
+      "enabled": false,
+      "health": {
+        "status": 200,
+        "content_type": "application/atom+xml",
+        "checked_at": "2026-11-04"
+      },
+      "note": "2026-11-05 复测仍 429：与 r/opensource 同域持续限流，禁用并保留证据；Reddit 面由实测可用的 r/LocalLLaMA 单点承载，避免无谓失败。 【同上】"
+    },
+    {
+      "id": "medium-openai",
+      "name": "Medium · OpenAI",
+      "url": "https://medium.com/feed/@OpenAI",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "ai-models",
+      "lang": "en",
+      "weight": 0.7,
+      "enabled": true,
+      "note": "推荐清单 Medium 项的正确用法：订阅具体作者/机构 feed，而非 medium.com 首页",
+      "health": {
+        "status": 200,
+        "content_type": "text/xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "google-news-ai-funding",
+      "name": "Google News · AI 融资",
+      "url": "https://news.google.com/rss/search?q=AI%20startup%20funding%20when%3A2d&hl=en-US&gl=US&ceid=US:en",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "industry-capital",
+      "lang": "en",
+      "weight": 0.9,
+      "enabled": true,
+      "note": "推荐清单 Google News 项的高效用法：用 rss/search?q= 把查询当订阅，可换关键词复用",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "github-changelog",
+      "name": "GitHub Changelog",
+      "url": "https://github.blog/changelog/feed/",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "docs-changelog",
+      "lang": "en",
+      "weight": 1.2,
+      "enabled": true,
+      "note": "文档变更雷达主力源，比 github.blog 全站 feed 更聚焦",
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "mit-tr-all",
+      "name": "MIT Technology Review（全站）",
+      "url": "https://www.technologyreview.com/feed/",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "deep-read",
+      "lang": "en",
+      "weight": 1.0,
+      "enabled": true,
+      "note": "推荐清单命中；与已有 mit-tr-ai 互补覆盖非 AI 高新科技",
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "ars-technica-all",
+      "name": "Ars Technica（全站）",
+      "url": "https://arstechnica.com/feed/",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "dev-tools",
+      "lang": "en",
+      "weight": 0.9,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "theverge-ai",
+      "name": "The Verge AI",
+      "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "industry-capital",
+      "lang": "en",
+      "weight": 0.8,
+      "enabled": true,
+      "note": "比 the-verge 全站 feed 更聚焦",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "quantamagazine",
+      "name": "Quanta Magazine",
+      "url": "https://www.quantamagazine.org/feed/",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "research-papers",
+      "lang": "en",
+      "weight": 1.1,
+      "enabled": true,
+      "note": "高新科学与数学深度报道",
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "phys-org",
+      "name": "Phys.org",
+      "url": "https://phys.org/rss-feed/",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "research-papers",
+      "lang": "en",
+      "weight": 0.7,
+      "enabled": true,
+      "note": "科技新闻量大，靠打分与配额压噪",
+      "health": {
+        "status": 200,
+        "content_type": "text/xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "sciencedaily-ai",
+      "name": "ScienceDaily AI",
+      "url": "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "research-papers",
+      "lang": "en",
+      "weight": 0.7,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "bloomberg-markets",
+      "name": "Bloomberg Markets",
+      "url": "https://feeds.bloomberg.com/markets/news.rss",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "market-invest",
+      "lang": "en",
+      "weight": 1.1,
+      "enabled": true,
+      "note": "推荐清单 Crunchbase/Bloomberg 类需求的市场面替代",
+      "health": {
+        "status": 200,
+        "content_type": "text/xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "ft-home",
+      "name": "Financial Times",
+      "url": "https://www.ft.com/rss/home",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "market-invest",
+      "lang": "en",
+      "weight": 1.0,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "text/xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "marketwatch-top",
+      "name": "Marketwatch Top Stories",
+      "url": "https://www.marketwatch.com/rss/topstories",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "market-invest",
+      "lang": "en",
+      "weight": 0.9,
+      "enabled": true,
+      "note": "302 到 feeds.content.dowjones.io，属正常",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "techcrunch-venture",
+      "name": "TechCrunch Venture",
+      "url": "https://techcrunch.com/category/venture/feed/",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "industry-capital",
+      "lang": "en",
+      "weight": 1.1,
+      "enabled": true,
+      "note": "投融资专用板块 feed，比 techcrunch-ai 更对口",
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "cbinsights-research",
+      "name": "CB Insights Research",
+      "url": "https://www.cbinsights.com/research/feed/",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "industry-capital",
+      "lang": "en",
+      "weight": 1.0,
+      "enabled": true,
+      "note": "推荐清单「海外产品与创业案例」中唯一实测可用的 feed",
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "growthhackers",
+      "name": "GrowthHackers",
+      "url": "https://growthhackers.com/feed",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "community",
+      "lang": "en",
+      "weight": 0.6,
+      "enabled": true,
+      "note": "推荐清单营销增长类可用项",
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "fs-blog",
+      "name": "Farnam Street",
+      "url": "https://fs.blog/feed/",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "deep-read",
+      "lang": "en",
+      "weight": 0.9,
+      "enabled": true,
+      "note": "推荐清单「深度观点与认知升级」可用项",
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "aeon",
+      "name": "Aeon",
+      "url": "https://aeon.co/feed.rss",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "deep-read",
+      "lang": "en",
+      "weight": 0.7,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "kejun-docs-feed",
+      "name": "克军三仓库最新日报（聚合 Atom）",
+      "url": "https://raw.githubusercontent.com/kejun/docs-feed/main/releases.atom",
+      "kind": "atom",
+      "tier": "A",
+      "category_hint": "deep-read",
+      "lang": "zh",
+      "weight": 1.1,
+      "enabled": true,
+      "note": "★ 用户指定的三个 GitHub repo（daily-rss / blogpost / daily-investor ideas）最新 md 文档，经 docs-feed 聚合为全文 Atom，一个源覆盖三仓库；订阅用 raw 地址，勿用仓库页 releases.atom",
+      "health": {
+        "status": 200,
+        "content_type": "application/octet-stream",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "hn-algolia",
+      "name": "HN Algolia front_page (points/comments)",
+      "url": "https://hn.algolia.com/api/v1/search?tags=front_page&hitsPerPage=30",
+      "kind": "json_api",
+      "tier": "B",
+      "category_hint": "community",
+      "lang": "en",
+      "weight": 1.0,
+      "enabled": true,
+      "join_key": "url",
+      "note": "为 hn-front 补充 points / num_comments 指标",
+      "health": {
+        "status": 200,
+        "content_type": "application/json",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "arxiv-api-ai",
+      "name": "arXiv Atom API cs.AI",
+      "url": "https://export.arxiv.org/api/query?search_query=cat:cs.AI&start=0&max_results=30&sortBy=submittedDate&sortOrder=descending",
+      "kind": "atom",
+      "tier": "B",
+      "category_hint": "research-papers",
+      "lang": "en",
+      "weight": 1.0,
+      "enabled": true,
+      "note": "比 rss 版多摘要与作者字段",
+      "health": {
+        "status": 200,
+        "content_type": "application/atom+xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "gh-releases-claude-code",
+      "name": "claude-code Releases",
+      "url": "https://github.com/anthropics/claude-code/releases.atom",
+      "kind": "git_atom",
+      "tier": "B",
+      "category_hint": "docs-changelog",
+      "lang": "en",
+      "weight": 1.2,
+      "enabled": true,
+      "note": "文档变更雷达的代表源，可按需增加更多仓库",
+      "health": {
+        "status": 200,
+        "content_type": "application/atom+xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "gh-search-new-repos",
+      "name": "GitHub 新建高星仓库",
+      "url": "https://api.github.com/search/repositories?q=created:>{since7d}+stars:>100&sort=stars&order=desc&per_page=20",
+      "kind": "json_api",
+      "tier": "B",
+      "category_hint": "dev-tools",
+      "lang": "en",
+      "weight": 0.8,
+      "enabled": true,
+      "dynamic_params": [
+        "since7d"
+      ],
+      "note": "未带 token 时 10 req/min 限流；模板变量由 fetch 脚本注入 可选凭据：设置环境变量 GITHUB_TOKEN 后自动带 Authorization，匿名限流 10 req/min → 认证后 30 req/min；未设置则自动回退匿名，不影响采集。 2026-11-05 实证：GITHUB_TOKEN 配于 ~/.workbuddy/.env，由 common.load_dotenv 加载；匿名 10 req/min → 认证 30 req/min。",
+      "health": {
+        "status": 200,
+        "content_type": "application/json",
+        "checked_at": "2026-11-04"
+      },
+      "headers": {
+        "Authorization": "Bearer ${GITHUB_TOKEN}",
+        "Accept": "application/vnd.github+json"
+      }
+    },
+    {
+      "id": "yahoo-chart",
+      "name": "Yahoo Finance Chart API",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?range=5d&interval=1d",
+      "kind": "json_api",
+      "tier": "B",
+      "category_hint": "market-invest",
+      "lang": "en",
+      "weight": 0.8,
+      "enabled": false,
+      "dynamic_params": [
+        "symbol"
+      ],
+      "note": "按需启用；symbol 列表在 scoring.json/watchlist，属非官方接口勿高频调用 【按需源维持禁用】",
+      "health": {
+        "status": 200,
+        "content_type": "application/json",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "google-trends-daily",
+      "name": "Google Trends 每日热榜(US)",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "kind": "rss",
+      "tier": "B",
+      "category_hint": "community",
+      "lang": "en",
+      "weight": 0.7,
+      "enabled": true,
+      "note": "推荐清单 Google Trends 的机器可读入口（RSS 官方存在）；geo 可换",
+      "health": {
+        "status": 200,
+        "content_type": "text/xml",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "hf-daily-papers",
+      "name": "Hugging Face Daily Papers",
+      "url": "https://huggingface.co/api/daily_papers",
+      "kind": "json_api",
+      "tier": "B",
+      "category_hint": "research-papers",
+      "lang": "en",
+      "weight": 1.2,
+      "enabled": true,
+      "note": "社区精选论文 + upvotes 热度，比 arXiv RSS 信噪比高得多",
+      "health": {
+        "status": 200,
+        "content_type": "application/json",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "openalex",
+      "name": "OpenAlex 学术检索",
+      "url": "https://api.openalex.org/works?search=AI%20agent%20memory&filter=from_publication_date:{since7d}&per-page=25&sort=publication_date:desc&mailto=${EMAIL}",
+      "kind": "json_api",
+      "tier": "B",
+      "category_hint": "research-papers",
+      "lang": "en",
+      "weight": 0.9,
+      "enabled": true,
+      "dynamic_params": [
+        "since7d"
+      ],
+      "note": "2026-11-04 实测 200 JSON，无需 API Key；查询词可按 watchlist 调整 2026-11-05 注：短时间内重复请求会触发 429，正式定时跑一天一次即可避免。 2026-11-05：mailto 由 .env EMAIL 注入，进入官方 polite pool 降低 429；落盘 URL 保留 ${EMAIL} 占位、请求 URL 由 redact_credentials 还原占位后才写入记录。",
+      "health": {
+        "status": 200,
+        "content_type": "application/json",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "sec-submissions-returns",
+      "name": "SEC EDGAR · Apple 财报提交",
+      "url": "https://data.sec.gov/submissions/CIK0000320193.json",
+      "kind": "json_api",
+      "tier": "B",
+      "category_hint": "market-invest",
+      "lang": "en",
+      "weight": 0.8,
+      "enabled": true,
+      "note": "data.sec.gov 官方 JSON（实测 200）；SEC 要求 UA 含联系信息。2026-11-05：UA 改为 ${USER} ${EMAIL} 组合占位，值由 ~/.workbuddy/.env 经 common.load_dotenv 注入进程环境；任一变量缺失则整个 UA header 丢弃、该请求仍以默认 UA 匿名发出。凭据值经 redact_credentials 脱敏，不落任何报告。",
+      "health": {
+        "status": 200,
+        "content_type": "application/json",
+        "checked_at": "2026-11-04"
+      },
+      "headers": {
+        "User-Agent": "${USER} ${EMAIL}"
+      }
+    },
+    {
+      "id": "gh-search-topic-mcp",
+      "name": "GitHub 搜索 · topic:mcp",
+      "url": "https://api.github.com/search/repositories?q=topic:mcp&sort=updated&order=desc&per_page=15",
+      "kind": "json_api",
+      "tier": "B",
+      "category_hint": "agent-engineering",
+      "lang": "en",
+      "weight": 1.0,
+      "enabled": true,
+      "note": "开源项目雷达：跟踪 MCP 生态新仓库/更新 可选凭据：设置环境变量 GITHUB_TOKEN 后自动带 Authorization，匿名限流 10 req/min → 认证后 30 req/min；未设置则自动回退匿名，不影响采集。 2026-11-05 实证：GITHUB_TOKEN 配于 ~/.workbuddy/.env，由 common.load_dotenv 加载；匿名 10 req/min → 认证 30 req/min。",
+      "health": {
+        "status": 200,
+        "content_type": "application/json",
+        "checked_at": "2026-11-04"
+      },
+      "headers": {
+        "Authorization": "Bearer ${GITHUB_TOKEN}",
+        "Accept": "application/vnd.github+json"
+      }
+    },
+    {
+      "id": "github-trending",
+      "name": "GitHub Trending (daily)",
+      "url": "https://github.com/trending?since=daily",
+      "kind": "html",
+      "tier": "C",
+      "category_hint": "dev-tools",
+      "lang": "en",
+      "weight": 0.8,
+      "enabled": true,
+      "parser": "html_github_trending",
+      "note": "HTML 结构易变，解析失败整源降级",
+      "health": {
+        "status": 200,
+        "content_type": "text/html",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "anthropic-news",
+      "name": "Anthropic News",
+      "url": "https://www.anthropic.com/news",
+      "kind": "html",
+      "tier": "C",
+      "category_hint": "ai-models",
+      "lang": "en",
+      "weight": 1.1,
+      "enabled": true,
+      "parser": "html_anthropic_news",
+      "note": "官方无 rss.xml，需 HTML 列表解析",
+      "health": {
+        "status": 200,
+        "content_type": "text/html",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "sec-edgar-current",
+      "name": "SEC EDGAR Current Filings",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent",
+      "kind": "html",
+      "tier": "C",
+      "category_hint": "market-invest",
+      "lang": "en",
+      "weight": 0.7,
+      "enabled": false,
+      "parser": "html_sec_edgar",
+      "note": "需声明 User-Agent 与联系信息；建议改用 data.sec.gov submissions JSON 【已由 sec-submissions-returns API 承载】",
+      "health": {
+        "status": 200,
+        "content_type": "text/html",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "venturebeat-ai",
+      "name": "VentureBeat AI",
+      "url": "https://venturebeat.com/category/ai/feed/",
+      "kind": "rss",
+      "tier": "C",
+      "category_hint": "industry-capital",
+      "lang": "en",
+      "weight": 0.8,
+      "enabled": false,
+      "note": "实测 429 限流，启用需低速抓取 + 缓存 【已由 gnews-venturebeat-ai 恢复】",
+      "health": {
+        "status": 429,
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "baai-hub",
+      "name": "智源社区 · 最新分享（匿名 API）",
+      "url": "https://hub-api.baai.ac.cn/api/v1/story/list",
+      "kind": "json_api",
+      "tier": "B",
+      "category_hint": "ai-models",
+      "lang": "zh",
+      "weight": 1.2,
+      "enabled": true,
+      "method": "POST",
+      "body": {
+        "sort": "new",
+        "page": 1
+      },
+      "headers": {
+        "Origin": "https://hub.baai.ac.cn",
+        "Referer": "https://hub.baai.ac.cn/"
+      },
+      "note": "★ 2026-11-05 逆向纠错：11-04 判定「首页无文章数据、需无头浏览器」有误。首页 __NUXT__ 内嵌 6 条 story_info；从 /_nuxt/ab9f904.js 逆向出后端 hub-api.baai.ac.cn，匿名 POST /api/v1/story/list 返回 code:0 + data[].story_info（标题/摘要/原文链接/时间/标签），无需账户。GET 会 405，必须 POST。",
+      "health": {
+        "status": 200,
+        "content_type": "application/json",
+        "checked_at": "2026-11-05"
+      }
+    },
+    {
+      "id": "aigc-link",
+      "name": "AIGCLINK AI 日报（Notion 渲染）",
+      "url": "https://r.jina.ai/https://d.aigclink.ai/",
+      "kind": "html",
+      "tier": "C",
+      "category_hint": "dev-tools",
+      "lang": "zh",
+      "weight": 1.0,
+      "enabled": true,
+      "parser": "md_aigc_link",
+      "note": "★ 2026-11-05 接入：Notion SPA 首屏无内容，已逆向出匿名 API（POST /api/v3/loadPageChunk + queryCollection，pageId=fe1ce99b…，collection=bf0ecb26…，实测 592KB/367 blocks）。但该 API 的 sort 对匿名请求不生效（只返回最早 50 行、2024 年起始），故主链路改用 r.jina.ai 的 Markdown 渲染结果：最新优先，每条含标题/日期/标签/摘要/站内原文链接。第三方 reader 有速率限制，失败整源降级不阻断日报。",
+      "health": {
+        "status": 200,
+        "content_type": "text/plain",
+        "checked_at": "2026-11-05"
+      }
+    },
+    {
+      "id": "github-trends-atom",
+      "name": "GitHub Trending Atom (旧)",
+      "url": "https://github-trends-atom.vercel.app/trending",
+      "kind": "atom",
+      "tier": "X",
+      "category_hint": "dev-tools",
+      "lang": "en",
+      "weight": 0.0,
+      "enabled": false,
+      "note": "参考仓库 daily-rss README 中的源，实测 404 已失效；替代为 github-trending + gh-search-new-repos 【已有 github-trending HTML 源】",
+      "health": {
+        "status": 404,
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "anthropic-rss",
+      "name": "Anthropic RSS (不存在)",
+      "url": "https://www.anthropic.com/rss.xml",
+      "kind": "rss",
+      "tier": "X",
+      "category_hint": "ai-models",
+      "lang": "en",
+      "weight": 0.0,
+      "enabled": false,
+      "note": "实测 404，官方未提供 feed；替代为 anthropic-news HTML 【已由 anthropic-news-community 承载】",
+      "health": {
+        "status": 404,
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "langchain-blog-rss",
+      "name": "LangChain Blog RSS (旧)",
+      "url": "https://blog.langchain.dev/rss/",
+      "kind": "rss",
+      "tier": "X",
+      "category_hint": "agent-engineering",
+      "lang": "en",
+      "weight": 0.0,
+      "enabled": false,
+      "note": "参考仓库 daily-rss README 中的源，实测 302 到 https://www.langchain.com/blog 返回 text/html，非 feed 【已由 langchain-releases 承载】",
+      "health": {
+        "status": 200,
+        "content_type": "text/html",
+        "redirect_to": "https://www.langchain.com/blog",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "rsshub-public",
+      "name": "RSSHub 公共实例",
+      "url": "https://rsshub.app/github/trending/daily/python",
+      "kind": "rss",
+      "tier": "X",
+      "category_hint": "community",
+      "lang": "zh",
+      "weight": 0.0,
+      "enabled": false,
+      "note": "实测 403；需要请自建 RSSHub 或换源，勿依赖公共实例 【公共主站 403，改用 rssforever 镜像（见 rsshub-36kr-newsflash）】",
+      "health": {
+        "status": 403,
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "36kr-feed",
+      "name": "36氪 feed",
+      "url": "https://36kr.com/feed",
+      "kind": "rss",
+      "tier": "X",
+      "category_hint": "industry-capital",
+      "lang": "zh",
+      "weight": 0.0,
+      "enabled": false,
+      "note": "返回 text/html 非 XML，不能当 RSS 解析 【已由 rsshub-36kr-newsflash 恢复】",
+      "health": {
+        "status": 200,
+        "content_type": "text/html",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "jiqizhixin-rss",
+      "name": "机器之心 rss",
+      "url": "https://www.jiqizhixin.com/rss",
+      "kind": "rss",
+      "tier": "X",
+      "category_hint": "ai-models",
+      "lang": "zh",
+      "weight": 0.0,
+      "enabled": false,
+      "note": "返回 text/html 非 XML 【gnews site:jiqizhixin.com 可恢复但内容多为转载，暂留 Tier X】",
+      "health": {
+        "status": 200,
+        "content_type": "text/html",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "infoq-cn-feed",
+      "name": "InfoQ 中文 feed",
+      "url": "https://www.infoq.cn/feed",
+      "kind": "rss",
+      "tier": "X",
+      "category_hint": "agent-engineering",
+      "lang": "zh",
+      "weight": 0.0,
+      "enabled": false,
+      "note": "返回 text/html；infoq.com/feed 实测 405，改用 feed.infoq.com",
+      "health": {
+        "status": 200,
+        "content_type": "text/html",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "meta-ai-blog-rss",
+      "name": "Meta AI Blog RSS",
+      "url": "https://ai.meta.com/blog/rss/",
+      "kind": "rss",
+      "tier": "X",
+      "category_hint": "ai-models",
+      "lang": "en",
+      "weight": 0.0,
+      "enabled": false,
+      "note": "2026-11-04 实测 404，官方无 feed 【已由 rsshub-meta-ai（RSSHub 镜像 /meta/ai/blog）与 gnews-ai-labs 恢复，见下】",
+      "health": {
+        "status": 404,
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "importai-substack",
+      "name": "Import AI (substack)",
+      "url": "https://www.importai.substack.com/feed",
+      "kind": "rss",
+      "tier": "X",
+      "category_hint": "ai-models",
+      "lang": "en",
+      "weight": 0.0,
+      "enabled": false,
+      "note": "推荐清单命中；两次实测均 SSL 握手失败（疑似被墙/证书异常），本机直连不可用；daily-rss 原清单亦含此源 【已并入 gnews-ai-labs（substack 域 SSL 异常面由 import.ai 关键词覆盖失败，接受）】",
+      "health": {
+        "status": "SSL_ERROR",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "reddit-popular",
+      "name": "Reddit Popular",
+      "url": "https://www.reddit.com/r/popular.rss",
+      "kind": "rss",
+      "tier": "X",
+      "category_hint": "community",
+      "lang": "en",
+      "weight": 0.0,
+      "enabled": false,
+      "note": "推荐清单命中；实测 429（r/LocalLLaMA 与 r/artificial 可用，见 A 层） 【gnews 无覆盖，维持禁用】",
+      "health": {
+        "status": 429,
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "trendhunter-rss",
+      "name": "Trend Hunter RSS",
+      "url": "https://www.trendhunter.com/rss",
+      "kind": "rss",
+      "tier": "X",
+      "category_hint": "dev-tools",
+      "lang": "en",
+      "weight": 0.0,
+      "enabled": false,
+      "note": "推荐清单命中；实测 403 【gnews 转载仅首页级信息，价值低未恢复】",
+      "health": {
+        "status": 403,
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "indiehackers-feed",
+      "name": "Indie Hackers feed",
+      "url": "https://www.indiehackers.com/feed.xml",
+      "kind": "rss",
+      "tier": "X",
+      "category_hint": "industry-capital",
+      "lang": "en",
+      "weight": 0.0,
+      "enabled": false,
+      "note": "推荐清单命中；实测 404，站点已改版 【已由 gnews-indiehackers 恢复】",
+      "health": {
+        "status": 404,
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "starterstory-feed",
+      "name": "Starter Story feed",
+      "url": "https://www.starterstory.com/feed",
+      "kind": "rss",
+      "tier": "X",
+      "category_hint": "industry-capital",
+      "lang": "en",
+      "weight": 0.0,
+      "enabled": false,
+      "note": "推荐清单命中；实测 404 【gnews 内容为营销页，未恢复】",
+      "health": {
+        "status": 404,
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "crunchbase-news-feed",
+      "name": "Crunchbase News",
+      "url": "https://news.crunchbase.com/feed/",
+      "kind": "rss",
+      "tier": "X",
+      "category_hint": "industry-capital",
+      "lang": "en",
+      "weight": 0.0,
+      "enabled": false,
+      "note": "推荐清单命中；实测 403（需 API 或换源；融资面已由 techcrunch-venture + a16z-news + cbinsights 覆盖） 【已由 gnews-crunchbase-news 恢复】",
+      "health": {
+        "status": 403,
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "fundly-feed",
+      "name": "Fundly",
+      "url": "https://www.fundly.com/feed/",
+      "kind": "rss",
+      "tier": "X",
+      "category_hint": "industry-capital",
+      "lang": "en",
+      "weight": 0.0,
+      "enabled": false,
+      "note": "实测 302 到 signupgenius 营销页，feed 已死 【gnews 内容跑题，未恢复】",
+      "health": {
+        "status": 200,
+        "content_type": "text/html",
+        "redirect_to": "signupgenius",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "theresanaiforthat",
+      "name": "There's An AI For That",
+      "url": "https://theresanaiforthat.com/feed/",
+      "kind": "rss",
+      "tier": "X",
+      "category_hint": "dev-tools",
+      "lang": "en",
+      "weight": 0.0,
+      "enabled": false,
+      "note": "推荐清单命中；实测 403 【gnews 仅首页级信息，未恢复】",
+      "health": {
+        "status": 403,
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "toolify-feed",
+      "name": "Toolify",
+      "url": "https://www.toolify.ai/feed",
+      "kind": "rss",
+      "tier": "X",
+      "category_hint": "dev-tools",
+      "lang": "en",
+      "weight": 0.0,
+      "enabled": false,
+      "note": "推荐清单命中；实测 403 【gnews 榜单页转载，未恢复】",
+      "health": {
+        "status": 403,
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "betalist-feed",
+      "name": "BetaList",
+      "url": "https://betalist.com/feed",
+      "kind": "rss",
+      "tier": "X",
+      "category_hint": "dev-tools",
+      "lang": "en",
+      "weight": 0.0,
+      "enabled": false,
+      "note": "推荐清单命中；实测 404 【gnews 仅首页级信息，未恢复】",
+      "health": {
+        "status": 404,
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "stratechery-feed",
+      "name": "Stratechery",
+      "url": "https://stratechery.com/feed/",
+      "kind": "rss",
+      "tier": "X",
+      "category_hint": "deep-read",
+      "lang": "en",
+      "weight": 0.0,
+      "enabled": false,
+      "note": "推荐清单命中；实测 403（付费墙站点） 【已由 gnews-stratechery 恢复】",
+      "health": {
+        "status": 403,
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "hbr-feed",
+      "name": "Harvard Business Review",
+      "url": "https://hbr.org/feed",
+      "kind": "rss",
+      "tier": "X",
+      "category_hint": "deep-read",
+      "lang": "en",
+      "weight": 0.0,
+      "enabled": false,
+      "note": "推荐清单命中；实测 404 【已由 gnews-hbr 恢复】",
+      "health": {
+        "status": 404,
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "atlantic-feed",
+      "name": "The Atlantic",
+      "url": "https://www.theatlantic.com/feed/all/",
+      "kind": "rss",
+      "tier": "X",
+      "category_hint": "deep-read",
+      "lang": "en",
+      "weight": 0.0,
+      "enabled": false,
+      "note": "推荐清单命中；实测 403 【已由 gnews-atlantic 恢复】",
+      "health": {
+        "status": 403,
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "explodingtopics-rss",
+      "name": "Exploding Topics",
+      "url": "https://explodingtopics.com/blog/rss",
+      "kind": "rss",
+      "tier": "X",
+      "category_hint": "community",
+      "lang": "en",
+      "weight": 0.0,
+      "enabled": false,
+      "note": "推荐清单命中；实测 404 【gnews 为 SEO 数据页，未恢复】",
+      "health": {
+        "status": 404,
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "x-explore",
+      "name": "X Explore",
+      "url": "https://x.com/explore",
+      "kind": "html",
+      "tier": "X",
+      "category_hint": "community",
+      "lang": "en",
+      "weight": 0.0,
+      "enabled": false,
+      "note": "推荐清单命中；需登录 + 反爬，无法匿名程序化获取（daily-rss 也仅把 x.com 当引用域名而非订阅源） 【X 面由 gnews 无法承载（体育噪音），维持 Tier X】",
+      "health": {
+        "status": "LOGIN_REQUIRED",
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "semanticscholar-api",
+      "name": "Semantic Scholar API",
+      "url": "https://api.semanticscholar.org/graph/v1/paper/search?query=mcp&limit=10",
+      "kind": "json_api",
+      "tier": "X",
+      "category_hint": "research-papers",
+      "lang": "en",
+      "weight": 0.0,
+      "enabled": false,
+      "note": "实测 429（公共配额极紧）；学术面已由 openalex + hf-daily-papers + arxiv 覆盖 【429 公共配额，学术面由 openalex 承载，维持】",
+      "health": {
+        "status": 429,
+        "checked_at": "2026-11-04"
+      }
+    },
+    {
+      "id": "google-research-blog",
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "research-papers",
+      "lang": "en",
+      "weight": 1.1,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（100 条可解析）；来源：用户清单"
+    },
+    {
+      "id": "mistral-news",
+      "name": "Mistral AI News",
+      "url": "https://mistral.ai/news/rss",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "ai-models",
+      "lang": "en",
+      "weight": 1.1,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "text/plain",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（93 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "nvidia-blog",
+      "name": "NVIDIA Blog",
+      "url": "https://blogs.nvidia.com/feed/",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "ai-models",
+      "lang": "en",
+      "weight": 1.0,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（18 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "aws-ml-blog",
+      "name": "AWS ML Blog",
+      "url": "https://aws.amazon.com/blogs/machine-learning/feed/",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "agent-engineering",
+      "lang": "en",
+      "weight": 0.9,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（20 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "anthropic-news-community",
+      "name": "Anthropic News (社区维护 feed)",
+      "url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "ai-models",
+      "lang": "en",
+      "weight": 1.2,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "text/plain",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（286 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "bair-blog",
+      "name": "BAIR Blog",
+      "url": "https://bair.berkeley.edu/blog/feed.xml",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "research-papers",
+      "lang": "en",
+      "weight": 1.1,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（10 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "lilianweng",
+      "name": "Lil'Log (Lilian Weng)",
+      "url": "https://lilianweng.github.io/index.xml",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "deep-read",
+      "lang": "en",
+      "weight": 1.2,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（53 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "the-decoder",
+      "name": "The Decoder",
+      "url": "https://the-decoder.com/feed/",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "ai-models",
+      "lang": "en",
+      "weight": 0.9,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（10 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "hf-spaces-new",
+      "name": "HF Spaces 新建",
+      "url": "https://huggingface.co/api/spaces?sort=createdAt&direction=-1&limit=30",
+      "kind": "json_api",
+      "tier": "B",
+      "category_hint": "dev-tools",
+      "lang": "en",
+      "weight": 0.4,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/json",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（30 条可解析）；来源：用户清单 实测该 API 不返回描述，摘要只能由 tags 拼出，信息量低，故降权至 0.4 让打分自然淘汰。"
+    },
+    {
+      "id": "arxiv-cs-lg",
+      "name": "arXiv cs.LG",
+      "url": "https://rss.arxiv.org/rss/cs.LG",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "research-papers",
+      "lang": "en",
+      "weight": 0.7,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（445 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "arxiv-cs-cv",
+      "name": "arXiv cs.CV",
+      "url": "https://rss.arxiv.org/rss/cs.CV",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "research-papers",
+      "lang": "en",
+      "weight": 0.7,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（260 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "sifted",
+      "name": "Sifted (欧洲创投)",
+      "url": "https://sifted.eu/feed",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "industry-capital",
+      "lang": "en",
+      "weight": 1.0,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（24 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "eu-startups",
+      "name": "EU-Startups",
+      "url": "https://www.eu-startups.com/feed/",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "industry-capital",
+      "lang": "en",
+      "weight": 0.9,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（10 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "yc-blog",
+      "name": "Y Combinator Blog",
+      "url": "https://www.ycombinator.com/blog/rss/",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "industry-capital",
+      "lang": "en",
+      "weight": 0.9,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（15 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "inc42",
+      "name": "Inc42",
+      "url": "https://inc42.com/feed/",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "industry-capital",
+      "lang": "en",
+      "weight": 0.7,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（24 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "fastcompany",
+      "name": "Fast Company",
+      "url": "https://www.fastcompany.com/latest/rss",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "industry-capital",
+      "lang": "en",
+      "weight": 0.6,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（20 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "tmtpost",
+      "name": "钛媒体",
+      "url": "https://www.tmtpost.com/rss",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "industry-capital",
+      "lang": "zh",
+      "weight": 0.7,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "text/xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（19 条可解析）；来源：用户清单"
+    },
+    {
+      "id": "techcrunch-startups",
+      "name": "TechCrunch Startups",
+      "url": "https://techcrunch.com/category/startups/feed/",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "industry-capital",
+      "lang": "en",
+      "weight": 1.0,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（20 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "yankodesign",
+      "name": "Yanko Design",
+      "url": "https://www.yankodesign.com/feed/",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "dev-tools",
+      "lang": "en",
+      "weight": 0.5,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（16 条可解析）；来源：用户清单"
+    },
+    {
+      "id": "engadget",
+      "name": "Engadget",
+      "url": "https://www.engadget.com/rss.xml",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "dev-tools",
+      "lang": "en",
+      "weight": 0.6,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "text/xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（20 条可解析）；来源：用户清单"
+    },
+    {
+      "id": "kickstarter-blog",
+      "name": "Kickstarter Blog",
+      "url": "https://www.kickstarter.com/blog.atom",
+      "kind": "atom",
+      "tier": "A",
+      "category_hint": "dev-tools",
+      "lang": "en",
+      "weight": 0.4,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/atom+xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（8 条可解析）；来源：用户清单"
+    },
+    {
+      "id": "newatlas",
+      "name": "New Atlas",
+      "url": "https://newatlas.com/index.rss",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "dev-tools",
+      "lang": "en",
+      "weight": 0.6,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（60 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "extremetech",
+      "name": "ExtremeTech",
+      "url": "https://www.extremetech.com/feed",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "dev-tools",
+      "lang": "en",
+      "weight": 0.5,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（100 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "techradar",
+      "name": "TechRadar",
+      "url": "https://www.techradar.com/feeds.xml",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "dev-tools",
+      "lang": "en",
+      "weight": 0.5,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（50 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "cnet",
+      "name": "CNET News",
+      "url": "https://www.cnet.com/rss/news/",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "dev-tools",
+      "lang": "en",
+      "weight": 0.5,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/atom+xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（25 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "mashable",
+      "name": "Mashable",
+      "url": "https://mashable.com/feeds/rss/all",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "community",
+      "lang": "en",
+      "weight": 0.4,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（100 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "zdnet",
+      "name": "ZDNET",
+      "url": "https://www.zdnet.com/news/rss.xml",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "dev-tools",
+      "lang": "en",
+      "weight": 0.5,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/atom+xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（25 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "core77",
+      "name": "Core77 (工业设计)",
+      "url": "https://www.core77.com/feed",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "dev-tools",
+      "lang": "en",
+      "weight": 0.5,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "text/xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（15 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "devto",
+      "name": "DEV Community",
+      "url": "https://dev.to/feed",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "dev-tools",
+      "lang": "en",
+      "weight": 0.7,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（12 条可解析）；来源：用户清单"
+    },
+    {
+      "id": "tldr-webdev",
+      "name": "TLDR Web Dev",
+      "url": "https://tldr.tech/api/rss/webdev",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "dev-tools",
+      "lang": "en",
+      "weight": 1.0,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "text/xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（20 条可解析）；来源：用户清单"
+    },
+    {
+      "id": "tldr-tech",
+      "name": "TLDR Tech",
+      "url": "https://tldr.tech/api/rss/tech",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "dev-tools",
+      "lang": "en",
+      "weight": 1.0,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "text/xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（20 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "oschina",
+      "name": "OSCHINA 开源中国",
+      "url": "https://www.oschina.net/news/rss",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "dev-tools",
+      "lang": "zh",
+      "weight": 0.6,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（50 条可解析）；来源：用户清单"
+    },
+    {
+      "id": "cncf-blog",
+      "name": "CNCF Blog",
+      "url": "https://www.cncf.io/feed/",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "dev-tools",
+      "lang": "en",
+      "weight": 0.7,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（10 条可解析）；来源：网络检索 2026-11-05 复测：cncf.io 经 Varnish 间歇返回反爬挑战页（text/html + no-store），体检时是真 feed、采集时可能是 HTML；按 Tier C 语义整源降级不阻断日报，已降权。"
+    },
+    {
+      "id": "thenewstack",
+      "name": "The New Stack",
+      "url": "https://thenewstack.io/feed/",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "dev-tools",
+      "lang": "en",
+      "weight": 0.9,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（26 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "stackoverflow-blog",
+      "name": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/feed/",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "dev-tools",
+      "lang": "en",
+      "weight": 0.8,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（40 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "martinfowler",
+      "name": "Martin Fowler",
+      "url": "https://martinfowler.com/feed.atom",
+      "kind": "atom",
+      "tier": "A",
+      "category_hint": "deep-read",
+      "lang": "en",
+      "weight": 1.1,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/atom+xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（30 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "lwn",
+      "name": "LWN.net",
+      "url": "https://lwn.net/headlines/newrss",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "dev-tools",
+      "lang": "en",
+      "weight": 0.9,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（15 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "hackaday",
+      "name": "Hackaday",
+      "url": "https://hackaday.com/blog/feed",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "dev-tools",
+      "lang": "en",
+      "weight": 0.7,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（7 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "techrepublic",
+      "name": "TechRepublic",
+      "url": "https://www.techrepublic.com/rssfeeds/articles/",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "dev-tools",
+      "lang": "en",
+      "weight": 0.5,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（20 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "gh-releases-ollama",
+      "name": "ollama Releases",
+      "url": "https://github.com/ollama/ollama/releases.atom",
+      "kind": "git_atom",
+      "tier": "A",
+      "category_hint": "docs-changelog",
+      "lang": "en",
+      "weight": 1.1,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/atom+xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（10 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "gh-releases-vscode",
+      "name": "VS Code Releases",
+      "url": "https://github.com/microsoft/vscode/releases.atom",
+      "kind": "git_atom",
+      "tier": "A",
+      "category_hint": "docs-changelog",
+      "lang": "en",
+      "weight": 1.1,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/atom+xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（10 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "gh-releases-langchain",
+      "name": "LangChain Releases",
+      "url": "https://github.com/langchain-ai/langchain/releases.atom",
+      "kind": "git_atom",
+      "tier": "A",
+      "category_hint": "docs-changelog",
+      "lang": "en",
+      "weight": 1.1,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/atom+xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（10 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "reddit-opensource",
+      "name": "r/opensource",
+      "url": "https://www.reddit.com/r/opensource/hot.rss",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "community",
+      "lang": "en",
+      "weight": 0.6,
+      "enabled": false,
+      "health": {
+        "status": 200,
+        "content_type": "application/atom+xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（25 条可解析）；来源：用户清单 2026-11-05 全量体检 429：Reddit 同域配额已被 r/LocalLLaMA 与 r/artificial 占用，第三个子版持续限流，按维护约定禁用并保留证据；如需启用请先配置 Reddit OAuth 凭据。 【同上】 【2026-11-05 OPML 复活：429 根因是 hot.rss 路径配额敏感，标准 /r/opensource/.rss 路径实测可用（opml-reddit-r-opensou-com 已启用），本 hot.rss 版维持禁用】"
+    },
+    {
+      "id": "ieee-spectrum",
+      "name": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/feeds/feed.rss",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "research-papers",
+      "lang": "en",
+      "weight": 1.1,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（30 条可解析）；来源：用户清单"
+    },
+    {
+      "id": "semiengineering",
+      "name": "Semiconductor Engineering",
+      "url": "https://semiengineering.com/feed/",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "research-papers",
+      "lang": "en",
+      "weight": 1.1,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（10 条可解析）；来源：用户清单"
+    },
+    {
+      "id": "semiwiki",
+      "name": "SemiWiki",
+      "url": "https://semiwiki.com/feed/",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "research-papers",
+      "lang": "en",
+      "weight": 0.8,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（5 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "eetimes",
+      "name": "EE Times",
+      "url": "https://www.eetimes.com/feed/",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "research-papers",
+      "lang": "en",
+      "weight": 1.0,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（10 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "tomshardware",
+      "name": "Tom's Hardware",
+      "url": "https://www.tomshardware.com/feeds/all",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "dev-tools",
+      "lang": "en",
+      "weight": 0.6,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（50 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "payloadspace",
+      "name": "Payload Space",
+      "url": "https://payloadspace.com/feed/",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "industry-capital",
+      "lang": "en",
+      "weight": 0.9,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（13 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "nasa-news",
+      "name": "NASA News Releases",
+      "url": "https://www.nasa.gov/news-release/feed/",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "research-papers",
+      "lang": "en",
+      "weight": 0.9,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（10 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "ars-science",
+      "name": "Ars Technica Science",
+      "url": "https://arstechnica.com/science/feed/",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "research-papers",
+      "lang": "en",
+      "weight": 0.9,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（20 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "nature",
+      "name": "Nature",
+      "url": "https://www.nature.com/nature.rss",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "research-papers",
+      "lang": "en",
+      "weight": 1.1,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（75 条可解析）；来源：用户清单"
+    },
+    {
+      "id": "science-news",
+      "name": "Science News",
+      "url": "https://www.science.org/rss/news_current.xml",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "research-papers",
+      "lang": "en",
+      "weight": 1.1,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（10 条可解析）；来源：用户清单"
+    },
+    {
+      "id": "newscientist",
+      "name": "New Scientist",
+      "url": "https://www.newscientist.com/feed/",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "research-papers",
+      "lang": "en",
+      "weight": 0.9,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（10 条可解析）；来源：用户清单"
+    },
+    {
+      "id": "scientificamerican",
+      "name": "Scientific American",
+      "url": "https://www.scientificamerican.com/platform/syndication/rss/",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "research-papers",
+      "lang": "en",
+      "weight": 0.8,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（50 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "sciencedaily-all",
+      "name": "ScienceDaily 全站",
+      "url": "https://www.sciencedaily.com/rss/all.xml",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "research-papers",
+      "lang": "en",
+      "weight": 0.6,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（60 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "scitechdaily",
+      "name": "SciTechDaily",
+      "url": "https://scitechdaily.com/feed/",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "research-papers",
+      "lang": "en",
+      "weight": 0.7,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（24 条可解析）；来源：用户清单"
+    },
+    {
+      "id": "nautilus",
+      "name": "Nautilus",
+      "url": "https://nautil.us/feed/",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "deep-read",
+      "lang": "en",
+      "weight": 0.9,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（10 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "bbc-science",
+      "name": "BBC Science & Environment",
+      "url": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "research-papers",
+      "lang": "en",
+      "weight": 0.8,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "text/xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（40 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "krebsonsecurity",
+      "name": "Krebs on Security",
+      "url": "https://krebsonsecurity.com/feed/",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "security-governance",
+      "lang": "en",
+      "weight": 1.0,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（10 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "thehackernews",
+      "name": "The Hacker News",
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "security-governance",
+      "lang": "en",
+      "weight": 0.9,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "text/xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（50 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "therecord",
+      "name": "The Record",
+      "url": "https://therecord.media/feed",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "security-governance",
+      "lang": "en",
+      "weight": 0.9,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "text/xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（5 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "darkreading",
+      "name": "Dark Reading",
+      "url": "https://www.darkreading.com/rss.xml",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "security-governance",
+      "lang": "en",
+      "weight": 0.9,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "text/xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（50 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "helpnetsecurity",
+      "name": "Help Net Security",
+      "url": "https://www.helpnetsecurity.com/feed/",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "security-governance",
+      "lang": "en",
+      "weight": 0.8,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（10 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "techmeme",
+      "name": "Techmeme",
+      "url": "https://www.techmeme.com/feed.xml",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "community",
+      "lang": "en",
+      "weight": 1.0,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "text/xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（15 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "platformer",
+      "name": "Platformer",
+      "url": "https://www.platformer.news/feed",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "deep-read",
+      "lang": "en",
+      "weight": 1.0,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（15 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "guardian-ai",
+      "name": "The Guardian AI",
+      "url": "https://www.theguardian.com/technology/artificialintelligenceai/rss",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "industry-capital",
+      "lang": "en",
+      "weight": 0.8,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "text/xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（20 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "google-news-cn-funding",
+      "name": "Google News · 中国融资",
+      "url": "https://news.google.com/rss/search?q=%E8%9E%8D%E8%B5%84%20OR%20%E7%8B%AC%E8%A7%92%E5%85%BD%20when%3A2d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "industry-capital",
+      "lang": "zh",
+      "weight": 0.7,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（100 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "google-news-hk-ipo",
+      "name": "Google News · 港股 IPO",
+      "url": "https://news.google.com/rss/search?q=%E6%B8%AF%E8%82%A1%20IPO%20when%3A3d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "market-invest",
+      "lang": "zh",
+      "weight": 0.8,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（48 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "google-news-chip",
+      "name": "Google News · 半导体先进制程",
+      "url": "https://news.google.com/rss/search?q=semiconductor%20OR%20chiplet%20OR%20foundry%20when%3A2d&hl=en-US&gl=US&ceid=US:en",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "research-papers",
+      "lang": "en",
+      "weight": 0.8,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（100 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "google-news-opensource",
+      "name": "Google News · 开源发布",
+      "url": "https://news.google.com/rss/search?q=open%20source%20model%20release%20when%3A2d&hl=en-US&gl=US&ceid=US:en",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "dev-tools",
+      "lang": "en",
+      "weight": 0.8,
+      "enabled": true,
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      },
+      "note": "2026-11-05 候选体检通过（20 条可解析）；来源：网络检索"
+    },
+    {
+      "id": "gnews-ai-labs",
+      "name": "AI 实验室动态合并源（Qwen/xAI/DeepSeek/Cohere/Epoch/Import AI）",
+      "url": "https://news.google.com/rss/search?q=site%3Aqwenlm.github.io%20OR%20site%3Ax.ai%20OR%20site%3Adeepseek.com%20OR%20site%3Acohere.com%20OR%20site%3Aepoch.ai%20OR%20site%3Aimportai.substack.com&hl=en-US&gl=US&ceid=US:en",
+      "kind": "rss",
+      "tier": "B",
+      "category_hint": "ai-models",
+      "lang": "en",
+      "weight": 0.9,
+      "enabled": true,
+      "note": "2026-11-05 链路恢复（probe_recover.py）：原站点无官方feed或反爬被拒，改经 Google News site:/关键词 RSS 查询 获取；实测 100 条可解析（样题《DeepSeek Harness | Explore the limit》）。gnews 同域源若触发限流按整源降级不阻断日报。",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      }
+    },
+    {
+      "id": "meta-eng-blog",
+      "name": "Engineering at Meta（官方博客 feed）",
+      "url": "https://engineering.fb.com/feed/",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "ai-models",
+      "lang": "en",
+      "weight": 1.0,
+      "enabled": true,
+      "note": "2026-11-05 链路恢复（probe_recover.py）：原站点无官方feed或反爬被拒，改经 官方 WordPress feed 获取；实测 9 条可解析（样题《F3 Lightning: How Meta Accelerates A》）。gnews 同域源若触发限流按整源降级不阻断日报。",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      }
+    },
+    {
+      "id": "mit-news-ai-recheck",
+      "name": "MIT News AI topic feed（复查）",
+      "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
+      "kind": "rss",
+      "tier": "B",
+      "category_hint": "research-papers",
+      "lang": "en",
+      "weight": 1.0,
+      "enabled": true,
+      "note": "2026-11-05 链路恢复（probe_recover.py）：原站点无官方feed或反爬被拒，改经 官方 WordPress feed 获取；实测 50 条可解析（样题《Clearing up a robot’s fuzzy memory》）。gnews 同域源若触发限流按整源降级不阻断日报。 2026-11-05 体检间歇：news.mit.edu 偶发回 text/html 反爬页（直连采集时 50 条正常），降为 Tier B，按整源降级语义容忍偶发失败。",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      }
+    },
+    {
+      "id": "gnews-pedaily",
+      "name": "投资界 Pedaily（gnews site 源）",
+      "url": "https://news.google.com/rss/search?q=site%3Apedaily.cn&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+      "kind": "rss",
+      "tier": "B",
+      "category_hint": "industry-capital",
+      "lang": "zh",
+      "weight": 1.0,
+      "enabled": true,
+      "note": "2026-11-05 链路恢复（probe_recover.py）：原站点无官方feed或反爬被拒，改经 Google News site:/关键词 RSS 查询 获取；实测 100 条可解析（样题《易成创新完成2亿元C轮融资，推进物理AI与具身智能的工业场景落地 - 投》）。gnews 同域源若触发限流按整源降级不阻断日报。",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      }
+    },
+    {
+      "id": "gnews-zhitongcaijing",
+      "name": "智通财经 港股IPO（gnews site 源）",
+      "url": "https://news.google.com/rss/search?q=site%3Azhitongcaijing.com&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+      "kind": "rss",
+      "tier": "B",
+      "category_hint": "market-invest",
+      "lang": "zh",
+      "weight": 0.9,
+      "enabled": true,
+      "note": "2026-11-05 链路恢复（probe_recover.py）：原站点无官方feed或反爬被拒，改经 Google News site:/关键词 RSS 查询 获取；实测 97 条可解析（样题《智通财经 - 智通财经》）。gnews 同域源若触发限流按整源降级不阻断日报。",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      }
+    },
+    {
+      "id": "gnews-aastocks",
+      "name": "AASTOCKS 港股披露（gnews site 源）",
+      "url": "https://news.google.com/rss/search?q=site%3Aaastocks.com&hl=en-US&gl=US&ceid=US:en",
+      "kind": "rss",
+      "tier": "B",
+      "category_hint": "market-invest",
+      "lang": "en",
+      "weight": 0.8,
+      "enabled": true,
+      "note": "2026-11-05 链路恢复（probe_recover.py）：原站点无官方feed或反爬被拒，改经 Google News site:/关键词 RSS 查询 获取；实测 32 条可解析（样题《BANK OF CHINA (03988.HK) Disclosure 》）。gnews 同域源若触发限流按整源降级不阻断日报。",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      }
+    },
+    {
+      "id": "rsshub-36kr-newsflash",
+      "name": "36氪快讯（RSSHub 镜像路由）",
+      "url": "https://rsshub.rssforever.com/36kr/newsflashes",
+      "kind": "rss",
+      "tier": "B",
+      "category_hint": "industry-capital",
+      "lang": "zh",
+      "weight": 1.0,
+      "enabled": true,
+      "note": "2026-11-05 链路恢复（probe_recover.py）：原站点无官方feed或反爬被拒，改经 RSSHub 公共镜像路由 获取；实测 20 条可解析（样题《机构：三季度全球DRAM营收逼近2000亿美元，同比大增369%》）。gnews 同域源若触发限流按整源降级不阻断日报。",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      }
+    },
+    {
+      "id": "gnews-crunchbase-news",
+      "name": "Crunchbase News（gnews site 源）",
+      "url": "https://news.google.com/rss/search?q=site%3Anews.crunchbase.com&hl=en-US&gl=US&ceid=US:en",
+      "kind": "rss",
+      "tier": "B",
+      "category_hint": "industry-capital",
+      "lang": "en",
+      "weight": 0.9,
+      "enabled": true,
+      "note": "2026-11-05 链路恢复（probe_recover.py）：原站点无官方feed或反爬被拒，改经 Google News site:/关键词 RSS 查询 获取；实测 66 条可解析（样题《China’s Largest Startup Deal Ever Li》）。gnews 同域源若触发限流按整源降级不阻断日报。",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      }
+    },
+    {
+      "id": "gnews-techeu",
+      "name": "Tech.eu 欧洲创投（gnews site 源）",
+      "url": "https://news.google.com/rss/search?q=site%3Atech.eu&hl=en-US&gl=US&ceid=US:en",
+      "kind": "rss",
+      "tier": "B",
+      "category_hint": "industry-capital",
+      "lang": "en",
+      "weight": 0.8,
+      "enabled": true,
+      "note": "2026-11-05 链路恢复（probe_recover.py）：原站点无官方feed或反爬被拒，改经 Google News site:/关键词 RSS 查询 获取；实测 84 条可解析（样题《Fal doubles valuation to $16B after 》）。gnews 同域源若触发限流按整源降级不阻断日报。",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      }
+    },
+    {
+      "id": "gnews-techinasia",
+      "name": "Tech in Asia（gnews site 源）",
+      "url": "https://news.google.com/rss/search?q=site%3Atechinasia.com&hl=en-US&gl=US&ceid=US:en",
+      "kind": "rss",
+      "tier": "B",
+      "category_hint": "industry-capital",
+      "lang": "en",
+      "weight": 0.8,
+      "enabled": true,
+      "note": "2026-11-05 链路恢复（probe_recover.py）：原站点无官方feed或反爬被拒，改经 Google News site:/关键词 RSS 查询 获取；实测 79 条可解析（样题《Google plans $15b Malaysia data cent》）。gnews 同域源若触发限流按整源降级不阻断日报。",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      }
+    },
+    {
+      "id": "gnews-semianalysis",
+      "name": "SemiAnalysis 半导体深评（gnews site 源）",
+      "url": "https://news.google.com/rss/search?q=site%3Asemianalysis.com&hl=en-US&gl=US&ceid=US:en",
+      "kind": "rss",
+      "tier": "B",
+      "category_hint": "dev-tools",
+      "lang": "en",
+      "weight": 1.0,
+      "enabled": true,
+      "note": "2026-11-05 链路恢复（probe_recover.py）：原站点无官方feed或反爬被拒，改经 Google News site:/关键词 RSS 查询 获取；实测 70 条可解析（样题《Elon Is Doing It Again: SpaceX Will 》）。gnews 同域源若触发限流按整源降级不阻断日报。",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      }
+    },
+    {
+      "id": "gnews-venturebeat-ai",
+      "name": "VentureBeat AI（gnews site 源，绕开 429）",
+      "url": "https://news.google.com/rss/search?q=site%3Aventurebeat.com&hl=en-US&gl=US&ceid=US:en",
+      "kind": "rss",
+      "tier": "B",
+      "category_hint": "ai-models",
+      "lang": "en",
+      "weight": 0.8,
+      "enabled": true,
+      "note": "2026-11-05 链路恢复（probe_recover.py）：原站点无官方feed或反爬被拒，改经 Google News site:/关键词 RSS 查询 获取；实测 82 条可解析（样题《Ex-Googlers' new Apache 2.0 model Ri》）。gnews 同域源若触发限流按整源降级不阻断日报。",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      }
+    },
+    {
+      "id": "gnews-spacenews",
+      "name": "SpaceNews 商业航天（gnews site 源）",
+      "url": "https://news.google.com/rss/search?q=site%3Aspacenews.com&hl=en-US&gl=US&ceid=US:en",
+      "kind": "rss",
+      "tier": "B",
+      "category_hint": "research-papers",
+      "lang": "en",
+      "weight": 0.9,
+      "enabled": true,
+      "note": "2026-11-05 链路恢复（probe_recover.py）：原站点无官方feed或反爬被拒，改经 Google News site:/关键词 RSS 查询 获取；实测 100 条可解析（样题《Starfish Space’s first Otter servici》）。gnews 同域源若触发限流按整源降级不阻断日报。",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      }
+    },
+    {
+      "id": "gnews-spacecom",
+      "name": "Space.com（gnews site 源）",
+      "url": "https://news.google.com/rss/search?q=site%3Aspace.com&hl=en-US&gl=US&ceid=US:en",
+      "kind": "rss",
+      "tier": "B",
+      "category_hint": "research-papers",
+      "lang": "en",
+      "weight": 0.8,
+      "enabled": false,
+      "note": "2026-11-05 链路恢复（probe_recover.py）：原站点无官方feed或反爬被拒，改经 Google News site:/关键词 RSS 查询 获取；实测 100 条可解析（样题《Trump declares 'American space super》）。gnews 同域源若触发限流按整源降级不阻断日报。 【2026-11-05 OPML 官方源复活：该站原生 feed 实测可用（50条/原文直链），优于 Google News 转载，禁用本 gnews 版避免同域双份配额】",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      }
+    },
+    {
+      "id": "gnews-gizmodo",
+      "name": "Gizmodo 黑科技媒体（gnews site 源）",
+      "url": "https://news.google.com/rss/search?q=site%3Agizmodo.com&hl=en-US&gl=US&ceid=US:en",
+      "kind": "rss",
+      "tier": "B",
+      "category_hint": "dev-tools",
+      "lang": "en",
+      "weight": 0.7,
+      "enabled": true,
+      "note": "2026-11-05 链路恢复（probe_recover.py）：原站点无官方feed或反爬被拒，改经 Google News site:/关键词 RSS 查询 获取；实测 100 条可解析（样题《Could Jeremy Allen White Be Marvel's》）。gnews 同域源若触发限流按整源降级不阻断日报。",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      }
+    },
+    {
+      "id": "gnews-wired-science",
+      "name": "WIRED 科学（gnews 关键词源）",
+      "url": "https://news.google.com/rss/search?q=site%3Awired.com%20science&hl=en-US&gl=US&ceid=US:en",
+      "kind": "rss",
+      "tier": "B",
+      "category_hint": "research-papers",
+      "lang": "en",
+      "weight": 0.8,
+      "enabled": true,
+      "note": "2026-11-05 链路恢复（probe_recover.py）：原站点无官方feed或反爬被拒，改经 Google News site:/关键词 RSS 查询 获取；实测 100 条可解析（样题《Chernobyl’s Dogs May Be Evolving, bu》）。gnews 同域源若触发限流按整源降级不阻断日报。",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      }
+    },
+    {
+      "id": "gnews-allenai",
+      "name": "Allen AI 博客（gnews 关键词源）",
+      "url": "https://news.google.com/rss/search?q=site%3Aallenai.org%20blog&hl=en-US&gl=US&ceid=US:en",
+      "kind": "rss",
+      "tier": "B",
+      "category_hint": "research-papers",
+      "lang": "en",
+      "weight": 0.9,
+      "enabled": true,
+      "note": "2026-11-05 链路恢复（probe_recover.py）：原站点无官方feed或反爬被拒，改经 Google News site:/关键词 RSS 查询 获取；实测 61 条可解析（样题《MolmoPoint: Better pointing architec》）。gnews 同域源若触发限流按整源降级不阻断日报。",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      }
+    },
+    {
+      "id": "gnews-eurekalert",
+      "name": "EurekAlert 科研通稿（gnews site 源）",
+      "url": "https://news.google.com/rss/search?q=site%3Aeurekalert.org&hl=en-US&gl=US&ceid=US:en",
+      "kind": "rss",
+      "tier": "B",
+      "category_hint": "research-papers",
+      "lang": "en",
+      "weight": 0.9,
+      "enabled": true,
+      "note": "2026-11-05 链路恢复（probe_recover.py）：原站点无官方feed或反爬被拒，改经 Google News site:/关键词 RSS 查询 获取；实测 100 条可解析（样题《A new quantum state of matter works 》）。gnews 同域源若触发限流按整源降级不阻断日报。",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      }
+    },
+    {
+      "id": "gnews-cellpress",
+      "name": "Cell Press（gnews site 源）",
+      "url": "https://news.google.com/rss/search?q=site%3Acell.com&hl=en-US&gl=US&ceid=US:en",
+      "kind": "rss",
+      "tier": "B",
+      "category_hint": "research-papers",
+      "lang": "en",
+      "weight": 0.9,
+      "enabled": false,
+      "note": "2026-11-05 链路恢复（probe_recover.py）：原站点无官方feed或反爬被拒，改经 Google News site:/关键词 RSS 查询 获取；实测 83 条可解析（样题《A socio-sexual bond between a bull a》）。gnews 同域源若触发限流按整源降级不阻断日报。 【2026-11-05 OPML 官方源复活：该站原生 feed 实测可用（69条/原文直链），优于 Google News 转载，禁用本 gnews 版避免同域双份配额】",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      }
+    },
+    {
+      "id": "gnews-sciencenet",
+      "name": "科学网（gnews site 中文源）",
+      "url": "https://news.google.com/rss/search?q=site%3Asciencenet.cn&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+      "kind": "rss",
+      "tier": "B",
+      "category_hint": "research-papers",
+      "lang": "zh",
+      "weight": 0.8,
+      "enabled": true,
+      "note": "2026-11-05 链路恢复（probe_recover.py）：原站点无官方feed或反爬被拒，改经 Google News site:/关键词 RSS 查询 获取；实测 100 条可解析（样题《锚定“四极”前沿，激荡青春担当 - 科学网—新闻》）。gnews 同域源若触发限流按整源降级不阻断日报。",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      }
+    },
+    {
+      "id": "gnews-mit-news",
+      "name": "MIT News AI（gnews 关键词源）",
+      "url": "https://news.google.com/rss/search?q=site%3Anews.mit.edu%20artificial%20intelligence&hl=en-US&gl=US&ceid=US:en",
+      "kind": "rss",
+      "tier": "B",
+      "category_hint": "research-papers",
+      "lang": "en",
+      "weight": 0.9,
+      "enabled": true,
+      "note": "2026-11-05 链路恢复（probe_recover.py）：原站点无官方feed或反爬被拒，改经 Google News site:/关键词 RSS 查询 获取；实测 100 条可解析（样题《Regina Barzilay and Jim Collins win 》）。gnews 同域源若触发限流按整源降级不阻断日报。",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      }
+    },
+    {
+      "id": "gnews-nature-biotech",
+      "name": "Nature Biotechnology（gnews 关键词源）",
+      "url": "https://news.google.com/rss/search?q=site%3Anature.com%20biotechnology&hl=en-US&gl=US&ceid=US:en",
+      "kind": "rss",
+      "tier": "B",
+      "category_hint": "research-papers",
+      "lang": "en",
+      "weight": 0.9,
+      "enabled": true,
+      "note": "2026-11-05 链路恢复（probe_recover.py）：原站点无官方feed或反爬被拒，改经 Google News site:/关键词 RSS 查询 获取；实测 100 条可解析（样题《An engineered, compact Cas12m varian》）。gnews 同域源若触发限流按整源降级不阻断日报。",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      }
+    },
+    {
+      "id": "gnews-bleepingcomputer",
+      "name": "BleepingComputer（gnews site 源）",
+      "url": "https://news.google.com/rss/search?q=site%3Ableepingcomputer.com&hl=en-US&gl=US&ceid=US:en",
+      "kind": "rss",
+      "tier": "B",
+      "category_hint": "security-governance",
+      "lang": "en",
+      "weight": 1.0,
+      "enabled": true,
+      "note": "2026-11-05 链路恢复（probe_recover.py）：原站点无官方feed或反爬被拒，改经 Google News site:/关键词 RSS 查询 获取；实测 100 条可解析（样题《NIKKE PC game launcher hacked to spr》）。gnews 同域源若触发限流按整源降级不阻断日报。",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      }
+    },
+    {
+      "id": "gnews-schneier",
+      "name": "Schneier on Security（gnews site 源）",
+      "url": "https://news.google.com/rss/search?q=site%3Aschneier.com&hl=en-US&gl=US&ceid=US:en",
+      "kind": "rss",
+      "tier": "B",
+      "category_hint": "security-governance",
+      "lang": "en",
+      "weight": 0.9,
+      "enabled": true,
+      "note": "2026-11-05 链路恢复（probe_recover.py）：原站点无官方feed或反爬被拒，改经 Google News site:/关键词 RSS 查询 获取；实测 61 条可解析（样题《AIs Hacking the Law - Schneier on Se》）。gnews 同域源若触发限流按整源降级不阻断日报。",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      }
+    },
+    {
+      "id": "gnews-securityweek",
+      "name": "SecurityWeek（gnews site 源）",
+      "url": "https://news.google.com/rss/search?q=site%3Asecurityweek.com&hl=en-US&gl=US&ceid=US:en",
+      "kind": "rss",
+      "tier": "B",
+      "category_hint": "security-governance",
+      "lang": "en",
+      "weight": 0.8,
+      "enabled": true,
+      "note": "2026-11-05 链路恢复（probe_recover.py）：原站点无官方feed或反爬被拒，改经 Google News site:/关键词 RSS 查询 获取；实测 93 条可解析（样题《CrowdStrike Reportedly Paying $495 M》）。gnews 同域源若触发限流按整源降级不阻断日报。",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      }
+    },
+    {
+      "id": "gnews-themarkup",
+      "name": "The Markup 数据调查（gnews site 源）",
+      "url": "https://news.google.com/rss/search?q=site%3Athemarkup.org&hl=en-US&gl=US&ceid=US:en",
+      "kind": "rss",
+      "tier": "B",
+      "category_hint": "security-governance",
+      "lang": "en",
+      "weight": 0.8,
+      "enabled": true,
+      "note": "2026-11-05 链路恢复（probe_recover.py）：原站点无官方feed或反爬被拒，改经 Google News site:/关键词 RSS 查询 获取；实测 60 条可解析（样题《MyChart and a major hospital said I 》）。gnews 同域源若触发限流按整源降级不阻断日报。",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      }
+    },
+    {
+      "id": "gnews-stratechery",
+      "name": "Stratechery（gnews site 源，付费墙标题+摘要有价值）",
+      "url": "https://news.google.com/rss/search?q=site%3Astratechery.com&hl=en-US&gl=US&ceid=US:en",
+      "kind": "rss",
+      "tier": "B",
+      "category_hint": "deep-read",
+      "lang": "en",
+      "weight": 0.9,
+      "enabled": true,
+      "note": "2026-11-05 链路恢复（probe_recover.py）：原站点无官方feed或反爬被拒，改经 Google News site:/关键词 RSS 查询 获取；实测 71 条可解析（样题《AI on the Ballot - Stratechery by Be》）。gnews 同域源若触发限流按整源降级不阻断日报。",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      }
+    },
+    {
+      "id": "gnews-hbr",
+      "name": "Harvard Business Review（gnews site 源）",
+      "url": "https://news.google.com/rss/search?q=site%3Ahbr.org&hl=en-US&gl=US&ceid=US:en",
+      "kind": "rss",
+      "tier": "B",
+      "category_hint": "deep-read",
+      "lang": "en",
+      "weight": 0.7,
+      "enabled": true,
+      "note": "2026-11-05 链路恢复（probe_recover.py）：原站点无官方feed或反爬被拒，改经 Google News site:/关键词 RSS 查询 获取；实测 100 条可解析（样题《The “Human-in-the-Loop” Fallacy - Ha》）。gnews 同域源若触发限流按整源降级不阻断日报。",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      }
+    },
+    {
+      "id": "gnews-atlantic",
+      "name": "The Atlantic（gnews site 源）",
+      "url": "https://news.google.com/rss/search?q=site%3Atheatlantic.com&hl=en-US&gl=US&ceid=US:en",
+      "kind": "rss",
+      "tier": "B",
+      "category_hint": "deep-read",
+      "lang": "en",
+      "weight": 0.7,
+      "enabled": true,
+      "note": "2026-11-05 链路恢复（probe_recover.py）：原站点无官方feed或反爬被拒，改经 Google News site:/关键词 RSS 查询 获取；实测 100 条可解析（样题《How Texas Turned Blue - The Atlantic》）。gnews 同域源若触发限流按整源降级不阻断日报。",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      }
+    },
+    {
+      "id": "gnews-restofworld",
+      "name": "Rest of World（gnews site 源）",
+      "url": "https://news.google.com/rss/search?q=site%3Arestofworld.org&hl=en-US&gl=US&ceid=US:en",
+      "kind": "rss",
+      "tier": "B",
+      "category_hint": "deep-read",
+      "lang": "en",
+      "weight": 0.9,
+      "enabled": true,
+      "note": "2026-11-05 链路恢复（probe_recover.py）：原站点无官方feed或反爬被拒，改经 Google News site:/关键词 RSS 查询 获取；实测 67 条可解析（样题《Startups recalibrate Chinese AI for 》）。gnews 同域源若触发限流按整源降级不阻断日报。",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      }
+    },
+    {
+      "id": "gnews-gradient",
+      "name": "The Gradient AI深评（gnews site 源）",
+      "url": "https://news.google.com/rss/search?q=site%3Athegradient.pub&hl=en-US&gl=US&ceid=US:en",
+      "kind": "rss",
+      "tier": "B",
+      "category_hint": "deep-read",
+      "lang": "en",
+      "weight": 0.9,
+      "enabled": true,
+      "note": "2026-11-05 链路恢复（probe_recover.py）：原站点无官方feed或反爬被拒，改经 Google News site:/关键词 RSS 查询 获取；实测 60 条可解析（样题《A Brief Overview of Gender Bias in A》）。gnews 同域源若触发限流按整源降级不阻断日报。",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      }
+    },
+    {
+      "id": "gnews-linuxfoundation",
+      "name": "Linux Foundation（gnews 关键词源）",
+      "url": "https://news.google.com/rss/search?q=site%3Alinuxfoundation.org%20blog&hl=en-US&gl=US&ceid=US:en",
+      "kind": "rss",
+      "tier": "B",
+      "category_hint": "dev-tools",
+      "lang": "en",
+      "weight": 0.8,
+      "enabled": false,
+      "note": "2026-11-05 链路恢复（probe_recover.py）：原站点无官方feed或反爬被拒，改经 Google News site:/关键词 RSS 查询 获取；实测 54 条可解析（样题《KubeCon + CloudNativeCon North Ameri》）。gnews 同域源若触发限流按整源降级不阻断日报。 【2026-11-05 OPML 官方源复活：该站原生 feed 实测可用（10条/原文直链），优于 Google News 转载，禁用本 gnews 版避免同域双份配额】",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      }
+    },
+    {
+      "id": "gnews-apache",
+      "name": "Apache 基金会博客（gnews 关键词源）",
+      "url": "https://news.google.com/rss/search?q=site%3Ablogs.apache.org&hl=en-US&gl=US&ceid=US:en",
+      "kind": "rss",
+      "tier": "B",
+      "category_hint": "dev-tools",
+      "lang": "en",
+      "weight": 0.7,
+      "enabled": true,
+      "note": "2026-11-05 链路恢复（probe_recover.py）：原站点无官方feed或反爬被拒，改经 Google News site:/关键词 RSS 查询 获取；实测 28 条可解析（样题《Announcing Apache OpenOffice 4.1.1 -》）。gnews 同域源若触发限流按整源降级不阻断日报。",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      }
+    },
+    {
+      "id": "gnews-springwise",
+      "name": "Springwise 全球创新（gnews site 源）",
+      "url": "https://news.google.com/rss/search?q=site%3Aspringwise.com&hl=en-US&gl=US&ceid=US:en",
+      "kind": "rss",
+      "tier": "B",
+      "category_hint": "dev-tools",
+      "lang": "en",
+      "weight": 0.8,
+      "enabled": true,
+      "note": "2026-11-05 链路恢复（probe_recover.py）：原站点无官方feed或反爬被拒，改经 Google News site:/关键词 RSS 查询 获取；实测 55 条可解析（样题《Springwise - Springwise》）。gnews 同域源若触发限流按整源降级不阻断日报。",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      }
+    },
+    {
+      "id": "gnews-uncrate",
+      "name": "Uncrate 极客装备（gnews site 源）",
+      "url": "https://news.google.com/rss/search?q=site%3Auncrate.com&hl=en-US&gl=US&ceid=US:en",
+      "kind": "rss",
+      "tier": "B",
+      "category_hint": "dev-tools",
+      "lang": "en",
+      "weight": 0.6,
+      "enabled": true,
+      "note": "2026-11-05 链路恢复（probe_recover.py）：原站点无官方feed或反爬被拒，改经 Google News site:/关键词 RSS 查询 获取；实测 70 条可解析（样题《1977 Land Rover 101 Forward Control 》）。gnews 同域源若触发限流按整源降级不阻断日报。",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      }
+    },
+    {
+      "id": "gnews-coolhunting",
+      "name": "Cool Hunting 设计趋势（gnews site 源）",
+      "url": "https://news.google.com/rss/search?q=site%3Acoolhunting.com&hl=en-US&gl=US&ceid=US:en",
+      "kind": "rss",
+      "tier": "B",
+      "category_hint": "dev-tools",
+      "lang": "en",
+      "weight": 0.6,
+      "enabled": true,
+      "note": "2026-11-05 链路恢复（probe_recover.py）：原站点无官方feed或反爬被拒，改经 Google News site:/关键词 RSS 查询 获取；实测 66 条可解析（样题《Miles Greenberg and Vivian Caccuri’s》）。gnews 同域源若触发限流按整源降级不阻断日报。",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      }
+    },
+    {
+      "id": "gnews-indiehackers",
+      "name": "Indie Hackers（gnews site 源）",
+      "url": "https://news.google.com/rss/search?q=site%3Aindiehackers.com&hl=en-US&gl=US&ceid=US:en",
+      "kind": "rss",
+      "tier": "B",
+      "category_hint": "industry-capital",
+      "lang": "en",
+      "weight": 0.7,
+      "enabled": true,
+      "note": "2026-11-05 链路恢复（probe_recover.py）：原站点无官方feed或反爬被拒，改经 Google News site:/关键词 RSS 查询 获取；实测 84 条可解析（样题《Indie Hackers: Work Together to Buil》）。gnews 同域源若触发限流按整源降级不阻断日报。",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      }
+    },
+    {
+      "id": "rsshub-meta-ai-blog",
+      "name": "AI at Meta Blog（RSSHub 镜像路由）",
+      "url": "https://rsshub.rssforever.com/meta/ai/blog",
+      "kind": "rss",
+      "tier": "B",
+      "category_hint": "ai-models",
+      "lang": "en",
+      "weight": 1.0,
+      "enabled": true,
+      "note": "2026-11-05 链路恢复：ai.meta.com/blog 官方无 feed（Google AI 答复确认），走 RSSHub 公共镜像 /meta/ai/blog 路由；实测 12 条、直链 ai.meta.com 原文 URL。公共镜像有速率限制，失败整源降级不阻断日报。",
+      "health": {
+        "status": 200,
+        "content_type": "application/rss+xml",
+        "checked_at": "2026-11-05"
+      }
+    },
+    {
+      "id": "opml-slashgear",
+      "name": "SlashGear",
+      "url": "https://www.slashgear.com/feed/",
+      "kind": "rss",
+      "tier": "B",
+      "category_hint": "dev-tools",
+      "lang": "en",
+      "weight": 0.9,
+      "enabled": true,
+      "source_origin": "tech_and_finance_feeds.opml",
+      "note": "2026-11-05 用户 OPML 清单引入：实测 200 解析 20 条（样题《5 Riding Mower Attachments Tha》）。该域原生官方 feed 直连。",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      }
+    },
+    {
+      "id": "opml-geekygadgets",
+      "name": "Geeky Gadgets",
+      "url": "https://www.geeky-gadgets.com/feed/",
+      "kind": "rss",
+      "tier": "B",
+      "category_hint": "dev-tools",
+      "lang": "en",
+      "weight": 0.9,
+      "enabled": true,
+      "source_origin": "tech_and_finance_feeds.opml",
+      "note": "2026-11-05 用户 OPML 清单引入：实测 200 解析 50 条（样题《Which Should You Buy: iPhone D》）。该域原生官方 feed 直连。",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      }
+    },
+    {
+      "id": "opml-pandaily",
+      "name": "Pandaily",
+      "url": "https://pandaily.com/feed/",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "industry-capital",
+      "lang": "en",
+      "weight": 0.9,
+      "enabled": true,
+      "source_origin": "tech_and_finance_feeds.opml",
+      "note": "2026-11-05 用户 OPML 清单引入：实测 200 解析 20 条（样题《SuperCLUE Office Agent Benchma》）。该域原生官方 feed 直连。",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      }
+    },
+    {
+      "id": "opml-reddit-r-opensou-com",
+      "name": "Reddit r/opensource",
+      "url": "https://www.reddit.com/r/opensource/.rss",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "dev-tools",
+      "lang": "en",
+      "weight": 0.9,
+      "enabled": true,
+      "source_origin": "tech_and_finance_feeds.opml",
+      "note": "2026-11-05 用户 OPML 清单引入：实测 200 解析 25 条（样题《Adjustments will be made.》）。该域原生官方 feed 直连。",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      }
+    },
+    {
+      "id": "opml-linuxfoundation",
+      "name": "Linux Foundation",
+      "url": "https://www.linuxfoundation.org/blog/rss.xml",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "dev-tools",
+      "lang": "en",
+      "weight": 0.9,
+      "enabled": true,
+      "source_origin": "tech_and_finance_feeds.opml",
+      "note": "2026-11-05 用户 OPML 清单引入：实测 200 解析 10 条（样题《Navigating Open Source Softwar》）。替换 Google News 转载版，出原文直链。",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      }
+    },
+    {
+      "id": "opml-infoq-cn",
+      "name": "InfoQ China",
+      "url": "https://www.infoq.cn/feed",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "agent-engineering",
+      "lang": "zh",
+      "weight": 0.9,
+      "enabled": true,
+      "source_origin": "tech_and_finance_feeds.opml",
+      "note": "2026-11-05 用户 OPML 清单引入：实测 200 解析 20 条（样题《MCP C# SDK 2.0 默认启用 HTTP 无状态模式》）。复活：该域原有源此前 Tier X/禁用，本轮官方 feed 实测可用。",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      }
+    },
+    {
+      "id": "opml-goblog",
+      "name": "The Go Blog",
+      "url": "https://go.dev/blog/feed.atom",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "dev-tools",
+      "lang": "en",
+      "weight": 0.9,
+      "enabled": true,
+      "source_origin": "tech_and_finance_feeds.opml",
+      "note": "2026-11-05 用户 OPML 清单引入：实测 200 解析 10 条（样题《A new Go API for JSON》）。该域原生官方 feed 直连。",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      }
+    },
+    {
+      "id": "opml-rustblog",
+      "name": "Rust Blog",
+      "url": "https://blog.rust-lang.org/feed.xml",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "dev-tools",
+      "lang": "en",
+      "weight": 0.9,
+      "enabled": true,
+      "source_origin": "tech_and_finance_feeds.opml",
+      "note": "2026-11-05 用户 OPML 清单引入：实测 200 解析 10 条（样题《Announcing rustup 1.29.3》）。该域原生官方 feed 直连。",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      }
+    },
+    {
+      "id": "opml-spacecom",
+      "name": "Space.com",
+      "url": "https://www.space.com/feeds/all",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "research-papers",
+      "lang": "en",
+      "weight": 0.9,
+      "enabled": true,
+      "source_origin": "tech_and_finance_feeds.opml",
+      "note": "2026-11-05 用户 OPML 清单引入：实测 200 解析 50 条（样题《On this day in space! Nov. 4, 》）。替换 Google News 转载版，出原文直链。",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      }
+    },
+    {
+      "id": "opml-cell-press",
+      "name": "Cell Press",
+      "url": "https://www.cell.com/cell/inpress.rss",
+      "kind": "rss",
+      "tier": "A",
+      "category_hint": "research-papers",
+      "lang": "en",
+      "weight": 0.9,
+      "enabled": true,
+      "source_origin": "tech_and_finance_feeds.opml",
+      "note": "2026-11-05 用户 OPML 清单引入：实测 200 解析 69 条（样题《CRISPR mutagenesis of the MYC 》）。替换 Google News 转载版，出原文直链。",
+      "health": {
+        "status": 200,
+        "content_type": "application/xml",
+        "checked_at": "2026-11-05"
+      }
+    },
+    {
+      "id": "folo-timeline",
+      "name": "Folo 订阅池基线（人工筛选信源）",
+      "url": "folocli timeline (api.folo.is)",
+      "kind": "cli",
+      "tier": "A",
+      "category_hint": null,
+      "lang": "mixed",
+      "weight": 1.2,
+      "enabled": true,
+      "source_origin": "Folo MCP/CLI（官方 Agent skill: https://api.folo.is/skill.md）",
+      "note": "2026-11-05 接入：用户 Folo 账号订阅池作为日报基线层（每条均经人工订阅，信噪比最高）。经 npx folocli timeline 只读拉取（不标已读/不改订阅），由 scripts/fetch_folo.py 专责、run_daily 在 fetch 后调用；未登录（无 FOLO_TOKEN）时软降级不阻断。认证：~/.workbuddy/.env 配 FOLO_TOKEN 或 npx folocli login。",
+      "health": {
+        "status": 200,
+        "content_type": "application/json (CLI)",
+        "checked_at": "2026-11-05"
+      }
+    }
+  ]
+}

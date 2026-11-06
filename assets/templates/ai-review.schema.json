@@ -1,0 +1,88 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://daily-info.local/schemas/ai-review.schema.json",
+  "title": "每日信息 · AI 结构化产出契约 v2.1（七要素版 · 白名单口径收紧）",
+  "description": "WorkBuddy Agent 写回 data/digest/<date>/ai-review.json 的唯一合法格式。每条内容必须含七要素；数字/实体/佐证URL 由 make_digest.py 对原文做白名单校验，编造即丢弃。白名单口径 v1.1：原文 = title + summary_raw + metrics 值，不含 published_at/fetched_at 等采集元数据；无实质数字的条目不得写入 sections（下游直接拒绝入报）。依据 config/content-spec.json 与 docs/12。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["date", "headline", "lead", "themes", "sections", "editor_note", "brief", "watch_signals"],
+  "properties": {
+    "date": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+    "headline": {"type": "string", "minLength": 4, "maxLength": 80,
+                 "description": "判断句，须由至少 2 个簇佐证，不写标题党"},
+    "lead": {"type": "string", "minLength": 20, "maxLength": 220,
+             "description": "数据化导语：必须含可核验数字 + 今日张力；数字须来自当天入选条目原文"},
+    "demo": {"type": "boolean", "description": "仅离线演示数据置 true；真实日报不得出现或必须为 false"},
+    "themes": {
+      "type": "array", "maxItems": 8,
+      "description": "正常出报 6-8 个主题；数量与佐证数由 V8 内容丰富度核验把关，schema 只管结构合法性",
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["title", "why", "cluster_ids"],
+        "properties": {
+          "title": {"type": "string", "minLength": 4, "maxLength": 24,
+                    "description": "判断句/张力句，不是名词标签"},
+          "why": {"type": "string", "maxLength": 200},
+          "cluster_ids": {"type": "array", "minItems": 1, "items": {"type": "string"},
+                          "description": "正常应 >= 2 个独立簇佐证（V8 检查）"}
+        }
+      }
+    },
+    "sections": {
+      "type": "array", "maxItems": 12,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["key", "label", "items"],
+        "properties": {
+          "key": {"type": "string", "enum": ["core", "ai-models", "agent-engineering", "dev-tools", "docs-changelog", "research-papers", "industry-capital", "market-invest", "security-governance", "deep-read", "community"]},
+          "label": {"type": "string", "maxLength": 24},
+          "items": {
+            "type": "array", "minItems": 1, "maxItems": 12,
+            "items": {
+              "type": "object", "additionalProperties": false,
+              "required": ["id", "fact_anchor", "numbers", "entities", "why_matters", "impact", "next_action"],
+              "properties": {
+                "id": {"type": "string", "minLength": 8, "maxLength": 40,
+                       "description": "必须是 prompt-input.json 中的 cluster_id 或 members[].id"},
+                "fact_anchor": {"type": "string", "minLength": 8, "maxLength": 120,
+                                "description": "谁 + 做了什么；原文压缩，不含 URL"},
+                "numbers": {"type": "array", "minItems": 1, "maxItems": 5,
+                            "items": {"type": "string", "maxLength": 30},
+                            "description": "可核验数字/版本/百分比；每个值必须出现在该条目原文 title+summary_raw+metrics 值中。禁止取 published_at 等采集时间戳里的年份/日期充数；原文无数字时该条目不得入报"},
+                "entities": {"type": "array", "minItems": 1, "maxItems": 6,
+                             "items": {"type": "string", "maxLength": 40},
+                             "description": "机构/项目/产品名，必须出现在原文中"},
+                "evidence_urls": {"type": "array", "maxItems": 5,
+                                  "items": {"type": "string"},
+                                  "description": "可选；同簇成员 URL。留空时下游自动取该条目 url"},
+                "why_matters": {"type": "string", "minLength": 8, "maxLength": 120},
+                "impact": {"type": "string", "minLength": 8, "maxLength": 160},
+                "next_action": {"type": "string", "minLength": 8, "maxLength": 160,
+                                "description": "必须含判定阈值/可证伪条件，禁止空话"},
+                "signal_type": {"type": "string", "enum": ["release", "funding", "incident", "research", "opinion", "tutorial", "market-data", "product", "docs-change"]},
+                "confidence": {"type": "string", "enum": ["fact", "multi-source", "inference", "unverified"]}
+              }
+            }
+          }
+        }
+      }
+    },
+    "editor_note": {"type": "string", "maxLength": 600,
+                    "description": "400-600 字，必须锚定 user_focus 并给具体工程判断；降级时允许空串"},
+    "brief": {"type": "string", "maxLength": 1500},
+    "watch_signals": {
+      "type": "array", "maxItems": 8,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["signal", "threshold", "judgement"],
+        "properties": {
+          "signal": {"type": "string", "maxLength": 80},
+          "threshold": {"type": "string", "maxLength": 80,
+                        "description": "可量化/可观测的判定条件，必须含数字或明确状态"},
+          "judgement": {"type": "string", "maxLength": 120,
+                        "description": "达到阈值后判定什么"}
+        }
+      }
+    }
+  }
+}

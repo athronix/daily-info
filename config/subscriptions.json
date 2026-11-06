@@ -1,0 +1,88 @@
+{
+  "version": "1.0.0",
+  "timezone": "Asia/Shanghai",
+  "channels": [
+    {
+      "id": "site",
+      "type": "static_html",
+      "label": "简约清新展示站",
+      "enabled": true,
+      "output_dir": "public",
+      "data_dir": "public/data",
+      "publish": "WorkBuddy 资料库「发布为网站」→ workbuddy.link 在线链接，或推送到 GitHub Pages / 自建静态托管",
+      "update_rule": "每次日报生成后重建；内容未变则不重写文件、不触发发布"
+    },
+    {
+      "id": "atom",
+      "type": "atom_1_0_fulltext",
+      "label": "Atom 全文订阅",
+      "enabled": true,
+      "output": "public/all.atom（同时写 public/feed.atom 作为默认入口）",
+      "max_entries": 100,
+      "entry_id_rule": "tag:daily-info.local,{YYYY-MM-DD}:{cluster_id}",
+      "fulltext": true,
+      "sanitize": "bleach 白名单 + 相对链接绝对化 + 去 script/危险属性",
+      "note": "借鉴 docs-feed：用 Raw 静态地址订阅，不要用 GitHub 仓库页自动生成的 /releases.atom"
+    },
+    {
+      "id": "jsonfeed",
+      "type": "json_feed_1_1",
+      "label": "JSON Feed（供程序消费）",
+      "enabled": true,
+      "output": "public/feed.json",
+      "max_entries": 100
+    },
+    {
+      "id": "email",
+      "type": "agent_mail",
+      "label": "邮件日报",
+      "enabled": true,
+      "connector": "agent-mail (当前会话已连接)",
+      "send_at": "07:15",
+      "to": ["SELF_AGENT_MAIL_ADDRESS"],
+      "subject": "[每日信息] {date} · {headline_short}",
+      "template": "assets/templates/email.html",
+      "attach": ["public/feed.atom"],
+      "max_body_chars": 24000,
+      "max_body_chars_note": "P1 实测修正（2026-11-05）：23 条完整七要素正文 = 18387 字符；P0 拍定的 12000 会截掉 5 个板块，违反唯一事实源全量投影原则，故上调到 24000。超过该值 render_email.py 仍会按板块截断并记日志。"
+    },
+    {
+      "id": "wecom",
+      "type": "wecom_bot",
+      "label": "企业微信机器人推送",
+      "enabled": false,
+      "config_in_automation": "定时任务编辑窗口 → 打开「消息推送到企业微信」",
+      "constraint": "仅支持 WebSocket 长连接方式绑定，URL 回调不支持；绑定后须在企业微信里给机器人发过一条消息",
+      "content": "brief.md 短简报（<= 1500 字）+ 站点链接"
+    },
+    {
+      "id": "library",
+      "type": "workbuddy_library",
+      "label": "资料库沉淀",
+      "enabled": true,
+      "layout": "我的文档/每日信息/{YYYY}/{MM}/",
+      "payload": ["digest.md", "public/index.html"],
+      "note": "MD 存叙事、CSV 存索引数据、HTML 做呈现；发布为网站会同时把页面存入资料库"
+    }
+  ],
+  "profiles": [
+    {"id":"all","label":"全量日报","filter":"score >= 45","entry":"all.atom"},
+    {"id":"high-signal","label":"高信噪","filter":"score >= 70","entry":"high-signal.atom"},
+    {"id":"tech","label":"只看技术","filter":"category in taxonomy.groups.tech","entry":"tech.atom"},
+    {"id":"invest","label":"只看市场","filter":"category in [market-invest, industry-capital]","entry":"invest.atom"},
+    {"id":"docs","label":"文档变更雷达","filter":"category == docs-changelog","entry":"docs.atom"}
+  ],
+  "idempotency": {
+    "stable_entry_id": true,
+    "no_change_no_write": true,
+    "push_log": "data/state/push-log.jsonl",
+    "dedupe_window_days": 7
+  },
+  "retention": {
+    "raw_days": 30,
+    "normalized_days": 180,
+    "digest": "permanent (Git 版本化)",
+    "feed_max_entries": 100,
+    "site_archive": "permanent"
+  }
+}

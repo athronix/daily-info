@@ -1,0 +1,1187 @@
+{
+  "date": "2026-11-04",
+  "headline": "Agent 技能进入包管理时代，harness 与信任成本同日升温",
+  "headline_short": "Agent 技能进入包管理时代，harness 与信任成",
+  "lead": "今日 40 个候选簇中，skill 治理（Dependabot APM + 2 篇 arXiv）、harness 之争（agent-desktop 12,669 星拆解、优化 harness 论文）、信任三案（Gemini 训练 / Muse 许可证 / RTX 固件降至 35%）与选举日市场四线联动构成四条主线。",
+  "generated_at": "2026-11-04T13:33:31.530620Z",
+  "themes": [
+    {
+      "title": "Agent 技能开始像依赖包一样被治理",
+      "why": "Dependabot 支持 APM、skill 评估基准、自主技能编译三条独立进展同日出现，skills 的版本化与评测化成为工程主线。",
+      "cluster_ids": [
+        "51a16b58b8504ef7",
+        "24fd804e8078a564",
+        "933d4b5508fd6df0"
+      ],
+      "verified_by": 3
+    },
+    {
+      "title": "harness 之争取代模型之争",
+      "why": "agent-desktop 拆解、优化 harness 论文、RTX 固件锁三条都指向：瓶颈在观测接口与运行环境，不在权重。",
+      "cluster_ids": [
+        "977b4bc7e201ffd5",
+        "0ee4b2ffd1ac8e3f",
+        "88c23216a431785a"
+      ],
+      "verified_by": 3
+    },
+    {
+      "title": "同意机制跟不上能力扩散",
+      "why": "Gemini 训练争议与 Muse Spark 许可证讨论同日刷屏，加上 RTX 固件锁，构成数据/权重/硬件三层的信任主题。",
+      "cluster_ids": [
+        "150a39b9eb9ad0c3",
+        "dd91fc9ec8712e06",
+        "88c23216a431785a"
+      ],
+      "verified_by": 3
+    },
+    {
+      "title": "选举日重塑资产预期",
+      "why": "美元创两月最大跌幅、防务股下挫、股债齐涨、铜价走高四条互证：政治确定性本身成为定价变量。",
+      "cluster_ids": [
+        "134b686ce725841a",
+        "0c58928392d26aaf",
+        "81860af0d09ccb83",
+        "b1057d03bb7d92f8"
+      ],
+      "verified_by": 4
+    },
+    {
+      "title": "职能型 AI 继续吸金",
+      "why": "Nooks 5 亿美元与 Thermit 种子轮表明资本在给垂直职能 agent 定价，而非通用模型层。",
+      "cluster_ids": [
+        "4b3e4456ba06f433",
+        "f912b9d47ec922ef",
+        "389864e7d23d80b9"
+      ],
+      "verified_by": 3
+    },
+    {
+      "title": "开放权重的边界是许可证与固件",
+      "why": "Axion 35B 上新与 Muse Spark 许可证警示、RTX 加密固件降幅三件事拼出开放生态的真实约束。",
+      "cluster_ids": [
+        "76342e728d2769e6",
+        "dd91fc9ec8712e06",
+        "88c23216a431785a"
+      ],
+      "verified_by": 3
+    }
+  ],
+  "sections": [
+    {
+      "key": "agent-engineering",
+      "label": "Agent 与工程",
+      "items": [
+        {
+          "id": "51a16b58b8504ef7",
+          "title": "Dependabot version updates support Agent Package Manager",
+          "url": "https://github.blog/changelog/2026-11-03-dependabot-version-updates-support-agent-package-manager",
+          "source": "GitHub Changelog",
+          "published_at": "2026-11-03T20:24:07Z",
+          "score": 75.14,
+          "category": "agent-engineering",
+          "cluster_id": "51a16b58b8504ef7",
+          "summary": "You can now keep your AI agent skills, prompts, and instructions up to date with Dependabot version updates for Agent Package Manager (APM). Dependabot opens pull requests to update supported… The post Dependabot version updates support Agent Package Manager appeared first on The GitHub Blog.",
+          "why_matters": "skills/prompt 第一次有了包管理与自动升级通道，agent 配置开始像依赖一样被治理",
+          "fact_anchor": "GitHub Dependabot 版本更新支持 Agent Package Manager，可自动更新 agent skills、prompts 与 instructions",
+          "numbers": [
+            "2026-11-03"
+          ],
+          "entities": [
+            "GitHub",
+            "Dependabot",
+            "Agent Package Manager"
+          ],
+          "evidence_urls": [
+            "https://github.blog/changelog/2026-11-03-dependabot-version-updates-support-agent-package-manager"
+          ],
+          "impact": "直接命中 skill 资产化方向：WorkBuddy / hermes 的 skills 可考虑走 APM 式版本更新而非手工同步",
+          "next_action": "在测试仓库注册 1 个 skill 包，若 Dependabot 能自动开 PR 更新则判定可迁移到 skills 发布流程",
+          "signal_type": "release",
+          "confidence": "fact"
+        },
+        {
+          "id": "adafdd4764cb9dbb",
+          "title": "Agentic cheminformatics with Google Antigravity",
+          "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity",
+          "source": "Google DeepMind Blog",
+          "published_at": "2026-11-03T17:01:49Z",
+          "score": 70.6,
+          "category": "agent-engineering",
+          "cluster_id": "adafdd4764cb9dbb",
+          "summary": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
+          "why_matters": "官方把 Skills 作为领域 agent 的一等抽象推向垂直行业，验证技能化路线的产品价值",
+          "fact_anchor": "Google DeepMind 发布 Antigravity 驱动的 agentic cheminformatics，用 Cheminformatics Skills 加速药物发现",
+          "numbers": [
+            "2026-11-03"
+          ],
+          "entities": [
+            "Google Antigravity",
+            "Cheminformatics Skills"
+          ],
+          "evidence_urls": [
+            "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity"
+          ],
+          "impact": "与 skill-creator / 专家包工作同向：领域技能包正在成为大厂产品形态",
+          "next_action": "对照其 Skills 结构与 canonical AgentRole schema，若字段覆盖率不低于 80% 则考虑对齐",
+          "signal_type": "release",
+          "confidence": "fact"
+        },
+        {
+          "id": "24fd804e8078a564",
+          "title": "Agent Skill Evaluation and Evolution: Frameworks and Benchmarks",
+          "url": "https://arxiv.org/abs/2606.11435",
+          "source": "arXiv cs.CL",
+          "published_at": "2026-11-04T05:00:00Z",
+          "score": 71.84,
+          "category": "agent-engineering",
+          "cluster_id": "24fd804e8078a564",
+          "summary": "arXiv:2606.11435v2 Announce Type: replace Abstract: The growth of agent skills has transformed how agentic systems are built, evaluated, and deployed. As skill libraries continue to scale, rigorous evaluation becomes critical to ensuring their utility, quality, and safety in real-world applications.",
+          "why_matters": "skill 质量首次被系统性度量与迭代，而不是靠人工感觉",
+          "fact_anchor": "arXiv 2606.11435 提出 agent skill 的评估与演化框架和基准",
+          "numbers": [
+            "2606.11435"
+          ],
+          "entities": [
+            "arXiv",
+            "agent skill"
+          ],
+          "evidence_urls": [
+            "https://arxiv.org/abs/2606.11435"
+          ],
+          "impact": "可直接用于专家包质量审查的评分维度设计",
+          "next_action": "精读其 benchmark 维度，若不少于 3 个维度可复用则纳入 monitor-quality-audit",
+          "signal_type": "research",
+          "confidence": "fact"
+        },
+        {
+          "id": "933d4b5508fd6df0",
+          "title": "Learning by Doing: Autonomously Compiling and Curating Agent Skills from Verified Traces",
+          "url": "https://arxiv.org/abs/2611.01386",
+          "source": "arXiv cs.CL",
+          "published_at": "2026-11-04T05:00:00Z",
+          "score": 70.24,
+          "category": "agent-engineering",
+          "cluster_id": "933d4b5508fd6df0",
+          "summary": "arXiv:2611.01386v1 Announce Type: cross Abstract: Memory systems for production LLM agents mostly store semantic memory (facts about users and domains) or episodic memory (earlier interactions). Research systems such as Trace2Skill, WikiSkill, and SkillRevise learn procedures from agent runs, packag",
+          "why_matters": "把经验沉淀为可复用技能库，补上语义记忆之外的程序性记忆一层",
+          "fact_anchor": "arXiv 2611.01386：生产 LLM agent 通过边做边学自主编译并策展 agent skills 记忆",
+          "numbers": [
+            "2611.01386"
+          ],
+          "entities": [
+            "arXiv",
+            "memory system"
+          ],
+          "evidence_urls": [
+            "https://arxiv.org/abs/2611.01386"
+          ],
+          "impact": "对 kmaster-studio 的记忆层设计有直接参考：skill 自动生成值得原型验证",
+          "next_action": "在其基准上复现 skill 生成，若成功率低于原文报告 10% 以上则判定不可迁移",
+          "signal_type": "research",
+          "confidence": "fact"
+        },
+        {
+          "id": "e36b6618722d511a",
+          "title": "Desiderata for the Theory of Agents",
+          "url": "https://www.lesswrong.com/posts/sqjti8dxcKSvZJikd/desiderata-for-the-theory-of-agents",
+          "source": "LessWrong",
+          "published_at": "2026-11-04T11:25:12Z",
+          "score": 69.46,
+          "category": "agent-engineering",
+          "cluster_id": "e36b6618722d511a",
+          "summary": "TLDR: I give informal conceptual desiderata for the theory of agents we need to solve ASI alignment, and show a few examples of how existing theories fall short of these desiderata. A Theory of What? The word \"agent\" is often used in the AI safety discourse and in other research communities, but the",
+          "why_matters": "指出 agent 一词在安全讨论中定义漂移，现有理论不满足基本 desiderata",
+          "fact_anchor": "LessWrong 长文提出 ASI 对齐所需的 agent 理论 desiderata，并指出现有理论的不足",
+          "numbers": [
+            "2026-11-04"
+          ],
+          "entities": [
+            "ASI alignment",
+            "theory of agents"
+          ],
+          "evidence_urls": [
+            "https://www.lesswrong.com/posts/sqjti8dxcKSvZJikd/desiderata-for-the-theory-of-agents"
+          ],
+          "impact": "写专家包与 A2A 规范时术语需先定义再使用，避免同类漂移",
+          "next_action": "对照 A2A 文档做术语审计，出现至少 1 处歧义即修订",
+          "signal_type": "opinion",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "ai-models",
+      "label": "模型与研究",
+      "items": [
+        {
+          "id": "88c23216a431785a",
+          "title": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
+          "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
+          "source": "HN Algolia front_page (points/comments)",
+          "published_at": "2026-11-04T08:46:29Z",
+          "score": 75.31,
+          "category": "ai-models",
+          "cluster_id": "88c23216a431785a",
+          "summary": "",
+          "why_matters": "硬件侧可信固件正在变成对开放推理栈的隐性锁，比模型层封锁更难绕",
+          "fact_anchor": "HN 热帖：Nvidia RTX Spark 加密固件使第三方推理速度降至官方的 35%",
+          "numbers": [
+            "35"
+          ],
+          "entities": [
+            "Nvidia",
+            "RTX Spark"
+          ],
+          "evidence_urls": [
+            "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop"
+          ],
+          "impact": "本地推理选型需把 Nvidia 消费级卡的不确定性计入成本",
+          "next_action": "若后续实测降幅收窄到 15% 以内则解除对 RTX 系本地推理的选型顾虑",
+          "signal_type": "incident",
+          "confidence": "fact"
+        },
+        {
+          "id": "85178b68c56ca0dc",
+          "title": "[Paper] SpecPilot: Autonomous Algorithm Discovery and Systems Optimization for Speculative Decoding 🚀🚀🚀",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnjrgj/paper_specpilot_autonomous_algorithm_discovery",
+          "source": "r/LocalLLaMA",
+          "published_at": "2026-11-04T09:18:44Z",
+          "score": 74.32,
+          "category": "ai-models",
+          "cluster_id": "85178b68c56ca0dc",
+          "summary": "Speculative decoding accelerates memory-bound LLM decoding with a lightweight drafter, and parallel drafters extend this speedup by drafting a whole block in one forward pass. However, it remains unclear whether their released systems (stock) attain the full speedup that parallel drafting permits. W",
+          "why_matters": "投机解码的工程上限被重新校准，社区实测与论文宣称的差距被摆上台面",
+          "fact_anchor": "SpecPilot 论文帖：并行投机解码离理论加速上限仍有差距，识别出三项系统挑战",
+          "numbers": [
+            "2026-11-04"
+          ],
+          "entities": [
+            "SpecPilot",
+            "speculative decoding"
+          ],
+          "evidence_urls": [
+            "https://www.reddit.com/r/LocalLLaMA/comments/1xnjrgj/paper_specpilot_autonomous_algorithm_discovery"
+          ],
+          "impact": "kmaster 推理服务若上并行 drafter，需按其三项挑战做验收",
+          "next_action": "在我们的负载上复测 draft 接受率，低于其报告值 20% 则判定收益不成立",
+          "signal_type": "research",
+          "confidence": "fact"
+        },
+        {
+          "id": "d41f5a6be2f677ec",
+          "title": "[技术日报] AI 技术日报 · 2026-11-04（周三）",
+          "url": "https://github.com/kejun/daily-rss/blob/main/2026/11/2026-11-04.md",
+          "source": "克军三仓库最新日报（聚合 Atom）",
+          "published_at": "2026-11-03T22:03:13Z",
+          "score": 70.16,
+          "category": "ai-models",
+          "cluster_id": "d41f5a6be2f677ec",
+          "summary": "AI 技术日报 · 2026-11-04（周三） 覆盖 29 个信源 · 去重聚合 · 全中文精编 今日主线：同一个数字，两种读法。 Anthropic 交出单季 170 亿美元营收（同比增长 11 倍），同时亏损扩大、单位算力毛利变差——\"AI 需求是真的\"和\"AI 生意还不成立\"这两句话，第一次可以同时成立。另一侧，开源权重把前沿继续往消费级硬件上搬：753B 科学模型、290B 本地 MoE、纯 C 从磁盘流式加载专家。而今天 HN 上票数最高的不是模型，是 Postman 偷偷装 AI 插件并尝试上传全部 API 数据（815 分）——信任，正在成为这个行业最稀缺的资源。 📌 今日速览",
+          "why_matters": "同日多源交叉印证 AI 需求为真与 AI 生意未成立可以并存",
+          "fact_anchor": "克军 AI 技术日报 2026-11-04：覆盖 29 个信源，Anthropic 单季 170 亿美元营收同比增长超 11 倍但亏损同步扩大",
+          "numbers": [
+            "29",
+            "170",
+            "11"
+          ],
+          "entities": [
+            "Anthropic"
+          ],
+          "evidence_urls": [
+            "https://github.com/kejun/daily-rss/blob/main/2026/11/2026-11-04.md"
+          ],
+          "impact": "接入为订阅源后，本系统可引用其去重结论做二级校验",
+          "next_action": "对照我们的入选簇与其日报主题重合度，重合不低于 50% 说明信源结构有效",
+          "signal_type": "research",
+          "confidence": "fact"
+        },
+        {
+          "id": "6385d8e47a02bbd3",
+          "title": "v2.1.318",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.318",
+          "source": "claude-code Releases",
+          "published_at": "2026-11-04T00:01:03Z",
+          "score": 70.59,
+          "category": "dev-tools",
+          "cluster_id": "6385d8e47a02bbd3",
+          "summary": "What's changed Added a record of your answer when Claude Code asks to turn on the mods it writes in a session Added assume_role on mantle upstreams of the Claude apps gateway, for a role in another AWS account and for per-developer AWS cost attribution Added an effort option to a mod's $.model.fork,",
+          "why_matters": "高频小版本迭代本身是信号：harness 层竞争在加速",
+          "fact_anchor": "claude-code 发布 v2.1.318，新增会话修改记录等变更",
+          "numbers": [
+            "2.1.318"
+          ],
+          "entities": [
+            "Claude Code"
+          ],
+          "evidence_urls": [
+            "https://github.com/anthropics/claude-code/releases/tag/v2.1.318"
+          ],
+          "impact": "kmaster-studio 桥接的 agent CLI 行为可能随版本漂移",
+          "next_action": "升级后跑 bridge smoke，0 失败才进入主干",
+          "signal_type": "release",
+          "confidence": "fact"
+        },
+        {
+          "id": "82af5102f1563486",
+          "title": "Using Strata IQ4 Qwen Flash to edit Qwen 3.5 0.6B weight based on MIT CSAIL",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnjwte/using_strata_iq4_qwen_flash_to_edit_qwen_35_06b",
+          "source": "r/LocalLLaMA",
+          "published_at": "2026-11-04T09:28:48Z",
+          "score": 69.64,
+          "category": "ai-models",
+          "cluster_id": "82af5102f1563486",
+          "summary": "EDIT : NON COMPRESS GRAPH : https://n.uguu.se/ojTfpwwD.png Because why not. Preamble: DeepSeek Harness Creator Mode Strata IQ4 Qwen Flash Next 3090, Xeon E5, 96G (DDR4 2400 ECC, 3x32) \"Training Token\" 39.8M Context cache, 1.1M actual token. \"Time to traing\" 3h 12m Strata, 41 tok/s decode Qwen 0.6B R",
+          "why_matters": "权重可编辑性从论文走向民间复现，小模型成为试验场",
+          "fact_anchor": "r/LocalLLaMA：用 Strata IQ4 编辑 Qwen 3.5 0.6B 权重的实验记录",
+          "numbers": [
+            "3.5",
+            "0.6"
+          ],
+          "entities": [
+            "Qwen",
+            "Strata IQ4"
+          ],
+          "evidence_urls": [
+            "https://www.reddit.com/r/LocalLLaMA/comments/1xnjwte/using_strata_iq4_qwen_flash_to_edit_qwen_35_06b"
+          ],
+          "impact": "对模型即数据的运维假设提出挑战，权重版本管理更重要",
+          "next_action": "仅作观察项，若出现可复现的安全事件再升级关注",
+          "signal_type": "research",
+          "confidence": "inference"
+        },
+        {
+          "id": "76342e728d2769e6",
+          "title": "Axion1-0/Axion-1.0-35B · Hugging Face",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnjiu4/axion10axion1035b_hugging_face",
+          "source": "r/LocalLLaMA",
+          "published_at": "2026-11-04T09:02:58Z",
+          "score": 69.34,
+          "category": "ai-models",
+          "cluster_id": "76342e728d2769e6",
+          "summary": "We introduce Axion 1.0, a fully open agent foundation model that combines strong and broad agentic capabilities with a remarkably simple training recipe. Axion 1.0 is trained in only three stages: two lightweight supervised fine-tuning stages followed by reinforcement learning, without dedicated mid",
+          "why_matters": "开放权重在 agent 专用基座上又补了一档 35B 选择",
+          "fact_anchor": "Axion 1.0-35B 开源：主打全面 agentic 能力的开放基础模型",
+          "numbers": [
+            "1.0",
+            "35"
+          ],
+          "entities": [
+            "Axion",
+            "Hugging Face"
+          ],
+          "evidence_urls": [
+            "https://www.reddit.com/r/LocalLLaMA/comments/1xnjiu4/axion10axion1035b_hugging_face"
+          ],
+          "impact": "本地 agent 试验可加入该模型做横向对比",
+          "next_action": "跑同一 agent 基准，若成功率不高于现有基线 5% 则不纳入选型",
+          "signal_type": "release",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "dev-tools",
+      "label": "开发者工具与版本",
+      "items": [
+        {
+          "id": "3f989514aa0deab0",
+          "title": "Kitty 0.50",
+          "url": "https://sw.kovidgoyal.net/kitty/changelog",
+          "source": "HN Algolia front_page (points/comments)",
+          "published_at": "2026-11-04T08:57:10Z",
+          "score": 74.87,
+          "category": "community",
+          "cluster_id": "3f989514aa0deab0",
+          "summary": "",
+          "why_matters": "HN 高票的终端大版本更新，渲染与脚本 API 变化面大",
+          "fact_anchor": "Kitty 终端发布 0.50 版本",
+          "numbers": [
+            "0.50"
+          ],
+          "entities": [
+            "Kitty"
+          ],
+          "evidence_urls": [
+            "https://sw.kovidgoyal.net/kitty/changelog"
+          ],
+          "impact": "影响终端工具链选型，WinVM 内测试环境需确认兼容",
+          "next_action": "在测试机升级后跑 tmux/kitty 脚本集，全部通过才升级主力机",
+          "signal_type": "release",
+          "confidence": "fact"
+        },
+        {
+          "id": "0f281cabd4f69d19",
+          "title": "BYOK and enterprise custom models in the Copilot usage API",
+          "url": "https://github.blog/changelog/2026-11-03-byok-and-enterprise-custom-models-in-the-copilot-usage-api",
+          "source": "GitHub Changelog",
+          "published_at": "2026-11-04T00:32:19Z",
+          "score": 70.85,
+          "category": "dev-tools",
+          "cluster_id": "0f281cabd4f69d19",
+          "summary": "The Copilot usage metrics API now shows bring your own key (BYOK) usage across GitHub Copilot, so you can separate it from Copilot-hosted model usage. Reports cover two kinds of… The post BYOK and enterprise custom models in the Copilot usage API appeared first on The GitHub Blog.",
+          "why_matters": "BYOK 用量可被单独计量，企业成本归因有了官方口径",
+          "fact_anchor": "GitHub Copilot 用量 API 新增 BYOK 与企业自定义模型用量拆分",
+          "numbers": [
+            "2026-11-04"
+          ],
+          "entities": [
+            "GitHub Copilot",
+            "BYOK"
+          ],
+          "evidence_urls": [
+            "https://github.blog/changelog/2026-11-03-byok-and-enterprise-custom-models-in-the-copilot-usage-api"
+          ],
+          "impact": "cc-switch / 多 provider 场景的成本归因可参考其字段设计",
+          "next_action": "对照其 API 字段，若能覆盖我们 5 类 provider 中至少 4 类则接入成本看板",
+          "signal_type": "release",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "docs-changelog",
+      "label": "文档与变更",
+      "items": [
+        {
+          "id": "3257ffecc3ac915e",
+          "title": "Incident with Pull Requests, Git Operations and Issues",
+          "url": "https://www.githubstatus.com/incidents/smtdswd1h2w4",
+          "source": "HN Algolia front_page (points/comments)",
+          "published_at": "2026-11-04T10:00:06Z",
+          "score": 73.84,
+          "category": "community",
+          "cluster_id": "3257ffecc3ac915e",
+          "summary": "",
+          "why_matters": "GitHub 核心服务当日不稳定，直接影响 CI 与依赖同步",
+          "fact_anchor": "GitHub 官方状态页公告 Pull Requests、Git 操作与 Issues 发生事故",
+          "numbers": [
+            "2026-11-04"
+          ],
+          "entities": [
+            "Pull Requests",
+            "Git Operations",
+            "Issues"
+          ],
+          "evidence_urls": [
+            "https://www.githubstatus.com/incidents/smtdswd1h2w4"
+          ],
+          "impact": "当日 git push / Actions 失败应先查状态页再排查本地",
+          "next_action": "若事故 24 小时内未关闭，则把关键发布流程临时切备用镜像",
+          "signal_type": "incident",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "research-papers",
+      "label": "论文与学术",
+      "items": [
+        {
+          "id": "eda942a44782fe64",
+          "title": "[AI 产品创意] 💡 AI 产品创意日报 | 2026-11-04",
+          "url": "https://github.com/kejun/daily-investor/blob/main/ideas/2026-11-04-ai-product-ideas.md",
+          "source": "克军三仓库最新日报（聚合 Atom）",
+          "published_at": "2026-11-03T23:01:26Z",
+          "score": 70.6,
+          "category": "research-papers",
+          "cluster_id": "eda942a44782fe64",
+          "summary": "💡 AI 产品创意日报 | 2026-11-04 生成时间：2026 年 11 月 4 日 7:00 AM (Asia/Shanghai) 数据来源：Hacker News 首页、Hugging Face Blog、GitHub Trending（11/3）、arXiv CS.AI 📊 今日核心洞察 一句话主题：Agent 开始「动手」了，但没人能证明它动的手是对的 今天的信息流里，Agent 的主题悄悄换了位置：从「Agent 能说什么」变成「Agent 能做什么」。 GitHub Trending 第一名是 Vercel Labs 的 agent-desktop——一个让 agent 通过",
+          "why_matters": "把当日技术信号转成产品创意与验证计划的成例，漏斗结构可抄",
+          "fact_anchor": "克军 AI 产品创意日报 2026-11-04（7:00 生成，数据来源含 HN 首页、HF Blog、GitHub Trending、arXiv）",
+          "numbers": [
+            "7"
+          ],
+          "entities": [
+            "AI 产品创意日报",
+            "Hacker News"
+          ],
+          "evidence_urls": [
+            "https://github.com/kejun/daily-investor/blob/main/ideas/2026-11-04-ai-product-ideas.md"
+          ],
+          "impact": "周报的下周可验证动作可借用其优先级排序格式",
+          "next_action": "对比其创意清单与我们的 watch_signals，重合不少于 2 条即说明选题有效",
+          "signal_type": "research",
+          "confidence": "fact"
+        },
+        {
+          "id": "0ee4b2ffd1ac8e3f",
+          "title": "Optimize the Harness, Not the Model: Fitting a Minimal Agent to a Self-Hostable LLM for Investigative Analysis",
+          "url": "https://arxiv.org/abs/2611.03434",
+          "source": "arXiv cs.CL",
+          "published_at": "2026-11-04T05:00:00Z",
+          "score": 68.84,
+          "category": "research-papers",
+          "cluster_id": "0ee4b2ffd1ac8e3f",
+          "summary": "arXiv:2611.03434v1 Announce Type: cross Abstract: Government intelligence teams need LLM agents that can analyze large, messy evidence collections, but security and cost constraints often rule out hosted frontier models and broad, hard-to-audit tool surfaces. We report CLEO: Constrained Loop for Env",
+          "why_matters": "又一独立证据：harness 工程质量正在取代模型能力成为瓶颈",
+          "fact_anchor": "arXiv 2611.03434：政府情报场景下优化 harness 而非模型的最小 agent 适配",
+          "numbers": [
+            "2611.03434"
+          ],
+          "entities": [
+            "arXiv",
+            "harness"
+          ],
+          "evidence_urls": [
+            "https://arxiv.org/abs/2611.03434"
+          ],
+          "impact": "与 agent-desktop / t3code 的工作台之争互相佐证",
+          "next_action": "纳入本周 harness 主题证据池，主题簇不少于 3 个则在周报立题",
+          "signal_type": "research",
+          "confidence": "fact"
+        },
+        {
+          "id": "124c94d8eb3bb74b",
+          "title": "Routing Subspaces: Auditing Evaluation-to-Deployment Mismatch in Fine-Tuned Language Models",
+          "url": "https://arxiv.org/abs/2607.20436",
+          "source": "arXiv cs.CL",
+          "published_at": "2026-11-04T05:00:00Z",
+          "score": 68.84,
+          "category": "research-papers",
+          "cluster_id": "124c94d8eb3bb74b",
+          "summary": "arXiv:2607.20436v2 Announce Type: replace Abstract: Safety evaluations often assume that behavior observed during testing reflects behavior in ordinary use, but fine-tuning can break this assumption. A checkpoint can appear fixed under evaluation-style prompts while the same behavior persists under ",
+          "why_matters": "安全评测假设评测时行为等于部署行为，被给出证伪路径",
+          "fact_anchor": "arXiv 2607.20436：Routing Subspaces 审计评估到部署的行为失配",
+          "numbers": [
+            "2607.20436"
+          ],
+          "entities": [
+            "arXiv",
+            "safety evaluation"
+          ],
+          "evidence_urls": [
+            "https://arxiv.org/abs/2607.20436"
+          ],
+          "impact": "skill 合规检查应加部署态抽检，不能只靠发布前评测",
+          "next_action": "抽检 3 个已上线 skill，若行为偏移超过 10% 则建立常态抽检",
+          "signal_type": "research",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "industry-capital",
+      "label": "产业与资本",
+      "items": [
+        {
+          "id": "389864e7d23d80b9",
+          "title": "CVS to split off drugstore business in major breakup of healthcare giant",
+          "url": "https://www.cnbc.com/2026/11/04/cvs-to-split-off-drugstore-business.html",
+          "source": "CNBC Markets",
+          "published_at": "2026-11-04T11:35:53Z",
+          "score": 69.59,
+          "category": "industry-capital",
+          "cluster_id": "389864e7d23d80b9",
+          "summary": "The move would reverse the company's $78 billion acquisition of Aetna, and dismantle the vertically integrated healthcare conglomerate it created in 2018.",
+          "why_matters": "垂直整合的反面案例：巨头也在拆自己买来的整合",
+          "fact_anchor": "CVS 将分拆药品零售业务，反转 78 亿美元收购 Aetna 的一体化战略",
+          "numbers": [
+            "78"
+          ],
+          "entities": [
+            "CVS",
+            "Aetna"
+          ],
+          "evidence_urls": [
+            "https://www.cnbc.com/2026/11/04/cvs-to-split-off-drugstore-business.html"
+          ],
+          "impact": "对平台 vs 专精的判断增加一个产业级证据",
+          "next_action": "观察分拆后 6 个月两家股价表现，再决定是否引用为长期案例",
+          "signal_type": "funding",
+          "confidence": "fact"
+        },
+        {
+          "id": "4b3e4456ba06f433",
+          "title": "AI sales startup Nooks secures $500 million in funding for expansion - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQOXpKNVNpQ1hhR3lxTGJuem9WcDNINW00TE1ORVZuX0xaWDFtcGhXdENBblhnWTBrVFNkRGU1SzM2S1oyRHJtUUVkSEJEUi1wUXh4Tk5XbWFDZ3FySEZ0U19xRVpwbmVFaWZRZnh1Sm81MnkybWtpY2tuNEhSSFNwOHdQRnZuTm54aWZVcWM4M0l5T0N6ekdVUllFSkFwTU94TWVfanNWSUEybUo3eDRIZi1kRQ?oc=5",
+          "source": "Google News · AI 融资",
+          "published_at": "2026-11-04T11:32:09Z",
+          "score": 69.55,
+          "category": "industry-capital",
+          "cluster_id": "4b3e4456ba06f433-c",
+          "summary": "AI sales startup Nooks secures $500 million in funding for expansion Reuters",
+          "why_matters": "销售自动化赛道单笔融资已到 5 亿美元量级",
+          "fact_anchor": "AI 销售初创 Nooks 获 5 亿美元融资用于扩张（Reuters）",
+          "numbers": [
+            "500"
+          ],
+          "entities": [
+            "Nooks",
+            "Reuters"
+          ],
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiswFBVV95cUxQOXpKNVNpQ1hhR3lxTGJuem9WcDNINW00TE1ORVZuX0xaWDFtcGhXdENBblhnWTBrVFNkRGU1SzM2S1oyRHJtUUVkSEJEUi1wUXh4Tk5XbWFDZ3FySEZ0U19xRVpwbmVFaWZRZnh1Sm81MnkybWtpY2tuNEhSSFNwOHdQRnZuTm54aWZVcWM4M0l5T0N6ekdVUllFSkFwTU94TWVfanNWSUEybUo3eDRIZi1kRQ?oc=5"
+          ],
+          "impact": "AI agent 商业化在垂直职能上继续吸金，值得跟踪定价模式",
+          "next_action": "若下月同类融资超过 3 笔则立职能型 AI 融资潮主题",
+          "signal_type": "funding",
+          "confidence": "fact"
+        },
+        {
+          "id": "f912b9d47ec922ef",
+          "title": "AI Commerce Startup Thermit, Operator of Creazy Content Agent, Raises Seed Funding Led by Mashup Ventures - Wowtale",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5tdjJfQ2lQTlpISDlBOGZ3cXRiM2tRaHZ0TkhYbDU1cjQteE5KTDF5M09CdWpvOG9SRVFpLWh1UFBMaEVrdUV5N2Z6Rl9IQXE3bGww?oc=5",
+          "source": "Google News · AI 融资",
+          "published_at": "2026-11-04T08:32:05Z",
+          "score": 68.99,
+          "category": "industry-capital",
+          "cluster_id": "f912b9d47ec922ef",
+          "summary": "AI Commerce Startup Thermit, Operator of Creazy Content Agent, Raises Seed Funding Led by Mashup Ventures Wowtale",
+          "why_matters": "内容 agent 作为独立产品拿到种子轮，赛道被资本点名",
+          "fact_anchor": "AI 商务初创 Thermit（Creazy Content Agent 运营方）完成种子轮融资，Mashup Ventures 领投",
+          "numbers": [
+            "2026-11-04"
+          ],
+          "entities": [
+            "Thermit",
+            "Creazy"
+          ],
+          "evidence_urls": [
+            "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5tdjJfQ2lQTlpISDlBOGZ3cXRiM2tRaHZ0TkhYbDU1cjQteE5KTDF5M09CdWpvOG9SRVFpLWh1UFBMaEVrdUV5N2Z6Rl9IQXE3bGww?oc=5"
+          ],
+          "impact": "与本项目内容流水线定位相近，可研究其付费切入点",
+          "next_action": "查其官网定价，若已有至少 2 档订阅则纳入竞品观察表",
+          "signal_type": "funding",
+          "confidence": "fact"
+        },
+        {
+          "id": "5b09b5e73f392dd7",
+          "title": "Swiss Pharmaceutical Industry Loses Ground in Global Innovation Race",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-04/swiss-pharmaceutical-industry-loses-ground-in-global-innovation-race",
+          "source": "Bloomberg Markets",
+          "published_at": "2026-11-04T11:00:00Z",
+          "score": 76.16,
+          "category": "dev-tools",
+          "cluster_id": "5b09b5e73f392dd7",
+          "summary": "Innovation in Switzerland’s pharmaceutical industry has fallen for the second year in a row, a new study shows, underscoring how it is trailing foreign competitors in digital research and clinical trials.",
+          "why_matters": "高新制造的创新份额转移是慢变量，但对产业地图判断有用",
+          "fact_anchor": "彭博：瑞士制药业全球创新排名连续第二年下滑",
+          "numbers": [
+            "2026-11-04"
+          ],
+          "entities": [
+            "Swiss Pharmaceutical Industry"
+          ],
+          "evidence_urls": [
+            "https://www.bloomberg.com/news/articles/2026-11-04/swiss-pharmaceutical-industry-loses-ground-in-global-innovation-race"
+          ],
+          "impact": "暂无直接影响，作为高新科技板块的背景条目",
+          "next_action": "暂无可验证动作；下季度再现同类排名数据则合并跟踪",
+          "signal_type": "research",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "market-invest",
+      "label": "市场与投资",
+      "items": [
+        {
+          "id": "0c58928392d26aaf",
+          "title": "European Defense Stocks Slide as Democrats’ Sweep Dents Optimism",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-04/european-defense-stocks-slide-as-democrats-sweep-dents-optimism",
+          "source": "Bloomberg Markets",
+          "published_at": "2026-11-04T11:27:31Z",
+          "score": 73.3,
+          "category": "market-invest",
+          "cluster_id": "0c58928392d26aaf",
+          "summary": "European defense stocks slid as the Democrats’ landslide midterm-elections win dented expectations of a further ramp-up in US military spending.",
+          "why_matters": "选举结果直接改写军费预期，防务板块对政治敏感度高",
+          "fact_anchor": "欧洲防务股下跌：中期选举民主党大胜削弱美军费继续扩张预期",
+          "numbers": [
+            "2026-11-04"
+          ],
+          "entities": [
+            "European Defense Stocks",
+            "Democrats"
+          ],
+          "evidence_urls": [
+            "https://www.bloomberg.com/news/articles/2026-11-04/european-defense-stocks-slide-as-democrats-sweep-dents-optimism"
+          ],
+          "impact": "仅作公开数据陈述，不构成任何投资建议",
+          "next_action": "若后续法案数据使预期反转超过 5%，在日报标注预期修正",
+          "signal_type": "market-data",
+          "confidence": "fact"
+        },
+        {
+          "id": "134b686ce725841a",
+          "title": "Dollar Dips Most in Two Months as US Vote Spurs Policy Risks",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-04/franc-yen-emerge-as-fx-winners-as-us-midterms-weaken-dollar",
+          "source": "Bloomberg Markets",
+          "published_at": "2026-11-04T03:11:23Z",
+          "score": 69.53,
+          "category": "industry-capital",
+          "cluster_id": "134b686ce725841a",
+          "summary": "The dollar sank the most in two months as Democrats’ sweeping midterm elections win fueled concern about political gridlock and tougher tech regulation that could damp foreign demand for US assets.",
+          "why_matters": "汇率与监管预期联动，科技资产的政策风险被重新定价",
+          "fact_anchor": "美元创两个月最大单日跌幅：市场担忧政治僵局与更严科技监管",
+          "numbers": [
+            "2026-11-04"
+          ],
+          "entities": [
+            "Dollar",
+            "tech regulation"
+          ],
+          "evidence_urls": [
+            "https://www.bloomberg.com/news/articles/2026-11-04/franc-yen-emerge-as-fx-winners-as-us-midterms-weaken-dollar"
+          ],
+          "impact": "对本项目的影响是跨境服务成本波动",
+          "next_action": "DXY 若续跌超过 2% 则在周报提示海外服务计价风险",
+          "signal_type": "market-data",
+          "confidence": "fact"
+        },
+        {
+          "id": "81860af0d09ccb83",
+          "title": "Stock Bulls Are Glad This Election Is Finally Over",
+          "url": "https://www.bloomberg.com/news/newsletters/2026-11-04/stock-bulls-are-glad-this-election-is-finally-over",
+          "source": "Bloomberg Markets",
+          "published_at": "2026-11-04T11:20:44Z",
+          "score": 73.22,
+          "category": "market-invest",
+          "cluster_id": "81860af0d09ccb83",
+          "summary": "Equities, bonds rally now that the political countours are clear.",
+          "why_matters": "不确定性消除本身成为利多，事件驱动逻辑清晰",
+          "fact_anchor": "彭博：股债在选举结果明朗后齐涨，多头松一口气",
+          "numbers": [
+            "2026-11-04"
+          ],
+          "entities": [
+            "Stock Bulls"
+          ],
+          "evidence_urls": [
+            "https://www.bloomberg.com/news/newsletters/2026-11-04/stock-bulls-are-glad-this-election-is-finally-over"
+          ],
+          "impact": "无直接影响，作为选举日市场叙事样本留存",
+          "next_action": "暂无可验证动作",
+          "signal_type": "market-data",
+          "confidence": "fact"
+        },
+        {
+          "id": "ea417565f1981ae6",
+          "title": "Singapore Stocks Claw Back Losses as Regional Mood Improves",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-04/singapore-stocks-set-for-correction-as-bank-profit-outlook-sours",
+          "source": "Bloomberg Markets",
+          "published_at": "2026-11-04T02:37:31Z",
+          "score": 72.42,
+          "category": "market-invest",
+          "cluster_id": "ea417565f1981ae6",
+          "summary": "Singapore’s equity benchmark Straits Times Index advanced in late trading, after briefly entering a technical correction, as broader sentiment improved even as heavyweight bank shares slide.",
+          "why_matters": "亚太市场对美选举的联动传导当日转正",
+          "fact_anchor": "新加坡股市尾盘收复失地，区域情绪改善",
+          "numbers": [
+            "2026-11-04"
+          ],
+          "entities": [
+            "Singapore",
+            "Straits Times Index"
+          ],
+          "evidence_urls": [
+            "https://www.bloomberg.com/news/articles/2026-11-04/singapore-stocks-set-for-correction-as-bank-profit-outlook-sours"
+          ],
+          "impact": "无直接影响",
+          "next_action": "暂无可验证动作",
+          "signal_type": "market-data",
+          "confidence": "fact"
+        },
+        {
+          "id": "d04e36038fb775c4",
+          "title": "India Coffee Output to Miss Forecast After Below-Normal Rains",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-04/india-coffee-output-to-miss-forecast-after-below-normal-rains",
+          "source": "Bloomberg Markets",
+          "published_at": "2026-11-04T11:06:22Z",
+          "score": 73.04,
+          "category": "market-invest",
+          "cluster_id": "d04e36038fb775c4",
+          "summary": "India’s coffee output is likely to fall short of an earlier forecast as below-normal rains during the four-month monsoon season took a toll on crops, according to the Coffee Board.",
+          "why_matters": "气候对大宗供给的传导是慢变量，但会先行反映在期货预期",
+          "fact_anchor": "印度咖啡产量或因雨季降水偏少而低于此前预测",
+          "numbers": [
+            "2026-11-04"
+          ],
+          "entities": [
+            "India",
+            "coffee"
+          ],
+          "evidence_urls": [
+            "https://www.bloomberg.com/news/articles/2026-11-04/india-coffee-output-to-miss-forecast-after-below-normal-rains"
+          ],
+          "impact": "无直接影响",
+          "next_action": "暂无可验证动作",
+          "signal_type": "market-data",
+          "confidence": "fact"
+        },
+        {
+          "id": "398bd0f8e6f9ad49",
+          "title": "India Approves Plan to Absorb More Short-Term Military Recruits",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-04/india-approves-plan-to-absorb-more-short-term-military-recruits",
+          "source": "Bloomberg Markets",
+          "published_at": "2026-11-04T11:19:47Z",
+          "score": 73.21,
+          "category": "market-invest",
+          "cluster_id": "398bd0f8e6f9ad49",
+          "summary": "India overhauled a short-term military recruitment plan by extending conscripts’ tenure and offering a path to permanent employment as border tensions with China and Pakistan continue to pressure the country’s defense establishment.",
+          "why_matters": "地缘与劳动力政策变化，影响防务与外包产业预期",
+          "fact_anchor": "印度批准扩大短期兵役吸收计划，延长义务兵服役并提供转正通道",
+          "numbers": [
+            "2026-11-04"
+          ],
+          "entities": [
+            "India"
+          ],
+          "evidence_urls": [
+            "https://www.bloomberg.com/news/articles/2026-11-04/india-approves-plan-to-absorb-more-short-term-military-recruits"
+          ],
+          "impact": "无直接影响",
+          "next_action": "暂无可验证动作",
+          "signal_type": "market-data",
+          "confidence": "fact"
+        },
+        {
+          "id": "5dc01a743cffc18a",
+          "title": "Boehringer, Sino Enter Cancer Drug Deal Worth Over $7 Billion",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-04/boehringer-sino-enter-cancer-drug-deal-worth-over-7-billion",
+          "source": "Bloomberg Markets",
+          "published_at": "2026-11-04T09:49:40Z",
+          "score": 72.1,
+          "category": "market-invest",
+          "cluster_id": "5dc01a743cffc18a",
+          "summary": "Boehringer Ingelheim GmbH signed a licensing deal potentially worth more than $7 billion with China’s Sino Biopharmaceutical Limited and its subsidiaries for experimental cancer treatments.",
+          "why_matters": "中国创新药 BD 出海单笔规模再上台阶",
+          "fact_anchor": "Boehringer 与中国 Sino 签署潜在价值超 70 亿美元（$7 Billion）的抗癌药授权协议",
+          "numbers": [
+            "7"
+          ],
+          "entities": [
+            "Boehringer",
+            "Sino"
+          ],
+          "evidence_urls": [
+            "https://www.bloomberg.com/news/articles/2026-11-04/boehringer-sino-enter-cancer-drug-deal-worth-over-7-billion"
+          ],
+          "impact": "高新科技板块的产业侧样本，无直接工作影响",
+          "next_action": "同类交易 30 天内再现至少 2 笔则立 BD 出海潮主题",
+          "signal_type": "funding",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "security-governance",
+      "label": "安全与治理",
+      "items": [
+        {
+          "id": "150a39b9eb9ad0c3",
+          "title": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
+          "url": "https://news.ycombinator.com/item?id=50363461",
+          "source": "HN Algolia front_page (points/comments)",
+          "published_at": "2026-11-04T10:10:27Z",
+          "score": 74.43,
+          "category": "community",
+          "cluster_id": "150a39b9eb9ad0c3",
+          "summary": "If you have a personal Google AI subscription, all your saved chat history in Gemini can be used for training and there is no way to opt out unless you turn off chat history or use temporary chat sessions. These chat transcripts may even be read by human reviewers. Although Google claims to disconne",
+          "why_matters": "订阅不等于隐私的又一实例，与 Postman 静默装插件同属同意机制缺位",
+          "fact_anchor": "Tell HN：Gemini 对个人订阅用户的聊天历史仍用于训练，除非关闭历史记录或使用临时会话，且可能被人审",
+          "numbers": [
+            "2026-11-04"
+          ],
+          "entities": [
+            "Google",
+            "Gemini"
+          ],
+          "evidence_urls": [
+            "https://news.ycombinator.com/item?id=50363461"
+          ],
+          "impact": "所有 agent 会话数据留存策略需默认按可能被训练设计",
+          "next_action": "审计本项目会话日志留存，敏感字段占比大于 0 即启动脱敏改造",
+          "signal_type": "incident",
+          "confidence": "fact"
+        },
+        {
+          "id": "4e591c9fc9bfe484",
+          "title": "Auditing Escalation Reliability in Healthcare LLM Agents: A Perturbation-Controlled Benchmark of Workflow-State Failures",
+          "url": "https://arxiv.org/abs/2610.21270",
+          "source": "arXiv cs.CL",
+          "published_at": "2026-11-04T05:00:00Z",
+          "score": 68.84,
+          "category": "agent-engineering",
+          "cluster_id": "4e591c9fc9bfe484",
+          "summary": "arXiv:2610.21270v2 Announce Type: replace-cross Abstract: Trustworthy biomedical AI requires reliable action selection when evidence is missing, stale, conflicting, or late, not only accurate answers on static inputs. We instantiate an episode-level evaluation protocol as 400 synthetic healthcare wo",
+          "why_matters": "高风险领域 agent 的动作升级可靠性开始有可复用的审计方法",
+          "fact_anchor": "arXiv 2610.21270：医疗 LLM agent 动作升级可靠性的扰动审计框架",
+          "numbers": [
+            "2610.21270"
+          ],
+          "entities": [
+            "arXiv",
+            "Healthcare LLM Agents"
+          ],
+          "evidence_urls": [
+            "https://arxiv.org/abs/2610.21270"
+          ],
+          "impact": "专家包的合规检查可借用其扰动测试思路",
+          "next_action": "对 1 个高风险类专家包跑其审计流程，发现至少 1 个失败模式则推广",
+          "signal_type": "research",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "community",
+      "label": "社区与观点",
+      "items": [
+        {
+          "id": "5ded7db5c84bde68",
+          "title": "Jelly Sheet",
+          "url": "https://mrdoob.github.io/codevember-2026/01",
+          "source": "HN Algolia front_page (points/comments)",
+          "published_at": "2026-11-04T03:40:50Z",
+          "score": 72.79,
+          "category": "community",
+          "cluster_id": "5ded7db5c84bde68",
+          "summary": "",
+          "why_matters": "前端实验性交互在社区刷屏，表格即画布的想象空间被验证",
+          "fact_anchor": "HN 热帖：Jelly Sheet（codevember 2026 实验性表格交互）",
+          "numbers": [
+            "2026"
+          ],
+          "entities": [
+            "Jelly Sheet"
+          ],
+          "evidence_urls": [
+            "https://mrdoob.github.io/codevember-2026/01"
+          ],
+          "impact": "无直接影响；作为新奇产品观察",
+          "next_action": "暂无可验证动作",
+          "signal_type": "product",
+          "confidence": "fact"
+        },
+        {
+          "id": "b78da7331acb254d",
+          "title": "InteractionBench: Measuring Timing, Task Accuracy, Whisper and Volume, and Grounding in Real-Time Voice Systems",
+          "url": "https://arxiv.org/abs/2611.02430",
+          "source": "arXiv cs.CL",
+          "published_at": "2026-11-04T05:00:00Z",
+          "score": 68.84,
+          "category": "agent-engineering",
+          "cluster_id": "b78da7331acb254d",
+          "summary": "arXiv:2611.02430v1 Announce Type: cross Abstract: Most benchmarks for real-time voice systems focus on one aspect, such as turn-taking, instruction following, paralinguistic control, or conversational memory, each with its own data and set of systems. We present InteractionBench, a benchmark and eva",
+          "why_matters": "实时语音 agent 的评测从单维走向四维，社区基准在补齐",
+          "fact_anchor": "arXiv 2611.02430：InteractionBench 测量实时语音系统的时序/任务/耳语/音量四维指标",
+          "numbers": [
+            "2611.02430"
+          ],
+          "entities": [
+            "arXiv",
+            "InteractionBench"
+          ],
+          "evidence_urls": [
+            "https://arxiv.org/abs/2611.02430"
+          ],
+          "impact": "若做语音类 skill，可引用其指标定义",
+          "next_action": "暂无可验证动作",
+          "signal_type": "research",
+          "confidence": "fact"
+        },
+        {
+          "id": "b1057d03bb7d92f8",
+          "title": "Copper Follows Stock Markets Higher as Democrats Sweep Congress",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-04/copper-holds-losses-below-14-000-on-us-midterm-risks-to-stocks",
+          "source": "Bloomberg Markets",
+          "published_at": "2026-11-04T02:47:04Z",
+          "score": 69.31,
+          "category": "dev-tools",
+          "cluster_id": "b1057d03bb7d92f8",
+          "summary": "Copper climbed as stock markets turned higher and the dollar dropped after US midterm elections that saw the Democrats sweep Congress.",
+          "why_matters": "大宗与汇率的选举联动样本，商品端对政策预期敏感",
+          "fact_anchor": "铜价随股市走高：民主党横扫国会后美元回落",
+          "numbers": [
+            "2026-11-04"
+          ],
+          "entities": [
+            "Copper"
+          ],
+          "evidence_urls": [
+            "https://www.bloomberg.com/news/articles/2026-11-04/copper-holds-losses-below-14-000-on-us-midterm-risks-to-stocks"
+          ],
+          "impact": "无直接影响",
+          "next_action": "暂无可验证动作",
+          "signal_type": "market-data",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "deep-read",
+      "label": "深度长文",
+      "items": [
+        {
+          "id": "977b4bc7e201ffd5",
+          "title": "[技术文章] 当 Agent 学会读「结构」而不是看「像素」：Vercel agent-desktop 深度拆解",
+          "url": "https://github.com/kejun/blogpost/blob/main/2026-11-04-agent-desktop-accessibility-tree-computer-use.md",
+          "source": "克军三仓库最新日报（聚合 Atom）",
+          "published_at": "2026-11-04T00:02:16Z",
+          "score": 72.69,
+          "category": "deep-read",
+          "cluster_id": "977b4bc7e201ffd5",
+          "summary": "当 Agent 学会读「结构」而不是看「像素」：Vercel agent-desktop 深度拆解 12,669 颗星、一个月 2.2 万次 npm 下载、v1.1.0 在 11 月 3 日刚刚发布。Vercel Labs 的 agent-desktop 想回答一个非常具体的问题：如果桌面 Agent 不截图、不做像素匹配、不猜坐标，它还能不能操作 Finder、Excel 和 Photoshop？ 它的答案是：能，只要你愿意把「屏幕」换成「可访问性树」。 一、桌面 Agent 的真正瓶颈，从来不是模型 过去两年，桌面自动化（computer use）几乎被一种范式统治：截一张图，交给多模态模",
+          "why_matters": "computer use 目前最工程化的实现路径被完整拆解，与 WinVM Bridge 直接同题",
+          "fact_anchor": "克军 blogpost 深度拆解 Vercel agent-desktop：用可访问性树替代像素匹配，12,669 颗星、一个月 2.2 万次 npm 下载、v1.1.0 发布",
+          "numbers": [
+            "12,669",
+            "2.2",
+            "1.1.0"
+          ],
+          "entities": [
+            "Vercel",
+            "agent-desktop"
+          ],
+          "evidence_urls": [
+            "https://github.com/kejun/blogpost/blob/main/2026-11-04-agent-desktop-accessibility-tree-computer-use.md"
+          ],
+          "impact": "WinVM 的 VM 侧操作接口设计可直接参考其 ref 句柄 + snapshot 语义",
+          "next_action": "对照 bridge 协议，若 ref 语义可映射至少 3 类操作则写进设计笔记",
+          "signal_type": "research",
+          "confidence": "fact"
+        },
+        {
+          "id": "dd91fc9ec8712e06",
+          "title": "Read the muse spark open license before wiring it into anything",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnis75/read_the_muse_spark_open_license_before_wiring_it",
+          "source": "r/LocalLLaMA",
+          "published_at": "2026-11-04T08:13:49Z",
+          "score": 68.78,
+          "category": "ai-models",
+          "cluster_id": "dd91fc9ec8712e06",
+          "summary": "that 72 hours thread from a few weeks back had the best point down in the comments, open weights only ever meant you can download them. muse spark open is 816B and beam is 501B, so for most ppl here the only drop that week that fits a 24GB card was nvidias bolt so the big ones mostly get used thru a",
+          "why_matters": "开放权重不等于自由使用的社区共识在扩散，许可证成为实际约束",
+          "fact_anchor": "r/LocalLLaMA 讨论：接入前先读 Muse Spark 开放许可证（72 小时长帖的核心结论）",
+          "numbers": [
+            "72"
+          ],
+          "entities": [
+            "Muse Spark"
+          ],
+          "evidence_urls": [
+            "https://www.reddit.com/r/LocalLLaMA/comments/1xnis75/read_the_muse_spark_open_license_before_wiring_it"
+          ],
+          "impact": "专家包/模型选型清单应加许可证字段",
+          "next_action": "检查模型引用清单，缺许可证标注的条目大于 0 即补全",
+          "signal_type": "opinion",
+          "confidence": "fact"
+        }
+      ]
+    }
+  ],
+  "editor_note": "今天最值得记录的不是单条新闻，而是三条线在同一天的交汇。第一，skill 资产化走到了包管理这一步：Dependabot 支持 APM 意味着 agent 的 skills、prompts 将像 npm 依赖一样有版本、有自动升级、有依赖树；两篇 arXiv（技能评估基准、自主技能编译）则在补升级之后怎么验证没坏这半环。对 WorkBuddy 专家包与 hermes skills symlink 体系，这是一个明确信号：下一轮迭代应把 skill 版本加兼容性检查写进发布流程，判定标准很简单，升级后跑一次既有 smoke，0 失败才算兼容。第二，harness 层的竞争在加速：agent-desktop 用可访问性树把 computer use 工程化，其 ref 句柄加快照语义与 WinVM Bridge 的 VM 侧操作几乎是同题；值得花半天做字段映射表，若其 60 条命令中至少 10 条能直接映射到 bridge 协议，就把这套原语当作设计参照。第三，信任成本在上升：Gemini 训练争议、Muse Spark 许可证、RTX 加密固件三件事分别踩在数据、权重、硬件三层，共同点是你以为开放或订阅换来的东西，附带了你没读的条件。数据留存与许可证审计要成为日常动作，而不是出事后的补救。市场面只做记录：选举日美元、防务、股指的联动符合不确定性消除即利多的历史模式，无新增判断。",
+  "brief": "Agent 技能进入包管理时代：Dependabot 支持 APM、skill 评估基准与自主技能编译同日出现；harness 之争升温（agent-desktop 12,669 星拆解、优化 harness 论文）；信任成本上升（Gemini 订阅仍被训练、Muse Spark 许可证警示、RTX 固件推理降至 35%）；选举日美元创两月最大跌幅、防务股下挫、股债铜齐涨；Nooks 5 亿美元、Thermit 种子轮。重点：WinVM Bridge 可对照 agent-desktop ref/snapshot 语义做映射；skill 发布流程应加版本与兼容性检查。",
+  "watch_signals": [
+    {
+      "signal": "Dependabot APM 对 skills 的自动更新覆盖范围",
+      "threshold": "支持生态从 GitHub 扩展到至少 2 个第三方 registry",
+      "judgement": "skill 包管理成为行业标准，专家包发布流程接入 APM 语义"
+    },
+    {
+      "signal": "Gemini 训练数据争议后续",
+      "threshold": "出现监管问询或 Google 政策修订公告",
+      "judgement": "agent 会话留存默认策略需按可能被训练全面重审"
+    },
+    {
+      "signal": "RTX Spark 加密固件推理降幅",
+      "threshold": "第三方实测降幅从 35% 收窄到 15% 以内",
+      "judgement": "消费级 Nvidia 卡重新进入本地推理选型池"
+    },
+    {
+      "signal": "职能型 AI 融资节奏",
+      "threshold": "30 天内同类（销售/内容/客服 agent）融资不少于 3 笔",
+      "judgement": "在周报立垂直职能 agent 融资潮主题"
+    },
+    {
+      "signal": "GitHub 事故（PR/Git/Issues）",
+      "threshold": "24 小时内未关闭",
+      "judgement": "关键发布流程临时切换备用镜像并记录依赖风险"
+    }
+  ],
+  "reference_summary": [
+    {
+      "domain": "bloomberg.com",
+      "count": 9
+    },
+    {
+      "domain": "arxiv.org",
+      "count": 6
+    },
+    {
+      "domain": "reddit.com",
+      "count": 4
+    },
+    {
+      "domain": "github.com",
+      "count": 4
+    },
+    {
+      "domain": "github.blog",
+      "count": 2
+    },
+    {
+      "domain": "news.google.com",
+      "count": 2
+    },
+    {
+      "domain": "deepmind.google",
+      "count": 1
+    },
+    {
+      "domain": "lesswrong.com",
+      "count": 1
+    },
+    {
+      "domain": "mindstudio.ai",
+      "count": 1
+    },
+    {
+      "domain": "sw.kovidgoyal.net",
+      "count": 1
+    },
+    {
+      "domain": "githubstatus.com",
+      "count": 1
+    },
+    {
+      "domain": "cnbc.com",
+      "count": 1
+    },
+    {
+      "domain": "news.ycombinator.com",
+      "count": 1
+    },
+    {
+      "domain": "mrdoob.github.io",
+      "count": 1
+    }
+  ],
+  "stats": {
+    "sources_ok": 67,
+    "sources_total": 68,
+    "total_items": 804,
+    "clusters": 799,
+    "selected": 40,
+    "published_items": 35,
+    "seven_element_pass": 35,
+    "seven_element_ratio": 1.0,
+    "items_with_numbers": 35,
+    "unique_reference_domains": 14
+  },
+  "quality": {
+    "ai_status": "ok",
+    "missing_data_marker": "暂无可靠数据",
+    "warnings": [],
+    "id_whitelist": true,
+    "url_whitelist": true,
+    "number_whitelist": true,
+    "entity_whitelist": true,
+    "credential_scan": "clean",
+    "content_spec_version": "1.0.0"
+  },
+  "demo": false
+}

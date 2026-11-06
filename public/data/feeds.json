@@ -1,0 +1,43 @@
+{
+  "generated_at": "2026-11-05T11:52:53.812318Z",
+  "base_url": "https://daily-info.local",
+  "counts": {
+    "all": 58,
+    "high-signal": 44,
+    "tech": 34,
+    "invest": 16,
+    "docs": 1
+  },
+  "profiles": [
+    {
+      "id": "all",
+      "label": "全量日报",
+      "url": "https://daily-info.local/all.atom",
+      "filter": "score >= 45"
+    },
+    {
+      "id": "high-signal",
+      "label": "高信噪",
+      "url": "https://daily-info.local/high-signal.atom",
+      "filter": "score >= 70"
+    },
+    {
+      "id": "tech",
+      "label": "只看技术",
+      "url": "https://daily-info.local/tech.atom",
+      "filter": "category in taxonomy.groups.tech"
+    },
+    {
+      "id": "invest",
+      "label": "只看市场",
+      "url": "https://daily-info.local/invest.atom",
+      "filter": "category in [market-invest, industry-capital]"
+    },
+    {
+      "id": "docs",
+      "label": "文档变更雷达",
+      "url": "https://daily-info.local/docs.atom",
+      "filter": "category == docs-changelog"
+    }
+  ]
+}

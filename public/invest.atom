@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:feed xmlns:ns0="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
+  <ns0:id>tag:daily-info.local,2026:invest</ns0:id>
+  <ns0:title>每日信息 · 只看市场</ns0:title>
+  <ns0:subtitle>挖掘 · 聚合 · 研判 · 订阅；每条附原文链接；内容仅供参考，不构成投资建议</ns0:subtitle>
+  <ns0:link rel="self" type="application/atom+xml" href="https://daily-info.local/invest.atom" />
+  <ns0:link rel="alternate" type="text/html" href="https://daily-info.local/index.html" />
+  <ns0:updated>2026-11-05T11:52:53.812318Z</ns0:updated>
+  <ns0:author>
+    <ns0:name>Personal Daily Info</ns0:name>
+  </ns0:author>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-05:f8424668a04d6ed1</ns0:id>
+    <ns0:title>[市场与投资] Yardeni: Yields Attractive at 5%; Nasdaq to Outperform</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.bloomberg.com/news/videos/2026-11-05/yardeni-yields-attractive-at-5-nasdaq-to-outperform-video" />
+    <ns0:published>2026-11-05T07:16:56Z</ns0:published>
+    <ns0:updated>2026-11-05T11:52:53.812318Z</ns0:updated>
+    <ns0:category term="market-invest" label="市场与投资" />
+    <ns0:summary type="text">Yardeni Research President, Ed Yardeni, says US 10-year Treasury yields look “very attractive” at around the 5% level with inflation expected to cool. On Bloomberg's Insight with Haslinda Amin, he also told us why the Nasdaq 100 is his preferred asset for the next 24 months. (Source: Bloomberg)</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Yardeni 在彭博访谈中称 10 年期美债收益率约 5% 具吸引力，并偏好 Nasdaq 100&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：5% / 10 / 100 · 相关方：Yardeni / Nasdaq 100 / Bloomberg&lt;/p&gt;&lt;p&gt;Yardeni Research President, Ed Yardeni, says US 10-year Treasury yields look “very attractive” at around the 5% level with inflation expected to cool. On Bloomberg&amp;#x27;s Insight with Haslinda Amin, he also told us why the Nasdaq 100 is his preferred asset for the next 24 months. (Source: Bloomberg)&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;这是第三方观点而非独立验证数据，5% 与「偏好」之间不构成本站结论。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;仅记录公开观点与风险提示，不产生任何仓位或交易判断；观点类条目需单列。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照官方收益率曲线核对 5% 与 10 年期口径，偏差超过 0.1 个百分点则标注存疑。&lt;/p&gt;&lt;p&gt;来源：Bloomberg Markets · 发布于 2026-11-05T07:16 UTC · 归类：market-invest&lt;/p&gt;&lt;p&gt;证据状态：未独立验证&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.bloomberg.com/news/videos/2026-11-05/yardeni-yields-attractive-at-5-nasdaq-to-outperform-video" rel="noopener noreferrer"&gt;https://www.bloomberg.com/news/videos/2026-11-05/yardeni-yields-attractive-at-5-nasdaq-to-outperform-video&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-05:678851dd9a3f9fb9</ns0:id>
+    <ns0:title>[市场与投资] Pound Gauge Hits Strongest Since Brexit Vote on Likely BOE Hike</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.bloomberg.com/news/articles/2026-11-05/pound-strength-gauge-hits-highest-since-2016-ahead-of-boe-hike" />
+    <ns0:published>2026-11-05T10:04:51Z</ns0:published>
+    <ns0:updated>2026-11-05T11:52:53.812318Z</ns0:updated>
+    <ns0:category term="market-invest" label="市场与投资" />
+    <ns0:summary type="text">A gauge of pound strength rose to its highest level since 2016, supported by resilient UK economic data and expectations for interest-rate hikes.</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;彭博称英镑强度指标升至 2016 年以来最高，受英国经济数据与加息预期支撑&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2016 · 相关方：Brexit / BOE&lt;/p&gt;&lt;p&gt;A gauge of pound strength rose to its highest level since 2016, supported by resilient UK economic data and expectations for interest-rate hikes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;「2016 年以来最高」是长周期比较，容易掩盖中间波动，读时必须带基准年份。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;仅作公开数据记录，不构成投资判断；提醒所有相对读数必须写明基期。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对基期是否确为 2016 年同一口径，若口径不一致则撤回该比较表述。&lt;/p&gt;&lt;p&gt;来源：Bloomberg Markets · 发布于 2026-11-05T10:04 UTC · 归类：market-invest&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.bloomberg.com/news/articles/2026-11-05/pound-strength-gauge-hits-highest-since-2016-ahead-of-boe-hike" rel="noopener noreferrer"&gt;https://www.bloomberg.com/news/articles/2026-11-05/pound-strength-gauge-hits-highest-since-2016-ahead-of-boe-hike&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-05:3504862794ad47cd</ns0:id>
+    <ns0:title>[产业与资本] 美国10月挑战者企业裁员人数43994人</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.36kr.com/newsflashes/4056722893329545" />
+    <ns0:published>2026-11-05T10:31:55Z</ns0:published>
+    <ns0:updated>2026-11-05T11:52:53.812318Z</ns0:updated>
+    <ns0:category term="industry-capital" label="产业与资本" />
+    <ns0:summary type="text">美国就业咨询公司“挑战者企业”发布报告显示，美国雇主10月宣布的裁员人数为43,994人。（界面）</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;挑战者企业报告称美国雇主 10 月宣布裁员 43,994 人&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：43,994 / 43994 / 10 · 相关方：挑战者企业 / 界面&lt;/p&gt;&lt;p&gt;美国就业咨询公司“挑战者企业”发布报告显示，美国雇主10月宣布的裁员人数为43,994人。（界面）&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;单一月度读数缺少同比与行业拆分，只能作为一个观测点，不能当趋势。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;与本项目数据基建无直接关联，仅用于练习「单点数不入结论」的核验习惯。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;补齐至少 2 个连续月份读数后才允许写入趋势表述，否则只保留原始数字。&lt;/p&gt;&lt;p&gt;来源：36氪快讯（RSSHub 镜像路由） · 发布于 2026-11-05T10:31 UTC · 归类：industry-capital&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.36kr.com/newsflashes/4056722893329545" rel="noopener noreferrer"&gt;https://www.36kr.com/newsflashes/4056722893329545&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-05:2d48fe9f88e1b74d</ns0:id>
+    <ns0:title>[产业与资本] 4天3板引力传媒：截至10月末AI短剧业务收入占经审计2025年公司营收的比例不足0.1%</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.36kr.com/newsflashes/4056714556216196" />
+    <ns0:published>2026-11-05T10:23:26Z</ns0:published>
+    <ns0:updated>2026-11-05T11:52:53.812318Z</ns0:updated>
+    <ns0:category term="industry-capital" label="产业与资本" />
+    <ns0:summary type="text">36氪获悉，引力传媒公告，公司AI短剧业务尚处于前期投入阶段，业务规模较小，其市场认可度及盈利模式均存在不确定性，截至10月末该业务产生的收入占经审计2025年公司营业收入的比例不足0.1%，不会对公司业绩构成重大影响。</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;引力传媒公告 AI 短剧业务收入占 2025 年经审计营收不足 0.1%，提示规模与盈利模式不确定&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：0.1% / 4 / 3 / 2025 · 相关方：引力传媒 / 36氪&lt;/p&gt;&lt;p&gt;36氪获悉，引力传媒公告，公司AI短剧业务尚处于前期投入阶段，业务规模较小，其市场认可度及盈利模式均存在不确定性，截至10月末该业务产生的收入占经审计2025年公司营业收入的比例不足0.1%，不会对公司业绩构成重大影响。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;4 天 3 板的市场叙事与公司自述 0.1% 收入敞口差距明显，是叙事与基本面的可量化反例。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;仅作信息披露口径记录，不构成任何投资判断；提醒带数字公告保留原文、不加解读。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照公告原文核对 0.1% 与统计截止期，若有 1 处出入则撤回该条并标注二次转述。&lt;/p&gt;&lt;p&gt;来源：36氪快讯（RSSHub 镜像路由） · 发布于 2026-11-05T10:23 UTC · 归类：industry-capital&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.36kr.com/newsflashes/4056714556216196" rel="noopener noreferrer"&gt;https://www.36kr.com/newsflashes/4056714556216196&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-05:dccf297bb82e70c4</ns0:id>
+    <ns0:title>[产业与资本] Meta首次发行欧元债融资90亿欧元，认购需求创纪录</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.36kr.com/newsflashes/4056739997160585" />
+    <ns0:published>2026-11-05T11:04:09Z</ns0:published>
+    <ns0:updated>2026-11-05T11:52:53.812318Z</ns0:updated>
+    <ns0:category term="industry-capital" label="产业与资本" />
+    <ns0:summary type="text">Meta Platforms Inc．通过首次欧元债券发行融资90亿欧元，获得超过620亿欧元认购，创下欧洲公司债发行的最高认购纪录。由于其提供的收益率颇具吸引力，即便是对人工智能热潮持谨慎态度的投资者也难以抗拒。数据显示，这笔交易的认购订单已超过百威英博2016年发行债券时获得的逾310亿欧元需求。Meta欧元债券报价已升至面值之上。彭博汇编数据显示，Meta发行的六档债券周四报价均走高，甚至买入报价（即交易员愿意买入债券的价格）也已高于面值。（新浪财经）</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Meta 首次发行欧元债券融资 90 亿欧元，获超 620 亿欧元认购，创欧洲公司债认购纪录&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：90 / 620 / 310 / 2016 · 相关方：Meta / 百威英博 / 彭博&lt;/p&gt;&lt;p&gt;Meta Platforms Inc．通过首次欧元债券发行融资90亿欧元，获得超过620亿欧元认购，创下欧洲公司债发行的最高认购纪录。由于其提供的收益率颇具吸引力，即便是对人工智能热潮持谨慎态度的投资者也难以抗拒。数据显示，这笔交易的认购订单已超过百威英博2016年发行债券时获得的逾310亿欧元需求。Meta欧元债券报价已升至面值之上。彭博汇编数据显示，Meta发行的六档债券周四报价均走高，甚至买入报价（即交易员愿意买入债券的价格）也已高于面值。（新浪财经）&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;620 亿欧元认购对比 2016 年 310 亿的旧纪录，资金对 AI 资本开支的承接意愿仍强。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;影响自建与托管的成本假设：资本便宜时托管侧更容易降价，成本模型要留出价格变量。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;把该认购倍数记入成本表备注，若下季度融资成本上升超过 1 个百分点则重算选型。&lt;/p&gt;&lt;p&gt;来源：36氪快讯（RSSHub 镜像路由） · 发布于 2026-11-05T11:04 UTC · 归类：industry-capital&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.36kr.com/newsflashes/4056739997160585" rel="noopener noreferrer"&gt;https://www.36kr.com/newsflashes/4056739997160585&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-05:fc977d6a1078d384</ns0:id>
+    <ns0:title>[产业与资本] Barcelona’s Kabilio raises €10 million to deploy its AI accounting agent as client base nears 500 firms</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.eu-startups.com/2026/11/barcelonas-kabilio-raises-e10-million-to-deploy-its-ai-accounting-agent-as-client-base-nears-500-firms" />
+    <ns0:published>2026-11-05T09:19:45Z</ns0:published>
+    <ns0:updated>2026-11-05T11:52:53.812318Z</ns0:updated>
+    <ns0:category term="industry-capital" label="产业与资本" />
+    <ns0:summary type="text">Kabilio, a Barcelona-based startup building an AI platform for accounting firms and the small businesses they serve, has closed a €10 million funding round. The round was led by Picus Capital and Visionaries; they also led Kabilio’s pre-Seed round. CDTI, Spain’s public agency for technological innov</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;巴塞罗那 Kabilio 融资 1000 万欧元部署 AI 会计 Agent，客户数接近 500 家&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：10 / 500 · 相关方：Kabilio / Picus Capital / Visionaries / CDTI&lt;/p&gt;&lt;p&gt;Kabilio, a Barcelona-based startup building an AI platform for accounting firms and the small businesses they serve, has closed a €10 million funding round. The round was led by Picus Capital and Visionaries; they also led Kabilio’s pre-Seed round. CDTI, Spain’s public agency for technological innov&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;垂直 Agent 用「客户数接近 500」而非模型指标募资，商业化口径回到可数的交付量。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;给 Agent 项目的阶段划分提供参照：用接入客户数与留存定义可用，而不是 demo 数量。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;记录 2 个可比垂直 Agent 的客户数口径，若统计定义不一致则不可横向比较。&lt;/p&gt;&lt;p&gt;来源：EU-Startups · 发布于 2026-11-05T09:19 UTC · 归类：industry-capital&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.eu-startups.com/2026/11/barcelonas-kabilio-raises-e10-million-to-deploy-its-ai-accounting-agent-as-client-base-nears-500-firms" rel="noopener noreferrer"&gt;https://www.eu-startups.com/2026/11/barcelonas-kabilio-raises-e10-million-to-deploy-its-ai-accounting-agent-as-client-base-nears-500-firms&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-04:5dc01a743cffc18a</ns0:id>
+    <ns0:title>[市场与投资] Boehringer, Sino Enter Cancer Drug Deal Worth Over $7 Billion</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.bloomberg.com/news/articles/2026-11-04/boehringer-sino-enter-cancer-drug-deal-worth-over-7-billion" />
+    <ns0:published>2026-11-04T09:49:40Z</ns0:published>
+    <ns0:updated>2026-11-04T13:33:31.530620Z</ns0:updated>
+    <ns0:category term="market-invest" label="市场与投资" />
+    <ns0:summary type="text">Boehringer Ingelheim GmbH signed a licensing deal potentially worth more than $7 billion with China’s Sino Biopharmaceutical Limited and its subsidiaries for experimental cancer treatments.</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Boehringer 与中国 Sino 签署潜在价值超 70 亿美元（$7 Billion）的抗癌药授权协议&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：7 · 相关方：Boehringer / Sino&lt;/p&gt;&lt;p&gt;Boehringer Ingelheim GmbH signed a licensing deal potentially worth more than $7 billion with China’s Sino Biopharmaceutical Limited and its subsidiaries for experimental cancer treatments.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;中国创新药 BD 出海单笔规模再上台阶&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;高新科技板块的产业侧样本，无直接工作影响&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;同类交易 30 天内再现至少 2 笔则立 BD 出海潮主题&lt;/p&gt;&lt;p&gt;来源：Bloomberg Markets · 发布于 2026-11-04T09:49 UTC · 归类：market-invest&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.bloomberg.com/news/articles/2026-11-04/boehringer-sino-enter-cancer-drug-deal-worth-over-7-billion" rel="noopener noreferrer"&gt;https://www.bloomberg.com/news/articles/2026-11-04/boehringer-sino-enter-cancer-drug-deal-worth-over-7-billion&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-04:398bd0f8e6f9ad49</ns0:id>
+    <ns0:title>[市场与投资] India Approves Plan to Absorb More Short-Term Military Recruits</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.bloomberg.com/news/articles/2026-11-04/india-approves-plan-to-absorb-more-short-term-military-recruits" />
+    <ns0:published>2026-11-04T11:19:47Z</ns0:published>
+    <ns0:updated>2026-11-04T13:33:31.530620Z</ns0:updated>
+    <ns0:category term="market-invest" label="市场与投资" />
+    <ns0:summary type="text">India overhauled a short-term military recruitment plan by extending conscripts’ tenure and offering a path to permanent employment as border tensions with China and Pakistan continue to pressure the country’s defense establishment.</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;印度批准扩大短期兵役吸收计划，延长义务兵服役并提供转正通道&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2026-11-04 · 相关方：India&lt;/p&gt;&lt;p&gt;India overhauled a short-term military recruitment plan by extending conscripts’ tenure and offering a path to permanent employment as border tensions with China and Pakistan continue to pressure the country’s defense establishment.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;地缘与劳动力政策变化，影响防务与外包产业预期&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;无直接影响&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;暂无可验证动作&lt;/p&gt;&lt;p&gt;来源：Bloomberg Markets · 发布于 2026-11-04T11:19 UTC · 归类：market-invest&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.bloomberg.com/news/articles/2026-11-04/india-approves-plan-to-absorb-more-short-term-military-recruits" rel="noopener noreferrer"&gt;https://www.bloomberg.com/news/articles/2026-11-04/india-approves-plan-to-absorb-more-short-term-military-recruits&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-04:d04e36038fb775c4</ns0:id>
+    <ns0:title>[市场与投资] India Coffee Output to Miss Forecast After Below-Normal Rains</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.bloomberg.com/news/articles/2026-11-04/india-coffee-output-to-miss-forecast-after-below-normal-rains" />
+    <ns0:published>2026-11-04T11:06:22Z</ns0:published>
+    <ns0:updated>2026-11-04T13:33:31.530620Z</ns0:updated>
+    <ns0:category term="market-invest" label="市场与投资" />
+    <ns0:summary type="text">India’s coffee output is likely to fall short of an earlier forecast as below-normal rains during the four-month monsoon season took a toll on crops, according to the Coffee Board.</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;印度咖啡产量或因雨季降水偏少而低于此前预测&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2026-11-04 · 相关方：India / coffee&lt;/p&gt;&lt;p&gt;India’s coffee output is likely to fall short of an earlier forecast as below-normal rains during the four-month monsoon season took a toll on crops, according to the Coffee Board.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;气候对大宗供给的传导是慢变量，但会先行反映在期货预期&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;无直接影响&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;暂无可验证动作&lt;/p&gt;&lt;p&gt;来源：Bloomberg Markets · 发布于 2026-11-04T11:06 UTC · 归类：market-invest&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.bloomberg.com/news/articles/2026-11-04/india-coffee-output-to-miss-forecast-after-below-normal-rains" rel="noopener noreferrer"&gt;https://www.bloomberg.com/news/articles/2026-11-04/india-coffee-output-to-miss-forecast-after-below-normal-rains&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-04:ea417565f1981ae6</ns0:id>
+    <ns0:title>[市场与投资] Singapore Stocks Claw Back Losses as Regional Mood Improves</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.bloomberg.com/news/articles/2026-11-04/singapore-stocks-set-for-correction-as-bank-profit-outlook-sours" />
+    <ns0:published>2026-11-04T02:37:31Z</ns0:published>
+    <ns0:updated>2026-11-04T13:33:31.530620Z</ns0:updated>
+    <ns0:category term="market-invest" label="市场与投资" />
+    <ns0:summary type="text">Singapore’s equity benchmark Straits Times Index advanced in late trading, after briefly entering a technical correction, as broader sentiment improved even as heavyweight bank shares slide.</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;新加坡股市尾盘收复失地，区域情绪改善&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2026-11-04 · 相关方：Singapore / Straits Times Index&lt;/p&gt;&lt;p&gt;Singapore’s equity benchmark Straits Times Index advanced in late trading, after briefly entering a technical correction, as broader sentiment improved even as heavyweight bank shares slide.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;亚太市场对美选举的联动传导当日转正&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;无直接影响&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;暂无可验证动作&lt;/p&gt;&lt;p&gt;来源：Bloomberg Markets · 发布于 2026-11-04T02:37 UTC · 归类：market-invest&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.bloomberg.com/news/articles/2026-11-04/singapore-stocks-set-for-correction-as-bank-profit-outlook-sours" rel="noopener noreferrer"&gt;https://www.bloomberg.com/news/articles/2026-11-04/singapore-stocks-set-for-correction-as-bank-profit-outlook-sours&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-04:81860af0d09ccb83</ns0:id>
+    <ns0:title>[市场与投资] Stock Bulls Are Glad This Election Is Finally Over</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.bloomberg.com/news/newsletters/2026-11-04/stock-bulls-are-glad-this-election-is-finally-over" />
+    <ns0:published>2026-11-04T11:20:44Z</ns0:published>
+    <ns0:updated>2026-11-04T13:33:31.530620Z</ns0:updated>
+    <ns0:category term="market-invest" label="市场与投资" />
+    <ns0:summary type="text">Equities, bonds rally now that the political countours are clear.</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;彭博：股债在选举结果明朗后齐涨，多头松一口气&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2026-11-04 · 相关方：Stock Bulls&lt;/p&gt;&lt;p&gt;Equities, bonds rally now that the political countours are clear.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;不确定性消除本身成为利多，事件驱动逻辑清晰&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;无直接影响，作为选举日市场叙事样本留存&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;暂无可验证动作&lt;/p&gt;&lt;p&gt;来源：Bloomberg Markets · 发布于 2026-11-04T11:20 UTC · 归类：market-invest&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.bloomberg.com/news/newsletters/2026-11-04/stock-bulls-are-glad-this-election-is-finally-over" rel="noopener noreferrer"&gt;https://www.bloomberg.com/news/newsletters/2026-11-04/stock-bulls-are-glad-this-election-is-finally-over&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-04:134b686ce725841a</ns0:id>
+    <ns0:title>[市场与投资] Dollar Dips Most in Two Months as US Vote Spurs Policy Risks</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.bloomberg.com/news/articles/2026-11-04/franc-yen-emerge-as-fx-winners-as-us-midterms-weaken-dollar" />
+    <ns0:published>2026-11-04T03:11:23Z</ns0:published>
+    <ns0:updated>2026-11-04T13:33:31.530620Z</ns0:updated>
+    <ns0:category term="industry-capital" label="市场与投资" />
+    <ns0:summary type="text">The dollar sank the most in two months as Democrats’ sweeping midterm elections win fueled concern about political gridlock and tougher tech regulation that could damp foreign demand for US assets.</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;美元创两个月最大单日跌幅：市场担忧政治僵局与更严科技监管&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2026-11-04 · 相关方：Dollar / tech regulation&lt;/p&gt;&lt;p&gt;The dollar sank the most in two months as Democrats’ sweeping midterm elections win fueled concern about political gridlock and tougher tech regulation that could damp foreign demand for US assets.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;汇率与监管预期联动，科技资产的政策风险被重新定价&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对本项目的影响是跨境服务成本波动&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;DXY 若续跌超过 2% 则在周报提示海外服务计价风险&lt;/p&gt;&lt;p&gt;来源：Bloomberg Markets · 发布于 2026-11-04T03:11 UTC · 归类：industry-capital&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.bloomberg.com/news/articles/2026-11-04/franc-yen-emerge-as-fx-winners-as-us-midterms-weaken-dollar" rel="noopener noreferrer"&gt;https://www.bloomberg.com/news/articles/2026-11-04/franc-yen-emerge-as-fx-winners-as-us-midterms-weaken-dollar&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-04:0c58928392d26aaf</ns0:id>
+    <ns0:title>[市场与投资] European Defense Stocks Slide as Democrats’ Sweep Dents Optimism</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.bloomberg.com/news/articles/2026-11-04/european-defense-stocks-slide-as-democrats-sweep-dents-optimism" />
+    <ns0:published>2026-11-04T11:27:31Z</ns0:published>
+    <ns0:updated>2026-11-04T13:33:31.530620Z</ns0:updated>
+    <ns0:category term="market-invest" label="市场与投资" />
+    <ns0:summary type="text">European defense stocks slid as the Democrats’ landslide midterm-elections win dented expectations of a further ramp-up in US military spending.</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;欧洲防务股下跌：中期选举民主党大胜削弱美军费继续扩张预期&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2026-11-04 · 相关方：European Defense Stocks / Democrats&lt;/p&gt;&lt;p&gt;European defense stocks slid as the Democrats’ landslide midterm-elections win dented expectations of a further ramp-up in US military spending.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;选举结果直接改写军费预期，防务板块对政治敏感度高&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;仅作公开数据陈述，不构成任何投资建议&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;若后续法案数据使预期反转超过 5%，在日报标注预期修正&lt;/p&gt;&lt;p&gt;来源：Bloomberg Markets · 发布于 2026-11-04T11:27 UTC · 归类：market-invest&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.bloomberg.com/news/articles/2026-11-04/european-defense-stocks-slide-as-democrats-sweep-dents-optimism" rel="noopener noreferrer"&gt;https://www.bloomberg.com/news/articles/2026-11-04/european-defense-stocks-slide-as-democrats-sweep-dents-optimism&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-04:f912b9d47ec922ef</ns0:id>
+    <ns0:title>[产业与资本] AI Commerce Startup Thermit, Operator of Creazy Content Agent, Raises Seed Funding Led by Mashup Ventures - Wowtale</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE5tdjJfQ2lQTlpISDlBOGZ3cXRiM2tRaHZ0TkhYbDU1cjQteE5KTDF5M09CdWpvOG9SRVFpLWh1UFBMaEVrdUV5N2Z6Rl9IQXE3bGww?oc=5" />
+    <ns0:published>2026-11-04T08:32:05Z</ns0:published>
+    <ns0:updated>2026-11-04T13:33:31.530620Z</ns0:updated>
+    <ns0:category term="industry-capital" label="产业与资本" />
+    <ns0:summary type="text">AI Commerce Startup Thermit, Operator of Creazy Content Agent, Raises Seed Funding Led by Mashup Ventures Wowtale</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;AI 商务初创 Thermit（Creazy Content Agent 运营方）完成种子轮融资，Mashup Ventures 领投&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2026-11-04 · 相关方：Thermit / Creazy&lt;/p&gt;&lt;p&gt;AI Commerce Startup Thermit, Operator of Creazy Content Agent, Raises Seed Funding Led by Mashup Ventures Wowtale&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;内容 agent 作为独立产品拿到种子轮，赛道被资本点名&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;与本项目内容流水线定位相近，可研究其付费切入点&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;查其官网定价，若已有至少 2 档订阅则纳入竞品观察表&lt;/p&gt;&lt;p&gt;来源：Google News · AI 融资 · 发布于 2026-11-04T08:32 UTC · 归类：industry-capital&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE5tdjJfQ2lQTlpISDlBOGZ3cXRiM2tRaHZ0TkhYbDU1cjQteE5KTDF5M09CdWpvOG9SRVFpLWh1UFBMaEVrdUV5N2Z6Rl9IQXE3bGww?oc=5" rel="noopener noreferrer"&gt;https://news.google.com/rss/articles/CBMiU0FVX3lxTE5tdjJfQ2lQTlpISDlBOGZ3cXRiM2tRaHZ0TkhYbDU1cjQteE5KTDF5M09CdWpvOG9SRVFpLWh1UFBMaEVrdUV5N2Z6Rl9IQXE3bGww?oc=5&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-04:4b3e4456ba06f433-c</ns0:id>
+    <ns0:title>[产业与资本] AI sales startup Nooks secures $500 million in funding for expansion - Reuters</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://news.google.com/rss/articles/CBMiswFBVV95cUxQOXpKNVNpQ1hhR3lxTGJuem9WcDNINW00TE1ORVZuX0xaWDFtcGhXdENBblhnWTBrVFNkRGU1SzM2S1oyRHJtUUVkSEJEUi1wUXh4Tk5XbWFDZ3FySEZ0U19xRVpwbmVFaWZRZnh1Sm81MnkybWtpY2tuNEhSSFNwOHdQRnZuTm54aWZVcWM4M0l5T0N6ekdVUllFSkFwTU94TWVfanNWSUEybUo3eDRIZi1kRQ?oc=5" />
+    <ns0:published>2026-11-04T11:32:09Z</ns0:published>
+    <ns0:updated>2026-11-04T13:33:31.530620Z</ns0:updated>
+    <ns0:category term="industry-capital" label="产业与资本" />
+    <ns0:summary type="text">AI sales startup Nooks secures $500 million in funding for expansion Reuters</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;AI 销售初创 Nooks 获 5 亿美元融资用于扩张（Reuters）&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：500 · 相关方：Nooks / Reuters&lt;/p&gt;&lt;p&gt;AI sales startup Nooks secures $500 million in funding for expansion Reuters&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;销售自动化赛道单笔融资已到 5 亿美元量级&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;AI agent 商业化在垂直职能上继续吸金，值得跟踪定价模式&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;若下月同类融资超过 3 笔则立职能型 AI 融资潮主题&lt;/p&gt;&lt;p&gt;来源：Google News · AI 融资 · 发布于 2026-11-04T11:32 UTC · 归类：industry-capital&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://news.google.com/rss/articles/CBMiswFBVV95cUxQOXpKNVNpQ1hhR3lxTGJuem9WcDNINW00TE1ORVZuX0xaWDFtcGhXdENBblhnWTBrVFNkRGU1SzM2S1oyRHJtUUVkSEJEUi1wUXh4Tk5XbWFDZ3FySEZ0U19xRVpwbmVFaWZRZnh1Sm81MnkybWtpY2tuNEhSSFNwOHdQRnZuTm54aWZVcWM4M0l5T0N6ekdVUllFSkFwTU94TWVfanNWSUEybUo3eDRIZi1kRQ?oc=5" rel="noopener noreferrer"&gt;https://news.google.com/rss/articles/CBMiswFBVV95cUxQOXpKNVNpQ1hhR3lxTGJuem9WcDNINW00TE1ORVZuX0xaWDFtcGhXdENBblhnWTBrVFNkRGU1SzM2S1oyRHJtUUVkSEJEUi1wUXh4Tk5XbWFDZ3FySEZ0U19xRVpwbmVFaWZRZnh1Sm81MnkybWtpY2tuNEhSSFNwOHdQRnZuTm54aWZVcWM4M0l5T0N6ekdVUllFSkFwTU94TWVfanNWSUEybUo3eDRIZi1kRQ?oc=5&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-04:389864e7d23d80b9</ns0:id>
+    <ns0:title>[产业与资本] CVS to split off drugstore business in major breakup of healthcare giant</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/11/04/cvs-to-split-off-drugstore-business.html" />
+    <ns0:published>2026-11-04T11:35:53Z</ns0:published>
+    <ns0:updated>2026-11-04T13:33:31.530620Z</ns0:updated>
+    <ns0:category term="industry-capital" label="产业与资本" />
+    <ns0:summary type="text">The move would reverse the company's $78 billion acquisition of Aetna, and dismantle the vertically integrated healthcare conglomerate it created in 2018.</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;CVS 将分拆药品零售业务，反转 78 亿美元收购 Aetna 的一体化战略&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：78 · 相关方：CVS / Aetna&lt;/p&gt;&lt;p&gt;The move would reverse the company&amp;#x27;s $78 billion acquisition of Aetna, and dismantle the vertically integrated healthcare conglomerate it created in 2018.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;垂直整合的反面案例：巨头也在拆自己买来的整合&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对平台 vs 专精的判断增加一个产业级证据&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;观察分拆后 6 个月两家股价表现，再决定是否引用为长期案例&lt;/p&gt;&lt;p&gt;来源：CNBC Markets · 发布于 2026-11-04T11:35 UTC · 归类：industry-capital&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.cnbc.com/2026/11/04/cvs-to-split-off-drugstore-business.html" rel="noopener noreferrer"&gt;https://www.cnbc.com/2026/11/04/cvs-to-split-off-drugstore-business.html&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+</ns0:feed>

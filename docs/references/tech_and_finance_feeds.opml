@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>6大核心科技与投融资情报站</title>
+    <dateCreated>Thu, 05 Nov 2026 00:00:00 GMT</dateCreated>
+  </head>
+  <body>
+    <outline text="AI技术与应用" title="AI技术与应用">
+      <outline type="rss" text="OpenAI Blog" title="OpenAI Blog" xmlUrl="https://openai.com/news/rss.xml" htmlUrl="https://openai.com/news/rss.xml"/>
+      <outline type="rss" text="Hugging Face Blog" title="Hugging Face Blog" xmlUrl="https://huggingface.co/blog/feed.xml" htmlUrl="https://huggingface.co/blog/feed.xml"/>
+      <outline type="rss" text="Google AI Blog" title="Google AI Blog" xmlUrl="https://blog.google/technology/ai/rss/" htmlUrl="https://blog.google/technology/ai/rss/"/>
+      <outline type="rss" text="DeepMind Blog" title="DeepMind Blog" xmlUrl="https://deepmind.google/blog/rss.xml" htmlUrl="https://deepmind.google/blog/rss.xml"/>
+      <outline type="rss" text="MIT Tech Review AI" title="MIT Tech Review AI" xmlUrl="https://technologyreview.com/topic/artificial-intelligence/feed/" htmlUrl="https://technologyreview.com/topic/artificial-intelligence/feed/"/>
+      <outline type="rss" text="Ars Technica AI" title="Ars Technica AI" xmlUrl="https://arstechnica.com/ai/feed/" htmlUrl="https://arstechnica.com/ai/feed/"/>
+      <outline type="rss" text="TechCrunch AI" title="TechCrunch AI" xmlUrl="https://techcrunch.com/category/artificial-intelligence/feed/" htmlUrl="https://techcrunch.com/category/artificial-intelligence/feed/"/>
+      <outline type="rss" text="The Verge AI" title="The Verge AI" xmlUrl="https://theverge.com/rss/ai-artificial-intelligence/index.xml" htmlUrl="https://theverge.com/rss/ai-artificial-intelligence/index.xml"/>
+      <outline type="rss" text="Ahead of AI" title="Ahead of AI" xmlUrl="https://magazine.sebastianraschka.com/feed" htmlUrl="https://magazine.sebastianraschka.com/feed"/>
+      <outline type="rss" text="AWS Machine Learning Blog" title="AWS Machine Learning Blog" xmlUrl="https://aws.amazon.com/blogs/machine-learning/feed/" htmlUrl="https://aws.amazon.com/blogs/machine-learning/feed/"/>
+    </outline>
+    <outline text="新奇产品" title="新奇产品">
+      <outline type="rss" text="Product Hunt Daily" title="Product Hunt Daily" xmlUrl="https://www.producthunt.com/feed" htmlUrl="https://www.producthunt.com/feed"/>
+      <outline type="rss" text="Gizmodo" title="Gizmodo" xmlUrl="https://gizmodo.com/feed" htmlUrl="https://gizmodo.com/feed"/>
+      <outline type="rss" text="Engadget" title="Engadget" xmlUrl="https://www.engadget.com/rss.xml" htmlUrl="https://www.engadget.com/rss.xml"/>
+      <outline type="rss" text="Yanko Design" title="Yanko Design" xmlUrl="https://www.yankodesign.com/feed/" htmlUrl="https://www.yankodesign.com/feed/"/>
+      <outline type="rss" text="Uncrate" title="Uncrate" xmlUrl="https://uncrate.com/feed/" htmlUrl="https://uncrate.com/feed/"/>
+      <outline type="rss" text="Cool Hunting" title="Cool Hunting" xmlUrl="https://coolhunting.com/feed/" htmlUrl="https://coolhunting.com/feed/"/>
+      <outline type="rss" text="SlashGear" title="SlashGear" xmlUrl="https://www.slashgear.com/feed/" htmlUrl="https://www.slashgear.com/feed/"/>
+      <outline type="rss" text="Geeky Gadgets" title="Geeky Gadgets" xmlUrl="https://www.geeky-gadgets.com/feed/" htmlUrl="https://www.geeky-gadgets.com/feed/"/>
+      <outline type="rss" text="TrendHunter Tech" title="TrendHunter Tech" xmlUrl="https://www.trendhunter.com/rss/category/Tech" htmlUrl="https://www.trendhunter.com/rss/category/Tech"/>
+      <outline type="rss" text="少数派 (sspai)" title="少数派 (sspai)" xmlUrl="https://sspai.com/feed" htmlUrl="https://sspai.com/feed"/>
+    </outline>
+    <outline text="美、中、港投融资市场" title="美、中、港投融资市场">
+      <outline type="rss" text="TechCrunch Startups" title="TechCrunch Startups" xmlUrl="https://techcrunch.com/category/startups/feed/" htmlUrl="https://techcrunch.com/category/startups/feed/"/>
+      <outline type="rss" text="WSJ Venture Capital" title="WSJ Venture Capital" xmlUrl="https://feeds.a.dj.com/rss/WSJcomVentureCapital.xml" htmlUrl="https://feeds.a.dj.com/rss/WSJcomVentureCapital.xml"/>
+      <outline type="rss" text="36氪 (36Kr)" title="36氪 (36Kr)" xmlUrl="https://36kr.com/feed" htmlUrl="https://36kr.com/feed"/>
+      <outline type="rss" text="IT桔子 (RSSHub)" title="IT桔子 (RSSHub)" xmlUrl="https://rsshub.app/itjuzi/merge" htmlUrl="https://rsshub.app/itjuzi/merge"/>
+      <outline type="rss" text="投资界 (Pedaily)" title="投资界 (Pedaily)" xmlUrl="https://news.pedaily.cn/rss.xml" htmlUrl="https://news.pedaily.cn/rss.xml"/>
+      <outline type="rss" text="智通财经 (港股资讯)" title="智通财经 (港股资讯)" xmlUrl="https://rsshub.app/zhitongcaijing/home" htmlUrl="https://rsshub.app/zhitongcaijing/home"/>
+      <outline type="rss" text="PitchBook News" title="PitchBook News" xmlUrl="https://pitchbook.com/news/rss" htmlUrl="https://pitchbook.com/news/rss"/>
+      <outline type="rss" text="VentureBeat Fin" title="VentureBeat Fin" xmlUrl="https://venturebeat.com/feed/" htmlUrl="https://venturebeat.com/feed/"/>
+      <outline type="rss" text="KrASIA" title="KrASIA" xmlUrl="https://kr-asia.com/feed" htmlUrl="https://kr-asia.com/feed"/>
+      <outline type="rss" text="Pandaily" title="Pandaily" xmlUrl="https://pandaily.com/feed/" htmlUrl="https://pandaily.com/feed/"/>
+    </outline>
+    <outline text="开源项目" title="开源项目">
+      <outline type="rss" text="GitHub Trending (Atom)" title="GitHub Trending (Atom)" xmlUrl="https://github.com/trending.atom" htmlUrl="https://github.com/trending.atom"/>
+      <outline type="rss" text="Hacker News" title="Hacker News" xmlUrl="https://news.ycombinator.com/rss" htmlUrl="https://news.ycombinator.com/rss"/>
+      <outline type="rss" text="Reddit r/opensource" title="Reddit r/opensource" xmlUrl="https://www.reddit.com/r/opensource/.rss" htmlUrl="https://www.reddit.com/r/opensource/.rss"/>
+      <outline type="rss" text="Dev.to (Open Source)" title="Dev.to (Open Source)" xmlUrl="https://dev.to/feed/tag/opensource" htmlUrl="https://dev.to/feed/tag/opensource"/>
+      <outline type="rss" text="GitHub Engineering" title="GitHub Engineering" xmlUrl="https://github.blog/category/engineering/feed/" htmlUrl="https://github.blog/category/engineering/feed/"/>
+      <outline type="rss" text="Linux Foundation" title="Linux Foundation" xmlUrl="https://www.linuxfoundation.org/blog/rss.xml" htmlUrl="https://www.linuxfoundation.org/blog/rss.xml"/>
+      <outline type="rss" text="开源中国 (OSCHINA)" title="开源中国 (OSCHINA)" xmlUrl="https://www.oschina.net/news/rss" htmlUrl="https://www.oschina.net/news/rss"/>
+      <outline type="rss" text="InfoQ China" title="InfoQ China" xmlUrl="https://www.infoq.cn/feed" htmlUrl="https://www.infoq.cn/feed"/>
+      <outline type="rss" text="The Go Blog" title="The Go Blog" xmlUrl="https://go.dev/blog/feed.atom" htmlUrl="https://go.dev/blog/feed.atom"/>
+      <outline type="rss" text="Rust Blog" title="Rust Blog" xmlUrl="https://blog.rust-lang.org/feed.xml" htmlUrl="https://blog.rust-lang.org/feed.xml"/>
+    </outline>
+    <outline text="高新科技应用" title="高新科技应用">
+      <outline type="rss" text="IEEE Spectrum" title="IEEE Spectrum" xmlUrl="https://spectrum.ieee.org/feeds/atom.xml" htmlUrl="https://spectrum.ieee.org/feeds/atom.xml"/>
+      <outline type="rss" text="Wired" title="Wired" xmlUrl="https://www.wired.com/feed/rss" htmlUrl="https://www.wired.com/feed/rss"/>
+      <outline type="rss" text="Ars Technica Science" title="Ars Technica Science" xmlUrl="https://arstechnica.com/science/feed/" htmlUrl="https://arstechnica.com/science/feed/"/>
+      <outline type="rss" text="Space.com" title="Space.com" xmlUrl="https://www.space.com/feeds/all" htmlUrl="https://www.space.com/feeds/all"/>
+      <outline type="rss" text="Semiconductor Eng." title="Semiconductor Eng." xmlUrl="https://semiengineering.com/feed/" htmlUrl="https://semiengineering.com/feed/"/>
+      <outline type="rss" text="TechNode" title="TechNode" xmlUrl="https://technode.com/feed/" htmlUrl="https://technode.com/feed/"/>
+      <outline type="rss" text="IoT World Today" title="IoT World Today" xmlUrl="https://www.iotworldtoday.com/rss.xml" htmlUrl="https://www.iotworldtoday.com/rss.xml"/>
+      <outline type="rss" text="Green Car Reports" title="Green Car Reports" xmlUrl="https://www.greencarreports.com/news.rss" htmlUrl="https://www.greencarreports.com/news.rss"/>
+      <outline type="rss" text="BioSpace News" title="BioSpace News" xmlUrl="https://www.biospace.com/rss/" htmlUrl="https://www.biospace.com/rss/"/>
+      <outline type="rss" text="MIT Tech Review Tech" title="MIT Tech Review Tech" xmlUrl="https://www.technologyreview.com/topnews.rss" htmlUrl="https://www.technologyreview.com/topnews.rss"/>
+    </outline>
+    <outline text="重大学术科研突破" title="重大学术科研突破">
+      <outline type="rss" text="Nature News" title="Nature News" xmlUrl="https://www.nature.com/nature.rss" htmlUrl="https://www.nature.com/nature.rss"/>
+      <outline type="rss" text="Science Magazine News" title="Science Magazine News" xmlUrl="https://www.science.org/blogs/news/feed" htmlUrl="https://www.science.org/blogs/news/feed"/>
+      <outline type="rss" text="Phys.org" title="Phys.org" xmlUrl="https://phys.org/rss-feed/" htmlUrl="https://phys.org/rss-feed/"/>
+      <outline type="rss" text="arXiv cs.AI" title="arXiv cs.AI" xmlUrl="https://rss.arxiv.org/rss/cs.AI" htmlUrl="https://rss.arxiv.org/rss/cs.AI"/>
+      <outline type="rss" text="EurekAlert! News" title="EurekAlert! News" xmlUrl="https://www.eurekalert.org/rss.xml" htmlUrl="https://www.eurekalert.org/rss.xml"/>
+      <outline type="rss" text="Quanta Magazine" title="Quanta Magazine" xmlUrl="https://www.quantamagazine.org/feed/" htmlUrl="https://www.quantamagazine.org/feed/"/>
+      <outline type="rss" text="SciTechDaily" title="SciTechDaily" xmlUrl="https://scitechdaily.com/feed/" htmlUrl="https://scitechdaily.com/feed/"/>
+      <outline type="rss" text="New Scientist" title="New Scientist" xmlUrl="https://www.newscientist.com/feed/home/" htmlUrl="https://www.newscientist.com/feed/home/"/>
+      <outline type="rss" text="Cell Press" title="Cell Press" xmlUrl="https://www.cell.com/cell/inpress.rss" htmlUrl="https://www.cell.com/cell/inpress.rss"/>
+      <outline type="rss" text="科学网要闻" title="科学网要闻" xmlUrl="http://www.sciencenet.cn/xml/news-0.xml" htmlUrl="http://www.sciencenet.cn/xml/news-0.xml"/>
+    </outline>
+  </body>
+</opml>

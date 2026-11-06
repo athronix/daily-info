@@ -1,0 +1,2423 @@
+[
+  {
+    "id": "mit-news-ai",
+    "name": "MIT News AI",
+    "orig_url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
+    "orig_reason": "声明为 feed 但响应体不是 XML/JSON",
+    "category": "research-papers",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Anews.mit.edu&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 100,
+        "sample_title": "MIT-led team receives funding to develop a wearable monitor for early disease detection - ",
+        "sample_date": "Wed, 04 Nov 2026 05:00:00 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Anews.mit.edu&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 100,
+      "sample_title": "MIT-led team receives funding to develop a wearable monitor for early disease detection - ",
+      "sample_date": "Wed, 04 Nov 2026 05:00:00 GMT"
+    }
+  },
+  {
+    "id": "import-ai",
+    "name": "Import AI (Jack Clark)",
+    "orig_url": "https://www.import.ai/feed",
+    "orig_reason": "HTTP 404",
+    "category": "deep-read",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Aimport.ai&hl=en-US&gl=US&ceid=US:en",
+        "ok": false,
+        "status": 200,
+        "reason": "0 条目"
+      }
+    ],
+    "recovered": false,
+    "best": null
+  },
+  {
+    "id": "allenai-blog",
+    "name": "Allen AI Blog",
+    "orig_url": "https://allenai.org/blog/rss.xml",
+    "orig_reason": "HTTP 404",
+    "category": "research-papers",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Aallenai.org&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 49,
+        "sample_title": "The privacy policy for Ai2's website. - Allen Institute for Artificial Intelligence",
+        "sample_date": "Wed, 19 Feb 2025 08:00:00 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Aallenai.org&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 49,
+      "sample_title": "The privacy policy for Ai2's website. - Allen Institute for Artificial Intelligence",
+      "sample_date": "Wed, 19 Feb 2025 08:00:00 GMT"
+    }
+  },
+  {
+    "id": "cohere-blog",
+    "name": "Cohere Blog",
+    "orig_url": "https://cohere.com/blog/rss.xml",
+    "orig_reason": "声明为 feed 但响应体不是 XML/JSON",
+    "category": "ai-models",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Acohere.com&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 62,
+        "sample_title": "Cohere Advances C$4 Billion AI Commitment in Canada, Creating 1,500+ Jobs - Cohere",
+        "sample_date": "Fri, 30 Oct 2026 14:10:00 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Acohere.com&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 62,
+      "sample_title": "Cohere Advances C$4 Billion AI Commitment in Canada, Creating 1,500+ Jobs - Cohere",
+      "sample_date": "Fri, 30 Oct 2026 14:10:00 GMT"
+    }
+  },
+  {
+    "id": "kdnuggets",
+    "name": "KDnuggets",
+    "orig_url": "https://www.kdnuggets.com/feed",
+    "orig_reason": "HTTP 403",
+    "category": "agent-engineering",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Akdnuggets.com&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 75,
+        "sample_title": "8 LLM Inference Frameworks You Should Try in 2026 - KDnuggets",
+        "sample_date": "Tue, 03 Nov 2026 13:13:39 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Akdnuggets.com&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 75,
+      "sample_title": "8 LLM Inference Frameworks You Should Try in 2026 - KDnuggets",
+      "sample_date": "Tue, 03 Nov 2026 13:13:39 GMT"
+    }
+  },
+  {
+    "id": "the-gradient",
+    "name": "The Gradient",
+    "orig_url": "https://thegradient.pub/rss.xml",
+    "orig_reason": "HTTP 404",
+    "category": "deep-read",
+    "attempts": [
+      {
+        "route": "rsshub:/thegradient",
+        "url": "https://rsshub.rssforever.com/thegradient",
+        "ok": false,
+        "status": 503,
+        "reason": "HTTP 503"
+      },
+      {
+        "route": "rsshub:/thegradient",
+        "url": "https://rsshub.pseudoyu.com/thegradient",
+        "ok": false,
+        "status": 0,
+        "reason": "URLError:<urlopen error Tunnel connection failed: 502 Bad Gateway>"
+      },
+      {
+        "route": "rsshub:/thegradient",
+        "url": "https://rsshub.ktachibana.party/thegradient",
+        "ok": false,
+        "status": 404,
+        "reason": "HTTP 404"
+      },
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Athegradient.pub&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 60,
+        "sample_title": "A Brief Overview of Gender Bias in AI - The Gradient",
+        "sample_date": "Mon, 08 Apr 2024 07:00:00 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Athegradient.pub&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 60,
+      "sample_title": "A Brief Overview of Gender Bias in AI - The Gradient",
+      "sample_date": "Mon, 08 Apr 2024 07:00:00 GMT"
+    }
+  },
+  {
+    "id": "deepseek-news",
+    "name": "DeepSeek News",
+    "orig_url": "https://api-docs.deepseek.com/news/rss.xml",
+    "orig_reason": "声明为 feed 但响应体不是 XML/JSON",
+    "category": "ai-models",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Aapi-docs.deepseek.com&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 55,
+        "sample_title": "Models & Pricing - DeepSeek",
+        "sample_date": "Fri, 11 Oct 2024 09:45:45 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Aapi-docs.deepseek.com&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 55,
+      "sample_title": "Models & Pricing - DeepSeek",
+      "sample_date": "Fri, 11 Oct 2024 09:45:45 GMT"
+    }
+  },
+  {
+    "id": "qwen-blog",
+    "name": "Qwen Blog",
+    "orig_url": "https://qwenlm.github.io/blog/feed.xml",
+    "orig_reason": "HTTP 404",
+    "category": "ai-models",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Aqwenlm.github.io&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 58,
+        "sample_title": "Qwen Code overview - GitHub",
+        "sample_date": "Thu, 22 Oct 2026 07:00:00 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Aqwenlm.github.io&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 58,
+      "sample_title": "Qwen Code overview - GitHub",
+      "sample_date": "Thu, 22 Oct 2026 07:00:00 GMT"
+    }
+  },
+  {
+    "id": "xai-news",
+    "name": "xAI News",
+    "orig_url": "https://x.ai/news/rss.xml",
+    "orig_reason": "HTTP 404",
+    "category": "ai-models",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Ax.ai&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 100,
+        "sample_title": "Grok for Startups - xAI",
+        "sample_date": "Thu, 22 Oct 2026 15:03:25 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Ax.ai&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 100,
+      "sample_title": "Grok for Startups - xAI",
+      "sample_date": "Thu, 22 Oct 2026 15:03:25 GMT"
+    }
+  },
+  {
+    "id": "first-round-review",
+    "name": "First Round Review",
+    "orig_url": "https://review.firstround.com/feed.xml",
+    "orig_reason": "HTTP 404",
+    "category": "deep-read",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Areview.firstround.com&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 60,
+        "sample_title": "The GTM Inflection Points That Powered Clay to a $1B+ Valuation - First Round Review",
+        "sample_date": "Thu, 23 Jan 2025 16:23:40 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Areview.firstround.com&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 60,
+      "sample_title": "The GTM Inflection Points That Powered Clay to a $1B+ Valuation - First Round Review",
+      "sample_date": "Thu, 23 Jan 2025 16:23:40 GMT"
+    }
+  },
+  {
+    "id": "tech-eu",
+    "name": "Tech.eu",
+    "orig_url": "https://tech.eu/feed",
+    "orig_reason": "HTTP 403",
+    "category": "industry-capital",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Atech.eu&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 84,
+        "sample_title": "Fal doubles valuation to $16B after $1.3B Series F - Tech.eu",
+        "sample_date": "Wed, 04 Nov 2026 11:20:52 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Atech.eu&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 84,
+      "sample_title": "Fal doubles valuation to $16B after $1.3B Series F - Tech.eu",
+      "sample_date": "Wed, 04 Nov 2026 11:20:52 GMT"
+    }
+  },
+  {
+    "id": "tech-in-asia",
+    "name": "Tech in Asia",
+    "orig_url": "https://www.techinasia.com/feed",
+    "orig_reason": "TimeoutError: The read operation timed out",
+    "category": "industry-capital",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Atechinasia.com&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 79,
+        "sample_title": "Google plans $15b Malaysia data center push to meet AI demand - Tech in Asia",
+        "sample_date": "Thu, 05 Nov 2026 04:43:00 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Atechinasia.com&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 79,
+      "sample_title": "Google plans $15b Malaysia data center push to meet AI demand - Tech in Asia",
+      "sample_date": "Thu, 05 Nov 2026 04:43:00 GMT"
+    }
+  },
+  {
+    "id": "pedaily",
+    "name": "投资界 Pedaily",
+    "orig_url": "https://www.pedaily.cn/rss/",
+    "orig_reason": "HTTP 404",
+    "category": "industry-capital",
+    "attempts": [
+      {
+        "route": "rsshub:/pedaily/fe/news",
+        "url": "https://rsshub.rssforever.com/pedaily/fe/news",
+        "ok": false,
+        "status": 503,
+        "reason": "HTTP 503"
+      },
+      {
+        "route": "rsshub:/pedaily/fe/news",
+        "url": "https://rsshub.pseudoyu.com/pedaily/fe/news",
+        "ok": false,
+        "status": 0,
+        "reason": "URLError:<urlopen error Tunnel connection failed: 502 Bad Gateway>"
+      },
+      {
+        "route": "rsshub:/pedaily/fe/news",
+        "url": "https://rsshub.ktachibana.party/pedaily/fe/news",
+        "ok": false,
+        "status": 404,
+        "reason": "HTTP 404"
+      },
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Apedaily.cn&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 100,
+        "sample_title": "易成创新完成2亿元C轮融资，推进物理AI与具身智能的工业场景落地 - 投资界",
+        "sample_date": "Tue, 03 Nov 2026 06:21:00 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Apedaily.cn&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 100,
+      "sample_title": "易成创新完成2亿元C轮融资，推进物理AI与具身智能的工业场景落地 - 投资界",
+      "sample_date": "Tue, 03 Nov 2026 06:21:00 GMT"
+    }
+  },
+  {
+    "id": "36kr-newsflash",
+    "name": "36氪快讯",
+    "orig_url": "https://36kr.com/feed-newsflash",
+    "orig_reason": "声明为 feed 但响应体不是 XML/JSON",
+    "category": "industry-capital",
+    "attempts": [
+      {
+        "route": "rsshub:/36kr/newsflashes",
+        "url": "https://rsshub.rssforever.com/36kr/newsflashes",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 20,
+        "sample_title": "索尼第二财季营业利润同比增长45.1%",
+        "sample_date": "Thu, 05 Nov 2026 06:38:48 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "rsshub:/36kr/newsflashes",
+      "url": "https://rsshub.rssforever.com/36kr/newsflashes",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 20,
+      "sample_title": "索尼第二财季营业利润同比增长45.1%",
+      "sample_date": "Thu, 05 Nov 2026 06:38:48 GMT"
+    }
+  },
+  {
+    "id": "aastocks",
+    "name": "AASTOCKS 港股",
+    "orig_url": "https://www.aastocks.com/en/stocks/news/rss",
+    "orig_reason": "声明为 feed 但响应体不是 XML/JSON",
+    "category": "market-invest",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Aaastocks.com&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 32,
+        "sample_title": "BANK OF CHINA (03988.HK) Disclosure of Interests - AAStock",
+        "sample_date": "Fri, 26 Jun 2026 15:18:15 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Aaastocks.com&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 32,
+      "sample_title": "BANK OF CHINA (03988.HK) Disclosure of Interests - AAStock",
+      "sample_date": "Fri, 26 Jun 2026 15:18:15 GMT"
+    }
+  },
+  {
+    "id": "zhitongcaijing",
+    "name": "智通财经",
+    "orig_url": "https://www.zhitongcaijing.com/rss",
+    "orig_reason": "HTTP 500",
+    "category": "market-invest",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Azhitongcaijing.com&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 100,
+        "sample_title": "智通财经 - 智通财经",
+        "sample_date": "Fri, 17 Nov 2017 06:13:22 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Azhitongcaijing.com&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 100,
+      "sample_title": "智通财经 - 智通财经",
+      "sample_date": "Fri, 17 Nov 2017 06:13:22 GMT"
+    }
+  },
+  {
+    "id": "fortune-term-sheet",
+    "name": "Fortune Term Sheet",
+    "orig_url": "https://fortune.com/section/term-sheet/feed/",
+    "orig_reason": "HTTP 404",
+    "category": "industry-capital",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Afortune.com&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 100,
+        "sample_title": "How Abdul El-Sayed would build Medicare for All, from a wealth tax to a Fed-style governin",
+        "sample_date": "Thu, 05 Nov 2026 02:06:00 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Afortune.com&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 100,
+      "sample_title": "How Abdul El-Sayed would build Medicare for All, from a wealth tax to a Fed-style governin",
+      "sample_date": "Thu, 05 Nov 2026 02:06:00 GMT"
+    }
+  },
+  {
+    "id": "gizmodo",
+    "name": "Gizmodo",
+    "orig_url": "https://gizmodo.com/feed",
+    "orig_reason": "HTTP 403",
+    "category": "dev-tools",
+    "attempts": [
+      {
+        "route": "rsshub:/gizmodo",
+        "url": "https://rsshub.rssforever.com/gizmodo",
+        "ok": false,
+        "status": 503,
+        "reason": "HTTP 503"
+      },
+      {
+        "route": "rsshub:/gizmodo",
+        "url": "https://rsshub.pseudoyu.com/gizmodo",
+        "ok": false,
+        "status": 0,
+        "reason": "URLError:<urlopen error Tunnel connection failed: 502 Bad Gateway>"
+      },
+      {
+        "route": "rsshub:/gizmodo",
+        "url": "https://rsshub.ktachibana.party/gizmodo",
+        "ok": false,
+        "status": 404,
+        "reason": "HTTP 404"
+      },
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Agizmodo.com&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 100,
+        "sample_title": "Could Jeremy Allen White Be Marvel's Next Wolverine? - Gizmodo",
+        "sample_date": "Wed, 04 Nov 2026 23:00:20 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Agizmodo.com&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 100,
+      "sample_title": "Could Jeremy Allen White Be Marvel's Next Wolverine? - Gizmodo",
+      "sample_date": "Wed, 04 Nov 2026 23:00:20 GMT"
+    }
+  },
+  {
+    "id": "uncrate",
+    "name": "Uncrate",
+    "orig_url": "https://uncrate.com/feed/",
+    "orig_reason": "HTTP 404",
+    "category": "dev-tools",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Auncrate.com&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 70,
+        "sample_title": "1977 Land Rover 101 Forward Control Survival Truck - Uncrate",
+        "sample_date": "Tue, 03 Nov 2026 17:12:27 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Auncrate.com&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 70,
+      "sample_title": "1977 Land Rover 101 Forward Control Survival Truck - Uncrate",
+      "sample_date": "Tue, 03 Nov 2026 17:12:27 GMT"
+    }
+  },
+  {
+    "id": "coolhunting",
+    "name": "Cool Hunting",
+    "orig_url": "https://coolhunting.com/feed/",
+    "orig_reason": "HTTP 403",
+    "category": "dev-tools",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Acoolhunting.com&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 66,
+        "sample_title": "Miles Greenberg and Vivian Caccuri’s “The Shadow of Spring” Explores the Politics and Powe",
+        "sample_date": "Thu, 17 Nov 2022 08:00:00 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Acoolhunting.com&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 66,
+      "sample_title": "Miles Greenberg and Vivian Caccuri’s “The Shadow of Spring” Explores the Politics and Powe",
+      "sample_date": "Thu, 17 Nov 2022 08:00:00 GMT"
+    }
+  },
+  {
+    "id": "springwise",
+    "name": "Springwise (新趋势产品)",
+    "orig_url": "https://www.springwise.com/feed/",
+    "orig_reason": "声明为 feed 但响应体不是 XML/JSON",
+    "category": "dev-tools",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Aspringwise.com&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 54,
+        "sample_title": "Springwise - Springwise",
+        "sample_date": "Wed, 11 Feb 2015 19:24:59 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Aspringwise.com&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 54,
+      "sample_title": "Springwise - Springwise",
+      "sample_date": "Wed, 11 Feb 2015 19:24:59 GMT"
+    }
+  },
+  {
+    "id": "linuxfoundation",
+    "name": "Linux Foundation Blog",
+    "orig_url": "https://www.linuxfoundation.org/blog/feed/",
+    "orig_reason": "HTTP 404",
+    "category": "dev-tools",
+    "attempts": [
+      {
+        "route": "rsshub:/linuxfoundation/blog",
+        "url": "https://rsshub.rssforever.com/linuxfoundation/blog",
+        "ok": false,
+        "status": 503,
+        "reason": "HTTP 503"
+      },
+      {
+        "route": "rsshub:/linuxfoundation/blog",
+        "url": "https://rsshub.pseudoyu.com/linuxfoundation/blog",
+        "ok": false,
+        "status": 0,
+        "reason": "URLError:<urlopen error Tunnel connection failed: 502 Bad Gateway>"
+      },
+      {
+        "route": "rsshub:/linuxfoundation/blog",
+        "url": "https://rsshub.ktachibana.party/linuxfoundation/blog",
+        "ok": false,
+        "status": 404,
+        "reason": "HTTP 404"
+      },
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Alinuxfoundation.org&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 68,
+        "sample_title": "Introduction to Linux (LFS101) - Linux Foundation - Education",
+        "sample_date": "Mon, 23 Jul 2018 17:43:18 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Alinuxfoundation.org&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 68,
+      "sample_title": "Introduction to Linux (LFS101) - Linux Foundation - Education",
+      "sample_date": "Mon, 23 Jul 2018 17:43:18 GMT"
+    }
+  },
+  {
+    "id": "apache-foundation-blog",
+    "name": "Apache Foundation Blog",
+    "orig_url": "https://blogs.apache.org/foundation/feed/",
+    "orig_reason": "HTTP 404",
+    "category": "dev-tools",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Ablogs.apache.org&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 28,
+        "sample_title": "Announcing Apache OpenOffice 4.1.1 - Apache.org",
+        "sample_date": "Sat, 23 Aug 2014 07:00:00 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Ablogs.apache.org&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 28,
+      "sample_title": "Announcing Apache OpenOffice 4.1.1 - Apache.org",
+      "sample_date": "Sat, 23 Aug 2014 07:00:00 GMT"
+    }
+  },
+  {
+    "id": "theregister",
+    "name": "The Register Software",
+    "orig_url": "https://www.theregister.com/software/headlines.atom",
+    "orig_reason": "声明为 feed 但响应体不是 XML/JSON",
+    "category": "dev-tools",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Atheregister.com&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 1,
+        "sample_title": "安全的基础：从零信任到 AI 支持的高效 - The Register",
+        "sample_date": "Sat, 21 Feb 2026 01:23:26 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Atheregister.com&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 1,
+      "sample_title": "安全的基础：从零信任到 AI 支持的高效 - The Register",
+      "sample_date": "Sat, 21 Feb 2026 01:23:26 GMT"
+    }
+  },
+  {
+    "id": "oreilly-radar",
+    "name": "O'Reilly Radar",
+    "orig_url": "https://feeds.feedburner.com/oreilly/radar/atom1.0",
+    "orig_reason": "HTTP 404",
+    "category": "deep-read",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Afeeds.feedburner.com&hl=en-US&gl=US&ceid=US:en",
+        "ok": false,
+        "status": 200,
+        "reason": "0 条目"
+      }
+    ],
+    "recovered": false,
+    "best": null
+  },
+  {
+    "id": "semianalysis",
+    "name": "SemiAnalysis",
+    "orig_url": "https://semianalysis.com/feed/",
+    "orig_reason": "HTTP 403",
+    "category": "industry-capital",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Asemianalysis.com&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 70,
+        "sample_title": "Elon Is Doing It Again: SpaceX Will Be The World’s Biggest AI Cloud - SemiAnalysis",
+        "sample_date": "Tue, 03 Nov 2026 20:44:53 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Asemianalysis.com&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 70,
+      "sample_title": "Elon Is Doing It Again: SpaceX Will Be The World’s Biggest AI Cloud - SemiAnalysis",
+      "sample_date": "Tue, 03 Nov 2026 20:44:53 GMT"
+    }
+  },
+  {
+    "id": "space-com",
+    "name": "Space.com",
+    "orig_url": "https://www.space.com/feeds/all.xml",
+    "orig_reason": "HTTP 404",
+    "category": "research-papers",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Aspace.com&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 100,
+        "sample_title": "Trump declares 'American space superiority for all eternity' in election night proclamatio",
+        "sample_date": "Wed, 04 Nov 2026 22:00:00 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Aspace.com&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 100,
+      "sample_title": "Trump declares 'American space superiority for all eternity' in election night proclamatio",
+      "sample_date": "Wed, 04 Nov 2026 22:00:00 GMT"
+    }
+  },
+  {
+    "id": "spacenews",
+    "name": "SpaceNews",
+    "orig_url": "https://spacenews.com/feed/",
+    "orig_reason": "HTTP 403",
+    "category": "industry-capital",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Aspacenews.com&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 100,
+        "sample_title": "Starfish Space’s first Otter servicing spacecraft fails - SpaceNews",
+        "sample_date": "Wed, 04 Nov 2026 04:28:02 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Aspacenews.com&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 100,
+      "sample_title": "Starfish Space’s first Otter servicing spacecraft fails - SpaceNews",
+      "sample_date": "Wed, 04 Nov 2026 04:28:02 GMT"
+    }
+  },
+  {
+    "id": "spaceflightnow",
+    "name": "Spaceflight Now",
+    "orig_url": "https://spaceflightnow.com/feed/",
+    "orig_reason": "HTTP 403",
+    "category": "research-papers",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Aspaceflightnow.com&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 66,
+        "sample_title": "NASA’s Neil Gehrels Swift Observatory reenters over Western Indonesia - Spaceflight Now",
+        "sample_date": "Wed, 04 Nov 2026 20:14:59 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Aspaceflightnow.com&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 66,
+      "sample_title": "NASA’s Neil Gehrels Swift Observatory reenters over Western Indonesia - Spaceflight Now",
+      "sample_date": "Wed, 04 Nov 2026 20:14:59 GMT"
+    }
+  },
+  {
+    "id": "biospace",
+    "name": "BioSpace",
+    "orig_url": "https://www.biospace.com/rss",
+    "orig_reason": "HTTP 404",
+    "category": "research-papers",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Abiospace.com&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 100,
+        "sample_title": "Sanofi’s axing of Nurix STAT6 program ‘not a target-related issue’ - BioSpace",
+        "sample_date": "Wed, 04 Nov 2026 16:03:31 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Abiospace.com&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 100,
+      "sample_title": "Sanofi’s axing of Nurix STAT6 program ‘not a target-related issue’ - BioSpace",
+      "sample_date": "Wed, 04 Nov 2026 16:03:31 GMT"
+    }
+  },
+  {
+    "id": "greencarreports",
+    "name": "GreenCarReports",
+    "orig_url": "https://www.greencarreports.com/rss.xml",
+    "orig_reason": "HTTP 403",
+    "category": "dev-tools",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Agreencarreports.com&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 60,
+        "sample_title": "BREAKING: Tesla Making Faster 2012 Model S, 0-60 In Under 4.5 Seconds - Green Car Reports",
+        "sample_date": "Sat, 01 Oct 2011 07:00:00 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Agreencarreports.com&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 60,
+      "sample_title": "BREAKING: Tesla Making Faster 2012 Model S, 0-60 In Under 4.5 Seconds - Green Car Reports",
+      "sample_date": "Sat, 01 Oct 2011 07:00:00 GMT"
+    }
+  },
+  {
+    "id": "iotworldtoday",
+    "name": "IoT World Today",
+    "orig_url": "https://www.iotworldtoday.com/feed",
+    "orig_reason": "声明为 feed 但响应体不是 XML/JSON",
+    "category": "agent-engineering",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Aiotworldtoday.com&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "ok": false,
+        "status": 200,
+        "reason": "0 条目"
+      },
+      {
+        "route": "html_list",
+        "url": "https://www.iotworldtoday.com/feed",
+        "ok": false,
+        "status": 200,
+        "reason": "启发式仅 3 条"
+      }
+    ],
+    "recovered": false,
+    "best": null
+  },
+  {
+    "id": "technode",
+    "name": "TechNode 动点科技",
+    "orig_url": "https://technode.com/feed/",
+    "orig_reason": "HTTP 403",
+    "category": "industry-capital",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Atechnode.com&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 87,
+        "sample_title": "Post page · Page 1923 of 1924 - TechNode",
+        "sample_date": "Wed, 04 Nov 2026 13:25:02 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Atechnode.com&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 87,
+      "sample_title": "Post page · Page 1923 of 1924 - TechNode",
+      "sample_date": "Wed, 04 Nov 2026 13:25:02 GMT"
+    }
+  },
+  {
+    "id": "wired-science",
+    "name": "WIRED Science",
+    "orig_url": "https://www.wired.com/feed/tag/science/latest/rss",
+    "orig_reason": "HTTP 404",
+    "category": "research-papers",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Awired.com&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 100,
+        "sample_title": "‘Musk’ Director Alex Gibney Wants to Know if Democrats Can Now Hold Elon Musk Accountable ",
+        "sample_date": "Wed, 04 Nov 2026 14:15:00 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Awired.com&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 100,
+      "sample_title": "‘Musk’ Director Alex Gibney Wants to Know if Democrats Can Now Hold Elon Musk Accountable ",
+      "sample_date": "Wed, 04 Nov 2026 14:15:00 GMT"
+    }
+  },
+  {
+    "id": "eurekalert-tech",
+    "name": "EurekAlert 工程技术",
+    "orig_url": "https://www.eurekalert.org/rss/technology_engineering.xml",
+    "orig_reason": "HTTP 403",
+    "category": "research-papers",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Aeurekalert.org&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 100,
+        "sample_title": "A new quantum state of matter works at room temperature - EurekAlert!",
+        "sample_date": "Tue, 03 Nov 2026 17:15:50 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Aeurekalert.org&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 100,
+      "sample_title": "A new quantum state of matter works at room temperature - EurekAlert!",
+      "sample_date": "Tue, 03 Nov 2026 17:15:50 GMT"
+    }
+  },
+  {
+    "id": "cell-press",
+    "name": "Cell Press",
+    "orig_url": "https://www.cell.com/rss/",
+    "orig_reason": "HTTP 404",
+    "category": "research-papers",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Acell.com&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 83,
+        "sample_title": "A socio-sexual bond between a bull and a male donkey: Current Biology - Cell Press",
+        "sample_date": "Mon, 02 Nov 2026 15:56:51 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Acell.com&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 83,
+      "sample_title": "A socio-sexual bond between a bull and a male donkey: Current Biology - Cell Press",
+      "sample_date": "Mon, 02 Nov 2026 15:56:51 GMT"
+    }
+  },
+  {
+    "id": "sciencenet",
+    "name": "科学网",
+    "orig_url": "https://www.sciencenet.cn/rss.aspx",
+    "orig_reason": "声明为 feed 但响应体不是 XML/JSON",
+    "category": "research-papers",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Asciencenet.cn&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 100,
+        "sample_title": "锚定“四极”前沿，激荡青春担当 - 科学网—新闻",
+        "sample_date": "Wed, 04 Nov 2026 06:47:29 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Asciencenet.cn&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 100,
+      "sample_title": "锚定“四极”前沿，激荡青春担当 - 科学网—新闻",
+      "sample_date": "Wed, 04 Nov 2026 06:47:29 GMT"
+    }
+  },
+  {
+    "id": "nature-biotech",
+    "name": "Nature Biotechnology",
+    "orig_url": "https://www.nature.com/natbiotech.rss",
+    "orig_reason": "HTTP 404",
+    "category": "research-papers",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Anature.com&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 100,
+        "sample_title": "Decoding the regulatory programs governing glioblastoma plasticity - Nature",
+        "sample_date": "Wed, 04 Nov 2026 22:28:18 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Anature.com&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 100,
+      "sample_title": "Decoding the regulatory programs governing glioblastoma plasticity - Nature",
+      "sample_date": "Wed, 04 Nov 2026 22:28:18 GMT"
+    }
+  },
+  {
+    "id": "bleepingcomputer",
+    "name": "BleepingComputer",
+    "orig_url": "https://www.bleepingcomputer.com/feed/",
+    "orig_reason": "HTTP 403",
+    "category": "security-governance",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Ableepingcomputer.com&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 100,
+        "sample_title": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware - BleepingCom",
+        "sample_date": "Thu, 05 Nov 2026 05:35:30 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Ableepingcomputer.com&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 100,
+      "sample_title": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware - BleepingCom",
+      "sample_date": "Thu, 05 Nov 2026 05:35:30 GMT"
+    }
+  },
+  {
+    "id": "schneier",
+    "name": "Schneier on Security",
+    "orig_url": "https://www.schneier.com/feed/atom/",
+    "orig_reason": "HTTP 403",
+    "category": "security-governance",
+    "attempts": [
+      {
+        "route": "rsshub:/schneier/blog",
+        "url": "https://rsshub.rssforever.com/schneier/blog",
+        "ok": false,
+        "status": 503,
+        "reason": "HTTP 503"
+      },
+      {
+        "route": "rsshub:/schneier/blog",
+        "url": "https://rsshub.pseudoyu.com/schneier/blog",
+        "ok": false,
+        "status": 0,
+        "reason": "URLError:<urlopen error Tunnel connection failed: 502 Bad Gateway>"
+      },
+      {
+        "route": "rsshub:/schneier/blog",
+        "url": "https://rsshub.ktachibana.party/schneier/blog",
+        "ok": false,
+        "status": 404,
+        "reason": "HTTP 404"
+      },
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Aschneier.com&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 61,
+        "sample_title": "AIs Hacking the Law - Schneier on Security -",
+        "sample_date": "Tue, 03 Nov 2026 13:01:00 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Aschneier.com&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 61,
+      "sample_title": "AIs Hacking the Law - Schneier on Security -",
+      "sample_date": "Tue, 03 Nov 2026 13:01:00 GMT"
+    }
+  },
+  {
+    "id": "securityweek",
+    "name": "SecurityWeek",
+    "orig_url": "https://www.securityweek.com/feed/",
+    "orig_reason": "HTTP 403",
+    "category": "security-governance",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Asecurityweek.com&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 93,
+        "sample_title": "CrowdStrike Reportedly Paying $495 Million for AI Security Firms Fiddler, Dreadnode - Secu",
+        "sample_date": "Tue, 03 Nov 2026 14:12:44 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Asecurityweek.com&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 93,
+      "sample_title": "CrowdStrike Reportedly Paying $495 Million for AI Security Firms Fiddler, Dreadnode - Secu",
+      "sample_date": "Tue, 03 Nov 2026 14:12:44 GMT"
+    }
+  },
+  {
+    "id": "restofworld",
+    "name": "Rest of World",
+    "orig_url": "https://restofworld.org/feed/",
+    "orig_reason": "HTTP 403",
+    "category": "deep-read",
+    "attempts": [
+      {
+        "route": "rsshub:/restofworld",
+        "url": "https://rsshub.rssforever.com/restofworld",
+        "ok": false,
+        "status": 503,
+        "reason": "HTTP 503"
+      },
+      {
+        "route": "rsshub:/restofworld",
+        "url": "https://rsshub.pseudoyu.com/restofworld",
+        "ok": false,
+        "status": 0,
+        "reason": "URLError:<urlopen error Tunnel connection failed: 502 Bad Gateway>"
+      },
+      {
+        "route": "rsshub:/restofworld",
+        "url": "https://rsshub.ktachibana.party/restofworld",
+        "ok": false,
+        "status": 404,
+        "reason": "HTTP 404"
+      },
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Arestofworld.org&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 67,
+        "sample_title": "Startups recalibrate Chinese AI for the West - Rest of World",
+        "sample_date": "Mon, 02 Nov 2026 11:01:46 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Arestofworld.org&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 67,
+      "sample_title": "Startups recalibrate Chinese AI for the West - Rest of World",
+      "sample_date": "Mon, 02 Nov 2026 11:01:46 GMT"
+    }
+  },
+  {
+    "id": "themarkup",
+    "name": "The Markup",
+    "orig_url": "https://themarkup.org/feed/rss",
+    "orig_reason": "HTTP 404",
+    "category": "security-governance",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Athemarkup.org&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 60,
+        "sample_title": "MyChart and a major hospital said I could opt out of sharing my health data. But they didn",
+        "sample_date": "Thu, 15 Oct 2026 07:00:00 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Athemarkup.org&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 60,
+      "sample_title": "MyChart and a major hospital said I could opt out of sharing my health data. But they didn",
+      "sample_date": "Thu, 15 Oct 2026 07:00:00 GMT"
+    }
+  },
+  {
+    "id": "semafor-tech",
+    "name": "Semafor Technology",
+    "orig_url": "https://www.semafor.com/rss/technology",
+    "orig_reason": "HTTP 404",
+    "category": "industry-capital",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Asemafor.com&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 100,
+        "sample_title": "Exclusive / How a Democrat shocked the world in South Carolina - Semafor",
+        "sample_date": "Wed, 04 Nov 2026 16:27:00 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Asemafor.com&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 100,
+      "sample_title": "Exclusive / How a Democrat shocked the world in South Carolina - Semafor",
+      "sample_date": "Wed, 04 Nov 2026 16:27:00 GMT"
+    }
+  },
+  {
+    "id": "epoch-ai",
+    "name": "Epoch AI",
+    "orig_url": "https://epoch.ai/feed",
+    "orig_reason": "HTTP 404",
+    "category": "research-papers",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Aepoch.ai&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 60,
+        "sample_title": "Data on AI data centers - Epoch AI",
+        "sample_date": "Sun, 01 Nov 2026 07:00:00 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Aepoch.ai&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 60,
+      "sample_title": "Data on AI data centers - Epoch AI",
+      "sample_date": "Sun, 01 Nov 2026 07:00:00 GMT"
+    }
+  },
+  {
+    "id": "youtube-yannic",
+    "name": "Yannic Kilcher (YouTube RSS)",
+    "orig_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCZHmQk67mSJgfCCTn7xBfew",
+    "orig_reason": "HTTP 404",
+    "category": "research-papers",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Ayoutube.com&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 100,
+        "sample_title": "PBS News Hour full episode, Nov. 4, 2026 - YouTube",
+        "sample_date": "Thu, 05 Nov 2026 00:30:49 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Ayoutube.com&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 100,
+      "sample_title": "PBS News Hour full episode, Nov. 4, 2026 - YouTube",
+      "sample_date": "Thu, 05 Nov 2026 00:30:49 GMT"
+    }
+  },
+  {
+    "id": "youtube-twominutepapers",
+    "name": "Two Minute Papers (YouTube RSS)",
+    "orig_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
+    "orig_reason": "HTTP 404",
+    "category": "research-papers",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Ayoutube.com&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 100,
+        "sample_title": "PBS News Hour full episode, Nov. 4, 2026 - YouTube",
+        "sample_date": "Thu, 05 Nov 2026 00:30:49 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Ayoutube.com&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 100,
+      "sample_title": "PBS News Hour full episode, Nov. 4, 2026 - YouTube",
+      "sample_date": "Thu, 05 Nov 2026 00:30:49 GMT"
+    }
+  },
+  {
+    "id": "youtube-fireship",
+    "name": "Fireship (YouTube RSS)",
+    "orig_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
+    "orig_reason": "HTTP 404",
+    "category": "dev-tools",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Ayoutube.com&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 100,
+        "sample_title": "PBS News Hour full episode, Nov. 4, 2026 - YouTube",
+        "sample_date": "Thu, 05 Nov 2026 00:30:49 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Ayoutube.com&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 100,
+      "sample_title": "PBS News Hour full episode, Nov. 4, 2026 - YouTube",
+      "sample_date": "Thu, 05 Nov 2026 00:30:49 GMT"
+    }
+  },
+  {
+    "id": "youtube-karpathy",
+    "name": "Andrej Karpathy (YouTube RSS)",
+    "orig_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXUPKJO5MZQN11PqgIvyuvQ",
+    "orig_reason": "HTTP 404",
+    "category": "deep-read",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Ayoutube.com&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 100,
+        "sample_title": "PBS News Hour full episode, Nov. 4, 2026 - YouTube",
+        "sample_date": "Thu, 05 Nov 2026 00:30:49 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Ayoutube.com&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 100,
+      "sample_title": "PBS News Hour full episode, Nov. 4, 2026 - YouTube",
+      "sample_date": "Thu, 05 Nov 2026 00:30:49 GMT"
+    }
+  },
+  {
+    "id": "reddit-artificial",
+    "name": "r/artificial",
+    "orig_url": "https://www.reddit.com/r/artificial.rss",
+    "orig_reason": "2026-11-05 复测仍 429：与 r/opensource 同域持续限流，禁用并保留证据；Reddit 面由实测",
+    "category": "community",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Areddit.com&hl=en-US&gl=US&ceid=US:en",
+        "ok": false,
+        "status": 200,
+        "reason": "0 条目"
+      },
+      {
+        "route": "html_list",
+        "url": "https://www.reddit.com/r/artificial.rss",
+        "ok": false,
+        "status": 200,
+        "reason": "启发式仅 0 条"
+      }
+    ],
+    "recovered": false,
+    "best": null
+  },
+  {
+    "id": "yahoo-chart",
+    "name": "Yahoo Finance Chart API",
+    "orig_url": "https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?range=5d&interval=1d",
+    "orig_reason": "按需启用；symbol 列表在 scoring.json/watchlist，属非官方接口勿高频调用",
+    "category": "market-invest",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Aquery1.finance.yahoo.com&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 23,
+        "sample_title": "- Yahoo",
+        "sample_date": "Wed, 07 Oct 2026 16:31:07 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Aquery1.finance.yahoo.com&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 23,
+      "sample_title": "- Yahoo",
+      "sample_date": "Wed, 07 Oct 2026 16:31:07 GMT"
+    }
+  },
+  {
+    "id": "sec-edgar-current",
+    "name": "SEC EDGAR Current Filings",
+    "orig_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent",
+    "orig_reason": "需声明 User-Agent 与联系信息；建议改用 data.sec.gov submissions JSON",
+    "category": "market-invest",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Asec.gov&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 100,
+        "sample_title": "Canton Coin - SEC.gov",
+        "sample_date": "Tue, 03 Nov 2026 20:01:43 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Asec.gov&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 100,
+      "sample_title": "Canton Coin - SEC.gov",
+      "sample_date": "Tue, 03 Nov 2026 20:01:43 GMT"
+    }
+  },
+  {
+    "id": "venturebeat-ai",
+    "name": "VentureBeat AI",
+    "orig_url": "https://venturebeat.com/category/ai/feed/",
+    "orig_reason": "实测 429 限流，启用需低速抓取 + 缓存",
+    "category": "industry-capital",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Aventurebeat.com&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 82,
+        "sample_title": "Ex-Googlers' new Apache 2.0 model Ripple-65B Preview claims the U.S. open coding lead on t",
+        "sample_date": "Thu, 05 Nov 2026 00:56:21 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Aventurebeat.com&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 82,
+      "sample_title": "Ex-Googlers' new Apache 2.0 model Ripple-65B Preview claims the U.S. open coding lead on t",
+      "sample_date": "Thu, 05 Nov 2026 00:56:21 GMT"
+    }
+  },
+  {
+    "id": "github-trends-atom",
+    "name": "GitHub Trending Atom (旧)",
+    "orig_url": "https://github-trends-atom.vercel.app/trending",
+    "orig_reason": "参考仓库 daily-rss README 中的源，实测 404 已失效；替代为 github-trending + g",
+    "category": "dev-tools",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Agithub-trends-atom.vercel.app&hl=en-US&gl=US&ceid=US:en",
+        "ok": false,
+        "status": 200,
+        "reason": "0 条目"
+      }
+    ],
+    "recovered": false,
+    "best": null
+  },
+  {
+    "id": "anthropic-rss",
+    "name": "Anthropic RSS (不存在)",
+    "orig_url": "https://www.anthropic.com/rss.xml",
+    "orig_reason": "实测 404，官方未提供 feed；替代为 anthropic-news HTML",
+    "category": "ai-models",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Aanthropic.com&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 100,
+        "sample_title": "Investigating vault particles with Claude - Anthropic",
+        "sample_date": "Wed, 04 Nov 2026 22:02:45 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Aanthropic.com&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 100,
+      "sample_title": "Investigating vault particles with Claude - Anthropic",
+      "sample_date": "Wed, 04 Nov 2026 22:02:45 GMT"
+    }
+  },
+  {
+    "id": "langchain-blog-rss",
+    "name": "LangChain Blog RSS (旧)",
+    "orig_url": "https://blog.langchain.dev/rss/",
+    "orig_reason": "参考仓库 daily-rss README 中的源，实测 302 到 https://www.langchain.com",
+    "category": "agent-engineering",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Ablog.langchain.dev&hl=en-US&gl=US&ceid=US:en",
+        "ok": false,
+        "status": 200,
+        "reason": "0 条目"
+      },
+      {
+        "route": "html_list",
+        "url": "https://blog.langchain.dev/rss/",
+        "ok": false,
+        "status": 200,
+        "reason": "启发式仅 0 条"
+      }
+    ],
+    "recovered": false,
+    "best": null
+  },
+  {
+    "id": "rsshub-public",
+    "name": "RSSHub 公共实例",
+    "orig_url": "https://rsshub.app/github/trending/daily/python",
+    "orig_reason": "实测 403；需要请自建 RSSHub 或换源，勿依赖公共实例",
+    "category": "community",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Arsshub.app&hl=en-US&gl=US&ceid=US:en",
+        "ok": false,
+        "status": 200,
+        "reason": "0 条目"
+      }
+    ],
+    "recovered": false,
+    "best": null
+  },
+  {
+    "id": "36kr-feed",
+    "name": "36氪 feed",
+    "orig_url": "https://36kr.com/feed",
+    "orig_reason": "返回 text/html 非 XML，不能当 RSS 解析",
+    "category": "industry-capital",
+    "attempts": [
+      {
+        "route": "rsshub:/36kr/newsflashes",
+        "url": "https://rsshub.rssforever.com/36kr/newsflashes",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 20,
+        "sample_title": "索尼第二财季营业利润同比增长45.1%",
+        "sample_date": "Thu, 05 Nov 2026 06:38:48 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "rsshub:/36kr/newsflashes",
+      "url": "https://rsshub.rssforever.com/36kr/newsflashes",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 20,
+      "sample_title": "索尼第二财季营业利润同比增长45.1%",
+      "sample_date": "Thu, 05 Nov 2026 06:38:48 GMT"
+    }
+  },
+  {
+    "id": "jiqizhixin-rss",
+    "name": "机器之心 rss",
+    "orig_url": "https://www.jiqizhixin.com/rss",
+    "orig_reason": "返回 text/html 非 XML",
+    "category": "ai-models",
+    "attempts": [
+      {
+        "route": "rsshub:/jiqizhixin",
+        "url": "https://rsshub.rssforever.com/jiqizhixin",
+        "ok": false,
+        "status": 503,
+        "reason": "HTTP 503"
+      },
+      {
+        "route": "rsshub:/jiqizhixin",
+        "url": "https://rsshub.pseudoyu.com/jiqizhixin",
+        "ok": false,
+        "status": 0,
+        "reason": "URLError:<urlopen error Tunnel connection failed: 502 Bad Gateway>"
+      },
+      {
+        "route": "rsshub:/jiqizhixin",
+        "url": "https://rsshub.ktachibana.party/jiqizhixin",
+        "ok": false,
+        "status": 404,
+        "reason": "HTTP 404"
+      },
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Ajiqizhixin.com&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 59,
+        "sample_title": "机器之心 - 机器之心",
+        "sample_date": "Mon, 05 Jun 2017 16:37:01 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Ajiqizhixin.com&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 59,
+      "sample_title": "机器之心 - 机器之心",
+      "sample_date": "Mon, 05 Jun 2017 16:37:01 GMT"
+    }
+  },
+  {
+    "id": "infoq-cn-feed",
+    "name": "InfoQ 中文 feed",
+    "orig_url": "https://www.infoq.cn/feed",
+    "orig_reason": "返回 text/html；infoq.com/feed 实测 405，改用 feed.infoq.com",
+    "category": "agent-engineering",
+    "attempts": [
+      {
+        "route": "rsshub:/infoq.cn/recommend",
+        "url": "https://rsshub.rssforever.com/infoq.cn/recommend",
+        "ok": false,
+        "status": 503,
+        "reason": "HTTP 503"
+      },
+      {
+        "route": "rsshub:/infoq.cn/recommend",
+        "url": "https://rsshub.pseudoyu.com/infoq.cn/recommend",
+        "ok": false,
+        "status": 0,
+        "reason": "URLError:<urlopen error Tunnel connection failed: 502 Bad Gateway>"
+      },
+      {
+        "route": "rsshub:/infoq.cn/recommend",
+        "url": "https://rsshub.ktachibana.party/infoq.cn/recommend",
+        "ok": false,
+        "status": 404,
+        "reason": "HTTP 404"
+      },
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Ainfoq.cn&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 99,
+        "sample_title": "同一个模型从 30 分到 95 分：拉开差距的不是模型，是 Harness - InfoQ.cn",
+        "sample_date": "Wed, 04 Nov 2026 12:59:48 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Ainfoq.cn&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 99,
+      "sample_title": "同一个模型从 30 分到 95 分：拉开差距的不是模型，是 Harness - InfoQ.cn",
+      "sample_date": "Wed, 04 Nov 2026 12:59:48 GMT"
+    }
+  },
+  {
+    "id": "meta-ai-blog-rss",
+    "name": "Meta AI Blog RSS",
+    "orig_url": "https://ai.meta.com/blog/rss/",
+    "orig_reason": "2026-11-04 实测 404，官方无 feed",
+    "category": "ai-models",
+    "attempts": [
+      {
+        "route": "rsshub:/meta/ai/blog",
+        "url": "https://rsshub.rssforever.com/meta/ai/blog",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 12,
+        "sample_title": "Reimagining Independence: How Meta’s AI Models Are Helping the University of Pittsburgh Tr",
+        "sample_date": "Sun, 26 Jul 2026 16:00:00 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "rsshub:/meta/ai/blog",
+      "url": "https://rsshub.rssforever.com/meta/ai/blog",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 12,
+      "sample_title": "Reimagining Independence: How Meta’s AI Models Are Helping the University of Pittsburgh Tr",
+      "sample_date": "Sun, 26 Jul 2026 16:00:00 GMT"
+    }
+  },
+  {
+    "id": "importai-substack",
+    "name": "Import AI (substack)",
+    "orig_url": "https://www.importai.substack.com/feed",
+    "orig_reason": "推荐清单命中；两次实测均 SSL 握手失败（疑似被墙/证书异常），本机直连不可用；daily-rss 原清单亦含此源",
+    "category": "ai-models",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Aimportai.substack.com&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 41,
+        "sample_title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4 - Import AI | Jack Clark |",
+        "sample_date": "Mon, 02 Nov 2026 14:30:54 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Aimportai.substack.com&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 41,
+      "sample_title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4 - Import AI | Jack Clark |",
+      "sample_date": "Mon, 02 Nov 2026 14:30:54 GMT"
+    }
+  },
+  {
+    "id": "reddit-popular",
+    "name": "Reddit Popular",
+    "orig_url": "https://www.reddit.com/r/popular.rss",
+    "orig_reason": "推荐清单命中；实测 429（r/LocalLLaMA 与 r/artificial 可用，见 A 层）",
+    "category": "community",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Areddit.com&hl=en-US&gl=US&ceid=US:en",
+        "ok": false,
+        "status": 200,
+        "reason": "0 条目"
+      }
+    ],
+    "recovered": false,
+    "best": null
+  },
+  {
+    "id": "trendhunter-rss",
+    "name": "Trend Hunter RSS",
+    "orig_url": "https://www.trendhunter.com/rss",
+    "orig_reason": "推荐清单命中；实测 403",
+    "category": "dev-tools",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Atrendhunter.com&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 100,
+        "sample_title": "Trend Hunter - Trend Hunter",
+        "sample_date": "Tue, 13 Jan 2015 08:38:24 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Atrendhunter.com&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 100,
+      "sample_title": "Trend Hunter - Trend Hunter",
+      "sample_date": "Tue, 13 Jan 2015 08:38:24 GMT"
+    }
+  },
+  {
+    "id": "indiehackers-feed",
+    "name": "Indie Hackers feed",
+    "orig_url": "https://www.indiehackers.com/feed.xml",
+    "orig_reason": "推荐清单命中；实测 404，站点已改版",
+    "category": "industry-capital",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Aindiehackers.com&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 84,
+        "sample_title": "Indie Hackers: Work Together to Build Profitable Online Businesses - Indie Hackers",
+        "sample_date": "Thu, 11 Aug 2016 07:40:26 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Aindiehackers.com&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 84,
+      "sample_title": "Indie Hackers: Work Together to Build Profitable Online Businesses - Indie Hackers",
+      "sample_date": "Thu, 11 Aug 2016 07:40:26 GMT"
+    }
+  },
+  {
+    "id": "starterstory-feed",
+    "name": "Starter Story feed",
+    "orig_url": "https://www.starterstory.com/feed",
+    "orig_reason": "推荐清单命中；实测 404",
+    "category": "industry-capital",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Astarterstory.com&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 54,
+        "sample_title": "Learn How People Are Starting Successful Businesses - Starter Story",
+        "sample_date": "Thu, 07 Sep 2023 18:33:44 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Astarterstory.com&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 54,
+      "sample_title": "Learn How People Are Starting Successful Businesses - Starter Story",
+      "sample_date": "Thu, 07 Sep 2023 18:33:44 GMT"
+    }
+  },
+  {
+    "id": "crunchbase-news-feed",
+    "name": "Crunchbase News",
+    "orig_url": "https://news.crunchbase.com/feed/",
+    "orig_reason": "推荐清单命中；实测 403（需 API 或换源；融资面已由 techcrunch-venture + a16z-news",
+    "category": "industry-capital",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Anews.crunchbase.com&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 66,
+        "sample_title": "China’s Largest Startup Deal Ever Lifts Global Venture Funding To $59B In October - Crunch",
+        "sample_date": "Tue, 03 Nov 2026 12:00:44 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Anews.crunchbase.com&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 66,
+      "sample_title": "China’s Largest Startup Deal Ever Lifts Global Venture Funding To $59B In October - Crunch",
+      "sample_date": "Tue, 03 Nov 2026 12:00:44 GMT"
+    }
+  },
+  {
+    "id": "fundly-feed",
+    "name": "Fundly",
+    "orig_url": "https://www.fundly.com/feed/",
+    "orig_reason": "实测 302 到 signupgenius 营销页，feed 已死",
+    "category": "industry-capital",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Afundly.com&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 52,
+        "sample_title": "Donor Search: Frequently Asked Questions - support.fundly.com",
+        "sample_date": "Tue, 21 Feb 2023 08:00:00 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Afundly.com&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 52,
+      "sample_title": "Donor Search: Frequently Asked Questions - support.fundly.com",
+      "sample_date": "Tue, 21 Feb 2023 08:00:00 GMT"
+    }
+  },
+  {
+    "id": "theresanaiforthat",
+    "name": "There's An AI For That",
+    "orig_url": "https://theresanaiforthat.com/feed/",
+    "orig_reason": "推荐清单命中；实测 403",
+    "category": "dev-tools",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Atheresanaiforthat.com&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 94,
+        "sample_title": "There's An AI For That® — The front page of AI - There's An AI For That",
+        "sample_date": "Tue, 20 Dec 2022 19:01:52 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Atheresanaiforthat.com&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 94,
+      "sample_title": "There's An AI For That® — The front page of AI - There's An AI For That",
+      "sample_date": "Tue, 20 Dec 2022 19:01:52 GMT"
+    }
+  },
+  {
+    "id": "toolify-feed",
+    "name": "Toolify",
+    "orig_url": "https://www.toolify.ai/feed",
+    "orig_reason": "推荐清单命中；实测 403",
+    "category": "dev-tools",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Atoolify.ai&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 50,
+        "sample_title": "Top AI Websites & AI Tools in September 2026 - Toolify AI",
+        "sample_date": "Mon, 12 Jun 2023 01:33:22 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Atoolify.ai&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 50,
+      "sample_title": "Top AI Websites & AI Tools in September 2026 - Toolify AI",
+      "sample_date": "Mon, 12 Jun 2023 01:33:22 GMT"
+    }
+  },
+  {
+    "id": "betalist-feed",
+    "name": "BetaList",
+    "orig_url": "https://betalist.com/feed",
+    "orig_reason": "推荐清单命中；实测 404",
+    "category": "dev-tools",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Abetalist.com&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 64,
+        "sample_title": "Discover and get early access to tomorrow's startups | BetaList - BetaList",
+        "sample_date": "Mon, 21 Jul 2014 15:09:23 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Abetalist.com&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 64,
+      "sample_title": "Discover and get early access to tomorrow's startups | BetaList - BetaList",
+      "sample_date": "Mon, 21 Jul 2014 15:09:23 GMT"
+    }
+  },
+  {
+    "id": "stratechery-feed",
+    "name": "Stratechery",
+    "orig_url": "https://stratechery.com/feed/",
+    "orig_reason": "推荐清单命中；实测 403（付费墙站点）",
+    "category": "deep-read",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Astratechery.com&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 71,
+        "sample_title": "AI on the Ballot - Stratechery by Ben Thompson",
+        "sample_date": "Wed, 04 Nov 2026 11:00:00 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Astratechery.com&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 71,
+      "sample_title": "AI on the Ballot - Stratechery by Ben Thompson",
+      "sample_date": "Wed, 04 Nov 2026 11:00:00 GMT"
+    }
+  },
+  {
+    "id": "hbr-feed",
+    "name": "Harvard Business Review",
+    "orig_url": "https://hbr.org/feed",
+    "orig_reason": "推荐清单命中；实测 404",
+    "category": "deep-read",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Ahbr.org&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 100,
+        "sample_title": "The “Human-in-the-Loop” Fallacy - Harvard Business Review",
+        "sample_date": "Mon, 02 Nov 2026 17:44:29 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Ahbr.org&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 100,
+      "sample_title": "The “Human-in-the-Loop” Fallacy - Harvard Business Review",
+      "sample_date": "Mon, 02 Nov 2026 17:44:29 GMT"
+    }
+  },
+  {
+    "id": "atlantic-feed",
+    "name": "The Atlantic",
+    "orig_url": "https://www.theatlantic.com/feed/all/",
+    "orig_reason": "推荐清单命中；实测 403",
+    "category": "deep-read",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Atheatlantic.com&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 100,
+        "sample_title": "How Texas Turned Blue - The Atlantic",
+        "sample_date": "Wed, 04 Nov 2026 04:38:00 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Atheatlantic.com&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 100,
+      "sample_title": "How Texas Turned Blue - The Atlantic",
+      "sample_date": "Wed, 04 Nov 2026 04:38:00 GMT"
+    }
+  },
+  {
+    "id": "explodingtopics-rss",
+    "name": "Exploding Topics",
+    "orig_url": "https://explodingtopics.com/blog/rss",
+    "orig_reason": "推荐清单命中；实测 404",
+    "category": "community",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Aexplodingtopics.com&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 62,
+        "sample_title": "30+ Incredible Big Data Statistics (2024) - Exploding Topics",
+        "sample_date": "Fri, 12 Jul 2024 07:00:00 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Aexplodingtopics.com&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 62,
+      "sample_title": "30+ Incredible Big Data Statistics (2024) - Exploding Topics",
+      "sample_date": "Fri, 12 Jul 2024 07:00:00 GMT"
+    }
+  },
+  {
+    "id": "x-explore",
+    "name": "X Explore",
+    "orig_url": "https://x.com/explore",
+    "orig_reason": "推荐清单命中；需登录 + 反爬，无法匿名程序化获取（daily-rss 也仅把 x.com 当引用域名而非订阅源）",
+    "category": "community",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Ax.com&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 100,
+        "sample_title": "Raiders released WR Cody White. - X",
+        "sample_date": "Wed, 04 Nov 2026 22:34:11 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Ax.com&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 100,
+      "sample_title": "Raiders released WR Cody White. - X",
+      "sample_date": "Wed, 04 Nov 2026 22:34:11 GMT"
+    }
+  },
+  {
+    "id": "semanticscholar-api",
+    "name": "Semantic Scholar API",
+    "orig_url": "https://api.semanticscholar.org/graph/v1/paper/search?query=mcp&limit=10",
+    "orig_reason": "实测 429（公共配额极紧）；学术面已由 openalex + hf-daily-papers + arxiv 覆盖",
+    "category": "research-papers",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Aapi.semanticscholar.org&hl=en-US&gl=US&ceid=US:en",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/xml; charset=utf-8",
+        "items": 5,
+        "sample_title": "Semantic Scholar - Datasets API - Semantic Scholar",
+        "sample_date": "Tue, 31 May 2022 09:08:13 GMT"
+      }
+    ],
+    "recovered": true,
+    "best": {
+      "route": "gnews_site",
+      "url": "https://news.google.com/rss/search?q=site%3Aapi.semanticscholar.org&hl=en-US&gl=US&ceid=US:en",
+      "ok": true,
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "items": 5,
+      "sample_title": "Semantic Scholar - Datasets API - Semantic Scholar",
+      "sample_date": "Tue, 31 May 2022 09:08:13 GMT"
+    }
+  },
+  {
+    "id": "reddit-opensource",
+    "name": "r/opensource",
+    "orig_url": "https://www.reddit.com/r/opensource/hot.rss",
+    "orig_reason": "2026-11-05 候选体检通过（25 条可解析）；来源：用户清单 2026-11-05 全量体检 429：Reddi",
+    "category": "community",
+    "attempts": [
+      {
+        "route": "gnews_site",
+        "url": "https://news.google.com/rss/search?q=site%3Areddit.com&hl=en-US&gl=US&ceid=US:en",
+        "ok": false,
+        "status": 200,
+        "reason": "0 条目"
+      }
+    ],
+    "recovered": false,
+    "best": null
+  }
+]
