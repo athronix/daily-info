@@ -13,6 +13,7 @@
   /feed.json                200 + JSON Feed items > 0
   前端能力（静态源码检查）  #q 搜索框 / input 监听 / dates 切换 / state.q 过滤
                           日期 + 分类双维导航 / 默认最新日期 / 订阅引导面板（不直跳 .atom）
+                          默认深色主题 / 主题偏好记忆 / 深浅两套配色与阴影遮罩无绿偏
 
 网络约定：绑定 IPv6 `::1`，urllib 显式禁用代理（ProxyHandler({})），
 规避本机 TUN 对 IPv4 127.0.0.1 裸 TCP 的拦截（见 pitfalls P17 与用户环境约定）。
@@ -108,6 +109,39 @@ def main() -> int:
         rec("前端能力 · 保留阅读器自动发现",
             'rel="alternate" type="application/atom+xml"' in html_text,
             "head 内 rel=alternate 仍在")
+
+        # 主题（用户 2026-11-06 反馈：深色泛绿 + 要求默认深色）
+        rec("前端能力 · 默认深色主题",
+            '<html lang="zh-CN" data-theme="dark">' in html_text,
+            "html 根元素带 data-theme=dark，首帧即深色无闪白")
+        rec("前端能力 · 主题偏好可记忆",
+            "localStorage.setItem('daily-info-theme'" in html_text,
+            "用户显式切换后写入 localStorage，刷新不回弹")
+
+        def green_dominant(css_fragment):
+            """返回绿色通道为最大通道的色值：这类色会让整页泛绿。"""
+            bad = []
+            for v in re.findall(r'#[0-9a-fA-F]{6}\b', css_fragment):
+                r, g, b = (int(v[i:i + 2], 16) for i in (1, 3, 5))
+                if g > max(r, b):
+                    bad.append(v)
+            for m in re.finditer(r'rgba\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)\s*,', css_fragment):
+                r, g, b = (int(x) for x in m.groups())
+                if g > max(r, b):
+                    bad.append(m.group(0))
+            return bad
+
+        css_m = re.search(r'<style>([\s\S]*?)</style>', html_text)
+        css = css_m.group(1) if css_m else ''
+        dark_m = re.search(r'html\[data-theme="dark"\]\s*\{([^}]*)\}', css)
+        light_m = re.search(r':root\s*\{([^}]*)\}', css)
+        dark_bad = green_dominant(dark_m.group(1)) if dark_m else ["<dark block missing>"]
+        light_bad = green_dominant(light_m.group(1)) if light_m else ["<root block missing>"]
+        rec("前端能力 · 深色配色无绿偏", not dark_bad, f"green-dominant = {dark_bad}")
+        rec("前端能力 · 浅色配色无绿偏", not light_bad, f"green-dominant = {light_bad}")
+        overlay_bad = green_dominant(css)
+        rec("前端能力 · 阴影/遮罩无绿偏", not overlay_bad,
+            f"green-dominant in full css = {overlay_bad}")
 
         # 索引与切片
         code, _, body = get("/data/index.json")

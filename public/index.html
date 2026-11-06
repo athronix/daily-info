@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-CN" data-theme="dark">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,19 +7,29 @@
 <meta name="description" content="个人每日信息挖掘、分类聚合、分析总结与订阅">
 <link rel="alternate" type="application/atom+xml" title="每日信息" href="feed.atom">
 <link rel="alternate" type="application/json" title="JSON Feed" href="feed.json">
+<script>
+/* 默认深色；用户显式切到浅色后记住选择。放在 <style> 前避免首帧闪白，
+   localStorage 不可用（隐私模式 / file://）时静默回落到深色。 */
+(function(){try{
+  if(localStorage.getItem('daily-info-theme')==='light'){
+    document.documentElement.setAttribute('data-theme','light');
+  }
+}catch(e){}})();
+</script>
 <style>
+/* 中性冷灰底 + 石板蓝点缀：所有中性色的绿色通道都不主导，避免整页泛绿 */
 :root{
-  --bg:#f7f8f6; --surface:#ffffff; --surface-2:#f1f3ef; --line:#e5e8e2;
-  --ink:#1f2521; --ink-2:#5c665e; --ink-3:#8d968e;
-  --accent:#3f7d63; --accent-soft:#e8f2ec; --warn:#b26a3d; --warn-soft:#fbf0e7;
-  --radius:14px; --shadow:0 1px 2px rgba(30,45,35,.04),0 8px 24px rgba(30,45,35,.035);
+  --bg:#f7f8fa; --surface:#ffffff; --surface-2:#f1f3f6; --line:#e3e7ed;
+  --ink:#1d232b; --ink-2:#586371; --ink-3:#8a949f;
+  --accent:#3b6d9e; --accent-soft:#e9f0f8; --warn:#b26a3d; --warn-soft:#fbf0e7;
+  --radius:14px; --shadow:0 1px 2px rgba(28,40,55,.05),0 8px 24px rgba(28,40,55,.04);
   --font:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
 }
 html[data-theme="dark"]{
-  --bg:#151a17; --surface:#1d241f; --surface-2:#242d27; --line:#303a33;
-  --ink:#eef2ee; --ink-2:#a9b4ab; --ink-3:#79867c;
-  --accent:#79c8a2; --accent-soft:#1f3a2c; --warn:#e0a97c; --warn-soft:#3a2c20;
-  --shadow:0 1px 2px rgba(0,0,0,.2),0 8px 24px rgba(0,0,0,.16);
+  --bg:#111418; --surface:#181d23; --surface-2:#20262e; --line:#2d3540;
+  --ink:#eef1f5; --ink-2:#a9b2bd; --ink-3:#7c8693;
+  --accent:#8fb9e0; --accent-soft:#1c2a38; --warn:#e0a97c; --warn-soft:#3a2c20;
+  --shadow:0 1px 2px rgba(0,0,0,.22),0 8px 24px rgba(0,0,0,.18);
 }
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);
@@ -120,7 +130,7 @@ footer{border-top:1px solid var(--line);background:var(--surface);padding:22px 0
   font-size:12px;color:var(--ink-3)}
 .empty{text-align:center;padding:50px 20px;color:var(--ink-3)}
 /* 订阅引导面板：避免把 .atom 源文件直接暴露给浏览器 */
-.overlay{position:fixed;inset:0;background:rgba(15,22,18,.55);display:none;
+.overlay{position:fixed;inset:0;background:rgba(12,16,21,.62);display:none;
   align-items:center;justify-content:center;z-index:50;padding:20px}
 .overlay.open{display:flex}
 .modal{background:var(--surface);border:1px solid var(--line);border-radius:16px;
@@ -157,7 +167,7 @@ footer{border-top:1px solid var(--line);background:var(--surface);padding:22px 0
     <div class="top">
       <div class="brand"><h1>每日信息</h1><span>挖掘 · 聚合 · 研判 · 订阅</span></div>
       <input id="q" placeholder="搜索标题、来源、摘要…" aria-label="搜索">
-      <button class="btn" id="theme" type="button">深色</button>
+      <button class="btn" id="theme" type="button" aria-label="切换到浅色主题">浅色</button>
       <button class="btn primary" id="subscribe" type="button" aria-expanded="false">订阅 RSS</button>
     </div>
     <div class="navbar"><span class="navlabel">日期</span><nav class="days" id="days" aria-label="日期导航"></nav></div>
@@ -390,11 +400,19 @@ footer{border-top:1px solid var(--line);background:var(--surface);padding:22px 0
   }
   document.getElementById('q').addEventListener('input',function(e){state.q=e.target.value.trim();render();});
   var themeBtn=document.getElementById('theme');
+  function syncThemeBtn(){
+    var dark=document.documentElement.getAttribute('data-theme')!=='light';
+    themeBtn.textContent=dark?'浅色':'深色';
+    themeBtn.setAttribute('aria-label',dark?'切换到浅色主题':'切换到深色主题');
+  }
   themeBtn.addEventListener('click',function(){
-    var dark=document.documentElement.getAttribute('data-theme')==='dark';
-    document.documentElement.setAttribute('data-theme',dark?'light':'dark');
-    themeBtn.textContent=dark?'深色':'浅色';
+    var dark=document.documentElement.getAttribute('data-theme')!=='light';
+    var next=dark?'light':'dark';
+    document.documentElement.setAttribute('data-theme',next);
+    try{localStorage.setItem('daily-info-theme',next);}catch(e){}
+    syncThemeBtn();
   });
+  syncThemeBtn();
   document.getElementById('subscribe').addEventListener('click',function(){openSub('');});
   document.getElementById('sub-close').addEventListener('click',closeSub);
   document.getElementById('sub-modal').addEventListener('click',function(e){if(e.target===this){closeSub();}});

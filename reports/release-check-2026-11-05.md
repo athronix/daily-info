@@ -1,10 +1,10 @@
 # 站点端到端验收 · 2026-11-05
 
-绑定 `http://[::1]:59107`（IPv6 回环 + 禁用代理），共 29 项检查，通过 29，失败 0，提示 6。
+绑定 `http://[::1]:54173`（IPv6 回环 + 禁用代理），共 34 项检查，通过 34，失败 0，提示 6。
 
 | 检查 | 结论 | 明细 |
 | --- | --- | --- |
-| 首屏 / | PASS | status=200 type=text/html bytes=25985 |
+| 首屏 / | PASS | status=200 type=text/html bytes=26833 |
 | 前端能力 · 搜索框 #q | PASS | 源码含 'id="q"' |
 | 前端能力 · 搜索 input 监听 | PASS | 源码含 "addEventListener('input'" |
 | 前端能力 · 搜索过滤 state.q | PASS | 源码含 'state.q' |
@@ -22,6 +22,11 @@
 | 前端能力 · 一键复制订阅地址 | PASS | 源码含 'class="copy"' |
 | 前端能力 · 订阅入口不再直跳 .atom | PASS | 顶栏无 <a class=btn href=feed.atom> 直链 |
 | 前端能力 · 保留阅读器自动发现 | PASS | head 内 rel=alternate 仍在 |
+| 前端能力 · 默认深色主题 | PASS | html 根元素带 data-theme=dark，首帧即深色无闪白 |
+| 前端能力 · 主题偏好可记忆 | PASS | 用户显式切换后写入 localStorage，刷新不回弹 |
+| 前端能力 · 深色配色无绿偏 | PASS | green-dominant = [] |
+| 前端能力 · 浅色配色无绿偏 | PASS | green-dominant = [] |
+| 前端能力 · 阴影/遮罩无绿偏 | PASS | green-dominant in full css = [] |
 | /data/index.json | PASS | status=200 dates=2 feeds=5 |
 | 索引含当日 | PASS | dates=['2026-11-05', '2026-11-04'] |
 | /data/latest.json | PASS | status=200 date=2026-11-05 |

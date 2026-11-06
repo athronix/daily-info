@@ -205,7 +205,7 @@ V8 内容丰富度 9 个子项全通过），报告 `reports/verify-2026-11-04.m
 | 资料库离线快照 + manifest | ✅ **已实现**（P1） | 自包含 HTML（不依赖站点相对路径）+ sha256 清单 |
 | 邮件正文自动渲染 `email.html` | ✅ **已实现**（P1） | `render_email.py` 渲染全部 9 板块 23 条，18387 字，凭据扫描 clean |
 | 分发闸门 / 幂等 / 待授权清单 | ✅ **已实现**（P1） | `push_daily.py` 默认 dry-run，`--apply` 只准备本地 payload |
-| 站点端到端验收 | ✅ **已实现**（P1） | `check_release.py` IPv6 ::1 实发 HTTP，18/18 通过 |
+| 站点端到端验收 | ✅ **已实现**（P1） | `check_release.py` IPv6 ::1 实发 HTTP，34/34 通过（含默认深色 / 配色无绿偏 / 主题记忆） |
 | GitHub Pages 子路径部署副本 | ✅ **已上线** | `prepare_pages.py` dry-run 0 问题 / `--apply` 幂等 / 子路径 14/14 / 线上 15/15（见 `docs/16`） |
 | 日期 + 分类双维导航 / 订阅引导面板 | ✅ **已实现**（v3） | `public/index.html`；`check_release.py` 静态检查 14 项 + Chrome headless 双场景 DOM 断言 **16/16**（`reports/site-ui-check-2026-11-06.md`） |
 | 真实联网跑一次完整日报 | ✅ **已执行** | 2026-11-05：184/185 源、11288 条原始、AI 研判、35/35 核验 |

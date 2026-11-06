@@ -382,3 +382,28 @@ Chrome headless `--dump-dom` 双场景断言 16/16（`reports/site-ui-check-2026
 **断言写法注意**：DOM 里含 `<script>` 源码，JS 模板字面量里的 `<button class="feed"` 会被
 正则误计数；Chrome 还会把布尔属性序列化成 `readonly=""`。断言前先剔除 `<script>`，
 并用 `<input[^>]*value="...">` 而非固定属性顺序，否则会产生 3 项纯误报。
+
+## P33 · 主题配色别让「点缀绿」蔓延到中性色；默认主题要写在 `<html>` 上
+
+**现象**：深色页面整体泛绿，用户一眼觉得「怎么有点绿」；同时站点默认浅色，
+想看深色得手动点一次，刷新还回弹。
+
+**根因**：`--bg:#151a17`、`--surface:#1d241f`、`--ink:#eef2ee` 这些被当成「中性色」的值
+其实都是 G 通道最大的墨绿；连 `--shadow:rgba(30,45,35,…)` 与遮罩
+`rgba(15,22,18,.55)` 也是绿的。整页大面积铺墨绿，不是某个点缀色的问题。
+另外默认主题靠 `:root` 兜底、切换靠 body 末尾 JS 后置改属性，既会首帧闪白，也不记选择。
+
+**规避**：
+1. 中性色统一中性冷灰，硬约束 `G <= max(R,B)`；点缀色也换成同色系石板蓝
+   （浅 `#3b6d9e` / 深 `#8fb9e0`），避免深浅切换时色相跳变；
+2. 把约束写进 `check_release.py`：正则抽 `:root` 与 `html[data-theme="dark"]` 块里的
+   `#rrggbb` / `rgba()`，逐个算通道，绿通道主导即 FAIL；
+3. 默认主题直接写 `<html data-theme="dark">`，并在 `<head>` 的 `<style>` **之前**
+   用内联脚本读 `localStorage`，只覆盖用户显式选过的浅色；`try/catch` 兜底，
+   隐私模式 / `file://` 下静默回落深色；
+4. 切换按钮文案与 `aria-label` 由 `syncThemeBtn()` 统一派生，别把初始文案写死成
+   「深色」——默认改深之后它应该写「浅色」。
+
+**验收**：Chrome headless `getComputedStyle` 双场景 **13/13**
+（`reports/site-theme-check-2026-11-06.md`），含同一 `--user-data-dir` 二次访问验证
+`localStorage` 记忆；`check_release.py` **34/34**。
