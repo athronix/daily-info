@@ -24,7 +24,7 @@ personal-daily-info/
 │   ├── scoring.json                        # 6 维权重 / 阈值 / 配额 / 降级触发 / watchlist
 │   ├── subscriptions.json                  # 6 通道 / 5 profile / 幂等 / 留存策略
 │   └── content-spec.json                   # ★ 七要素内容规范 / 质量规则 / V8 阈值 / 语料基准
-├── scripts/                                # 23 个标准库脚本，零第三方依赖（folo 走 npx CLI 子进程）
+├── scripts/                                # 24 个标准库脚本，零第三方依赖（folo 走 npx CLI 子进程）
 │   ├── common.py                           # 共享工具：路径/配置/时间/URL/RSS-Atom 解析/JSON 与字节幂等写/日志/凭据
 │   ├── analyze_corpus.py                   # ★ 三仓库语料量化分析 → reports/corpus-analysis.*
 │   ├── probe_candidates.py                 # ★ 候选信源三重体检 → reports/candidate-probe-*
@@ -37,6 +37,7 @@ personal-daily-info/
 │   ├── render_email.py                     # ★ P1 邮件正文自动渲染（本地 payload，凭据扫描，不发送）
 │   ├── push_daily.py                       # ★ P1 分发编排：核验闸门 + 幂等 + 待授权清单（默认 dry-run）
 │   ├── check_release.py                    # ★ P1 站点端到端 18 项（IPv6 ::1 回环实发 HTTP）
+│   ├── prepare_pages.py                    # ★ GitHub Pages 部署副本（dry-run / --apply，不联网不 push）
 │   ├── check_sources.py                    # 信源体检（只读；kind=cli 读产物探活）→ reports/source-health-*
 │   ├── fetch_sources.py                    # 并发采集 → data/raw/<date>/
 │   ├── normalize.py                        # 归一 + 规则分类 + SQLite 跨天去重
@@ -102,6 +103,7 @@ personal-daily-info/
 | 6 | `build_feeds.py` | `--base-url` | 0 正常；2 **凭据命中拒发** |
 | 7 | `build_site.py` | `--date` | 0 正常；1 无 digest |
 | 8 | `verify_digest.py` | `--all-dates`、`--no-idempotency` | 0 `violations=0`（含 V8 内容丰富度）；1 有未通过项 |
+| P | `prepare_pages.py` | `--base-url`（必填）、`--dist-dir`、`--apply` | 0 dry-run/落盘通过；1 校验有问题拒发；2 缺 `public/` 或 base_url 非法 |
 
 `run_daily.py` 把 1→8 串起来（AI 环节检查 `ai-review.json` 是否存在，缺失自动降级）。
 
@@ -204,6 +206,7 @@ V8 内容丰富度 9 个子项全通过），报告 `reports/verify-2026-11-04.m
 | 邮件正文自动渲染 `email.html` | ✅ **已实现**（P1） | `render_email.py` 渲染全部 9 板块 23 条，18387 字，凭据扫描 clean |
 | 分发闸门 / 幂等 / 待授权清单 | ✅ **已实现**（P1） | `push_daily.py` 默认 dry-run，`--apply` 只准备本地 payload |
 | 站点端到端验收 | ✅ **已实现**（P1） | `check_release.py` IPv6 ::1 实发 HTTP，18/18 通过 |
+| GitHub Pages 子路径部署副本 | ✅ **已实现**（本地准备） | `prepare_pages.py` dry-run 0 问题 / `--apply` 幂等 / 子路径 14/14；发布待授权（见 `docs/16`） |
 | 真实联网跑一次完整日报 | ✅ **已执行** | 2026-11-05：184/185 源、11288 条原始、AI 研判、35/35 核验 |
 | `agent-mail` / 企微 / 资料库的实际发送 | ⏳ **待用户授权** | 脚本已把 payload 与动作清单备齐（`pending-dispatch-<date>.json`），外部工具未调用 |
 | 站点发布为在线链接 | ⏳ **待用户授权** | `public/` 已可本地访问，上线涉及对外可见性 |

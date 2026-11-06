@@ -73,6 +73,7 @@ metadata:
 | 邮件正文自动渲染（本地 payload，不发送） | `python scripts/render_email.py --date <date> [--site-url <真实域名>]` |
 | 分发编排（默认 dry-run；`--apply` 只准备 payload） | `python scripts/push_daily.py --date <date> [--apply] [--force]` |
 | 站点端到端验收（IPv6 ::1 回环，实发 HTTP） | `python scripts/check_release.py --date <date>` |
+| GitHub Pages 部署副本（默认 dry-run，不联网不 push） | `python scripts/prepare_pages.py --base-url https://<owner>.github.io/<repo> [--apply]` |
 
 ## 标准工作流
 

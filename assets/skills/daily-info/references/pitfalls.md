@@ -342,3 +342,19 @@ V8 却报「含数字条目比 100%」，属于统计虚高。
 **实证**：`--apply` 连跑两次，第二次 `changed=0`、`push-log` 新增 0 条，幂等成立；
 `pending-dispatch` 里 3 条 `pending_authorization`、2 条 `requires_site_publish`、
 1 条 `disabled`，动作边界一目了然。
+
+## P31 · 校验 Atom 的 self/alternate 时，root.iter 会把 entry 链接算进来
+
+**现象**：`prepare_pages.py` 初版用 `root.iter(ATOM_NS + "link")` 收集 link，
+随后按 `rel` 建字典；entry 级 `rel=alternate` 指向**外部原文**，会覆盖 feed 级
+`rel=alternate`，导致 6 个 Atom 全部误报「alternate 未指向新域名」，dry-run 直接拒发。
+
+**根因**：Atom 文档里 feed 级与每个 entry 级都有 `<link>`，二者语义完全不同；
+`iter()` 是全树遍历，`findall()` 才是只看直接子节点（feed 级）。
+
+**规避**：校验 feed 级地址只用 `root.findall(ATOM_NS + "link")`；
+entry 级 alternate 必须保持外部原文地址，绝不能替换成本站域名。
+另在 `docs/16` §3 明确写出「稳定 `tag:` ID、entry alternate 均不随部署域名变化」。
+
+**附带教训**：域名替换是纯文本 `str.replace(old_base, new_base)`，只命中真实占位域名，
+不会误伤 `tag:daily-info.local,...` 这类不带斜杠与 `https://` 前缀的稳定 ID。

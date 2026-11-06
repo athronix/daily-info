@@ -1,0 +1,87 @@
+# GitHub Pages 发布工作流 · **模板，默认不激活**
+#
+# 为什么放在 assets/deploy/ 而不是 .github/workflows/：
+#   P1 分发边界规定「发布站点需用户单独明确授权」。放到 .github/workflows/
+#   会在 push 时自动部署，等于绕过授权。确认后再复制过去：
+#     mkdir -p .github/workflows && cp assets/deploy/github-pages.yml .github/workflows/pages.yml
+#
+# 触发方式刻意只保留 workflow_dispatch（手动）。若希望每次 push 自动发布，
+# 由用户在授权后自行加：
+#   push:
+#     branches: [main]
+#     paths: ['public/**', 'data/digest/**']
+#
+# 官方依据（2026-11-06 核对 docs.github.com）：
+#   - 自定义 workflow 流程 = checkout → build → upload-pages-artifact → deploy-pages
+#   - 需要 permissions: pages: write / id-token: write，environment 名 github-pages
+#   - GitHub Free 只支持 public 仓库发布 Pages；站点永远公开，即使源仓库私有
+#   - CNAME 文件不会自动配置自定义域名，需在 Settings → Pages 里设置
+name: Deploy daily-info to GitHub Pages
+
+on:
+  workflow_dispatch:
+    inputs:
+      base_url:
+        description: '站点公开地址（留空则按 owner/repo 自动推导）'
+        required: false
+        default: ''
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 计算公开地址
+        id: site
+        env:
+          INPUT_BASE_URL: ${{ inputs.base_url }}
+          OWNER: ${{ github.repository_owner }}
+          REPO: ${{ github.event.repository.name }}
+        run: |
+          if [ -n "$INPUT_BASE_URL" ]; then
+            echo "value=$INPUT_BASE_URL" >> "$GITHUB_OUTPUT"
+          elif [ "$REPO" = "$OWNER.github.io" ]; then
+            echo "value=https://$OWNER.github.io" >> "$GITHUB_OUTPUT"
+          else
+            echo "value=https://$OWNER.github.io/$REPO" >> "$GITHUB_OUTPUT"
+          fi
+
+      # 只做本地准备：复制 public/ → pages-dist/，替换 Atom/Feed 的占位域名，
+      # 加 .nojekyll，并跑结构 / 相对链接 / XML / JSON / 凭据校验。
+      # 不在 CI 里跑采集、Folo 或 AI 研判（凭据与 LLM 仍留在本机）。
+      - name: 生成部署副本
+        run: |
+          python scripts/prepare_pages.py --base-url "${{ steps.site.outputs.value }}" --apply
+          test -f pages-dist/index.html
+          test -f pages-dist/.nojekyll
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: pages-dist
+
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
