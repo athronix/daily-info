@@ -90,3 +90,21 @@ Pages `build_type=workflow`，仅 `workflow_dispatch` 手动触发，未配置 p
 说明：本次仅更新站点前端，未改动 `public/data/*` 事实源与 6 个 Atom 内容，
 `tag:daily-info.local,...` 稳定 ID 不受影响，阅读器不会重复收录。
 仓库 About 区的 `homepage` 已设为站点地址，根目录 `README.md` 已补齐。
+
+## 6. 补记：主题 v3.1 重新部署（同日）
+
+用户反馈「深色泛绿」并要求默认深色，代码推送后**再次单独授权**触发 `workflow_dispatch`：
+
+| 项目 | 结果 |
+| --- | --- |
+| workflow run | `42184378341`，`completed / success` |
+| `/`、`/feed.atom`、`/data/index.json` | 200 / 200 / 200；Atom 仍 `application/atom+xml` |
+| `<html lang="zh-CN" data-theme="dark">` | **1 命中**（首帧即深色） |
+| 新配色 `#111418` / `#8fb9e0` / `#3b6d9e` | 各 1 命中；`daily-info-theme` 2 命中 |
+| 旧绿值 `#151a17` / `#1d241f` / `#79c8a2` / `#3f7d63` / `rgba(30,45,35` | **全部 0 命中** |
+| 线上 HTML 大小 | 26,833 B |
+
+**误报风险说明**：用 `grep 'data-theme="dark"'` 判断线上版本会命中 1，但那只是
+CSS 选择器 `html[data-theme="dark"]` 里的字符串，旧版也有。必须用完整的
+`<html lang="zh-CN" data-theme="dark">` 或新配色 hex 判定，否则会误以为已更新。
+本次仅改 `public/index.html` 的样式与主题逻辑，`public/data/*` 与 6 个 Atom 未动。

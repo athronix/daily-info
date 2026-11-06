@@ -100,17 +100,18 @@ Atom 可解析且稳定 ID 未变、feed 级 self/alternate 指向新域名、JS
 - `.atom` 的 MIME 由 Pages 自身映射决定，本地 `http.server` 返回
   `application/octet-stream` 属正常，**上线后必须再 `curl -I` 复核一次**。
 
-## 5. 本地验收结果（未联网、未发布）
+## 5. 验收结果（本地验证 + 已授权后的线上复核）
 
 | 项目 | 结果 | 证据 |
 | --- | --- | --- |
-| `prepare_pages.py` dry-run | 0 问题，14 文件 / 782,368 B | 本报告 §3；`manifest.json` 记录 sha256 |
+| `prepare_pages.py` dry-run | 0 问题，15 文件 / 792,711 B | 本报告 §3；`manifest.json` 记录 sha256 |
 | `--apply` + 二次执行 | `changed=0`，字节幂等 | 本地日志 |
 | 子路径端到端（IPv6 `::1` HTTP） | **14/14 PASS** | `reports/pages-subpath-check-2026-11-06.md` |
 | 线上站点与订阅源 | **15/15 HTTP 200** | `reports/pages-live-check-2026-11-06.md`；6 个 `.atom` MIME 正确 |
 | 前端导航与订阅交互（真实浏览器） | **16/16 PASS** | `reports/site-ui-check-2026-11-06.md`；默认最新日期 / 分类筛选 / hash / 订阅面板 |
 | 主题配色与记忆（真实浏览器） | **13/13 PASS** | `reports/site-theme-check-2026-11-06.md`；默认深色 / 计算样式无绿偏 / 切浅色 / localStorage 记忆 |
 | 站点 v3 二次部署线上复核 | **PASS** | run `42181426743` success；线上新 UI 标记全命中、旧直链 0、占位 URL 0（`reports/pages-live-check-2026-11-06.md` §5） |
+| 主题 v3.1 三次部署线上复核 | **PASS** | run `42184378341` success；线上默认深色标记 1、旧绿值 5 项全 0（同报告 §6） |
 | 日报核验 | **35/35，violations=0**（全归档 49/49） | `reports/verify-2026-11-05.md`、`reports/verify-2026-11-06.md` |
 | 站点端到端 | **34/34 PASS** | `reports/release-check-2026-11-05.md`（前端静态检查含主题 5 项） |
 | 全脚本 `py_compile` | 0 错误 | 三关验证第 1 关 |
