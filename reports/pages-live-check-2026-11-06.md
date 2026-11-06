@@ -72,3 +72,21 @@ Pages `build_type=workflow`，仅 `workflow_dispatch` 手动触发，未配置 p
    历史与信源清单已公开。发布前凭据扫描 0 命中（唯一 `USER` 命中是公开域名 owner，误报）。
 5. **未执行**：企微推送（配置 `disabled`）、push 自动部署（workflow 仍为手动触发）。
 6. 本报告验证的是**可达性、MIME、链接与结构**，不证明新闻事实为真，也不代表抓取覆盖率。
+
+## 5. 补记：站点 v3 重新部署（同日下午）
+
+用户随后提出站点导航与订阅体验需求（见 `reports/site-ui-check-2026-11-06.md`），
+代码推送后**再次单独授权**触发 `workflow_dispatch`：
+
+| 项目 | 结果 |
+| --- | --- |
+| workflow run | `42181426743`，`status=completed / conclusion=success` |
+| `/`、`/feed.atom`、`/data/index.json` | 200 / 200 / 200；Atom 仍 `application/atom+xml` |
+| 线上 `index.html` 新 UI 标记 | `id="cats"` / `id="sub-modal"` / `class="latest"` / `id="subscribe" type="button"` 全部命中 |
+| 旧版直链 `<a class="btn" href="feed.atom">` | **0 命中**（已换成引导面板） |
+| `https://daily-info.local` 占位 URL | **0 命中** |
+| 线上 HTML 大小 | 25,985 B |
+
+说明：本次仅更新站点前端，未改动 `public/data/*` 事实源与 6 个 Atom 内容，
+`tag:daily-info.local,...` 稳定 ID 不受影响，阅读器不会重复收录。
+仓库 About 区的 `homepage` 已设为站点地址，根目录 `README.md` 已补齐。

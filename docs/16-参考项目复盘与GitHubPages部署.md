@@ -109,6 +109,7 @@ Atom 可解析且稳定 ID 未变、feed 级 self/alternate 指向新域名、JS
 | 子路径端到端（IPv6 `::1` HTTP） | **14/14 PASS** | `reports/pages-subpath-check-2026-11-06.md` |
 | 线上站点与订阅源 | **15/15 HTTP 200** | `reports/pages-live-check-2026-11-06.md`；6 个 `.atom` MIME 正确 |
 | 前端导航与订阅交互（真实浏览器） | **16/16 PASS** | `reports/site-ui-check-2026-11-06.md`；默认最新日期 / 分类筛选 / hash / 订阅面板 |
+| 站点 v3 二次部署线上复核 | **PASS** | run `42181426743` success；线上新 UI 标记全命中、旧直链 0、占位 URL 0（`reports/pages-live-check-2026-11-06.md` §5） |
 | 日报核验 | **35/35，violations=0**（全归档 49/49） | `reports/verify-2026-11-05.md`、`reports/verify-2026-11-06.md` |
 | 站点端到端 | **18/18 PASS** | `reports/release-check-2026-11-05.md` |
 | 全脚本 `py_compile` | 0 错误 | 三关验证第 1 关 |
