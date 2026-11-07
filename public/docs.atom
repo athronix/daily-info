@@ -5,10 +5,30 @@
   <ns0:subtitle>挖掘 · 聚合 · 研判 · 订阅；每条附原文链接；内容仅供参考，不构成投资建议</ns0:subtitle>
   <ns0:link rel="self" type="application/atom+xml" href="https://daily-info.local/docs.atom" />
   <ns0:link rel="alternate" type="text/html" href="https://daily-info.local/index.html" />
-  <ns0:updated>2026-11-05T11:52:53.812318Z</ns0:updated>
+  <ns0:updated>2026-11-06T23:25:27.690104Z</ns0:updated>
   <ns0:author>
     <ns0:name>Personal Daily Info</ns0:name>
   </ns0:author>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-07:5e722243eff5bdd6</ns0:id>
+    <ns0:title>[开发者工具与版本] Control the Glowing Apple Logo on Your New MacBook Pro</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.macrumors.com/how-to/turn-glowing-apple-logo-macbook-pro" />
+    <ns0:published>2026-11-06T20:03:09.496000Z</ns0:published>
+    <ns0:updated>2026-11-06T23:25:27.690104Z</ns0:updated>
+    <ns0:category term="docs-changelog" label="开发者工具与版本" />
+    <ns0:summary type="text">New 14-inch and 16-inch MacBook Pro models reintroduce the illuminated Apple logo, which automatically adjusts to ambient light. To disable this feature, users must execute a specific command in the Terminal application, as it is not available in System Settings. This action turns off the light imme</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;14 与 16 英寸 MacBook Pro 的发光 Apple logo 需在 Terminal 用命令关闭&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：14 / 16 · 相关方：MacBook Pro / Apple / Terminal&lt;/p&gt;&lt;p&gt;New 14-inch and 16-inch MacBook Pro models reintroduce the illuminated Apple logo, which automatically adjusts to ambient light. To disable this feature, users must execute a specific command in the Terminal application, as it is not available in System Settings. This action turns off the light imme&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;开关不进系统设置而落到命令行，说明厂商把低频定制留给了可脚本化通道&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 automation 有借鉴：可脚本化的开关应配一份可回滚命令清单，本机设备配置才能进幂等流水线&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;把该命令纳入设备配置脚本并跑一次 dry-run，若 0 处副作用才允许在其它机器复用&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-06T20:03 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.macrumors.com/how-to/turn-glowing-apple-logo-macbook-pro" rel="noopener noreferrer"&gt;https://www.macrumors.com/how-to/turn-glowing-apple-logo-macbook-pro&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-07:c18d0ced5e118c57</ns0:id>
+    <ns0:title>[开发者工具与版本] Hands-On With Apple's New OLED Touchscreen MacBook Pro</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.macrumors.com/2026/11/06/oled-macbook-pro-hands-on" />
+    <ns0:published>2026-11-06T22:05:59.161000Z</ns0:published>
+    <ns0:updated>2026-11-06T23:25:27.690104Z</ns0:updated>
+    <ns0:category term="docs-changelog" label="开发者工具与版本" />
+    <ns0:summary type="text">Apple’s new PROLED MacBook Pro, launched in 2026, replaces the previous mini-LED model with a thinner, lighter, and more responsive design. It features an OLED XDR display with touch capabilities, including swipe, tap, and pinch-to-zoom gestures, alongside a Dynamic Island for Siri and Live Activiti</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Apple 的 OLED 触控 MacBook Pro 提供 14 与 16 英寸机型，起价分别为 $2,899 与 $3,399&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：$2,899 / $3,399 / 14 / 16 · 相关方：Apple / MacBook Pro / OLED XDR / M5 Pro&lt;/p&gt;&lt;p&gt;Apple’s new PROLED MacBook Pro, launched in 2026, replaces the previous mini-LED model with a thinner, lighter, and more responsive design. It features an OLED XDR display with touch capabilities, including swipe, tap, and pinch-to-zoom gestures, alongside a Dynamic Island for Siri and Live Activiti&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;原文自己下了判断：触控属增量改进而非笔记本交互的根本变化，硬件叙事需要打折读&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 WinVM 与数据基建暂无直接影响：本机形态不改变 agent 部署与 MCP 通道，仅影响本地开发设备选型&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;若后续出现 2 个以上独立来源确认触控提升效率，才把它列入开发机换机依据&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-06T22:05 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.macrumors.com/2026/11/06/oled-macbook-pro-hands-on" rel="noopener noreferrer"&gt;https://www.macrumors.com/2026/11/06/oled-macbook-pro-hands-on&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:daily-info.local,2026-11-05:0aa88563920e1cf5</ns0:id>
     <ns0:title>[文档与变更] Sony reports Q2 revenue of ~$21.7B, operating profit of $3.94B, both above est., and 2.6M PS5 sales, as GTA VI sparks a US sales jump, especially of the PS5 Pro (Takashi Mochizuki/Bloomberg)</ns0:title>

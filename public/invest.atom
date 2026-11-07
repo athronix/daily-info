@@ -5,10 +5,50 @@
   <ns0:subtitle>挖掘 · 聚合 · 研判 · 订阅；每条附原文链接；内容仅供参考，不构成投资建议</ns0:subtitle>
   <ns0:link rel="self" type="application/atom+xml" href="https://daily-info.local/invest.atom" />
   <ns0:link rel="alternate" type="text/html" href="https://daily-info.local/index.html" />
-  <ns0:updated>2026-11-05T11:52:53.812318Z</ns0:updated>
+  <ns0:updated>2026-11-06T23:25:27.690104Z</ns0:updated>
   <ns0:author>
     <ns0:name>Personal Daily Info</ns0:name>
   </ns0:author>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-07:4b630aa6346380d7</ns0:id>
+    <ns0:title>[市场与投资] Airbnb Surges 12% as Growth Accelerates and Outlook Rises | Closing Bell</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.bloomberg.com/news/videos/2026-11-06/airbnb-surges-on-growth-outlook-closing-bell-video" />
+    <ns0:published>2026-11-06T21:32:56Z</ns0:published>
+    <ns0:updated>2026-11-06T23:25:27.690104Z</ns0:updated>
+    <ns0:category term="market-invest" label="市场与投资" />
+    <ns0:summary type="text">Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Kailey Leinz, Carol Massar and Tim Stenovec. (Source: Bloomberg)</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Airbnb 因增长加速与展望上调收涨 12%，Bloomberg 收盘节目作跨平台报道&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：12% · 相关方：Airbnb / Bloomberg&lt;/p&gt;&lt;p&gt;Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Kailey Leinz, Carol Massar and Tim Stenovec. (Source: Bloomberg)&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;涨幅与基本面表述捆在同一标题里，需要把价格动作和原因拆开记录，避免叙事替代数据&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;暂无直接影响：个股波动与本项目的 skill、automation、数据基建无工程关联，仅保留读数与出处&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;若行情页无法复核 12% 这一数值，则判定该条读数不可溯源并记 1 条 warning&lt;/p&gt;&lt;p&gt;来源：Bloomberg Markets · 发布于 2026-11-06T21:32 UTC · 归类：market-invest&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.bloomberg.com/news/videos/2026-11-06/airbnb-surges-on-growth-outlook-closing-bell-video" rel="noopener noreferrer"&gt;https://www.bloomberg.com/news/videos/2026-11-06/airbnb-surges-on-growth-outlook-closing-bell-video&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-07:3377a1f50cdc7a88</ns0:id>
+    <ns0:title>[市场与投资] Wall Street Sees US Hitting $41.1 Trillion Debt Cap in February</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.bloomberg.com/news/articles/2026-11-06/wall-street-sees-us-hitting-41-1-trillion-debt-cap-in-february" />
+    <ns0:published>2026-11-06T20:33:40Z</ns0:published>
+    <ns0:updated>2026-11-06T23:25:27.690104Z</ns0:updated>
+    <ns0:category term="market-invest" label="市场与投资" />
+    <ns0:summary type="text">Wall Street strategists are bracing for the US Treasury to hit against its borrowing limit as early as February, triggering the need for extraordinary measures before it faces a funding crunch in late 2027.</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Wall Street 策略师预计 US Treasury 最早在 February 触及 $41.1 Trillion 债务上限&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：$41.1 · 相关方：Wall Street / US Treasury&lt;/p&gt;&lt;p&gt;Wall Street strategists are bracing for the US Treasury to hit against its borrowing limit as early as February, triggering the need for extraordinary measures before it faces a funding crunch in late 2027.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把宏观约束写成带金额和时点的可核验陈述，比笼统的风险提示更便于设定观察条件&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;暂无直接影响：宏观财政数据不改变本项目的工程排期，仅作为公开市场读数与风险提示记录&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;若官方口径的债务上限数值与 41.1 偏差超过 1%，则判定该读数失效并从数据概览移除&lt;/p&gt;&lt;p&gt;来源：Bloomberg Markets · 发布于 2026-11-06T20:33 UTC · 归类：market-invest&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.bloomberg.com/news/articles/2026-11-06/wall-street-sees-us-hitting-41-1-trillion-debt-cap-in-february" rel="noopener noreferrer"&gt;https://www.bloomberg.com/news/articles/2026-11-06/wall-street-sees-us-hitting-41-1-trillion-debt-cap-in-february&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-07:4e9391acd12d4c33</ns0:id>
+    <ns0:title>[产业与资本] Fox bought Roku</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.theverge.com/streaming/1028629/fox-roku-acquisition-close" />
+    <ns0:published>2026-11-06T15:00:56.756000Z</ns0:published>
+    <ns0:updated>2026-11-06T23:25:27.690104Z</ns0:updated>
+    <ns0:category term="industry-capital" label="产业与资本" />
+    <ns0:summary type="text">Fox completed its $22 billion acquisition of Roku, granting the company control over a major streaming platform that reaches over 100 million U.S. households. The deal enables Fox to distribute sports, news, and local station content via Roku. Fox CEO Lachlan Murdoch stated that integrating Fox cont</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Fox 完成对 Roku 的 $22 billion 收购，触达超过 100 million U.S. households&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：$22 billion / 100 million · 相关方：Fox / Roku / Lachlan Murdoch&lt;/p&gt;&lt;p&gt;Fox completed its $22 billion acquisition of Roku, granting the company control over a major streaming platform that reaches over 100 million U.S. households. The deal enables Fox to distribute sports, news, and local station content via Roku. Fox CEO Lachlan Murdoch stated that integrating Fox cont&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;买的是分发入口而非模型能力，覆盖家庭数才是交易对价里的实质标的&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;暂无直接影响：媒体渠道整合不改变 agent 部署链路，但可作为分发规模优于技术叙事的反例记下&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;若后续披露的家庭覆盖数低于 100 million 超过 10%，则判定该口径需回原文复核&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-06T15:00 UTC · 归类：industry-capital&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.theverge.com/streaming/1028629/fox-roku-acquisition-close" rel="noopener noreferrer"&gt;https://www.theverge.com/streaming/1028629/fox-roku-acquisition-close&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-07:60a18250dfd4eff6-c</ns0:id>
+    <ns0:title>[产业与资本] Anthropic IPO valuation talks drop to $1.3T</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3-trillion-as-major-investors" />
+    <ns0:published>2026-11-06T17:21:15.387000Z</ns0:published>
+    <ns0:updated>2026-11-06T23:25:27.690104Z</ns0:updated>
+    <ns0:category term="industry-capital" label="产业与资本" />
+    <ns0:summary type="text">Comments 〔Folo分类:开源项目〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Anthropic IPO 估值谈判口径下调到 $1.3T&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：$1.3T · 相关方：Anthropic&lt;/p&gt;&lt;p&gt;Comments 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;估值从谈判口径被公开下修，说明买方与卖方对同一资产的定价尚未收敛&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;暂无直接影响：一级市场估值不进入 WorkBuddy 的成本模型，也不改变 MCP 与 skill 的工程依赖&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照后续披露的估值口径，若与 1.3T 的偏差小于 0.1T 才判定定价企稳并更新板块基线&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-06T17:21 UTC · 归类：industry-capital&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3-trillion-as-major-investors" rel="noopener noreferrer"&gt;https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3-trillion-as-major-investors&lt;/a&gt;&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout" rel="noopener noreferrer"&gt;https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:daily-info.local,2026-11-05:f8424668a04d6ed1</ns0:id>
     <ns0:title>[市场与投资] Yardeni: Yields Attractive at 5%; Nasdaq to Outperform</ns0:title>

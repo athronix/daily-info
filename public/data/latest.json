@@ -1,83 +1,72 @@
 {
-  "date": "2026-11-05",
-  "headline": "开源权重压低了能力门槛，验收与配置抬高了落地门槛",
-  "headline_short": "开源权重压低了能力门槛，验收与配置抬高了落地门槛",
-  "lead": "0.60 美元每百万输出 token、14% 的交付率、620 亿欧元认购与 26.8.1 版本一次修掉 19 个 CVE：今天最硬的读数都指向同一件事——能力扩散在加速，真正决定能不能用的是验收链、配置与默认行为。按收紧后的白名单口径，9 条只靠日期年份充数的条目已被拒入报，入报 23 条全部带实质读数。",
-  "generated_at": "2026-11-05T11:52:53.812318Z",
+  "date": "2026-11-07",
+  "headline": "运行时延迟与 VM 逃逸同日出现，Agent 工程的瓶颈已从模型转向权限与隔离，资本定价仍在松动",
+  "headline_short": "运行时延迟与 VM 逃逸同日出现，Agent 工程的瓶颈",
+  "lead": "AegisKernel 把零信任 POSIX 运行时压到 <0.016ms，同一天 Firecracker VM 逃逸被公开；Anthropic 的 IPO 估值口径下修到 $1.3T，Fox 以 $22 billion 完成对 Roku 的收购。张力在于：隔离与权限的读数在收紧，资本定价却在松动——工程侧能复现的数，和交易侧仍在重估的数，构成今天最清楚的对照。",
+  "generated_at": "2026-11-06T23:25:27.690104Z",
   "themes": [
     {
-      "title": "开源权重把能力获取压成成本题",
-      "why": "同一天出现开源机器人智能体、Kimi 开放权重、Ripple-65B 以 Apache 2.0 放行并给出 0.60 单价、ERNIE 轻量版，能力本身不再是主要门槛。",
+      "title": "零信任压低延迟，VM 逃逸同期被翻开",
+      "why": "一边是运行时开销被写成 0.016ms 这样的可测量值，一边是微 VM 隔离假设被逃逸复现挑战。两者同日出现说明 Agent 沙箱的设计难点在边界实现，不在模型选型，性能预算与攻击面必须一起验收。",
       "cluster_ids": [
-        "9e8d2781cc4f5fb6",
-        "5e468467bd2ef4e7",
-        "2682390061645f27",
-        "bc3eb0974c00d7ec"
+        "442c2eb5c2c85552",
+        "f441801c064cce85"
       ],
-      "verified_by": 4
+      "verified_by": 2
     },
     {
-      "title": "Agent 卡在验收链，不在生成能力",
-      "why": "LoLBench 的 14% 交付率把失败点定位在定位修改点与验证正确性；MCP SDK 改默认与访谈里的决策权问题都指向可验证的处置链。",
+      "title": "Agent 主动来电，先设静默阈值",
+      "why": "后台 Agent 能在 2am 主动打断人并已定位 bug，说明通知时机成为新的权限面；而 AegisKernel 一类的零信任运行时恰好提供了收口位置。主动性越强，静默窗口与授权门槛越要先行。",
       "cluster_ids": [
-        "69a0892172f62fa7",
-        "a33b385a4bffab34",
-        "34b7b58c0d055d38"
+        "35670172de926c8a",
+        "442c2eb5c2c85552"
       ],
-      "verified_by": 3
+      "verified_by": 2
     },
     {
-      "title": "默认行为与处置顺序比功能清单更重要",
-      "why": "MCP C# SDK 2.0 改默认、OpenSSH 先给绕行方案、Keycloak 19 个 CVE 要按自身配置排序，三者都要求先查自身状态再谈升级。",
+      "title": "估值口径下修，交易落地同日出现",
+      "why": "$1.3T 的下修口径与 $22 billion 的收购完成落在同一天，一个是尚未收敛的定价预期，一个是已落地的交易对价。把两者并列记录，比只挑一个数字更能反映产业资本当天的真实状态。",
       "cluster_ids": [
-        "34b7b58c0d055d38",
-        "7c72ef3696766993",
-        "aa089abfd1658634"
+        "60a18250dfd4eff6",
+        "4e9391acd12d4c33"
       ],
-      "verified_by": 3
+      "verified_by": 2
     },
     {
-      "title": "资本转向可计价的交付量",
-      "why": "Kabilio 用近 500 家客户融资、Meta 用 620 亿欧元认购承接 AI 开支、YMTC 暂缓 IPO 与 0.1% 收入敞口同日出现，计价口径比叙事重要。",
+      "title": "成本与基准都写成了可复现的数",
+      "why": "LLM judge 给出 4x 成本优势，3D 空间推理被做成基准，能力声明正从形容词换成倍数与通过率。这类读数才适合进自动化验收，而不是靠主观描述打分。",
       "cluster_ids": [
-        "fc977d6a1078d384",
-        "dccf297bb82e70c4",
-        "2d48fe9f88e1b74d",
-        "73d653898f632f20",
-        "3504862794ad47cd"
+        "ef2a83f7f3a44d74",
+        "46db23cc1210bae5"
       ],
-      "verified_by": 5
+      "verified_by": 2
     },
     {
-      "title": "同一天的增长与收缩都只是单点读数",
-      "why": "索尼 21.7 与任天堂 -16%、Commerzbank 45% 与英镑 2016 年以来最高，方向相反却都缺同口径序列，不可外推成趋势。",
+      "title": "苹果这轮只动交互层，没动算力",
+      "why": "OLED 触控与发光 logo 开关都落在显示和命令行定制上，原文也明确判断触控属增量改进。机型与价格读数是实的，但把它读成算力升级就会误判本机开发设备的换代必要性。",
       "cluster_ids": [
-        "0aa88563920e1cf5",
-        "38e387c5903f171f",
-        "c5c9e9a97cf4fa76",
-        "678851dd9a3f9fb9"
+        "c18d0ced5e118c57",
+        "5e722243eff5bdd6"
       ],
-      "verified_by": 4
+      "verified_by": 2
     },
     {
-      "title": "宏观观点与数据要分栏，不能当结论",
-      "why": "5% 收益率属第三方偏好、4.9B 募资计划仍待一手披露、英镑长周期比较缺基期校验，三者都需要单列而非写进结论。",
+      "title": "分发入口被买下，个股同日走高",
+      "why": "Fox 用 $22 billion 换来 100 million 量级的家庭覆盖，同日 Airbnb 录得 12% 涨幅。两件事都只陈述公开数据：前者标的为分发规模而非技术能力，后者需把价格动作与基本面表述分开记录。",
       "cluster_ids": [
-        "678851dd9a3f9fb9",
-        "f8424668a04d6ed1",
-        "73d653898f632f20"
+        "4e9391acd12d4c33",
+        "4b630aa6346380d7"
       ],
-      "verified_by": 3
+      "verified_by": 2
     },
     {
-      "title": "人工筛选基线的价值与供数边界",
-      "why": "Folo 基线把 MCP SDK 默认行为、Keycloak 配置排序与社区一手体验带进前排；但 4 条因上游摘要只有「点击查看原文>」被新白名单拒入报，人工筛选层需补摘要才能稳定供数。",
+      "title": "宏观上限与长期随访都在拉长窗口",
+      "why": "$41.1 的债务上限带明确时点，14 年随访研究则把结论建立在长期跨度上。两者共同提醒：按固定窗口归一的日报流水线，不能拿单日条目去推断长周期结论，只能保留原始时间点。",
       "cluster_ids": [
-        "34b7b58c0d055d38",
-        "aa089abfd1658634",
-        "86809fee4f8cf7e7"
+        "3377a1f50cdc7a88",
+        "c1501b2a0fee78d0"
       ],
-      "verified_by": 3
+      "verified_by": 2
     }
   ],
   "sections": [
@@ -86,95 +75,58 @@
       "label": "模型与研究",
       "items": [
         {
-          "id": "9e8d2781cc4f5fb6",
-          "title": "清华、伯克利开源uni-robot-agent：GPT-6 Astra竟输给了Qwen3.8-Flash-Next",
-          "url": "https://mp.weixin.qq.com/s?__biz=Mzg4MDE3OTA5NA%3D%3D&mid=2247607249&idx=1&sn=edf1b03f303a47b0b2677fce536b580f&chksm=ce8e6a2f7b553ff7c24297158aabde1386f99f9b2d9bc2e12db8da63e2c16752380268b294ed&scene=0&xtrack=1",
-          "source": "智源社区 · 最新分享（匿名 API）",
-          "published_at": "2026-11-05T09:50:00Z",
-          "score": 83.22,
-          "category": "ai-models",
-          "cluster_id": "9e8d2781cc4f5fb6",
-          "summary": "机器人、Agent、深度学习｜当前机器人使用智能体（RUA）虽具零样本操作能力，但高度依赖前沿闭源模型，研究者无法获取模型权重，难以利用真实机器人数据持续优化；API调用成本高昂且推理过程不可定制，严重制约大规模实验。为推动RUA研究普惠化，清华大学丁宁、刘知远、徐梦迪、周伯文等联合强化学习团队提出新范式，聚焦开源、低成本、可迭代的RUA训练框架。",
-          "why_matters": "把机器人智能体从依赖闭源 API 的调用题，改成可拿权重、可迭代的训练题，实验成本结构随之改变。",
-          "fact_anchor": "清华与伯克利团队开源 uni-robot-agent，用开源模型替代闭源前沿模型驱动机器人智能体",
+          "id": "46db23cc1210bae5",
+          "title": "SketchAgentBench – evaluate LLMs on 3D spatial reasoning",
+          "url": "https://sketchagent.dev/",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-06T20:28:24.123000Z",
+          "score": 80.75,
+          "category": "agent-engineering",
+          "cluster_id": "46db23cc1210bae5",
+          "summary": "Comments 〔Folo分类:开源项目〕",
+          "why_matters": "空间推理从定性描述变成有基准可打分的对象，Agent 能力声明开始需要独立复现",
+          "fact_anchor": "SketchAgentBench 把 LLMs 的 3D 空间推理做成可跑的评测基准",
           "numbers": [
-            "3.8",
-            "6"
+            "3D"
           ],
           "entities": [
-            "uni-robot-agent",
-            "Qwen3.8-Flash-Next",
-            "GPT-6",
-            "清华大学"
+            "SketchAgentBench",
+            "LLMs"
           ],
           "evidence_urls": [
-            "https://mp.weixin.qq.com/s?__biz=Mzg4MDE3OTA5NA%3D%3D&mid=2247607249&idx=1&sn=edf1b03f303a47b0b2677fce536b580f&chksm=ce8e6a2f7b553ff7c24297158aabde1386f99f9b2d9bc2e12db8da63e2c16752380268b294ed&scene=0&xtrack=1"
+            "https://sketchagent.dev/"
           ],
-          "impact": "与本地 Agent 部署和 3D/具身资产链路一致：模型权重可得，才谈得上把真实机器人数据回流进自有训练环。",
-          "next_action": "对照该框架的 2 个训练入口跑一次最小复现，若显存需求超过本机可用量 80% 则判定只能读代码不落地。",
-          "signal_type": "release",
+          "impact": "WinVM Bridge 与 3D 资产链路都依赖空间理解，该基准可直接用作 agent 部署前的验收项，替代主观描述",
+          "next_action": "取该基准跑一次本地 smoke，若 3D 任务通过率低于 60% 则判定当前 provider 不满足空间推理接入条件",
+          "signal_type": "research",
           "confidence": "fact"
         },
         {
-          "id": "5e468467bd2ef4e7",
-          "title": "[AINews] It's Swapping Season",
-          "url": "https://latent.space/p/ainews-it-s-swapping-season",
-          "source": "Latent Space",
-          "published_at": "2026-11-05T06:24:09Z",
-          "score": 76.08,
-          "category": "ai-models",
-          "cluster_id": "5e468467bd2ef4e7",
-          "summary": "November 4, 2026 — OpenAI’s Linux kernel security work, Kimi K3.1 Pro’s open weights, and Ricursive’s Ripple-65B.",
-          "why_matters": "同一期里安全、开放权重、专用模型三条线并行，模型新闻已不能按「更大更强」单轴排序。",
-          "fact_anchor": "Latent Space 的 AINews 汇总 OpenAI 内核安全工作、Kimi K3.1 Pro 开放权重与 Ripple-65B",
+          "id": "ef2a83f7f3a44d74",
+          "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
+          "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-06T19:48:51.048000Z",
+          "score": 77.1,
+          "category": "dev-tools",
+          "cluster_id": "ef2a83f7f3a44d74",
+          "summary": "Comments 〔Folo分类:开源项目〕",
+          "why_matters": "把 LLM judge 的成本与准确率同时量化，路由策略第一次有了可对照的两个维度",
+          "fact_anchor": "可求助 Opus 的 Jev 以 4x 更低成本取得 Opus 级准确率",
           "numbers": [
-            "3.1",
-            "65",
-            "4"
+            "4x"
           ],
           "entities": [
-            "OpenAI",
-            "Kimi K3.1 Pro",
-            "Ripple-65B"
+            "Opus",
+            "Jev"
           ],
           "evidence_urls": [
-            "https://latent.space/p/ainews-it-s-swapping-season"
+            "https://hightouch.com/blog/llm-judges-identity-resolution"
           ],
-          "impact": "订阅侧需按「安全 / 权重 / 专用」分 profile，否则这类汇总会把不同决策信号混成一条。",
-          "next_action": "把该期 3 个主题分别映射到现有 profile，若有 1 个找不到归口则新增分类再重跑 build_feeds.py。",
-          "signal_type": "opinion",
-          "confidence": "fact"
-        },
-        {
-          "id": "2682390061645f27",
-          "title": "Ricursive releases Ripple-65B Preview, a general-purpose variant of its AI model for automating advanced chip design, under Apache 2.0, costing $0.60/1M output (Carl Franzen/VentureBeat)",
-          "url": "https://www.techmeme.com/261105/p14",
-          "source": "Techmeme",
-          "published_at": "2026-11-05T11:10:01Z",
-          "score": 75.6,
-          "category": "ai-models",
-          "cluster_id": "2682390061645f27",
-          "summary": "Carl Franzen / VentureBeat: Ricursive releases Ripple-65B Preview, a general-purpose variant of its AI model for automating advanced chip design, under Apache 2.0, costing $0.60/1M output — There's another American victory worth paying attention to today: a new, open weights AI model that its creato",
-          "why_matters": "专用模型用宽松许可证放行并给出可核算单价，把「能不能自建」变成一道成本题。",
-          "fact_anchor": "Ricursive 以 Apache 2.0 发布 Ripple-65B Preview 用于自动化芯片设计，输出定价 0.60 美元每百万 token",
-          "numbers": [
-            "65",
-            "0.60",
-            "2.0"
-          ],
-          "entities": [
-            "Ricursive",
-            "Ripple-65B",
-            "Apache 2.0",
-            "VentureBeat"
-          ],
-          "evidence_urls": [
-            "https://www.techmeme.com/261105/p14"
-          ],
-          "impact": "可直接填进自建 vs 托管的成本模型：0.60 是可比单价，不必再靠估算。",
-          "next_action": "把 0.60 代入 12 个月 TCO 表，若与本地推理差距小于 20% 则判定自建无成本优势。",
-          "signal_type": "release",
-          "confidence": "fact"
+          "impact": "WorkBuddy 的 LLM provider V1 若引入分级 judge，可照此设成本上限，避免所有请求都走高价模型",
+          "next_action": "对照 Opus 基线跑 200 条样本，若成本比达到 4 且准确率差小于 2 个百分点才判定可切换路由",
+          "signal_type": "research",
+          "confidence": "inference"
         }
       ]
     },
@@ -183,61 +135,56 @@
       "label": "Agent 与工程",
       "items": [
         {
-          "id": "69a0892172f62fa7",
-          "title": "5000词需求文档，Claude也只能交付14%！实测28种Agent组合",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&mid=2652740261&idx=3&sn=909eccd24098bcb2c52a24856fcd1ece&chksm=f05d21f7f508332c98e602698a05cb81545bc85a81ae8f743d80f99e7abf69b3de0b04104517&scene=0&xtrack=1",
-          "source": "智源社区 · 最新分享（匿名 API）",
-          "published_at": "2026-11-05T10:50:00Z",
-          "score": 82.37,
-          "category": "agent-engineering",
-          "cluster_id": "69a0892172f62fa7",
-          "summary": "Agent、生成模型、深度学习｜复旦大学等机构提出LoLBench基准，用于评估AI Agent在大型软件系统（平均240万行代码）中从需求到功能交付的全流程能力。不同于简单工具调用或文件修改，该任务需Agent理解需求约束、分析模块依赖、定位修改点、实施变更并验证正确性，覆盖软件工程核心分析与决策环节，旨在衡量其在真实复杂长期演进系统中的端到端开发能力。",
-          "why_matters": "5000 词需求下最好组合只交付 14%，长程失败集中在定位修改点与验证正确性，而非生成代码。",
-          "fact_anchor": "复旦大学等提出 LoLBench，实测 28 种 Agent 组合在 240 万行代码系统上从需求到交付的全流程",
+          "id": "442c2eb5c2c85552",
+          "title": "Show HN: AegisKernel – Zero-trust POSIX runtime for AI agents in <0.016ms",
+          "url": "https://adikshatriyag-crypto.github.io/aegis-kernel",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-06T17:00:23.052000Z",
+          "score": 76.89,
+          "category": "community",
+          "cluster_id": "442c2eb5c2c85552-c",
+          "summary": "Comments 〔Folo分类:开源项目〕",
+          "why_matters": "把权限隔离的代价写成延迟数字，说明零信任不再只是架构口号，而是可测的工程开销",
+          "fact_anchor": "AegisKernel 宣称面向 AI agents 的零信任 POSIX 运行时开销低于 0.016ms",
           "numbers": [
-            "5000",
-            "14%",
-            "28",
-            "240"
+            "0.016ms"
           ],
           "entities": [
-            "LoLBench",
-            "复旦大学",
-            "Claude"
+            "AegisKernel",
+            "POSIX",
+            "AI agents"
           ],
           "evidence_urls": [
-            "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&mid=2652740261&idx=3&sn=909eccd24098bcb2c52a24856fcd1ece&chksm=f05d21f7f508332c98e602698a05cb81545bc85a81ae8f743d80f99e7abf69b3de0b04104517&scene=0&xtrack=1"
+            "https://adikshatriyag-crypto.github.io/aegis-kernel"
           ],
-          "impact": "直接对应 WinVM Bridge 两条委派路径：复杂任务走 A2A 前必须有可复现验收脚本，否则失败无法归因。",
-          "next_action": "用同一份需求跑 2 条委派路径各一次，若交付率差异小于 10 个百分点则判定路径选择现阶段不产生收益。",
-          "signal_type": "research",
+          "impact": "WinVM Bridge 的 VM 侧隔离层与 MCP 直连路径都能拿这个数当预算上限，判断零信任是否值得引入",
+          "next_action": "在隔离测试环境跑 100 次冷启动，若 P99 延迟不超过 0.016ms 且 0 violations 才列入沙箱候选",
+          "signal_type": "release",
           "confidence": "fact"
         },
         {
-          "id": "a33b385a4bffab34",
-          "title": "从3D生成到世界模型，这家AI公司想和年轻人一起定义问题",
-          "url": "http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw%3D%3D&mid=2247939340&idx=1&sn=897b309215b80e03ae894413179c8aeb&chksm=e951f581ce1a321e075734ebad0a9c9d7925fcb7409ede6312f8594597c2ceb04afccd3c1358&scene=126&sessionid=0",
-          "source": "智源社区 · 最新分享（匿名 API）",
-          "published_at": "2026-11-05T08:10:00Z",
-          "score": 77.25,
+          "id": "35670172de926c8a",
+          "title": "My AI agent called me at 2am. I picked up. It had already found the bug.",
+          "url": "https://dev.to/natuworkguy/my-ai-agent-called-me-at-2am-i-picked-up-it-had-already-found-the-bug-bcb",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-06T18:26:58.717000Z",
+          "score": 76.2,
           "category": "agent-engineering",
-          "cluster_id": "a33b385a4bffab34",
-          "summary": "扩散模型、Agent、生成模型｜AI行业虽持续高薪争抢顶尖人才，但愈发重视实际贡献而非仅潜力。年轻研究者陷入困境：企业倾向录用已有成果者，却可能减少其参与核心项目的机会，导致代表作难以产出。由此，人才竞争标准升级——不仅企业筛选人才，年轻人也需主动评估平台：能否提供核心项目参与权、技术路线决策机会及与能力匹配的任务资源，以支撑下一项关键成果的诞生。",
-          "why_matters": "把「平台能否给决策权」当成技术路线选择变量，这是组织问题，不是模型能力问题。",
-          "fact_anchor": "行业访谈讨论从 3D 生成到世界模型的路线，并指出年轻研究者缺少核心项目参与权",
+          "cluster_id": "35670172de926c8a",
+          "summary": "My phone didn't ring. My laptop did. A soft two-tone ring, a card sliding up over my half-finished code, and a name I gave a background… 〔Folo分类:开源项目〕",
+          "why_matters": "后台 Agent 从被动应答转向主动打断，通知时机本身成了需要设计的权限面",
+          "fact_anchor": "一位开发者的后台 AI agent 在 2am 主动来电，且已先定位到 bug",
           "numbers": [
-            "3"
+            "2"
           ],
           "entities": [
-            "扩散模型",
-            "Agent",
-            "生成模型"
+            "AI agent"
           ],
           "evidence_urls": [
-            "http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw%3D%3D&mid=2247939340&idx=1&sn=897b309215b80e03ae894413179c8aeb&chksm=e951f581ce1a321e075734ebad0a9c9d7925fcb7409ede6312f8594597c2ceb04afccd3c1358&scene=126&sessionid=0"
+            "https://dev.to/natuworkguy/my-ai-agent-called-me-at-2am-i-picked-up-it-had-already-found-the-bug-bcb"
           ],
-          "impact": "对 skill 与 automation 的分工有提醒：把决策权写进配置，执行者才不会因看不到全貌反复返工。",
-          "next_action": "抽查 3 个 skill 是否把判定阈值写进配置文件，若有 1 个只靠提示词则补成可检查字段。",
+          "impact": "automation 定时任务默认不外发，但主动来电这类交互要求先有静默时段与授权门槛，否则会打断人",
+          "next_action": "给通知链路设静默窗口，若非工作时段触发 1 次即判定该主动通道应默认关闭并回到人工确认",
           "signal_type": "opinion",
           "confidence": "fact"
         }
@@ -248,212 +195,64 @@
       "label": "开发者工具与版本",
       "items": [
         {
-          "id": "a905c89b66d2487a",
-          "title": "普林斯顿CS女学霸，突然告别Anthropic！一手带火Claude Code",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&mid=2652740261&idx=2&sn=ad848ca27112af01508620b4099ac007&chksm=f0078dd514b88f7cf496c4650a00f222b3f0a51fb4dcdcf4d883bf4befaf4032aa612eccd5e3&scene=0&xtrack=1",
-          "source": "智源社区 · 最新分享（匿名 API）",
-          "published_at": "2026-11-05T10:40:00Z",
-          "score": 79.04,
-          "category": "dev-tools",
-          "cluster_id": "a905c89b66d2487a",
-          "summary": "AI、生成模型、深度学习｜Anthropic旗下Claude Code团队近期遭遇严重人才流失：10天内4位核心成员相继离职，包括产品总负责人兼创始产品经理Cat Wu（4日凌晨宣布离任）、CLI核心开发者Thariq Shihipar及桌面版主创Anthony Mor等。Cat Wu在告别信中确认上周五为其最后工作日。此次密集离职引发业界对Claude Code项目稳定性与团队凝聚力的广泛关注，凸显AI初创企业在高速发展期面临的人才管理挑战。",
-          "why_matters": "推断：核心贡献者密度下降会先反映在版本节奏上，比功能清单更能预判工具链稳定性。",
-          "fact_anchor": "Anthropic 旗下 Claude Code 团队 10 天内 4 位核心成员离职，含产品负责人 Cat Wu",
-          "numbers": [
-            "10",
-            "4"
-          ],
-          "entities": [
-            "Anthropic",
-            "Claude Code",
-            "Cat Wu"
-          ],
-          "evidence_urls": [
-            "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&mid=2652740261&idx=2&sn=ad848ca27112af01508620b4099ac007&chksm=f0078dd514b88f7cf496c4650a00f222b3f0a51fb4dcdcf4d883bf4befaf4032aa612eccd5e3&scene=0&xtrack=1"
-          ],
-          "impact": "对依赖 Claude Code 的开发侧 automation 链路，需要准备供应商变更时的可替换入口。",
-          "next_action": "记录未来 2 个版本的发布日期，若间隔拉长超过 30 天则启用备用工具链并跑一次 smoke。",
-          "signal_type": "opinion",
-          "confidence": "inference"
-        },
-        {
-          "id": "67688dbdebfe4c7a",
-          "title": "Build a ESP32 S3 Powered Smart Thermostat with Home Assistant Support for $70",
-          "url": "https://www.geeky-gadgets.com/open-source",
-          "source": "Geeky Gadgets",
-          "published_at": "2026-11-05T10:13:00Z",
-          "score": 75.18,
-          "category": "agent-engineering",
-          "cluster_id": "67688dbdebfe4c7a",
-          "summary": "Building an open source smart thermostat is an engaging project that blends technical skills with practical applications. According to Designing Good Ideas, this project revolves around the ESP32-S3 microcontroller, which offers both WiFi and Bluetooth connectivity. Key components include an OLED di",
-          "why_matters": "把成本、连接协议与固件可改性同时写清，是自动化设备选型里少见的可核验口径。",
-          "fact_anchor": "Geeky Gadgets 介绍用 ESP32-S3 与 Home Assistant 搭开源智能恒温器，成本约 70 美元",
-          "numbers": [
-            "32",
-            "70"
-          ],
-          "entities": [
-            "ESP32",
-            "Home Assistant",
-            "Designing Good Ideas"
-          ],
-          "evidence_urls": [
-            "https://www.geeky-gadgets.com/open-source"
-          ],
-          "impact": "可作本地 automation 的低成本参照，但需确认固件支持离线控制，避免绑死云服务。",
-          "next_action": "核对断网场景下本地控制是否可用，若必须联网则判定不适合作为离线基线设备。",
-          "signal_type": "tutorial",
-          "confidence": "fact"
-        },
-        {
-          "id": "34b7b58c0d055d38",
-          "title": "MCP C# SDK 2.0 默认启用 HTTP 无状态模式，新增多轮请求能力",
-          "url": "https://www.infoq.cn/article/80iUxvCNB59aOgyXB7LN",
+          "id": "c18d0ced5e118c57",
+          "title": "Hands-On With Apple's New OLED Touchscreen MacBook Pro",
+          "url": "https://www.macrumors.com/2026/11/06/oled-macbook-pro-hands-on",
           "source": "Folo 订阅池基线（人工筛选信源）",
-          "published_at": "2026-11-05T07:31:03.584000Z",
-          "score": 73.81,
-          "category": "dev-tools",
-          "cluster_id": "34b7b58c0d055d38",
-          "summary": "点击查看原文> 〔Folo分类:开源项目〕",
-          "why_matters": "默认行为变更比新增功能更危险：不升级配置的连接会在无感知情况下丢掉会话语义。",
-          "fact_anchor": "MCP C# SDK 2.0 把 HTTP 无状态模式设为默认，并新增多轮请求能力",
-          "numbers": [
-            "2.0"
-          ],
-          "entities": [
-            "MCP C# SDK 2.0",
-            "HTTP"
-          ],
-          "evidence_urls": [
-            "https://www.infoq.cn/article/80iUxvCNB59aOgyXB7LN"
-          ],
-          "impact": "直接影响 MCP 接入层与 bridge 的长连接假设，需确认状态保持由哪一端负责。",
-          "next_action": "用现有会话用例跑 2 次兼容测试，若出现 1 次状态丢失则显式声明有状态模式后再升级。",
-          "signal_type": "docs-change",
-          "confidence": "fact"
-        },
-        {
-          "id": "bc3eb0974c00d7ec",
-          "title": "Baidu released ERNIE 5.5 Flash Base",
-          "url": "https://ernie.baidu.com/release/ernie-5-5-flash-base",
-          "source": "HN Algolia front_page (points/comments)",
-          "published_at": "2026-11-05T09:29:12Z",
-          "score": 73.26,
-          "category": "dev-tools",
-          "cluster_id": "bc3eb0974c00d7ec",
-          "summary": "",
-          "why_matters": "轻量版命名与社区讨论热度同时出现，说明发布关注点在推理成本而非参数规模。",
-          "fact_anchor": "百度发布 ERNIE 5.5 Flash Base，HN 讨论帖记录 30 分与 23 条评论",
-          "numbers": [
-            "5.5",
-            "30",
-            "23"
-          ],
-          "entities": [
-            "Baidu",
-            "ERNIE 5.5 Flash Base"
-          ],
-          "evidence_urls": [
-            "https://ernie.baidu.com/release/ernie-5-5-flash-base"
-          ],
-          "impact": "若接入层要加国内模型候选，先记录上下文与定价口径，再决定是否进 provider 切换配置。",
-          "next_action": "对照官方发布页核对 2 项规格，若与转述不一致则以官方为准并标注修正来源。",
-          "signal_type": "release",
-          "confidence": "fact"
-        },
-        {
-          "id": "c5c9e9a97cf4fa76",
-          "title": "Commerzbank in 'Position of Strength' Ahead of UniCredit Deal, CEO Says",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-05/commerzbank-in-position-of-strength-ahead-of-deal-ceo-video",
-          "source": "Bloomberg Markets",
-          "published_at": "2026-11-05T07:31:20Z",
-          "score": 72.5,
-          "category": "dev-tools",
-          "cluster_id": "c5c9e9a97cf4fa76",
-          "summary": "Commerzbank CEO Bettina Orlopp speaks on Bloomberg Television after the lender reported a better-than-expected 45% jump in profit, in one of the last quarterly results as an independent bank before UniCredit SpA takes control of the German rival. \"I think we can act out of a position of strength,\" O",
-          "why_matters": "业绩读数与并购时点叠在一起，单点增长不能外推为独立经营的长期趋势。",
-          "fact_anchor": "Commerzbank CEO 称利润同比跳升 45%，为 UniCredit 接管前最后几份独立季报之一",
-          "numbers": [
-            "45%"
-          ],
-          "entities": [
-            "Commerzbank",
-            "UniCredit",
-            "Bettina Orlopp"
-          ],
-          "evidence_urls": [
-            "https://www.bloomberg.com/news/videos/2026-11-05/commerzbank-in-position-of-strength-ahead-of-deal-ceo-video"
-          ],
-          "impact": "与本项目数据基建无直接技术关联，仅作为「单点指标不可外推」的反例记入观察口径。",
-          "next_action": "若后续 2 个季度仍只有单季读数，则判定该指标不足以支撑趋势判断，移出主线。",
-          "signal_type": "market-data",
-          "confidence": "fact"
-        },
-        {
-          "id": "38e387c5903f171f",
-          "title": "Nintendo reports Q2 net profit down 16% YoY to $468M, as rising Switch 2 component costs cut into its margins; Switch 2's H1 FY 2027 sales fell 37% YoY to 6.49M (Takashi Mochizuki/Bloomberg)",
-          "url": "https://www.techmeme.com/261105/p13",
-          "source": "Techmeme",
-          "published_at": "2026-11-05T11:05:06Z",
-          "score": 72.34,
-          "category": "dev-tools",
-          "cluster_id": "38e387c5903f171f",
-          "summary": "Takashi Mochizuki / Bloomberg: Nintendo reports Q2 net profit down 16% YoY to $468M, as rising Switch 2 component costs cut into its margins; Switch 2's H1 FY 2027 sales fell 37% YoY to 6.49M — Nintendo Co. reported a surprise quarterly profit decline, hurt by a dearth of major new game releases and",
-          "why_matters": "成本上升与销量下滑同时出现，是「新硬件放量就能摊薄成本」这一假设的直接反例。",
-          "fact_anchor": "任天堂 Q2 净利同比降 16% 至 4.68 亿美元，Switch 2 上半财年销量降 37% 至 649 万台",
-          "numbers": [
-            "16%",
-            "468",
-            "37%",
-            "6.49"
-          ],
-          "entities": [
-            "Nintendo",
-            "Switch 2",
-            "Bloomberg"
-          ],
-          "evidence_urls": [
-            "https://www.techmeme.com/261105/p13"
-          ],
-          "impact": "可用于成本模型评审：把组件成本列为独立变量，别把它藏在规模效应里。",
-          "next_action": "把 16% 与 37% 代入同一张成本表，若无法解释 2 个方向同时恶化则标注口径存疑。",
-          "signal_type": "market-data",
-          "confidence": "fact"
-        }
-      ]
-    },
-    {
-      "key": "docs-changelog",
-      "label": "文档与变更",
-      "items": [
-        {
-          "id": "0aa88563920e1cf5",
-          "title": "Sony reports Q2 revenue of ~$21.7B, operating profit of $3.94B, both above est., and 2.6M PS5 sales, as GTA VI sparks a US sales jump, especially of the PS5 Pro (Takashi Mochizuki/Bloomberg)",
-          "url": "https://www.techmeme.com/261105/p9",
-          "source": "Techmeme",
-          "published_at": "2026-11-05T10:30:29Z",
-          "score": 75.1,
+          "published_at": "2026-11-06T22:05:59.161000Z",
+          "score": 77.12,
           "category": "docs-changelog",
-          "cluster_id": "0aa88563920e1cf5",
-          "summary": "Takashi Mochizuki / Bloomberg: Sony reports Q2 revenue of ~$21.7B, operating profit of $3.94B, both above est., and 2.6M PS5 sales, as GTA VI sparks a US sales jump, especially of the PS5 Pro — Sony Group Corp. raised its profit outlook after a string of entertainment hits propelled better-than-expe",
-          "why_matters": "同一天里硬件厂商给出量、价、利三个方向的读数，适合作为财报类信源的结构基线。",
-          "fact_anchor": "索尼 Q2 营收约 217 亿美元、营业利润 39.4 亿美元，PS5 销量 260 万台，均高于预期",
+          "cluster_id": "c18d0ced5e118c57",
+          "summary": "Apple’s new PROLED MacBook Pro, launched in 2026, replaces the previous mini-LED model with a thinner, lighter, and more responsive design. It features an OLED XDR display with touch capabilities, including swipe, tap, and pinch-to-zoom gestures, alongside a Dynamic Island for Siri and Live Activiti",
+          "why_matters": "原文自己下了判断：触控属增量改进而非笔记本交互的根本变化，硬件叙事需要打折读",
+          "fact_anchor": "Apple 的 OLED 触控 MacBook Pro 提供 14 与 16 英寸机型，起价分别为 $2,899 与 $3,399",
           "numbers": [
-            "21.7",
-            "3.94",
-            "2.6"
+            "$2,899",
+            "$3,399",
+            "14",
+            "16"
           ],
           "entities": [
-            "Sony",
-            "PS5",
-            "GTA VI"
+            "Apple",
+            "MacBook Pro",
+            "OLED XDR",
+            "M5 Pro"
           ],
           "evidence_urls": [
-            "https://www.techmeme.com/261105/p9"
+            "https://www.macrumors.com/2026/11/06/oled-macbook-pro-hands-on"
           ],
-          "impact": "提醒变更板块不该只收版本号：带数字的业绩公告同样是可核验的变更记录。",
-          "next_action": "按 3 个口径核对转载与原始公告，若有 1 处不一致则在日报里标注二次转述。",
-          "signal_type": "docs-change",
+          "impact": "对 WinVM 与数据基建暂无直接影响：本机形态不改变 agent 部署与 MCP 通道，仅影响本地开发设备选型",
+          "next_action": "若后续出现 2 个以上独立来源确认触控提升效率，才把它列入开发机换机依据",
+          "signal_type": "product",
+          "confidence": "fact"
+        },
+        {
+          "id": "5e722243eff5bdd6",
+          "title": "Control the Glowing Apple Logo on Your New MacBook Pro",
+          "url": "https://www.macrumors.com/how-to/turn-glowing-apple-logo-macbook-pro",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-06T20:03:09.496000Z",
+          "score": 75.66,
+          "category": "docs-changelog",
+          "cluster_id": "5e722243eff5bdd6",
+          "summary": "New 14-inch and 16-inch MacBook Pro models reintroduce the illuminated Apple logo, which automatically adjusts to ambient light. To disable this feature, users must execute a specific command in the Terminal application, as it is not available in System Settings. This action turns off the light imme",
+          "why_matters": "开关不进系统设置而落到命令行，说明厂商把低频定制留给了可脚本化通道",
+          "fact_anchor": "14 与 16 英寸 MacBook Pro 的发光 Apple logo 需在 Terminal 用命令关闭",
+          "numbers": [
+            "14",
+            "16"
+          ],
+          "entities": [
+            "MacBook Pro",
+            "Apple",
+            "Terminal"
+          ],
+          "evidence_urls": [
+            "https://www.macrumors.com/how-to/turn-glowing-apple-logo-macbook-pro"
+          ],
+          "impact": "对 automation 有借鉴：可脚本化的开关应配一份可回滚命令清单，本机设备配置才能进幂等流水线",
+          "next_action": "把该命令纳入设备配置脚本并跑一次 dry-run，若 0 处副作用才允许在其它机器复用",
+          "signal_type": "tutorial",
           "confidence": "fact"
         }
       ]
@@ -463,59 +262,29 @@
       "label": "安全与治理",
       "items": [
         {
-          "id": "7c72ef3696766993",
-          "title": "OpenSSH 10.6p2 has been released with a workaround for a critical vulnerability",
-          "url": "https://hachyderm.io/@damienmiller/117563026759098135",
-          "source": "HN Algolia front_page (points/comments)",
-          "published_at": "2026-11-05T09:46:17Z",
-          "score": 74.84,
-          "category": "security-governance",
-          "cluster_id": "7c72ef3696766993",
-          "summary": "",
-          "why_matters": "绕行方案先于完整修复落地，补丁窗口内需要按缓解措施而不是按版本号管理风险。",
-          "fact_anchor": "OpenSSH 10.6p2 发布，为一项严重漏洞提供绕行方案，HN 记录 28 分 6 条评论",
-          "numbers": [
-            "10.6",
-            "28",
-            "6"
-          ],
-          "entities": [
-            "OpenSSH 10.6p2"
-          ],
-          "evidence_urls": [
-            "https://hachyderm.io/@damienmiller/117563026759098135"
-          ],
-          "impact": "直接影响 WinVM 的远程访问组件基线，需在资产清单单独标记已缓解但未修复的主机。",
-          "next_action": "对全部纳管主机跑 1 次版本扫描，若存在 1 台低于 10.6p2 则先应用绕行配置再排升级窗口。",
-          "signal_type": "incident",
-          "confidence": "fact"
-        },
-        {
-          "id": "aa089abfd1658634",
-          "title": "Keycloak 26.8.1 fixes 19 flaws: sort them by your config, not by their score",
-          "url": "https://dev.to/julesrobineau/keycloak-2681-fixes-19-flaws-sort-them-by-your-config-not-by-their-score-3pom",
+          "id": "f441801c064cce85",
+          "title": "Firecracker VM Escape: PwnEscape Part 2",
+          "url": "https://pwn.ai/blog/firecracker-escape",
           "source": "Folo 订阅池基线（人工筛选信源）",
-          "published_at": "2026-11-05T07:03:00.166000Z",
-          "score": 72.1,
-          "category": "security-governance",
-          "cluster_id": "aa089abfd1658634",
-          "summary": "On October 13, Keycloak shipped version 26.8.1. It fixes 19 flaws that carry a CVE number. Keycloak's ticket for the only flaw rated \"high… 〔Folo分类:开源项目〕",
-          "why_matters": "19 个 CVE 里只有 1 个评为高危，按分数排序会把实际暴露面最大的配置漏掉。",
-          "fact_anchor": "Keycloak 26.8.1 修复 19 个带 CVE 编号的缺陷，作者主张按自身配置而非评分排序",
+          "published_at": "2026-11-06T19:33:38.271000Z",
+          "score": 76.93,
+          "category": "dev-tools",
+          "cluster_id": "a4281c90cf6927ea-c",
+          "summary": "Comments 〔Folo分类:开源项目〕",
+          "why_matters": "微 VM 常被当作 Agent 沙箱的默认隔离假设，逃逸复现会直接推翻这个假设",
+          "fact_anchor": "PwnEscape 第 2 部分公开 Firecracker VM 逃逸路径",
           "numbers": [
-            "26.8.1",
-            "19",
-            "13"
+            "2"
           ],
           "entities": [
-            "Keycloak",
-            "CVE"
+            "Firecracker",
+            "PwnEscape"
           ],
           "evidence_urls": [
-            "https://dev.to/julesrobineau/keycloak-2681-fixes-19-flaws-sort-them-by-your-config-not-by-their-score-3pom"
+            "https://pwn.ai/blog/firecracker-escape"
           ],
-          "impact": "与凭据闸门同构：先按自身是否启用该路径排序，再看通用严重度，避免把精力花在没开的口子上。",
-          "next_action": "对照本环境 3 项认证配置逐条筛 19 个 CVE，若命中 0 项才判定可延后升级。",
+          "impact": "WinVM Bridge 的 VM 侧 Agent 与 A2A 委派路径依赖 VM 边界，逃逸一旦可复现就必须重审隔离层",
+          "next_action": "在受控 VM 尝试复现逃逸，若 1 次成功即判定隔离假设失效并暂停该 VM 的 A2A 委派",
           "signal_type": "incident",
           "confidence": "fact"
         }
@@ -526,149 +295,118 @@
       "label": "产业与资本",
       "items": [
         {
-          "id": "fc977d6a1078d384",
-          "title": "Barcelona’s Kabilio raises €10 million to deploy its AI accounting agent as client base nears 500 firms",
-          "url": "https://www.eu-startups.com/2026/11/barcelonas-kabilio-raises-e10-million-to-deploy-its-ai-accounting-agent-as-client-base-nears-500-firms",
-          "source": "EU-Startups",
-          "published_at": "2026-11-05T09:19:45Z",
-          "score": 74.73,
+          "id": "60a18250dfd4eff6",
+          "title": "Anthropic IPO valuation talks drop to $1.3T",
+          "url": "https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3-trillion-as-major-investors",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-06T17:21:15.387000Z",
+          "score": 77.11,
           "category": "industry-capital",
-          "cluster_id": "fc977d6a1078d384",
-          "summary": "Kabilio, a Barcelona-based startup building an AI platform for accounting firms and the small businesses they serve, has closed a €10 million funding round. The round was led by Picus Capital and Visionaries; they also led Kabilio’s pre-Seed round. CDTI, Spain’s public agency for technological innov",
-          "why_matters": "垂直 Agent 用「客户数接近 500」而非模型指标募资，商业化口径回到可数的交付量。",
-          "fact_anchor": "巴塞罗那 Kabilio 融资 1000 万欧元部署 AI 会计 Agent，客户数接近 500 家",
+          "cluster_id": "60a18250dfd4eff6-c",
+          "summary": "Comments 〔Folo分类:开源项目〕",
+          "why_matters": "估值从谈判口径被公开下修，说明买方与卖方对同一资产的定价尚未收敛",
+          "fact_anchor": "Anthropic IPO 估值谈判口径下调到 $1.3T",
           "numbers": [
-            "10",
-            "500"
+            "$1.3T"
           ],
           "entities": [
-            "Kabilio",
-            "Picus Capital",
-            "Visionaries",
-            "CDTI"
+            "Anthropic"
           ],
           "evidence_urls": [
-            "https://www.eu-startups.com/2026/11/barcelonas-kabilio-raises-e10-million-to-deploy-its-ai-accounting-agent-as-client-base-nears-500-firms"
+            "https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3-trillion-as-major-investors",
+            "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout"
           ],
-          "impact": "给 Agent 项目的阶段划分提供参照：用接入客户数与留存定义可用，而不是 demo 数量。",
-          "next_action": "记录 2 个可比垂直 Agent 的客户数口径，若统计定义不一致则不可横向比较。",
-          "signal_type": "funding",
-          "confidence": "fact"
+          "impact": "暂无直接影响：一级市场估值不进入 WorkBuddy 的成本模型，也不改变 MCP 与 skill 的工程依赖",
+          "next_action": "对照后续披露的估值口径，若与 1.3T 的偏差小于 0.1T 才判定定价企稳并更新板块基线",
+          "signal_type": "market-data",
+          "confidence": "multi-source"
         },
         {
-          "id": "dccf297bb82e70c4",
-          "title": "Meta首次发行欧元债融资90亿欧元，认购需求创纪录",
-          "url": "https://www.36kr.com/newsflashes/4056739997160585",
-          "source": "36氪快讯（RSSHub 镜像路由）",
-          "published_at": "2026-11-05T11:04:09Z",
-          "score": 73.93,
+          "id": "4e9391acd12d4c33",
+          "title": "Fox bought Roku",
+          "url": "https://www.theverge.com/streaming/1028629/fox-roku-acquisition-close",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-06T15:00:56.756000Z",
+          "score": 74.13,
           "category": "industry-capital",
-          "cluster_id": "dccf297bb82e70c4",
-          "summary": "Meta Platforms Inc．通过首次欧元债券发行融资90亿欧元，获得超过620亿欧元认购，创下欧洲公司债发行的最高认购纪录。由于其提供的收益率颇具吸引力，即便是对人工智能热潮持谨慎态度的投资者也难以抗拒。数据显示，这笔交易的认购订单已超过百威英博2016年发行债券时获得的逾310亿欧元需求。Meta欧元债券报价已升至面值之上。彭博汇编数据显示，Meta发行的六档债券周四报价均走高，甚至买入报价（即交易员愿意买入债券的价格）也已高于面值。（新浪财经）",
-          "why_matters": "620 亿欧元认购对比 2016 年 310 亿的旧纪录，资金对 AI 资本开支的承接意愿仍强。",
-          "fact_anchor": "Meta 首次发行欧元债券融资 90 亿欧元，获超 620 亿欧元认购，创欧洲公司债认购纪录",
+          "cluster_id": "4e9391acd12d4c33",
+          "summary": "Fox completed its $22 billion acquisition of Roku, granting the company control over a major streaming platform that reaches over 100 million U.S. households. The deal enables Fox to distribute sports, news, and local station content via Roku. Fox CEO Lachlan Murdoch stated that integrating Fox cont",
+          "why_matters": "买的是分发入口而非模型能力，覆盖家庭数才是交易对价里的实质标的",
+          "fact_anchor": "Fox 完成对 Roku 的 $22 billion 收购，触达超过 100 million U.S. households",
           "numbers": [
-            "90",
-            "620",
-            "310",
-            "2016"
+            "$22 billion",
+            "100 million"
           ],
           "entities": [
-            "Meta",
-            "百威英博",
-            "彭博"
+            "Fox",
+            "Roku",
+            "Lachlan Murdoch"
           ],
           "evidence_urls": [
-            "https://www.36kr.com/newsflashes/4056739997160585"
+            "https://www.theverge.com/streaming/1028629/fox-roku-acquisition-close"
           ],
-          "impact": "影响自建与托管的成本假设：资本便宜时托管侧更容易降价，成本模型要留出价格变量。",
-          "next_action": "把该认购倍数记入成本表备注，若下季度融资成本上升超过 1 个百分点则重算选型。",
+          "impact": "暂无直接影响：媒体渠道整合不改变 agent 部署链路，但可作为分发规模优于技术叙事的反例记下",
+          "next_action": "若后续披露的家庭覆盖数低于 100 million 超过 10%，则判定该口径需回原文复核",
           "signal_type": "funding",
           "confidence": "fact"
-        },
+        }
+      ]
+    },
+    {
+      "key": "market-invest",
+      "label": "市场与投资",
+      "items": [
         {
-          "id": "2d48fe9f88e1b74d",
-          "title": "4天3板引力传媒：截至10月末AI短剧业务收入占经审计2025年公司营收的比例不足0.1%",
-          "url": "https://www.36kr.com/newsflashes/4056714556216196",
-          "source": "36氪快讯（RSSHub 镜像路由）",
-          "published_at": "2026-11-05T10:23:26Z",
-          "score": 73.42,
-          "category": "industry-capital",
-          "cluster_id": "2d48fe9f88e1b74d",
-          "summary": "36氪获悉，引力传媒公告，公司AI短剧业务尚处于前期投入阶段，业务规模较小，其市场认可度及盈利模式均存在不确定性，截至10月末该业务产生的收入占经审计2025年公司营业收入的比例不足0.1%，不会对公司业绩构成重大影响。",
-          "why_matters": "4 天 3 板的市场叙事与公司自述 0.1% 收入敞口差距明显，是叙事与基本面的可量化反例。",
-          "fact_anchor": "引力传媒公告 AI 短剧业务收入占 2025 年经审计营收不足 0.1%，提示规模与盈利模式不确定",
+          "id": "3377a1f50cdc7a88",
+          "title": "Wall Street Sees US Hitting $41.1 Trillion Debt Cap in February",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-06/wall-street-sees-us-hitting-41-1-trillion-debt-cap-in-february",
+          "source": "Bloomberg Markets",
+          "published_at": "2026-11-06T20:33:40Z",
+          "score": 74.9,
+          "category": "market-invest",
+          "cluster_id": "3377a1f50cdc7a88",
+          "summary": "Wall Street strategists are bracing for the US Treasury to hit against its borrowing limit as early as February, triggering the need for extraordinary measures before it faces a funding crunch in late 2027.",
+          "why_matters": "把宏观约束写成带金额和时点的可核验陈述，比笼统的风险提示更便于设定观察条件",
+          "fact_anchor": "Wall Street 策略师预计 US Treasury 最早在 February 触及 $41.1 Trillion 债务上限",
           "numbers": [
-            "0.1%",
-            "4",
-            "3",
-            "2025"
+            "$41.1"
           ],
           "entities": [
-            "引力传媒",
-            "36氪"
+            "Wall Street",
+            "US Treasury"
           ],
           "evidence_urls": [
-            "https://www.36kr.com/newsflashes/4056714556216196"
+            "https://www.bloomberg.com/news/articles/2026-11-06/wall-street-sees-us-hitting-41-1-trillion-debt-cap-in-february"
           ],
-          "impact": "仅作信息披露口径记录，不构成任何投资判断；提醒带数字公告保留原文、不加解读。",
-          "next_action": "对照公告原文核对 0.1% 与统计截止期，若有 1 处出入则撤回该条并标注二次转述。",
+          "impact": "暂无直接影响：宏观财政数据不改变本项目的工程排期，仅作为公开市场读数与风险提示记录",
+          "next_action": "若官方口径的债务上限数值与 41.1 偏差超过 1%，则判定该读数失效并从数据概览移除",
           "signal_type": "market-data",
           "confidence": "fact"
         },
         {
-          "id": "73d653898f632f20",
-          "title": "Sources and company memo: Chinese NAND flash maker YMTC has put its Shanghai IPO on hold as China tightens share sale approvals; YMTC sought to raise ~$4.9B (Reuters)",
-          "url": "https://www.techmeme.com/261105/p3",
-          "source": "Techmeme",
-          "published_at": "2026-11-05T06:05:04Z",
-          "score": 72.06,
-          "category": "community",
-          "cluster_id": "73d653898f632f20",
-          "summary": "Reuters: Sources and company memo: Chinese NAND flash maker YMTC has put its Shanghai IPO on hold as China tightens share sale approvals; YMTC sought to raise ~$4.9B — Flash-memory chipmaker Yangtze Memory Technologies Co has put its Shanghai IPO on hold, according to a company memo and three people",
-          "why_matters": "约 4.9B 的募资计划与审批收紧同时出现，融资节奏受监管变量影响大于技术进度。",
-          "fact_anchor": "路透援引消息称长江存储 YMTC 暂停上海 IPO，原计划募资约 49 亿美元",
+          "id": "4b630aa6346380d7",
+          "title": "Airbnb Surges 12% as Growth Accelerates and Outlook Rises | Closing Bell",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-06/airbnb-surges-on-growth-outlook-closing-bell-video",
+          "source": "Bloomberg Markets",
+          "published_at": "2026-11-06T21:32:56Z",
+          "score": 74.01,
+          "category": "market-invest",
+          "cluster_id": "4b630aa6346380d7",
+          "summary": "Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Kailey Leinz, Carol Massar and Tim Stenovec. (Source: Bloomberg)",
+          "why_matters": "涨幅与基本面表述捆在同一标题里，需要把价格动作和原因拆开记录，避免叙事替代数据",
+          "fact_anchor": "Airbnb 因增长加速与展望上调收涨 12%，Bloomberg 收盘节目作跨平台报道",
           "numbers": [
-            "4.9"
+            "12%"
           ],
           "entities": [
-            "YMTC",
-            "Reuters"
+            "Airbnb",
+            "Bloomberg"
           ],
           "evidence_urls": [
-            "https://www.techmeme.com/261105/p3"
+            "https://www.bloomberg.com/news/videos/2026-11-06/airbnb-surges-on-growth-outlook-closing-bell-video"
           ],
-          "impact": "对数据基建侧的供应链假设只作背景记录，不据此调整任何选型或采购判断。",
-          "next_action": "等 1 份官方披露再更新状态，若 30 天内无一手来源则保持 unverified 标记。",
-          "signal_type": "market-data",
-          "confidence": "unverified"
-        },
-        {
-          "id": "3504862794ad47cd",
-          "title": "美国10月挑战者企业裁员人数43994人",
-          "url": "https://www.36kr.com/newsflashes/4056722893329545",
-          "source": "36氪快讯（RSSHub 镜像路由）",
-          "published_at": "2026-11-05T10:31:55Z",
-          "score": 71.92,
-          "category": "industry-capital",
-          "cluster_id": "3504862794ad47cd",
-          "summary": "美国就业咨询公司“挑战者企业”发布报告显示，美国雇主10月宣布的裁员人数为43,994人。（界面）",
-          "why_matters": "单一月度读数缺少同比与行业拆分，只能作为一个观测点，不能当趋势。",
-          "fact_anchor": "挑战者企业报告称美国雇主 10 月宣布裁员 43,994 人",
-          "numbers": [
-            "43,994",
-            "43994",
-            "10"
-          ],
-          "entities": [
-            "挑战者企业",
-            "界面"
-          ],
-          "evidence_urls": [
-            "https://www.36kr.com/newsflashes/4056722893329545"
-          ],
-          "impact": "与本项目数据基建无直接关联，仅用于练习「单点数不入结论」的核验习惯。",
-          "next_action": "补齐至少 2 个连续月份读数后才允许写入趋势表述，否则只保留原始数字。",
+          "impact": "暂无直接影响：个股波动与本项目的 skill、automation、数据基建无工程关联，仅保留读数与出处",
+          "next_action": "若行情页无法复核 12% 这一数值，则判定该条读数不可溯源并记 1 条 warning",
           "signal_type": "market-data",
           "confidence": "fact"
         }
@@ -679,206 +417,84 @@
       "label": "论文与学术",
       "items": [
         {
-          "id": "f1e03683a29d4bc1-c",
-          "title": "Dexterous Robotic Hands in the Foundation-Model Era: A Full-Stack Survey of Hardware, Data, Cross-Embodiment Transfer, Learning, and Evaluation",
-          "url": "https://arxiv.org/abs/2611.06724",
-          "source": "arXiv cs.AI",
-          "published_at": "2026-11-05T05:00:00Z",
-          "score": 69.18,
+          "id": "c1501b2a0fee78d0",
+          "title": "Could Type 2 Diabetes Be Reversed? 14-Year Study Reveals Remarkable Results",
+          "url": "https://scitechdaily.com/could-type-2-diabetes-be-reversed-14-year-study-reveals-remarkable-results",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-06T18:51:14.052000Z",
+          "score": 74.86,
           "category": "research-papers",
-          "cluster_id": "f1e03683a29d4bc1-c",
-          "summary": "arXiv:2611.06724v1 Announce Type: cross Abstract: Dexterous robotic hands are increasingly coupled to large-scale human data and foundation models, yet progress in hardware, representation learning and evaluation is often assessed separately. This survey reviews work from January 2024 to early Novem",
-          "why_matters": "把硬件、数据与评测拆开综述，等于承认单一指标无法代表具身能力的进展。",
-          "fact_anchor": "arXiv 2611.06724 综述基础模型时代灵巧机械手在硬件、数据、跨本体迁移与评测上的全栈进展",
+          "cluster_id": "c1501b2a0fee78d0",
+          "summary": "In a long-term trial, weight-loss surgery led to more type 2 diabetes remissions than intensive medical and lifestyle management, while… 〔Folo分类:重大学术科研突破〕",
+          "why_matters": "用十余年跨度而非短期指标下结论，正是长期随访与快照式观测的分界线",
+          "fact_anchor": "一项 14-Year 随访研究显示减重手术带来的 Type 2 Diabetes 缓解多于强化内科管理",
           "numbers": [
-            "2611.06724",
-            "2024"
+            "14-Year",
+            "2"
           ],
           "entities": [
-            "arXiv",
-            "foundation models"
+            "Type 2 Diabetes",
+            "weight-loss surgery"
           ],
           "evidence_urls": [
-            "https://arxiv.org/abs/2611.06724",
-            "https://arxiv.org/abs/2611.06724v1"
+            "https://scitechdaily.com/could-type-2-diabetes-be-reversed-14-year-study-reveals-remarkable-results"
           ],
-          "impact": "对 3D 资产与具身链路的评估表有参考价值：至少分 4 列，别压成一个分数。",
-          "next_action": "核对综述给出的 4 个维度是否都有量化基准，若缺 1 列则标注该维度暂无可靠数据。",
+          "impact": "对数据基建有间接参照：本流水线按固定窗口归一，长周期结论不能靠单日条目推出，需保留原始时间点",
+          "next_action": "核对归一脚本的窗口字段，若窗口短于 14-Year 量级则判定该结论不属于日报可推断范围",
           "signal_type": "research",
           "confidence": "fact"
         }
       ]
-    },
-    {
-      "key": "market-invest",
-      "label": "市场与投资",
-      "items": [
-        {
-          "id": "678851dd9a3f9fb9",
-          "title": "Pound Gauge Hits Strongest Since Brexit Vote on Likely BOE Hike",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-05/pound-strength-gauge-hits-highest-since-2016-ahead-of-boe-hike",
-          "source": "Bloomberg Markets",
-          "published_at": "2026-11-05T10:04:51Z",
-          "score": 72.7,
-          "category": "market-invest",
-          "cluster_id": "678851dd9a3f9fb9",
-          "summary": "A gauge of pound strength rose to its highest level since 2016, supported by resilient UK economic data and expectations for interest-rate hikes.",
-          "why_matters": "「2016 年以来最高」是长周期比较，容易掩盖中间波动，读时必须带基准年份。",
-          "fact_anchor": "彭博称英镑强度指标升至 2016 年以来最高，受英国经济数据与加息预期支撑",
-          "numbers": [
-            "2016"
-          ],
-          "entities": [
-            "Brexit",
-            "BOE"
-          ],
-          "evidence_urls": [
-            "https://www.bloomberg.com/news/articles/2026-11-05/pound-strength-gauge-hits-highest-since-2016-ahead-of-boe-hike"
-          ],
-          "impact": "仅作公开数据记录，不构成投资判断；提醒所有相对读数必须写明基期。",
-          "next_action": "核对基期是否确为 2016 年同一口径，若口径不一致则撤回该比较表述。",
-          "signal_type": "market-data",
-          "confidence": "fact"
-        },
-        {
-          "id": "f8424668a04d6ed1",
-          "title": "Yardeni: Yields Attractive at 5%; Nasdaq to Outperform",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-05/yardeni-yields-attractive-at-5-nasdaq-to-outperform-video",
-          "source": "Bloomberg Markets",
-          "published_at": "2026-11-05T07:16:56Z",
-          "score": 72.34,
-          "category": "market-invest",
-          "cluster_id": "f8424668a04d6ed1",
-          "summary": "Yardeni Research President, Ed Yardeni, says US 10-year Treasury yields look “very attractive” at around the 5% level with inflation expected to cool. On Bloomberg's Insight with Haslinda Amin, he also told us why the Nasdaq 100 is his preferred asset for the next 24 months. (Source: Bloomberg)",
-          "why_matters": "这是第三方观点而非独立验证数据，5% 与「偏好」之间不构成本站结论。",
-          "fact_anchor": "Yardeni 在彭博访谈中称 10 年期美债收益率约 5% 具吸引力，并偏好 Nasdaq 100",
-          "numbers": [
-            "5%",
-            "10",
-            "100"
-          ],
-          "entities": [
-            "Yardeni",
-            "Nasdaq 100",
-            "Bloomberg"
-          ],
-          "evidence_urls": [
-            "https://www.bloomberg.com/news/videos/2026-11-05/yardeni-yields-attractive-at-5-nasdaq-to-outperform-video"
-          ],
-          "impact": "仅记录公开观点与风险提示，不产生任何仓位或交易判断；观点类条目需单列。",
-          "next_action": "对照官方收益率曲线核对 5% 与 10 年期口径，偏差超过 0.1 个百分点则标注存疑。",
-          "signal_type": "opinion",
-          "confidence": "unverified"
-        }
-      ]
-    },
-    {
-      "key": "community",
-      "label": "社区与观点",
-      "items": [
-        {
-          "id": "86809fee4f8cf7e7",
-          "title": "新玩意 255｜少数派的编辑们最近买了啥？",
-          "url": "https://sspai.com/post/118541",
-          "source": "Folo 订阅池基线（人工筛选信源）",
-          "published_at": "2026-11-05T09:11:28.852000Z",
-          "score": 77.96,
-          "category": "agent-engineering",
-          "cluster_id": "86809fee4f8cf7e7",
-          "summary": "The digital publication Sspai introduces a recurring feature titled \"New Toys,\" which aims to satisfy reader curiosity about the editorial team's personal purchases. In this segment, editors share firsthand accounts and usage experiences of the latest gadgets and products they have recently acquired",
-          "why_matters": "一手使用体验补足参数表之外的信息，但抓取摘要不含价格与型号，可核验性有限。",
-          "fact_anchor": "少数派「新玩意」第 255 期由编辑分享近期个人购入的数码产品与上手体验",
-          "numbers": [
-            "255"
-          ],
-          "entities": [
-            "Sspai",
-            "New Toys"
-          ],
-          "evidence_urls": [
-            "https://sspai.com/post/118541"
-          ],
-          "impact": "对设备选型只能当线索：进入比较表前必须补齐 2 项可核验规格。",
-          "next_action": "若补齐型号与价格后仍缺 1 项，则本期不纳入设备候选清单。",
-          "signal_type": "opinion",
-          "confidence": "fact"
-        }
-      ]
     }
   ],
-  "editor_note": "今天该记的不是又多了几个模型，而是把「具体」这道闸门从形式改成实质。此前 make_digest 把 published_at 也算进原文白名单，32 条里有 9 条只靠时间戳中的 2026 通过数字校验，标题、摘要与指标里其实一个读数都没有。收紧后原文只认 title、summary_raw 与 metrics 值，9 条全部被拒入报，入报 23 条全部带可逐字回查的读数。代价是 Folo 基线从 7 条降到 3 条：InfoQ 中国源的摘要就是「点击查看原文>」，属上游供数质量，应补摘要或换一手来源，不放宽口径。这与 WinVM Bridge 两条委派路径同构：LoLBench 在 5000 词需求、240 万行代码系统里只拿到 14% 交付率，失败集中在定位修改点与验证正确性，说明复杂任务走 A2A streaming 前先要有可复现的验收脚本，否则规划错、执行错、证据错无法区分。MCP C# SDK 2.0 把 HTTP 无状态设为默认、Keycloak 26.8.1 一次修 19 个 CVE，提醒状态归属与暴露面排序要写成可检查的配置。下一步把被拒条目清单做成每日产物，连续 3 日超过 10 条就补摘要；基线占入选簇比例超过 50% 就下调权重。数据侧 184/185 源成功，1 源超时未阻断；外部事实未独立验证，核验通过只代表结构、白名单与幂等通过，不等于新闻为真。",
-  "brief": "今日主线：开源权重压低能力门槛，验收与配置抬高落地门槛。Ricursive 以 Apache 2.0 放出 Ripple-65B Preview，输出定价 0.60 美元每百万 token；LoLBench 实测 28 种 Agent 组合在 240 万行代码系统上，5000 词需求仅交付 14%。工程上最该动的是默认行为：MCP C# SDK 2.0 把 HTTP 无状态设为默认，OpenSSH 10.6p2 给出漏洞绕行方案，Keycloak 26.8.1 修掉 19 个带 CVE 的缺陷且作者主张按自身配置排序。资本侧 Meta 欧元债融资 90 亿欧元获超 620 亿欧元认购；Kabilio 融资 1000 万欧元、客户近 500 家；索尼 Q2 营收 21.7 亿级读数与任天堂净利 -16% 同日出现，正好说明单点数字不可外推。口径变更：数字白名单不再计入 published_at，9 条仅靠日期年份充数的条目被拒入报，入报 23 条全部带实质读数；Folo 基线入报由 7 条降至 3 条，原因是部分上游摘要只有「点击查看原文>」，下一步补摘要而非放宽阈值。待验证：白名单 warning 数、基线占比、MCP SDK 会话兼容、七要素达标率四项均设了阈值，未达标即停止分发或回滚口径。本期 184/185 源成功，1 源超时；外部事实未独立验证，市场条目仅陈述公开数据与风险提示，不构成任何投资建议。",
+  "editor_note": "本期数据覆盖不足：Folo 基线大量条目摘要只剩 Comments，入选簇过半在原文里找不到实质数字。按 v1.1 口径，这类条目一律不写入 sections，也不拿 published_at 的年份充数，宁可少一条也不发空话。缺口在上游供数，应补摘要或换一手来源，不调低 V8。真正有用的是两组读数。其一是 Agent 运行时与隔离：AegisKernel 把零信任 POSIX 运行时压到 0.016ms，同日 Firecracker VM 逃逸被公开，WinVM Bridge 的 VM 侧隔离层既有了性能基线，也有了必须复现的攻击面。先跑 100 次冷启动量 P99 延迟，并在受控 VM 复现逃逸，两项都通过才列入 Agent 沙箱候选。其二是 skill 与评测：4x 成本优势与 3D 空间推理基准同日出现，能力声明正被可复现的读数替换。WorkBuddy 的 skill 靠 symlink 多环境共享，应记录版本与哈希并在部署前比对主模板和副本；数据基建侧同理，Anthropic 的 1.3T 下修口径与 Fox 的 22 billion 收购只作公开数据记录，去重时保留来源字段，避免把两个口径压成一条。下一步把 no-number 清单当补摘要待办，逐源补齐后重跑核验，若 violations 仍为 0 且入报条数回到 20 条以上，才判定供数缺口收敛。",
+  "brief": "**运行时延迟与 VM 逃逸同日出现，Agent 工程的瓶颈已从模型转向权限与隔离，资本定价仍在松动**\n\nAegisKernel 把零信任 POSIX 运行时压到 <0.016ms，同一天 Firecracker VM 逃逸被公开；Anthropic 的 IPO 估值口径下修到 $1.3T，Fox 以 $22 billion 完成对 Roku 的收购。张力在于：隔离与权限的读数在收紧，资本定价却在松动。\n\n本期数据覆盖不足：Folo 基线大量条目摘要只剩 Comments，无实质数字的候选一律未写入报，宁可少一条也不发空话；补摘要待办见 no-number 清单。\n\n今日主线：\n1. 零信任压低延迟，VM 逃逸同期被翻开\n2. Agent 主动来电，先设静默阈值\n3. 估值口径下修，交易落地同日出现\n4. 成本与基准都写成了可复现的数\n5. 苹果这轮只动交互层，没动算力\n6. 分发入口被买下，个股同日走高\n7. 宏观上限与长期随访都在拉长窗口\n\n重点条目与下一步：\n- [0.016ms] AegisKernel 零信任 POSIX 运行时 → 跑 100 次冷启动，P99 不超过 0.016ms 且 0 violations 才列入沙箱候选\n- [2] PwnEscape 公开 Firecracker VM 逃逸 → 受控 VM 复现 1 次成功即暂停该 VM 的 A2A 委派\n- [4x] Jev 求助 Opus 取得 Opus 级准确率 → 200 条样本成本比达 4 且准确率差小于 2 个百分点才切换路由\n- [3D] SketchAgentBench 把 3D 空间推理做成基准 → 本地 smoke 通过率低于 60% 则判定不满足接入条件\n- [$2,899 / $3,399] OLED 触控 MacBook Pro → 2 个以上独立来源确认效率提升才列入换机依据\n- [$1.3T] Anthropic 估值口径下修 → 后续口径与 1.3T 偏差小于 0.1T 才判定定价企稳\n- [$22 billion] Fox 收购 Roku → 覆盖数低于 100 million 超过 10% 即回原文复核\n- [12%] Airbnb 收涨 → 行情页无法复核则记 1 条 warning\n- [$41.1] 债务上限读数 → 官方数值偏差超过 1% 即从数据概览移除\n- [14-Year] 糖尿病随访研究 → 归一窗口短于该量级则判定不属日报可推断范围\n\n待验证信号：\n- 零信任运行时延迟可复现（100 次冷启动 P99 ≤ 0.016ms）→ 判定可纳入 Agent 沙箱候选\n- Anthropic 估值口径企稳（后续口径与 1.3T 偏差 < 0.1T）→ 判定定价分歧结束\n- Folo 摘要质量恢复（Comments 占比降到 0）→ 判定供数缺口收敛\n- Firecracker 逃逸可复现（受控 VM 成功 1 次）→ 判定需重审 WinVM 隔离层\n- 4x 成本优势可复现（200 条样本准确率差 < 2 个百分点）→ 判定可切换 LLM judge 路由\n\n内容仅供参考，外部事实未独立验证，不构成投资建议；取不到可靠数据处标注「暂无可靠数据」。",
   "watch_signals": [
     {
-      "signal": "MCP SDK 默认行为兼容性",
-      "threshold": "2 次会话 smoke 出现 1 次状态丢失",
-      "judgement": "判定 bridge 需显式声明有状态模式后再升级"
+      "signal": "AegisKernel 宣称的微秒级延迟能否复现",
+      "threshold": "在隔离测试环境跑 100 次冷启动，P99 延迟不超过 0.016ms 且核验 0 violations",
+      "judgement": "判定零信任运行时可纳入 Agent 沙箱候选，否则只作参考实现"
     },
     {
-      "signal": "Folo 基线占入选簇比例",
-      "threshold": "连续 3 日超过 50%",
-      "judgement": "判定规则层基线权重过高，需下调而非继续加码"
+      "signal": "Anthropic 估值口径是否企稳",
+      "threshold": "后续披露口径与 $1.3T 的偏差小于 0.1T",
+      "judgement": "判定定价分歧结束，可更新产业与资本板块基线"
     },
     {
-      "signal": "数字/实体白名单 warning 数",
-      "threshold": "单日大于 0 条",
-      "judgement": "判定信源摘要过短，先补摘要不放宽校验阈值"
+      "signal": "Folo 基线摘要缺失是否改善",
+      "threshold": "次日入报候选里摘要仅为 Comments 的条目占比降到 0",
+      "judgement": "判定供数质量恢复，恢复完整入报条数"
     },
     {
-      "signal": "无实质数字条目拒绝数",
-      "threshold": "单日大于 10 条",
-      "judgement": "判定上游供数缺读数，补摘要或换一手来源，不放宽白名单口径"
+      "signal": "Firecracker VM 逃逸是否推翻隔离假设",
+      "threshold": "在受控 VM 成功复现逃逸 1 次即触发",
+      "judgement": "判定需重审 WinVM Bridge 的 VM 侧隔离层并暂停该 VM 的 A2A 委派"
     },
     {
-      "signal": "信源可用率",
-      "threshold": "低于 70%",
-      "judgement": "触发 [降级] 出报并停止生成编者观察"
-    },
-    {
-      "signal": "七要素达标率",
-      "threshold": "低于 80%",
-      "judgement": "禁止分发，先修 ai-review 的原文白名单"
+      "signal": "4x 成本优势能否在本地 judge 链路复现",
+      "threshold": "对照 Opus 基线跑 200 条样本，成本比达到 4 且准确率差小于 2 个百分点",
+      "judgement": "判定可切换 LLM judge 路由，否则维持现有 provider 配置"
     }
   ],
   "reference_summary": [
-    {
-      "domain": "mp.weixin.qq.com",
-      "count": 4
-    },
-    {
-      "domain": "techmeme.com",
-      "count": 4
-    },
     {
       "domain": "bloomberg.com",
       "count": 3
     },
     {
-      "domain": "36kr.com",
-      "count": 3
-    },
-    {
-      "domain": "arxiv.org",
+      "domain": "macrumors.com",
       "count": 2
     },
     {
-      "domain": "latent.space",
+      "domain": "sketchagent.dev",
       "count": 1
     },
     {
-      "domain": "geeky-gadgets.com",
+      "domain": "hightouch.com",
       "count": 1
     },
     {
-      "domain": "infoq.cn",
-      "count": 1
-    },
-    {
-      "domain": "ernie.baidu.com",
-      "count": 1
-    },
-    {
-      "domain": "hachyderm.io",
+      "domain": "adikshatriyag-crypto.github.io",
       "count": 1
     },
     {
@@ -886,27 +502,35 @@
       "count": 1
     },
     {
-      "domain": "eu-startups.com",
+      "domain": "pwn.ai",
       "count": 1
     },
     {
-      "domain": "sspai.com",
+      "domain": "epyhia.com",
+      "count": 1
+    },
+    {
+      "domain": "theverge.com",
+      "count": 1
+    },
+    {
+      "domain": "scitechdaily.com",
       "count": 1
     }
   ],
   "stats": {
-    "sources_ok": 184,
+    "sources_ok": 182,
     "sources_total": 185,
-    "total_items": 3125,
-    "clusters": 3002,
+    "total_items": 2808,
+    "clusters": 2727,
     "selected": 40,
-    "published_items": 23,
-    "seven_element_pass": 23,
+    "published_items": 12,
+    "seven_element_pass": 12,
     "seven_element_ratio": 1.0,
-    "items_with_numbers": 23,
+    "items_with_numbers": 12,
     "substantive_number_ratio": 1.0,
     "rejected_no_number": 0,
-    "unique_reference_domains": 13
+    "unique_reference_domains": 10
   },
   "quality": {
     "ai_status": "ok",

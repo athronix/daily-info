@@ -7,6 +7,234 @@
   "language": "zh-CN",
   "items": [
     {
+      "id": "tag:daily-info.local,2026-11-07:c1501b2a0fee78d0",
+      "url": "https://scitechdaily.com/could-type-2-diabetes-be-reversed-14-year-study-reveals-remarkable-results",
+      "title": "Could Type 2 Diabetes Be Reversed? 14-Year Study Reveals Remarkable Results",
+      "summary": "一项 14-Year 随访研究显示减重手术带来的 Type 2 Diabetes 缓解多于强化内科管理 — 用十余年跨度而非短期指标下结论，正是长期随访与快照式观测的分界线",
+      "content_html": "<p><strong>一项 14-Year 随访研究显示减重手术带来的 Type 2 Diabetes 缓解多于强化内科管理</strong></p><p>关键数字：14-Year / 2 · 相关方：Type 2 Diabetes / weight-loss surgery</p><p>In a long-term trial, weight-loss surgery led to more type 2 diabetes remissions than intensive medical and lifestyle management, while… 〔Folo分类:重大学术科研突破〕</p><p><strong>为什么值得看：</strong>用十余年跨度而非短期指标下结论，正是长期随访与快照式观测的分界线</p><p><strong>对我意味着什么：</strong>对数据基建有间接参照：本流水线按固定窗口归一，长周期结论不能靠单日条目推出，需保留原始时间点</p><p><strong>下一步：</strong>核对归一脚本的窗口字段，若窗口短于 14-Year 量级则判定该结论不属于日报可推断范围</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-06T18:51 UTC · 归类：research-papers</p><p>→ <a href=\"https://scitechdaily.com/could-type-2-diabetes-be-reversed-14-year-study-reveals-remarkable-results\" rel=\"noopener noreferrer\">https://scitechdaily.com/could-type-2-diabetes-be-reversed-14-year-study-reveals-remarkable-results</a></p>",
+      "date_published": "2026-11-06T18:51:14.052000Z",
+      "date_modified": "2026-11-06T23:25:27.690104Z",
+      "tags": [
+        "research-papers",
+        "论文与学术"
+      ],
+      "_daily_info": {
+        "score": 74.86,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "c1501b2a0fee78d0",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-07:4b630aa6346380d7",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-06/airbnb-surges-on-growth-outlook-closing-bell-video",
+      "title": "Airbnb Surges 12% as Growth Accelerates and Outlook Rises | Closing Bell",
+      "summary": "Airbnb 因增长加速与展望上调收涨 12%，Bloomberg 收盘节目作跨平台报道 — 涨幅与基本面表述捆在同一标题里，需要把价格动作和原因拆开记录，避免叙事替代数据",
+      "content_html": "<p><strong>Airbnb 因增长加速与展望上调收涨 12%，Bloomberg 收盘节目作跨平台报道</strong></p><p>关键数字：12% · 相关方：Airbnb / Bloomberg</p><p>Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Kailey Leinz, Carol Massar and Tim Stenovec. (Source: Bloomberg)</p><p><strong>为什么值得看：</strong>涨幅与基本面表述捆在同一标题里，需要把价格动作和原因拆开记录，避免叙事替代数据</p><p><strong>对我意味着什么：</strong>暂无直接影响：个股波动与本项目的 skill、automation、数据基建无工程关联，仅保留读数与出处</p><p><strong>下一步：</strong>若行情页无法复核 12% 这一数值，则判定该条读数不可溯源并记 1 条 warning</p><p>来源：Bloomberg Markets · 发布于 2026-11-06T21:32 UTC · 归类：market-invest</p><p>→ <a href=\"https://www.bloomberg.com/news/videos/2026-11-06/airbnb-surges-on-growth-outlook-closing-bell-video\" rel=\"noopener noreferrer\">https://www.bloomberg.com/news/videos/2026-11-06/airbnb-surges-on-growth-outlook-closing-bell-video</a></p>",
+      "date_published": "2026-11-06T21:32:56Z",
+      "date_modified": "2026-11-06T23:25:27.690104Z",
+      "tags": [
+        "market-invest",
+        "市场与投资"
+      ],
+      "_daily_info": {
+        "score": 74.01,
+        "source": "Bloomberg Markets",
+        "cluster_id": "4b630aa6346380d7",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-07:3377a1f50cdc7a88",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-06/wall-street-sees-us-hitting-41-1-trillion-debt-cap-in-february",
+      "title": "Wall Street Sees US Hitting $41.1 Trillion Debt Cap in February",
+      "summary": "Wall Street 策略师预计 US Treasury 最早在 February 触及 $41.1 Trillion 债务上限 — 把宏观约束写成带金额和时点的可核验陈述，比笼统的风险提示更便于设定观察条件",
+      "content_html": "<p><strong>Wall Street 策略师预计 US Treasury 最早在 February 触及 $41.1 Trillion 债务上限</strong></p><p>关键数字：$41.1 · 相关方：Wall Street / US Treasury</p><p>Wall Street strategists are bracing for the US Treasury to hit against its borrowing limit as early as February, triggering the need for extraordinary measures before it faces a funding crunch in late 2027.</p><p><strong>为什么值得看：</strong>把宏观约束写成带金额和时点的可核验陈述，比笼统的风险提示更便于设定观察条件</p><p><strong>对我意味着什么：</strong>暂无直接影响：宏观财政数据不改变本项目的工程排期，仅作为公开市场读数与风险提示记录</p><p><strong>下一步：</strong>若官方口径的债务上限数值与 41.1 偏差超过 1%，则判定该读数失效并从数据概览移除</p><p>来源：Bloomberg Markets · 发布于 2026-11-06T20:33 UTC · 归类：market-invest</p><p>→ <a href=\"https://www.bloomberg.com/news/articles/2026-11-06/wall-street-sees-us-hitting-41-1-trillion-debt-cap-in-february\" rel=\"noopener noreferrer\">https://www.bloomberg.com/news/articles/2026-11-06/wall-street-sees-us-hitting-41-1-trillion-debt-cap-in-february</a></p>",
+      "date_published": "2026-11-06T20:33:40Z",
+      "date_modified": "2026-11-06T23:25:27.690104Z",
+      "tags": [
+        "market-invest",
+        "市场与投资"
+      ],
+      "_daily_info": {
+        "score": 74.9,
+        "source": "Bloomberg Markets",
+        "cluster_id": "3377a1f50cdc7a88",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-07:4e9391acd12d4c33",
+      "url": "https://www.theverge.com/streaming/1028629/fox-roku-acquisition-close",
+      "title": "Fox bought Roku",
+      "summary": "Fox 完成对 Roku 的 $22 billion 收购，触达超过 100 million U.S. households — 买的是分发入口而非模型能力，覆盖家庭数才是交易对价里的实质标的",
+      "content_html": "<p><strong>Fox 完成对 Roku 的 $22 billion 收购，触达超过 100 million U.S. households</strong></p><p>关键数字：$22 billion / 100 million · 相关方：Fox / Roku / Lachlan Murdoch</p><p>Fox completed its $22 billion acquisition of Roku, granting the company control over a major streaming platform that reaches over 100 million U.S. households. The deal enables Fox to distribute sports, news, and local station content via Roku. Fox CEO Lachlan Murdoch stated that integrating Fox cont</p><p><strong>为什么值得看：</strong>买的是分发入口而非模型能力，覆盖家庭数才是交易对价里的实质标的</p><p><strong>对我意味着什么：</strong>暂无直接影响：媒体渠道整合不改变 agent 部署链路，但可作为分发规模优于技术叙事的反例记下</p><p><strong>下一步：</strong>若后续披露的家庭覆盖数低于 100 million 超过 10%，则判定该口径需回原文复核</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-06T15:00 UTC · 归类：industry-capital</p><p>→ <a href=\"https://www.theverge.com/streaming/1028629/fox-roku-acquisition-close\" rel=\"noopener noreferrer\">https://www.theverge.com/streaming/1028629/fox-roku-acquisition-close</a></p>",
+      "date_published": "2026-11-06T15:00:56.756000Z",
+      "date_modified": "2026-11-06T23:25:27.690104Z",
+      "tags": [
+        "industry-capital",
+        "产业与资本"
+      ],
+      "_daily_info": {
+        "score": 74.13,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "4e9391acd12d4c33",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-07:60a18250dfd4eff6-c",
+      "url": "https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3-trillion-as-major-investors",
+      "title": "Anthropic IPO valuation talks drop to $1.3T",
+      "summary": "Anthropic IPO 估值谈判口径下调到 $1.3T — 估值从谈判口径被公开下修，说明买方与卖方对同一资产的定价尚未收敛",
+      "content_html": "<p><strong>Anthropic IPO 估值谈判口径下调到 $1.3T</strong></p><p>关键数字：$1.3T · 相关方：Anthropic</p><p>Comments 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>估值从谈判口径被公开下修，说明买方与卖方对同一资产的定价尚未收敛</p><p><strong>对我意味着什么：</strong>暂无直接影响：一级市场估值不进入 WorkBuddy 的成本模型，也不改变 MCP 与 skill 的工程依赖</p><p><strong>下一步：</strong>对照后续披露的估值口径，若与 1.3T 的偏差小于 0.1T 才判定定价企稳并更新板块基线</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-06T17:21 UTC · 归类：industry-capital</p><p>→ <a href=\"https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3-trillion-as-major-investors\" rel=\"noopener noreferrer\">https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3-trillion-as-major-investors</a></p><p>→ <a href=\"https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout\" rel=\"noopener noreferrer\">https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout</a></p>",
+      "date_published": "2026-11-06T17:21:15.387000Z",
+      "date_modified": "2026-11-06T23:25:27.690104Z",
+      "tags": [
+        "industry-capital",
+        "产业与资本"
+      ],
+      "_daily_info": {
+        "score": 77.11,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "60a18250dfd4eff6-c",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-07:a4281c90cf6927ea-c",
+      "url": "https://pwn.ai/blog/firecracker-escape",
+      "title": "Firecracker VM Escape: PwnEscape Part 2",
+      "summary": "PwnEscape 第 2 部分公开 Firecracker VM 逃逸路径 — 微 VM 常被当作 Agent 沙箱的默认隔离假设，逃逸复现会直接推翻这个假设",
+      "content_html": "<p><strong>PwnEscape 第 2 部分公开 Firecracker VM 逃逸路径</strong></p><p>关键数字：2 · 相关方：Firecracker / PwnEscape</p><p>Comments 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>微 VM 常被当作 Agent 沙箱的默认隔离假设，逃逸复现会直接推翻这个假设</p><p><strong>对我意味着什么：</strong>WinVM Bridge 的 VM 侧 Agent 与 A2A 委派路径依赖 VM 边界，逃逸一旦可复现就必须重审隔离层</p><p><strong>下一步：</strong>在受控 VM 尝试复现逃逸，若 1 次成功即判定隔离假设失效并暂停该 VM 的 A2A 委派</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-06T19:33 UTC · 归类：dev-tools</p><p>→ <a href=\"https://pwn.ai/blog/firecracker-escape\" rel=\"noopener noreferrer\">https://pwn.ai/blog/firecracker-escape</a></p>",
+      "date_published": "2026-11-06T19:33:38.271000Z",
+      "date_modified": "2026-11-06T23:25:27.690104Z",
+      "tags": [
+        "dev-tools",
+        "安全与治理"
+      ],
+      "_daily_info": {
+        "score": 76.93,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "a4281c90cf6927ea-c",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-07:5e722243eff5bdd6",
+      "url": "https://www.macrumors.com/how-to/turn-glowing-apple-logo-macbook-pro",
+      "title": "Control the Glowing Apple Logo on Your New MacBook Pro",
+      "summary": "14 与 16 英寸 MacBook Pro 的发光 Apple logo 需在 Terminal 用命令关闭 — 开关不进系统设置而落到命令行，说明厂商把低频定制留给了可脚本化通道",
+      "content_html": "<p><strong>14 与 16 英寸 MacBook Pro 的发光 Apple logo 需在 Terminal 用命令关闭</strong></p><p>关键数字：14 / 16 · 相关方：MacBook Pro / Apple / Terminal</p><p>New 14-inch and 16-inch MacBook Pro models reintroduce the illuminated Apple logo, which automatically adjusts to ambient light. To disable this feature, users must execute a specific command in the Terminal application, as it is not available in System Settings. This action turns off the light imme</p><p><strong>为什么值得看：</strong>开关不进系统设置而落到命令行，说明厂商把低频定制留给了可脚本化通道</p><p><strong>对我意味着什么：</strong>对 automation 有借鉴：可脚本化的开关应配一份可回滚命令清单，本机设备配置才能进幂等流水线</p><p><strong>下一步：</strong>把该命令纳入设备配置脚本并跑一次 dry-run，若 0 处副作用才允许在其它机器复用</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-06T20:03 UTC · 归类：docs-changelog</p><p>→ <a href=\"https://www.macrumors.com/how-to/turn-glowing-apple-logo-macbook-pro\" rel=\"noopener noreferrer\">https://www.macrumors.com/how-to/turn-glowing-apple-logo-macbook-pro</a></p>",
+      "date_published": "2026-11-06T20:03:09.496000Z",
+      "date_modified": "2026-11-06T23:25:27.690104Z",
+      "tags": [
+        "docs-changelog",
+        "开发者工具与版本"
+      ],
+      "_daily_info": {
+        "score": 75.66,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "5e722243eff5bdd6",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-07:c18d0ced5e118c57",
+      "url": "https://www.macrumors.com/2026/11/06/oled-macbook-pro-hands-on",
+      "title": "Hands-On With Apple's New OLED Touchscreen MacBook Pro",
+      "summary": "Apple 的 OLED 触控 MacBook Pro 提供 14 与 16 英寸机型，起价分别为 $2,899 与 $3,399 — 原文自己下了判断：触控属增量改进而非笔记本交互的根本变化，硬件叙事需要打折读",
+      "content_html": "<p><strong>Apple 的 OLED 触控 MacBook Pro 提供 14 与 16 英寸机型，起价分别为 $2,899 与 $3,399</strong></p><p>关键数字：$2,899 / $3,399 / 14 / 16 · 相关方：Apple / MacBook Pro / OLED XDR / M5 Pro</p><p>Apple’s new PROLED MacBook Pro, launched in 2026, replaces the previous mini-LED model with a thinner, lighter, and more responsive design. It features an OLED XDR display with touch capabilities, including swipe, tap, and pinch-to-zoom gestures, alongside a Dynamic Island for Siri and Live Activiti</p><p><strong>为什么值得看：</strong>原文自己下了判断：触控属增量改进而非笔记本交互的根本变化，硬件叙事需要打折读</p><p><strong>对我意味着什么：</strong>对 WinVM 与数据基建暂无直接影响：本机形态不改变 agent 部署与 MCP 通道，仅影响本地开发设备选型</p><p><strong>下一步：</strong>若后续出现 2 个以上独立来源确认触控提升效率，才把它列入开发机换机依据</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-06T22:05 UTC · 归类：docs-changelog</p><p>→ <a href=\"https://www.macrumors.com/2026/11/06/oled-macbook-pro-hands-on\" rel=\"noopener noreferrer\">https://www.macrumors.com/2026/11/06/oled-macbook-pro-hands-on</a></p>",
+      "date_published": "2026-11-06T22:05:59.161000Z",
+      "date_modified": "2026-11-06T23:25:27.690104Z",
+      "tags": [
+        "docs-changelog",
+        "开发者工具与版本"
+      ],
+      "_daily_info": {
+        "score": 77.12,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "c18d0ced5e118c57",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-07:35670172de926c8a",
+      "url": "https://dev.to/natuworkguy/my-ai-agent-called-me-at-2am-i-picked-up-it-had-already-found-the-bug-bcb",
+      "title": "My AI agent called me at 2am. I picked up. It had already found the bug.",
+      "summary": "一位开发者的后台 AI agent 在 2am 主动来电，且已先定位到 bug — 后台 Agent 从被动应答转向主动打断，通知时机本身成了需要设计的权限面",
+      "content_html": "<p><strong>一位开发者的后台 AI agent 在 2am 主动来电，且已先定位到 bug</strong></p><p>关键数字：2 · 相关方：AI agent</p><p>My phone didn&#x27;t ring. My laptop did. A soft two-tone ring, a card sliding up over my half-finished code, and a name I gave a background… 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>后台 Agent 从被动应答转向主动打断，通知时机本身成了需要设计的权限面</p><p><strong>对我意味着什么：</strong>automation 定时任务默认不外发，但主动来电这类交互要求先有静默时段与授权门槛，否则会打断人</p><p><strong>下一步：</strong>给通知链路设静默窗口，若非工作时段触发 1 次即判定该主动通道应默认关闭并回到人工确认</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-06T18:26 UTC · 归类：agent-engineering</p><p>→ <a href=\"https://dev.to/natuworkguy/my-ai-agent-called-me-at-2am-i-picked-up-it-had-already-found-the-bug-bcb\" rel=\"noopener noreferrer\">https://dev.to/natuworkguy/my-ai-agent-called-me-at-2am-i-picked-up-it-had-already-found-the-bug-bcb</a></p>",
+      "date_published": "2026-11-06T18:26:58.717000Z",
+      "date_modified": "2026-11-06T23:25:27.690104Z",
+      "tags": [
+        "agent-engineering",
+        "Agent 与工程"
+      ],
+      "_daily_info": {
+        "score": 76.2,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "35670172de926c8a",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-07:442c2eb5c2c85552-c",
+      "url": "https://adikshatriyag-crypto.github.io/aegis-kernel",
+      "title": "Show HN: AegisKernel – Zero-trust POSIX runtime for AI agents in <0.016ms",
+      "summary": "AegisKernel 宣称面向 AI agents 的零信任 POSIX 运行时开销低于 0.016ms — 把权限隔离的代价写成延迟数字，说明零信任不再只是架构口号，而是可测的工程开销",
+      "content_html": "<p><strong>AegisKernel 宣称面向 AI agents 的零信任 POSIX 运行时开销低于 0.016ms</strong></p><p>关键数字：0.016ms · 相关方：AegisKernel / POSIX / AI agents</p><p>Comments 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>把权限隔离的代价写成延迟数字，说明零信任不再只是架构口号，而是可测的工程开销</p><p><strong>对我意味着什么：</strong>WinVM Bridge 的 VM 侧隔离层与 MCP 直连路径都能拿这个数当预算上限，判断零信任是否值得引入</p><p><strong>下一步：</strong>在隔离测试环境跑 100 次冷启动，若 P99 延迟不超过 0.016ms 且 0 violations 才列入沙箱候选</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-06T17:00 UTC · 归类：community</p><p>→ <a href=\"https://adikshatriyag-crypto.github.io/aegis-kernel\" rel=\"noopener noreferrer\">https://adikshatriyag-crypto.github.io/aegis-kernel</a></p>",
+      "date_published": "2026-11-06T17:00:23.052000Z",
+      "date_modified": "2026-11-06T23:25:27.690104Z",
+      "tags": [
+        "community",
+        "Agent 与工程"
+      ],
+      "_daily_info": {
+        "score": 76.89,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "442c2eb5c2c85552-c",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-07:ef2a83f7f3a44d74",
+      "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
+      "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
+      "summary": "可求助 Opus 的 Jev 以 4x 更低成本取得 Opus 级准确率 — 把 LLM judge 的成本与准确率同时量化，路由策略第一次有了可对照的两个维度",
+      "content_html": "<p><strong>可求助 Opus 的 Jev 以 4x 更低成本取得 Opus 级准确率</strong></p><p>关键数字：4x · 相关方：Opus / Jev</p><p>Comments 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>把 LLM judge 的成本与准确率同时量化，路由策略第一次有了可对照的两个维度</p><p><strong>对我意味着什么：</strong>WorkBuddy 的 LLM provider V1 若引入分级 judge，可照此设成本上限，避免所有请求都走高价模型</p><p><strong>下一步：</strong>对照 Opus 基线跑 200 条样本，若成本比达到 4 且准确率差小于 2 个百分点才判定可切换路由</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-06T19:48 UTC · 归类：dev-tools</p><p>证据状态：推断</p><p>→ <a href=\"https://hightouch.com/blog/llm-judges-identity-resolution\" rel=\"noopener noreferrer\">https://hightouch.com/blog/llm-judges-identity-resolution</a></p>",
+      "date_published": "2026-11-06T19:48:51.048000Z",
+      "date_modified": "2026-11-06T23:25:27.690104Z",
+      "tags": [
+        "dev-tools",
+        "模型与研究"
+      ],
+      "_daily_info": {
+        "score": 77.1,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "ef2a83f7f3a44d74",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-07:46db23cc1210bae5",
+      "url": "https://sketchagent.dev/",
+      "title": "SketchAgentBench – evaluate LLMs on 3D spatial reasoning",
+      "summary": "SketchAgentBench 把 LLMs 的 3D 空间推理做成可跑的评测基准 — 空间推理从定性描述变成有基准可打分的对象，Agent 能力声明开始需要独立复现",
+      "content_html": "<p><strong>SketchAgentBench 把 LLMs 的 3D 空间推理做成可跑的评测基准</strong></p><p>关键数字：3D · 相关方：SketchAgentBench / LLMs</p><p>Comments 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>空间推理从定性描述变成有基准可打分的对象，Agent 能力声明开始需要独立复现</p><p><strong>对我意味着什么：</strong>WinVM Bridge 与 3D 资产链路都依赖空间理解，该基准可直接用作 agent 部署前的验收项，替代主观描述</p><p><strong>下一步：</strong>取该基准跑一次本地 smoke，若 3D 任务通过率低于 60% 则判定当前 provider 不满足空间推理接入条件</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-06T20:28 UTC · 归类：agent-engineering</p><p>→ <a href=\"https://sketchagent.dev/\" rel=\"noopener noreferrer\">https://sketchagent.dev/</a></p>",
+      "date_published": "2026-11-06T20:28:24.123000Z",
+      "date_modified": "2026-11-06T23:25:27.690104Z",
+      "tags": [
+        "agent-engineering",
+        "模型与研究"
+      ],
+      "_daily_info": {
+        "score": 80.75,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "46db23cc1210bae5",
+        "ai_status": "ok"
+      }
+    },
+    {
       "id": "tag:daily-info.local,2026-11-05:86809fee4f8cf7e7",
       "url": "https://sspai.com/post/118541",
       "title": "新玩意 255｜少数派的编辑们最近买了啥？",

@@ -5,8 +5,35 @@
     "timezone": "Asia/Shanghai",
     "version": "1.0.0"
   },
-  "generated_at": "2026-11-05T11:52:53.812318Z",
+  "generated_at": "2026-11-06T23:25:27.690104Z",
   "dates": [
+    {
+      "date": "2026-11-07",
+      "headline": "运行时延迟与 VM 逃逸同日出现，Agent 工程的瓶颈已从模型转向权限与隔离，资本定价仍在松动",
+      "lead": "AegisKernel 把零信任 POSIX 运行时压到 <0.016ms，同一天 Firecracker VM 逃逸被公开；Anthropic 的 IPO 估值口径下修到 $1.3T，Fox 以 $22 billion 完成对 Roku 的收购。张力在于：隔离与权限的读数在收紧，资本定价却在松动——工程侧能复现的数，和交易侧仍在重估的数，构成今天最清楚的对照。",
+      "demo": false,
+      "stats": {
+        "sources_ok": 182,
+        "sources_total": 185,
+        "total_items": 2808,
+        "clusters": 2727,
+        "selected": 40,
+        "published_items": 12,
+        "seven_element_pass": 12,
+        "seven_element_ratio": 1.0,
+        "items_with_numbers": 12,
+        "substantive_number_ratio": 1.0,
+        "rejected_no_number": 0,
+        "unique_reference_domains": 10
+      },
+      "section_count": 7,
+      "item_count": 12,
+      "ai_status": "ok",
+      "seven_element_ratio": 1.0,
+      "theme_count": 7,
+      "watch_signal_count": 5,
+      "reference_domains": 10
+    },
     {
       "date": "2026-11-05",
       "headline": "开源权重压低了能力门槛，验收与配置抬高了落地门槛",
