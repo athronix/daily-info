@@ -407,3 +407,32 @@ Chrome headless `--dump-dom` 双场景断言 16/16（`reports/site-ui-check-2026
 **验收**：Chrome headless `getComputedStyle` 双场景 **13/13**
 （`reports/site-theme-check-2026-11-06.md`），含同一 `--user-data-dir` 二次访问验证
 `localStorage` 记忆；`check_release.py` **34/34**。
+
+## P34 · 定时任务改为「每日默认分发」时，别把清单字段当成授权闸门
+
+**现象**：2026-11-09 用户把「上传资料库、发布站点、git push、触发 GitHub Actions」
+设为每日默认、邮件仍单独授权后，若只改任务 prompt 而不说明清单语义，无人值守运行会看到
+`pending-dispatch-<date>.json` 里 `requires_user_authorization: true` 与
+`status: pending_authorization`，从而误判「仍需用户授权」、跳过本该自动执行的通道，
+或反过来把邮件也一起发出去。
+
+**根因**：这两个字段描述的是 **P30 的脚本能力边界**（四支脚本只能本地准备、
+绝不自行外发），不是「本次运行是否获得授权」。脚本无法感知定时任务的长期授权策略，
+也不该被改成会自动外发。
+
+**规避**：
+1. 脚本边界保持不动，`push_daily.py` 仍默认 dry-run、`--apply` 只产本地 payload；
+2. 在定时任务 prompt 里明确写出默认通道清单与真待授权通道，并显式声明清单字段的语义；
+3. 执行前查 `push-log.jsonl`（`prepared` / `dispatched` 双状态去重），
+   执行后写 `dispatch-receipt-<date>.json` 并追加 `dispatched` 留痕；
+4. 核验闸门（日期匹配 + `violations=0` + 凭据扫描干净）任一失败时**所有通道整体停止**，
+   不能只停邮件；
+5. 发布顺序固定 `git push origin main` → `gh workflow run pages.yml --ref main` →
+   `gh run watch` → 线上验收。CI 会 checkout main 重跑 `prepare_pages.py`，顺序反了会发布旧内容。
+   workflow 仍是 `workflow_dispatch`，**不要**改成 push 自动部署；
+6. 线上验收解析 Atom 用 ElementTree 或命名空间无关正则（标签带 `ns0:` 前缀，裸 `<id>` 正则
+   会得到 0 并误报 FAIL，见 `MEMORY.md` 的站点发布路径条目）。
+
+**实证**：2026-11-09 人工授权演练一轮，库 6 文件上传、commit `999f282`、
+run `42555858003` success、线上 10/10、稳定 ID 101/101，
+凭证 `data/state/dispatch-receipt-2026-11-09.json`。

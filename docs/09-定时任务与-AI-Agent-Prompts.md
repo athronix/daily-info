@@ -2,6 +2,8 @@
 
 > **v2 更新**：`daily-digest.md` 与 `automation-daily.md` 均已升级为七要素版；
 > 汇报要求增加「七要素达标率」与「核验含 V8」。内容规范见 `config/content-spec.json`、`docs/12`。
+> **v3 更新（2026-11-09）**：定时任务第四步改为「资料库 / 站点 / git push / Pages workflow
+> 每日默认执行，邮件单独授权」；完整可复制 prompt 见 `assets/prompts/automation-daily.md`。
 
 > 所有可复制的 prompt 都在 `assets/prompts/`，本文是索引与配置说明。
 > **prompt 里不写调度时间 / 工作目录**（这些属于任务配置字段），避免未来改配置时两处冲突。
@@ -76,8 +78,10 @@
   check_release.py → push_daily.py --apply
   脚本只做本地 payload：资料库沉淀包（items.csv / no-number.csv / manifest）、
   邮件正文 email.html、push-log.jsonl 幂等记录、pending-dispatch-<date>.json 待授权清单。
-  **外部动作（agent-mail / 企微 / 资料库 / 站点上线）仅在本次运行确实获得授权时，
-  由 Agent 按 pending-dispatch 清单执行；未授权只汇报待授权数，不发送。**
+  **外部动作由 Agent 按 pending-dispatch 清单执行。2026-11-09 起定时任务默认自动执行
+  library / site / atom / jsonfeed（资料库上传、git push、触发 Pages workflow、线上验收，
+  顺序不能反）；email 仍需当次单独明确授权，wecom 保持 disabled。核验闸门失败则当日整体停止。
+  清单里的 pending_authorization 只是「脚本不自行外发」的边界标记，不是运行时授权闸门。**
 
 5. 汇报
   信源成功/启用 → 原始 → 归一 → 簇 → 入报 → 无实质数字被拒数 → 七要素达标率 →

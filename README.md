@@ -95,12 +95,15 @@ fetch_sources → fetch_folo(Folo 基线) → normalize → dedupe_cluster
 
 - GitHub Pages：`assets/deploy/github-pages.yml` 是模板，`.github/workflows/pages.yml` 是授权后激活的工作副本，
   **仅 `workflow_dispatch` 手动触发**；`prepare_pages.py` 负责绝对地址替换、`.nojekyll`、稳定 `tag:` ID 保留与发布前校验。
-- 主链路定时任务：每天 06:45（`FREQ=DAILY;BYHOUR=6;BYMINUTE=45`）跑全链路，
-  **默认不自动对外发送**——不发邮件、不上传资料库、不发布站点、不 git push、不触发 Actions。
+- 主链路定时任务：每天 06:45（`FREQ=DAILY;BYHOUR=6;BYMINUTE=45`）跑全链路。
+  **2026-11-09 起每日默认自动执行**：上传资料库沉淀包 6 文件、`git push origin main`、
+  `gh workflow run pages.yml --ref main` 并做线上验收（workflow 仍是 `workflow_dispatch`，
+  由任务调用，**未**改成 push 自动部署）；邮件仍保留当次单独授权，企微保持 `disabled`。
 - 四支分发脚本（`export_library.py` / `render_email.py` / `push_daily.py` / `check_release.py`）
-  只做本地准备；`push_daily.py --apply` 生成 `data/state/pending-dispatch-<date>.json` 待授权清单，
-  外部动作一律由 Agent 在**用户单独明确授权**后执行，并用 `push-log.jsonl` 按「日期 + 通道」幂等。
-- 核验闸门：报告日期匹配 + `violations=0` + 凭据扫描干净，任一失败整体拒发。
+  仍**只做本地准备**；`push_daily.py --apply` 生成 `data/state/pending-dispatch-<date>.json` 动作清单，
+  由 Agent 按上面的默认授权策略执行，并用 `push-log.jsonl` 按「日期 + 通道」幂等。
+  清单里的 `pending_authorization` 描述的是「脚本不自行外发」的能力边界，不是运行时授权闸门。
+- 核验闸门：报告日期匹配 + `violations=0` + 凭据扫描干净，任一失败**当日所有外部动作整体停止**。
 
 > Free 账户只能从 public 仓库发布 Pages，**站点发布后永久公开**；仓库内 `data/digest/` 历史会一并公开。
 > 发布前凭据扫描与占位域名检查见 `docs/16` 与 `reports/pages-live-check-2026-11-06.md`。

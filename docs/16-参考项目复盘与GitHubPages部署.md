@@ -135,13 +135,20 @@ Atom 可解析且稳定 ID 未变、feed 级 self/alternate 指向新域名、JS
 | --- | --- | --- | --- |
 | 1 | 创建 public 仓库 `daily-info`、设置 remote、push 全部提交 | 外部可见 / 不可逆公开 | ✅ 已执行：3 提交，`athronix/daily-info` public |
 | 2 | 激活 `.github/workflows/pages.yml` 并触发部署 | 站点上线 | ✅ 已执行：run `42159781336` success，线上 15/15 200 |
-| 3 | 创建「每日信息 · 主链路」定时任务（每天 06:45） | 自动调度 | ✅ 已执行：ACTIVE，默认不自动外发 |
+| 3 | 创建「每日信息 · 主链路」定时任务（每天 06:45） | 自动调度 | ✅ 已执行：ACTIVE；2026-11-09 起改为资料库 / 站点 / push / workflow 每日默认，邮件单独授权 |
 | 4 | 实发邮件日报 / 上传资料库 / 企微推送 | 对外发送 | ✅ 邮件与资料库已执行；企微仍 `disabled` |
 
 四项由用户逐项勾选授权后执行。执行凭证：
 `data/state/dispatch-receipt-2026-11-06.json`（含 node_id / file_id / run id / automation id）
 与 `data/state/push-log.jsonl`（追加 5 条 `dispatched`，共 10 行）。
 线上复核、偏离项与风险见 `reports/pages-live-check-2026-11-06.md`。
+
+**2026-11-09 策略变更**：用户把「上传资料库、发布站点、git push、触发 Pages workflow」
+设为定时任务每日默认动作，邮件仍单独授权。注意 workflow 触发方式**未改**——
+仍是 `workflow_dispatch`，只是由任务调用 `gh workflow run pages.yml --ref main`；
+表格里「可授权后加 `push` 自动」这条备选方案并未采用。四支脚本依旧只做本地准备。
+当日演练凭证见 `data/state/dispatch-receipt-2026-11-09.json`，线上验收见
+`reports/pages-live-check-2026-11-09.md`（10/10）。
 
 **两项如实记录的偏离**：
 1. 邮件正文改为摘要版 HTML，完整 18387 字 `email.html` 作为第 3 个附件随信发送

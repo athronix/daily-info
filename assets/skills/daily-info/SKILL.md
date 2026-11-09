@@ -39,9 +39,15 @@ metadata:
 6b. **凭据约定**（pitfalls P25）：token/邮箱只存宿主 `~/.workbuddy/.env`，采集链经
    `common.load_dotenv()` 注入进程环境，`sources.json` 仅 `${VAR}` 占位；值缺失自动回退匿名。
    日志与落盘经 `redact_credentials` 脱敏，任何输出与仓库文件禁止出现明文凭据。
-7. **分发需用户明确授权**：`push_daily.py` 只做核验闸门、幂等记录与本地 payload 准备，
-   默认 dry-run；邮件 / 企微 / 资料库 / 站点上线一律由 Agent 读取
-   `data/state/pending-dispatch-<date>.json` 后在授权下执行，脚本不得自行调用外部工具。
+7. **分发授权分两级（2026-11-09 起）**：`push_daily.py` 只做核验闸门、幂等记录与本地
+   payload 准备，默认 dry-run，脚本不得自行调用外部工具。Agent 读取
+   `data/state/pending-dispatch-<date>.json` 后：
+   - **每日默认自动执行（无需逐次询问）**：`library`（6 份终态产物上传资料库）、
+     `site` / `atom` / `jsonfeed`（git push → `gh workflow run pages.yml` → 线上验收）；
+   - **仍需当次单独明确授权**：`email`（agent-mail 实发）、`wecom`（当前 `disabled`）。
+   核验闸门（日期匹配 + `violations=0` + 凭据扫描干净）任一失败则整体停止；
+   执行前查 `push-log.jsonl` 幂等，执行后写 `dispatch-receipt-<date>.json`。
+   清单里的 `pending_authorization` 只是「脚本不自行外发」的边界标记，不是运行时闸门。
 8. **不擅自创建定时任务**：每日主链路的 prompt 与 rrule 已就绪，但任务会每天自动调度并可能推送，
    创建前必须单独确认。
 
@@ -74,6 +80,7 @@ metadata:
 | 分发编排（默认 dry-run；`--apply` 只准备 payload） | `python scripts/push_daily.py --date <date> [--apply] [--force]` |
 | 站点端到端验收（IPv6 ::1 回环，实发 HTTP） | `python scripts/check_release.py --date <date>` |
 | GitHub Pages 部署副本（默认 dry-run，不联网不 push） | `python scripts/prepare_pages.py --base-url https://<owner>.github.io/<repo> [--apply]` |
+| 站点发布（定时任务每日默认，需 gh 认证） | `git push origin main` → `gh workflow run pages.yml --ref main` → `gh run watch`（顺序不能反） |
 
 ## 标准工作流
 
