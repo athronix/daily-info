@@ -5,10 +5,50 @@
   <ns0:subtitle>挖掘 · 聚合 · 研判 · 订阅；每条附原文链接；内容仅供参考，不构成投资建议</ns0:subtitle>
   <ns0:link rel="self" type="application/atom+xml" href="https://daily-info.local/invest.atom" />
   <ns0:link rel="alternate" type="text/html" href="https://daily-info.local/index.html" />
-  <ns0:updated>2026-11-06T23:25:27.690104Z</ns0:updated>
+  <ns0:updated>2026-11-09T01:51:44.934256Z</ns0:updated>
   <ns0:author>
     <ns0:name>Personal Daily Info</ns0:name>
   </ns0:author>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-09:23fa35e7fe308eba</ns0:id>
+    <ns0:title>[论文与学术] Small histone differences help shape gene regulation during sperm development</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://phys.org/news/2026-11-small-histone-differences-gene-sperm.html" />
+    <ns0:published>2026-11-09T00:10:01.068000Z</ns0:published>
+    <ns0:updated>2026-11-09T01:51:44.934256Z</ns0:updated>
+    <ns0:category term="industry-capital" label="论文与学术" />
+    <ns0:summary type="text">Researchers from Kyushu University have found that H3mm15, a histone H3.3 subvariant, contributes to normal sperm development in mice by… 〔Folo分类:重大学术科研突破〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;九州大学研究者发现组蛋白 H3.3 亚型 H3mm15 参与小鼠精子发育的正常调控&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：H3mm15 / H3.3 · 相关方：Kyushu University / H3mm15 / H3.3 / histone&lt;/p&gt;&lt;p&gt;Researchers from Kyushu University have found that H3mm15, a histone H3.3 subvariant, contributes to normal sperm development in mice by… 〔Folo分类:重大学术科研突破〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;用具体亚型编号而非笼统的组蛋白修饰来定位机制，结论才能被后续实验逐项复核。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;暂无直接影响：属表观遗传学研究，与 WorkBuddy、MCP 及 agent 部署无工程交集，仅作可核验标识符样例。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对 H3mm15 与 H3.3 是否在同篇报告中被明确区分，若 2 个编号指向同一对象则判定表述冗余。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-09T00:10 UTC · 归类：industry-capital&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://phys.org/news/2026-11-small-histone-differences-gene-sperm.html" rel="noopener noreferrer"&gt;https://phys.org/news/2026-11-small-histone-differences-gene-sperm.html&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-09:8eab40c7ce416e4d-c</ns0:id>
+    <ns0:title>[市场与投资] OpenAI raises $11B at a $1.25T valuation</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought" />
+    <ns0:published>2026-11-08T14:49:23.251000Z</ns0:published>
+    <ns0:updated>2026-11-09T01:51:44.934256Z</ns0:updated>
+    <ns0:category term="industry-capital" label="市场与投资" />
+    <ns0:summary type="text">Comments 〔Folo分类:开源项目〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;一条 Folo 基线目标题称 OpenAI 以 $11B 融资对应 $1.25T 估值，摘要仅剩 Comments 无进一步细节&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：$11B / $1.25T · 相关方：OpenAI&lt;/p&gt;&lt;p&gt;Comments 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;标题给出融资额与估值两个量级，但摘要缺失使口径无法核对，属于典型的可读不可引条目。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建的提醒：候选集应把标题数字与可核验摘要分开标记，缺摘要时不得当作完整事实入报。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;补一手来源核对 $11B 与 $1.25T 是否分别对应融资额与估值，若 2 个数字口径混淆则判定该条不可引用。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-08T14:49 UTC · 归类：industry-capital&lt;/p&gt;&lt;p&gt;证据状态：未独立验证&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought" rel="noopener noreferrer"&gt;https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-08:2386b4dfa2a506fe</ns0:id>
+    <ns0:title>[市场与投资] US Treasury moves to cut crypto exchange MEXC off from the US financial system, alleging $16B+ in illicit flows, including Russian and Iranian sanctions evasion (Francisco Rodrigues/CoinDesk)</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.techmeme.com/261107/p16" />
+    <ns0:published>2026-11-07T22:45:01Z</ns0:published>
+    <ns0:updated>2026-11-07T22:57:49.350240Z</ns0:updated>
+    <ns0:category term="market-invest" label="市场与投资" />
+    <ns0:summary type="text">Francisco Rodrigues / CoinDesk: US Treasury moves to cut crypto exchange MEXC off from the US financial system, alleging $16B+ in illicit flows, including Russian and Iranian sanctions evasion — The U.S. Treasury is moving to cut off crypto exchange MEXC from the U.S. financial system, alleging that</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;CoinDesk 报道 US Treasury 拟将加密交易所 MEXC 移出美国金融体系，指控涉及 $16B+ 非法资金流&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：$16B+ · 相关方：US Treasury / MEXC / CoinDesk / Francisco Rodrigues&lt;/p&gt;&lt;p&gt;Francisco Rodrigues / CoinDesk: US Treasury moves to cut crypto exchange MEXC off from the US financial system, alleging $16B+ in illicit flows, including Russian and Iranian sanctions evasion — The U.S. Treasury is moving to cut off crypto exchange MEXC from the U.S. financial system, alleging that&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;以金额量级而非个案数量描述资金流风险，说明合规判定越来越依赖可聚合的资金链数据。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建的提醒：本流水线的发布闸门同样需要可聚合的违规计数，而不是逐条人工确认。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照 push-log.jsonl 统计同日同通道重复处理次数，若大于 0 则判定幂等记录失效并暂停分发。&lt;/p&gt;&lt;p&gt;来源：Techmeme · 发布于 2026-11-07T22:45 UTC · 归类：market-invest&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.techmeme.com/261107/p16" rel="noopener noreferrer"&gt;https://www.techmeme.com/261107/p16&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-08:d2d1f6badb7e1a42</ns0:id>
+    <ns0:title>[市场与投资] 《财新周刊》第1230期</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://weekly.caixin.com/2026/cw1230" />
+    <ns0:published>2026-11-07T12:03:36.094000Z</ns0:published>
+    <ns0:updated>2026-11-07T22:57:49.350240Z</ns0:updated>
+    <ns0:category term="market-invest" label="市场与投资" />
+    <ns0:summary type="text">Caixin Weekly Issue 1230 covers U.S. midterm election results that weakened Trump’s political power, the stalled UN Secretary-General selection, and China’s shift in interest rate benchmarking. Financial sections address carbon accounting, insurance equity volatility, and the Fed’s tightening path. </ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;《财新周刊》第1230期出刊，财经板块涉及利率基准调整、碳核算与保险权益波动等议题&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：1230 · 相关方：财新周刊 / Caixin Weekly / interest rate benchmarking / carbon accounting&lt;/p&gt;&lt;p&gt;Caixin Weekly Issue 1230 covers U.S. midterm election results that weakened Trump’s political power, the stalled UN Secretary-General selection, and China’s shift in interest rate benchmarking. Financial sections address carbon accounting, insurance equity volatility, and the Fed’s tightening path. &lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把利率基准与碳核算放在同一期，说明定价口径变化已成为跨市场的共同变量。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;暂无直接影响：属财经期刊目录，与 agent 部署及数据基建无工程交集，仅作规则层采集覆盖度的样本。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对该期目录与站点摘要是否逐条对应，若缺失条目超过 2 条则判定该信源摘要不完整。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-07T12:03 UTC · 归类：market-invest&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://weekly.caixin.com/2026/cw1230" rel="noopener noreferrer"&gt;https://weekly.caixin.com/2026/cw1230&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:daily-info.local,2026-11-07:4b630aa6346380d7</ns0:id>
     <ns0:title>[市场与投资] Airbnb Surges 12% as Growth Accelerates and Outlook Rises | Closing Bell</ns0:title>

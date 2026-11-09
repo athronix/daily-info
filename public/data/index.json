@@ -5,8 +5,62 @@
     "timezone": "Asia/Shanghai",
     "version": "1.0.0"
   },
-  "generated_at": "2026-11-06T23:25:27.690104Z",
+  "generated_at": "2026-11-09T01:51:44.934256Z",
   "dates": [
+    {
+      "date": "2026-11-09",
+      "headline": "先证伪再采信：今天真正有分量的进展，都附了可复测的分母或自己会失败的闸门",
+      "lead": "今天最硬的两个读数都带反例：DeepSeek Harness 披露 154 万日活、约 3.5 万第三方插件，公告却在补插件 API 稳定性；XBOW 在 65 个含漏洞应用上实测 GPT-6 Cyber 比 GPT-6.1 Sol 快约 2 倍，却少解出 5 个目标。规模与能力的账，都得先对上分母再采信。",
+      "demo": false,
+      "stats": {
+        "sources_ok": 184,
+        "sources_total": 185,
+        "total_items": 1177,
+        "clusters": 1095,
+        "selected": 40,
+        "published_items": 16,
+        "seven_element_pass": 16,
+        "seven_element_ratio": 1.0,
+        "items_with_numbers": 16,
+        "substantive_number_ratio": 1.0,
+        "rejected_no_number": 0,
+        "unique_reference_domains": 8
+      },
+      "section_count": 9,
+      "item_count": 16,
+      "ai_status": "ok",
+      "seven_element_ratio": 1.0,
+      "theme_count": 7,
+      "watch_signal_count": 5,
+      "reference_domains": 8
+    },
+    {
+      "date": "2026-11-08",
+      "headline": "权限的账比参数先到期：会失败的闸门与可下载的数据，正成为 agent 工程的硬指标",
+      "lead": "今天的读数分成两端：一端是 Claude Code 的 1,122 个公开 GitHub 文件暴露口令，以及被指控涉 $16B+ 非法资金流的加密交易所；另一端是 Ling-3.2-flash 把上下文拉到 1M token、Claude 把穹窿体提纯从 3 天压到 90 分钟。权限与规模的账，比模型能力更先到期。",
+      "demo": false,
+      "stats": {
+        "sources_ok": 183,
+        "sources_total": 185,
+        "total_items": 1379,
+        "clusters": 1246,
+        "selected": 40,
+        "published_items": 18,
+        "seven_element_pass": 18,
+        "seven_element_ratio": 1.0,
+        "items_with_numbers": 18,
+        "substantive_number_ratio": 1.0,
+        "rejected_no_number": 0,
+        "unique_reference_domains": 13
+      },
+      "section_count": 8,
+      "item_count": 18,
+      "ai_status": "ok",
+      "seven_element_ratio": 1.0,
+      "theme_count": 7,
+      "watch_signal_count": 5,
+      "reference_domains": 13
+    },
     {
       "date": "2026-11-07",
       "headline": "运行时延迟与 VM 逃逸同日出现，Agent 工程的瓶颈已从模型转向权限与隔离，资本定价仍在松动",

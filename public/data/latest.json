@@ -1,72 +1,79 @@
 {
-  "date": "2026-11-07",
-  "headline": "运行时延迟与 VM 逃逸同日出现，Agent 工程的瓶颈已从模型转向权限与隔离，资本定价仍在松动",
-  "headline_short": "运行时延迟与 VM 逃逸同日出现，Agent 工程的瓶颈",
-  "lead": "AegisKernel 把零信任 POSIX 运行时压到 <0.016ms，同一天 Firecracker VM 逃逸被公开；Anthropic 的 IPO 估值口径下修到 $1.3T，Fox 以 $22 billion 完成对 Roku 的收购。张力在于：隔离与权限的读数在收紧，资本定价却在松动——工程侧能复现的数，和交易侧仍在重估的数，构成今天最清楚的对照。",
-  "generated_at": "2026-11-06T23:25:27.690104Z",
+  "date": "2026-11-09",
+  "headline": "先证伪再采信：今天真正有分量的进展，都附了可复测的分母或自己会失败的闸门",
+  "headline_short": "先证伪再采信：今天真正有分量的进展，都附了可复测的分母或",
+  "lead": "今天最硬的两个读数都带反例：DeepSeek Harness 披露 154 万日活、约 3.5 万第三方插件，公告却在补插件 API 稳定性；XBOW 在 65 个含漏洞应用上实测 GPT-6 Cyber 比 GPT-6.1 Sol 快约 2 倍，却少解出 5 个目标。规模与能力的账，都得先对上分母再采信。",
+  "generated_at": "2026-11-09T01:51:44.934256Z",
   "themes": [
     {
-      "title": "零信任压低延迟，VM 逃逸同期被翻开",
-      "why": "一边是运行时开销被写成 0.016ms 这样的可测量值，一边是微 VM 隔离假设被逃逸复现挑战。两者同日出现说明 Agent 沙箱的设计难点在边界实现，不在模型选型，性能预算与攻击面必须一起验收。",
+      "title": "规模声明先看分母，再看口径",
+      "why": "154 万日活与 3.5 万插件是自建生态口径，65 个应用是自建对照集，78% 是自报成功率；三者量级都只在给定分母内成立，跨口径外推即失效。",
       "cluster_ids": [
-        "442c2eb5c2c85552",
-        "f441801c064cce85"
+        "59248c45e5bcf4d6",
+        "0cfbdaa8bb33ae59",
+        "c46b25d79acf061b"
       ],
-      "verified_by": 2
+      "verified_by": 3
     },
     {
-      "title": "Agent 主动来电，先设静默阈值",
-      "why": "后台 Agent 能在 2am 主动打断人并已定位 bug，说明通知时机成为新的权限面；而 AegisKernel 一类的零信任运行时恰好提供了收口位置。主动性越强，静默窗口与授权门槛越要先行。",
+      "title": "传闻与反驳同时到达，才值得进报",
+      "why": "GPT-6.2 Sol 灰度说在约半小时后被截图反驳为 GPT-6.1 Sol；AIRoA-0 放出权重与代码让 78% 可被复测；pytest 把争议拆成 28 tests。可核验性来自反例与可下载物。",
       "cluster_ids": [
-        "35670172de926c8a",
-        "442c2eb5c2c85552"
+        "ae2f80dd374e58bb",
+        "c46b25d79acf061b",
+        "5abe40cdd3f03602"
       ],
-      "verified_by": 2
+      "verified_by": 3
     },
     {
-      "title": "估值口径下修，交易落地同日出现",
-      "why": "$1.3T 的下修口径与 $22 billion 的收购完成落在同一天，一个是尚未收敛的定价预期，一个是已落地的交易对价。把两者并列记录，比只挑一个数字更能反映产业资本当天的真实状态。",
+      "title": "Agent 的瓶颈在可回放，不在参数量",
+      "why": "12-factor-agents 把生产级原则写成清单，mini-swe-agent 用 100 行收敛复杂度，Week 7 的 LLM 更正了错误测量并合并却仍是 $0；三者都在说状态与交接。",
       "cluster_ids": [
-        "60a18250dfd4eff6",
-        "4e9391acd12d4c33"
+        "66d41b8aa3e54926",
+        "1876b9abaa20b9f0",
+        "6346806ff2c40fcb"
       ],
-      "verified_by": 2
+      "verified_by": 3
     },
     {
-      "title": "成本与基准都写成了可复现的数",
-      "why": "LLM judge 给出 4x 成本优势，3D 空间推理被做成基准，能力声明正从形容词换成倍数与通过率。这类读数才适合进自动化验收，而不是靠主观描述打分。",
+      "title": "版本兼容是排查题，不是安装题",
+      "why": "RKLLM 官方 vision demo 在目标 transformers 上跑不起来，靠五个版本二分定位；7 个工具对比每格都溯源到自家文档；共同点是把断言换成可复现的定位过程。",
       "cluster_ids": [
-        "ef2a83f7f3a44d74",
-        "46db23cc1210bae5"
+        "282cc56cf39d2406",
+        "83254f823c84d293",
+        "9c7e75a27e82f37a"
       ],
-      "verified_by": 2
+      "verified_by": 3
     },
     {
-      "title": "苹果这轮只动交互层，没动算力",
-      "why": "OLED 触控与发光 logo 开关都落在显示和命令行定制上，原文也明确判断触控属增量改进。机型与价格读数是实的，但把它读成算力升级就会误判本机开发设备的换代必要性。",
+      "title": "闸门要能自己失败，才配叫闸门",
+      "why": "pytest 把 18 claims 落成 28 tests，12-factor-agents 把生产可用性拆成可逐条核对的原则，7 工具对比每格给出处；都要求检查项能独立判失败，而非靠人确认。",
       "cluster_ids": [
-        "c18d0ced5e118c57",
-        "5e722243eff5bdd6"
+        "5abe40cdd3f03602",
+        "66d41b8aa3e54926",
+        "83254f823c84d293"
       ],
-      "verified_by": 2
+      "verified_by": 3
     },
     {
-      "title": "分发入口被买下，个股同日走高",
-      "why": "Fox 用 $22 billion 换来 100 million 量级的家庭覆盖，同日 Airbnb 录得 12% 涨幅。两件事都只陈述公开数据：前者标的为分发规模而非技术能力，后者需把价格动作与基本面表述分开记录。",
+      "title": "资本读数与工程读数不在同一张表",
+      "why": "OpenAI 以 $11B 融资对应 $1.25T 估值，日本拟采购 27,500 颗 Rubin 芯片，DeepSeek Harness 披露 154 万日活；前两者是交易与采购口径，后者是产品使用口径。",
       "cluster_ids": [
-        "4e9391acd12d4c33",
-        "4b630aa6346380d7"
+        "1d660dc4ea7a4018",
+        "67abd93f196f854c",
+        "59248c45e5bcf4d6"
       ],
-      "verified_by": 2
+      "verified_by": 3
     },
     {
-      "title": "宏观上限与长期随访都在拉长窗口",
-      "why": "$41.1 的债务上限带明确时点，14 年随访研究则把结论建立在长期跨度上。两者共同提醒：按固定窗口归一的日报流水线，不能拿单日条目去推断长周期结论，只能保留原始时间点。",
+      "title": "无关条目也要写清为什么无关",
+      "why": "H3mm15 与 H3.3 是分子标识，5 项 PlayStation App 功能是清单编号，D3 是模型命名；这类数字可核验但不承载工程判断，如实标注暂无直接影响比硬贴热点更可信。",
       "cluster_ids": [
-        "3377a1f50cdc7a88",
-        "c1501b2a0fee78d0"
+        "23fa35e7fe308eba",
+        "991d00f8bf0c1caa",
+        "5d76954b868314f1"
       ],
-      "verified_by": 2
+      "verified_by": 3
     }
   ],
   "sections": [
@@ -75,58 +82,161 @@
       "label": "模型与研究",
       "items": [
         {
-          "id": "46db23cc1210bae5",
-          "title": "SketchAgentBench – evaluate LLMs on 3D spatial reasoning",
-          "url": "https://sketchagent.dev/",
-          "source": "Folo 订阅池基线（人工筛选信源）",
-          "published_at": "2026-11-06T20:28:24.123000Z",
-          "score": 80.75,
-          "category": "agent-engineering",
-          "cluster_id": "46db23cc1210bae5",
-          "summary": "Comments 〔Folo分类:开源项目〕",
-          "why_matters": "空间推理从定性描述变成有基准可打分的对象，Agent 能力声明开始需要独立复现",
-          "fact_anchor": "SketchAgentBench 把 LLMs 的 3D 空间推理做成可跑的评测基准",
+          "id": "59248c45e5bcf4d6",
+          "title": "DeepSeek Harness 筹建官方插件市场与作者扶持计划，披露 154 万日活、约 3.5 万第三方插件",
+          "url": "https://arex-research.com/feeds/f054ae8c-c573-4940-bf3e-59bfbe0bb67f",
+          "source": "智源社区 · 最新分享（匿名 API）",
+          "published_at": "2026-11-08T18:47:00Z",
+          "score": 78.06,
+          "category": "ai-models",
+          "cluster_id": "59248c45e5bcf4d6",
+          "summary": "资讯｜11 月 8 日，DeepSeek Harness 官方 X 账号发布文章《Growing Together with Our Plugin Community》，宣布将建设官方插件市场，改进插件 API（应用程序接口）的稳定性与兼容性、强化插件安全，并筹备一项插件作者扶持计划：向作者提供 token（模型调用的计量单位）赠助、技术讨论支持和作品推广。",
+          "why_matters": "规模数字与补接口稳定性、强化插件安全写在同一份公告里，说明生态瓶颈已从数量转到契约。",
+          "fact_anchor": "DeepSeek Harness 官方宣布筹建官方插件市场与作者扶持计划，并披露 154 万日活与约 3.5 万第三方插件",
           "numbers": [
-            "3D"
+            "154 万",
+            "3.5 万"
           ],
           "entities": [
-            "SketchAgentBench",
-            "LLMs"
+            "DeepSeek Harness",
+            "Growing Together with Our Plugin Communi",
+            "插件 API",
+            "token"
           ],
           "evidence_urls": [
-            "https://sketchagent.dev/"
+            "https://arex-research.com/feeds/f054ae8c-c573-4940-bf3e-59bfbe0bb67f"
           ],
-          "impact": "WinVM Bridge 与 3D 资产链路都依赖空间理解，该基准可直接用作 agent 部署前的验收项，替代主观描述",
-          "next_action": "取该基准跑一次本地 smoke，若 3D 任务通过率低于 60% 则判定当前 provider 不满足空间推理接入条件",
+          "impact": "直接对应 WorkBuddy 的 skill 与 MCP 生态：当第三方插件达到 3.5 万量级，先塌的会是接口契约与权限边界，而不是模型能力。",
+          "next_action": "逐项跑本仓库已装 skill 的接口声明，若任一 skill 在缺字段时静默降级次数大于 0，即判定契约层需收紧。",
+          "signal_type": "product",
+          "confidence": "fact"
+        },
+        {
+          "id": "0cfbdaa8bb33ae59",
+          "title": "XBOW 实测 GPT-6 Cyber：比 GPT-6.1 Sol 快约 2 倍，但少解出 5 个目标",
+          "url": "https://arex-research.com/feeds/884a76f5-674f-43e2-9860-4f8569171d6b",
+          "source": "智源社区 · 最新分享（匿名 API）",
+          "published_at": "2026-11-08T18:44:00Z",
+          "score": 74.83,
+          "category": "ai-models",
+          "cluster_id": "0cfbdaa8bb33ae59",
+          "summary": "资讯｜GPT-6 Cyber 发布两天后，一组来自 OpenAI 之外的量化对比数据出现了。北京时间 11 月 7 日中午，XBOW 创始人兼 CEO Oege de Moor 在 X 帖串和同日稍晚的 LinkedIn 帖子里公布了团队自建的对照测试：在 65 个含漏洞的开源 Web 应用上，OpenAI 的 GPT-6 Cyber 与 GPT-6.1 Sol…",
+          "why_matters": "同一组测试给出快约 2 倍与少解出 5 个目标两个反向读数，速度结论无法单独成立。",
+          "fact_anchor": "XBOW 创始人 Oege de Moor 公布自建对照测试：在 65 个含漏洞的开源 Web 应用上对比 GPT-6 Cyber 与 GPT-6.1 Sol",
+          "numbers": [
+            "2 倍",
+            "5 个",
+            "65 个"
+          ],
+          "entities": [
+            "XBOW",
+            "Oege de Moor",
+            "GPT-6 Cyber",
+            "GPT-6.1 Sol",
+            "OpenAI",
+            "LinkedIn"
+          ],
+          "evidence_urls": [
+            "https://arex-research.com/feeds/884a76f5-674f-43e2-9860-4f8569171d6b"
+          ],
+          "impact": "对 automation 评估的提醒：agent 或模型的耗时指标必须与完成数一起看，否则会把漏做当成变快。",
+          "next_action": "在同类任务复跑一次并同时记录耗时与解出数，若解出数仍少 5 个则判定快 2 倍不构成整体优势。",
           "signal_type": "research",
           "confidence": "fact"
         },
         {
-          "id": "ef2a83f7f3a44d74",
-          "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
-          "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
-          "source": "Folo 订阅池基线（人工筛选信源）",
-          "published_at": "2026-11-06T19:48:51.048000Z",
-          "score": 77.1,
-          "category": "dev-tools",
-          "cluster_id": "ef2a83f7f3a44d74",
-          "summary": "Comments 〔Folo分类:开源项目〕",
-          "why_matters": "把 LLM judge 的成本与准确率同时量化，路由策略第一次有了可对照的两个维度",
-          "fact_anchor": "可求助 Opus 的 Jev 以 4x 更低成本取得 Opus 级准确率",
+          "id": "ae2f80dd374e58bb",
+          "title": "Token Gremlin 称“GPT-6.2 Sol”已灰度现身 ChatGPT，约半小时后 Harshith 以截图反驳称实为 GPT-6.1 Sol",
+          "url": "https://arex-research.com/feeds/a367dcbd-c32f-422a-8a99-1e2d3b063b59",
+          "source": "智源社区 · 最新分享（匿名 API）",
+          "published_at": "2026-11-08T18:58:00Z",
+          "score": 78.17,
+          "category": "ai-models",
+          "cluster_id": "ae2f80dd374e58bb",
+          "summary": "资讯｜北京时间 11 月 8 日 18:07，自述“追踪 AI 前沿：模型、智能体、研究、泄露与发布前信号”的 X 账号 Token Gremlin 发帖称，尚未发布的“GPT-6.2 Sol”已经对部分 ChatGPT 用户灰度现身（即分批、未经宣布地出现），并附上一段 5 秒视频和两张截图：画面中的体素风格 3D 场景由单个 prompt（提示词）生成，全部内…",
+          "why_matters": "首发说法在半小时内被截图级别的复现反驳，说明灰度爆料必须先有可比对证据。",
+          "fact_anchor": "X 账号 Token Gremlin 称 GPT-6.2 Sol 已对部分 ChatGPT 用户灰度现身，约半小时后 Harshith 以截图反驳称实为 GPT-6.1 Sol",
           "numbers": [
-            "4x"
+            "GPT-6.2 Sol",
+            "GPT-6.1 Sol",
+            "5 秒",
+            "18:07"
           ],
           "entities": [
-            "Opus",
-            "Jev"
+            "Token Gremlin",
+            "Harshith",
+            "ChatGPT",
+            "GPT-6.2 Sol",
+            "GPT-6.1 Sol"
           ],
           "evidence_urls": [
-            "https://hightouch.com/blog/llm-judges-identity-resolution"
+            "https://arex-research.com/feeds/a367dcbd-c32f-422a-8a99-1e2d3b063b59"
           ],
-          "impact": "WorkBuddy 的 LLM provider V1 若引入分级 judge，可照此设成本上限，避免所有请求都走高价模型",
-          "next_action": "对照 Opus 基线跑 200 条样本，若成本比达到 4 且准确率差小于 2 个百分点才判定可切换路由",
-          "signal_type": "research",
-          "confidence": "inference"
+          "impact": "对数据基建的直接映射：候选集里的单源爆料应有独立佐证字段，否则不该进入 AI 研判的入选簇。",
+          "next_action": "核对该模型是否有官方发布页或版本号记录，若 2 个独立来源都查不到则判定为未证实爆料并降级处理。",
+          "signal_type": "opinion",
+          "confidence": "unverified"
+        },
+        {
+          "id": "c46b25d79acf061b",
+          "title": "不用机器人录数据：日本 AIRoA 开放双臂操作基础模型 AIRoA-0，十类任务自报成功率 78%",
+          "url": "https://arex-research.com/feeds/e45443e5-b169-42f0-8229-eec29f656a24",
+          "source": "智源社区 · 最新分享（匿名 API）",
+          "published_at": "2026-11-08T18:36:00Z",
+          "score": 74.75,
+          "category": "ai-models",
+          "cluster_id": "c46b25d79acf061b",
+          "summary": "资讯｜11 月 6 日，日本的 AI Robot Association（AIRoA）发布公告，正式公开面向双臂操作（bimanual manipulation）的机器人基础模型 AIRoA-0（A-0）：预训练与后训练权重已放上 Hugging Face，数据采集、后训练、推理三套代码放上 GitHub，技术报告（arXiv:2611.03815）则在本周早些时…",
+          "why_matters": "把权重、代码与技术报告一并放出，使 78% 从宣传值变成可被第三方复测的读数。",
+          "fact_anchor": "日本 AI Robot Association（AIRoA）公开双臂操作基础模型 AIRoA-0，权重放上 Hugging Face、三套代码放上 GitHub，自报十类任务成功率 78%",
+          "numbers": [
+            "78%",
+            "AIRoA-0",
+            "arXiv:2611.03815"
+          ],
+          "entities": [
+            "AIRoA",
+            "AI Robot Association",
+            "AIRoA-0",
+            "Hugging Face",
+            "GitHub",
+            "bimanual manipulation"
+          ],
+          "evidence_urls": [
+            "https://arex-research.com/feeds/e45443e5-b169-42f0-8229-eec29f656a24"
+          ],
+          "impact": "对本项目确定性脚本做索引、AI 只做研判的印证：底层产物可下载，AI 层才不必替上游补洞。",
+          "next_action": "在同类十类任务上复测一次，若成功率与 78% 偏差超过 10 个百分点则判定该值仅为自报口径。",
+          "signal_type": "release",
+          "confidence": "fact"
+        },
+        {
+          "id": "5d76954b868314f1",
+          "title": "DIY Guide: D3 Decision Models: Build Fast, Multimodal AI Applications Locally with vLLM",
+          "url": "https://dev.to/sharathjapa/diy-guide-d3-decision-models-build-fast-multimodal-ai-applications-locally-with-vllm-2822",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-08T11:00:01.948000Z",
+          "score": 74.08,
+          "category": "ai-models",
+          "cluster_id": "5d76954b868314f1",
+          "summary": "Executive Summary The continuous evolution of modern AI infrastructure demands systematic evaluation of recent community… 〔Folo分类:开源项目〕",
+          "why_matters": "把多模态应用压回本地推理栈，讨论重点从模型选型转向部署与评估方法。",
+          "fact_anchor": "一篇 DIY 指南介绍用 vLLM 在本地构建 D3 Decision Models 多模态 AI 应用",
+          "numbers": [
+            "D3"
+          ],
+          "entities": [
+            "D3 Decision Models",
+            "vLLM",
+            "AI infrastructure"
+          ],
+          "evidence_urls": [
+            "https://dev.to/sharathjapa/diy-guide-d3-decision-models-build-fast-multimodal-ai-applications-locally-with-vllm-2822"
+          ],
+          "impact": "对数据基建的参照：本地 vLLM 路线可评估离线快照节点的推理可行性，但摘要未给出吞吐读数。",
+          "next_action": "在同一台机器上跑一次本地推理基准，若单请求延迟高于云端基线 2 倍则判定不适合承载常驻任务。",
+          "signal_type": "tutorial",
+          "confidence": "fact"
         }
       ]
     },
@@ -135,58 +245,90 @@
       "label": "Agent 与工程",
       "items": [
         {
-          "id": "442c2eb5c2c85552",
-          "title": "Show HN: AegisKernel – Zero-trust POSIX runtime for AI agents in <0.016ms",
-          "url": "https://adikshatriyag-crypto.github.io/aegis-kernel",
+          "id": "66d41b8aa3e54926",
+          "title": "humanlayer/12-factor-agents",
+          "url": "https://github.com/humanlayer/12-factor-agents",
           "source": "Folo 订阅池基线（人工筛选信源）",
-          "published_at": "2026-11-06T17:00:23.052000Z",
-          "score": 76.89,
-          "category": "community",
-          "cluster_id": "442c2eb5c2c85552-c",
-          "summary": "Comments 〔Folo分类:开源项目〕",
-          "why_matters": "把权限隔离的代价写成延迟数字，说明零信任不再只是架构口号，而是可测的工程开销",
-          "fact_anchor": "AegisKernel 宣称面向 AI agents 的零信任 POSIX 运行时开销低于 0.016ms",
+          "published_at": "2026-11-09T00:03:54.698000Z",
+          "score": 79.92,
+          "category": "agent-engineering",
+          "cluster_id": "66d41b8aa3e54926",
+          "summary": "What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production… 〔Folo分类:开源项目〕",
+          "why_matters": "把生产可用性拆成可逐条核对的原则清单，比宣称某个框架更好用更可迁移。",
+          "fact_anchor": "humanlayer 开源 12-factor-agents，归纳构建可投入生产的 LLM 驱动软件所用原则",
           "numbers": [
-            "0.016ms"
+            "12-factor-agents"
           ],
           "entities": [
-            "AegisKernel",
-            "POSIX",
-            "AI agents"
+            "humanlayer",
+            "12-factor-agents",
+            "LLM"
           ],
           "evidence_urls": [
-            "https://adikshatriyag-crypto.github.io/aegis-kernel"
+            "https://github.com/humanlayer/12-factor-agents"
           ],
-          "impact": "WinVM Bridge 的 VM 侧隔离层与 MCP 直连路径都能拿这个数当预算上限，判断零信任是否值得引入",
-          "next_action": "在隔离测试环境跑 100 次冷启动，若 P99 延迟不超过 0.016ms 且 0 violations 才列入沙箱候选",
+          "impact": "可直接对照 WorkBuddy 的 skill、MCP 与 A2A 分层，检查工具注册、状态与权限是否各自有明确归属。",
+          "next_action": "把现有插件按 12 条原则逐项打勾，若超过 2 条无对应实现则判定分层需重排。",
+          "signal_type": "tutorial",
+          "confidence": "fact"
+        },
+        {
+          "id": "1876b9abaa20b9f0",
+          "title": "SWE-agent/mini-swe-agent",
+          "url": "https://github.com/SWE-agent/mini-swe-agent",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-09T00:03:43.949000Z",
+          "score": 78.32,
+          "category": "agent-engineering",
+          "cluster_id": "1876b9abaa20b9f0",
+          "summary": "The 100 line AI agent that solves GitHub issues or helps you in your command line. Radically simple, no huge configs, no giant… 〔Folo分类:开源项目〕",
+          "why_matters": "用 100 行把 agent 骨架收敛到可读规模，暴露的是编排逻辑而非框架体积。",
+          "fact_anchor": "SWE-agent 发布 mini-swe-agent，自称用 100 行实现的 AI agent 可解 GitHub issue 或在命令行协助",
+          "numbers": [
+            "100"
+          ],
+          "entities": [
+            "SWE-agent",
+            "mini-swe-agent",
+            "GitHub"
+          ],
+          "evidence_urls": [
+            "https://github.com/SWE-agent/mini-swe-agent"
+          ],
+          "impact": "对 WinVM Bridge 的直接参照：直接 MCP 工具调用这条简单路径应能收敛成一个可读的最小实现。",
+          "next_action": "对照其 100 行骨架复现一次最小 agent 循环，若本仓库 simple 路径代码超过其 3 倍则判定需拆分。",
           "signal_type": "release",
           "confidence": "fact"
         },
         {
-          "id": "35670172de926c8a",
-          "title": "My AI agent called me at 2am. I picked up. It had already found the bug.",
-          "url": "https://dev.to/natuworkguy/my-ai-agent-called-me-at-2am-i-picked-up-it-had-already-found-the-bug-bcb",
+          "id": "6346806ff2c40fcb",
+          "title": "Week 7 of an LLM trying to earn money on its own: I posted a wrong measurement, corrected it, and the correction got merged. Still $0",
+          "url": "https://dev.to/vellumkasane/week-7-of-an-llm-trying-to-earn-money-on-its-own-i-posted-a-wrong-measurement-corrected-it-and-558j",
           "source": "Folo 订阅池基线（人工筛选信源）",
-          "published_at": "2026-11-06T18:26:58.717000Z",
-          "score": 76.2,
+          "published_at": "2026-11-08T23:02:46.848000Z",
+          "score": 79.2,
           "category": "agent-engineering",
-          "cluster_id": "35670172de926c8a",
-          "summary": "My phone didn't ring. My laptop did. A soft two-tone ring, a card sliding up over my half-finished code, and a name I gave a background… 〔Folo分类:开源项目〕",
-          "why_matters": "后台 Agent 从被动应答转向主动打断，通知时机本身成了需要设计的权限面",
-          "fact_anchor": "一位开发者的后台 AI agent 在 2am 主动来电，且已先定位到 bug",
+          "cluster_id": "6346806ff2c40fcb",
+          "summary": "Disclosure: this post was written by an LLM agent (Claude Code) that operates the Vellum Labs account. Every number below comes from an API… 〔Folo分类:开源项目〕",
+          "why_matters": "把错误测量公开更正并合并进流程，比宣称自主赚钱更接近可复盘的 agent 运行记录。",
+          "fact_anchor": "一个由 LLM agent（Claude Code）运营的账户自述第 7 周更正了一处错误测量并被合并，收入仍为 $0",
           "numbers": [
-            "2"
+            "Week 7",
+            "$0"
           ],
           "entities": [
-            "AI agent"
+            "Claude Code",
+            "Vellum Labs",
+            "LLM agent",
+            "API"
           ],
           "evidence_urls": [
-            "https://dev.to/natuworkguy/my-ai-agent-called-me-at-2am-i-picked-up-it-had-already-found-the-bug-bcb"
+            "https://dev.to/vellumkasane/week-7-of-an-llm-trying-to-earn-money-on-its-own-i-posted-a-wrong-measurement-corrected-it-and-558j"
           ],
-          "impact": "automation 定时任务默认不外发，但主动来电这类交互要求先有静默时段与授权门槛，否则会打断人",
-          "next_action": "给通知链路设静默窗口，若非工作时段触发 1 次即判定该主动通道应默认关闭并回到人工确认",
+          "impact": "对 automation 的直接提醒：无人值守任务的价值是可回放的状态与更正记录，而非单轮结果。",
+          "next_action": "在本流水线补一条更正留痕字段，若 1 条被更正读数无法追溯到原条目则判定回放链不完整。",
           "signal_type": "opinion",
-          "confidence": "fact"
+          "confidence": "unverified"
         }
       ]
     },
@@ -195,63 +337,61 @@
       "label": "开发者工具与版本",
       "items": [
         {
-          "id": "c18d0ced5e118c57",
-          "title": "Hands-On With Apple's New OLED Touchscreen MacBook Pro",
-          "url": "https://www.macrumors.com/2026/11/06/oled-macbook-pro-hands-on",
+          "id": "282cc56cf39d2406",
+          "title": "The official RKLLM vision demo doesn't run on the transformers it targets — a five-version bisection",
+          "url": "https://dev.to/anguoyang/the-official-rkllm-vision-demo-doesnt-run-on-the-transformers-it-targets-a-five-version-bisection-4a7i",
           "source": "Folo 订阅池基线（人工筛选信源）",
-          "published_at": "2026-11-06T22:05:59.161000Z",
-          "score": 77.12,
-          "category": "docs-changelog",
-          "cluster_id": "c18d0ced5e118c57",
-          "summary": "Apple’s new PROLED MacBook Pro, launched in 2026, replaces the previous mini-LED model with a thinner, lighter, and more responsive design. It features an OLED XDR display with touch capabilities, including swipe, tap, and pinch-to-zoom gestures, alongside a Dynamic Island for Siri and Live Activiti",
-          "why_matters": "原文自己下了判断：触控属增量改进而非笔记本交互的根本变化，硬件叙事需要打折读",
-          "fact_anchor": "Apple 的 OLED 触控 MacBook Pro 提供 14 与 16 英寸机型，起价分别为 $2,899 与 $3,399",
+          "published_at": "2026-11-08T22:11:01.693000Z",
+          "score": 78.61,
+          "category": "ai-models",
+          "cluster_id": "282cc56cf39d2406",
+          "summary": "I'm converting Qwen2-VL-2B-Instruct to run on a Rockchip board with Rockchip's official rknn-llm toolkit. Step one is exporting the vision… 〔Folo分类:开源项目〕",
+          "why_matters": "官方 demo 与目标版本不兼容这件事靠逐版本回退定位，比换更大模型更贴近真实工程成本。",
+          "fact_anchor": "开发者转换 Qwen2-VL-2B-Instruct 到 Rockchip 板，发现官方 RKLLM vision demo 在目标 transformers 上跑不起来，用五个版本二分定位",
           "numbers": [
-            "$2,899",
-            "$3,399",
-            "14",
-            "16"
+            "Qwen2-VL-2B-Instruct",
+            "2B"
           ],
           "entities": [
-            "Apple",
-            "MacBook Pro",
-            "OLED XDR",
-            "M5 Pro"
+            "Qwen2-VL-2B-Instruct",
+            "Rockchip",
+            "rknn-llm",
+            "transformers",
+            "RKLLM"
           ],
           "evidence_urls": [
-            "https://www.macrumors.com/2026/11/06/oled-macbook-pro-hands-on"
+            "https://dev.to/anguoyang/the-official-rkllm-vision-demo-doesnt-run-on-the-transformers-it-targets-a-five-version-bisection-4a7i"
           ],
-          "impact": "对 WinVM 与数据基建暂无直接影响：本机形态不改变 agent 部署与 MCP 通道，仅影响本地开发设备选型",
-          "next_action": "若后续出现 2 个以上独立来源确认触控提升效率，才把它列入开发机换机依据",
-          "signal_type": "product",
+          "impact": "对 WinVM 与桌面端插件的启示：宿主依赖版本变更后应跑一次最小复现，而不是只看安装是否成功。",
+          "next_action": "在目标环境复现一次版本二分，若 5 个候选版本中定位不到首个可用版本则判定该依赖组合不可用。",
+          "signal_type": "tutorial",
           "confidence": "fact"
         },
         {
-          "id": "5e722243eff5bdd6",
-          "title": "Control the Glowing Apple Logo on Your New MacBook Pro",
-          "url": "https://www.macrumors.com/how-to/turn-glowing-apple-logo-macbook-pro",
+          "id": "83254f823c84d293",
+          "title": "7 multistream chat tools compared, every cell sourced to their own docs",
+          "url": "https://dev.to/randynorthrup/7-multistream-chat-tools-compared-every-cell-sourced-to-their-own-docs-239c",
           "source": "Folo 订阅池基线（人工筛选信源）",
-          "published_at": "2026-11-06T20:03:09.496000Z",
-          "score": 75.66,
+          "published_at": "2026-11-08T17:17:14.644000Z",
+          "score": 74.0,
           "category": "docs-changelog",
-          "cluster_id": "5e722243eff5bdd6",
-          "summary": "New 14-inch and 16-inch MacBook Pro models reintroduce the illuminated Apple logo, which automatically adjusts to ambient light. To disable this feature, users must execute a specific command in the Terminal application, as it is not available in System Settings. This action turns off the light imme",
-          "why_matters": "开关不进系统设置而落到命令行，说明厂商把低频定制留给了可脚本化通道",
-          "fact_anchor": "14 与 16 英寸 MacBook Pro 的发光 Apple logo 需在 Terminal 用命令关闭",
+          "cluster_id": "83254f823c84d293",
+          "summary": "If you stream to more than one platform, your chat lives in several places at once. I made CrossChat, a free, open-source companion for OBS… 〔Folo分类:开源项目〕",
+          "why_matters": "把每个比较单元格都挂回一手文档，是对照表能否被复核的分界线。",
+          "fact_anchor": "作者对比 7 个 multistream chat 工具，声称表格每个单元格都溯源到各家自己的文档，并开源了配套工具 CrossChat",
           "numbers": [
-            "14",
-            "16"
+            "7"
           ],
           "entities": [
-            "MacBook Pro",
-            "Apple",
-            "Terminal"
+            "CrossChat",
+            "OBS",
+            "multistream chat tools"
           ],
           "evidence_urls": [
-            "https://www.macrumors.com/how-to/turn-glowing-apple-logo-macbook-pro"
+            "https://dev.to/randynorthrup/7-multistream-chat-tools-compared-every-cell-sourced-to-their-own-docs-239c"
           ],
-          "impact": "对 automation 有借鉴：可脚本化的开关应配一份可回滚命令清单，本机设备配置才能进幂等流水线",
-          "next_action": "把该命令纳入设备配置脚本并跑一次 dry-run，若 0 处副作用才允许在其它机器复用",
+          "impact": "直接呼应本项目数字白名单闸门：结论只有能逐项回原文才准进报，跨源拼凑的值一律丢弃。",
+          "next_action": "抽查表中任意 7 个单元格的出处链接，若有 1 个打不到对应文档则判定该对比不可引用。",
           "signal_type": "tutorial",
           "confidence": "fact"
         }
@@ -262,30 +402,68 @@
       "label": "安全与治理",
       "items": [
         {
-          "id": "f441801c064cce85",
-          "title": "Firecracker VM Escape: PwnEscape Part 2",
-          "url": "https://pwn.ai/blog/firecracker-escape",
+          "id": "5abe40cdd3f03602",
+          "title": "Auditing a fringe physics theory with pytest: 18 claims, 28 tests, no ad hominem",
+          "url": "https://dev.to/magopredator/auditing-a-fringe-physics-theory-with-pytest-18-claims-28-tests-no-ad-hominem-45b5",
           "source": "Folo 订阅池基线（人工筛选信源）",
-          "published_at": "2026-11-06T19:33:38.271000Z",
-          "score": 76.93,
-          "category": "dev-tools",
-          "cluster_id": "a4281c90cf6927ea-c",
-          "summary": "Comments 〔Folo分类:开源项目〕",
-          "why_matters": "微 VM 常被当作 Agent 沙箱的默认隔离假设，逃逸复现会直接推翻这个假设",
-          "fact_anchor": "PwnEscape 第 2 部分公开 Firecracker VM 逃逸路径",
+          "published_at": "2026-11-08T22:42:14.528000Z",
+          "score": 78.96,
+          "category": "security-governance",
+          "cluster_id": "5abe40cdd3f03602",
+          "summary": "--- title: \"Auditing a fringe physics theory with pytest: 18 claims, 28 tests, no ad hominem\" description: \"I turned two physics preprints… 〔Folo分类:开源项目〕",
+          "why_matters": "把争议主张转成会红会绿的测试用例，让分歧落在可复现的断言上而非立场。",
+          "fact_anchor": "开发者用 pytest 审计两个物理预印本，把 18 claims 落成 28 tests，强调不做人身攻击",
           "numbers": [
-            "2"
+            "18",
+            "28"
           ],
           "entities": [
-            "Firecracker",
-            "PwnEscape"
+            "pytest",
+            "physics preprints",
+            "claims",
+            "tests"
           ],
           "evidence_urls": [
-            "https://pwn.ai/blog/firecracker-escape"
+            "https://dev.to/magopredator/auditing-a-fringe-physics-theory-with-pytest-18-claims-28-tests-no-ad-hominem-45b5"
           ],
-          "impact": "WinVM Bridge 的 VM 侧 Agent 与 A2A 委派路径依赖 VM 边界，逃逸一旦可复现就必须重审隔离层",
-          "next_action": "在受控 VM 尝试复现逃逸，若 1 次成功即判定隔离假设失效并暂停该 VM 的 A2A 委派",
-          "signal_type": "incident",
+          "impact": "对 verify_digest 的直接参照：检查项应能自己失败，本项目仍缺删项后退出码的反面测试。",
+          "next_action": "给发布闸门补一条删除检查项后的退出码断言，若删掉 1 项脚本仍返回 0 即判定闸门无效。",
+          "signal_type": "tutorial",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "deep-read",
+      "label": "深度长文",
+      "items": [
+        {
+          "id": "9c7e75a27e82f37a",
+          "title": "How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+          "url": "https://latent.space/p/cs146s",
+          "source": "Latent Space",
+          "published_at": "2026-11-08T21:41:44Z",
+          "score": 73.48,
+          "category": "deep-read",
+          "cluster_id": "9c7e75a27e82f37a",
+          "summary": "What happens when students can one-shot last year’s homework? Inside CS146S and the engineering team at Monaco.",
+          "why_matters": "当学生能一次做完去年的作业，课程要教的就从写法转到验收与系统判断。",
+          "fact_anchor": "Latent Space 访谈 Mihail Eric 与 Monaco 团队，讲斯坦福 CS146S 如何教 AI-Native 工程",
+          "numbers": [
+            "CS146S"
+          ],
+          "entities": [
+            "Stanford",
+            "CS146S",
+            "Mihail Eric",
+            "Monaco"
+          ],
+          "evidence_urls": [
+            "https://latent.space/p/cs146s"
+          ],
+          "impact": "对 skill 与 automation 设计的参照：把可一键生成的部分交给 agent，工程重心移到可验证的验收条件。",
+          "next_action": "挑 1 个本仓库可自动生成的产物补上验收断言，若断言缺失数大于 0 则判定该产物不可直接采信。",
+          "signal_type": "tutorial",
           "confidence": "fact"
         }
       ]
@@ -295,59 +473,31 @@
       "label": "产业与资本",
       "items": [
         {
-          "id": "60a18250dfd4eff6",
-          "title": "Anthropic IPO valuation talks drop to $1.3T",
-          "url": "https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3-trillion-as-major-investors",
+          "id": "67abd93f196f854c",
+          "title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
           "source": "Folo 订阅池基线（人工筛选信源）",
-          "published_at": "2026-11-06T17:21:15.387000Z",
-          "score": 77.11,
-          "category": "industry-capital",
-          "cluster_id": "60a18250dfd4eff6-c",
-          "summary": "Comments 〔Folo分类:开源项目〕",
-          "why_matters": "估值从谈判口径被公开下修，说明买方与卖方对同一资产的定价尚未收敛",
-          "fact_anchor": "Anthropic IPO 估值谈判口径下调到 $1.3T",
+          "published_at": "2026-11-08T22:54:50.264000Z",
+          "score": 74.31,
+          "category": "community",
+          "cluster_id": "67abd93f196f854c",
+          "summary": "Nvidia CEO Jensen Huang admitted to infidelity with an AI executive in a memo to employees, prompting the Board to launch an investigation. The statement followed a separate announcement that Japan plans to purchase 27,500 next-generation Rubin chips from Nvidia to develop a domestic foundational AI",
+          "why_matters": "备忘录全文与采购数字同框，提醒公司治理事件与产能读数应分开核对，不能互相背书。",
+          "fact_anchor": "一份备忘录全文提到 Nvidia CEO Jensen Huang 致员工说明，同篇提到日本计划采购 27,500 颗下一代 Rubin 芯片",
           "numbers": [
-            "$1.3T"
+            "27,500"
           ],
           "entities": [
-            "Anthropic"
+            "Jensen Huang",
+            "Nvidia",
+            "Rubin"
           ],
           "evidence_urls": [
-            "https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3-trillion-as-major-investors",
-            "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout"
+            "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia"
           ],
-          "impact": "暂无直接影响：一级市场估值不进入 WorkBuddy 的成本模型，也不改变 MCP 与 skill 的工程依赖",
-          "next_action": "对照后续披露的估值口径，若与 1.3T 的偏差小于 0.1T 才判定定价企稳并更新板块基线",
+          "impact": "暂无直接影响：属公司治理与芯片采购公开信息，与 agent 部署及数据基建无工程交集，仅作量级读数核验样本。",
+          "next_action": "核对 27,500 是否有第二处公开来源，若仅此 1 处则判定该采购量级不可直接引用。",
           "signal_type": "market-data",
-          "confidence": "multi-source"
-        },
-        {
-          "id": "4e9391acd12d4c33",
-          "title": "Fox bought Roku",
-          "url": "https://www.theverge.com/streaming/1028629/fox-roku-acquisition-close",
-          "source": "Folo 订阅池基线（人工筛选信源）",
-          "published_at": "2026-11-06T15:00:56.756000Z",
-          "score": 74.13,
-          "category": "industry-capital",
-          "cluster_id": "4e9391acd12d4c33",
-          "summary": "Fox completed its $22 billion acquisition of Roku, granting the company control over a major streaming platform that reaches over 100 million U.S. households. The deal enables Fox to distribute sports, news, and local station content via Roku. Fox CEO Lachlan Murdoch stated that integrating Fox cont",
-          "why_matters": "买的是分发入口而非模型能力，覆盖家庭数才是交易对价里的实质标的",
-          "fact_anchor": "Fox 完成对 Roku 的 $22 billion 收购，触达超过 100 million U.S. households",
-          "numbers": [
-            "$22 billion",
-            "100 million"
-          ],
-          "entities": [
-            "Fox",
-            "Roku",
-            "Lachlan Murdoch"
-          ],
-          "evidence_urls": [
-            "https://www.theverge.com/streaming/1028629/fox-roku-acquisition-close"
-          ],
-          "impact": "暂无直接影响：媒体渠道整合不改变 agent 部署链路，但可作为分发规模优于技术叙事的反例记下",
-          "next_action": "若后续披露的家庭覆盖数低于 100 million 超过 10%，则判定该口径需回原文复核",
-          "signal_type": "funding",
           "confidence": "fact"
         }
       ]
@@ -357,58 +507,31 @@
       "label": "市场与投资",
       "items": [
         {
-          "id": "3377a1f50cdc7a88",
-          "title": "Wall Street Sees US Hitting $41.1 Trillion Debt Cap in February",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-06/wall-street-sees-us-hitting-41-1-trillion-debt-cap-in-february",
-          "source": "Bloomberg Markets",
-          "published_at": "2026-11-06T20:33:40Z",
-          "score": 74.9,
-          "category": "market-invest",
-          "cluster_id": "3377a1f50cdc7a88",
-          "summary": "Wall Street strategists are bracing for the US Treasury to hit against its borrowing limit as early as February, triggering the need for extraordinary measures before it faces a funding crunch in late 2027.",
-          "why_matters": "把宏观约束写成带金额和时点的可核验陈述，比笼统的风险提示更便于设定观察条件",
-          "fact_anchor": "Wall Street 策略师预计 US Treasury 最早在 February 触及 $41.1 Trillion 债务上限",
+          "id": "1d660dc4ea7a4018",
+          "title": "OpenAI raises $11B at a $1.25T valuation",
+          "url": "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-08T14:49:23.251000Z",
+          "score": 74.29,
+          "category": "industry-capital",
+          "cluster_id": "8eab40c7ce416e4d-c",
+          "summary": "Comments 〔Folo分类:开源项目〕",
+          "why_matters": "标题给出融资额与估值两个量级，但摘要缺失使口径无法核对，属于典型的可读不可引条目。",
+          "fact_anchor": "一条 Folo 基线目标题称 OpenAI 以 $11B 融资对应 $1.25T 估值，摘要仅剩 Comments 无进一步细节",
           "numbers": [
-            "$41.1"
+            "$11B",
+            "$1.25T"
           ],
           "entities": [
-            "Wall Street",
-            "US Treasury"
+            "OpenAI"
           ],
           "evidence_urls": [
-            "https://www.bloomberg.com/news/articles/2026-11-06/wall-street-sees-us-hitting-41-1-trillion-debt-cap-in-february"
+            "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought"
           ],
-          "impact": "暂无直接影响：宏观财政数据不改变本项目的工程排期，仅作为公开市场读数与风险提示记录",
-          "next_action": "若官方口径的债务上限数值与 41.1 偏差超过 1%，则判定该读数失效并从数据概览移除",
+          "impact": "对数据基建的提醒：候选集应把标题数字与可核验摘要分开标记，缺摘要时不得当作完整事实入报。",
+          "next_action": "补一手来源核对 $11B 与 $1.25T 是否分别对应融资额与估值，若 2 个数字口径混淆则判定该条不可引用。",
           "signal_type": "market-data",
-          "confidence": "fact"
-        },
-        {
-          "id": "4b630aa6346380d7",
-          "title": "Airbnb Surges 12% as Growth Accelerates and Outlook Rises | Closing Bell",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-06/airbnb-surges-on-growth-outlook-closing-bell-video",
-          "source": "Bloomberg Markets",
-          "published_at": "2026-11-06T21:32:56Z",
-          "score": 74.01,
-          "category": "market-invest",
-          "cluster_id": "4b630aa6346380d7",
-          "summary": "Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Kailey Leinz, Carol Massar and Tim Stenovec. (Source: Bloomberg)",
-          "why_matters": "涨幅与基本面表述捆在同一标题里，需要把价格动作和原因拆开记录，避免叙事替代数据",
-          "fact_anchor": "Airbnb 因增长加速与展望上调收涨 12%，Bloomberg 收盘节目作跨平台报道",
-          "numbers": [
-            "12%"
-          ],
-          "entities": [
-            "Airbnb",
-            "Bloomberg"
-          ],
-          "evidence_urls": [
-            "https://www.bloomberg.com/news/videos/2026-11-06/airbnb-surges-on-growth-outlook-closing-bell-video"
-          ],
-          "impact": "暂无直接影响：个股波动与本项目的 skill、automation、数据基建无工程关联，仅保留读数与出处",
-          "next_action": "若行情页无法复核 12% 这一数值，则判定该条读数不可溯源并记 1 条 warning",
-          "signal_type": "market-data",
-          "confidence": "fact"
+          "confidence": "unverified"
         }
       ]
     },
@@ -417,96 +540,114 @@
       "label": "论文与学术",
       "items": [
         {
-          "id": "c1501b2a0fee78d0",
-          "title": "Could Type 2 Diabetes Be Reversed? 14-Year Study Reveals Remarkable Results",
-          "url": "https://scitechdaily.com/could-type-2-diabetes-be-reversed-14-year-study-reveals-remarkable-results",
+          "id": "23fa35e7fe308eba",
+          "title": "Small histone differences help shape gene regulation during sperm development",
+          "url": "https://phys.org/news/2026-11-small-histone-differences-gene-sperm.html",
           "source": "Folo 订阅池基线（人工筛选信源）",
-          "published_at": "2026-11-06T18:51:14.052000Z",
-          "score": 74.86,
-          "category": "research-papers",
-          "cluster_id": "c1501b2a0fee78d0",
-          "summary": "In a long-term trial, weight-loss surgery led to more type 2 diabetes remissions than intensive medical and lifestyle management, while… 〔Folo分类:重大学术科研突破〕",
-          "why_matters": "用十余年跨度而非短期指标下结论，正是长期随访与快照式观测的分界线",
-          "fact_anchor": "一项 14-Year 随访研究显示减重手术带来的 Type 2 Diabetes 缓解多于强化内科管理",
+          "published_at": "2026-11-09T00:10:01.068000Z",
+          "score": 78.4,
+          "category": "industry-capital",
+          "cluster_id": "23fa35e7fe308eba",
+          "summary": "Researchers from Kyushu University have found that H3mm15, a histone H3.3 subvariant, contributes to normal sperm development in mice by… 〔Folo分类:重大学术科研突破〕",
+          "why_matters": "用具体亚型编号而非笼统的组蛋白修饰来定位机制，结论才能被后续实验逐项复核。",
+          "fact_anchor": "九州大学研究者发现组蛋白 H3.3 亚型 H3mm15 参与小鼠精子发育的正常调控",
           "numbers": [
-            "14-Year",
-            "2"
+            "H3mm15",
+            "H3.3"
           ],
           "entities": [
-            "Type 2 Diabetes",
-            "weight-loss surgery"
+            "Kyushu University",
+            "H3mm15",
+            "H3.3",
+            "histone"
           ],
           "evidence_urls": [
-            "https://scitechdaily.com/could-type-2-diabetes-be-reversed-14-year-study-reveals-remarkable-results"
+            "https://phys.org/news/2026-11-small-histone-differences-gene-sperm.html"
           ],
-          "impact": "对数据基建有间接参照：本流水线按固定窗口归一，长周期结论不能靠单日条目推出，需保留原始时间点",
-          "next_action": "核对归一脚本的窗口字段，若窗口短于 14-Year 量级则判定该结论不属于日报可推断范围",
+          "impact": "暂无直接影响：属表观遗传学研究，与 WorkBuddy、MCP 及 agent 部署无工程交集，仅作可核验标识符样例。",
+          "next_action": "核对 H3mm15 与 H3.3 是否在同篇报告中被明确区分，若 2 个编号指向同一对象则判定表述冗余。",
           "signal_type": "research",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "docs-changelog",
+      "label": "文档与变更",
+      "items": [
+        {
+          "id": "991d00f8bf0c1caa",
+          "title": "5 underrated PlayStation App features",
+          "url": "https://www.engadget.com/2309256/underrated-playstation-app-features",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-08T19:00:00.559000Z",
+          "score": 73.39,
+          "category": "docs-changelog",
+          "cluster_id": "991d00f8bf0c1caa",
+          "summary": "The PlayStation App offers its users certain features that will make their lives easier, especially if they really love playing on their… 〔Folo分类:新奇产品〕",
+          "why_matters": "用固定条数组织功能清单，读者可逐项核对是否真的被低估，而非接受一个整体评价。",
+          "fact_anchor": "一篇清单文章列出 5 个被低估的 PlayStation App 功能，称可让用户使用更省事",
+          "numbers": [
+            "5"
+          ],
+          "entities": [
+            "PlayStation App"
+          ],
+          "evidence_urls": [
+            "https://www.engadget.com/2309256/underrated-playstation-app-features"
+          ],
+          "impact": "暂无直接影响：属消费应用功能清单，与 agent 部署及数据基建无工程交集，仅作清单式条目样本。",
+          "next_action": "逐项核对 5 个功能在当前客户端是否仍存在，若缺失超过 1 项则判定该清单已过期。",
+          "signal_type": "docs-change",
           "confidence": "fact"
         }
       ]
     }
   ],
-  "editor_note": "本期数据覆盖不足：Folo 基线大量条目摘要只剩 Comments，入选簇过半在原文里找不到实质数字。按 v1.1 口径，这类条目一律不写入 sections，也不拿 published_at 的年份充数，宁可少一条也不发空话。缺口在上游供数，应补摘要或换一手来源，不调低 V8。真正有用的是两组读数。其一是 Agent 运行时与隔离：AegisKernel 把零信任 POSIX 运行时压到 0.016ms，同日 Firecracker VM 逃逸被公开，WinVM Bridge 的 VM 侧隔离层既有了性能基线，也有了必须复现的攻击面。先跑 100 次冷启动量 P99 延迟，并在受控 VM 复现逃逸，两项都通过才列入 Agent 沙箱候选。其二是 skill 与评测：4x 成本优势与 3D 空间推理基准同日出现，能力声明正被可复现的读数替换。WorkBuddy 的 skill 靠 symlink 多环境共享，应记录版本与哈希并在部署前比对主模板和副本；数据基建侧同理，Anthropic 的 1.3T 下修口径与 Fox 的 22 billion 收购只作公开数据记录，去重时保留来源字段，避免把两个口径压成一条。下一步把 no-number 清单当补摘要待办，逐源补齐后重跑核验，若 violations 仍为 0 且入报条数回到 20 条以上，才判定供数缺口收敛。",
-  "brief": "**运行时延迟与 VM 逃逸同日出现，Agent 工程的瓶颈已从模型转向权限与隔离，资本定价仍在松动**\n\nAegisKernel 把零信任 POSIX 运行时压到 <0.016ms，同一天 Firecracker VM 逃逸被公开；Anthropic 的 IPO 估值口径下修到 $1.3T，Fox 以 $22 billion 完成对 Roku 的收购。张力在于：隔离与权限的读数在收紧，资本定价却在松动。\n\n本期数据覆盖不足：Folo 基线大量条目摘要只剩 Comments，无实质数字的候选一律未写入报，宁可少一条也不发空话；补摘要待办见 no-number 清单。\n\n今日主线：\n1. 零信任压低延迟，VM 逃逸同期被翻开\n2. Agent 主动来电，先设静默阈值\n3. 估值口径下修，交易落地同日出现\n4. 成本与基准都写成了可复现的数\n5. 苹果这轮只动交互层，没动算力\n6. 分发入口被买下，个股同日走高\n7. 宏观上限与长期随访都在拉长窗口\n\n重点条目与下一步：\n- [0.016ms] AegisKernel 零信任 POSIX 运行时 → 跑 100 次冷启动，P99 不超过 0.016ms 且 0 violations 才列入沙箱候选\n- [2] PwnEscape 公开 Firecracker VM 逃逸 → 受控 VM 复现 1 次成功即暂停该 VM 的 A2A 委派\n- [4x] Jev 求助 Opus 取得 Opus 级准确率 → 200 条样本成本比达 4 且准确率差小于 2 个百分点才切换路由\n- [3D] SketchAgentBench 把 3D 空间推理做成基准 → 本地 smoke 通过率低于 60% 则判定不满足接入条件\n- [$2,899 / $3,399] OLED 触控 MacBook Pro → 2 个以上独立来源确认效率提升才列入换机依据\n- [$1.3T] Anthropic 估值口径下修 → 后续口径与 1.3T 偏差小于 0.1T 才判定定价企稳\n- [$22 billion] Fox 收购 Roku → 覆盖数低于 100 million 超过 10% 即回原文复核\n- [12%] Airbnb 收涨 → 行情页无法复核则记 1 条 warning\n- [$41.1] 债务上限读数 → 官方数值偏差超过 1% 即从数据概览移除\n- [14-Year] 糖尿病随访研究 → 归一窗口短于该量级则判定不属日报可推断范围\n\n待验证信号：\n- 零信任运行时延迟可复现（100 次冷启动 P99 ≤ 0.016ms）→ 判定可纳入 Agent 沙箱候选\n- Anthropic 估值口径企稳（后续口径与 1.3T 偏差 < 0.1T）→ 判定定价分歧结束\n- Folo 摘要质量恢复（Comments 占比降到 0）→ 判定供数缺口收敛\n- Firecracker 逃逸可复现（受控 VM 成功 1 次）→ 判定需重审 WinVM 隔离层\n- 4x 成本优势可复现（200 条样本准确率差 < 2 个百分点）→ 判定可切换 LLM judge 路由\n\n内容仅供参考，外部事实未独立验证，不构成投资建议；取不到可靠数据处标注「暂无可靠数据」。",
+  "editor_note": "分母比量级重要。40 个入选簇只有 16 条带得住实质读数，其余按 v1.1 拒绝入报：22 条原文无数字，3 条的数字只是日期年份或用户名尾数。本期数据覆盖不足，未放宽阈值，被剔除条目进 no-number 待补清单。\n\n对 WorkBuddy，最直接的是 DeepSeek Harness：154 万日活、约 3.5 万第三方插件，公告重心却在插件 API 稳定性与安全。这和 skill 与 MCP 生态是同一道题：规模到量级后先塌的是接口契约。可证伪动作：逐项跑已装 skill 的接口声明，若任一缺字段时静默降级不报错，就判定契约层需收紧。\n\n闸门要能自己失败。pytest 把 18 claims 落成 28 tests，XBOW 在 65 个应用上给出快 2 倍却少解出 5 个目标的反向读数。本流水线已有零 violations 核验，缺的是反面测试：删掉 1 个检查项后若脚本仍返回 0，闸门就是伪装。\n\nA2A 与 agent 部署侧盯可回放。12-factor-agents 的原则清单、mini-swe-agent 的 100 行收敛、更正了错误测量却仍是 $0 的自主 agent，都指向状态可恢复与交接可判定。WinVM Bridge 的 streaming 进度同理，先定谁在何时接管。市场与资本只陈述公开数字，不构成任何建议。",
+  "brief": "今日速览｜今天真正有分量的进展，都附了可复测的分母或会自己失败的闸门。DeepSeek Harness 宣布筹建官方插件市场、强化插件 API 稳定性与安全，同时披露 154 万日活与约 3.5 万第三方插件——规模数字与补契约写在同一份公告里。XBOW 在 65 个含漏洞的开源 Web 应用上做对照，给出 GPT-6 Cyber 比 GPT-6.1 Sol 快约 2 倍、却少解出 5 个目标的反向读数；速度结论必须与完成数一起看。GPT-6.2 Sol 灰度现身的说法在约半小时后被截图反驳为 GPT-6.1 Sol，单源爆料没有独立佐证就不该进入研判。\n\n可核验性这条线还有三例：AIRoA 公开双臂操作基础模型 AIRoA-0，权重上 Hugging Face、三套代码上 GitHub、技术报告 arXiv:2611.03815，十类任务自报成功率 78%；一篇 pytest 审计把 18 claims 落成 28 tests；一份 7 个 multistream chat 工具对比声称每个单元格都溯源到各家文档。共同点是把断言换成可被第三方复跑的东西。\n\nAgent 工程侧的判断是瓶颈在可回放，不在参数量：humanlayer 的 12-factor-agents 把生产可用性拆成原则清单，mini-swe-agent 用 100 行收敛骨架，一个由 Claude Code 运营的账户自述第 7 周更正了错误测量、更正被合并，收入仍是 $0。RKLLM 官方 vision demo 在目标 transformers 上跑不起来，靠五个版本二分定位；一篇访谈讲斯坦福 CS146S 如何教 AI-Native 工程，重心已从写法移到验收。\n\n按 v1.1 白名单口径，40 个入选簇中 22 条原文无任何数字、3 条数字属日期年份、用户名尾数或无法准确压缩的 AI 生成传闻，一律拒绝入报，未放宽任何阈值，也不把采集时间戳里的年份当读数；被剔除条目进 no-number 待补清单。产业侧，OpenAI 标题给出 $11B 融资与 $1.25T 估值（摘要仅剩 Comments），一份 Nvidia 备忘录同篇提到日本拟采购 27,500 颗 Rubin 芯片；H3mm15 与 H3.3 是分子标识、5 项 PlayStation App 功能与 D3 是名称或清单编号，均如实标注暂无直接影响。市场与资本只陈述公开数字与风险提示，不构成投资建议。\n\n待验证：删掉 1 个检查项后闸门退出码是否非 0、AIRoA-0 的 78% 能否被独立复测到偏差 10 个百分点内、65 应用复跑是否仍少解出 5 个目标、已装 skill 缺字段时静默降级次数是否为 0、push-log 同日同通道重复计数是否为 0。",
   "watch_signals": [
     {
-      "signal": "AegisKernel 宣称的微秒级延迟能否复现",
-      "threshold": "在隔离测试环境跑 100 次冷启动，P99 延迟不超过 0.016ms 且核验 0 violations",
-      "judgement": "判定零信任运行时可纳入 Agent 沙箱候选，否则只作参考实现"
+      "signal": "已装 skill 接口契约缺字段时是否静默降级",
+      "threshold": "逐项跑接口声明，静默降级次数大于 0",
+      "judgement": "判定契约层需收紧，先补显式报错再谈扩规模"
     },
     {
-      "signal": "Anthropic 估值口径是否企稳",
-      "threshold": "后续披露口径与 $1.3T 的偏差小于 0.1T",
-      "judgement": "判定定价分歧结束，可更新产业与资本板块基线"
+      "signal": "发布闸门删项后是否真的失败",
+      "threshold": "人为删掉 1 个检查项后脚本退出码不等于 0",
+      "judgement": "判定闸门有效，否则视为人工确认的伪装"
     },
     {
-      "signal": "Folo 基线摘要缺失是否改善",
-      "threshold": "次日入报候选里摘要仅为 Comments 的条目占比降到 0",
-      "judgement": "判定供数质量恢复，恢复完整入报条数"
+      "signal": "AIRoA-0 自报成功率能否被独立复测",
+      "threshold": "十类任务复测结果与 78% 偏差超过 10 个百分点",
+      "judgement": "判定 78% 属自报口径，不可直接引用为通用指标"
     },
     {
-      "signal": "Firecracker VM 逃逸是否推翻隔离假设",
-      "threshold": "在受控 VM 成功复现逃逸 1 次即触发",
-      "judgement": "判定需重审 WinVM Bridge 的 VM 侧隔离层并暂停该 VM 的 A2A 委派"
+      "signal": "速度优势是否以解出数为代价",
+      "threshold": "在 65 个含漏洞应用上复跑，解出目标数仍少 5 个",
+      "judgement": "判定快 2 倍不等于整体能力更强，需按解出数加权"
     },
     {
-      "signal": "4x 成本优势能否在本地 judge 链路复现",
-      "threshold": "对照 Opus 基线跑 200 条样本，成本比达到 4 且准确率差小于 2 个百分点",
-      "judgement": "判定可切换 LLM judge 路由，否则维持现有 provider 配置"
+      "signal": "同日同通道分发幂等记录",
+      "threshold": "push-log.jsonl 中同日同通道重复计数大于 0",
+      "judgement": "判定幂等失效，暂停该通道分发并核对待授权清单"
     }
   ],
   "reference_summary": [
     {
-      "domain": "bloomberg.com",
-      "count": 3
+      "domain": "dev.to",
+      "count": 5
     },
     {
-      "domain": "macrumors.com",
+      "domain": "arex-research.com",
+      "count": 4
+    },
+    {
+      "domain": "github.com",
       "count": 2
     },
     {
-      "domain": "sketchagent.dev",
-      "count": 1
-    },
-    {
-      "domain": "hightouch.com",
-      "count": 1
-    },
-    {
-      "domain": "adikshatriyag-crypto.github.io",
-      "count": 1
-    },
-    {
-      "domain": "dev.to",
-      "count": 1
-    },
-    {
-      "domain": "pwn.ai",
-      "count": 1
-    },
-    {
-      "domain": "epyhia.com",
+      "domain": "latent.space",
       "count": 1
     },
     {
@@ -514,23 +655,31 @@
       "count": 1
     },
     {
-      "domain": "scitechdaily.com",
+      "domain": "247wallst.com",
+      "count": 1
+    },
+    {
+      "domain": "phys.org",
+      "count": 1
+    },
+    {
+      "domain": "engadget.com",
       "count": 1
     }
   ],
   "stats": {
-    "sources_ok": 182,
+    "sources_ok": 184,
     "sources_total": 185,
-    "total_items": 2808,
-    "clusters": 2727,
+    "total_items": 1177,
+    "clusters": 1095,
     "selected": 40,
-    "published_items": 12,
-    "seven_element_pass": 12,
+    "published_items": 16,
+    "seven_element_pass": 16,
     "seven_element_ratio": 1.0,
-    "items_with_numbers": 12,
+    "items_with_numbers": 16,
     "substantive_number_ratio": 1.0,
     "rejected_no_number": 0,
-    "unique_reference_domains": 10
+    "unique_reference_domains": 8
   },
   "quality": {
     "ai_status": "ok",

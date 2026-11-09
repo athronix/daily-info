@@ -5,10 +5,50 @@
   <ns0:subtitle>挖掘 · 聚合 · 研判 · 订阅；每条附原文链接；内容仅供参考，不构成投资建议</ns0:subtitle>
   <ns0:link rel="self" type="application/atom+xml" href="https://daily-info.local/docs.atom" />
   <ns0:link rel="alternate" type="text/html" href="https://daily-info.local/index.html" />
-  <ns0:updated>2026-11-06T23:25:27.690104Z</ns0:updated>
+  <ns0:updated>2026-11-09T01:51:44.934256Z</ns0:updated>
   <ns0:author>
     <ns0:name>Personal Daily Info</ns0:name>
   </ns0:author>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-09:991d00f8bf0c1caa</ns0:id>
+    <ns0:title>[文档与变更] 5 underrated PlayStation App features</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.engadget.com/2309256/underrated-playstation-app-features" />
+    <ns0:published>2026-11-08T19:00:00.559000Z</ns0:published>
+    <ns0:updated>2026-11-09T01:51:44.934256Z</ns0:updated>
+    <ns0:category term="docs-changelog" label="文档与变更" />
+    <ns0:summary type="text">The PlayStation App offers its users certain features that will make their lives easier, especially if they really love playing on their… 〔Folo分类:新奇产品〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;一篇清单文章列出 5 个被低估的 PlayStation App 功能，称可让用户使用更省事&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：5 · 相关方：PlayStation App&lt;/p&gt;&lt;p&gt;The PlayStation App offers its users certain features that will make their lives easier, especially if they really love playing on their… 〔Folo分类:新奇产品〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;用固定条数组织功能清单，读者可逐项核对是否真的被低估，而非接受一个整体评价。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;暂无直接影响：属消费应用功能清单，与 agent 部署及数据基建无工程交集，仅作清单式条目样本。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;逐项核对 5 个功能在当前客户端是否仍存在，若缺失超过 1 项则判定该清单已过期。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-08T19:00 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.engadget.com/2309256/underrated-playstation-app-features" rel="noopener noreferrer"&gt;https://www.engadget.com/2309256/underrated-playstation-app-features&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-09:83254f823c84d293</ns0:id>
+    <ns0:title>[开发者工具与版本] 7 multistream chat tools compared, every cell sourced to their own docs</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://dev.to/randynorthrup/7-multistream-chat-tools-compared-every-cell-sourced-to-their-own-docs-239c" />
+    <ns0:published>2026-11-08T17:17:14.644000Z</ns0:published>
+    <ns0:updated>2026-11-09T01:51:44.934256Z</ns0:updated>
+    <ns0:category term="docs-changelog" label="开发者工具与版本" />
+    <ns0:summary type="text">If you stream to more than one platform, your chat lives in several places at once. I made CrossChat, a free, open-source companion for OBS… 〔Folo分类:开源项目〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;作者对比 7 个 multistream chat 工具，声称表格每个单元格都溯源到各家自己的文档，并开源了配套工具 CrossChat&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：7 · 相关方：CrossChat / OBS / multistream chat tools&lt;/p&gt;&lt;p&gt;If you stream to more than one platform, your chat lives in several places at once. I made CrossChat, a free, open-source companion for OBS… 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把每个比较单元格都挂回一手文档，是对照表能否被复核的分界线。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;直接呼应本项目数字白名单闸门：结论只有能逐项回原文才准进报，跨源拼凑的值一律丢弃。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;抽查表中任意 7 个单元格的出处链接，若有 1 个打不到对应文档则判定该对比不可引用。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-08T17:17 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://dev.to/randynorthrup/7-multistream-chat-tools-compared-every-cell-sourced-to-their-own-docs-239c" rel="noopener noreferrer"&gt;https://dev.to/randynorthrup/7-multistream-chat-tools-compared-every-cell-sourced-to-their-own-docs-239c&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-08:131c7319af2c42f1</ns0:id>
+    <ns0:title>[文档与变更] Costco members can get $5 off the reimagined Ocarina of Time</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.theverge.com/gadgets/1028917/legend-of-zelda-ocarina-of-time-remake-switch-2-costco-deal-sale" />
+    <ns0:published>2026-11-07T16:00:00.730000Z</ns0:published>
+    <ns0:updated>2026-11-07T22:57:49.350240Z</ns0:updated>
+    <ns0:category term="docs-changelog" label="文档与变更" />
+    <ns0:summary type="text">Costco members can purchase the digital remake of The Legend of Zelda: Ocarina of Time for $54.99, a $5 discount from the standard price. This Switch 2 exclusive features updated graphics and quality-of-life improvements, including the ability for the protagonist to jump freely at any time rather th</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Costco 会员可以 $54.99 购买 Switch 2 独占的 Ocarina of Time 数字重制版，较标准价低 $5&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：$5 / $54.99 · 相关方：Costco / Ocarina of Time / The Legend of Zelda / Switch 2&lt;/p&gt;&lt;p&gt;Costco members can purchase the digital remake of The Legend of Zelda: Ocarina of Time for $54.99, a $5 discount from the standard price. This Switch 2 exclusive features updated graphics and quality-of-life improvements, including the ability for the protagonist to jump freely at any time rather th&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;重制版定价与渠道折扣同框出现，说明老 IP 的价值兑现越来越依赖分发端而非内容端。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;暂无直接影响：属消费电子定价信息，与当前 agent 部署与数据基建无工程交集，仅作渠道定价样本。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对 $54.99 与 $5 折扣是否在结账页一致，若实付差额不等于 $5 则判定该优惠描述不可引用。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-07T16:00 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.theverge.com/gadgets/1028917/legend-of-zelda-ocarina-of-time-remake-switch-2-costco-deal-sale" rel="noopener noreferrer"&gt;https://www.theverge.com/gadgets/1028917/legend-of-zelda-ocarina-of-time-remake-switch-2-costco-deal-sale&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-08:808e191374b6618e</ns0:id>
+    <ns0:title>[文档与变更] The hidden ways insects support animal life—from habitat to health—go way beyond being food</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://phys.org/news/2026-11-hidden-ways-insects-animal-life.html" />
+    <ns0:published>2026-11-07T21:00:01.598000Z</ns0:published>
+    <ns0:updated>2026-11-07T22:57:49.350240Z</ns0:updated>
+    <ns0:category term="docs-changelog" label="文档与变更" />
+    <ns0:summary type="text">There are at least 14 million insect species on Earth, and they play highly diverse roles in sustaining the natural world. Insects provide… 〔Folo分类:重大学术科研突破〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;文章指出地球上至少有 14 million 种昆虫，其维系生态的作用远超出作为食物&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：14 million · 相关方：insect species / Earth&lt;/p&gt;&lt;p&gt;There are at least 14 million insect species on Earth, and they play highly diverse roles in sustaining the natural world. Insects provide… 〔Folo分类:重大学术科研突破〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;用至少标出的数量级，说明分类学本身仍是未闭合的数据集，而非已完成的清单。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;暂无直接影响：属生态分类学数据，与 WorkBuddy、MCP、agent 部署及数据基建无工程交集，仅作带不确定性量级表述的参照。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照原文给出的 14 million 与后续修订值，若差异超过 1 个数量级则判定该量级不可直接引用。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-07T21:00 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://phys.org/news/2026-11-hidden-ways-insects-animal-life.html" rel="noopener noreferrer"&gt;https://phys.org/news/2026-11-hidden-ways-insects-animal-life.html&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:daily-info.local,2026-11-07:5e722243eff5bdd6</ns0:id>
     <ns0:title>[开发者工具与版本] Control the Glowing Apple Logo on Your New MacBook Pro</ns0:title>

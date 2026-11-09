@@ -1,0 +1,521 @@
+{
+  "date": "2026-11-08",
+  "headline": "权限的账比参数先到期：会失败的闸门与可下载的数据，正成为 agent 工程的硬指标",
+  "lead": "今天的读数分成两端：一端是 Claude Code 的 1,122 个公开 GitHub 文件暴露口令，以及被指控涉 $16B+ 非法资金流的加密交易所；另一端是 Ling-3.2-flash 把上下文拉到 1M token、Claude 把穹窿体提纯从 3 天压到 90 分钟。权限与规模的账，比模型能力更先到期。",
+  "themes": [
+    {
+      "title": "权限一旦被记住，代价落到公开仓库",
+      "why": "1,122 个公开文件里的口令、One UI 9 的隐私项、以及跳过即非零退出的 TOML 闸门，分别对应授权回收、权限面变更与闸门自检；三者都要求系统能主动失败，而不是等人发现。",
+      "cluster_ids": [
+        "5186d80b7eef5626",
+        "fda11584c20a49a6",
+        "0891e0b077814dfc"
+      ]
+    },
+    {
+      "title": "Agent 卡在编排，不在模型",
+      "why": "CS 329Z 把框架与编排单独成讲，Switch 上的 SOC agents 把值守拆成可回放流程，Claude 靠流程重排把提纯压到 90 分钟；三例都说明瓶颈在交接边界和步骤设计，而非模型规模。",
+      "cluster_ids": [
+        "4ec1ce6cb8ab80b8",
+        "c9765977f8d4cb56",
+        "2d5bb2b39ec0d18e"
+      ]
+    },
+    {
+      "title": "十美元级硬件，卡的是状态不是单价",
+      "why": "$10 的 OpenStick homelab 与 $8 的 Linux Computer 把价格压到同一档，但能否承载常驻 agent 取决于冷启动后的状态恢复；价格只是门票，恢复能力才是约束。",
+      "cluster_ids": [
+        "e4da1fc3654cef88",
+        "077466db6c7b4aa4"
+      ]
+    },
+    {
+      "title": "可核验性前移，比参数更值钱",
+      "why": "1M token 上下文、Pallatom2 开源序列与 BLI 图谱、MBARI 首次 4K 影像，共同点是让下游拿到可复测的底层数据；上游数据越完整，AI 层越不需要替它补洞。",
+      "cluster_ids": [
+        "8244490d1a90c673",
+        "0d08c3ebdeeec899",
+        "d44c0918c58155ba"
+      ]
+    },
+    {
+      "title": "先问分母，再信量级",
+      "why": "3 Million 死亡对应 193 countries 的样本，14 million 是昆虫物种的下限，$16B+ 是资金流的指控金额；三者都是量级声明，可信度取决于统计口径而不是数字本身大小。",
+      "cluster_ids": [
+        "d01e0c53e04de942",
+        "808e191374b6618e",
+        "2386b4dfa2a506fe"
+      ]
+    },
+    {
+      "title": "治理落到清单，才判得了通过",
+      "why": "AI 治理被拆成需求侧与供给侧的结构性错配，财新目录把利率基准与碳核算并列，TOML 清单要求跳过即失败；三者共通之处是把模糊主张转成可逐项核对的表。",
+      "cluster_ids": [
+        "387b27fb3bd297c9",
+        "d2d1f6badb7e1a42",
+        "0891e0b077814dfc"
+      ]
+    },
+    {
+      "title": "版本更新里，价格与权限同一份账单",
+      "why": "$5 折扣与 $54.99 定价同框，One UI 9 把隐私与手势并列为更新卖点；消费端版本说明里，定价口径和权限面变化必须一起核对，不能只看功能列表。",
+      "cluster_ids": [
+        "131c7319af2c42f1",
+        "fda11584c20a49a6"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "ai-models",
+      "label": "模型与研究",
+      "items": [
+        {
+          "id": "8244490d1a90c673",
+          "fact_anchor": "Ant Group 发布 Ling-3.2-flash 多模态模型并支持 1M token 上下文，日刊同时记录 HEELO agents 的任务完成率改进",
+          "numbers": [
+            "Ling-3.2-flash",
+            "1M"
+          ],
+          "entities": [
+            "Ant Group",
+            "Ling-3.2-flash",
+            "HEELO",
+            "AI model"
+          ],
+          "evidence_urls": [
+            "https://hex2077.dev/docs/2026-11/2026-11-07"
+          ],
+          "why_matters": "把长上下文做成可核对的指标，比笼统宣称性能更强更可复现。",
+          "impact": "1M token 上下文直接影响 WorkBuddy 长文档与多 skill 编排的上下文预算，需核对能否一次装下整轮流水线中间产物。",
+          "next_action": "跑一次长上下文对照：把当日 prompt-input.json 全文塞进单次调用，若关键 id 丢失数不为 0 即判定不可用。",
+          "signal_type": "release",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "agent-engineering",
+      "label": "Agent 与工程",
+      "items": [
+        {
+          "id": "c9765977f8d4cb56",
+          "fact_anchor": "开发者基于 Switch 搭建 SOC 值守 AI agents，投稿 Flip the Switch 黑客松 Track 01 最佳业务工作流赛道",
+          "numbers": [
+            "Track 01"
+          ],
+          "entities": [
+            "Switch",
+            "WeMakeDevs",
+            "DevTools Academy",
+            "Switch AI",
+            "SOC"
+          ],
+          "evidence_urls": [
+            "https://dev.to/manoj1698/night-shift-without-the-night-ai-agents-that-keep-a-socs-watch-built-on-switch-go"
+          ],
+          "why_matters": "把安全运营值班拆给 agent，暴露的是权限与交接流程，而不是模型推理能力。",
+          "impact": "与 WinVM Bridge 的 A2A streaming 委派路径同构：无人值守任务需要可回放进度与明确的越权边界。",
+          "next_action": "对照 github.com/manoj1698/soc-shift 仓库复现一次告警处置，若人工接管次数不为 0 就判定不可借鉴。",
+          "signal_type": "tutorial",
+          "confidence": "fact"
+        },
+        {
+          "id": "0891e0b077814dfc",
+          "fact_anchor": "作者用单个 TOML 文件定义 Six Gates，让发布清单在跳过任一行时以非零码退出",
+          "numbers": [
+            "6pm"
+          ],
+          "entities": [
+            "TOML",
+            "Checklist"
+          ],
+          "evidence_urls": [
+            "https://dev.to/rivera123/make-the-checklist-exit-nonzero-six-gates-one-toml-file-no-skipped-rows-568p"
+          ],
+          "why_matters": "把凭记忆打勾换成机器可判定的退出码，是自动化从看起来跑了变成真的验过的分界。",
+          "impact": "直接对应本项目三关验证与 verify_digest 零 violations 的闸门设计：检查项必须能自己失败，而非靠人确认。",
+          "next_action": "在本流水线补一条退出码断言：删掉任一检查项后若脚本仍返回 0，即判定闸门无效并回滚该改动。",
+          "signal_type": "tutorial",
+          "confidence": "fact"
+        },
+        {
+          "id": "4ec1ce6cb8ab80b8",
+          "fact_anchor": "斯坦福 CS 329Z《Agent工程》放出第5讲框架与编排，前四讲依次覆盖架构、LLM 原理、RAG 与工具调用",
+          "numbers": [
+            "CS 329Z",
+            "第5讲"
+          ],
+          "entities": [
+            "斯坦福",
+            "CS 329Z",
+            "Agent工程",
+            "LLM",
+            "RAG",
+            "API"
+          ],
+          "evidence_urls": [
+            "https://mp.weixin.qq.com/s?__biz=MzU4NTQyNjc5Mg%3D%3D&mid=2247498982&idx=1&sn=86a752653dc86fce50a92954a15901c0&chksm=fc03d4ca1ea4ce6341450c8d789fa104010f07eba83f7986b5d2a85342539124bb5a23e30f84&scene=0&xtrack=1"
+          ],
+          "why_matters": "把工具调用排在 RAG 之后单独成讲，说明编排与权限边界已被当成独立工程层，而非模型附带能力。",
+          "impact": "可与 WorkBuddy 的 skill / MCP / A2A 分层直接对照，用来检查当前插件是否把工具调用和编排混在同一层。",
+          "next_action": "对照第5讲目录逐项核对插件分层表，若工具注册与编排逻辑落在同一模块超过 1 处则拆层。",
+          "signal_type": "tutorial",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "dev-tools",
+      "label": "开发者工具与版本",
+      "items": [
+        {
+          "id": "5186d80b7eef5626",
+          "fact_anchor": "Claude Code 的 Don't Ask Again 选项被指与 1,122 个公开 GitHub 文件中的口令暴露相关",
+          "numbers": [
+            "1,122"
+          ],
+          "entities": [
+            "Claude Code",
+            "Don't Ask Again",
+            "GitHub"
+          ],
+          "evidence_urls": [
+            "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again"
+          ],
+          "why_matters": "一次不再询问把交互式确认永久关掉，代价不是便利性而是凭据直接进公开仓库。",
+          "impact": "WorkBuddy 的 skill 与 MCP 配置里凡有记住此授权类开关都应默认可撤销，凭据扫描须覆盖落地产物而非只扫源码。",
+          "next_action": "在本仓库跑一次全量凭据扫描，若 public/ 与 data/ 中命中数大于 0 则整轮拒发并定位来源。",
+          "signal_type": "incident",
+          "confidence": "fact"
+        },
+        {
+          "id": "e4da1fc3654cef88",
+          "fact_anchor": "作者公开其 $10 USD OpenStick homelab 上实际运行的服务清单",
+          "numbers": [
+            "$10"
+          ],
+          "entities": [
+            "OpenStick",
+            "USD"
+          ],
+          "evidence_urls": [
+            "https://blog.bosscher.ch/posts/openstick"
+          ],
+          "why_matters": "极低价硬件把自建门槛压到十美元级，但可执行的服务边界比价格更值得核对。",
+          "impact": "对 WinVM 与边缘节点选型有参照意义：能否承载常驻 agent 取决于内存与重启恢复，而非单价。",
+          "next_action": "若要在同价位设备部署常驻 agent，先跑 1 轮断网重启恢复测试，状态丢失超过 0 项即判定不可用。",
+          "signal_type": "tutorial",
+          "confidence": "fact"
+        },
+        {
+          "id": "c38557adbea19537",
+          "fact_anchor": "文章复盘 '90s 年代与 Microsoft Windows 竞争的 GeoWorks，原报道发表于 2016 年",
+          "numbers": [
+            "2016"
+          ],
+          "entities": [
+            "GeoWorks",
+            "Microsoft Windows"
+          ],
+          "evidence_urls": [
+            "https://www.atlasobscura.com/articles/the-history-of-geoworks-microsoft-windows-upstart-90s-competitor"
+          ],
+          "why_matters": "当年被系统层绑定的生态位，换到今天就是 agent 与桌面入口的绑定关系。",
+          "impact": "对 WorkBuddy 桌面端与插件分层的启示：入口级集成的护城河来自默认位置，而非单点功能优势。",
+          "next_action": "对照现有插件入口清单，若默认入口可被 1 次配置切换替换则判定绑定强度不足。",
+          "signal_type": "opinion",
+          "confidence": "fact"
+        },
+        {
+          "id": "077466db6c7b4aa4",
+          "fact_anchor": "Folo 基线收录 2022 年的 $8 Linux Computer 低成本计算方案",
+          "numbers": [
+            "$8",
+            "2022"
+          ],
+          "entities": [
+            "Linux"
+          ],
+          "evidence_urls": [
+            "http://thelittleengineerthatcould.blogspot.com/2022/12/the-8-linux-computer.html"
+          ],
+          "why_matters": "把计算成本压到八美元级，讨论重点就从性能转到跑什么才值。",
+          "impact": "与同日入选的 OpenStick homelab 条目构成对照：数据基建的瓶颈是常驻状态与恢复，而非硬件单价。",
+          "next_action": "若评估超低价设备做离线快照节点，先验证连续 1 次冷启动后快照可完整读回，缺 1 个文件即判定不合格。",
+          "signal_type": "opinion",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "docs-changelog",
+      "label": "文档与变更",
+      "items": [
+        {
+          "id": "808e191374b6618e",
+          "fact_anchor": "文章指出地球上至少有 14 million 种昆虫，其维系生态的作用远超出作为食物",
+          "numbers": [
+            "14 million"
+          ],
+          "entities": [
+            "insect species",
+            "Earth"
+          ],
+          "evidence_urls": [
+            "https://phys.org/news/2026-11-hidden-ways-insects-animal-life.html"
+          ],
+          "why_matters": "用至少标出的数量级，说明分类学本身仍是未闭合的数据集，而非已完成的清单。",
+          "impact": "暂无直接影响：属生态分类学数据，与 WorkBuddy、MCP、agent 部署及数据基建无工程交集，仅作带不确定性量级表述的参照。",
+          "next_action": "对照原文给出的 14 million 与后续修订值，若差异超过 1 个数量级则判定该量级不可直接引用。",
+          "signal_type": "research",
+          "confidence": "fact"
+        },
+        {
+          "id": "131c7319af2c42f1",
+          "fact_anchor": "Costco 会员可以 $54.99 购买 Switch 2 独占的 Ocarina of Time 数字重制版，较标准价低 $5",
+          "numbers": [
+            "$5",
+            "$54.99"
+          ],
+          "entities": [
+            "Costco",
+            "Ocarina of Time",
+            "The Legend of Zelda",
+            "Switch 2"
+          ],
+          "evidence_urls": [
+            "https://www.theverge.com/gadgets/1028917/legend-of-zelda-ocarina-of-time-remake-switch-2-costco-deal-sale"
+          ],
+          "why_matters": "重制版定价与渠道折扣同框出现，说明老 IP 的价值兑现越来越依赖分发端而非内容端。",
+          "impact": "暂无直接影响：属消费电子定价信息，与当前 agent 部署与数据基建无工程交集，仅作渠道定价样本。",
+          "next_action": "核对 $54.99 与 $5 折扣是否在结账页一致，若实付差额不等于 $5 则判定该优惠描述不可引用。",
+          "signal_type": "product",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "research-papers",
+      "label": "论文与学术",
+      "items": [
+        {
+          "id": "d01e0c53e04de942",
+          "fact_anchor": "一项覆盖 193 countries 的全球研究称，改用更健康的盐每年可避免近 3 Million 例死亡",
+          "numbers": [
+            "3 Million",
+            "193"
+          ],
+          "entities": [
+            "193 countries",
+            "everyday salt"
+          ],
+          "evidence_urls": [
+            "https://scitechdaily.com/a-healthier-form-of-salt-could-prevent-nearly-3-million-deaths-every-year-scientists-say"
+          ],
+          "why_matters": "把每年可避免死亡挂到 193 国的样本上，量级结论的说服力取决于分母口径而非标题里的数字。",
+          "impact": "暂无直接影响：属公共卫生建模结论，与 WorkBuddy、MCP 及数据基建无工程交集，可作为大样本量级声明的核验样例。",
+          "next_action": "对照论文方法部分核对 193 国的纳入标准，若剔除国家数超过 10 个仍得出同量级结论才算稳健。",
+          "signal_type": "research",
+          "confidence": "fact"
+        },
+        {
+          "id": "d44c0918c58155ba",
+          "fact_anchor": "MBARI 首次拍到 barreleye fish 的 4K 影像，为研究其透明头部内的眼睛提供素材",
+          "numbers": [
+            "4K"
+          ],
+          "entities": [
+            "MBARI",
+            "barreleye fish"
+          ],
+          "evidence_urls": [
+            "https://scitechdaily.com/deep-sea-scientists-capture-extraordinary-4k-footage-of-a-fish-with-a-see-through-head"
+          ],
+          "why_matters": "把首次 4K 影像当作研究入口而非观赏素材，价值在于可测量的视觉结构而非清晰度本身。",
+          "impact": "暂无直接影响：属深海观测成果，与当前 agent 与数据基建无交集，仅作首次高分辨率数据表述参照。",
+          "next_action": "核对影像是否公开可下载，若 4K 原始素材缺帧或不可获取则判定只能引用文字描述。",
+          "signal_type": "research",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "market-invest",
+      "label": "市场与投资",
+      "items": [
+        {
+          "id": "d2d1f6badb7e1a42",
+          "fact_anchor": "《财新周刊》第1230期出刊，财经板块涉及利率基准调整、碳核算与保险权益波动等议题",
+          "numbers": [
+            "1230"
+          ],
+          "entities": [
+            "财新周刊",
+            "Caixin Weekly",
+            "interest rate benchmarking",
+            "carbon accounting"
+          ],
+          "evidence_urls": [
+            "https://weekly.caixin.com/2026/cw1230"
+          ],
+          "why_matters": "把利率基准与碳核算放在同一期，说明定价口径变化已成为跨市场的共同变量。",
+          "impact": "暂无直接影响：属财经期刊目录，与 agent 部署及数据基建无工程交集，仅作规则层采集覆盖度的样本。",
+          "next_action": "核对该期目录与站点摘要是否逐条对应，若缺失条目超过 2 条则判定该信源摘要不完整。",
+          "signal_type": "market-data",
+          "confidence": "fact"
+        },
+        {
+          "id": "2386b4dfa2a506fe",
+          "fact_anchor": "CoinDesk 报道 US Treasury 拟将加密交易所 MEXC 移出美国金融体系，指控涉及 $16B+ 非法资金流",
+          "numbers": [
+            "$16B+"
+          ],
+          "entities": [
+            "US Treasury",
+            "MEXC",
+            "CoinDesk",
+            "Francisco Rodrigues"
+          ],
+          "evidence_urls": [
+            "https://www.techmeme.com/261107/p16"
+          ],
+          "why_matters": "以金额量级而非个案数量描述资金流风险，说明合规判定越来越依赖可聚合的资金链数据。",
+          "impact": "对数据基建的提醒：本流水线的发布闸门同样需要可聚合的违规计数，而不是逐条人工确认。",
+          "next_action": "对照 push-log.jsonl 统计同日同通道重复处理次数，若大于 0 则判定幂等记录失效并暂停分发。",
+          "signal_type": "market-data",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "security-governance",
+      "label": "安全与治理",
+      "items": [
+        {
+          "id": "fda11584c20a49a6",
+          "fact_anchor": "文章梳理 Samsung One UI 9 更新中的 10 项功能，涉及相机、手势与隐私",
+          "numbers": [
+            "10",
+            "One UI 9"
+          ],
+          "entities": [
+            "Samsung",
+            "One UI 9"
+          ],
+          "evidence_urls": [
+            "https://www.engadget.com/2305270/samsung-one-ui-9-coolest-features"
+          ],
+          "why_matters": "系统级更新把隐私与手势并列为卖点，说明权限面变化已需要随版本逐项核对。",
+          "impact": "对 WinVM 与桌面端插件的启示：宿主系统大版本更新后应重跑一次权限与快捷键回归，而不是只看功能清单。",
+          "next_action": "宿主系统升级后跑一次插件回归，若 10 项受影响的权限与快捷键中有任意 1 项失效则判定不兼容。",
+          "signal_type": "release",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "deep-read",
+      "label": "深度长文",
+      "items": [
+        {
+          "id": "387b27fb3bd297c9",
+          "fact_anchor": "清华大学王净宇 11月4日在乌镇「面向2030的人工智能治理框架」咖荟作主旨演讲，谈 AI 安全治理供需错配",
+          "numbers": [
+            "11月4日",
+            "2030"
+          ],
+          "entities": [
+            "清华大学",
+            "王净宇",
+            "乌镇",
+            "人工智能治理框架",
+            "AI"
+          ],
+          "evidence_urls": [
+            "https://mp.weixin.qq.com/s?__biz=MzU4MzYxOTIwOQ%3D%3D&mid=2247525405&idx=2&sn=191870ca218220e1397b5f2632c3b7ef&chksm=fc6ca0ab20f98b1c236b19d6bd7a48751e055ea3f70ed0a2f5b8c9512bbe05663e01e03e0ba9&scene=0&xtrack=1"
+          ],
+          "why_matters": "把治理问题拆成需求侧与供给侧的结构性错配，比笼统谈规则滞后更可落到能力清单。",
+          "impact": "对 agent 治理的直接映射：skill 与 MCP 的权限供给和实际任务需求之间的错配，同样需要分层清单来对齐。",
+          "next_action": "把现有 skill 权限列出一张供需对照表，若超过 2 项能力无对应任务或有任务无能力则判定需重排。",
+          "signal_type": "opinion",
+          "confidence": "fact"
+        },
+        {
+          "id": "0d08c3ebdeeec899",
+          "fact_anchor": "Pallatom2 技术报告发布，以 Atom-to-Atom 建模覆盖长链蛋白、多结构域与对称组装，并开源全部序列与 BLI 实验图谱",
+          "numbers": [
+            "Pallatom2"
+          ],
+          "entities": [
+            "Pallatom2",
+            "Atom-to-Atom",
+            "BLI",
+            "D型分子"
+          ],
+          "evidence_urls": [
+            "https://mp.weixin.qq.com/s?__biz=MzU2ODU3Mzc4Nw%3D%3D&mid=2247514865&idx=1&sn=99d678a284d9b72878300915a761aa60&chksm=fdcbe7ffd2ded58f7fa723fcd491b74954aea0b4a4cf82a071fe20be501b10ff449c5f70cf0b&scene=0&xtrack=1"
+          ],
+          "why_matters": "把序列与实验图谱一并开源，使可复现从承诺变成可下载的数据集。",
+          "impact": "对本项目确定性脚本做索引、AI 只做研判的印证：可核验的底层数据越完整，AI 层越不需要补洞。",
+          "next_action": "核对其开源仓库是否含完整 BLI 图谱，若缺 1 类实验数据则判定全开源表述不成立。",
+          "signal_type": "research",
+          "confidence": "fact"
+        },
+        {
+          "id": "2d5bb2b39ec0d18e",
+          "fact_anchor": "Anthropic 团队用 Claude AI 在不到 4 个月内解析原核生物「穹窿体」三维结构，把提纯从 3 天缩到 90 分钟",
+          "numbers": [
+            "40年",
+            "4个月",
+            "3天",
+            "90分钟"
+          ],
+          "entities": [
+            "Claude",
+            "Anthropic",
+            "穹窿体",
+            "冷冻电镜"
+          ],
+          "evidence_urls": [
+            "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&mid=2652740799&idx=2&sn=f01b263b515d75d9b6792f43b9fae06a&chksm=f020276eb964d50e1cd17f26b8139f4a96d39c22f3783feee951aaf0972642aa20279bb6cca5&scene=0&xtrack=1"
+          ],
+          "why_matters": "用提纯耗时这类实验室内可复测的指标，而不是模型 benchmark，来衡量 AI 的真实增益。",
+          "impact": "对 automation 的直接参照：把 3 天压到 90 分钟的价值来自流程重排，agent 应替换的是步骤而非单点推理。",
+          "next_action": "在自动化流水线里挑 1 个耗时步骤做同样拆解，若端到端耗时下降不足 50% 则判定只是换了工具没换流程。",
+          "signal_type": "research",
+          "confidence": "fact"
+        }
+      ]
+    }
+  ],
+  "editor_note": "今天的核心是可核验性。Claude Code 的 Don't Ask Again 让 1,122 个公开 GitHub 文件出现口令，一份 TOML 清单要求跳过任一行即非零退出：授权要可撤销、闸门要能自己失败。对 WorkBuddy 的 skill 与 MCP 开关就是默认可撤销；本流水线已有三关验证与 verify_digest 零 violations，却缺删项后退出码的反面测试。\n\n第二条线是编排不是模型。斯坦福 CS 329Z 把框架与编排单独排到第5讲，Claude 把穹窿体提纯从 3 天压到 90 分钟，增益都来自流程重排而非更大的模型。对 WinVM Bridge 的 A2A streaming 委派，先把谁在何时接管写成可观测状态，否则进度只是日志不是控制权；skill 分层同理，工具注册与编排同处一模块就该拆开。\n\n第三条线是底层数据。Ling-3.2-flash 的 1M token 上下文、Pallatom2 开源序列与 BLI 图谱、MBARI 首次 4K 影像，都让下游不必替上游补洞。这正是确定性脚本做索引、AI 只做研判的前提：摘要只剩 Comments 就拒绝入报，不放宽阈值，被剔除条目进 no-number 待补清单，补摘要或换一手来源，绝不动 content-spec。下一步只做一件可证伪的事：给闸门补一条删除检查项后的退出码断言。",
+  "brief": "今日速览｜权限、编排、底层数据三条线同时收紧。Claude Code 的 Don't Ask Again 被指与 1,122 个公开 GitHub 文件中的口令暴露相关；One UI 9 把隐私列入功能清单；一份 TOML 清单要求跳过任一行即非零退出——三者都在说授权必须可撤销、闸门必须能自己失败。编排侧，斯坦福 CS 329Z 第5讲专讲框架与编排，Switch 上的 SOC 值守 agents 把夜班拆成可回放流程，Claude 把穹窿体提纯从 3 天压到 90 分钟，增益来自流程重排而非更大模型。数据侧，Ling-3.2-flash 支持 1M token 上下文，Pallatom2 开源序列与 BLI 图谱，MBARI 首次放出 4K 深海影像；反过来，摘要只剩 Comments 的条目按白名单口径一律拒绝入报，进 no-number 待补清单，不放宽任何阈值。量级声明也要先问分母：低钠盐研究覆盖 193 countries、昆虫至少 14 million 种、MEXC 被指涉 $16B+ 非法资金流，数字可引用，结论不可外推。低成本硬件的 $8 与 $10 对照，约束是冷启动状态恢复。市场板块只陈述公开数据与风险提示，不构成投资建议。待验证：发布闸门删项退出码断言、长上下文整轮载入不丢 id、push-log 同日同通道幂等。",
+  "watch_signals": [
+    {
+      "signal": "不再询问类授权开关在公开仓库的暴露面",
+      "threshold": "全量凭据扫描命中数大于 0，或公开文件计数高于 1,122",
+      "judgement": "判定发布闸门失效，立即停止分发并回滚相关改动"
+    },
+    {
+      "signal": "长上下文能否一次装下整轮流水线素材",
+      "threshold": "单次载入 prompt-input.json 全文后关键 id 丢失数等于 0",
+      "judgement": "判定 1M token 类长上下文可用于整轮研判，否则仍走分段输入"
+    },
+    {
+      "signal": "低成本常驻节点的冷启动恢复",
+      "threshold": "连续 1 次冷启动后快照恢复，状态丢失项等于 0",
+      "judgement": "判定 $8 与 $10 级设备可承载常驻 agent"
+    },
+    {
+      "signal": "发布清单闸门是否真的会失败",
+      "threshold": "人为删掉 1 个检查项后脚本退出码不等于 0",
+      "judgement": "判定闸门有效，否则视为人工确认的伪装"
+    },
+    {
+      "signal": "同日同通道幂等记录",
+      "threshold": "push-log.jsonl 中同日同通道重复计数大于 0",
+      "judgement": "判定幂等失效，暂停该通道分发并核对 pending-dispatch 清单"
+    }
+  ]
+}
