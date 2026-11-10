@@ -5,10 +5,90 @@
   <ns0:subtitle>挖掘 · 聚合 · 研判 · 订阅；每条附原文链接；内容仅供参考，不构成投资建议</ns0:subtitle>
   <ns0:link rel="self" type="application/atom+xml" href="https://daily-info.local/tech.atom" />
   <ns0:link rel="alternate" type="text/html" href="https://daily-info.local/index.html" />
-  <ns0:updated>2026-11-09T01:51:44.934256Z</ns0:updated>
+  <ns0:updated>2026-11-10T02:09:37.536152Z</ns0:updated>
   <ns0:author>
     <ns0:name>Personal Daily Info</ns0:name>
   </ns0:author>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-10:69e806cfbc9de11b</ns0:id>
+    <ns0:title>[开发者工具与版本] Technical Teardown: Geometry Survivor Mod APK (v1.0) Architecture &amp; Safe Mirrors</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://dev.to/tanvir1704/technical-teardown-geometry-survivor-mod-apk-v10-architecture-safe-mirrors-2ce2" />
+    <ns0:published>2026-11-09T21:50:23.848000Z</ns0:published>
+    <ns0:updated>2026-11-10T02:09:37.536152Z</ns0:updated>
+    <ns0:category term="dev-tools" label="开发者工具与版本" />
+    <ns0:summary type="text">When evaluating mobile Android modifications, stability, package signature integrity, and runtime behavior are critical. In this teardown,… 〔Folo分类:开源项目〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;一篇技术拆解以 Geometry Survivor Mod APK v1.0 为例，讨论稳定性、包签名完整性与运行时行为&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：1.0 · 相关方：Geometry Survivor / APK / Android&lt;/p&gt;&lt;p&gt;When evaluating mobile Android modifications, stability, package signature integrity, and runtime behavior are critical. In this teardown,… 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把包签名完整性当作判定第三方修改版可信度的首要字段，比「安全镜像」这类名号更可核验，可作为准入清单的反例教材。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 agent 部署有间接参照：第三方 APK 的验签逻辑同样适用于 WinVM 侧安装包准入判定的字段设计。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;抽取该 APK 两个镜像验签，若签名哈希一致率 100% 且运行时无额外联网，判定可作为 WinVM 安装包准入样本。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-09T21:50 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://dev.to/tanvir1704/technical-teardown-geometry-survivor-mod-apk-v10-architecture-safe-mirrors-2ce2" rel="noopener noreferrer"&gt;https://dev.to/tanvir1704/technical-teardown-geometry-survivor-mod-apk-v10-architecture-safe-mirrors-2ce2&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-10:e01056c942e15d49</ns0:id>
+    <ns0:title>[文档与变更] v0.40.16</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://github.com/ollama/ollama/releases/tag/v0.40.16" />
+    <ns0:published>2026-11-09T23:45:36Z</ns0:published>
+    <ns0:updated>2026-11-10T02:09:37.536152Z</ns0:updated>
+    <ns0:category term="docs-changelog" label="文档与变更" />
+    <ns0:summary type="text">Ripple Preview Ripple Preview from Ricursive Intelligence is a 65B dense model built for agentic coding. ollama run ripple-preview What's Changed Qwen3.8 Flash Next uses about 27 GiB less memory on Apple silicon ollama launch claude always routes Claude Code to the selected model ollama launch expla</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;ollama v0.40.16 收录 65B 的 Ripple Preview 编码模型，并让 Qwen3.8 Flash Next 在 Apple silicon 上少用 27 GiB 内存&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：0.40.16 / 65B / 27 GiB / 13.5 / 3.8 · 相关方：ollama / Ripple Preview / Ricursive Intelligence / Qwen3.8 / Claude Code / CUDA&lt;/p&gt;&lt;p&gt;Ripple Preview Ripple Preview from Ricursive Intelligence is a 65B dense model built for agentic coding. ollama run ripple-preview What&amp;#x27;s Changed Qwen3.8 Flash Next uses about 27 GiB less memory on Apple silicon ollama launch claude always routes Claude Code to the selected model ollama launch expla&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;除显存收益外还改了 /v1/responses 默认截断与 /v1/models 空返回值，属调用约定变化；只记版本号会漏掉必须回归的接口行为。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;直接关系 WorkBuddy LLM provider V1 的本地候选：27 GiB 内存下降决定模型能否常驻，长输出处理需按新默认行为回归。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在 Apple silicon 上对比 v0.40.15 与 v0.40.16 峰值内存，若下降 ≥ 27 GiB 且长输出 0 截断，判定可纳入本地常驻候选。&lt;/p&gt;&lt;p&gt;来源：ollama Releases · 发布于 2026-11-09T23:45 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/ollama/ollama/releases/tag/v0.40.16" rel="noopener noreferrer"&gt;https://github.com/ollama/ollama/releases/tag/v0.40.16&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-10:3bb5b3b2d995dfa0</ns0:id>
+    <ns0:title>[Agent 与工程] opensandbox-group/OpenSandbox</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://github.com/opensandbox-group/OpenSandbox" />
+    <ns0:published>2026-11-10T00:03:38.916000Z</ns0:published>
+    <ns0:updated>2026-11-10T02:09:37.536152Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="Agent 与工程" />
+    <ns0:summary type="text">Secure, Fast, and Extensible Sandbox runtime for AI agents. Language: Python Stars: 16,914… 〔Folo分类:开源项目〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;opensandbox-group 开源 OpenSandbox，定位为面向 AI agents 的 Python 沙箱运行时，仓库标注 16,914 星&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：16,914 · 相关方：OpenSandbox / Python / AI agents&lt;/p&gt;&lt;p&gt;Secure, Fast, and Extensible Sandbox runtime for AI agents. Language: Python Stars: 16,914… 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把沙箱做成独立运行时而非宿主进程内的权限判断，与同日 claude-code 修复的 Bash 越沙箱问题形成呼应：隔离层正在外移。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;直接对应 WinVM Bridge 的沙箱层：独立 Python 运行时可降低 direct MCP-tools 调用越权的风险面。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;用 OpenSandbox 跑一次越权写入 smoke，若 0 violations 且隔离进程与宿主无共享句柄，判定可进入 WinVM 沙箱 PoC。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-10T00:03 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/opensandbox-group/OpenSandbox" rel="noopener noreferrer"&gt;https://github.com/opensandbox-group/OpenSandbox&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-10:318e4c96184b9fdb</ns0:id>
+    <ns0:title>[Agent 与工程] virattt/dexter</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://github.com/virattt/dexter" />
+    <ns0:published>2026-11-10T00:03:50.751000Z</ns0:published>
+    <ns0:updated>2026-11-10T02:09:37.536152Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="Agent 与工程" />
+    <ns0:summary type="text">An autonomous agent for deep financial research Language: TypeScript Stars: 27,804 Forks: 3… 〔Folo分类:开源项目〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;GitHub 项目 virattt/dexter 以 TypeScript 实现面向深度金融研究的自主 agent，仓库标注 27,804 星&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：27,804 · 相关方：virattt/dexter / TypeScript&lt;/p&gt;&lt;p&gt;An autonomous agent for deep financial research Language: TypeScript Stars: 27,804 Forks: 3… 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;星数只说明关注度，摘要未给任务成功率或 handoff 契约；把它当架构样本前需先确认它返回的是结构化结果还是一段消息。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;A2A 委派路径的参照实现：可作为复杂任务委派的对比样本，但不能凭星数推断其多 agent 交接质量。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;给 dexter 派 3 个固定研究任务，若结构化结果返回率 ≥ 2/3，判定其 handoff 契约值得对照 A2A 实现。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-10T00:03 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/virattt/dexter" rel="noopener noreferrer"&gt;https://github.com/virattt/dexter&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-10:2f3c8b6e4ca8bc73</ns0:id>
+    <ns0:title>[Agent 与工程] Here's What Apple Fixed in iOS 27.2.1 and macOS 27.2.1</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.macrumors.com/2026/11/09/ios-27-2-1-security-fixes" />
+    <ns0:published>2026-11-09T23:07:16.442000Z</ns0:published>
+    <ns0:updated>2026-11-10T02:09:37.536152Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="Agent 与工程" />
+    <ns0:summary type="text">Apple released iOS, iPadOS, and macOS 27.2.1 updates to fix multiple security vulnerabilities. These patches address issues in iMessage that permitted unauthorized access to group chat history, as well as AirPlay and Bluetooth flaws allowing malicious pairing and memory corruption. Additionally, the</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Apple 为 iOS、iPadOS 与 macOS 27.2.1 发布安全更新，修复 iMessage 群聊历史越权访问与 AirPlay、Bluetooth 恶意配对缺陷&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：27.2.1 · 相关方：Apple / iOS / iPadOS / macOS / iMessage / eMudhra&lt;/p&gt;&lt;p&gt;Apple released iOS, iPadOS, and macOS 27.2.1 updates to fix multiple security vulnerabilities. These patches address issues in iMessage that permitted unauthorized access to group chat history, as well as AirPlay and Bluetooth flaws allowing malicious pairing and memory corruption. Additionally, the&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;更新同时为命令行工具补上 eMudhra 证书防护，影响的不是功能而是本地脚本的信任链，公开细节后未升级设备的利用风险上升。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;本机 macOS 侧与 WinVM 命令行工具共享证书链，防护变更后需回归自动化脚本的签名校验，避免无人值守任务被静默拦截。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在 macOS 27.2.1 上跑一次签名脚本回归，若 eMudhra 相关校验失败次数为 0 且自动化任务全通过，判定升级不影响工具链。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-09T23:07 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.macrumors.com/2026/11/09/ios-27-2-1-security-fixes" rel="noopener noreferrer"&gt;https://www.macrumors.com/2026/11/09/ios-27-2-1-security-fixes&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-10:13932435604d30aa</ns0:id>
+    <ns0:title>[Agent 与工程] v2.1.321</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://github.com/anthropics/claude-code/releases/tag/v2.1.321" />
+    <ns0:published>2026-11-09T19:22:30Z</ns0:published>
+    <ns0:updated>2026-11-10T02:09:37.536152Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="Agent 与工程" />
+    <ns0:summary type="text">What's changed Added Claude Fable 5.2 (claude-fable-5-2), now the default Fable model — 1M context, $8/$40 per Mtok with $0.20/Mtok cache reads Added --settings to claude remote-control, which applies a settings file to every session it starts; if the file changes, no new session starts until you re</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;claude-code v2.1.321 将 Claude Fable 5.2 设为默认模型，给出 1M 上下文定价，并修复 MCP OAuth 重定向泄露凭据等缺陷&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2.1.321 / 1M / $8/$40 / $0.20 / 5.2 · 相关方：Claude Fable 5.2 / MCP OAuth / claude remote-control / Claude Code / SEP-2352 / Bash&lt;/p&gt;&lt;p&gt;What&amp;#x27;s changed Added Claude Fable 5.2 (claude-fable-5-2), now the default Fable model — 1M context, $8/$40 per Mtok with $0.20/Mtok cache reads Added --settings to claude remote-control, which applies a settings file to every session it starts; if the file changes, no new session starts until you re&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;这次修复集中在信任边界：OAuth 重定向把 refresh token 发往另一主机、只读 Bash 越出沙箱、cp 与 mv 写入绕过 deny 规则，比模型升级更值得先回归。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;与 MCP、agent 部署强相关：三项缺陷要补进双端 setup 的回归断言集，否则 direct MCP-tools 调用链路存在凭据外发风险。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;构造一次 MCP OAuth 302 重定向并抓包，若非注册主机收到 refresh token 次数为 0，判定 v2.1.321 可纳入 agent 部署基线。&lt;/p&gt;&lt;p&gt;来源：claude-code Releases · 发布于 2026-11-09T19:22 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.321" rel="noopener noreferrer"&gt;https://github.com/anthropics/claude-code/releases/tag/v2.1.321&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-10:def0cbfaae458dc9</ns0:id>
+    <ns0:title>[模型与研究] Anthropic Launches Claude Fable 5.2 and Mythos 5.2</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.macrumors.com/2026/11/09/anthropic-launches-claude-fable-5-2" />
+    <ns0:published>2026-11-09T19:38:47.013000Z</ns0:published>
+    <ns0:updated>2026-11-10T02:09:37.536152Z</ns0:updated>
+    <ns0:category term="ai-models" label="模型与研究" />
+    <ns0:summary type="text">Anthropic has launched Claude Fable 5.2 and Mythos 5.2, featuring improved coding, reasoning, and vision capabilities. These models generate outputs up to 30 percent faster than previous versions, with Fable 5.2 also using fewer tokens on challenging tasks. While both models share the same underlyin</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2，称输出速度最高快 30 percent 且在技术科学基准上超过 Opus 5.5&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：5.2 / 30 / 5.5 · 相关方：Anthropic / Claude Fable 5.2 / Mythos 5.2 / Opus 5.5&lt;/p&gt;&lt;p&gt;Anthropic has launched Claude Fable 5.2 and Mythos 5.2, featuring improved coding, reasoning, and vision capabilities. These models generate outputs up to 30 percent faster than previous versions, with Fable 5.2 also using fewer tokens on challenging tasks. While both models share the same underlyin&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;两款模型同架构但 Fable 5.2 多了网络安全与生物护栏，说明差异已落在策略层而非能力层；30 percent 是厂商口径，缺独立复测。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 WorkBuddy 模型路由有影响：应按任务类型分流而非按速度单一指标选模型，护栏差异会改变敏感任务的可用集。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;分别跑 Fable 5.2 与 Mythos 5.2 各 10 次编码任务，若前者护栏拦截率更高且 30 percent 提速可复现，判定按任务分流。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-09T19:38 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.macrumors.com/2026/11/09/anthropic-launches-claude-fable-5-2" rel="noopener noreferrer"&gt;https://www.macrumors.com/2026/11/09/anthropic-launches-claude-fable-5-2&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-10:ac841c16ab1a0f7b</ns0:id>
+    <ns0:title>[模型与研究] llm-anthropic 0.31</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://simonwillison.net/2026/Nov/9/llm-anthropic" />
+    <ns0:published>2026-11-09T23:58:46Z</ns0:published>
+    <ns0:updated>2026-11-10T02:09:37.536152Z</ns0:updated>
+    <ns0:category term="ai-models" label="模型与研究" />
+    <ns0:summary type="text">Release: llm-anthropic 0.31 Anthropic released Fable 5.2 and Mythos 5.2 today. I've added them to llm-anthropic, so you can now run prompts through Fable 5.2 like this: uv tool install llm llm install llm-anthropic llm keys set anthropic # paste key here llm -m claude-fable-5.2 "Generate an SVG of a</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Simon Willison 发布 llm-anthropic 0.31 适配 Fable 5.2 与 Mythos 5.2，并实测五档推理档生成 SVG 的表现&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：0.31 / 5.2 / 128,000 / 5.5 · 相关方：llm-anthropic / Anthropic / Fable 5.2 / Mythos 5.2 / Opus 5.5&lt;/p&gt;&lt;p&gt;Release: llm-anthropic 0.31 Anthropic released Fable 5.2 and Mythos 5.2 today. I&amp;#x27;ve added them to llm-anthropic, so you can now run prompts through Fable 5.2 like this: uv tool install llm llm install llm-anthropic llm keys set anthropic # paste key here llm -m claude-fable-5.2 &amp;quot;Generate an SVG of a&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;适配速度虽快，但 max 档耗尽 128,000 token 后连图都返回不出，且这是 Fable 系列新出现、Opus 5.5 时代已有的同类故障，说明新模型的极限档不能默认信任。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 skill 与 automation 的模型调用有直接影响：长任务必须设 token 上限与超时回退，不能把单一推理档当作可靠执行路径。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;用同一提示词跑 max 档 10 次，若完整返回 ≥ 9 次且 token 消耗上限可控，判定可启用该推理档。&lt;/p&gt;&lt;p&gt;来源：Simon Willison&amp;#x27;s Weblog · 发布于 2026-11-09T23:58 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://simonwillison.net/2026/Nov/9/llm-anthropic" rel="noopener noreferrer"&gt;https://simonwillison.net/2026/Nov/9/llm-anthropic&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:daily-info.local,2026-11-09:991d00f8bf0c1caa</ns0:id>
     <ns0:title>[文档与变更] 5 underrated PlayStation App features</ns0:title>

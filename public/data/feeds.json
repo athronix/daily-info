@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-09T01:51:44.934256Z",
+  "generated_at": "2026-11-10T02:09:37.536152Z",
   "base_url": "https://daily-info.local",
   "counts": {
     "all": 100,
-    "high-signal": 90,
-    "tech": 64,
-    "invest": 24,
-    "docs": 7
+    "high-signal": 100,
+    "tech": 72,
+    "invest": 25,
+    "docs": 8
   },
   "profiles": [
     {

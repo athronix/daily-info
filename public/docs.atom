@@ -5,10 +5,20 @@
   <ns0:subtitle>挖掘 · 聚合 · 研判 · 订阅；每条附原文链接；内容仅供参考，不构成投资建议</ns0:subtitle>
   <ns0:link rel="self" type="application/atom+xml" href="https://daily-info.local/docs.atom" />
   <ns0:link rel="alternate" type="text/html" href="https://daily-info.local/index.html" />
-  <ns0:updated>2026-11-09T01:51:44.934256Z</ns0:updated>
+  <ns0:updated>2026-11-10T02:09:37.536152Z</ns0:updated>
   <ns0:author>
     <ns0:name>Personal Daily Info</ns0:name>
   </ns0:author>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-10:e01056c942e15d49</ns0:id>
+    <ns0:title>[文档与变更] v0.40.16</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://github.com/ollama/ollama/releases/tag/v0.40.16" />
+    <ns0:published>2026-11-09T23:45:36Z</ns0:published>
+    <ns0:updated>2026-11-10T02:09:37.536152Z</ns0:updated>
+    <ns0:category term="docs-changelog" label="文档与变更" />
+    <ns0:summary type="text">Ripple Preview Ripple Preview from Ricursive Intelligence is a 65B dense model built for agentic coding. ollama run ripple-preview What's Changed Qwen3.8 Flash Next uses about 27 GiB less memory on Apple silicon ollama launch claude always routes Claude Code to the selected model ollama launch expla</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;ollama v0.40.16 收录 65B 的 Ripple Preview 编码模型，并让 Qwen3.8 Flash Next 在 Apple silicon 上少用 27 GiB 内存&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：0.40.16 / 65B / 27 GiB / 13.5 / 3.8 · 相关方：ollama / Ripple Preview / Ricursive Intelligence / Qwen3.8 / Claude Code / CUDA&lt;/p&gt;&lt;p&gt;Ripple Preview Ripple Preview from Ricursive Intelligence is a 65B dense model built for agentic coding. ollama run ripple-preview What&amp;#x27;s Changed Qwen3.8 Flash Next uses about 27 GiB less memory on Apple silicon ollama launch claude always routes Claude Code to the selected model ollama launch expla&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;除显存收益外还改了 /v1/responses 默认截断与 /v1/models 空返回值，属调用约定变化；只记版本号会漏掉必须回归的接口行为。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;直接关系 WorkBuddy LLM provider V1 的本地候选：27 GiB 内存下降决定模型能否常驻，长输出处理需按新默认行为回归。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在 Apple silicon 上对比 v0.40.15 与 v0.40.16 峰值内存，若下降 ≥ 27 GiB 且长输出 0 截断，判定可纳入本地常驻候选。&lt;/p&gt;&lt;p&gt;来源：ollama Releases · 发布于 2026-11-09T23:45 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/ollama/ollama/releases/tag/v0.40.16" rel="noopener noreferrer"&gt;https://github.com/ollama/ollama/releases/tag/v0.40.16&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:daily-info.local,2026-11-09:991d00f8bf0c1caa</ns0:id>
     <ns0:title>[文档与变更] 5 underrated PlayStation App features</ns0:title>

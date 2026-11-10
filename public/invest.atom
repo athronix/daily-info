@@ -5,10 +5,20 @@
   <ns0:subtitle>挖掘 · 聚合 · 研判 · 订阅；每条附原文链接；内容仅供参考，不构成投资建议</ns0:subtitle>
   <ns0:link rel="self" type="application/atom+xml" href="https://daily-info.local/invest.atom" />
   <ns0:link rel="alternate" type="text/html" href="https://daily-info.local/index.html" />
-  <ns0:updated>2026-11-09T01:51:44.934256Z</ns0:updated>
+  <ns0:updated>2026-11-10T02:09:37.536152Z</ns0:updated>
   <ns0:author>
     <ns0:name>Personal Daily Info</ns0:name>
   </ns0:author>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-10:382ff6535f6d860a</ns0:id>
+    <ns0:title>[市场与投资] Cracking the case of the Roman frog graveyard</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://phys.org/news/2026-11-case-roman-frog-graveyard.html" />
+    <ns0:published>2026-11-10T00:10:09.811000Z</ns0:published>
+    <ns0:updated>2026-11-10T02:09:37.536152Z</ns0:updated>
+    <ns0:category term="market-invest" label="市场与投资" />
+    <ns0:summary type="text">Ten years after 8,000 ancient frog bones were discovered in a single ditch, scientists at Bournemouth University and the Museum of London… 〔Folo分类:重大学术科研突破〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Bournemouth University 与 Museum of London 的研究者重新分析一条沟渠中出土的 8,000 块古蛙骨&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：8,000 · 相关方：Bournemouth University / Museum of London&lt;/p&gt;&lt;p&gt;Ten years after 8,000 ancient frog bones were discovered in a single ditch, scientists at Bournemouth University and the Museum of London… 〔Folo分类:重大学术科研突破〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;十年前的材料靠新方法重新得出结论，说明保留可重算的原始样本比保存当时的结论更有价值，这是资料沉淀的通用教训。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;暂无直接影响：考古样本研究不涉及 WorkBuddy、MCP、agent 部署任何环节；8,000 仅作为本期实质读数样本供白名单复算。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对报告中 8,000 块骨骼的计数口径，若与发掘清单一致率 100%，判定该数字可作为白名单正样本。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-10T00:10 UTC · 归类：market-invest&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://phys.org/news/2026-11-case-roman-frog-graveyard.html" rel="noopener noreferrer"&gt;https://phys.org/news/2026-11-case-roman-frog-graveyard.html&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:daily-info.local,2026-11-09:23fa35e7fe308eba</ns0:id>
     <ns0:title>[论文与学术] Small histone differences help shape gene regulation during sperm development</ns0:title>

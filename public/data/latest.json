@@ -1,77 +1,77 @@
 {
-  "date": "2026-11-09",
-  "headline": "先证伪再采信：今天真正有分量的进展，都附了可复测的分母或自己会失败的闸门",
-  "headline_short": "先证伪再采信：今天真正有分量的进展，都附了可复测的分母或",
-  "lead": "今天最硬的两个读数都带反例：DeepSeek Harness 披露 154 万日活、约 3.5 万第三方插件，公告却在补插件 API 稳定性；XBOW 在 65 个含漏洞应用上实测 GPT-6 Cyber 比 GPT-6.1 Sol 快约 2 倍，却少解出 5 个目标。规模与能力的账，都得先对上分母再采信。",
-  "generated_at": "2026-11-09T01:51:44.934256Z",
+  "date": "2026-11-10",
+  "headline": "Fable 5.2 同日进入榜单、CLI 与本地运行时，但 128,000 token 的失败暴露默认档可信度缺口",
+  "headline_short": "Fable 5.2 同日进入榜单、CLI 与本地运行时，",
+  "lead": "Fable 5.2 在 Artificial Analysis 得 65 分，同日 claude-code v2.1.321 设为默认并给出 1M 上下文与 $8/$40 每 Mtok 定价，ollama v0.40.16 把 65B 的 Ripple Preview 收进本地运行时、让 Qwen3.8 少用 27 GiB 内存；但 llm-anthropic 0.31 实测 max 档耗尽 128,000 token 仍返不出图。",
+  "generated_at": "2026-11-10T02:09:37.536152Z",
   "themes": [
     {
-      "title": "规模声明先看分母，再看口径",
-      "why": "154 万日活与 3.5 万插件是自建生态口径，65 个应用是自建对照集，78% 是自报成功率；三者量级都只在给定分母内成立，跨口径外推即失效。",
+      "title": "模型发布先看工具链是否同日接住",
+      "why": "Fable 5.2 发布当天，claude-code 设为默认、llm-anthropic 0.31 完成适配、ollama 把 65B 模型收进本地运行时；可用性取决于生态适配速度，而不是榜单上的 65 分。",
       "cluster_ids": [
-        "59248c45e5bcf4d6",
-        "0cfbdaa8bb33ae59",
-        "c46b25d79acf061b"
+        "13932435604d30aa",
+        "ac841c16ab1a0f7b",
+        "e01056c942e15d49",
+        "def0cbfaae458dc9"
+      ],
+      "verified_by": 4
+    },
+    {
+      "title": "最高推理档的失败比分数更值钱",
+      "why": "65 分是 Artificial Analysis 的榜单口径，而 llm-anthropic 实测 max 档耗尽 128,000 token 仍无输出；接入前必须用同一提示词复现长任务，不能按分数排序选模型。",
+      "cluster_ids": [
+        "255b56db4a4a44d0",
+        "ac841c16ab1a0f7b",
+        "def0cbfaae458dc9"
       ],
       "verified_by": 3
     },
     {
-      "title": "传闻与反驳同时到达，才值得进报",
-      "why": "GPT-6.2 Sol 灰度说在约半小时后被截图反驳为 GPT-6.1 Sol；AIRoA-0 放出权重与代码让 78% 可被复测；pytest 把争议拆成 28 tests。可核验性来自反例与可下载物。",
+      "title": "MCP 的漏洞在凭据重定向而非协议",
+      "why": "claude-code v2.1.321 修掉 MCP OAuth 重定向把 refresh token 发往另一主机、只读 Bash 越出沙箱、cp 与 mv 绕过 deny 规则；这类边界错误正是 agent 部署最易忽略的面。",
       "cluster_ids": [
-        "ae2f80dd374e58bb",
-        "c46b25d79acf061b",
-        "5abe40cdd3f03602"
+        "13932435604d30aa",
+        "e01056c942e15d49",
+        "3bb5b3b2d995dfa0"
       ],
       "verified_by": 3
     },
     {
-      "title": "Agent 的瓶颈在可回放，不在参数量",
-      "why": "12-factor-agents 把生产级原则写成清单，mini-swe-agent 用 100 行收敛复杂度，Week 7 的 LLM 更正了错误测量并合并却仍是 $0；三者都在说状态与交接。",
+      "title": "沙箱与运行时开始独立成层",
+      "why": "OpenSandbox 把 AI agent 沙箱做成独立 Python 运行时（16,914 星），dexter 以 TypeScript 做自主金融研究 agent（27,804 星）；工程重心正从模型调用转向执行环境隔离。",
       "cluster_ids": [
-        "66d41b8aa3e54926",
-        "1876b9abaa20b9f0",
-        "6346806ff2c40fcb"
+        "3bb5b3b2d995dfa0",
+        "318e4c96184b9fdb",
+        "13932435604d30aa"
       ],
       "verified_by": 3
     },
     {
-      "title": "版本兼容是排查题，不是安装题",
-      "why": "RKLLM 官方 vision demo 在目标 transformers 上跑不起来，靠五个版本二分定位；7 个工具对比每格都溯源到自家文档；共同点是把断言换成可复现的定位过程。",
+      "title": "本地推理的收益要按 GiB 计量",
+      "why": "ollama v0.40.16 让 Qwen3.8 Flash Next 在 Apple silicon 上少用 27 GiB 内存并补上 CUDA 13.5 与 Windows on ARM；内存下降比参数规模更能决定本机能否常驻。",
       "cluster_ids": [
-        "282cc56cf39d2406",
-        "83254f823c84d293",
-        "9c7e75a27e82f37a"
+        "e01056c942e15d49",
+        "ac841c16ab1a0f7b"
+      ],
+      "verified_by": 2
+    },
+    {
+      "title": "版本号里藏着行为破坏性变更",
+      "why": "v0.40.16 改了 /v1/responses 默认截断与 /v1/models 空返回值，v2.1.321 改了 remote-control 的 --settings 会话语义；只盯版本号会漏掉需要回归的调用约定。",
+      "cluster_ids": [
+        "e01056c942e15d49",
+        "13932435604d30aa",
+        "69e806cfbc9de11b"
       ],
       "verified_by": 3
     },
     {
-      "title": "闸门要能自己失败，才配叫闸门",
-      "why": "pytest 把 18 claims 落成 28 tests，12-factor-agents 把生产可用性拆成可逐条核对的原则，7 工具对比每格给出处；都要求检查项能独立判失败，而非靠人确认。",
+      "title": "无人值守脚本要设金额与证书双阈值",
+      "why": "Solana 买入机器人复盘的 5 个 bug 之一让每笔金额翻倍，Apple 27.2.1 又为命令行工具新增 eMudhra 证书防护；无人值守动作若缺金额上限与证书链校验，一次重定向就足以放大损失。",
       "cluster_ids": [
-        "5abe40cdd3f03602",
-        "66d41b8aa3e54926",
-        "83254f823c84d293"
-      ],
-      "verified_by": 3
-    },
-    {
-      "title": "资本读数与工程读数不在同一张表",
-      "why": "OpenAI 以 $11B 融资对应 $1.25T 估值，日本拟采购 27,500 颗 Rubin 芯片，DeepSeek Harness 披露 154 万日活；前两者是交易与采购口径，后者是产品使用口径。",
-      "cluster_ids": [
-        "1d660dc4ea7a4018",
-        "67abd93f196f854c",
-        "59248c45e5bcf4d6"
-      ],
-      "verified_by": 3
-    },
-    {
-      "title": "无关条目也要写清为什么无关",
-      "why": "H3mm15 与 H3.3 是分子标识，5 项 PlayStation App 功能是清单编号，D3 是模型命名；这类数字可核验但不承载工程判断，如实标注暂无直接影响比硬贴热点更可信。",
-      "cluster_ids": [
-        "23fa35e7fe308eba",
-        "991d00f8bf0c1caa",
-        "5d76954b868314f1"
+        "e27158c22be39665",
+        "2f3c8b6e4ca8bc73",
+        "13932435604d30aa"
       ],
       "verified_by": 3
     }
@@ -82,160 +82,67 @@
       "label": "模型与研究",
       "items": [
         {
-          "id": "59248c45e5bcf4d6",
-          "title": "DeepSeek Harness 筹建官方插件市场与作者扶持计划，披露 154 万日活、约 3.5 万第三方插件",
-          "url": "https://arex-research.com/feeds/f054ae8c-c573-4940-bf3e-59bfbe0bb67f",
-          "source": "智源社区 · 最新分享（匿名 API）",
-          "published_at": "2026-11-08T18:47:00Z",
-          "score": 78.06,
+          "id": "ac841c16ab1a0f7b",
+          "title": "llm-anthropic 0.31",
+          "url": "https://simonwillison.net/2026/Nov/9/llm-anthropic",
+          "source": "Simon Willison's Weblog",
+          "published_at": "2026-11-09T23:58:46Z",
+          "score": 78.0,
           "category": "ai-models",
-          "cluster_id": "59248c45e5bcf4d6",
-          "summary": "资讯｜11 月 8 日，DeepSeek Harness 官方 X 账号发布文章《Growing Together with Our Plugin Community》，宣布将建设官方插件市场，改进插件 API（应用程序接口）的稳定性与兼容性、强化插件安全，并筹备一项插件作者扶持计划：向作者提供 token（模型调用的计量单位）赠助、技术讨论支持和作品推广。",
-          "why_matters": "规模数字与补接口稳定性、强化插件安全写在同一份公告里，说明生态瓶颈已从数量转到契约。",
-          "fact_anchor": "DeepSeek Harness 官方宣布筹建官方插件市场与作者扶持计划，并披露 154 万日活与约 3.5 万第三方插件",
+          "cluster_id": "ac841c16ab1a0f7b",
+          "summary": "Release: llm-anthropic 0.31 Anthropic released Fable 5.2 and Mythos 5.2 today. I've added them to llm-anthropic, so you can now run prompts through Fable 5.2 like this: uv tool install llm llm install llm-anthropic llm keys set anthropic # paste key here llm -m claude-fable-5.2 \"Generate an SVG of a",
+          "why_matters": "适配速度虽快，但 max 档耗尽 128,000 token 后连图都返回不出，且这是 Fable 系列新出现、Opus 5.5 时代已有的同类故障，说明新模型的极限档不能默认信任。",
+          "fact_anchor": "Simon Willison 发布 llm-anthropic 0.31 适配 Fable 5.2 与 Mythos 5.2，并实测五档推理档生成 SVG 的表现",
           "numbers": [
-            "154 万",
-            "3.5 万"
+            "0.31",
+            "5.2",
+            "128,000",
+            "5.5"
           ],
           "entities": [
-            "DeepSeek Harness",
-            "Growing Together with Our Plugin Communi",
-            "插件 API",
-            "token"
+            "llm-anthropic",
+            "Anthropic",
+            "Fable 5.2",
+            "Mythos 5.2",
+            "Opus 5.5"
           ],
           "evidence_urls": [
-            "https://arex-research.com/feeds/f054ae8c-c573-4940-bf3e-59bfbe0bb67f"
+            "https://simonwillison.net/2026/Nov/9/llm-anthropic"
           ],
-          "impact": "直接对应 WorkBuddy 的 skill 与 MCP 生态：当第三方插件达到 3.5 万量级，先塌的会是接口契约与权限边界，而不是模型能力。",
-          "next_action": "逐项跑本仓库已装 skill 的接口声明，若任一 skill 在缺字段时静默降级次数大于 0，即判定契约层需收紧。",
-          "signal_type": "product",
-          "confidence": "fact"
-        },
-        {
-          "id": "0cfbdaa8bb33ae59",
-          "title": "XBOW 实测 GPT-6 Cyber：比 GPT-6.1 Sol 快约 2 倍，但少解出 5 个目标",
-          "url": "https://arex-research.com/feeds/884a76f5-674f-43e2-9860-4f8569171d6b",
-          "source": "智源社区 · 最新分享（匿名 API）",
-          "published_at": "2026-11-08T18:44:00Z",
-          "score": 74.83,
-          "category": "ai-models",
-          "cluster_id": "0cfbdaa8bb33ae59",
-          "summary": "资讯｜GPT-6 Cyber 发布两天后，一组来自 OpenAI 之外的量化对比数据出现了。北京时间 11 月 7 日中午，XBOW 创始人兼 CEO Oege de Moor 在 X 帖串和同日稍晚的 LinkedIn 帖子里公布了团队自建的对照测试：在 65 个含漏洞的开源 Web 应用上，OpenAI 的 GPT-6 Cyber 与 GPT-6.1 Sol…",
-          "why_matters": "同一组测试给出快约 2 倍与少解出 5 个目标两个反向读数，速度结论无法单独成立。",
-          "fact_anchor": "XBOW 创始人 Oege de Moor 公布自建对照测试：在 65 个含漏洞的开源 Web 应用上对比 GPT-6 Cyber 与 GPT-6.1 Sol",
-          "numbers": [
-            "2 倍",
-            "5 个",
-            "65 个"
-          ],
-          "entities": [
-            "XBOW",
-            "Oege de Moor",
-            "GPT-6 Cyber",
-            "GPT-6.1 Sol",
-            "OpenAI",
-            "LinkedIn"
-          ],
-          "evidence_urls": [
-            "https://arex-research.com/feeds/884a76f5-674f-43e2-9860-4f8569171d6b"
-          ],
-          "impact": "对 automation 评估的提醒：agent 或模型的耗时指标必须与完成数一起看，否则会把漏做当成变快。",
-          "next_action": "在同类任务复跑一次并同时记录耗时与解出数，若解出数仍少 5 个则判定快 2 倍不构成整体优势。",
-          "signal_type": "research",
-          "confidence": "fact"
-        },
-        {
-          "id": "ae2f80dd374e58bb",
-          "title": "Token Gremlin 称“GPT-6.2 Sol”已灰度现身 ChatGPT，约半小时后 Harshith 以截图反驳称实为 GPT-6.1 Sol",
-          "url": "https://arex-research.com/feeds/a367dcbd-c32f-422a-8a99-1e2d3b063b59",
-          "source": "智源社区 · 最新分享（匿名 API）",
-          "published_at": "2026-11-08T18:58:00Z",
-          "score": 78.17,
-          "category": "ai-models",
-          "cluster_id": "ae2f80dd374e58bb",
-          "summary": "资讯｜北京时间 11 月 8 日 18:07，自述“追踪 AI 前沿：模型、智能体、研究、泄露与发布前信号”的 X 账号 Token Gremlin 发帖称，尚未发布的“GPT-6.2 Sol”已经对部分 ChatGPT 用户灰度现身（即分批、未经宣布地出现），并附上一段 5 秒视频和两张截图：画面中的体素风格 3D 场景由单个 prompt（提示词）生成，全部内…",
-          "why_matters": "首发说法在半小时内被截图级别的复现反驳，说明灰度爆料必须先有可比对证据。",
-          "fact_anchor": "X 账号 Token Gremlin 称 GPT-6.2 Sol 已对部分 ChatGPT 用户灰度现身，约半小时后 Harshith 以截图反驳称实为 GPT-6.1 Sol",
-          "numbers": [
-            "GPT-6.2 Sol",
-            "GPT-6.1 Sol",
-            "5 秒",
-            "18:07"
-          ],
-          "entities": [
-            "Token Gremlin",
-            "Harshith",
-            "ChatGPT",
-            "GPT-6.2 Sol",
-            "GPT-6.1 Sol"
-          ],
-          "evidence_urls": [
-            "https://arex-research.com/feeds/a367dcbd-c32f-422a-8a99-1e2d3b063b59"
-          ],
-          "impact": "对数据基建的直接映射：候选集里的单源爆料应有独立佐证字段，否则不该进入 AI 研判的入选簇。",
-          "next_action": "核对该模型是否有官方发布页或版本号记录，若 2 个独立来源都查不到则判定为未证实爆料并降级处理。",
-          "signal_type": "opinion",
-          "confidence": "unverified"
-        },
-        {
-          "id": "c46b25d79acf061b",
-          "title": "不用机器人录数据：日本 AIRoA 开放双臂操作基础模型 AIRoA-0，十类任务自报成功率 78%",
-          "url": "https://arex-research.com/feeds/e45443e5-b169-42f0-8229-eec29f656a24",
-          "source": "智源社区 · 最新分享（匿名 API）",
-          "published_at": "2026-11-08T18:36:00Z",
-          "score": 74.75,
-          "category": "ai-models",
-          "cluster_id": "c46b25d79acf061b",
-          "summary": "资讯｜11 月 6 日，日本的 AI Robot Association（AIRoA）发布公告，正式公开面向双臂操作（bimanual manipulation）的机器人基础模型 AIRoA-0（A-0）：预训练与后训练权重已放上 Hugging Face，数据采集、后训练、推理三套代码放上 GitHub，技术报告（arXiv:2611.03815）则在本周早些时…",
-          "why_matters": "把权重、代码与技术报告一并放出，使 78% 从宣传值变成可被第三方复测的读数。",
-          "fact_anchor": "日本 AI Robot Association（AIRoA）公开双臂操作基础模型 AIRoA-0，权重放上 Hugging Face、三套代码放上 GitHub，自报十类任务成功率 78%",
-          "numbers": [
-            "78%",
-            "AIRoA-0",
-            "arXiv:2611.03815"
-          ],
-          "entities": [
-            "AIRoA",
-            "AI Robot Association",
-            "AIRoA-0",
-            "Hugging Face",
-            "GitHub",
-            "bimanual manipulation"
-          ],
-          "evidence_urls": [
-            "https://arex-research.com/feeds/e45443e5-b169-42f0-8229-eec29f656a24"
-          ],
-          "impact": "对本项目确定性脚本做索引、AI 只做研判的印证：底层产物可下载，AI 层才不必替上游补洞。",
-          "next_action": "在同类十类任务上复测一次，若成功率与 78% 偏差超过 10 个百分点则判定该值仅为自报口径。",
+          "impact": "对 skill 与 automation 的模型调用有直接影响：长任务必须设 token 上限与超时回退，不能把单一推理档当作可靠执行路径。",
+          "next_action": "用同一提示词跑 max 档 10 次，若完整返回 ≥ 9 次且 token 消耗上限可控，判定可启用该推理档。",
           "signal_type": "release",
           "confidence": "fact"
         },
         {
-          "id": "5d76954b868314f1",
-          "title": "DIY Guide: D3 Decision Models: Build Fast, Multimodal AI Applications Locally with vLLM",
-          "url": "https://dev.to/sharathjapa/diy-guide-d3-decision-models-build-fast-multimodal-ai-applications-locally-with-vllm-2822",
+          "id": "def0cbfaae458dc9",
+          "title": "Anthropic Launches Claude Fable 5.2 and Mythos 5.2",
+          "url": "https://www.macrumors.com/2026/11/09/anthropic-launches-claude-fable-5-2",
           "source": "Folo 订阅池基线（人工筛选信源）",
-          "published_at": "2026-11-08T11:00:01.948000Z",
-          "score": 74.08,
+          "published_at": "2026-11-09T19:38:47.013000Z",
+          "score": 75.16,
           "category": "ai-models",
-          "cluster_id": "5d76954b868314f1",
-          "summary": "Executive Summary The continuous evolution of modern AI infrastructure demands systematic evaluation of recent community… 〔Folo分类:开源项目〕",
-          "why_matters": "把多模态应用压回本地推理栈，讨论重点从模型选型转向部署与评估方法。",
-          "fact_anchor": "一篇 DIY 指南介绍用 vLLM 在本地构建 D3 Decision Models 多模态 AI 应用",
+          "cluster_id": "def0cbfaae458dc9",
+          "summary": "Anthropic has launched Claude Fable 5.2 and Mythos 5.2, featuring improved coding, reasoning, and vision capabilities. These models generate outputs up to 30 percent faster than previous versions, with Fable 5.2 also using fewer tokens on challenging tasks. While both models share the same underlyin",
+          "why_matters": "两款模型同架构但 Fable 5.2 多了网络安全与生物护栏，说明差异已落在策略层而非能力层；30 percent 是厂商口径，缺独立复测。",
+          "fact_anchor": "Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2，称输出速度最高快 30 percent 且在技术科学基准上超过 Opus 5.5",
           "numbers": [
-            "D3"
+            "5.2",
+            "30",
+            "5.5"
           ],
           "entities": [
-            "D3 Decision Models",
-            "vLLM",
-            "AI infrastructure"
+            "Anthropic",
+            "Claude Fable 5.2",
+            "Mythos 5.2",
+            "Opus 5.5"
           ],
           "evidence_urls": [
-            "https://dev.to/sharathjapa/diy-guide-d3-decision-models-build-fast-multimodal-ai-applications-locally-with-vllm-2822"
+            "https://www.macrumors.com/2026/11/09/anthropic-launches-claude-fable-5-2"
           ],
-          "impact": "对数据基建的参照：本地 vLLM 路线可评估离线快照节点的推理可行性，但摘要未给出吞吐读数。",
-          "next_action": "在同一台机器上跑一次本地推理基准，若单请求延迟高于云端基线 2 倍则判定不适合承载常驻任务。",
-          "signal_type": "tutorial",
+          "impact": "对 WorkBuddy 模型路由有影响：应按任务类型分流而非按速度单一指标选模型，护栏差异会改变敏感任务的可用集。",
+          "next_action": "分别跑 Fable 5.2 与 Mythos 5.2 各 10 次编码任务，若前者护栏拦截率更高且 30 percent 提速可复现，判定按任务分流。",
+          "signal_type": "release",
           "confidence": "fact"
         }
       ]
@@ -245,90 +152,166 @@
       "label": "Agent 与工程",
       "items": [
         {
-          "id": "66d41b8aa3e54926",
-          "title": "humanlayer/12-factor-agents",
-          "url": "https://github.com/humanlayer/12-factor-agents",
-          "source": "Folo 订阅池基线（人工筛选信源）",
-          "published_at": "2026-11-09T00:03:54.698000Z",
-          "score": 79.92,
+          "id": "13932435604d30aa",
+          "title": "v2.1.321",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.321",
+          "source": "claude-code Releases",
+          "published_at": "2026-11-09T19:22:30Z",
+          "score": 78.0,
           "category": "agent-engineering",
-          "cluster_id": "66d41b8aa3e54926",
-          "summary": "What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production… 〔Folo分类:开源项目〕",
-          "why_matters": "把生产可用性拆成可逐条核对的原则清单，比宣称某个框架更好用更可迁移。",
-          "fact_anchor": "humanlayer 开源 12-factor-agents，归纳构建可投入生产的 LLM 驱动软件所用原则",
+          "cluster_id": "13932435604d30aa",
+          "summary": "What's changed Added Claude Fable 5.2 (claude-fable-5-2), now the default Fable model — 1M context, $8/$40 per Mtok with $0.20/Mtok cache reads Added --settings to claude remote-control, which applies a settings file to every session it starts; if the file changes, no new session starts until you re",
+          "why_matters": "这次修复集中在信任边界：OAuth 重定向把 refresh token 发往另一主机、只读 Bash 越出沙箱、cp 与 mv 写入绕过 deny 规则，比模型升级更值得先回归。",
+          "fact_anchor": "claude-code v2.1.321 将 Claude Fable 5.2 设为默认模型，给出 1M 上下文定价，并修复 MCP OAuth 重定向泄露凭据等缺陷",
           "numbers": [
-            "12-factor-agents"
+            "2.1.321",
+            "1M",
+            "$8/$40",
+            "$0.20",
+            "5.2"
           ],
           "entities": [
-            "humanlayer",
-            "12-factor-agents",
-            "LLM"
+            "Claude Fable 5.2",
+            "MCP OAuth",
+            "claude remote-control",
+            "Claude Code",
+            "SEP-2352",
+            "Bash"
           ],
           "evidence_urls": [
-            "https://github.com/humanlayer/12-factor-agents"
+            "https://github.com/anthropics/claude-code/releases/tag/v2.1.321"
           ],
-          "impact": "可直接对照 WorkBuddy 的 skill、MCP 与 A2A 分层，检查工具注册、状态与权限是否各自有明确归属。",
-          "next_action": "把现有插件按 12 条原则逐项打勾，若超过 2 条无对应实现则判定分层需重排。",
-          "signal_type": "tutorial",
-          "confidence": "fact"
-        },
-        {
-          "id": "1876b9abaa20b9f0",
-          "title": "SWE-agent/mini-swe-agent",
-          "url": "https://github.com/SWE-agent/mini-swe-agent",
-          "source": "Folo 订阅池基线（人工筛选信源）",
-          "published_at": "2026-11-09T00:03:43.949000Z",
-          "score": 78.32,
-          "category": "agent-engineering",
-          "cluster_id": "1876b9abaa20b9f0",
-          "summary": "The 100 line AI agent that solves GitHub issues or helps you in your command line. Radically simple, no huge configs, no giant… 〔Folo分类:开源项目〕",
-          "why_matters": "用 100 行把 agent 骨架收敛到可读规模，暴露的是编排逻辑而非框架体积。",
-          "fact_anchor": "SWE-agent 发布 mini-swe-agent，自称用 100 行实现的 AI agent 可解 GitHub issue 或在命令行协助",
-          "numbers": [
-            "100"
-          ],
-          "entities": [
-            "SWE-agent",
-            "mini-swe-agent",
-            "GitHub"
-          ],
-          "evidence_urls": [
-            "https://github.com/SWE-agent/mini-swe-agent"
-          ],
-          "impact": "对 WinVM Bridge 的直接参照：直接 MCP 工具调用这条简单路径应能收敛成一个可读的最小实现。",
-          "next_action": "对照其 100 行骨架复现一次最小 agent 循环，若本仓库 simple 路径代码超过其 3 倍则判定需拆分。",
+          "impact": "与 MCP、agent 部署强相关：三项缺陷要补进双端 setup 的回归断言集，否则 direct MCP-tools 调用链路存在凭据外发风险。",
+          "next_action": "构造一次 MCP OAuth 302 重定向并抓包，若非注册主机收到 refresh token 次数为 0，判定 v2.1.321 可纳入 agent 部署基线。",
           "signal_type": "release",
           "confidence": "fact"
         },
         {
-          "id": "6346806ff2c40fcb",
-          "title": "Week 7 of an LLM trying to earn money on its own: I posted a wrong measurement, corrected it, and the correction got merged. Still $0",
-          "url": "https://dev.to/vellumkasane/week-7-of-an-llm-trying-to-earn-money-on-its-own-i-posted-a-wrong-measurement-corrected-it-and-558j",
+          "id": "2f3c8b6e4ca8bc73",
+          "title": "Here's What Apple Fixed in iOS 27.2.1 and macOS 27.2.1",
+          "url": "https://www.macrumors.com/2026/11/09/ios-27-2-1-security-fixes",
           "source": "Folo 订阅池基线（人工筛选信源）",
-          "published_at": "2026-11-08T23:02:46.848000Z",
-          "score": 79.2,
+          "published_at": "2026-11-09T23:07:16.442000Z",
+          "score": 79.0,
           "category": "agent-engineering",
-          "cluster_id": "6346806ff2c40fcb",
-          "summary": "Disclosure: this post was written by an LLM agent (Claude Code) that operates the Vellum Labs account. Every number below comes from an API… 〔Folo分类:开源项目〕",
-          "why_matters": "把错误测量公开更正并合并进流程，比宣称自主赚钱更接近可复盘的 agent 运行记录。",
-          "fact_anchor": "一个由 LLM agent（Claude Code）运营的账户自述第 7 周更正了一处错误测量并被合并，收入仍为 $0",
+          "cluster_id": "2f3c8b6e4ca8bc73",
+          "summary": "Apple released iOS, iPadOS, and macOS 27.2.1 updates to fix multiple security vulnerabilities. These patches address issues in iMessage that permitted unauthorized access to group chat history, as well as AirPlay and Bluetooth flaws allowing malicious pairing and memory corruption. Additionally, the",
+          "why_matters": "更新同时为命令行工具补上 eMudhra 证书防护，影响的不是功能而是本地脚本的信任链，公开细节后未升级设备的利用风险上升。",
+          "fact_anchor": "Apple 为 iOS、iPadOS 与 macOS 27.2.1 发布安全更新，修复 iMessage 群聊历史越权访问与 AirPlay、Bluetooth 恶意配对缺陷",
           "numbers": [
-            "Week 7",
-            "$0"
+            "27.2.1"
           ],
           "entities": [
-            "Claude Code",
-            "Vellum Labs",
-            "LLM agent",
-            "API"
+            "Apple",
+            "iOS",
+            "iPadOS",
+            "macOS",
+            "iMessage",
+            "eMudhra"
           ],
           "evidence_urls": [
-            "https://dev.to/vellumkasane/week-7-of-an-llm-trying-to-earn-money-on-its-own-i-posted-a-wrong-measurement-corrected-it-and-558j"
+            "https://www.macrumors.com/2026/11/09/ios-27-2-1-security-fixes"
           ],
-          "impact": "对 automation 的直接提醒：无人值守任务的价值是可回放的状态与更正记录，而非单轮结果。",
-          "next_action": "在本流水线补一条更正留痕字段，若 1 条被更正读数无法追溯到原条目则判定回放链不完整。",
-          "signal_type": "opinion",
-          "confidence": "unverified"
+          "impact": "本机 macOS 侧与 WinVM 命令行工具共享证书链，防护变更后需回归自动化脚本的签名校验，避免无人值守任务被静默拦截。",
+          "next_action": "在 macOS 27.2.1 上跑一次签名脚本回归，若 eMudhra 相关校验失败次数为 0 且自动化任务全通过，判定升级不影响工具链。",
+          "signal_type": "incident",
+          "confidence": "fact"
+        },
+        {
+          "id": "318e4c96184b9fdb",
+          "title": "virattt/dexter",
+          "url": "https://github.com/virattt/dexter",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-10T00:03:50.751000Z",
+          "score": 78.06,
+          "category": "agent-engineering",
+          "cluster_id": "318e4c96184b9fdb",
+          "summary": "An autonomous agent for deep financial research Language: TypeScript Stars: 27,804 Forks: 3… 〔Folo分类:开源项目〕",
+          "why_matters": "星数只说明关注度，摘要未给任务成功率或 handoff 契约；把它当架构样本前需先确认它返回的是结构化结果还是一段消息。",
+          "fact_anchor": "GitHub 项目 virattt/dexter 以 TypeScript 实现面向深度金融研究的自主 agent，仓库标注 27,804 星",
+          "numbers": [
+            "27,804"
+          ],
+          "entities": [
+            "virattt/dexter",
+            "TypeScript"
+          ],
+          "evidence_urls": [
+            "https://github.com/virattt/dexter"
+          ],
+          "impact": "A2A 委派路径的参照实现：可作为复杂任务委派的对比样本，但不能凭星数推断其多 agent 交接质量。",
+          "next_action": "给 dexter 派 3 个固定研究任务，若结构化结果返回率 ≥ 2/3，判定其 handoff 契约值得对照 A2A 实现。",
+          "signal_type": "product",
+          "confidence": "fact"
+        },
+        {
+          "id": "3bb5b3b2d995dfa0",
+          "title": "opensandbox-group/OpenSandbox",
+          "url": "https://github.com/opensandbox-group/OpenSandbox",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-10T00:03:38.916000Z",
+          "score": 78.06,
+          "category": "agent-engineering",
+          "cluster_id": "3bb5b3b2d995dfa0",
+          "summary": "Secure, Fast, and Extensible Sandbox runtime for AI agents. Language: Python Stars: 16,914… 〔Folo分类:开源项目〕",
+          "why_matters": "把沙箱做成独立运行时而非宿主进程内的权限判断，与同日 claude-code 修复的 Bash 越沙箱问题形成呼应：隔离层正在外移。",
+          "fact_anchor": "opensandbox-group 开源 OpenSandbox，定位为面向 AI agents 的 Python 沙箱运行时，仓库标注 16,914 星",
+          "numbers": [
+            "16,914"
+          ],
+          "entities": [
+            "OpenSandbox",
+            "Python",
+            "AI agents"
+          ],
+          "evidence_urls": [
+            "https://github.com/opensandbox-group/OpenSandbox"
+          ],
+          "impact": "直接对应 WinVM Bridge 的沙箱层：独立 Python 运行时可降低 direct MCP-tools 调用越权的风险面。",
+          "next_action": "用 OpenSandbox 跑一次越权写入 smoke，若 0 violations 且隔离进程与宿主无共享句柄，判定可进入 WinVM 沙箱 PoC。",
+          "signal_type": "product",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "docs-changelog",
+      "label": "文档与变更",
+      "items": [
+        {
+          "id": "e01056c942e15d49",
+          "title": "v0.40.16",
+          "url": "https://github.com/ollama/ollama/releases/tag/v0.40.16",
+          "source": "ollama Releases",
+          "published_at": "2026-11-09T23:45:36Z",
+          "score": 78.34,
+          "category": "docs-changelog",
+          "cluster_id": "e01056c942e15d49",
+          "summary": "Ripple Preview Ripple Preview from Ricursive Intelligence is a 65B dense model built for agentic coding. ollama run ripple-preview What's Changed Qwen3.8 Flash Next uses about 27 GiB less memory on Apple silicon ollama launch claude always routes Claude Code to the selected model ollama launch expla",
+          "why_matters": "除显存收益外还改了 /v1/responses 默认截断与 /v1/models 空返回值，属调用约定变化；只记版本号会漏掉必须回归的接口行为。",
+          "fact_anchor": "ollama v0.40.16 收录 65B 的 Ripple Preview 编码模型，并让 Qwen3.8 Flash Next 在 Apple silicon 上少用 27 GiB 内存",
+          "numbers": [
+            "0.40.16",
+            "65B",
+            "27 GiB",
+            "13.5",
+            "3.8"
+          ],
+          "entities": [
+            "ollama",
+            "Ripple Preview",
+            "Ricursive Intelligence",
+            "Qwen3.8",
+            "Claude Code",
+            "CUDA"
+          ],
+          "evidence_urls": [
+            "https://github.com/ollama/ollama/releases/tag/v0.40.16"
+          ],
+          "impact": "直接关系 WorkBuddy LLM provider V1 的本地候选：27 GiB 内存下降决定模型能否常驻，长输出处理需按新默认行为回归。",
+          "next_action": "在 Apple silicon 上对比 v0.40.15 与 v0.40.16 峰值内存，若下降 ≥ 27 GiB 且长输出 0 截断，判定可纳入本地常驻候选。",
+          "signal_type": "release",
+          "confidence": "fact"
         }
       ]
     },
@@ -337,61 +320,30 @@
       "label": "开发者工具与版本",
       "items": [
         {
-          "id": "282cc56cf39d2406",
-          "title": "The official RKLLM vision demo doesn't run on the transformers it targets — a five-version bisection",
-          "url": "https://dev.to/anguoyang/the-official-rkllm-vision-demo-doesnt-run-on-the-transformers-it-targets-a-five-version-bisection-4a7i",
+          "id": "69e806cfbc9de11b",
+          "title": "Technical Teardown: Geometry Survivor Mod APK (v1.0) Architecture & Safe Mirrors",
+          "url": "https://dev.to/tanvir1704/technical-teardown-geometry-survivor-mod-apk-v10-architecture-safe-mirrors-2ce2",
           "source": "Folo 订阅池基线（人工筛选信源）",
-          "published_at": "2026-11-08T22:11:01.693000Z",
-          "score": 78.61,
-          "category": "ai-models",
-          "cluster_id": "282cc56cf39d2406",
-          "summary": "I'm converting Qwen2-VL-2B-Instruct to run on a Rockchip board with Rockchip's official rknn-llm toolkit. Step one is exporting the vision… 〔Folo分类:开源项目〕",
-          "why_matters": "官方 demo 与目标版本不兼容这件事靠逐版本回退定位，比换更大模型更贴近真实工程成本。",
-          "fact_anchor": "开发者转换 Qwen2-VL-2B-Instruct 到 Rockchip 板，发现官方 RKLLM vision demo 在目标 transformers 上跑不起来，用五个版本二分定位",
+          "published_at": "2026-11-09T21:50:23.848000Z",
+          "score": 78.14,
+          "category": "dev-tools",
+          "cluster_id": "69e806cfbc9de11b",
+          "summary": "When evaluating mobile Android modifications, stability, package signature integrity, and runtime behavior are critical. In this teardown,… 〔Folo分类:开源项目〕",
+          "why_matters": "把包签名完整性当作判定第三方修改版可信度的首要字段，比「安全镜像」这类名号更可核验，可作为准入清单的反例教材。",
+          "fact_anchor": "一篇技术拆解以 Geometry Survivor Mod APK v1.0 为例，讨论稳定性、包签名完整性与运行时行为",
           "numbers": [
-            "Qwen2-VL-2B-Instruct",
-            "2B"
+            "1.0"
           ],
           "entities": [
-            "Qwen2-VL-2B-Instruct",
-            "Rockchip",
-            "rknn-llm",
-            "transformers",
-            "RKLLM"
+            "Geometry Survivor",
+            "APK",
+            "Android"
           ],
           "evidence_urls": [
-            "https://dev.to/anguoyang/the-official-rkllm-vision-demo-doesnt-run-on-the-transformers-it-targets-a-five-version-bisection-4a7i"
+            "https://dev.to/tanvir1704/technical-teardown-geometry-survivor-mod-apk-v10-architecture-safe-mirrors-2ce2"
           ],
-          "impact": "对 WinVM 与桌面端插件的启示：宿主依赖版本变更后应跑一次最小复现，而不是只看安装是否成功。",
-          "next_action": "在目标环境复现一次版本二分，若 5 个候选版本中定位不到首个可用版本则判定该依赖组合不可用。",
-          "signal_type": "tutorial",
-          "confidence": "fact"
-        },
-        {
-          "id": "83254f823c84d293",
-          "title": "7 multistream chat tools compared, every cell sourced to their own docs",
-          "url": "https://dev.to/randynorthrup/7-multistream-chat-tools-compared-every-cell-sourced-to-their-own-docs-239c",
-          "source": "Folo 订阅池基线（人工筛选信源）",
-          "published_at": "2026-11-08T17:17:14.644000Z",
-          "score": 74.0,
-          "category": "docs-changelog",
-          "cluster_id": "83254f823c84d293",
-          "summary": "If you stream to more than one platform, your chat lives in several places at once. I made CrossChat, a free, open-source companion for OBS… 〔Folo分类:开源项目〕",
-          "why_matters": "把每个比较单元格都挂回一手文档，是对照表能否被复核的分界线。",
-          "fact_anchor": "作者对比 7 个 multistream chat 工具，声称表格每个单元格都溯源到各家自己的文档，并开源了配套工具 CrossChat",
-          "numbers": [
-            "7"
-          ],
-          "entities": [
-            "CrossChat",
-            "OBS",
-            "multistream chat tools"
-          ],
-          "evidence_urls": [
-            "https://dev.to/randynorthrup/7-multistream-chat-tools-compared-every-cell-sourced-to-their-own-docs-239c"
-          ],
-          "impact": "直接呼应本项目数字白名单闸门：结论只有能逐项回原文才准进报，跨源拼凑的值一律丢弃。",
-          "next_action": "抽查表中任意 7 个单元格的出处链接，若有 1 个打不到对应文档则判定该对比不可引用。",
+          "impact": "对 agent 部署有间接参照：第三方 APK 的验签逻辑同样适用于 WinVM 侧安装包准入判定的字段设计。",
+          "next_action": "抽取该 APK 两个镜像验签，若签名哈希一致率 100% 且运行时无额外联网，判定可作为 WinVM 安装包准入样本。",
           "signal_type": "tutorial",
           "confidence": "fact"
         }
@@ -402,33 +354,30 @@
       "label": "安全与治理",
       "items": [
         {
-          "id": "5abe40cdd3f03602",
-          "title": "Auditing a fringe physics theory with pytest: 18 claims, 28 tests, no ad hominem",
-          "url": "https://dev.to/magopredator/auditing-a-fringe-physics-theory-with-pytest-18-claims-28-tests-no-ad-hominem-45b5",
+          "id": "e27158c22be39665",
+          "title": "My Solana buy bot doubled every buy amount. Here's the post-mortem.",
+          "url": "https://dev.to/opsnode_dev/my-solana-buy-bot-doubled-every-buy-amount-heres-the-post-mortem-2dea",
           "source": "Folo 订阅池基线（人工筛选信源）",
-          "published_at": "2026-11-08T22:42:14.528000Z",
-          "score": 78.96,
+          "published_at": "2026-11-09T21:48:08.686000Z",
+          "score": 78.11,
           "category": "security-governance",
-          "cluster_id": "5abe40cdd3f03602",
-          "summary": "--- title: \"Auditing a fringe physics theory with pytest: 18 claims, 28 tests, no ad hominem\" description: \"I turned two physics preprints… 〔Folo分类:开源项目〕",
-          "why_matters": "把争议主张转成会红会绿的测试用例，让分歧落在可复现的断言上而非立场。",
-          "fact_anchor": "开发者用 pytest 审计两个物理预印本，把 18 claims 落成 28 tests，强调不做人身攻击",
+          "cluster_id": "e27158c22be39665",
+          "summary": "In October I audited the first version of the buy bot I was selling. I found 5 bugs. One of them doubled every buy amount. Another made the… 〔Folo分类:开源项目〕",
+          "why_matters": "金额翻倍属状态累积型缺陷，单次执行看起来正常、重跑才放大；这类复盘比功能发布更能暴露自动化管线的验收盲区。",
+          "fact_anchor": "作者复盘自售的 Solana 买入机器人，称一次审计发现 5 个 bug，其中之一把每笔买入金额翻倍",
           "numbers": [
-            "18",
-            "28"
+            "5"
           ],
           "entities": [
-            "pytest",
-            "physics preprints",
-            "claims",
-            "tests"
+            "Solana",
+            "buy bot"
           ],
           "evidence_urls": [
-            "https://dev.to/magopredator/auditing-a-fringe-physics-theory-with-pytest-18-claims-28-tests-no-ad-hominem-45b5"
+            "https://dev.to/opsnode_dev/my-solana-buy-bot-doubled-every-buy-amount-heres-the-post-mortem-2dea"
           ],
-          "impact": "对 verify_digest 的直接参照：检查项应能自己失败，本项目仍缺删项后退出码的反面测试。",
-          "next_action": "给发布闸门补一条删除检查项后的退出码断言，若删掉 1 项脚本仍返回 0 即判定闸门无效。",
-          "signal_type": "tutorial",
+          "impact": "对 automation 幂等设计是直接警示：prepared/dispatched 双状态去重同理，金额与数量类动作必须有单次上限断言。",
+          "next_action": "在测试网重放买入脚本 20 次，若单笔金额与配置值偏差为 0 且重跑不产生重复订单，判定幂等断言通过。",
+          "signal_type": "incident",
           "confidence": "fact"
         }
       ]
@@ -438,67 +387,32 @@
       "label": "深度长文",
       "items": [
         {
-          "id": "9c7e75a27e82f37a",
-          "title": "How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
-          "url": "https://latent.space/p/cs146s",
-          "source": "Latent Space",
-          "published_at": "2026-11-08T21:41:44Z",
-          "score": 73.48,
-          "category": "deep-read",
-          "cluster_id": "9c7e75a27e82f37a",
-          "summary": "What happens when students can one-shot last year’s homework? Inside CS146S and the engineering team at Monaco.",
-          "why_matters": "当学生能一次做完去年的作业，课程要教的就从写法转到验收与系统判断。",
-          "fact_anchor": "Latent Space 访谈 Mihail Eric 与 Monaco 团队，讲斯坦福 CS146S 如何教 AI-Native 工程",
-          "numbers": [
-            "CS146S"
-          ],
-          "entities": [
-            "Stanford",
-            "CS146S",
-            "Mihail Eric",
-            "Monaco"
-          ],
-          "evidence_urls": [
-            "https://latent.space/p/cs146s"
-          ],
-          "impact": "对 skill 与 automation 设计的参照：把可一键生成的部分交给 agent，工程重心移到可验证的验收条件。",
-          "next_action": "挑 1 个本仓库可自动生成的产物补上验收断言，若断言缺失数大于 0 则判定该产物不可直接采信。",
-          "signal_type": "tutorial",
-          "confidence": "fact"
-        }
-      ]
-    },
-    {
-      "key": "industry-capital",
-      "label": "产业与资本",
-      "items": [
-        {
-          "id": "67abd93f196f854c",
-          "title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+          "id": "255b56db4a4a44d0",
+          "title": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
+          "url": "https://artificialanalysis.ai/models/claude-fable-5-2",
           "source": "Folo 订阅池基线（人工筛选信源）",
-          "published_at": "2026-11-08T22:54:50.264000Z",
-          "score": 74.31,
-          "category": "community",
-          "cluster_id": "67abd93f196f854c",
-          "summary": "Nvidia CEO Jensen Huang admitted to infidelity with an AI executive in a memo to employees, prompting the Board to launch an investigation. The statement followed a separate announcement that Japan plans to purchase 27,500 next-generation Rubin chips from Nvidia to develop a domestic foundational AI",
-          "why_matters": "备忘录全文与采购数字同框，提醒公司治理事件与产能读数应分开核对，不能互相背书。",
-          "fact_anchor": "一份备忘录全文提到 Nvidia CEO Jensen Huang 致员工说明，同篇提到日本计划采购 27,500 颗下一代 Rubin 芯片",
+          "published_at": "2026-11-09T20:04:55.939000Z",
+          "score": 77.02,
+          "category": "deep-read",
+          "cluster_id": "255b56db4a4a44d0",
+          "summary": "Comments 〔Folo分类:开源项目〕",
+          "why_matters": "65 是第三方评测口径且摘要为空，无法独立核对测试集；同日已有 max 档失败的实测，榜单分不足以支撑默认模型切换。",
+          "fact_anchor": "Artificial Analysis 给出 Claude Fable 5.2 得分 65，标题称其为迄今最高，摘要区无正文内容",
           "numbers": [
-            "27,500"
+            "5.2",
+            "65"
           ],
           "entities": [
-            "Jensen Huang",
-            "Nvidia",
-            "Rubin"
+            "Claude Fable 5.2",
+            "Artificial Analysis"
           ],
           "evidence_urls": [
-            "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia"
+            "https://artificialanalysis.ai/models/claude-fable-5-2"
           ],
-          "impact": "暂无直接影响：属公司治理与芯片采购公开信息，与 agent 部署及数据基建无工程交集，仅作量级读数核验样本。",
-          "next_action": "核对 27,500 是否有第二处公开来源，若仅此 1 处则判定该采购量级不可直接引用。",
-          "signal_type": "market-data",
-          "confidence": "fact"
+          "impact": "对 LLM provider V1 的选型口径有影响：默认模型切换须先跑固定提示词对照，不能只用榜单分排序。",
+          "next_action": "用固定提示词对照 65 分榜单口径复跑，若长任务完整返回率 ≥ 90%，判定可把 Fable 5.2 提为默认候选。",
+          "signal_type": "research",
+          "confidence": "unverified"
         }
       ]
     },
@@ -507,179 +421,139 @@
       "label": "市场与投资",
       "items": [
         {
-          "id": "1d660dc4ea7a4018",
-          "title": "OpenAI raises $11B at a $1.25T valuation",
-          "url": "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought",
+          "id": "382ff6535f6d860a",
+          "title": "Cracking the case of the Roman frog graveyard",
+          "url": "https://phys.org/news/2026-11-case-roman-frog-graveyard.html",
           "source": "Folo 订阅池基线（人工筛选信源）",
-          "published_at": "2026-11-08T14:49:23.251000Z",
-          "score": 74.29,
-          "category": "industry-capital",
-          "cluster_id": "8eab40c7ce416e4d-c",
-          "summary": "Comments 〔Folo分类:开源项目〕",
-          "why_matters": "标题给出融资额与估值两个量级，但摘要缺失使口径无法核对，属于典型的可读不可引条目。",
-          "fact_anchor": "一条 Folo 基线目标题称 OpenAI 以 $11B 融资对应 $1.25T 估值，摘要仅剩 Comments 无进一步细节",
+          "published_at": "2026-11-10T00:10:09.811000Z",
+          "score": 76.54,
+          "category": "market-invest",
+          "cluster_id": "382ff6535f6d860a",
+          "summary": "Ten years after 8,000 ancient frog bones were discovered in a single ditch, scientists at Bournemouth University and the Museum of London… 〔Folo分类:重大学术科研突破〕",
+          "why_matters": "十年前的材料靠新方法重新得出结论，说明保留可重算的原始样本比保存当时的结论更有价值，这是资料沉淀的通用教训。",
+          "fact_anchor": "Bournemouth University 与 Museum of London 的研究者重新分析一条沟渠中出土的 8,000 块古蛙骨",
           "numbers": [
-            "$11B",
-            "$1.25T"
+            "8,000"
           ],
           "entities": [
-            "OpenAI"
+            "Bournemouth University",
+            "Museum of London"
           ],
           "evidence_urls": [
-            "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought"
+            "https://phys.org/news/2026-11-case-roman-frog-graveyard.html"
           ],
-          "impact": "对数据基建的提醒：候选集应把标题数字与可核验摘要分开标记，缺摘要时不得当作完整事实入报。",
-          "next_action": "补一手来源核对 $11B 与 $1.25T 是否分别对应融资额与估值，若 2 个数字口径混淆则判定该条不可引用。",
-          "signal_type": "market-data",
-          "confidence": "unverified"
-        }
-      ]
-    },
-    {
-      "key": "research-papers",
-      "label": "论文与学术",
-      "items": [
-        {
-          "id": "23fa35e7fe308eba",
-          "title": "Small histone differences help shape gene regulation during sperm development",
-          "url": "https://phys.org/news/2026-11-small-histone-differences-gene-sperm.html",
-          "source": "Folo 订阅池基线（人工筛选信源）",
-          "published_at": "2026-11-09T00:10:01.068000Z",
-          "score": 78.4,
-          "category": "industry-capital",
-          "cluster_id": "23fa35e7fe308eba",
-          "summary": "Researchers from Kyushu University have found that H3mm15, a histone H3.3 subvariant, contributes to normal sperm development in mice by… 〔Folo分类:重大学术科研突破〕",
-          "why_matters": "用具体亚型编号而非笼统的组蛋白修饰来定位机制，结论才能被后续实验逐项复核。",
-          "fact_anchor": "九州大学研究者发现组蛋白 H3.3 亚型 H3mm15 参与小鼠精子发育的正常调控",
-          "numbers": [
-            "H3mm15",
-            "H3.3"
-          ],
-          "entities": [
-            "Kyushu University",
-            "H3mm15",
-            "H3.3",
-            "histone"
-          ],
-          "evidence_urls": [
-            "https://phys.org/news/2026-11-small-histone-differences-gene-sperm.html"
-          ],
-          "impact": "暂无直接影响：属表观遗传学研究，与 WorkBuddy、MCP 及 agent 部署无工程交集，仅作可核验标识符样例。",
-          "next_action": "核对 H3mm15 与 H3.3 是否在同篇报告中被明确区分，若 2 个编号指向同一对象则判定表述冗余。",
+          "impact": "暂无直接影响：考古样本研究不涉及 WorkBuddy、MCP、agent 部署任何环节；8,000 仅作为本期实质读数样本供白名单复算。",
+          "next_action": "核对报告中 8,000 块骨骼的计数口径，若与发掘清单一致率 100%，判定该数字可作为白名单正样本。",
           "signal_type": "research",
           "confidence": "fact"
         }
       ]
     },
     {
-      "key": "docs-changelog",
-      "label": "文档与变更",
+      "key": "community",
+      "label": "社区与观点",
       "items": [
         {
-          "id": "991d00f8bf0c1caa",
-          "title": "5 underrated PlayStation App features",
-          "url": "https://www.engadget.com/2309256/underrated-playstation-app-features",
+          "id": "6aa5fc030d1416fb",
+          "title": "Fossil CO₂ emissions projected to decrease in 2026 amid clean energy growth and Iran conflict",
+          "url": "https://phys.org/news/2026-11-fossil-emissions-decrease-energy-growth.html",
           "source": "Folo 订阅池基线（人工筛选信源）",
-          "published_at": "2026-11-08T19:00:00.559000Z",
-          "score": 73.39,
-          "category": "docs-changelog",
-          "cluster_id": "991d00f8bf0c1caa",
-          "summary": "The PlayStation App offers its users certain features that will make their lives easier, especially if they really love playing on their… 〔Folo分类:新奇产品〕",
-          "why_matters": "用固定条数组织功能清单，读者可逐项核对是否真的被低估，而非接受一个整体评价。",
-          "fact_anchor": "一篇清单文章列出 5 个被低估的 PlayStation App 功能，称可让用户使用更省事",
+          "published_at": "2026-11-10T01:00:05.331000Z",
+          "score": 75.54,
+          "category": "community",
+          "cluster_id": "6aa5fc030d1416fb",
+          "summary": "Global carbon emissions from fossil fuels are projected to decrease by 0.4% in 2026—driven by expansion of solar and wind power and the Iran… 〔Folo分类:重大学术科研突破〕",
+          "why_matters": "0.4% 的降幅小于常见统计波动，且属预测而非实测；把它当趋势拐点会误读，需与后续实测年值分开存放。",
+          "fact_anchor": "一份预测称 2026 年全球化石燃料碳排放将下降 0.4%，归因于太阳能与风电扩张及伊朗冲突",
           "numbers": [
-            "5"
+            "0.4%"
           ],
           "entities": [
-            "PlayStation App"
+            "fossil fuels",
+            "solar",
+            "wind power",
+            "Iran",
+            "CO₂"
           ],
           "evidence_urls": [
-            "https://www.engadget.com/2309256/underrated-playstation-app-features"
+            "https://phys.org/news/2026-11-fossil-emissions-decrease-energy-growth.html"
           ],
-          "impact": "暂无直接影响：属消费应用功能清单，与 agent 部署及数据基建无工程交集，仅作清单式条目样本。",
-          "next_action": "逐项核对 5 个功能在当前客户端是否仍存在，若缺失超过 1 项则判定该清单已过期。",
-          "signal_type": "docs-change",
-          "confidence": "fact"
+          "impact": "对数据基建有轻量用途：带单位的百分比读数是 feed 数字白名单的好样本，可验证提取器不把百分号或年份误当计数。",
+          "next_action": "用 0.4% 跑一次数字白名单单测，若百分号被正确保留且 2026 未被误判为读数，判定提取器通过。",
+          "signal_type": "market-data",
+          "confidence": "unverified"
         }
       ]
     }
   ],
-  "editor_note": "分母比量级重要。40 个入选簇只有 16 条带得住实质读数，其余按 v1.1 拒绝入报：22 条原文无数字，3 条的数字只是日期年份或用户名尾数。本期数据覆盖不足，未放宽阈值，被剔除条目进 no-number 待补清单。\n\n对 WorkBuddy，最直接的是 DeepSeek Harness：154 万日活、约 3.5 万第三方插件，公告重心却在插件 API 稳定性与安全。这和 skill 与 MCP 生态是同一道题：规模到量级后先塌的是接口契约。可证伪动作：逐项跑已装 skill 的接口声明，若任一缺字段时静默降级不报错，就判定契约层需收紧。\n\n闸门要能自己失败。pytest 把 18 claims 落成 28 tests，XBOW 在 65 个应用上给出快 2 倍却少解出 5 个目标的反向读数。本流水线已有零 violations 核验，缺的是反面测试：删掉 1 个检查项后若脚本仍返回 0，闸门就是伪装。\n\nA2A 与 agent 部署侧盯可回放。12-factor-agents 的原则清单、mini-swe-agent 的 100 行收敛、更正了错误测量却仍是 $0 的自主 agent，都指向状态可恢复与交接可判定。WinVM Bridge 的 streaming 进度同理，先定谁在何时接管。市场与资本只陈述公开数字，不构成任何建议。",
-  "brief": "今日速览｜今天真正有分量的进展，都附了可复测的分母或会自己失败的闸门。DeepSeek Harness 宣布筹建官方插件市场、强化插件 API 稳定性与安全，同时披露 154 万日活与约 3.5 万第三方插件——规模数字与补契约写在同一份公告里。XBOW 在 65 个含漏洞的开源 Web 应用上做对照，给出 GPT-6 Cyber 比 GPT-6.1 Sol 快约 2 倍、却少解出 5 个目标的反向读数；速度结论必须与完成数一起看。GPT-6.2 Sol 灰度现身的说法在约半小时后被截图反驳为 GPT-6.1 Sol，单源爆料没有独立佐证就不该进入研判。\n\n可核验性这条线还有三例：AIRoA 公开双臂操作基础模型 AIRoA-0，权重上 Hugging Face、三套代码上 GitHub、技术报告 arXiv:2611.03815，十类任务自报成功率 78%；一篇 pytest 审计把 18 claims 落成 28 tests；一份 7 个 multistream chat 工具对比声称每个单元格都溯源到各家文档。共同点是把断言换成可被第三方复跑的东西。\n\nAgent 工程侧的判断是瓶颈在可回放，不在参数量：humanlayer 的 12-factor-agents 把生产可用性拆成原则清单，mini-swe-agent 用 100 行收敛骨架，一个由 Claude Code 运营的账户自述第 7 周更正了错误测量、更正被合并，收入仍是 $0。RKLLM 官方 vision demo 在目标 transformers 上跑不起来，靠五个版本二分定位；一篇访谈讲斯坦福 CS146S 如何教 AI-Native 工程，重心已从写法移到验收。\n\n按 v1.1 白名单口径，40 个入选簇中 22 条原文无任何数字、3 条数字属日期年份、用户名尾数或无法准确压缩的 AI 生成传闻，一律拒绝入报，未放宽任何阈值，也不把采集时间戳里的年份当读数；被剔除条目进 no-number 待补清单。产业侧，OpenAI 标题给出 $11B 融资与 $1.25T 估值（摘要仅剩 Comments），一份 Nvidia 备忘录同篇提到日本拟采购 27,500 颗 Rubin 芯片；H3mm15 与 H3.3 是分子标识、5 项 PlayStation App 功能与 D3 是名称或清单编号，均如实标注暂无直接影响。市场与资本只陈述公开数字与风险提示，不构成投资建议。\n\n待验证：删掉 1 个检查项后闸门退出码是否非 0、AIRoA-0 的 78% 能否被独立复测到偏差 10 个百分点内、65 应用复跑是否仍少解出 5 个目标、已装 skill 缺字段时静默降级次数是否为 0、push-log 同日同通道重复计数是否为 0。",
+  "editor_note": "别急着追新模型，先把 claude-code v2.1.321 的三条修复翻成自己的回归用例：MCP OAuth 重定向把 refresh token 发给另一台主机、只读 Bash 越出沙箱、cp 与 mv 绕过 deny 规则，正是 WinVM Bridge 里 direct MCP-tools 与 A2A 委派的信任边界。双端 one-click setup 加一组断言：构造 302 重定向，凭据不出现在非注册主机；跑只读 Bash，0 次越沙箱；目录写入按目标文件而非源路径判权。三项全绿才纳入 agent 部署基线，否则沿用旧版标记 blocked。模型选型同样要收紧：Fable 5.2 拿到 65 分，但 llm-anthropic 0.31 实测 max 档耗尽 128,000 token 仍返回不出图；ollama v0.40.16 让 Qwen3.8 少用 27 GiB 内存。WorkBuddy 的 LLM provider V1 应按长任务是否完整返回验收默认模型，本地常驻候选按峰值内存筛选，27 GiB 的下降比 65B 规模更值得复测。数据基建侧，本期 40 个入选簇仅 12 条带实质读数，其余多为 Comments 空摘要，按 v1.1 口径全部不入报，no-number CSV 留作补摘要待办；宁可少一条，才保得住可复算性。",
+  "brief": "今日主线：Anthropic 的 Fable 5.2 在 Artificial Analysis 拿到 65 分，同日 claude-code v2.1.321 把它设为默认并给出 1M 上下文与 $8/$40 每 Mtok 定价，ollama v0.40.16 把 65B 的 Ripple Preview 收进本地运行时、让 Qwen3.8 少用 27 GiB 内存。模型、工具链、本地运行时同日落地，但 llm-anthropic 0.31 的实测里 max 档烧掉 128,000 token 仍返回不出图，分数与可用性不是一回事。工程侧更值得先动手：v2.1.321 同时修掉 MCP OAuth 重定向把 refresh token 发往另一主机、只读 Bash 越出沙箱、cp 与 mv 绕过 deny 规则；OpenSandbox 以 16,914 星把沙箱做成独立 Python 运行时，dexter 以 27,804 星做 TypeScript 自主研究 agent，隔离层正在外移。另有 Apple 为 iOS 与 macOS 27.2.1 补 iMessage 越权与 eMudhra 证书防护，Solana 买入机器人复盘 5 个 bug 之一把每笔金额翻倍，两者共同指向无人值守脚本的金额与证书双阈值。本期 40 个入选簇仅 12 条带实质读数，其余按 v1.1 口径不入报。以下动作均带判定阈值：构造 302 重定向抓包，非注册主机收到 refresh token 为 0 才纳入部署基线；同一提示词跑 max 档 10 次，完整返回 ≥ 9 次才启用；Apple silicon 对比 v0.40.15 与 v0.40.16，内存下降 ≥ 27 GiB 且长输出 0 截断才纳入本地常驻候选。内容仅供参考，外部事实未独立验证，不构成投资建议。",
   "watch_signals": [
     {
-      "signal": "已装 skill 接口契约缺字段时是否静默降级",
-      "threshold": "逐项跑接口声明，静默降级次数大于 0",
-      "judgement": "判定契约层需收紧，先补显式报错再谈扩规模"
+      "signal": "Fable 5.2 默认档长任务可用性",
+      "threshold": "同一提示词连跑 10 次，max 档完整返回 ≥ 9 次且 token 消耗低于 128,000",
+      "judgement": "判定可进入 WorkBuddy LLM provider V1 默认候选，否则只做备选模型"
     },
     {
-      "signal": "发布闸门删项后是否真的失败",
-      "threshold": "人为删掉 1 个检查项后脚本退出码不等于 0",
-      "judgement": "判定闸门有效，否则视为人工确认的伪装"
+      "signal": "MCP OAuth 重定向凭据泄露",
+      "threshold": "构造 302 重定向后抓包，非注册主机收到 refresh token 次数为 0",
+      "judgement": "判定 claude-code v2.1.321 满足 agent 部署基线，可升级"
     },
     {
-      "signal": "AIRoA-0 自报成功率能否被独立复测",
-      "threshold": "十类任务复测结果与 78% 偏差超过 10 个百分点",
-      "judgement": "判定 78% 属自报口径，不可直接引用为通用指标"
+      "signal": "ollama 本地内存收益",
+      "threshold": "Apple silicon 上 Qwen3.8 峰值内存下降 ≥ 27 GiB 且 smoke 0 violations",
+      "judgement": "判定本地常驻推理可行，纳入 WinVM 侧候选"
     },
     {
-      "signal": "速度优势是否以解出数为代价",
-      "threshold": "在 65 个含漏洞应用上复跑，解出目标数仍少 5 个",
-      "judgement": "判定快 2 倍不等于整体能力更强，需按解出数加权"
+      "signal": "只读 Bash 越沙箱",
+      "threshold": "沙箱内执行只读命令 20 次，越权提示缺失次数为 0",
+      "judgement": "判定权限边界修复有效，可放开 direct MCP-tools 调用"
     },
     {
-      "signal": "同日同通道分发幂等记录",
-      "threshold": "push-log.jsonl 中同日同通道重复计数大于 0",
-      "judgement": "判定幂等失效，暂停该通道分发并核对待授权清单"
+      "signal": "本期无实质读数簇占比",
+      "threshold": "no-number CSV 待补摘要条目数较前一日下降 ≥ 5 条",
+      "judgement": "判定供数摘要质量改善，否则继续换一手来源而不放宽阈值"
     }
   ],
   "reference_summary": [
     {
-      "domain": "dev.to",
-      "count": 5
-    },
-    {
-      "domain": "arex-research.com",
+      "domain": "github.com",
       "count": 4
     },
     {
-      "domain": "github.com",
+      "domain": "macrumors.com",
       "count": 2
     },
     {
-      "domain": "latent.space",
-      "count": 1
-    },
-    {
-      "domain": "theverge.com",
-      "count": 1
-    },
-    {
-      "domain": "247wallst.com",
-      "count": 1
+      "domain": "dev.to",
+      "count": 2
     },
     {
       "domain": "phys.org",
+      "count": 2
+    },
+    {
+      "domain": "simonwillison.net",
       "count": 1
     },
     {
-      "domain": "engadget.com",
+      "domain": "artificialanalysis.ai",
       "count": 1
     }
   ],
   "stats": {
     "sources_ok": 184,
     "sources_total": 185,
-    "total_items": 1177,
-    "clusters": 1095,
+    "total_items": 2456,
+    "clusters": 2359,
     "selected": 40,
-    "published_items": 16,
-    "seven_element_pass": 16,
+    "published_items": 12,
+    "seven_element_pass": 12,
     "seven_element_ratio": 1.0,
-    "items_with_numbers": 16,
+    "items_with_numbers": 12,
     "substantive_number_ratio": 1.0,
     "rejected_no_number": 0,
-    "unique_reference_domains": 8
+    "unique_reference_domains": 6
   },
   "quality": {
     "ai_status": "ok",

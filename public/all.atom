@@ -5,10 +5,130 @@
   <ns0:subtitle>挖掘 · 聚合 · 研判 · 订阅；每条附原文链接；内容仅供参考，不构成投资建议</ns0:subtitle>
   <ns0:link rel="self" type="application/atom+xml" href="https://daily-info.local/all.atom" />
   <ns0:link rel="alternate" type="text/html" href="https://daily-info.local/index.html" />
-  <ns0:updated>2026-11-09T01:51:44.934256Z</ns0:updated>
+  <ns0:updated>2026-11-10T02:09:37.536152Z</ns0:updated>
   <ns0:author>
     <ns0:name>Personal Daily Info</ns0:name>
   </ns0:author>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-10:6aa5fc030d1416fb</ns0:id>
+    <ns0:title>[社区与观点] Fossil CO₂ emissions projected to decrease in 2026 amid clean energy growth and Iran conflict</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://phys.org/news/2026-11-fossil-emissions-decrease-energy-growth.html" />
+    <ns0:published>2026-11-10T01:00:05.331000Z</ns0:published>
+    <ns0:updated>2026-11-10T02:09:37.536152Z</ns0:updated>
+    <ns0:category term="community" label="社区与观点" />
+    <ns0:summary type="text">Global carbon emissions from fossil fuels are projected to decrease by 0.4% in 2026—driven by expansion of solar and wind power and the Iran… 〔Folo分类:重大学术科研突破〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;一份预测称 2026 年全球化石燃料碳排放将下降 0.4%，归因于太阳能与风电扩张及伊朗冲突&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：0.4% · 相关方：fossil fuels / solar / wind power / Iran / CO₂&lt;/p&gt;&lt;p&gt;Global carbon emissions from fossil fuels are projected to decrease by 0.4% in 2026—driven by expansion of solar and wind power and the Iran… 〔Folo分类:重大学术科研突破〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;0.4% 的降幅小于常见统计波动，且属预测而非实测；把它当趋势拐点会误读，需与后续实测年值分开存放。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建有轻量用途：带单位的百分比读数是 feed 数字白名单的好样本，可验证提取器不把百分号或年份误当计数。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;用 0.4% 跑一次数字白名单单测，若百分号被正确保留且 2026 未被误判为读数，判定提取器通过。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-10T01:00 UTC · 归类：community&lt;/p&gt;&lt;p&gt;证据状态：未独立验证&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://phys.org/news/2026-11-fossil-emissions-decrease-energy-growth.html" rel="noopener noreferrer"&gt;https://phys.org/news/2026-11-fossil-emissions-decrease-energy-growth.html&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-10:382ff6535f6d860a</ns0:id>
+    <ns0:title>[市场与投资] Cracking the case of the Roman frog graveyard</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://phys.org/news/2026-11-case-roman-frog-graveyard.html" />
+    <ns0:published>2026-11-10T00:10:09.811000Z</ns0:published>
+    <ns0:updated>2026-11-10T02:09:37.536152Z</ns0:updated>
+    <ns0:category term="market-invest" label="市场与投资" />
+    <ns0:summary type="text">Ten years after 8,000 ancient frog bones were discovered in a single ditch, scientists at Bournemouth University and the Museum of London… 〔Folo分类:重大学术科研突破〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Bournemouth University 与 Museum of London 的研究者重新分析一条沟渠中出土的 8,000 块古蛙骨&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：8,000 · 相关方：Bournemouth University / Museum of London&lt;/p&gt;&lt;p&gt;Ten years after 8,000 ancient frog bones were discovered in a single ditch, scientists at Bournemouth University and the Museum of London… 〔Folo分类:重大学术科研突破〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;十年前的材料靠新方法重新得出结论，说明保留可重算的原始样本比保存当时的结论更有价值，这是资料沉淀的通用教训。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;暂无直接影响：考古样本研究不涉及 WorkBuddy、MCP、agent 部署任何环节；8,000 仅作为本期实质读数样本供白名单复算。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对报告中 8,000 块骨骼的计数口径，若与发掘清单一致率 100%，判定该数字可作为白名单正样本。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-10T00:10 UTC · 归类：market-invest&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://phys.org/news/2026-11-case-roman-frog-graveyard.html" rel="noopener noreferrer"&gt;https://phys.org/news/2026-11-case-roman-frog-graveyard.html&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-10:255b56db4a4a44d0</ns0:id>
+    <ns0:title>[深度长文] Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://artificialanalysis.ai/models/claude-fable-5-2" />
+    <ns0:published>2026-11-09T20:04:55.939000Z</ns0:published>
+    <ns0:updated>2026-11-10T02:09:37.536152Z</ns0:updated>
+    <ns0:category term="deep-read" label="深度长文" />
+    <ns0:summary type="text">Comments 〔Folo分类:开源项目〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Artificial Analysis 给出 Claude Fable 5.2 得分 65，标题称其为迄今最高，摘要区无正文内容&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：5.2 / 65 · 相关方：Claude Fable 5.2 / Artificial Analysis&lt;/p&gt;&lt;p&gt;Comments 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;65 是第三方评测口径且摘要为空，无法独立核对测试集；同日已有 max 档失败的实测，榜单分不足以支撑默认模型切换。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 LLM provider V1 的选型口径有影响：默认模型切换须先跑固定提示词对照，不能只用榜单分排序。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;用固定提示词对照 65 分榜单口径复跑，若长任务完整返回率 ≥ 90%，判定可把 Fable 5.2 提为默认候选。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-09T20:04 UTC · 归类：deep-read&lt;/p&gt;&lt;p&gt;证据状态：未独立验证&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://artificialanalysis.ai/models/claude-fable-5-2" rel="noopener noreferrer"&gt;https://artificialanalysis.ai/models/claude-fable-5-2&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-10:e27158c22be39665</ns0:id>
+    <ns0:title>[安全与治理] My Solana buy bot doubled every buy amount. Here's the post-mortem.</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://dev.to/opsnode_dev/my-solana-buy-bot-doubled-every-buy-amount-heres-the-post-mortem-2dea" />
+    <ns0:published>2026-11-09T21:48:08.686000Z</ns0:published>
+    <ns0:updated>2026-11-10T02:09:37.536152Z</ns0:updated>
+    <ns0:category term="security-governance" label="安全与治理" />
+    <ns0:summary type="text">In October I audited the first version of the buy bot I was selling. I found 5 bugs. One of them doubled every buy amount. Another made the… 〔Folo分类:开源项目〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;作者复盘自售的 Solana 买入机器人，称一次审计发现 5 个 bug，其中之一把每笔买入金额翻倍&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：5 · 相关方：Solana / buy bot&lt;/p&gt;&lt;p&gt;In October I audited the first version of the buy bot I was selling. I found 5 bugs. One of them doubled every buy amount. Another made the… 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;金额翻倍属状态累积型缺陷，单次执行看起来正常、重跑才放大；这类复盘比功能发布更能暴露自动化管线的验收盲区。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 automation 幂等设计是直接警示：prepared/dispatched 双状态去重同理，金额与数量类动作必须有单次上限断言。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在测试网重放买入脚本 20 次，若单笔金额与配置值偏差为 0 且重跑不产生重复订单，判定幂等断言通过。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-09T21:48 UTC · 归类：security-governance&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://dev.to/opsnode_dev/my-solana-buy-bot-doubled-every-buy-amount-heres-the-post-mortem-2dea" rel="noopener noreferrer"&gt;https://dev.to/opsnode_dev/my-solana-buy-bot-doubled-every-buy-amount-heres-the-post-mortem-2dea&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-10:69e806cfbc9de11b</ns0:id>
+    <ns0:title>[开发者工具与版本] Technical Teardown: Geometry Survivor Mod APK (v1.0) Architecture &amp; Safe Mirrors</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://dev.to/tanvir1704/technical-teardown-geometry-survivor-mod-apk-v10-architecture-safe-mirrors-2ce2" />
+    <ns0:published>2026-11-09T21:50:23.848000Z</ns0:published>
+    <ns0:updated>2026-11-10T02:09:37.536152Z</ns0:updated>
+    <ns0:category term="dev-tools" label="开发者工具与版本" />
+    <ns0:summary type="text">When evaluating mobile Android modifications, stability, package signature integrity, and runtime behavior are critical. In this teardown,… 〔Folo分类:开源项目〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;一篇技术拆解以 Geometry Survivor Mod APK v1.0 为例，讨论稳定性、包签名完整性与运行时行为&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：1.0 · 相关方：Geometry Survivor / APK / Android&lt;/p&gt;&lt;p&gt;When evaluating mobile Android modifications, stability, package signature integrity, and runtime behavior are critical. In this teardown,… 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把包签名完整性当作判定第三方修改版可信度的首要字段，比「安全镜像」这类名号更可核验，可作为准入清单的反例教材。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 agent 部署有间接参照：第三方 APK 的验签逻辑同样适用于 WinVM 侧安装包准入判定的字段设计。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;抽取该 APK 两个镜像验签，若签名哈希一致率 100% 且运行时无额外联网，判定可作为 WinVM 安装包准入样本。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-09T21:50 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://dev.to/tanvir1704/technical-teardown-geometry-survivor-mod-apk-v10-architecture-safe-mirrors-2ce2" rel="noopener noreferrer"&gt;https://dev.to/tanvir1704/technical-teardown-geometry-survivor-mod-apk-v10-architecture-safe-mirrors-2ce2&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-10:e01056c942e15d49</ns0:id>
+    <ns0:title>[文档与变更] v0.40.16</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://github.com/ollama/ollama/releases/tag/v0.40.16" />
+    <ns0:published>2026-11-09T23:45:36Z</ns0:published>
+    <ns0:updated>2026-11-10T02:09:37.536152Z</ns0:updated>
+    <ns0:category term="docs-changelog" label="文档与变更" />
+    <ns0:summary type="text">Ripple Preview Ripple Preview from Ricursive Intelligence is a 65B dense model built for agentic coding. ollama run ripple-preview What's Changed Qwen3.8 Flash Next uses about 27 GiB less memory on Apple silicon ollama launch claude always routes Claude Code to the selected model ollama launch expla</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;ollama v0.40.16 收录 65B 的 Ripple Preview 编码模型，并让 Qwen3.8 Flash Next 在 Apple silicon 上少用 27 GiB 内存&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：0.40.16 / 65B / 27 GiB / 13.5 / 3.8 · 相关方：ollama / Ripple Preview / Ricursive Intelligence / Qwen3.8 / Claude Code / CUDA&lt;/p&gt;&lt;p&gt;Ripple Preview Ripple Preview from Ricursive Intelligence is a 65B dense model built for agentic coding. ollama run ripple-preview What&amp;#x27;s Changed Qwen3.8 Flash Next uses about 27 GiB less memory on Apple silicon ollama launch claude always routes Claude Code to the selected model ollama launch expla&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;除显存收益外还改了 /v1/responses 默认截断与 /v1/models 空返回值，属调用约定变化；只记版本号会漏掉必须回归的接口行为。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;直接关系 WorkBuddy LLM provider V1 的本地候选：27 GiB 内存下降决定模型能否常驻，长输出处理需按新默认行为回归。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在 Apple silicon 上对比 v0.40.15 与 v0.40.16 峰值内存，若下降 ≥ 27 GiB 且长输出 0 截断，判定可纳入本地常驻候选。&lt;/p&gt;&lt;p&gt;来源：ollama Releases · 发布于 2026-11-09T23:45 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/ollama/ollama/releases/tag/v0.40.16" rel="noopener noreferrer"&gt;https://github.com/ollama/ollama/releases/tag/v0.40.16&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-10:3bb5b3b2d995dfa0</ns0:id>
+    <ns0:title>[Agent 与工程] opensandbox-group/OpenSandbox</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://github.com/opensandbox-group/OpenSandbox" />
+    <ns0:published>2026-11-10T00:03:38.916000Z</ns0:published>
+    <ns0:updated>2026-11-10T02:09:37.536152Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="Agent 与工程" />
+    <ns0:summary type="text">Secure, Fast, and Extensible Sandbox runtime for AI agents. Language: Python Stars: 16,914… 〔Folo分类:开源项目〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;opensandbox-group 开源 OpenSandbox，定位为面向 AI agents 的 Python 沙箱运行时，仓库标注 16,914 星&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：16,914 · 相关方：OpenSandbox / Python / AI agents&lt;/p&gt;&lt;p&gt;Secure, Fast, and Extensible Sandbox runtime for AI agents. Language: Python Stars: 16,914… 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把沙箱做成独立运行时而非宿主进程内的权限判断，与同日 claude-code 修复的 Bash 越沙箱问题形成呼应：隔离层正在外移。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;直接对应 WinVM Bridge 的沙箱层：独立 Python 运行时可降低 direct MCP-tools 调用越权的风险面。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;用 OpenSandbox 跑一次越权写入 smoke，若 0 violations 且隔离进程与宿主无共享句柄，判定可进入 WinVM 沙箱 PoC。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-10T00:03 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/opensandbox-group/OpenSandbox" rel="noopener noreferrer"&gt;https://github.com/opensandbox-group/OpenSandbox&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-10:318e4c96184b9fdb</ns0:id>
+    <ns0:title>[Agent 与工程] virattt/dexter</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://github.com/virattt/dexter" />
+    <ns0:published>2026-11-10T00:03:50.751000Z</ns0:published>
+    <ns0:updated>2026-11-10T02:09:37.536152Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="Agent 与工程" />
+    <ns0:summary type="text">An autonomous agent for deep financial research Language: TypeScript Stars: 27,804 Forks: 3… 〔Folo分类:开源项目〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;GitHub 项目 virattt/dexter 以 TypeScript 实现面向深度金融研究的自主 agent，仓库标注 27,804 星&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：27,804 · 相关方：virattt/dexter / TypeScript&lt;/p&gt;&lt;p&gt;An autonomous agent for deep financial research Language: TypeScript Stars: 27,804 Forks: 3… 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;星数只说明关注度，摘要未给任务成功率或 handoff 契约；把它当架构样本前需先确认它返回的是结构化结果还是一段消息。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;A2A 委派路径的参照实现：可作为复杂任务委派的对比样本，但不能凭星数推断其多 agent 交接质量。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;给 dexter 派 3 个固定研究任务，若结构化结果返回率 ≥ 2/3，判定其 handoff 契约值得对照 A2A 实现。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-10T00:03 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/virattt/dexter" rel="noopener noreferrer"&gt;https://github.com/virattt/dexter&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-10:2f3c8b6e4ca8bc73</ns0:id>
+    <ns0:title>[Agent 与工程] Here's What Apple Fixed in iOS 27.2.1 and macOS 27.2.1</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.macrumors.com/2026/11/09/ios-27-2-1-security-fixes" />
+    <ns0:published>2026-11-09T23:07:16.442000Z</ns0:published>
+    <ns0:updated>2026-11-10T02:09:37.536152Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="Agent 与工程" />
+    <ns0:summary type="text">Apple released iOS, iPadOS, and macOS 27.2.1 updates to fix multiple security vulnerabilities. These patches address issues in iMessage that permitted unauthorized access to group chat history, as well as AirPlay and Bluetooth flaws allowing malicious pairing and memory corruption. Additionally, the</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Apple 为 iOS、iPadOS 与 macOS 27.2.1 发布安全更新，修复 iMessage 群聊历史越权访问与 AirPlay、Bluetooth 恶意配对缺陷&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：27.2.1 · 相关方：Apple / iOS / iPadOS / macOS / iMessage / eMudhra&lt;/p&gt;&lt;p&gt;Apple released iOS, iPadOS, and macOS 27.2.1 updates to fix multiple security vulnerabilities. These patches address issues in iMessage that permitted unauthorized access to group chat history, as well as AirPlay and Bluetooth flaws allowing malicious pairing and memory corruption. Additionally, the&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;更新同时为命令行工具补上 eMudhra 证书防护，影响的不是功能而是本地脚本的信任链，公开细节后未升级设备的利用风险上升。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;本机 macOS 侧与 WinVM 命令行工具共享证书链，防护变更后需回归自动化脚本的签名校验，避免无人值守任务被静默拦截。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在 macOS 27.2.1 上跑一次签名脚本回归，若 eMudhra 相关校验失败次数为 0 且自动化任务全通过，判定升级不影响工具链。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-09T23:07 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.macrumors.com/2026/11/09/ios-27-2-1-security-fixes" rel="noopener noreferrer"&gt;https://www.macrumors.com/2026/11/09/ios-27-2-1-security-fixes&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-10:13932435604d30aa</ns0:id>
+    <ns0:title>[Agent 与工程] v2.1.321</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://github.com/anthropics/claude-code/releases/tag/v2.1.321" />
+    <ns0:published>2026-11-09T19:22:30Z</ns0:published>
+    <ns0:updated>2026-11-10T02:09:37.536152Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="Agent 与工程" />
+    <ns0:summary type="text">What's changed Added Claude Fable 5.2 (claude-fable-5-2), now the default Fable model — 1M context, $8/$40 per Mtok with $0.20/Mtok cache reads Added --settings to claude remote-control, which applies a settings file to every session it starts; if the file changes, no new session starts until you re</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;claude-code v2.1.321 将 Claude Fable 5.2 设为默认模型，给出 1M 上下文定价，并修复 MCP OAuth 重定向泄露凭据等缺陷&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2.1.321 / 1M / $8/$40 / $0.20 / 5.2 · 相关方：Claude Fable 5.2 / MCP OAuth / claude remote-control / Claude Code / SEP-2352 / Bash&lt;/p&gt;&lt;p&gt;What&amp;#x27;s changed Added Claude Fable 5.2 (claude-fable-5-2), now the default Fable model — 1M context, $8/$40 per Mtok with $0.20/Mtok cache reads Added --settings to claude remote-control, which applies a settings file to every session it starts; if the file changes, no new session starts until you re&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;这次修复集中在信任边界：OAuth 重定向把 refresh token 发往另一主机、只读 Bash 越出沙箱、cp 与 mv 写入绕过 deny 规则，比模型升级更值得先回归。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;与 MCP、agent 部署强相关：三项缺陷要补进双端 setup 的回归断言集，否则 direct MCP-tools 调用链路存在凭据外发风险。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;构造一次 MCP OAuth 302 重定向并抓包，若非注册主机收到 refresh token 次数为 0，判定 v2.1.321 可纳入 agent 部署基线。&lt;/p&gt;&lt;p&gt;来源：claude-code Releases · 发布于 2026-11-09T19:22 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.321" rel="noopener noreferrer"&gt;https://github.com/anthropics/claude-code/releases/tag/v2.1.321&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-10:def0cbfaae458dc9</ns0:id>
+    <ns0:title>[模型与研究] Anthropic Launches Claude Fable 5.2 and Mythos 5.2</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.macrumors.com/2026/11/09/anthropic-launches-claude-fable-5-2" />
+    <ns0:published>2026-11-09T19:38:47.013000Z</ns0:published>
+    <ns0:updated>2026-11-10T02:09:37.536152Z</ns0:updated>
+    <ns0:category term="ai-models" label="模型与研究" />
+    <ns0:summary type="text">Anthropic has launched Claude Fable 5.2 and Mythos 5.2, featuring improved coding, reasoning, and vision capabilities. These models generate outputs up to 30 percent faster than previous versions, with Fable 5.2 also using fewer tokens on challenging tasks. While both models share the same underlyin</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2，称输出速度最高快 30 percent 且在技术科学基准上超过 Opus 5.5&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：5.2 / 30 / 5.5 · 相关方：Anthropic / Claude Fable 5.2 / Mythos 5.2 / Opus 5.5&lt;/p&gt;&lt;p&gt;Anthropic has launched Claude Fable 5.2 and Mythos 5.2, featuring improved coding, reasoning, and vision capabilities. These models generate outputs up to 30 percent faster than previous versions, with Fable 5.2 also using fewer tokens on challenging tasks. While both models share the same underlyin&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;两款模型同架构但 Fable 5.2 多了网络安全与生物护栏，说明差异已落在策略层而非能力层；30 percent 是厂商口径，缺独立复测。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 WorkBuddy 模型路由有影响：应按任务类型分流而非按速度单一指标选模型，护栏差异会改变敏感任务的可用集。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;分别跑 Fable 5.2 与 Mythos 5.2 各 10 次编码任务，若前者护栏拦截率更高且 30 percent 提速可复现，判定按任务分流。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-09T19:38 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.macrumors.com/2026/11/09/anthropic-launches-claude-fable-5-2" rel="noopener noreferrer"&gt;https://www.macrumors.com/2026/11/09/anthropic-launches-claude-fable-5-2&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-10:ac841c16ab1a0f7b</ns0:id>
+    <ns0:title>[模型与研究] llm-anthropic 0.31</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://simonwillison.net/2026/Nov/9/llm-anthropic" />
+    <ns0:published>2026-11-09T23:58:46Z</ns0:published>
+    <ns0:updated>2026-11-10T02:09:37.536152Z</ns0:updated>
+    <ns0:category term="ai-models" label="模型与研究" />
+    <ns0:summary type="text">Release: llm-anthropic 0.31 Anthropic released Fable 5.2 and Mythos 5.2 today. I've added them to llm-anthropic, so you can now run prompts through Fable 5.2 like this: uv tool install llm llm install llm-anthropic llm keys set anthropic # paste key here llm -m claude-fable-5.2 "Generate an SVG of a</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Simon Willison 发布 llm-anthropic 0.31 适配 Fable 5.2 与 Mythos 5.2，并实测五档推理档生成 SVG 的表现&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：0.31 / 5.2 / 128,000 / 5.5 · 相关方：llm-anthropic / Anthropic / Fable 5.2 / Mythos 5.2 / Opus 5.5&lt;/p&gt;&lt;p&gt;Release: llm-anthropic 0.31 Anthropic released Fable 5.2 and Mythos 5.2 today. I&amp;#x27;ve added them to llm-anthropic, so you can now run prompts through Fable 5.2 like this: uv tool install llm llm install llm-anthropic llm keys set anthropic # paste key here llm -m claude-fable-5.2 &amp;quot;Generate an SVG of a&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;适配速度虽快，但 max 档耗尽 128,000 token 后连图都返回不出，且这是 Fable 系列新出现、Opus 5.5 时代已有的同类故障，说明新模型的极限档不能默认信任。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 skill 与 automation 的模型调用有直接影响：长任务必须设 token 上限与超时回退，不能把单一推理档当作可靠执行路径。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;用同一提示词跑 max 档 10 次，若完整返回 ≥ 9 次且 token 消耗上限可控，判定可启用该推理档。&lt;/p&gt;&lt;p&gt;来源：Simon Willison&amp;#x27;s Weblog · 发布于 2026-11-09T23:58 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://simonwillison.net/2026/Nov/9/llm-anthropic" rel="noopener noreferrer"&gt;https://simonwillison.net/2026/Nov/9/llm-anthropic&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:daily-info.local,2026-11-09:991d00f8bf0c1caa</ns0:id>
     <ns0:title>[文档与变更] 5 underrated PlayStation App features</ns0:title>
@@ -888,125 +1008,5 @@
     <ns0:category term="research-papers" label="论文与学术" />
     <ns0:summary type="text">arXiv:2607.20436v2 Announce Type: replace Abstract: Safety evaluations often assume that behavior observed during testing reflects behavior in ordinary use, but fine-tuning can break this assumption. A checkpoint can appear fixed under evaluation-style prompts while the same behavior persists under </ns0:summary>
     <ns0:content type="html">&lt;p&gt;&lt;strong&gt;arXiv 2607.20436：Routing Subspaces 审计评估到部署的行为失配&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2607.20436 · 相关方：arXiv / safety evaluation&lt;/p&gt;&lt;p&gt;arXiv:2607.20436v2 Announce Type: replace Abstract: Safety evaluations often assume that behavior observed during testing reflects behavior in ordinary use, but fine-tuning can break this assumption. A checkpoint can appear fixed under evaluation-style prompts while the same behavior persists under &lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;安全评测假设评测时行为等于部署行为，被给出证伪路径&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;skill 合规检查应加部署态抽检，不能只靠发布前评测&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;抽检 3 个已上线 skill，若行为偏移超过 10% 则建立常态抽检&lt;/p&gt;&lt;p&gt;来源：arXiv cs.CL · 发布于 2026-11-04T05:00 UTC · 归类：research-papers&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://arxiv.org/abs/2607.20436" rel="noopener noreferrer"&gt;https://arxiv.org/abs/2607.20436&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-04:0ee4b2ffd1ac8e3f</ns0:id>
-    <ns0:title>[论文与学术] Optimize the Harness, Not the Model: Fitting a Minimal Agent to a Self-Hostable LLM for Investigative Analysis</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://arxiv.org/abs/2611.03434" />
-    <ns0:published>2026-11-04T05:00:00Z</ns0:published>
-    <ns0:updated>2026-11-04T13:33:31.530620Z</ns0:updated>
-    <ns0:category term="research-papers" label="论文与学术" />
-    <ns0:summary type="text">arXiv:2611.03434v1 Announce Type: cross Abstract: Government intelligence teams need LLM agents that can analyze large, messy evidence collections, but security and cost constraints often rule out hosted frontier models and broad, hard-to-audit tool surfaces. We report CLEO: Constrained Loop for Env</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;arXiv 2611.03434：政府情报场景下优化 harness 而非模型的最小 agent 适配&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2611.03434 · 相关方：arXiv / harness&lt;/p&gt;&lt;p&gt;arXiv:2611.03434v1 Announce Type: cross Abstract: Government intelligence teams need LLM agents that can analyze large, messy evidence collections, but security and cost constraints often rule out hosted frontier models and broad, hard-to-audit tool surfaces. We report CLEO: Constrained Loop for Env&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;又一独立证据：harness 工程质量正在取代模型能力成为瓶颈&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;与 agent-desktop / t3code 的工作台之争互相佐证&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;纳入本周 harness 主题证据池，主题簇不少于 3 个则在周报立题&lt;/p&gt;&lt;p&gt;来源：arXiv cs.CL · 发布于 2026-11-04T05:00 UTC · 归类：research-papers&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://arxiv.org/abs/2611.03434" rel="noopener noreferrer"&gt;https://arxiv.org/abs/2611.03434&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-04:eda942a44782fe64</ns0:id>
-    <ns0:title>[论文与学术] [AI 产品创意] 💡 AI 产品创意日报 | 2026-11-04</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://github.com/kejun/daily-investor/blob/main/ideas/2026-11-04-ai-product-ideas.md" />
-    <ns0:published>2026-11-03T23:01:26Z</ns0:published>
-    <ns0:updated>2026-11-04T13:33:31.530620Z</ns0:updated>
-    <ns0:category term="research-papers" label="论文与学术" />
-    <ns0:summary type="text">💡 AI 产品创意日报 | 2026-11-04 生成时间：2026 年 11 月 4 日 7:00 AM (Asia/Shanghai) 数据来源：Hacker News 首页、Hugging Face Blog、GitHub Trending（11/3）、arXiv CS.AI 📊 今日核心洞察 一句话主题：Agent 开始「动手」了，但没人能证明它动的手是对的 今天的信息流里，Agent 的主题悄悄换了位置：从「Agent 能说什么」变成「Agent 能做什么」。 GitHub Trending 第一名是 Vercel Labs 的 agent-desktop——一个让 agent 通过</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;克军 AI 产品创意日报 2026-11-04（7:00 生成，数据来源含 HN 首页、HF Blog、GitHub Trending、arXiv）&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：7 · 相关方：AI 产品创意日报 / Hacker News&lt;/p&gt;&lt;p&gt;💡 AI 产品创意日报 | 2026-11-04 生成时间：2026 年 11 月 4 日 7:00 AM (Asia/Shanghai) 数据来源：Hacker News 首页、Hugging Face Blog、GitHub Trending（11/3）、arXiv CS.AI 📊 今日核心洞察 一句话主题：Agent 开始「动手」了，但没人能证明它动的手是对的 今天的信息流里，Agent 的主题悄悄换了位置：从「Agent 能说什么」变成「Agent 能做什么」。 GitHub Trending 第一名是 Vercel Labs 的 agent-desktop——一个让 agent 通过&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把当日技术信号转成产品创意与验证计划的成例，漏斗结构可抄&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;周报的下周可验证动作可借用其优先级排序格式&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对比其创意清单与我们的 watch_signals，重合不少于 2 条即说明选题有效&lt;/p&gt;&lt;p&gt;来源：克军三仓库最新日报（聚合 Atom） · 发布于 2026-11-03T23:01 UTC · 归类：research-papers&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/kejun/daily-investor/blob/main/ideas/2026-11-04-ai-product-ideas.md" rel="noopener noreferrer"&gt;https://github.com/kejun/daily-investor/blob/main/ideas/2026-11-04-ai-product-ideas.md&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-04:3257ffecc3ac915e</ns0:id>
-    <ns0:title>[文档与变更] Incident with Pull Requests, Git Operations and Issues</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://www.githubstatus.com/incidents/smtdswd1h2w4" />
-    <ns0:published>2026-11-04T10:00:06Z</ns0:published>
-    <ns0:updated>2026-11-04T13:33:31.530620Z</ns0:updated>
-    <ns0:category term="community" label="文档与变更" />
-    <ns0:summary type="text">GitHub 核心服务当日不稳定，直接影响 CI 与依赖同步</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;GitHub 官方状态页公告 Pull Requests、Git 操作与 Issues 发生事故&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2026-11-04 · 相关方：Pull Requests / Git Operations / Issues&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;GitHub 核心服务当日不稳定，直接影响 CI 与依赖同步&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;当日 git push / Actions 失败应先查状态页再排查本地&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;若事故 24 小时内未关闭，则把关键发布流程临时切备用镜像&lt;/p&gt;&lt;p&gt;来源：HN Algolia front_page (points/comments) · 发布于 2026-11-04T10:00 UTC · 归类：community&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.githubstatus.com/incidents/smtdswd1h2w4" rel="noopener noreferrer"&gt;https://www.githubstatus.com/incidents/smtdswd1h2w4&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-04:0f281cabd4f69d19</ns0:id>
-    <ns0:title>[开发者工具与版本] BYOK and enterprise custom models in the Copilot usage API</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://github.blog/changelog/2026-11-03-byok-and-enterprise-custom-models-in-the-copilot-usage-api" />
-    <ns0:published>2026-11-04T00:32:19Z</ns0:published>
-    <ns0:updated>2026-11-04T13:33:31.530620Z</ns0:updated>
-    <ns0:category term="dev-tools" label="开发者工具与版本" />
-    <ns0:summary type="text">The Copilot usage metrics API now shows bring your own key (BYOK) usage across GitHub Copilot, so you can separate it from Copilot-hosted model usage. Reports cover two kinds of… The post BYOK and enterprise custom models in the Copilot usage API appeared first on The GitHub Blog.</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;GitHub Copilot 用量 API 新增 BYOK 与企业自定义模型用量拆分&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2026-11-04 · 相关方：GitHub Copilot / BYOK&lt;/p&gt;&lt;p&gt;The Copilot usage metrics API now shows bring your own key (BYOK) usage across GitHub Copilot, so you can separate it from Copilot-hosted model usage. Reports cover two kinds of… The post BYOK and enterprise custom models in the Copilot usage API appeared first on The GitHub Blog.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;BYOK 用量可被单独计量，企业成本归因有了官方口径&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;cc-switch / 多 provider 场景的成本归因可参考其字段设计&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照其 API 字段，若能覆盖我们 5 类 provider 中至少 4 类则接入成本看板&lt;/p&gt;&lt;p&gt;来源：GitHub Changelog · 发布于 2026-11-04T00:32 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.blog/changelog/2026-11-03-byok-and-enterprise-custom-models-in-the-copilot-usage-api" rel="noopener noreferrer"&gt;https://github.blog/changelog/2026-11-03-byok-and-enterprise-custom-models-in-the-copilot-usage-api&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-04:3f989514aa0deab0</ns0:id>
-    <ns0:title>[开发者工具与版本] Kitty 0.50</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://sw.kovidgoyal.net/kitty/changelog" />
-    <ns0:published>2026-11-04T08:57:10Z</ns0:published>
-    <ns0:updated>2026-11-04T13:33:31.530620Z</ns0:updated>
-    <ns0:category term="community" label="开发者工具与版本" />
-    <ns0:summary type="text">HN 高票的终端大版本更新，渲染与脚本 API 变化面大</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Kitty 终端发布 0.50 版本&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：0.50 · 相关方：Kitty&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;HN 高票的终端大版本更新，渲染与脚本 API 变化面大&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;影响终端工具链选型，WinVM 内测试环境需确认兼容&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在测试机升级后跑 tmux/kitty 脚本集，全部通过才升级主力机&lt;/p&gt;&lt;p&gt;来源：HN Algolia front_page (points/comments) · 发布于 2026-11-04T08:57 UTC · 归类：community&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://sw.kovidgoyal.net/kitty/changelog" rel="noopener noreferrer"&gt;https://sw.kovidgoyal.net/kitty/changelog&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-04:76342e728d2769e6</ns0:id>
-    <ns0:title>[模型与研究] Axion1-0/Axion-1.0-35B · Hugging Face</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://www.reddit.com/r/LocalLLaMA/comments/1xnjiu4/axion10axion1035b_hugging_face" />
-    <ns0:published>2026-11-04T09:02:58Z</ns0:published>
-    <ns0:updated>2026-11-04T13:33:31.530620Z</ns0:updated>
-    <ns0:category term="ai-models" label="模型与研究" />
-    <ns0:summary type="text">We introduce Axion 1.0, a fully open agent foundation model that combines strong and broad agentic capabilities with a remarkably simple training recipe. Axion 1.0 is trained in only three stages: two lightweight supervised fine-tuning stages followed by reinforcement learning, without dedicated mid</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Axion 1.0-35B 开源：主打全面 agentic 能力的开放基础模型&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：1.0 / 35 · 相关方：Axion / Hugging Face&lt;/p&gt;&lt;p&gt;We introduce Axion 1.0, a fully open agent foundation model that combines strong and broad agentic capabilities with a remarkably simple training recipe. Axion 1.0 is trained in only three stages: two lightweight supervised fine-tuning stages followed by reinforcement learning, without dedicated mid&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;开放权重在 agent 专用基座上又补了一档 35B 选择&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;本地 agent 试验可加入该模型做横向对比&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;跑同一 agent 基准，若成功率不高于现有基线 5% 则不纳入选型&lt;/p&gt;&lt;p&gt;来源：r/LocalLLaMA · 发布于 2026-11-04T09:02 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.reddit.com/r/LocalLLaMA/comments/1xnjiu4/axion10axion1035b_hugging_face" rel="noopener noreferrer"&gt;https://www.reddit.com/r/LocalLLaMA/comments/1xnjiu4/axion10axion1035b_hugging_face&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-04:82af5102f1563486</ns0:id>
-    <ns0:title>[模型与研究] Using Strata IQ4 Qwen Flash to edit Qwen 3.5 0.6B weight based on MIT CSAIL</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://www.reddit.com/r/LocalLLaMA/comments/1xnjwte/using_strata_iq4_qwen_flash_to_edit_qwen_35_06b" />
-    <ns0:published>2026-11-04T09:28:48Z</ns0:published>
-    <ns0:updated>2026-11-04T13:33:31.530620Z</ns0:updated>
-    <ns0:category term="ai-models" label="模型与研究" />
-    <ns0:summary type="text">EDIT : NON COMPRESS GRAPH : https://n.uguu.se/ojTfpwwD.png Because why not. Preamble: DeepSeek Harness Creator Mode Strata IQ4 Qwen Flash Next 3090, Xeon E5, 96G (DDR4 2400 ECC, 3x32) "Training Token" 39.8M Context cache, 1.1M actual token. "Time to traing" 3h 12m Strata, 41 tok/s decode Qwen 0.6B R</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;r/LocalLLaMA：用 Strata IQ4 编辑 Qwen 3.5 0.6B 权重的实验记录&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：3.5 / 0.6 · 相关方：Qwen / Strata IQ4&lt;/p&gt;&lt;p&gt;EDIT : NON COMPRESS GRAPH : https://n.uguu.se/ojTfpwwD.png Because why not. Preamble: DeepSeek Harness Creator Mode Strata IQ4 Qwen Flash Next 3090, Xeon E5, 96G (DDR4 2400 ECC, 3x32) &amp;quot;Training Token&amp;quot; 39.8M Context cache, 1.1M actual token. &amp;quot;Time to traing&amp;quot; 3h 12m Strata, 41 tok/s decode Qwen 0.6B R&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;权重可编辑性从论文走向民间复现，小模型成为试验场&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对模型即数据的运维假设提出挑战，权重版本管理更重要&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;仅作观察项，若出现可复现的安全事件再升级关注&lt;/p&gt;&lt;p&gt;来源：r/LocalLLaMA · 发布于 2026-11-04T09:28 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;证据状态：推断&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.reddit.com/r/LocalLLaMA/comments/1xnjwte/using_strata_iq4_qwen_flash_to_edit_qwen_35_06b" rel="noopener noreferrer"&gt;https://www.reddit.com/r/LocalLLaMA/comments/1xnjwte/using_strata_iq4_qwen_flash_to_edit_qwen_35_06b&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-04:6385d8e47a02bbd3</ns0:id>
-    <ns0:title>[模型与研究] v2.1.318</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://github.com/anthropics/claude-code/releases/tag/v2.1.318" />
-    <ns0:published>2026-11-04T00:01:03Z</ns0:published>
-    <ns0:updated>2026-11-04T13:33:31.530620Z</ns0:updated>
-    <ns0:category term="dev-tools" label="模型与研究" />
-    <ns0:summary type="text">What's changed Added a record of your answer when Claude Code asks to turn on the mods it writes in a session Added assume_role on mantle upstreams of the Claude apps gateway, for a role in another AWS account and for per-developer AWS cost attribution Added an effort option to a mod's $.model.fork,</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;claude-code 发布 v2.1.318，新增会话修改记录等变更&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2.1.318 · 相关方：Claude Code&lt;/p&gt;&lt;p&gt;What&amp;#x27;s changed Added a record of your answer when Claude Code asks to turn on the mods it writes in a session Added assume_role on mantle upstreams of the Claude apps gateway, for a role in another AWS account and for per-developer AWS cost attribution Added an effort option to a mod&amp;#x27;s $.model.fork,&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;高频小版本迭代本身是信号：harness 层竞争在加速&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;kmaster-studio 桥接的 agent CLI 行为可能随版本漂移&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;升级后跑 bridge smoke，0 失败才进入主干&lt;/p&gt;&lt;p&gt;来源：claude-code Releases · 发布于 2026-11-04T00:01 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.318" rel="noopener noreferrer"&gt;https://github.com/anthropics/claude-code/releases/tag/v2.1.318&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-04:d41f5a6be2f677ec</ns0:id>
-    <ns0:title>[模型与研究] [技术日报] AI 技术日报 · 2026-11-04（周三）</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://github.com/kejun/daily-rss/blob/main/2026/11/2026-11-04.md" />
-    <ns0:published>2026-11-03T22:03:13Z</ns0:published>
-    <ns0:updated>2026-11-04T13:33:31.530620Z</ns0:updated>
-    <ns0:category term="ai-models" label="模型与研究" />
-    <ns0:summary type="text">AI 技术日报 · 2026-11-04（周三） 覆盖 29 个信源 · 去重聚合 · 全中文精编 今日主线：同一个数字，两种读法。 Anthropic 交出单季 170 亿美元营收（同比增长 11 倍），同时亏损扩大、单位算力毛利变差——"AI 需求是真的"和"AI 生意还不成立"这两句话，第一次可以同时成立。另一侧，开源权重把前沿继续往消费级硬件上搬：753B 科学模型、290B 本地 MoE、纯 C 从磁盘流式加载专家。而今天 HN 上票数最高的不是模型，是 Postman 偷偷装 AI 插件并尝试上传全部 API 数据（815 分）——信任，正在成为这个行业最稀缺的资源。 📌 今日速览</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;克军 AI 技术日报 2026-11-04：覆盖 29 个信源，Anthropic 单季 170 亿美元营收同比增长超 11 倍但亏损同步扩大&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：29 / 170 / 11 · 相关方：Anthropic&lt;/p&gt;&lt;p&gt;AI 技术日报 · 2026-11-04（周三） 覆盖 29 个信源 · 去重聚合 · 全中文精编 今日主线：同一个数字，两种读法。 Anthropic 交出单季 170 亿美元营收（同比增长 11 倍），同时亏损扩大、单位算力毛利变差——&amp;quot;AI 需求是真的&amp;quot;和&amp;quot;AI 生意还不成立&amp;quot;这两句话，第一次可以同时成立。另一侧，开源权重把前沿继续往消费级硬件上搬：753B 科学模型、290B 本地 MoE、纯 C 从磁盘流式加载专家。而今天 HN 上票数最高的不是模型，是 Postman 偷偷装 AI 插件并尝试上传全部 API 数据（815 分）——信任，正在成为这个行业最稀缺的资源。 📌 今日速览&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;同日多源交叉印证 AI 需求为真与 AI 生意未成立可以并存&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;接入为订阅源后，本系统可引用其去重结论做二级校验&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照我们的入选簇与其日报主题重合度，重合不低于 50% 说明信源结构有效&lt;/p&gt;&lt;p&gt;来源：克军三仓库最新日报（聚合 Atom） · 发布于 2026-11-03T22:03 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/kejun/daily-rss/blob/main/2026/11/2026-11-04.md" rel="noopener noreferrer"&gt;https://github.com/kejun/daily-rss/blob/main/2026/11/2026-11-04.md&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-04:85178b68c56ca0dc</ns0:id>
-    <ns0:title>[模型与研究] [Paper] SpecPilot: Autonomous Algorithm Discovery and Systems Optimization for Speculative Decoding 🚀🚀🚀</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://www.reddit.com/r/LocalLLaMA/comments/1xnjrgj/paper_specpilot_autonomous_algorithm_discovery" />
-    <ns0:published>2026-11-04T09:18:44Z</ns0:published>
-    <ns0:updated>2026-11-04T13:33:31.530620Z</ns0:updated>
-    <ns0:category term="ai-models" label="模型与研究" />
-    <ns0:summary type="text">Speculative decoding accelerates memory-bound LLM decoding with a lightweight drafter, and parallel drafters extend this speedup by drafting a whole block in one forward pass. However, it remains unclear whether their released systems (stock) attain the full speedup that parallel drafting permits. W</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;SpecPilot 论文帖：并行投机解码离理论加速上限仍有差距，识别出三项系统挑战&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2026-11-04 · 相关方：SpecPilot / speculative decoding&lt;/p&gt;&lt;p&gt;Speculative decoding accelerates memory-bound LLM decoding with a lightweight drafter, and parallel drafters extend this speedup by drafting a whole block in one forward pass. However, it remains unclear whether their released systems (stock) attain the full speedup that parallel drafting permits. W&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;投机解码的工程上限被重新校准，社区实测与论文宣称的差距被摆上台面&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;kmaster 推理服务若上并行 drafter，需按其三项挑战做验收&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在我们的负载上复测 draft 接受率，低于其报告值 20% 则判定收益不成立&lt;/p&gt;&lt;p&gt;来源：r/LocalLLaMA · 发布于 2026-11-04T09:18 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.reddit.com/r/LocalLLaMA/comments/1xnjrgj/paper_specpilot_autonomous_algorithm_discovery" rel="noopener noreferrer"&gt;https://www.reddit.com/r/LocalLLaMA/comments/1xnjrgj/paper_specpilot_autonomous_algorithm_discovery&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-04:88c23216a431785a</ns0:id>
-    <ns0:title>[模型与研究] Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop" />
-    <ns0:published>2026-11-04T08:46:29Z</ns0:published>
-    <ns0:updated>2026-11-04T13:33:31.530620Z</ns0:updated>
-    <ns0:category term="ai-models" label="模型与研究" />
-    <ns0:summary type="text">硬件侧可信固件正在变成对开放推理栈的隐性锁，比模型层封锁更难绕</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;HN 热帖：Nvidia RTX Spark 加密固件使第三方推理速度降至官方的 35%&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：35 · 相关方：Nvidia / RTX Spark&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;硬件侧可信固件正在变成对开放推理栈的隐性锁，比模型层封锁更难绕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;本地推理选型需把 Nvidia 消费级卡的不确定性计入成本&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;若后续实测降幅收窄到 15% 以内则解除对 RTX 系本地推理的选型顾虑&lt;/p&gt;&lt;p&gt;来源：HN Algolia front_page (points/comments) · 发布于 2026-11-04T08:46 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop" rel="noopener noreferrer"&gt;https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-04:e36b6618722d511a</ns0:id>
-    <ns0:title>[Agent 与工程] Desiderata for the Theory of Agents</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://www.lesswrong.com/posts/sqjti8dxcKSvZJikd/desiderata-for-the-theory-of-agents" />
-    <ns0:published>2026-11-04T11:25:12Z</ns0:published>
-    <ns0:updated>2026-11-04T13:33:31.530620Z</ns0:updated>
-    <ns0:category term="agent-engineering" label="Agent 与工程" />
-    <ns0:summary type="text">TLDR: I give informal conceptual desiderata for the theory of agents we need to solve ASI alignment, and show a few examples of how existing theories fall short of these desiderata. A Theory of What? The word "agent" is often used in the AI safety discourse and in other research communities, but the</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;LessWrong 长文提出 ASI 对齐所需的 agent 理论 desiderata，并指出现有理论的不足&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2026-11-04 · 相关方：ASI alignment / theory of agents&lt;/p&gt;&lt;p&gt;TLDR: I give informal conceptual desiderata for the theory of agents we need to solve ASI alignment, and show a few examples of how existing theories fall short of these desiderata. A Theory of What? The word &amp;quot;agent&amp;quot; is often used in the AI safety discourse and in other research communities, but the&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;指出 agent 一词在安全讨论中定义漂移，现有理论不满足基本 desiderata&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;写专家包与 A2A 规范时术语需先定义再使用，避免同类漂移&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照 A2A 文档做术语审计，出现至少 1 处歧义即修订&lt;/p&gt;&lt;p&gt;来源：LessWrong · 发布于 2026-11-04T11:25 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.lesswrong.com/posts/sqjti8dxcKSvZJikd/desiderata-for-the-theory-of-agents" rel="noopener noreferrer"&gt;https://www.lesswrong.com/posts/sqjti8dxcKSvZJikd/desiderata-for-the-theory-of-agents&lt;/a&gt;&lt;/p&gt;</ns0:content>
   </ns0:entry>
 </ns0:feed>

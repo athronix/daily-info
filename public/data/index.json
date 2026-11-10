@@ -5,8 +5,35 @@
     "timezone": "Asia/Shanghai",
     "version": "1.0.0"
   },
-  "generated_at": "2026-11-09T01:51:44.934256Z",
+  "generated_at": "2026-11-10T02:09:37.536152Z",
   "dates": [
+    {
+      "date": "2026-11-10",
+      "headline": "Fable 5.2 同日进入榜单、CLI 与本地运行时，但 128,000 token 的失败暴露默认档可信度缺口",
+      "lead": "Fable 5.2 在 Artificial Analysis 得 65 分，同日 claude-code v2.1.321 设为默认并给出 1M 上下文与 $8/$40 每 Mtok 定价，ollama v0.40.16 把 65B 的 Ripple Preview 收进本地运行时、让 Qwen3.8 少用 27 GiB 内存；但 llm-anthropic 0.31 实测 max 档耗尽 128,000 token 仍返不出图。",
+      "demo": false,
+      "stats": {
+        "sources_ok": 184,
+        "sources_total": 185,
+        "total_items": 2456,
+        "clusters": 2359,
+        "selected": 40,
+        "published_items": 12,
+        "seven_element_pass": 12,
+        "seven_element_ratio": 1.0,
+        "items_with_numbers": 12,
+        "substantive_number_ratio": 1.0,
+        "rejected_no_number": 0,
+        "unique_reference_domains": 6
+      },
+      "section_count": 8,
+      "item_count": 12,
+      "ai_status": "ok",
+      "seven_element_ratio": 1.0,
+      "theme_count": 7,
+      "watch_signal_count": 5,
+      "reference_domains": 6
+    },
     {
       "date": "2026-11-09",
       "headline": "先证伪再采信：今天真正有分量的进展，都附了可复测的分母或自己会失败的闸门",
