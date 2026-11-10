@@ -5,10 +5,50 @@
   <ns0:subtitle>挖掘 · 聚合 · 研判 · 订阅；每条附原文链接；内容仅供参考，不构成投资建议</ns0:subtitle>
   <ns0:link rel="self" type="application/atom+xml" href="https://daily-info.local/invest.atom" />
   <ns0:link rel="alternate" type="text/html" href="https://daily-info.local/index.html" />
-  <ns0:updated>2026-11-10T02:09:37.536152Z</ns0:updated>
+  <ns0:updated>2026-11-10T23:04:57.316406Z</ns0:updated>
   <ns0:author>
     <ns0:name>Personal Daily Info</ns0:name>
   </ns0:author>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-11:8625966f767db0d2</ns0:id>
+    <ns0:title>[市场与投资] 10-year Treasury yield races back to 5% as inflation data, Waller comments drive rate hike expectations</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/11/10/us-bonds-treasurys-yields.html" />
+    <ns0:published>2026-11-10T21:06:07Z</ns0:published>
+    <ns0:updated>2026-11-10T23:04:57.316406Z</ns0:updated>
+    <ns0:category term="market-invest" label="市场与投资" />
+    <ns0:summary type="text">Treasury yields moved higher after a hotter-than-expected CPI report.</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;10-year Treasury 收益率回到 5%，CPI 高于预期与 Waller 表态推升加息预期&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：10-year / 5% · 相关方：Treasury / CPI / Waller&lt;/p&gt;&lt;p&gt;Treasury yields moved higher after a hotter-than-expected CPI report.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;无风险利率抬升会抬高长期算力资产的折现率，是解释同日算力资本开支叙事的反向指标。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建预算暂无直接影响，但可作为评估长期算力合约成本时的外部宏观变量。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;若 10-year 连续 5 个交易日站稳 5% 以上，判定高利率情景需纳入明年预算假设。&lt;/p&gt;&lt;p&gt;来源：CNBC Markets · 发布于 2026-11-10T21:06 UTC · 归类：market-invest&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.cnbc.com/2026/11/10/us-bonds-treasurys-yields.html" rel="noopener noreferrer"&gt;https://www.cnbc.com/2026/11/10/us-bonds-treasurys-yields.html&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-11:0728147b6a369003</ns0:id>
+    <ns0:title>[产业与资本] Coframe, which uses AI to make websites that test and personalize themselves for each visitor, raised a $25M Series A, bringing its total funding to $35M (Ben Bergman/Business Insider)</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.techmeme.com/261110/p55" />
+    <ns0:published>2026-11-10T22:45:00Z</ns0:published>
+    <ns0:updated>2026-11-10T23:04:57.316406Z</ns0:updated>
+    <ns0:category term="industry-capital" label="产业与资本" />
+    <ns0:summary type="text">Ben Bergman / Business Insider: Coframe, which uses AI to make websites that test and personalize themselves for each visitor, raised a $25M Series A, bringing its total funding to $35M — Billionaire venture capitalist Vinod Khosla is betting the days of one-size-fits-all websites are numbered.</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Coframe 用 AI 生成可自测与按访客个性化的网站，获 $25M Series A，累计融资 $35M&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：$25M / $35M · 相关方：Coframe / Business Insider / Vinod Khosla&lt;/p&gt;&lt;p&gt;Ben Bergman / Business Insider: Coframe, which uses AI to make websites that test and personalize themselves for each visitor, raised a $25M Series A, bringing its total funding to $35M — Billionaire venture capitalist Vinod Khosla is betting the days of one-size-fits-all websites are numbered.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把 A/B 测试与个性化交给网站自身执行，等于把改动与验证的闭环做成产品而非运营流程。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 automation 有方法论参考：可验证闭环应内置阈值与回滚，而不是靠人工巡检判定效果。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;若其公开案例给出 ≥2 个可复现的转化率阈值与回滚条件，才判定该闭环值得借鉴。&lt;/p&gt;&lt;p&gt;来源：Techmeme · 发布于 2026-11-10T22:45 UTC · 归类：industry-capital&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.techmeme.com/261110/p55" rel="noopener noreferrer"&gt;https://www.techmeme.com/261110/p55&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-11:fe7c43dd8a50381b</ns0:id>
+    <ns0:title>[产业与资本] Proximal Ventures raises debut fund to back startups bringing AI to drug development</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://techcrunch.com/2026/11/10/proximal-ventures-raises-debut-fund-to-back-startups-bringing-ai-to-drug-development" />
+    <ns0:published>2026-11-10T20:47:05Z</ns0:published>
+    <ns0:updated>2026-11-10T23:04:57.316406Z</ns0:updated>
+    <ns0:category term="industry-capital" label="产业与资本" />
+    <ns0:summary type="text">Former SignalFire investor Sahir Raoof raises $27.5 million for new fund targeting AI in pharma.</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;前 SignalFire 投资人 Sahir Raoof 为 Proximal Ventures 募得 $27.5 million 首期基金，投向 AI 制药&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：$27.5 · 相关方：Proximal Ventures / SignalFire / Sahir Raoof&lt;/p&gt;&lt;p&gt;Former SignalFire investor Sahir Raoof raises $27.5 million for new fund targeting AI in pharma.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;首期基金规模不大但方向专一，说明 AI 制药仍靠专项资本而非平台级预算推动。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建暂无直接影响；可对照 SIMCO 一类仿真工作看资本是否流向可验证的样本量级。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对该基金前 3 笔投资是否披露评测口径，若 ≥2 笔给出可复现数据，判定方向成立。&lt;/p&gt;&lt;p&gt;来源：TechCrunch Venture · 发布于 2026-11-10T20:47 UTC · 归类：industry-capital&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://techcrunch.com/2026/11/10/proximal-ventures-raises-debut-fund-to-back-startups-bringing-ai-to-drug-development" rel="noopener noreferrer"&gt;https://techcrunch.com/2026/11/10/proximal-ventures-raises-debut-fund-to-back-startups-bringing-ai-to-drug-development&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-11:d605c96308d9f397</ns0:id>
+    <ns0:title>[产业与资本] Source: OpenAI told investors on Tuesday that its revenue jumped 50% to around $10B in Q3, up from 17% growth in Q2 (The Information)</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.techmeme.com/261110/p51" />
+    <ns0:published>2026-11-10T21:22:07Z</ns0:published>
+    <ns0:updated>2026-11-10T23:04:57.316406Z</ns0:updated>
+    <ns0:category term="industry-capital" label="产业与资本" />
+    <ns0:summary type="text">The Information: Source: OpenAI told investors on Tuesday that its revenue jumped 50% to around $10B in Q3, up from 17% growth in Q2 — OpenAI has told investors that revenue jumped nearly 50% to $10 billion in the third quarter, rebounding from a period of slower growth as demand for its more recent</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;The Information 引述消息称 OpenAI 向投资人披露 Q3 营收增 50% 至约 $10B，Q2 增速为 17%&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：50% / $10B / 17% / Q3 · 相关方：OpenAI / The Information&lt;/p&gt;&lt;p&gt;The Information: Source: OpenAI told investors on Tuesday that its revenue jumped 50% to around $10B in Q3, up from 17% growth in Q2 — OpenAI has told investors that revenue jumped nearly 50% to $10 billion in the third quarter, rebounding from a period of slower growth as demand for its more recent&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;增速从 17% 跳到 50% 是向投资人披露的口径而非经审计财报，数字用途应限定在趋势而非估值。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 WorkBuddy 侧模型采购预算暂无直接影响；仅作为 API 供给方产能扩张的间接信号。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;等一手财报或官方披露，若 50% 与 $10B 两项均被正式确认，才把它写入成本模型。&lt;/p&gt;&lt;p&gt;来源：Techmeme · 发布于 2026-11-10T21:22 UTC · 归类：industry-capital&lt;/p&gt;&lt;p&gt;证据状态：未独立验证&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.techmeme.com/261110/p51" rel="noopener noreferrer"&gt;https://www.techmeme.com/261110/p51&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:daily-info.local,2026-11-10:382ff6535f6d860a</ns0:id>
     <ns0:title>[市场与投资] Cracking the case of the Roman frog graveyard</ns0:title>

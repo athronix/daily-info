@@ -5,10 +5,120 @@
   <ns0:subtitle>挖掘 · 聚合 · 研判 · 订阅；每条附原文链接；内容仅供参考，不构成投资建议</ns0:subtitle>
   <ns0:link rel="self" type="application/atom+xml" href="https://daily-info.local/tech.atom" />
   <ns0:link rel="alternate" type="text/html" href="https://daily-info.local/index.html" />
-  <ns0:updated>2026-11-10T02:09:37.536152Z</ns0:updated>
+  <ns0:updated>2026-11-10T23:04:57.316406Z</ns0:updated>
   <ns0:author>
     <ns0:name>Personal Daily Info</ns0:name>
   </ns0:author>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-11:fda2777d68cef54d</ns0:id>
+    <ns0:title>[市场与投资] CoreWeave reports Q3 revenue up 168% YoY to $3.66B, vs. $3.55B est., a net loss of $709M, and a $132.5B revenue backlog, up from $104B as of June (Jordan Novet/CNBC)</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.techmeme.com/261110/p53" />
+    <ns0:published>2026-11-10T21:40:01Z</ns0:published>
+    <ns0:updated>2026-11-10T23:04:57.316406Z</ns0:updated>
+    <ns0:category term="dev-tools" label="市场与投资" />
+    <ns0:summary type="text">Jordan Novet / CNBC: CoreWeave reports Q3 revenue up 168% YoY to $3.66B, vs. $3.55B est., a net loss of $709M, and a $132.5B revenue backlog, up from $104B as of June — CoreWeave reported better-than-expected quarterly revenue and lifted its 2026 guidance on Tuesday, showing that demand for artifici</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;CNBC 报道 CoreWeave Q3 营收同比增 168% 至 $3.66B（预期 $3.55B），净亏损 $709M，订单积压 $132.5B&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：168% / $3.66B / $3.55B / $709M / $132.5B · 相关方：CoreWeave / CNBC / Jordan Novet&lt;/p&gt;&lt;p&gt;Jordan Novet / CNBC: CoreWeave reports Q3 revenue up 168% YoY to $3.66B, vs. $3.55B est., a net loss of $709M, and a $132.5B revenue backlog, up from $104B as of June — CoreWeave reported better-than-expected quarterly revenue and lifted its 2026 guidance on Tuesday, showing that demand for artifici&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;营收超预期与净亏损同时扩大，$132.5B 积压说明算力需求真实，但转化为利润仍需资本开支周期。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建与成本核算有间接影响：算力供给紧俏时，无人值守任务的预算阈值要按峰值单价重算。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照下一季财报，若净亏损收窄至 $500M 以下且积压仍 ≥$100B，判定规模效应开始兑现。&lt;/p&gt;&lt;p&gt;来源：Techmeme · 发布于 2026-11-10T21:40 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.techmeme.com/261110/p53" rel="noopener noreferrer"&gt;https://www.techmeme.com/261110/p53&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-11:4f689bfc393cdb60</ns0:id>
+    <ns0:title>[论文与学术] 基于9种药物/2.18亿白细胞，斯坦福医学院发布单细胞级数字孪生系统SIMCO，助力早产预防药物开发</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://mp.weixin.qq.com/s?__biz=MzU3NTQ2NDIyOQ%3D%3D&amp;mid=2247531296&amp;idx=1&amp;sn=93d9fcad3fd222953256c04854baec9a&amp;chksm=fc42a1c45186425bbb8868ba7b72482d197ec949756406624b8ff7c93fd77bd8598ea0a7fb4a&amp;scene=0&amp;xtrack=1" />
+    <ns0:published>2026-11-10T12:20:00Z</ns0:published>
+    <ns0:updated>2026-11-10T23:04:57.316406Z</ns0:updated>
+    <ns0:category term="research-papers" label="论文与学术" />
+    <ns0:summary type="text">智慧医疗、AI、数据库｜斯坦福医学院团队开发出AI驱动的单细胞级数字孪生系统SIMCO，可精准模拟母体免疫系统，用于测试预防早产的药物。该系统有望在临床试验中实现个性化治疗方案指导，提升早产干预的精准性与有效性。早产（妊娠＜37周）风险高、危害大，但目前缺乏针对性强、个体化程度高的预测与干预手段。SIMCO通过数字化重建患者特异性免疫微环境，为早产机制研究和药物筛选提供新范式。（150字）</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;斯坦福医学院发布单细胞级数字孪生系统 SIMCO，基于 9 种药物与 2.18 亿白细胞重建母体免疫微环境&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：9种药物 / 2.18亿 / 37周 · 相关方：SIMCO / 斯坦福医学院 / 数字孪生&lt;/p&gt;&lt;p&gt;智慧医疗、AI、数据库｜斯坦福医学院团队开发出AI驱动的单细胞级数字孪生系统SIMCO，可精准模拟母体免疫系统，用于测试预防早产的药物。该系统有望在临床试验中实现个性化治疗方案指导，提升早产干预的精准性与有效性。早产（妊娠＜37周）风险高、危害大，但目前缺乏针对性强、个体化程度高的预测与干预手段。SIMCO通过数字化重建患者特异性免疫微环境，为早产机制研究和药物筛选提供新范式。（150字）&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;数字孪生把药物筛选从真实试验前移到仿真层，2.18 亿白细胞是少数给出明确样本量级的公开读数。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建有间接影响：单细胞级仿真说明高基数结构化数据的版本与溯源设计仍是瓶颈。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对样本量与评测口径是否公开，若 9 种药物的仿真排序与实验一致 ≥7 种，判定结果可引用。&lt;/p&gt;&lt;p&gt;来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-10T12:20 UTC · 归类：research-papers&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://mp.weixin.qq.com/s?__biz=MzU3NTQ2NDIyOQ%3D%3D&amp;amp;mid=2247531296&amp;amp;idx=1&amp;amp;sn=93d9fcad3fd222953256c04854baec9a&amp;amp;chksm=fc42a1c45186425bbb8868ba7b72482d197ec949756406624b8ff7c93fd77bd8598ea0a7fb4a&amp;amp;scene=0&amp;amp;xtrack=1" rel="noopener noreferrer"&gt;https://mp.weixin.qq.com/s?__biz=MzU3NTQ2NDIyOQ%3D%3D&amp;amp;mid=2247531296&amp;amp;idx=1&amp;amp;sn=93d9fcad3fd222953256c04854baec9a&amp;amp;chksm=fc42a1c45186425bbb8868ba7b72482d197ec949756406624b8ff7c93fd77bd8598ea0a7fb4a&amp;amp;scene=0&amp;amp;xtrack=1&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-11:7bcb98eb0c6b42b7-c</ns0:id>
+    <ns0:title>[论文与学术] The Surprising Effectiveness of Deleting Weights in LLM Post-Training</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.reddit.com/r/LocalLLaMA/comments/1xswmb7/the_surprising_effectiveness_of_deleting_weights" />
+    <ns0:published>2026-11-10T19:44:57Z</ns0:published>
+    <ns0:updated>2026-11-10T23:04:57.316406Z</ns0:updated>
+    <ns0:category term="ai-models" label="论文与学术" />
+    <ns0:summary type="text">How little of a pretrained large language model (LLM) has to change for it to acquire new capabilities? We find that zeroing fewer than 0.05% of its weights, with no other modification, matches full fine-tuning (FFT) at scale across three LLM post-training regimes: reinforcement learning with verifi</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;arXiv 论文《The Surprising Effectiveness of Deleting Weights in LLM Post-Training》称零化少于 0.05% 权重即可匹配全量微调&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：0.05% · 相关方：LLM / FFT&lt;/p&gt;&lt;p&gt;How little of a pretrained large language model (LLM) has to change for it to acquire new capabilities? We find that zeroing fewer than 0.05% of its weights, with no other modification, matches full fine-tuning (FFT) at scale across three LLM post-training regimes: reinforcement learning with verifi&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;若结论可复现，后训练的资源门槛会从全量微调降到极小权重子集，改变模型定制的成本模型。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 skill 与 agent 部署暂无直接影响：结论只在三类后训练场景给出，未覆盖工具调用类任务。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在自有评测集复现 3 次 0.05% 权重零化，若与 FFT 差距 &amp;lt;2 个百分点，才判定可用于轻量定制。&lt;/p&gt;&lt;p&gt;来源：r/LocalLLaMA · 发布于 2026-11-10T19:44 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.reddit.com/r/LocalLLaMA/comments/1xswmb7/the_surprising_effectiveness_of_deleting_weights" rel="noopener noreferrer"&gt;https://www.reddit.com/r/LocalLLaMA/comments/1xswmb7/the_surprising_effectiveness_of_deleting_weights&lt;/a&gt;&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://arxiv.org/abs/2611.10866" rel="noopener noreferrer"&gt;https://arxiv.org/abs/2611.10866&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-11:b7cb9f6e519263ef</ns0:id>
+    <ns0:title>[开发者工具与版本] Dependabot alerts will pause on inactive repositories</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://github.blog/changelog/2026-11-10-dependabot-alerts-will-pause-on-inactive-repositories" />
+    <ns0:published>2026-11-10T14:20:05Z</ns0:published>
+    <ns0:updated>2026-11-10T23:04:57.316406Z</ns0:updated>
+    <ns0:category term="dev-tools" label="开发者工具与版本" />
+    <ns0:summary type="text">Starting December 8, 2026, GitHub will turn off Dependabot alerts on most repositories with no activity in the past year. Their existing alerts are archived, not deleted, and you can… The post Dependabot alerts will pause on inactive repositories appeared first on The GitHub Blog.</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;GitHub 宣布自 December 8, 2026 起对过去一年无活动的大多数仓库关闭 Dependabot 告警，既有告警归档不删除&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：December 8, 2026 · 相关方：Dependabot / GitHub&lt;/p&gt;&lt;p&gt;Starting December 8, 2026, GitHub will turn off Dependabot alerts on most repositories with no activity in the past year. Their existing alerts are archived, not deleted, and you can… The post Dependabot alerts will pause on inactive repositories appeared first on The GitHub Blog.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;告警从持续在线变成按活跃度开关，归档仓库的安全债会被静默隐藏而不是被修复。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 automation 与仓库数据基建有直接影响：无人值守的依赖巡检不能把 Dependabot 告警当唯一信号。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在 December 8, 2026 前导出归档仓库清单，若无活动但仍在部署的仓库 ≥1 个，则补独立扫描任务。&lt;/p&gt;&lt;p&gt;来源：GitHub Changelog · 发布于 2026-11-10T14:20 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.blog/changelog/2026-11-10-dependabot-alerts-will-pause-on-inactive-repositories" rel="noopener noreferrer"&gt;https://github.blog/changelog/2026-11-10-dependabot-alerts-will-pause-on-inactive-repositories&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-11:92b8883870aedc23</ns0:id>
+    <ns0:title>[开发者工具与版本] Blender 5.3 released with Gaussian Splat support</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.blender.org/download/releases/5-3" />
+    <ns0:published>2026-11-10T16:15:43Z</ns0:published>
+    <ns0:updated>2026-11-10T23:04:57.316406Z</ns0:updated>
+    <ns0:category term="dev-tools" label="开发者工具与版本" />
+    <ns0:summary type="text">Gaussian Splat 进入主流 DCC 工具，意味着 3D 资产管线从网格扩展到辐射场表示，导出与版本管理都要跟着改。</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Blender 5.3 发布并加入 Gaussian Splat 支持，HN 条目获 385 分&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：5.3 / 385 · 相关方：Blender / Gaussian Splat&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;Gaussian Splat 进入主流 DCC 工具，意味着 3D 资产管线从网格扩展到辐射场表示，导出与版本管理都要跟着改。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 3D 资产生成链路有直接影响：需确认生成的 Splat 数据能否在 5.3 里直接导入并转存。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;导入 1 个 Splat 场景做往返测试，若 5.3 能无损导出且渲染无报错，判定可纳入资产流程。&lt;/p&gt;&lt;p&gt;来源：HN Algolia front_page (points/comments) · 发布于 2026-11-10T16:15 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.blender.org/download/releases/5-3" rel="noopener noreferrer"&gt;https://www.blender.org/download/releases/5-3&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-11:e9d10d6fe9a8158c</ns0:id>
+    <ns0:title>[开发者工具与版本] v0.40.17</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://github.com/ollama/ollama/releases/tag/v0.40.17-rc0" />
+    <ns0:published>2026-11-10T22:25:00Z</ns0:published>
+    <ns0:updated>2026-11-10T23:04:57.316406Z</ns0:updated>
+    <ns0:category term="dev-tools" label="开发者工具与版本" />
+    <ns0:summary type="text">What's Changed Improve ChatGPT CLI restore and graceful restart by @hoyyeva in #19583 cmd/launch: use thinking metadata for OpenCode settings by @hoyyeva in #19409 llm: use mmap for Vulkan integrated GPUs by @dhiltgen in #19640 rpreslar4765/Ollama by @rpreslar4765 in #17163 mlx: support concurrent g</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Ollama v0.40.17 预发布合入 ChatGPT CLI 恢复与优雅重启、OpenCode thinking metadata 与 Vulkan 集显 mmap 改动&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：v0.40.17 / #19583 / #19409 / #19640 · 相关方：ChatGPT CLI / OpenCode / Vulkan / Ollama&lt;/p&gt;&lt;p&gt;What&amp;#x27;s Changed Improve ChatGPT CLI restore and graceful restart by @hoyyeva in #19583 cmd/launch: use thinking metadata for OpenCode settings by @hoyyeva in #19409 llm: use mmap for Vulkan integrated GPUs by @dhiltgen in #19640 rpreslar4765/Ollama by @rpreslar4765 in #17163 mlx: support concurrent g&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;三个改动都落在启动与推理路径而非新模型，CLI 优雅重启与集显 mmap 直接决定本地服务能否无人值守常驻。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 automation 与本地 agent 运行时有直接影响：常驻推理服务升级前需回归 CLI 重启与 GPU 内存映射路径。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;升级后跑 10 次 CLI 中断重启，若 ≥9 次恢复会话且集显显存占用不升，判定可替换现有版本。&lt;/p&gt;&lt;p&gt;来源：ollama Releases · 发布于 2026-11-10T22:25 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/ollama/ollama/releases/tag/v0.40.17-rc0" rel="noopener noreferrer"&gt;https://github.com/ollama/ollama/releases/tag/v0.40.17-rc0&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-11:40bd82e68c624de0</ns0:id>
+    <ns0:title>[Agent 与工程] My AI is lazier than me</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.reddit.com/r/LocalLLaMA/comments/1xsytlk/my_ai_is_lazier_than_me" />
+    <ns0:published>2026-11-10T21:11:05Z</ns0:published>
+    <ns0:updated>2026-11-10T23:04:57.316406Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="Agent 与工程" />
+    <ns0:summary type="text">Let's start with my setup: I have 2 Sparks running glm 5.3 flash, and the harness is hermes agent running on a MacBook Air. While trying to justify all the money I spent (around 6500 euro for both machines, a long time ago when prices were just high instead of outrageous), I decided to hop on the de</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;一位 LocalLLaMA 用户用 2 台 Sparks 跑 glm 5.3 flash、以 hermes agent 作 harness，吐槽约 6500 euro 双机投入&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2 / 5.3 / 6500 · 相关方：glm 5.3 flash / hermes agent / MacBook Air / Sparks&lt;/p&gt;&lt;p&gt;Let&amp;#x27;s start with my setup: I have 2 Sparks running glm 5.3 flash, and the harness is hermes agent running on a MacBook Air. While trying to justify all the money I spent (around 6500 euro for both machines, a long time ago when prices were just high instead of outrageous), I decided to hop on the de&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;这是少见的把 hermes agent 作为本地编排 harness 的一手配置记录，硬件成本与模型体感被同时量化。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 hermes-agent 部署有直接参考：多机加 MacBook 的编排需验证任务分发是否真的落到两台机器。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在同一 harness 跑 20 次并发任务，若两台 Sparks 负载差 &amp;lt;20% 且无排队超时，判定分发有效。&lt;/p&gt;&lt;p&gt;来源：r/LocalLLaMA · 发布于 2026-11-10T21:11 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;证据状态：未独立验证&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.reddit.com/r/LocalLLaMA/comments/1xsytlk/my_ai_is_lazier_than_me" rel="noopener noreferrer"&gt;https://www.reddit.com/r/LocalLLaMA/comments/1xsytlk/my_ai_is_lazier_than_me&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-11:7c2ab083f460ca73</ns0:id>
+    <ns0:title>[Agent 与工程] Graphon, which wants to resolve AI agent memory limitations by mapping connections across docs, videos, and images, raised a $35M Series A led by RRE Ventures (Shubhangi Goel/Business Insi</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.techmeme.com/261110/p49" />
+    <ns0:published>2026-11-10T20:25:16Z</ns0:published>
+    <ns0:updated>2026-11-10T23:04:57.316406Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="Agent 与工程" />
+    <ns0:summary type="text">Shubhangi Goel / Business Insider: Graphon, which wants to resolve AI agent memory limitations by mapping connections across docs, videos, and images, raised a $35M Series A led by RRE Ventures — AI agents can write code, search databases, and carry out multistep tasks. But they can still lose track</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Graphon 以跨 docs、videos、images 建立连接来补 AI agent 记忆短板，获 RRE Ventures 领投的 $35M Series A&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：$35M · 相关方：Graphon / RRE Ventures / Business Insider&lt;/p&gt;&lt;p&gt;Shubhangi Goel / Business Insider: Graphon, which wants to resolve AI agent memory limitations by mapping connections across docs, videos, and images, raised a $35M Series A led by RRE Ventures — AI agents can write code, search databases, and carry out multistep tasks. But they can still lose track&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;资本把记忆当作独立基础设施层定价而非模型附带能力，说明跨模态索引已是 agent 落地的显性瓶颈。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 agent 部署与数据基建有直接影响：多模态记忆需要可回溯引用链，现有 skill 上下文管理应补来源字段。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;给现有记忆表加来源与时间戳两项，若跨 3 类素材检索命中率 ≥80%，才判定可替换现有上下文拼接。&lt;/p&gt;&lt;p&gt;来源：Techmeme · 发布于 2026-11-10T20:25 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.techmeme.com/261110/p49" rel="noopener noreferrer"&gt;https://www.techmeme.com/261110/p49&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-11:faef9281aef0f1c0</ns0:id>
+    <ns0:title>[模型与研究] Claude Fable 5.2 can do "weight-space-programming" about as well as GPT-6 Astra</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.lesswrong.com/posts/wg3K6xFFTdM6RmRgn/claude-fable-5-2-can-do-weight-space-programming-about-as" />
+    <ns0:published>2026-11-10T18:06:06Z</ns0:published>
+    <ns0:updated>2026-11-10T23:04:57.316406Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="模型与研究" />
+    <ns0:summary type="text">Recently this paper demonstrated that GPT-6 Astra was capable of a bunch of low-level operations on neural networks, including improving Qwen3-0.6B's ability on some math benchmarks and writing some networks to play 9x9 Go from scratch. Since the authors released nearly all of their prompts, the net</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;论文演示 GPT-6 Astra 对神经网络做底层操作，讨论称 Claude Fable 5.2 具备相近的 weight-space-programming 能力&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：5.2 / 9x9 / 0.6B · 相关方：Claude Fable 5.2 / GPT-6 Astra / Qwen3-0.6B / weight-space-programming&lt;/p&gt;&lt;p&gt;Recently this paper demonstrated that GPT-6 Astra was capable of a bunch of low-level operations on neural networks, including improving Qwen3-0.6B&amp;#x27;s ability on some math benchmarks and writing some networks to play 9x9 Go from scratch. Since the authors released nearly all of their prompts, the net&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;能力比较落在直接改权重而非提示词；若可复现，模型定制的成本结构会从训练数据转向权重编辑。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 skill 与 agent 部署暂无直接影响：权重级改动需要可复现的评测集，当前只有单篇讨论，不构成接入依据。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在同一数学基准复跑 3 组权重编辑，若 Qwen3-0.6B 提升可重复且无回归，才判定该路径值得评估。&lt;/p&gt;&lt;p&gt;来源：LessWrong · 发布于 2026-11-10T18:06 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;证据状态：未独立验证&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.lesswrong.com/posts/wg3K6xFFTdM6RmRgn/claude-fable-5-2-can-do-weight-space-programming-about-as" rel="noopener noreferrer"&gt;https://www.lesswrong.com/posts/wg3K6xFFTdM6RmRgn/claude-fable-5-2-can-do-weight-space-programming-about-as&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-11:e8c5a09b311ad300</ns0:id>
+    <ns0:title>[模型与研究] 课程 | 2026年斯坦福CS 329Z《Agent工程》| 第6讲：Agent 设计模式与脚手架</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://mp.weixin.qq.com/s?__biz=MzU4NTQyNjc5Mg%3D%3D&amp;mid=2247499027&amp;idx=1&amp;sn=f2db4105ce173f26380aa00320a4fc51&amp;chksm=fc521d0df4c7db69372ce4e073ca3c75a3079b78cca2e13c063e3f5cf3997a432220ad81f078&amp;scene=0&amp;xtrack=1" />
+    <ns0:published>2026-11-10T12:10:00Z</ns0:published>
+    <ns0:updated>2026-11-10T23:04:57.316406Z</ns0:updated>
+    <ns0:category term="ai-models" label="模型与研究" />
+    <ns0:summary type="text">多模态、Agent、生成模型｜2026年斯坦福CS 329Z《Agent工程》系列课程涵盖Agent开发核心内容：第2讲讲解面向开发者的LLM基础原理；第3讲聚焦检索增强生成（RAG）技术，提升模型知识时效性与准确性；第4讲深入工具调用机制，实现Agent与外部系统交互；第5讲探讨框架选型与任务编排策略，支撑复杂多步推理与协作。课程体系强调工程实践与前沿方法结合，旨在培养构建可靠、可扩展智能体系统的能力。</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;斯坦福 CS 329Z《Agent工程》放出第6讲 Agent 设计模式与脚手架，前几讲依次覆盖 LLM 基础、RAG 与工具调用&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：CS 329Z / 第6讲 / 第2讲 / 第3讲 · 相关方：斯坦福 / Agent工程 / RAG / LLM&lt;/p&gt;&lt;p&gt;多模态、Agent、生成模型｜2026年斯坦福CS 329Z《Agent工程》系列课程涵盖Agent开发核心内容：第2讲讲解面向开发者的LLM基础原理；第3讲聚焦检索增强生成（RAG）技术，提升模型知识时效性与准确性；第4讲深入工具调用机制，实现Agent与外部系统交互；第5讲探讨框架选型与任务编排策略，支撑复杂多步推理与协作。课程体系强调工程实践与前沿方法结合，旨在培养构建可靠、可扩展智能体系统的能力。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;课程把工具调用与任务编排独立成讲，说明 Agent 工程的难点已从模型能力转到与外部系统的交互契约。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 MCP / A2A 与 skill 设计有直接参考价值：第4讲的工具调用边界可对照当前 connector 契约逐条核对。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照第4讲与第5讲清单逐项自查，若工具描述、错误回退、编排幂等三项均覆盖，判定现有契约合格。&lt;/p&gt;&lt;p&gt;来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-10T12:10 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://mp.weixin.qq.com/s?__biz=MzU4NTQyNjc5Mg%3D%3D&amp;amp;mid=2247499027&amp;amp;idx=1&amp;amp;sn=f2db4105ce173f26380aa00320a4fc51&amp;amp;chksm=fc521d0df4c7db69372ce4e073ca3c75a3079b78cca2e13c063e3f5cf3997a432220ad81f078&amp;amp;scene=0&amp;amp;xtrack=1" rel="noopener noreferrer"&gt;https://mp.weixin.qq.com/s?__biz=MzU4NTQyNjc5Mg%3D%3D&amp;amp;mid=2247499027&amp;amp;idx=1&amp;amp;sn=f2db4105ce173f26380aa00320a4fc51&amp;amp;chksm=fc521d0df4c7db69372ce4e073ca3c75a3079b78cca2e13c063e3f5cf3997a432220ad81f078&amp;amp;scene=0&amp;amp;xtrack=1&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-11:096f075e11080075</ns0:id>
+    <ns0:title>[模型与研究] llm-gemini 0.36</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://simonwillison.net/2026/Nov/10/llm-gemini" />
+    <ns0:published>2026-11-10T20:09:44Z</ns0:published>
+    <ns0:updated>2026-11-10T23:04:57.316406Z</ns0:updated>
+    <ns0:category term="ai-models" label="模型与研究" />
+    <ns0:summary type="text">Release: llm-gemini 0.36 Gemini 4 Carbon was announced two weeks ago for "a subset of cyber defenders", but today it's available to everyone else. This is Google's best ever Gemini, priced at $2/million input and $10/million output at launch (that's GPT-6.1 Sol / Claude Sonnet 5.5 prices) but schedu</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;llm-gemini 0.36 发布，Gemini 4 Carbon 从限定人群开放至所有人，输入 $2、输出 $10 每百万 token&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：0.36 / $2 / $10 · 相关方：llm-gemini / Gemini 4 Carbon / Google / GPT-6.1&lt;/p&gt;&lt;p&gt;Release: llm-gemini 0.36 Gemini 4 Carbon was announced two weeks ago for &amp;quot;a subset of cyber defenders&amp;quot;, but today it&amp;#x27;s available to everyone else. This is Google&amp;#x27;s best ever Gemini, priced at $2/million input and $10/million output at launch (that&amp;#x27;s GPT-6.1 Sol / Claude Sonnet 5.5 prices) but schedu&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;两周前只给 cyber defenders 子集，如今开放且可被命令行调用；可用性的变化比模型评分更影响接入决策。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 WorkBuddy 模型路由与 skill 调用有直接影响：可把联网推理档纳入候选，但需按 $2/$10 单价核算长任务预算。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;用同一 10 条提示词跑 llm-gemini 0.36，若返回完整率 ≥9/10 且单价核算不超预算，才纳入默认路由。&lt;/p&gt;&lt;p&gt;来源：Simon Willison&amp;#x27;s Weblog · 发布于 2026-11-10T20:09 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://simonwillison.net/2026/Nov/10/llm-gemini" rel="noopener noreferrer"&gt;https://simonwillison.net/2026/Nov/10/llm-gemini&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:daily-info.local,2026-11-10:69e806cfbc9de11b</ns0:id>
     <ns0:title>[开发者工具与版本] Technical Teardown: Geometry Survivor Mod APK (v1.0) Architecture &amp; Safe Mirrors</ns0:title>

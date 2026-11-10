@@ -5,8 +5,35 @@
     "timezone": "Asia/Shanghai",
     "version": "1.0.0"
   },
-  "generated_at": "2026-11-10T02:09:37.536152Z",
+  "generated_at": "2026-11-10T23:04:57.316406Z",
   "dates": [
+    {
+      "date": "2026-11-11",
+      "headline": "Gemini 4 Carbon 以 $2/$10 入场、CoreWeave 营收增 168% 仍亏 $709M：能力扩张与单位成本两条曲线正在分叉",
+      "lead": "168% 的同比营收增长伴随 $709M 净亏损，CoreWeave 把 $132.5B 订单积压写进 Q3；同日 llm-gemini 0.36 以 $2/$10 每百万 token 接入 Gemini 4 Carbon，Graphon 拿 $35M 补 Agent 记忆，2,100 tokens/s 的承诺仍待独立复测。今日张力是能力扩张与单位成本的分叉。",
+      "demo": false,
+      "stats": {
+        "sources_ok": 173,
+        "sources_total": 185,
+        "total_items": 3240,
+        "clusters": 3180,
+        "selected": 40,
+        "published_items": 17,
+        "seven_element_pass": 17,
+        "seven_element_ratio": 1.0,
+        "items_with_numbers": 17,
+        "substantive_number_ratio": 1.0,
+        "rejected_no_number": 0,
+        "unique_reference_domains": 12
+      },
+      "section_count": 8,
+      "item_count": 17,
+      "ai_status": "ok",
+      "seven_element_ratio": 1.0,
+      "theme_count": 7,
+      "watch_signal_count": 5,
+      "reference_domains": 12
+    },
     {
       "date": "2026-11-10",
       "headline": "Fable 5.2 同日进入榜单、CLI 与本地运行时，但 128,000 token 的失败暴露默认档可信度缺口",
