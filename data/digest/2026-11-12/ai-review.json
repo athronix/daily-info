@@ -1,0 +1,247 @@
+{
+  "date": "2026-11-12",
+  "headline": "29,684 次提交换来官方模拟器，United 仍对 agent 关上门：接入层比模型层更卡",
+  "lead": "29,684 次提交堆出的 aws-emulator 由官方给出本地服务克隆，United 却禁止 AI agent 代订机票（HN 162 分、150 评论）；同日 Pomerado 以 YC F26 身份把任意网站转成 MCP，Fractile 拿 $720M 挤进专用 AI 芯片赛道。今日张力是：接入层被资本与工具同时加速，却被服务方按下权限闸门。",
+  "themes": [
+    {
+      "title": "Agent 卡在接入权限，不在模型",
+      "why": "United 直接关闭代订入口，Pomerado 反过来把网站封装成确定性 MCP，aws-emulator 用本地克隆绕开付费凭据；三处动作都发生在接入层，而非模型能力侧。",
+      "cluster_ids": ["645f1651bd53c9c8", "71cb7085c6189427", "53d5cdba12bea358"]
+    },
+    {
+      "title": "工具契约要写清失败与授权",
+      "why": "自愈 API、准入拒绝与显式标注 [no ai] 的版本说明，本质都在补『谁授权、失败怎么办』，而不是新增能力；契约字段比工具数量更决定可用性。",
+      "cluster_ids": ["71cb7085c6189427", "645f1651bd53c9c8", "8e8c59556028c219"]
+    },
+    {
+      "title": "可复现性被写成硬门槛",
+      "why": "20 个确定性任务配同一套提示词、full validation 下才谈更快、官方模拟器供本地测试；三者都把测试条件写进结论，而不是只报一个吞吐数字。",
+      "cluster_ids": ["88494da4c56beb64", "5457d31dcad4910e", "53d5cdba12bea358"]
+    },
+    {
+      "title": "小版本里藏着要回归的行为",
+      "why": "0.2 与 0.2.1 的差别、v1.4.0.9 的修复重构、Decision 1 固定三类输出，都是调用约定变化；只盯版本号会漏掉需要回归的那一行。",
+      "cluster_ids": ["5457d31dcad4910e", "8e8c59556028c219", "624a305adfa41ec6"]
+    },
+    {
+      "title": "算力的钱流向专用与端侧",
+      "why": "$720M 投专用 AI 芯片、8GB RAM 上对标每月 $50-200 的商用方案、每月 100 美元订阅档，成本结构正从通用云侧向专用芯片与端侧分摊。",
+      "cluster_ids": ["6f3c74a04fea158f", "4f325e87353de30b", "4ca7aee3cb7d2f9b"]
+    },
+    {
+      "title": "物理场景开始给真实读数",
+      "why": "耕深超 30 厘米与 11.8km/h、8GB RAM 上的多模态检测、$999 的硬件定价，三者都给出可核对的量级，而不是『效果显著』这类形容词。",
+      "cluster_ids": ["1a98b3ef3c0bae51", "4f325e87353de30b", "642481bfe9c3357a"]
+    },
+    {
+      "title": "社区热度不等于可用性",
+      "why": "162 分与 150 条讨论的是被封禁的入口，39 分的是刚发布的接入工具，而 20 任务基准才真正给出可比口径；热度与可判定性是两件事。",
+      "cluster_ids": ["645f1651bd53c9c8", "71cb7085c6189427", "88494da4c56beb64"]
+    }
+  ],
+  "sections": [
+    {
+      "key": "ai-models",
+      "label": "模型与研究",
+      "items": [
+        {
+          "id": "4ca7aee3cb7d2f9b",
+          "fact_anchor": "谷歌上线 Gemini 4 Carbon 模型 API，向每月 100 美元 Ultra 订阅用户开放，摘要称其对标 Claude Opus 5.5 与 GPT-6 Astra",
+          "numbers": ["100美元", "5.5", "5.2"],
+          "entities": ["谷歌", "Gemini 4 Carbon", "Claude Opus 5.5", "GPT-6 Astra", "Ultra"],
+          "why_matters": "定价以每月订阅档而非按量公开，说明旗舰能力先做可得性分层；对标对象写进摘要而非跑分，比较口径尚不可核验。",
+          "impact": "对 WorkBuddy 模型路由与 skill 调用暂无直接影响：单一匿名来源、无公开评测集，不能据此调整默认档，仅记录为供给侧可得性变化。",
+          "next_action": "等官方模型卡或 API 文档，若 100 美元档与 5.5 / 5.2 的对标结论同时被一手来源确认，才写入候选路由表。",
+          "signal_type": "release",
+          "confidence": "unverified"
+        },
+        {
+          "id": "88494da4c56beb64",
+          "fact_anchor": "LFORLA 的 Capability Retention 基准用 20 个确定性任务、同一套提示词跑每个模型，讨论如何让评测数字可比",
+          "numbers": ["20"],
+          "entities": ["LFORLA", "Capability Retention", "LLM"],
+          "why_matters": "把确定性任务与统一提示词当成可比性前提，等于承认榜单差异多来自评测口径而非模型本身。",
+          "impact": "对 automation 与 skill 评测有直接影响：现有回归集应固化提示词版本与任务数，否则跨日结果不可比。",
+          "next_action": "固化同一组 20 条提示词跑 3 轮，若三轮得分极差 <2 个百分点，判定该回归集可作为跨版本基线。",
+          "signal_type": "research",
+          "confidence": "fact"
+        },
+        {
+          "id": "624a305adfa41ec6",
+          "fact_anchor": "Google 以 Gemini Decision 1 加入决策模型类别，支持与 Jev 相同的三类问题（yes/no、choice、rubric-scoring）",
+          "numbers": ["Gemini Decision 1"],
+          "entities": ["Gemini Decisions API", "Google", "Jev", "OpenAI"],
+          "why_matters": "把问答式模型收窄成三类固定输出，等于用输出契约换可判定性，比自由文本更适合写断言。",
+          "impact": "对 WorkBuddy 的 automation 判定环节有直接参考：固定三类输出可对照现有核验闸门，减少解析歧义。",
+          "next_action": "用 20 条已知答案的判定题跑该 API，若三类输出格式 20/20 合法且结论与人工标注一致 ≥18 条，判定可进核验链路。",
+          "signal_type": "release",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "agent-engineering",
+      "label": "Agent 与工程",
+      "items": [
+        {
+          "id": "53d5cdba12bea358",
+          "fact_anchor": "AWS 推出官方 aws-emulator，可在本地克隆其多项服务跑测试而无需付费 API key，Rust 代码由 agent 群写出 29,684 次提交",
+          "numbers": ["29,684"],
+          "entities": ["aws-emulator", "AWS", "Rust"],
+          "why_matters": "官方模拟器把集成测试从付费凭据里解耦，29,684 次提交也把 agent 群写代码放到可审计的规模上。",
+          "impact": "对 automation 与 agent 部署有直接影响：本地服务克隆可作为 CI 依赖替代项，减少无人值守链路对外部凭据的依赖。",
+          "next_action": "把 1 条现有 AWS 集成用例迁到本地克隆跑 10 次，若 10/10 通过且全程无需 API key，判定可替换云端联调。",
+          "signal_type": "release",
+          "confidence": "fact"
+        },
+        {
+          "id": "645f1651bd53c9c8",
+          "fact_anchor": "United Airlines 禁止 AI agent 代替旅客订票，HN 条目获 162 分与 150 条评论",
+          "numbers": ["162", "150"],
+          "entities": ["United Airlines", "AI agents"],
+          "why_matters": "服务方直接关闭代订入口，说明 agent 落地的阻力先出现在被调系统的准入侧，而不是模型能力侧。",
+          "impact": "对 MCP / A2A 与 connector 设计有直接影响：外部系统授权应写成显式失败分支，不能假设拿到凭证即可调用。",
+          "next_action": "在现有 connector 里模拟 403 / 需人工确认 / 限流 3 类拒绝响应，若 3/3 都落到可回滚状态，判定准入分支合格。",
+          "signal_type": "incident",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "dev-tools",
+      "label": "开发者工具与版本",
+      "items": [
+        {
+          "id": "4f325e87353de30b",
+          "fact_anchor": "作者用 YOLOv8 与 Qwen2-VL 在 8GB RAM 上搭阿拉伯语优先的盗窃检测，对标每月 $50-200 的商用方案",
+          "numbers": ["YOLOv8", "Qwen2-VL", "8GB", "2-3%", "$50-200"],
+          "entities": ["YOLOv8", "Qwen2-VL", "Everseen", "Veesion"],
+          "why_matters": "把 2-3% 的年营收损耗与每月 $50-200 的替代成本并排给出，量化了端侧自建方案的动机。",
+          "impact": "对端侧 agent 部署有参考：8GB RAM 是明确的硬件门槛，可据此判断本地多模态推理是否值得替换现有云侧调用。",
+          "next_action": "在 8GB 机器上跑 100 帧回归，若误报率低于现有云侧方案且单帧耗时 <200ms，判定可进本地候选。",
+          "signal_type": "tutorial",
+          "confidence": "fact"
+        },
+        {
+          "id": "8e8c59556028c219",
+          "fact_anchor": "DCTS 去中心化聊天平台发布 v1.4.0.9，标注为体验改进、修复与重构，并在标题显式打出 [no ai] 标签",
+          "numbers": ["v1.4.0.9"],
+          "entities": ["DCTS", "decentralized chat platform", "HackTheDev"],
+          "why_matters": "显式声明无 AI 参与开发，把生成式工具的使用边界变成版本发布信息的一部分，是少见的可用来源标注。",
+          "impact": "对 skill 与 automation 暂无直接影响；但把 AI 使用写进发布说明的做法可借鉴到产物溯源字段。",
+          "next_action": "对照其 changelog 逐条核对 10 项改动，若 ≥8 项能定位到具体提交，判定 [no ai] 标注可引用。",
+          "signal_type": "release",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "docs-changelog",
+      "label": "文档与变更",
+      "items": [
+        {
+          "id": "5457d31dcad4910e",
+          "fact_anchor": "yolow64 0.2 发布新解码内核，声称在完整校验下优于 Turbo-Base64，0.2.1 为仅改文档的版本",
+          "numbers": ["0.2", "0.1", "0.2.1", "Nov 9"],
+          "entities": ["yolow64", "Turbo-Base64", "PageSift", "Base64"],
+          "why_matters": "把 full validation 写进对比条件，说明性能结论依赖校验强度；只比吞吐不看校验会误判解码内核。",
+          "impact": "对数据基建与 automation 有间接影响：编解码是采集归一链路的底层依赖，升级前需回归校验路径而非只看基准数字。",
+          "next_action": "用同一份 10000 条样本跑 0.1 与 0.2，若开启完整校验后仍快 ≥10% 且解码结果全等，判定可升级。",
+          "signal_type": "release",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "deep-read",
+      "label": "深度长文",
+      "items": [
+        {
+          "id": "1a98b3ef3c0bae51",
+          "fact_anchor": "丘沃智能开物™ L4 无人作业套件在新疆芳草湖农场让临工 3004 混动拖拉机完成无人深翻，耕深超 30 厘米、速度 11.8km/h",
+          "numbers": ["30厘米", "11.8km/h", "3004", "L4"],
+          "entities": ["丘沃智能", "开物", "临工3004", "卓品智能", "ISOBUS", "新疆芳草湖农场"],
+          "why_matters": "少见地同时给出耕深与行进速度两项作业读数，把无人农机从演示视频推进到可核对的田间指标。",
+          "impact": "对 WinVM 与数据基建暂无直接影响；但 L4 套件加边缘域控的架构可对照本地无人值守任务的容错设计。",
+          "next_action": "核对该作业是否有第三方测产报告，若 30 厘米耕深与 11.8km/h 在同一地块连续 3 天复现，判定指标可引用。",
+          "signal_type": "product",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "community",
+      "label": "社区与观点",
+      "items": [
+        {
+          "id": "71cb7085c6189427",
+          "fact_anchor": "Pomerado 以 YC F26 身份发布，把任意网站转成确定性、自愈的 API 供 agent 调用，强调瓶颈不在智能而在接入",
+          "numbers": ["F26", "39", "34"],
+          "entities": ["Pomerado", "MCP", "HN", "Alan", "Akshay"],
+          "why_matters": "把网站封装成确定性 API 直指 agent 接入的稳定性问题，与同日服务方封禁 agent 形成正反两面。",
+          "impact": "对 MCP 与 connector 落地有直接影响：自愈 API 的失败重试与版本漂移策略可对照现有 connector 契约逐条核对。",
+          "next_action": "选 3 个结构不同的站点跑封装，若 3/3 在页面改版后 24 小时内自愈成功，判定可进 connector 候选。",
+          "signal_type": "product",
+          "confidence": "fact"
+        },
+        {
+          "id": "642481bfe9c3357a",
+          "fact_anchor": "Knit 推出标价 $999 的 Dolby Atmos 音箱，用针织外套替代常见黑色塑料外壳",
+          "numbers": ["$999"],
+          "entities": ["Knit", "Dolby Atmos"],
+          "why_matters": "把材料与外观写成主要差异点，$999 的定价说明设计溢价被单独计价，而非声道或解码规格。",
+          "impact": "对 WinVM 与数据基建暂无直接影响；仅作为硬件消费品的定价参照，不改变现有采集与部署判断。",
+          "next_action": "核对该产品是否公开频响与声道实测，若 ≥2 项独立实测与宣传一致，才把 $999 记为可比规格档。",
+          "signal_type": "product",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "industry-capital",
+      "label": "产业与资本",
+      "items": [
+        {
+          "id": "6f3c74a04fea158f",
+          "fact_anchor": "英国 Fractile 完成 $720M 融资，进入专用 AI 芯片赛道的头部融资行列",
+          "numbers": ["$720M"],
+          "entities": ["Fractile", "AI chips"],
+          "why_matters": "资本继续为推理侧专用芯片单独定价，说明通用算力之外的成本优化仍是独立赛道。",
+          "impact": "对数据基建预算暂无直接影响：无公开量产与单价数据，不能据此重算推理成本，仅记录供给侧资本动向。",
+          "next_action": "等其公布流片或量产节点，若给出每 TOPS 成本且低于现有云单价 20%，才纳入算力预算假设。",
+          "signal_type": "funding",
+          "confidence": "fact"
+        }
+      ]
+    }
+  ],
+  "editor_note": "本期 182 个信源收进 11306 条、聚成 2741 簇，Folo 基线 417 条但多数摘要只有 Comments，按 v1.1 口径挡掉无实质读数簇，最终 12 条入报。一是 Agent 瓶颈已从模型转到接入权限：United 禁止个人 agent 代订机票，Pomerado 把网站转成确定性自愈 MCP，aws-emulator 让官方服务可在本地克隆后测试。对 MCP / A2A 与 connector：工具描述要写清授权边界与失败回退；对照三条核对鉴权字段，缺 1 项即补契约测试，10 次调用全通过才合格。二是可复现性变成硬门槛：LFORLA 用 20 个确定性任务配同一套提示词横评，yolow64 0.2 强调完整校验下才优于 Turbo-Base64，29,684 次提交仍要靠本地测试兜底。automation 侧把 smoke 断言写进流水线：verify_digest 需 0 violations、Atom 稳定 ID 本地与线上一致才分发。三是成本读数：Fractile 获 $720M 投专用 AI 芯片，YOLOv8 加 Qwen2-VL 在 8GB RAM 上对标每月 $50-200 商用方案，无人拖拉机给出 30 厘米耕深与 11.8km/h。数据基建侧按峰值单价重算，跑 10 次长任务，费用不超现有档 20% 才纳入默认路由。",
+  "brief": "2026-11-12 每日信息 · 12 条入报 / 7 板块 / 7 主题 / 5 个待验证信号。\n信源 182/185 可用，原始 11306 条 → 归一 2839 条 → 2741 簇 → 入选 40 簇；Folo 基线 417 条，多数摘要仅 Comments，按 v1.1 口径剔除无实质读数簇。\n\n导语：29,684 次提交堆出的 aws-emulator 由官方给出本地服务克隆，United 却禁止 AI agent 代订机票（HN 162 分、150 评论）；同日 Pomerado 以 YC F26 身份把任意网站转成 MCP，Fractile 拿 $720M 挤进专用 AI 芯片赛道。今日张力是接入层被资本与工具同时加速，却被服务方按下权限闸门。\n\n模型与研究：谷歌上线 Gemini 4 Carbon 模型 API，向每月 100 美元 Ultra 订阅开放；LFORLA 的 Capability Retention 用 20 个确定性任务做横评；Google 以 Gemini Decision 1 加入决策模型类别，固定 yes/no、choice、rubric-scoring 三类输出。\nAgent 与工程：AWS 官方 aws-emulator 在本地克隆服务跑测试，Rust 代码由 agent 群写出 29,684 次提交；United Airlines 禁止 AI agent 代订机票。\n开发者工具：YOLOv8 加 Qwen2-VL 在 8GB RAM 上做端侧检测，对标每月 $50-200 商用方案；DCTS 发布 v1.4.0.9 并标注 [no ai]。\n文档与变更：yolow64 0.2 新解码内核声称在 full validation 下优于 Turbo-Base64，0.2.1 仅改文档。\n深度长文：丘沃智能开物™ L4 套件让临工 3004 完成无人深翻，耕深超 30 厘米、速度 11.8km/h。\n社区与观点：Pomerado 把网站转成确定性自愈 API；Knit 推出 $999 Dolby Atmos 音箱。\n产业与资本：英国 Fractile 完成 $720M 融资进入专用 AI 芯片赛道。\n\n七个判断式主题：Agent 卡在接入权限，不在模型；工具契约要写清失败与授权；可复现性被写成硬门槛；小版本里藏着要回归的行为；算力的钱流向专用与端侧；物理场景开始给真实读数；社区热度不等于可用性。\n\n待验证信号：3 个站点改版后 24 小时内 3/3 自愈成功；403 / 人工确认 / 限流 3 类响应均落到可回滚状态；20 条提示词跑 3 轮得分极差 <2 个百分点；full validation 下仍快 ≥10% 且解码全等；本地克隆跑 10/10 通过且无需 API key。\n\n内容仅供参考，不构成投资建议；外部事实未独立验证；取不到可靠数据处标注「暂无可靠数据」。",
+  "watch_signals": [
+    {
+      "signal": "Pomerado 自愈 API 在页面改版后能否恢复",
+      "threshold": "3 个结构不同站点在改版后 24 小时内 3/3 自愈成功",
+      "judgement": "判定可纳入 connector 候选，否则只作为实验依赖保留"
+    },
+    {
+      "signal": "United 类准入拒绝是否被 connector 正确降级",
+      "threshold": "403 / 人工确认 / 限流 3 类响应均落到可回滚状态",
+      "judgement": "判定 MCP / A2A 准入分支合格，否则补显式失败契约"
+    },
+    {
+      "signal": "LFORLA 式固定评测能否作为跨版本基线",
+      "threshold": "同一组 20 条提示词跑 3 轮，得分极差 <2 个百分点",
+      "judgement": "判定回归集可用于跨版本比较，否则结果不可比"
+    },
+    {
+      "signal": "yolow64 0.2 在完整校验下的提速是否成立",
+      "threshold": "开启 full validation 后仍快 ≥10% 且解码结果全等",
+      "judgement": "判定可升级编解码依赖，否则保留 0.1"
+    },
+    {
+      "signal": "aws-emulator 能否替代云端联调",
+      "threshold": "1 条现有 AWS 集成用例在本地克隆跑 10/10 通过且无需 API key",
+      "judgement": "判定可移除 CI 里的付费凭据依赖"
+    }
+  ]
+}

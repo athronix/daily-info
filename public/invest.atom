@@ -5,10 +5,20 @@
   <ns0:subtitle>挖掘 · 聚合 · 研判 · 订阅；每条附原文链接；内容仅供参考，不构成投资建议</ns0:subtitle>
   <ns0:link rel="self" type="application/atom+xml" href="https://daily-info.local/invest.atom" />
   <ns0:link rel="alternate" type="text/html" href="https://daily-info.local/index.html" />
-  <ns0:updated>2026-11-10T23:04:57.316406Z</ns0:updated>
+  <ns0:updated>2026-11-11T22:57:12.685301Z</ns0:updated>
   <ns0:author>
     <ns0:name>Personal Daily Info</ns0:name>
   </ns0:author>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-12:6f3c74a04fea158f</ns0:id>
+    <ns0:title>[产业与资本] With $720M round, Britain’s Fractile gets a leg up in the race for AI chips</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips" />
+    <ns0:published>2026-11-11T19:34:55.857000Z</ns0:published>
+    <ns0:updated>2026-11-11T22:57:12.685301Z</ns0:updated>
+    <ns0:category term="industry-capital" label="产业与资本" />
+    <ns0:summary type="text">Fractile has now become one of the top-funded players in the race for purpose-built AI chips. 〔Folo分类:美、中、港投融资市场〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;英国 Fractile 完成 $720M 融资，进入专用 AI 芯片赛道的头部融资行列&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：$720M · 相关方：Fractile / AI chips&lt;/p&gt;&lt;p&gt;Fractile has now become one of the top-funded players in the race for purpose-built AI chips. 〔Folo分类:美、中、港投融资市场〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;资本继续为推理侧专用芯片单独定价，说明通用算力之外的成本优化仍是独立赛道。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建预算暂无直接影响：无公开量产与单价数据，不能据此重算推理成本，仅记录供给侧资本动向。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;等其公布流片或量产节点，若给出每 TOPS 成本且低于现有云单价 20%，才纳入算力预算假设。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-11T19:34 UTC · 归类：industry-capital&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips" rel="noopener noreferrer"&gt;https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:daily-info.local,2026-11-11:8625966f767db0d2</ns0:id>
     <ns0:title>[市场与投资] 10-year Treasury yield races back to 5% as inflation data, Waller comments drive rate hike expectations</ns0:title>

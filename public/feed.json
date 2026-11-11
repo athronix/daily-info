@@ -7,6 +7,234 @@
   "language": "zh-CN",
   "items": [
     {
+      "id": "tag:daily-info.local,2026-11-12:6f3c74a04fea158f",
+      "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips",
+      "title": "With $720M round, Britain’s Fractile gets a leg up in the race for AI chips",
+      "summary": "英国 Fractile 完成 $720M 融资，进入专用 AI 芯片赛道的头部融资行列 — 资本继续为推理侧专用芯片单独定价，说明通用算力之外的成本优化仍是独立赛道。",
+      "content_html": "<p><strong>英国 Fractile 完成 $720M 融资，进入专用 AI 芯片赛道的头部融资行列</strong></p><p>关键数字：$720M · 相关方：Fractile / AI chips</p><p>Fractile has now become one of the top-funded players in the race for purpose-built AI chips. 〔Folo分类:美、中、港投融资市场〕</p><p><strong>为什么值得看：</strong>资本继续为推理侧专用芯片单独定价，说明通用算力之外的成本优化仍是独立赛道。</p><p><strong>对我意味着什么：</strong>对数据基建预算暂无直接影响：无公开量产与单价数据，不能据此重算推理成本，仅记录供给侧资本动向。</p><p><strong>下一步：</strong>等其公布流片或量产节点，若给出每 TOPS 成本且低于现有云单价 20%，才纳入算力预算假设。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-11T19:34 UTC · 归类：industry-capital</p><p>→ <a href=\"https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips\" rel=\"noopener noreferrer\">https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips</a></p>",
+      "date_published": "2026-11-11T19:34:55.857000Z",
+      "date_modified": "2026-11-11T22:57:12.685301Z",
+      "tags": [
+        "industry-capital",
+        "产业与资本"
+      ],
+      "_daily_info": {
+        "score": 75.56,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "6f3c74a04fea158f",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-12:642481bfe9c3357a",
+      "url": "https://www.yankodesign.com/2026/11/11/knits-999-dolby-atmos-soundbar-comes-wrapped-in-a-woven-sweater",
+      "title": "Knit’s $999 Dolby Atmos soundbar comes wrapped in a woven sweater",
+      "summary": "Knit 推出标价 $999 的 Dolby Atmos 音箱，用针织外套替代常见黑色塑料外壳 — 把材料与外观写成主要差异点，$999 的定价说明设计溢价被单独计价，而非声道或解码规格。",
+      "content_html": "<p><strong>Knit 推出标价 $999 的 Dolby Atmos 音箱，用针织外套替代常见黑色塑料外壳</strong></p><p>关键数字：$999 · 相关方：Knit / Dolby Atmos</p><p>Look under your TV right now. There’s a good chance a black plastic rectangle is sitting there, wearing a fine layer of dust and a logo you… 〔Folo分类:新奇产品〕</p><p><strong>为什么值得看：</strong>把材料与外观写成主要差异点，$999 的定价说明设计溢价被单独计价，而非声道或解码规格。</p><p><strong>对我意味着什么：</strong>对 WinVM 与数据基建暂无直接影响；仅作为硬件消费品的定价参照，不改变现有采集与部署判断。</p><p><strong>下一步：</strong>核对该产品是否公开频响与声道实测，若 ≥2 项独立实测与宣传一致，才把 $999 记为可比规格档。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-11T22:30 UTC · 归类：community</p><p>→ <a href=\"https://www.yankodesign.com/2026/11/11/knits-999-dolby-atmos-soundbar-comes-wrapped-in-a-woven-sweater\" rel=\"noopener noreferrer\">https://www.yankodesign.com/2026/11/11/knits-999-dolby-atmos-soundbar-comes-wrapped-in-a-woven-sweater</a></p>",
+      "date_published": "2026-11-11T22:30:55.563000Z",
+      "date_modified": "2026-11-11T22:57:12.685301Z",
+      "tags": [
+        "community",
+        "社区与观点"
+      ],
+      "_daily_info": {
+        "score": 76.07,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "642481bfe9c3357a",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-12:71cb7085c6189427",
+      "url": "https://news.ycombinator.com/item?id=50455811",
+      "title": "Launch HN: Pomerado (YC F26) – Turn any website into an MCP for agents",
+      "summary": "Pomerado 以 YC F26 身份发布，把任意网站转成确定性、自愈的 API 供 agent 调用，强调瓶颈不在智能而在接入 — 把网站封装成确定性 API 直指 agent 接入的稳定性问题，与同日服务方封禁 agent 形成正反两面。",
+      "content_html": "<p><strong>Pomerado 以 YC F26 身份发布，把任意网站转成确定性、自愈的 API 供 agent 调用，强调瓶颈不在智能而在接入</strong></p><p>关键数字：F26 / 39 / 34 · 相关方：Pomerado / MCP / HN / Alan / Akshay</p><p>Hi HN, we’re Alan and Akshay from Pomerado (https://pomerado.ai/). We connect your agents to any website by turning sites into deterministic, self-healing APIs in minutes, fully self-serve.Agents are no longer limited by their intelligence, but rather by their ability to interact with systems. Airli</p><p><strong>为什么值得看：</strong>把网站封装成确定性 API 直指 agent 接入的稳定性问题，与同日服务方封禁 agent 形成正反两面。</p><p><strong>对我意味着什么：</strong>对 MCP 与 connector 落地有直接影响：自愈 API 的失败重试与版本漂移策略可对照现有 connector 契约逐条核对。</p><p><strong>下一步：</strong>选 3 个结构不同的站点跑封装，若 3/3 在页面改版后 24 小时内自愈成功，判定可进 connector 候选。</p><p>来源：HN Algolia front_page (points/comments) · 发布于 2026-11-11T17:11 UTC · 归类：community</p><p>→ <a href=\"https://news.ycombinator.com/item?id=50455811\" rel=\"noopener noreferrer\">https://news.ycombinator.com/item?id=50455811</a></p>",
+      "date_published": "2026-11-11T17:11:56Z",
+      "date_modified": "2026-11-11T22:57:12.685301Z",
+      "tags": [
+        "community",
+        "社区与观点"
+      ],
+      "_daily_info": {
+        "score": 76.29,
+        "source": "HN Algolia front_page (points/comments)",
+        "cluster_id": "71cb7085c6189427",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-12:1a98b3ef3c0bae51",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw%3D%3D&mid=2247942861&idx=2&sn=32ea257fcc98924cf226b76eb6251ce8&chksm=e9224e5423abd74c754752ada7eaae4f23634588f52ab0f8674bc084b2211f2f90c522245433&scene=0&xtrack=1",
+      "title": "无人拖拉机真正下地了！新疆大田深翻30+厘米，丘沃智能开物™系统首次完整曝光",
+      "summary": "丘沃智能开物™ L4 无人作业套件在新疆芳草湖农场让临工 3004 混动拖拉机完成无人深翻，耕深超 30 厘米、速度 11.8km/h — 少见地同时给出耕深与行进速度两项作业读数，把无人农机从演示视频推进到可核对的田间指标。",
+      "content_html": "<p><strong>丘沃智能开物™ L4 无人作业套件在新疆芳草湖农场让临工 3004 混动拖拉机完成无人深翻，耕深超 30 厘米、速度 11.8km/h</strong></p><p>关键数字：30厘米 / 11.8km/h / 3004 / L4 · 相关方：丘沃智能 / 开物 / 临工3004 / 卓品智能 / ISOBUS / 新疆芳草湖农场</p><p>机器人、AI驾驶、AI｜丘沃智能携开物™ L4无人作业套件，首次在新疆芳草湖农场实现临工3004混动拖拉机无人深翻作业，耕深超30厘米、速度达11.8km/h；11月2日与卓品智能启动农具控制器及边缘域控深度合作，聚焦ISOBUS标准，布局全球农具控制器矩阵；首家直营旗舰店将于11月底落地新疆芳草湖农场，加速无人农机商业化落地。</p><p><strong>为什么值得看：</strong>少见地同时给出耕深与行进速度两项作业读数，把无人农机从演示视频推进到可核对的田间指标。</p><p><strong>对我意味着什么：</strong>对 WinVM 与数据基建暂无直接影响；但 L4 套件加边缘域控的架构可对照本地无人值守任务的容错设计。</p><p><strong>下一步：</strong>核对该作业是否有第三方测产报告，若 30 厘米耕深与 11.8km/h 在同一地块连续 3 天复现，判定指标可引用。</p><p>来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-11T22:20 UTC · 归类：deep-read</p><p>→ <a href=\"https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw%3D%3D&amp;mid=2247942861&amp;idx=2&amp;sn=32ea257fcc98924cf226b76eb6251ce8&amp;chksm=e9224e5423abd74c754752ada7eaae4f23634588f52ab0f8674bc084b2211f2f90c522245433&amp;scene=0&amp;xtrack=1\" rel=\"noopener noreferrer\">https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw%3D%3D&amp;mid=2247942861&amp;idx=2&amp;sn=32ea257fcc98924cf226b76eb6251ce8&amp;chksm=e9224e5423abd74c754752ada7eaae4f23634588f52ab0f8674bc084b2211f2f90c522245433&amp;scene=0&amp;xtrack=1</a></p>",
+      "date_published": "2026-11-11T22:20:00Z",
+      "date_modified": "2026-11-11T22:57:12.685301Z",
+      "tags": [
+        "deep-read",
+        "深度长文"
+      ],
+      "_daily_info": {
+        "score": 79.13,
+        "source": "智源社区 · 最新分享（匿名 API）",
+        "cluster_id": "1a98b3ef3c0bae51",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-12:5457d31dcad4910e",
+      "url": "https://dev.to/yolow92/yolow64-02-a-new-decode-kernel-that-beats-turbo-base64-under-full-validation-55nn",
+      "title": "yolow64 0.2: a new decode kernel that beats Turbo-Base64 under full validation",
+      "summary": "yolow64 0.2 发布新解码内核，声称在完整校验下优于 Turbo-Base64，0.2.1 为仅改文档的版本 — 把 full validation 写进对比条件，说明性能结论依赖校验强度；只比吞吐不看校验会误判解码内核。",
+      "content_html": "<p><strong>yolow64 0.2 发布新解码内核，声称在完整校验下优于 Turbo-Base64，0.2.1 为仅改文档的版本</strong></p><p>关键数字：0.2 / 0.1 / 0.2.1 / Nov 9 · 相关方：yolow64 / Turbo-Base64 / PageSift / Base64</p><p>yolow64 is the Base64 codec extracted from PageSift, published as 0.1 on Nov 9. Version 0.2 (plus a docs-only 0.2.1) is out, and the… 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>把 full validation 写进对比条件，说明性能结论依赖校验强度；只比吞吐不看校验会误判解码内核。</p><p><strong>对我意味着什么：</strong>对数据基建与 automation 有间接影响：编解码是采集归一链路的底层依赖，升级前需回归校验路径而非只看基准数字。</p><p><strong>下一步：</strong>用同一份 10000 条样本跑 0.1 与 0.2，若开启完整校验后仍快 ≥10% 且解码结果全等，判定可升级。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-11T15:32 UTC · 归类：docs-changelog</p><p>→ <a href=\"https://dev.to/yolow92/yolow64-02-a-new-decode-kernel-that-beats-turbo-base64-under-full-validation-55nn\" rel=\"noopener noreferrer\">https://dev.to/yolow92/yolow64-02-a-new-decode-kernel-that-beats-turbo-base64-under-full-validation-55nn</a></p>",
+      "date_published": "2026-11-11T15:32:02.218000Z",
+      "date_modified": "2026-11-11T22:57:12.685301Z",
+      "tags": [
+        "docs-changelog",
+        "文档与变更"
+      ],
+      "_daily_info": {
+        "score": 76.21,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "5457d31dcad4910e",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-12:8e8c59556028c219",
+      "url": "https://www.reddit.com/r/opensource/comments/1xtsygi/no_ai_release_qol_improvements_fixes_refactors",
+      "title": "[no ai] Release QoL Improvements, Fixes & Refactors v1.4.0.9 · DCTS (decentralized chat platform)",
+      "summary": "DCTS 去中心化聊天平台发布 v1.4.0.9，标注为体验改进、修复与重构，并在标题显式打出 [no ai] 标签 — 显式声明无 AI 参与开发，把生成式工具的使用边界变成版本发布信息的一部分，是少见的可用来源标注。",
+      "content_html": "<p><strong>DCTS 去中心化聊天平台发布 v1.4.0.9，标注为体验改进、修复与重构，并在标题显式打出 [no ai] 标签</strong></p><p>关键数字：v1.4.0.9 · 相关方：DCTS / decentralized chat platform / HackTheDev</p><p>submitted by /u/HackTheDev [link] [comments] 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>显式声明无 AI 参与开发，把生成式工具的使用边界变成版本发布信息的一部分，是少见的可用来源标注。</p><p><strong>对我意味着什么：</strong>对 skill 与 automation 暂无直接影响；但把 AI 使用写进发布说明的做法可借鉴到产物溯源字段。</p><p><strong>下一步：</strong>对照其 changelog 逐条核对 10 项改动，若 ≥8 项能定位到具体提交，判定 [no ai] 标注可引用。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-11T20:38 UTC · 归类：dev-tools</p><p>→ <a href=\"https://www.reddit.com/r/opensource/comments/1xtsygi/no_ai_release_qol_improvements_fixes_refactors\" rel=\"noopener noreferrer\">https://www.reddit.com/r/opensource/comments/1xtsygi/no_ai_release_qol_improvements_fixes_refactors</a></p>",
+      "date_published": "2026-11-11T20:38:08.455000Z",
+      "date_modified": "2026-11-11T22:57:12.685301Z",
+      "tags": [
+        "dev-tools",
+        "开发者工具与版本"
+      ],
+      "_daily_info": {
+        "score": 77.89,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "8e8c59556028c219",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-12:4f325e87353de30b",
+      "url": "https://dev.to/ahmad_anas_0edb1a3236362e/how-i-built-an-arabic-first-shoplifting-detector-with-yolov8-and-qwen2-vl-on-8gb-ram-1i40",
+      "title": "How I Built an Arabic-First Shoplifting Detector with YOLOv8 and Qwen2-VL (on 8GB RAM)",
+      "summary": "作者用 YOLOv8 与 Qwen2-VL 在 8GB RAM 上搭阿拉伯语优先的盗窃检测，对标每月 $50-200 的商用方案 — 把 2-3% 的年营收损耗与每月 $50-200 的替代成本并排给出，量化了端侧自建方案的动机。",
+      "content_html": "<p><strong>作者用 YOLOv8 与 Qwen2-VL 在 8GB RAM 上搭阿拉伯语优先的盗窃检测，对标每月 $50-200 的商用方案</strong></p><p>关键数字：YOLOv8 / Qwen2-VL / 8GB / 2-3% / $50-200 · 相关方：YOLOv8 / Qwen2-VL / Everseen / Veesion</p><p>Retail theft costs small stores 2-3% of annual revenue. Existing AI solutions (Everseen, Veesion) cost $50-200/month and don&#x27;t support… 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>把 2-3% 的年营收损耗与每月 $50-200 的替代成本并排给出，量化了端侧自建方案的动机。</p><p><strong>对我意味着什么：</strong>对端侧 agent 部署有参考：8GB RAM 是明确的硬件门槛，可据此判断本地多模态推理是否值得替换现有云侧调用。</p><p><strong>下一步：</strong>在 8GB 机器上跑 100 帧回归，若误报率低于现有云侧方案且单帧耗时 &lt;200ms，判定可进本地候选。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-11T21:53 UTC · 归类：dev-tools</p><p>→ <a href=\"https://dev.to/ahmad_anas_0edb1a3236362e/how-i-built-an-arabic-first-shoplifting-detector-with-yolov8-and-qwen2-vl-on-8gb-ram-1i40\" rel=\"noopener noreferrer\">https://dev.to/ahmad_anas_0edb1a3236362e/how-i-built-an-arabic-first-shoplifting-detector-with-yolov8-and-qwen2-vl-on-8gb-ram-1i40</a></p>",
+      "date_published": "2026-11-11T21:53:14.752000Z",
+      "date_modified": "2026-11-11T22:57:12.685301Z",
+      "tags": [
+        "dev-tools",
+        "开发者工具与版本"
+      ],
+      "_daily_info": {
+        "score": 78.8,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "4f325e87353de30b",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-12:645f1651bd53c9c8",
+      "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights",
+      "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+      "summary": "United Airlines 禁止 AI agent 代替旅客订票，HN 条目获 162 分与 150 条评论 — 服务方直接关闭代订入口，说明 agent 落地的阻力先出现在被调系统的准入侧，而不是模型能力侧。",
+      "content_html": "<p><strong>United Airlines 禁止 AI agent 代替旅客订票，HN 条目获 162 分与 150 条评论</strong></p><p>关键数字：162 / 150 · 相关方：United Airlines / AI agents</p><p><strong>为什么值得看：</strong>服务方直接关闭代订入口，说明 agent 落地的阻力先出现在被调系统的准入侧，而不是模型能力侧。</p><p><strong>对我意味着什么：</strong>对 MCP / A2A 与 connector 设计有直接影响：外部系统授权应写成显式失败分支，不能假设拿到凭证即可调用。</p><p><strong>下一步：</strong>在现有 connector 里模拟 403 / 需人工确认 / 限流 3 类拒绝响应，若 3/3 都落到可回滚状态，判定准入分支合格。</p><p>来源：HN Algolia front_page (points/comments) · 发布于 2026-11-11T21:24 UTC · 归类：agent-engineering</p><p>→ <a href=\"https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights\" rel=\"noopener noreferrer\">https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights</a></p>",
+      "date_published": "2026-11-11T21:24:35Z",
+      "date_modified": "2026-11-11T22:57:12.685301Z",
+      "tags": [
+        "agent-engineering",
+        "Agent 与工程"
+      ],
+      "_daily_info": {
+        "score": 78.37,
+        "source": "HN Algolia front_page (points/comments)",
+        "cluster_id": "645f1651bd53c9c8",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-12:53d5cdba12bea358",
+      "url": "https://simonwillison.net/2026/Nov/11/aws-emulator",
+      "title": "aws-emulator",
+      "summary": "AWS 推出官方 aws-emulator，可在本地克隆其多项服务跑测试而无需付费 API key，Rust 代码由 agent 群写出 29,684 次提交 — 官方模拟器把集成测试从付费凭据里解耦，29,684 次提交也把 agent 群写代码放到可审计的规模上。",
+      "content_html": "<p><strong>AWS 推出官方 aws-emulator，可在本地克隆其多项服务跑测试而无需付费 API key，Rust 代码由 agent 群写出 29,684 次提交</strong></p><p>关键数字：29,684 · 相关方：aws-emulator / AWS / Rust</p><p>aws-emulator Finally, an official emulator from AWS to run tests against a local clone of their many different services without having to provision a paid API key to do so. It&#x27;s written in Rust by a huge swarm of agents - 29,684 commits in the first three weeks of the project. Swaminathan (Swami) Si</p><p><strong>为什么值得看：</strong>官方模拟器把集成测试从付费凭据里解耦，29,684 次提交也把 agent 群写代码放到可审计的规模上。</p><p><strong>对我意味着什么：</strong>对 automation 与 agent 部署有直接影响：本地服务克隆可作为 CI 依赖替代项，减少无人值守链路对外部凭据的依赖。</p><p><strong>下一步：</strong>把 1 条现有 AWS 集成用例迁到本地克隆跑 10 次，若 10/10 通过且全程无需 API key，判定可替换云端联调。</p><p>来源：Simon Willison&#x27;s Weblog · 发布于 2026-11-11T21:18 UTC · 归类：agent-engineering</p><p>→ <a href=\"https://simonwillison.net/2026/Nov/11/aws-emulator\" rel=\"noopener noreferrer\">https://simonwillison.net/2026/Nov/11/aws-emulator</a></p>",
+      "date_published": "2026-11-11T21:18:30Z",
+      "date_modified": "2026-11-11T22:57:12.685301Z",
+      "tags": [
+        "agent-engineering",
+        "Agent 与工程"
+      ],
+      "_daily_info": {
+        "score": 78.37,
+        "source": "Simon Willison's Weblog",
+        "cluster_id": "53d5cdba12bea358",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-12:624a305adfa41ec6",
+      "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api",
+      "title": "Gemini Decisions API",
+      "summary": "Google 以 Gemini Decision 1 加入决策模型类别，支持与 Jev 相同的三类问题（yes/no、choice、rubric-scoring） — 把问答式模型收窄成三类固定输出，等于用输出契约换可判定性，比自由文本更适合写断言。",
+      "content_html": "<p><strong>Google 以 Gemini Decision 1 加入决策模型类别，支持与 Jev 相同的三类问题（yes/no、choice、rubric-scoring）</strong></p><p>关键数字：Gemini Decision 1 · 相关方：Gemini Decisions API / Google / Jev / OpenAI</p><p>Gemini Decisions API Google join Jev and OpenAI in the decision model category with &quot;Gemini Decision 1&quot;. This new model API is almost identical to Jev: it supports the same three types of questions (yes/no, choice, and rubric-scoring) and even reuses Jev&#x27;s term &quot;Noul&quot; for a yes/no question. It&#x27;s pri</p><p><strong>为什么值得看：</strong>把问答式模型收窄成三类固定输出，等于用输出契约换可判定性，比自由文本更适合写断言。</p><p><strong>对我意味着什么：</strong>对 WorkBuddy 的 automation 判定环节有直接参考：固定三类输出可对照现有核验闸门，减少解析歧义。</p><p><strong>下一步：</strong>用 20 条已知答案的判定题跑该 API，若三类输出格式 20/20 合法且结论与人工标注一致 ≥18 条，判定可进核验链路。</p><p>来源：Simon Willison&#x27;s Weblog · 发布于 2026-11-11T22:03 UTC · 归类：ai-models</p><p>→ <a href=\"https://simonwillison.net/2026/Nov/11/gemini-decisions-api\" rel=\"noopener noreferrer\">https://simonwillison.net/2026/Nov/11/gemini-decisions-api</a></p>",
+      "date_published": "2026-11-11T22:03:25Z",
+      "date_modified": "2026-11-11T22:57:12.685301Z",
+      "tags": [
+        "ai-models",
+        "模型与研究"
+      ],
+      "_daily_info": {
+        "score": 77.32,
+        "source": "Simon Willison's Weblog",
+        "cluster_id": "624a305adfa41ec6",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-12:88494da4c56beb64",
+      "url": "https://dev.to/resk/how-an-llm-benchmark-produces-comparable-numbers-inside-lforlas-llm-evaluation-47o5",
+      "title": "How an LLM Benchmark Produces Comparable Numbers: Inside LFORLA's LLM Evaluation",
+      "summary": "LFORLA 的 Capability Retention 基准用 20 个确定性任务、同一套提示词跑每个模型，讨论如何让评测数字可比 — 把确定性任务与统一提示词当成可比性前提，等于承认榜单差异多来自评测口径而非模型本身。",
+      "content_html": "<p><strong>LFORLA 的 Capability Retention 基准用 20 个确定性任务、同一套提示词跑每个模型，讨论如何让评测数字可比</strong></p><p>关键数字：20 · 相关方：LFORLA / Capability Retention / LLM</p><p>TL;DR: LFORLA&#x27;s Capability Retention benchmark runs 20 deterministic tasks through every model with identical prompts, scores them with… 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>把确定性任务与统一提示词当成可比性前提，等于承认榜单差异多来自评测口径而非模型本身。</p><p><strong>对我意味着什么：</strong>对 automation 与 skill 评测有直接影响：现有回归集应固化提示词版本与任务数，否则跨日结果不可比。</p><p><strong>下一步：</strong>固化同一组 20 条提示词跑 3 轮，若三轮得分极差 &lt;2 个百分点，判定该回归集可作为跨版本基线。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-11T10:00 UTC · 归类：ai-models</p><p>→ <a href=\"https://dev.to/resk/how-an-llm-benchmark-produces-comparable-numbers-inside-lforlas-llm-evaluation-47o5\" rel=\"noopener noreferrer\">https://dev.to/resk/how-an-llm-benchmark-produces-comparable-numbers-inside-lforlas-llm-evaluation-47o5</a></p>",
+      "date_published": "2026-11-11T10:00:42.952000Z",
+      "date_modified": "2026-11-11T22:57:12.685301Z",
+      "tags": [
+        "ai-models",
+        "模型与研究"
+      ],
+      "_daily_info": {
+        "score": 74.92,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "88494da4c56beb64",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-12:4ca7aee3cb7d2f9b",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw%3D%3D&mid=2247942861&idx=1&sn=41d0336965ce7b66565918f5d29e0dd8&chksm=e9f26d6615223de84b0445235e0ab28ed341a882ea76a8605119f697ddc73487dd4166ea0227&scene=0&xtrack=1",
+      "title": "Gemini 4 Carbon连夜上桌！力压Fable 5.2花费仅一半，还挖出了PHP同级漏洞…",
+      "summary": "谷歌上线 Gemini 4 Carbon 模型 API，向每月 100 美元 Ultra 订阅用户开放，摘要称其对标 Claude Opus 5.5 与 GPT-6 Astra — 定价以每月订阅档而非按量公开，说明旗舰能力先做可得性分层；对标对象写进摘要而非跑分，比较口径尚不可核验。",
+      "content_html": "<p><strong>谷歌上线 Gemini 4 Carbon 模型 API，向每月 100 美元 Ultra 订阅用户开放，摘要称其对标 Claude Opus 5.5 与 GPT-6 Astra</strong></p><p>关键数字：100美元 / 5.5 / 5.2 · 相关方：谷歌 / Gemini 4 Carbon / Claude Opus 5.5 / GPT-6 Astra / Ultra</p><p>安全、AI｜谷歌正式上线Gemini 4 Carbon模型API，并向每月100美元的Ultra订阅用户开放。该模型被定位为对标Claude Opus 5.5与GPT-6 Astra的旗舰级AI，旨在重夺大模型竞争主动权。目前可实际体验，谷歌已用其分析阿波罗登月舱案例，验证能力。</p><p><strong>为什么值得看：</strong>定价以每月订阅档而非按量公开，说明旗舰能力先做可得性分层；对标对象写进摘要而非跑分，比较口径尚不可核验。</p><p><strong>对我意味着什么：</strong>对 WorkBuddy 模型路由与 skill 调用暂无直接影响：单一匿名来源、无公开评测集，不能据此调整默认档，仅记录为供给侧可得性变化。</p><p><strong>下一步：</strong>等官方模型卡或 API 文档，若 100 美元档与 5.5 / 5.2 的对标结论同时被一手来源确认，才写入候选路由表。</p><p>来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-11T22:30 UTC · 归类：ai-models</p><p>证据状态：未独立验证</p><p>→ <a href=\"https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw%3D%3D&amp;mid=2247942861&amp;idx=1&amp;sn=41d0336965ce7b66565918f5d29e0dd8&amp;chksm=e9f26d6615223de84b0445235e0ab28ed341a882ea76a8605119f697ddc73487dd4166ea0227&amp;scene=0&amp;xtrack=1\" rel=\"noopener noreferrer\">https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw%3D%3D&amp;mid=2247942861&amp;idx=1&amp;sn=41d0336965ce7b66565918f5d29e0dd8&amp;chksm=e9f26d6615223de84b0445235e0ab28ed341a882ea76a8605119f697ddc73487dd4166ea0227&amp;scene=0&amp;xtrack=1</a></p>",
+      "date_published": "2026-11-11T22:30:00Z",
+      "date_modified": "2026-11-11T22:57:12.685301Z",
+      "tags": [
+        "ai-models",
+        "模型与研究"
+      ],
+      "_daily_info": {
+        "score": 80.86,
+        "source": "智源社区 · 最新分享（匿名 API）",
+        "cluster_id": "4ca7aee3cb7d2f9b",
+        "ai_status": "ok"
+      }
+    },
+    {
       "id": "tag:daily-info.local,2026-11-11:5175b6a2b765750a",
       "url": "https://github.com/GoogleChrome/modern-web-guidance",
       "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
@@ -1675,234 +1903,6 @@
         "score": 72.34,
         "source": "Techmeme",
         "cluster_id": "38e387c5903f171f",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-05:c5c9e9a97cf4fa76",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-05/commerzbank-in-position-of-strength-ahead-of-deal-ceo-video",
-      "title": "Commerzbank in 'Position of Strength' Ahead of UniCredit Deal, CEO Says",
-      "summary": "Commerzbank CEO 称利润同比跳升 45%，为 UniCredit 接管前最后几份独立季报之一 — 业绩读数与并购时点叠在一起，单点增长不能外推为独立经营的长期趋势。",
-      "content_html": "<p><strong>Commerzbank CEO 称利润同比跳升 45%，为 UniCredit 接管前最后几份独立季报之一</strong></p><p>关键数字：45% · 相关方：Commerzbank / UniCredit / Bettina Orlopp</p><p>Commerzbank CEO Bettina Orlopp speaks on Bloomberg Television after the lender reported a better-than-expected 45% jump in profit, in one of the last quarterly results as an independent bank before UniCredit SpA takes control of the German rival. &quot;I think we can act out of a position of strength,&quot; O</p><p><strong>为什么值得看：</strong>业绩读数与并购时点叠在一起，单点增长不能外推为独立经营的长期趋势。</p><p><strong>对我意味着什么：</strong>与本项目数据基建无直接技术关联，仅作为「单点指标不可外推」的反例记入观察口径。</p><p><strong>下一步：</strong>若后续 2 个季度仍只有单季读数，则判定该指标不足以支撑趋势判断，移出主线。</p><p>来源：Bloomberg Markets · 发布于 2026-11-05T07:31 UTC · 归类：dev-tools</p><p>→ <a href=\"https://www.bloomberg.com/news/videos/2026-11-05/commerzbank-in-position-of-strength-ahead-of-deal-ceo-video\" rel=\"noopener noreferrer\">https://www.bloomberg.com/news/videos/2026-11-05/commerzbank-in-position-of-strength-ahead-of-deal-ceo-video</a></p>",
-      "date_published": "2026-11-05T07:31:20Z",
-      "date_modified": "2026-11-05T11:52:53.812318Z",
-      "tags": [
-        "dev-tools",
-        "开发者工具与版本"
-      ],
-      "_daily_info": {
-        "score": 72.5,
-        "source": "Bloomberg Markets",
-        "cluster_id": "c5c9e9a97cf4fa76",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-05:bc3eb0974c00d7ec",
-      "url": "https://ernie.baidu.com/release/ernie-5-5-flash-base",
-      "title": "Baidu released ERNIE 5.5 Flash Base",
-      "summary": "百度发布 ERNIE 5.5 Flash Base，HN 讨论帖记录 30 分与 23 条评论 — 轻量版命名与社区讨论热度同时出现，说明发布关注点在推理成本而非参数规模。",
-      "content_html": "<p><strong>百度发布 ERNIE 5.5 Flash Base，HN 讨论帖记录 30 分与 23 条评论</strong></p><p>关键数字：5.5 / 30 / 23 · 相关方：Baidu / ERNIE 5.5 Flash Base</p><p><strong>为什么值得看：</strong>轻量版命名与社区讨论热度同时出现，说明发布关注点在推理成本而非参数规模。</p><p><strong>对我意味着什么：</strong>若接入层要加国内模型候选，先记录上下文与定价口径，再决定是否进 provider 切换配置。</p><p><strong>下一步：</strong>对照官方发布页核对 2 项规格，若与转述不一致则以官方为准并标注修正来源。</p><p>来源：HN Algolia front_page (points/comments) · 发布于 2026-11-05T09:29 UTC · 归类：dev-tools</p><p>→ <a href=\"https://ernie.baidu.com/release/ernie-5-5-flash-base\" rel=\"noopener noreferrer\">https://ernie.baidu.com/release/ernie-5-5-flash-base</a></p>",
-      "date_published": "2026-11-05T09:29:12Z",
-      "date_modified": "2026-11-05T11:52:53.812318Z",
-      "tags": [
-        "dev-tools",
-        "开发者工具与版本"
-      ],
-      "_daily_info": {
-        "score": 73.26,
-        "source": "HN Algolia front_page (points/comments)",
-        "cluster_id": "bc3eb0974c00d7ec",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-05:34b7b58c0d055d38",
-      "url": "https://www.infoq.cn/article/80iUxvCNB59aOgyXB7LN",
-      "title": "MCP C# SDK 2.0 默认启用 HTTP 无状态模式，新增多轮请求能力",
-      "summary": "MCP C# SDK 2.0 把 HTTP 无状态模式设为默认，并新增多轮请求能力 — 默认行为变更比新增功能更危险：不升级配置的连接会在无感知情况下丢掉会话语义。",
-      "content_html": "<p><strong>MCP C# SDK 2.0 把 HTTP 无状态模式设为默认，并新增多轮请求能力</strong></p><p>关键数字：2.0 · 相关方：MCP C# SDK 2.0 / HTTP</p><p>点击查看原文&gt; 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>默认行为变更比新增功能更危险：不升级配置的连接会在无感知情况下丢掉会话语义。</p><p><strong>对我意味着什么：</strong>直接影响 MCP 接入层与 bridge 的长连接假设，需确认状态保持由哪一端负责。</p><p><strong>下一步：</strong>用现有会话用例跑 2 次兼容测试，若出现 1 次状态丢失则显式声明有状态模式后再升级。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-05T07:31 UTC · 归类：dev-tools</p><p>→ <a href=\"https://www.infoq.cn/article/80iUxvCNB59aOgyXB7LN\" rel=\"noopener noreferrer\">https://www.infoq.cn/article/80iUxvCNB59aOgyXB7LN</a></p>",
-      "date_published": "2026-11-05T07:31:03.584000Z",
-      "date_modified": "2026-11-05T11:52:53.812318Z",
-      "tags": [
-        "dev-tools",
-        "开发者工具与版本"
-      ],
-      "_daily_info": {
-        "score": 73.81,
-        "source": "Folo 订阅池基线（人工筛选信源）",
-        "cluster_id": "34b7b58c0d055d38",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-05:67688dbdebfe4c7a",
-      "url": "https://www.geeky-gadgets.com/open-source",
-      "title": "Build a ESP32 S3 Powered Smart Thermostat with Home Assistant Support for $70",
-      "summary": "Geeky Gadgets 介绍用 ESP32-S3 与 Home Assistant 搭开源智能恒温器，成本约 70 美元 — 把成本、连接协议与固件可改性同时写清，是自动化设备选型里少见的可核验口径。",
-      "content_html": "<p><strong>Geeky Gadgets 介绍用 ESP32-S3 与 Home Assistant 搭开源智能恒温器，成本约 70 美元</strong></p><p>关键数字：32 / 70 · 相关方：ESP32 / Home Assistant / Designing Good Ideas</p><p>Building an open source smart thermostat is an engaging project that blends technical skills with practical applications. According to Designing Good Ideas, this project revolves around the ESP32-S3 microcontroller, which offers both WiFi and Bluetooth connectivity. Key components include an OLED di</p><p><strong>为什么值得看：</strong>把成本、连接协议与固件可改性同时写清，是自动化设备选型里少见的可核验口径。</p><p><strong>对我意味着什么：</strong>可作本地 automation 的低成本参照，但需确认固件支持离线控制，避免绑死云服务。</p><p><strong>下一步：</strong>核对断网场景下本地控制是否可用，若必须联网则判定不适合作为离线基线设备。</p><p>来源：Geeky Gadgets · 发布于 2026-11-05T10:13 UTC · 归类：agent-engineering</p><p>→ <a href=\"https://www.geeky-gadgets.com/open-source\" rel=\"noopener noreferrer\">https://www.geeky-gadgets.com/open-source</a></p>",
-      "date_published": "2026-11-05T10:13:00Z",
-      "date_modified": "2026-11-05T11:52:53.812318Z",
-      "tags": [
-        "agent-engineering",
-        "开发者工具与版本"
-      ],
-      "_daily_info": {
-        "score": 75.18,
-        "source": "Geeky Gadgets",
-        "cluster_id": "67688dbdebfe4c7a",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-05:a905c89b66d2487a",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&mid=2652740261&idx=2&sn=ad848ca27112af01508620b4099ac007&chksm=f0078dd514b88f7cf496c4650a00f222b3f0a51fb4dcdcf4d883bf4befaf4032aa612eccd5e3&scene=0&xtrack=1",
-      "title": "普林斯顿CS女学霸，突然告别Anthropic！一手带火Claude Code",
-      "summary": "Anthropic 旗下 Claude Code 团队 10 天内 4 位核心成员离职，含产品负责人 Cat Wu — 推断：核心贡献者密度下降会先反映在版本节奏上，比功能清单更能预判工具链稳定性。",
-      "content_html": "<p><strong>Anthropic 旗下 Claude Code 团队 10 天内 4 位核心成员离职，含产品负责人 Cat Wu</strong></p><p>关键数字：10 / 4 · 相关方：Anthropic / Claude Code / Cat Wu</p><p>AI、生成模型、深度学习｜Anthropic旗下Claude Code团队近期遭遇严重人才流失：10天内4位核心成员相继离职，包括产品总负责人兼创始产品经理Cat Wu（4日凌晨宣布离任）、CLI核心开发者Thariq Shihipar及桌面版主创Anthony Mor等。Cat Wu在告别信中确认上周五为其最后工作日。此次密集离职引发业界对Claude Code项目稳定性与团队凝聚力的广泛关注，凸显AI初创企业在高速发展期面临的人才管理挑战。</p><p><strong>为什么值得看：</strong>推断：核心贡献者密度下降会先反映在版本节奏上，比功能清单更能预判工具链稳定性。</p><p><strong>对我意味着什么：</strong>对依赖 Claude Code 的开发侧 automation 链路，需要准备供应商变更时的可替换入口。</p><p><strong>下一步：</strong>记录未来 2 个版本的发布日期，若间隔拉长超过 30 天则启用备用工具链并跑一次 smoke。</p><p>来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-05T10:40 UTC · 归类：dev-tools</p><p>证据状态：推断</p><p>→ <a href=\"https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&amp;mid=2652740261&amp;idx=2&amp;sn=ad848ca27112af01508620b4099ac007&amp;chksm=f0078dd514b88f7cf496c4650a00f222b3f0a51fb4dcdcf4d883bf4befaf4032aa612eccd5e3&amp;scene=0&amp;xtrack=1\" rel=\"noopener noreferrer\">https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&amp;mid=2652740261&amp;idx=2&amp;sn=ad848ca27112af01508620b4099ac007&amp;chksm=f0078dd514b88f7cf496c4650a00f222b3f0a51fb4dcdcf4d883bf4befaf4032aa612eccd5e3&amp;scene=0&amp;xtrack=1</a></p>",
-      "date_published": "2026-11-05T10:40:00Z",
-      "date_modified": "2026-11-05T11:52:53.812318Z",
-      "tags": [
-        "dev-tools",
-        "开发者工具与版本"
-      ],
-      "_daily_info": {
-        "score": 79.04,
-        "source": "智源社区 · 最新分享（匿名 API）",
-        "cluster_id": "a905c89b66d2487a",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-05:a33b385a4bffab34",
-      "url": "http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw%3D%3D&mid=2247939340&idx=1&sn=897b309215b80e03ae894413179c8aeb&chksm=e951f581ce1a321e075734ebad0a9c9d7925fcb7409ede6312f8594597c2ceb04afccd3c1358&scene=126&sessionid=0",
-      "title": "从3D生成到世界模型，这家AI公司想和年轻人一起定义问题",
-      "summary": "行业访谈讨论从 3D 生成到世界模型的路线，并指出年轻研究者缺少核心项目参与权 — 把「平台能否给决策权」当成技术路线选择变量，这是组织问题，不是模型能力问题。",
-      "content_html": "<p><strong>行业访谈讨论从 3D 生成到世界模型的路线，并指出年轻研究者缺少核心项目参与权</strong></p><p>关键数字：3 · 相关方：扩散模型 / Agent / 生成模型</p><p>扩散模型、Agent、生成模型｜AI行业虽持续高薪争抢顶尖人才，但愈发重视实际贡献而非仅潜力。年轻研究者陷入困境：企业倾向录用已有成果者，却可能减少其参与核心项目的机会，导致代表作难以产出。由此，人才竞争标准升级——不仅企业筛选人才，年轻人也需主动评估平台：能否提供核心项目参与权、技术路线决策机会及与能力匹配的任务资源，以支撑下一项关键成果的诞生。</p><p><strong>为什么值得看：</strong>把「平台能否给决策权」当成技术路线选择变量，这是组织问题，不是模型能力问题。</p><p><strong>对我意味着什么：</strong>对 skill 与 automation 的分工有提醒：把决策权写进配置，执行者才不会因看不到全貌反复返工。</p><p><strong>下一步：</strong>抽查 3 个 skill 是否把判定阈值写进配置文件，若有 1 个只靠提示词则补成可检查字段。</p><p>来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-05T08:10 UTC · 归类：agent-engineering</p><p>→ <a href=\"http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw%3D%3D&amp;mid=2247939340&amp;idx=1&amp;sn=897b309215b80e03ae894413179c8aeb&amp;chksm=e951f581ce1a321e075734ebad0a9c9d7925fcb7409ede6312f8594597c2ceb04afccd3c1358&amp;scene=126&amp;sessionid=0\" rel=\"noopener noreferrer\">http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw%3D%3D&amp;mid=2247939340&amp;idx=1&amp;sn=897b309215b80e03ae894413179c8aeb&amp;chksm=e951f581ce1a321e075734ebad0a9c9d7925fcb7409ede6312f8594597c2ceb04afccd3c1358&amp;scene=126&amp;sessionid=0</a></p>",
-      "date_published": "2026-11-05T08:10:00Z",
-      "date_modified": "2026-11-05T11:52:53.812318Z",
-      "tags": [
-        "agent-engineering",
-        "Agent 与工程"
-      ],
-      "_daily_info": {
-        "score": 77.25,
-        "source": "智源社区 · 最新分享（匿名 API）",
-        "cluster_id": "a33b385a4bffab34",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-05:69a0892172f62fa7",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&mid=2652740261&idx=3&sn=909eccd24098bcb2c52a24856fcd1ece&chksm=f05d21f7f508332c98e602698a05cb81545bc85a81ae8f743d80f99e7abf69b3de0b04104517&scene=0&xtrack=1",
-      "title": "5000词需求文档，Claude也只能交付14%！实测28种Agent组合",
-      "summary": "复旦大学等提出 LoLBench，实测 28 种 Agent 组合在 240 万行代码系统上从需求到交付的全流程 — 5000 词需求下最好组合只交付 14%，长程失败集中在定位修改点与验证正确性，而非生成代码。",
-      "content_html": "<p><strong>复旦大学等提出 LoLBench，实测 28 种 Agent 组合在 240 万行代码系统上从需求到交付的全流程</strong></p><p>关键数字：5000 / 14% / 28 / 240 · 相关方：LoLBench / 复旦大学 / Claude</p><p>Agent、生成模型、深度学习｜复旦大学等机构提出LoLBench基准，用于评估AI Agent在大型软件系统（平均240万行代码）中从需求到功能交付的全流程能力。不同于简单工具调用或文件修改，该任务需Agent理解需求约束、分析模块依赖、定位修改点、实施变更并验证正确性，覆盖软件工程核心分析与决策环节，旨在衡量其在真实复杂长期演进系统中的端到端开发能力。</p><p><strong>为什么值得看：</strong>5000 词需求下最好组合只交付 14%，长程失败集中在定位修改点与验证正确性，而非生成代码。</p><p><strong>对我意味着什么：</strong>直接对应 WinVM Bridge 两条委派路径：复杂任务走 A2A 前必须有可复现验收脚本，否则失败无法归因。</p><p><strong>下一步：</strong>用同一份需求跑 2 条委派路径各一次，若交付率差异小于 10 个百分点则判定路径选择现阶段不产生收益。</p><p>来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-05T10:50 UTC · 归类：agent-engineering</p><p>→ <a href=\"https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&amp;mid=2652740261&amp;idx=3&amp;sn=909eccd24098bcb2c52a24856fcd1ece&amp;chksm=f05d21f7f508332c98e602698a05cb81545bc85a81ae8f743d80f99e7abf69b3de0b04104517&amp;scene=0&amp;xtrack=1\" rel=\"noopener noreferrer\">https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&amp;mid=2652740261&amp;idx=3&amp;sn=909eccd24098bcb2c52a24856fcd1ece&amp;chksm=f05d21f7f508332c98e602698a05cb81545bc85a81ae8f743d80f99e7abf69b3de0b04104517&amp;scene=0&amp;xtrack=1</a></p>",
-      "date_published": "2026-11-05T10:50:00Z",
-      "date_modified": "2026-11-05T11:52:53.812318Z",
-      "tags": [
-        "agent-engineering",
-        "Agent 与工程"
-      ],
-      "_daily_info": {
-        "score": 82.37,
-        "source": "智源社区 · 最新分享（匿名 API）",
-        "cluster_id": "69a0892172f62fa7",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-05:2682390061645f27",
-      "url": "https://www.techmeme.com/261105/p14",
-      "title": "Ricursive releases Ripple-65B Preview, a general-purpose variant of its AI model for automating advanced chip design, under Apache 2.0, costing $0.60/1M output (Carl Franzen/VentureBeat)",
-      "summary": "Ricursive 以 Apache 2.0 发布 Ripple-65B Preview 用于自动化芯片设计，输出定价 0.60 美元每百万 token — 专用模型用宽松许可证放行并给出可核算单价，把「能不能自建」变成一道成本题。",
-      "content_html": "<p><strong>Ricursive 以 Apache 2.0 发布 Ripple-65B Preview 用于自动化芯片设计，输出定价 0.60 美元每百万 token</strong></p><p>关键数字：65 / 0.60 / 2.0 · 相关方：Ricursive / Ripple-65B / Apache 2.0 / VentureBeat</p><p>Carl Franzen / VentureBeat: Ricursive releases Ripple-65B Preview, a general-purpose variant of its AI model for automating advanced chip design, under Apache 2.0, costing $0.60/1M output — There&#x27;s another American victory worth paying attention to today: a new, open weights AI model that its creato</p><p><strong>为什么值得看：</strong>专用模型用宽松许可证放行并给出可核算单价，把「能不能自建」变成一道成本题。</p><p><strong>对我意味着什么：</strong>可直接填进自建 vs 托管的成本模型：0.60 是可比单价，不必再靠估算。</p><p><strong>下一步：</strong>把 0.60 代入 12 个月 TCO 表，若与本地推理差距小于 20% 则判定自建无成本优势。</p><p>来源：Techmeme · 发布于 2026-11-05T11:10 UTC · 归类：ai-models</p><p>→ <a href=\"https://www.techmeme.com/261105/p14\" rel=\"noopener noreferrer\">https://www.techmeme.com/261105/p14</a></p>",
-      "date_published": "2026-11-05T11:10:01Z",
-      "date_modified": "2026-11-05T11:52:53.812318Z",
-      "tags": [
-        "ai-models",
-        "模型与研究"
-      ],
-      "_daily_info": {
-        "score": 75.6,
-        "source": "Techmeme",
-        "cluster_id": "2682390061645f27",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-05:5e468467bd2ef4e7",
-      "url": "https://latent.space/p/ainews-it-s-swapping-season",
-      "title": "[AINews] It's Swapping Season",
-      "summary": "Latent Space 的 AINews 汇总 OpenAI 内核安全工作、Kimi K3.1 Pro 开放权重与 Ripple-65B — 同一期里安全、开放权重、专用模型三条线并行，模型新闻已不能按「更大更强」单轴排序。",
-      "content_html": "<p><strong>Latent Space 的 AINews 汇总 OpenAI 内核安全工作、Kimi K3.1 Pro 开放权重与 Ripple-65B</strong></p><p>关键数字：3.1 / 65 / 4 · 相关方：OpenAI / Kimi K3.1 Pro / Ripple-65B</p><p>November 4, 2026 — OpenAI’s Linux kernel security work, Kimi K3.1 Pro’s open weights, and Ricursive’s Ripple-65B.</p><p><strong>为什么值得看：</strong>同一期里安全、开放权重、专用模型三条线并行，模型新闻已不能按「更大更强」单轴排序。</p><p><strong>对我意味着什么：</strong>订阅侧需按「安全 / 权重 / 专用」分 profile，否则这类汇总会把不同决策信号混成一条。</p><p><strong>下一步：</strong>把该期 3 个主题分别映射到现有 profile，若有 1 个找不到归口则新增分类再重跑 build_feeds.py。</p><p>来源：Latent Space · 发布于 2026-11-05T06:24 UTC · 归类：ai-models</p><p>→ <a href=\"https://latent.space/p/ainews-it-s-swapping-season\" rel=\"noopener noreferrer\">https://latent.space/p/ainews-it-s-swapping-season</a></p>",
-      "date_published": "2026-11-05T06:24:09Z",
-      "date_modified": "2026-11-05T11:52:53.812318Z",
-      "tags": [
-        "ai-models",
-        "模型与研究"
-      ],
-      "_daily_info": {
-        "score": 76.08,
-        "source": "Latent Space",
-        "cluster_id": "5e468467bd2ef4e7",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-05:9e8d2781cc4f5fb6",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4MDE3OTA5NA%3D%3D&mid=2247607249&idx=1&sn=edf1b03f303a47b0b2677fce536b580f&chksm=ce8e6a2f7b553ff7c24297158aabde1386f99f9b2d9bc2e12db8da63e2c16752380268b294ed&scene=0&xtrack=1",
-      "title": "清华、伯克利开源uni-robot-agent：GPT-6 Astra竟输给了Qwen3.8-Flash-Next",
-      "summary": "清华与伯克利团队开源 uni-robot-agent，用开源模型替代闭源前沿模型驱动机器人智能体 — 把机器人智能体从依赖闭源 API 的调用题，改成可拿权重、可迭代的训练题，实验成本结构随之改变。",
-      "content_html": "<p><strong>清华与伯克利团队开源 uni-robot-agent，用开源模型替代闭源前沿模型驱动机器人智能体</strong></p><p>关键数字：3.8 / 6 · 相关方：uni-robot-agent / Qwen3.8-Flash-Next / GPT-6 / 清华大学</p><p>机器人、Agent、深度学习｜当前机器人使用智能体（RUA）虽具零样本操作能力，但高度依赖前沿闭源模型，研究者无法获取模型权重，难以利用真实机器人数据持续优化；API调用成本高昂且推理过程不可定制，严重制约大规模实验。为推动RUA研究普惠化，清华大学丁宁、刘知远、徐梦迪、周伯文等联合强化学习团队提出新范式，聚焦开源、低成本、可迭代的RUA训练框架。</p><p><strong>为什么值得看：</strong>把机器人智能体从依赖闭源 API 的调用题，改成可拿权重、可迭代的训练题，实验成本结构随之改变。</p><p><strong>对我意味着什么：</strong>与本地 Agent 部署和 3D/具身资产链路一致：模型权重可得，才谈得上把真实机器人数据回流进自有训练环。</p><p><strong>下一步：</strong>对照该框架的 2 个训练入口跑一次最小复现，若显存需求超过本机可用量 80% 则判定只能读代码不落地。</p><p>来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-05T09:50 UTC · 归类：ai-models</p><p>→ <a href=\"https://mp.weixin.qq.com/s?__biz=Mzg4MDE3OTA5NA%3D%3D&amp;mid=2247607249&amp;idx=1&amp;sn=edf1b03f303a47b0b2677fce536b580f&amp;chksm=ce8e6a2f7b553ff7c24297158aabde1386f99f9b2d9bc2e12db8da63e2c16752380268b294ed&amp;scene=0&amp;xtrack=1\" rel=\"noopener noreferrer\">https://mp.weixin.qq.com/s?__biz=Mzg4MDE3OTA5NA%3D%3D&amp;mid=2247607249&amp;idx=1&amp;sn=edf1b03f303a47b0b2677fce536b580f&amp;chksm=ce8e6a2f7b553ff7c24297158aabde1386f99f9b2d9bc2e12db8da63e2c16752380268b294ed&amp;scene=0&amp;xtrack=1</a></p>",
-      "date_published": "2026-11-05T09:50:00Z",
-      "date_modified": "2026-11-05T11:52:53.812318Z",
-      "tags": [
-        "ai-models",
-        "模型与研究"
-      ],
-      "_daily_info": {
-        "score": 83.22,
-        "source": "智源社区 · 最新分享（匿名 API）",
-        "cluster_id": "9e8d2781cc4f5fb6",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-04:dd91fc9ec8712e06",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnis75/read_the_muse_spark_open_license_before_wiring_it",
-      "title": "Read the muse spark open license before wiring it into anything",
-      "summary": "r/LocalLLaMA 讨论：接入前先读 Muse Spark 开放许可证（72 小时长帖的核心结论） — 开放权重不等于自由使用的社区共识在扩散，许可证成为实际约束",
-      "content_html": "<p><strong>r/LocalLLaMA 讨论：接入前先读 Muse Spark 开放许可证（72 小时长帖的核心结论）</strong></p><p>关键数字：72 · 相关方：Muse Spark</p><p>that 72 hours thread from a few weeks back had the best point down in the comments, open weights only ever meant you can download them. muse spark open is 816B and beam is 501B, so for most ppl here the only drop that week that fits a 24GB card was nvidias bolt so the big ones mostly get used thru a</p><p><strong>为什么值得看：</strong>开放权重不等于自由使用的社区共识在扩散，许可证成为实际约束</p><p><strong>对我意味着什么：</strong>专家包/模型选型清单应加许可证字段</p><p><strong>下一步：</strong>检查模型引用清单，缺许可证标注的条目大于 0 即补全</p><p>来源：r/LocalLLaMA · 发布于 2026-11-04T08:13 UTC · 归类：ai-models</p><p>→ <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1xnis75/read_the_muse_spark_open_license_before_wiring_it\" rel=\"noopener noreferrer\">https://www.reddit.com/r/LocalLLaMA/comments/1xnis75/read_the_muse_spark_open_license_before_wiring_it</a></p>",
-      "date_published": "2026-11-04T08:13:49Z",
-      "date_modified": "2026-11-04T13:33:31.530620Z",
-      "tags": [
-        "ai-models",
-        "深度长文"
-      ],
-      "_daily_info": {
-        "score": 68.78,
-        "source": "r/LocalLLaMA",
-        "cluster_id": "dd91fc9ec8712e06",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-04:977b4bc7e201ffd5",
-      "url": "https://github.com/kejun/blogpost/blob/main/2026-11-04-agent-desktop-accessibility-tree-computer-use.md",
-      "title": "[技术文章] 当 Agent 学会读「结构」而不是看「像素」：Vercel agent-desktop 深度拆解",
-      "summary": "克军 blogpost 深度拆解 Vercel agent-desktop：用可访问性树替代像素匹配，12,669 颗星、一个月 2.2 万次 npm 下载、v1.1.0 发布 — computer use 目前最工程化的实现路径被完整拆解，与 WinVM Bridge 直接同题",
-      "content_html": "<p><strong>克军 blogpost 深度拆解 Vercel agent-desktop：用可访问性树替代像素匹配，12,669 颗星、一个月 2.2 万次 npm 下载、v1.1.0 发布</strong></p><p>关键数字：12,669 / 2.2 / 1.1.0 · 相关方：Vercel / agent-desktop</p><p>当 Agent 学会读「结构」而不是看「像素」：Vercel agent-desktop 深度拆解 12,669 颗星、一个月 2.2 万次 npm 下载、v1.1.0 在 11 月 3 日刚刚发布。Vercel Labs 的 agent-desktop 想回答一个非常具体的问题：如果桌面 Agent 不截图、不做像素匹配、不猜坐标，它还能不能操作 Finder、Excel 和 Photoshop？ 它的答案是：能，只要你愿意把「屏幕」换成「可访问性树」。 一、桌面 Agent 的真正瓶颈，从来不是模型 过去两年，桌面自动化（computer use）几乎被一种范式统治：截一张图，交给多模态模</p><p><strong>为什么值得看：</strong>computer use 目前最工程化的实现路径被完整拆解，与 WinVM Bridge 直接同题</p><p><strong>对我意味着什么：</strong>WinVM 的 VM 侧操作接口设计可直接参考其 ref 句柄 + snapshot 语义</p><p><strong>下一步：</strong>对照 bridge 协议，若 ref 语义可映射至少 3 类操作则写进设计笔记</p><p>来源：克军三仓库最新日报（聚合 Atom） · 发布于 2026-11-04T00:02 UTC · 归类：deep-read</p><p>→ <a href=\"https://github.com/kejun/blogpost/blob/main/2026-11-04-agent-desktop-accessibility-tree-computer-use.md\" rel=\"noopener noreferrer\">https://github.com/kejun/blogpost/blob/main/2026-11-04-agent-desktop-accessibility-tree-computer-use.md</a></p>",
-      "date_published": "2026-11-04T00:02:16Z",
-      "date_modified": "2026-11-04T13:33:31.530620Z",
-      "tags": [
-        "deep-read",
-        "深度长文"
-      ],
-      "_daily_info": {
-        "score": 72.69,
-        "source": "克军三仓库最新日报（聚合 Atom）",
-        "cluster_id": "977b4bc7e201ffd5",
         "ai_status": "ok"
       }
     }

@@ -5,10 +5,20 @@
   <ns0:subtitle>挖掘 · 聚合 · 研判 · 订阅；每条附原文链接；内容仅供参考，不构成投资建议</ns0:subtitle>
   <ns0:link rel="self" type="application/atom+xml" href="https://daily-info.local/docs.atom" />
   <ns0:link rel="alternate" type="text/html" href="https://daily-info.local/index.html" />
-  <ns0:updated>2026-11-10T02:09:37.536152Z</ns0:updated>
+  <ns0:updated>2026-11-11T22:57:12.685301Z</ns0:updated>
   <ns0:author>
     <ns0:name>Personal Daily Info</ns0:name>
   </ns0:author>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-12:5457d31dcad4910e</ns0:id>
+    <ns0:title>[文档与变更] yolow64 0.2: a new decode kernel that beats Turbo-Base64 under full validation</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://dev.to/yolow92/yolow64-02-a-new-decode-kernel-that-beats-turbo-base64-under-full-validation-55nn" />
+    <ns0:published>2026-11-11T15:32:02.218000Z</ns0:published>
+    <ns0:updated>2026-11-11T22:57:12.685301Z</ns0:updated>
+    <ns0:category term="docs-changelog" label="文档与变更" />
+    <ns0:summary type="text">yolow64 is the Base64 codec extracted from PageSift, published as 0.1 on Nov 9. Version 0.2 (plus a docs-only 0.2.1) is out, and the… 〔Folo分类:开源项目〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;yolow64 0.2 发布新解码内核，声称在完整校验下优于 Turbo-Base64，0.2.1 为仅改文档的版本&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：0.2 / 0.1 / 0.2.1 / Nov 9 · 相关方：yolow64 / Turbo-Base64 / PageSift / Base64&lt;/p&gt;&lt;p&gt;yolow64 is the Base64 codec extracted from PageSift, published as 0.1 on Nov 9. Version 0.2 (plus a docs-only 0.2.1) is out, and the… 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把 full validation 写进对比条件，说明性能结论依赖校验强度；只比吞吐不看校验会误判解码内核。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建与 automation 有间接影响：编解码是采集归一链路的底层依赖，升级前需回归校验路径而非只看基准数字。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;用同一份 10000 条样本跑 0.1 与 0.2，若开启完整校验后仍快 ≥10% 且解码结果全等，判定可升级。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-11T15:32 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://dev.to/yolow92/yolow64-02-a-new-decode-kernel-that-beats-turbo-base64-under-full-validation-55nn" rel="noopener noreferrer"&gt;https://dev.to/yolow92/yolow64-02-a-new-decode-kernel-that-beats-turbo-base64-under-full-validation-55nn&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:daily-info.local,2026-11-10:e01056c942e15d49</ns0:id>
     <ns0:title>[文档与变更] v0.40.16</ns0:title>

@@ -1,77 +1,77 @@
 {
-  "date": "2026-11-11",
-  "headline": "Gemini 4 Carbon 以 $2/$10 入场、CoreWeave 营收增 168% 仍亏 $709M：能力扩张与单位成本两条曲线正在分叉",
-  "headline_short": "Gemini 4 Carbon 以 $2/$10 入场、",
-  "lead": "168% 的同比营收增长伴随 $709M 净亏损，CoreWeave 把 $132.5B 订单积压写进 Q3；同日 llm-gemini 0.36 以 $2/$10 每百万 token 接入 Gemini 4 Carbon，Graphon 拿 $35M 补 Agent 记忆，2,100 tokens/s 的承诺仍待独立复测。今日张力是能力扩张与单位成本的分叉。",
-  "generated_at": "2026-11-10T23:04:57.316406Z",
+  "date": "2026-11-12",
+  "headline": "29,684 次提交换来官方模拟器，United 仍对 agent 关上门：接入层比模型层更卡",
+  "headline_short": "29,684 次提交换来官方模拟器，United 仍对 ",
+  "lead": "29,684 次提交堆出的 aws-emulator 由官方给出本地服务克隆，United 却禁止 AI agent 代订机票（HN 162 分、150 评论）；同日 Pomerado 以 YC F26 身份把任意网站转成 MCP，Fractile 拿 $720M 挤进专用 AI 芯片赛道。今日张力是：接入层被资本与工具同时加速，却被服务方按下权限闸门。",
+  "generated_at": "2026-11-11T22:57:12.685301Z",
   "themes": [
     {
-      "title": "降价入场，成本账却没变简单",
-      "why": "$2/$10 的单价让联网推理档第一次可以进成本模型，但 2,100 tokens/s 只有单一实测；CoreWeave 168% 营收增长仍伴 $709M 亏损，说明供给侧的单价下降尚未传导到利润表。",
+      "title": "Agent 卡在接入权限，不在模型",
+      "why": "United 直接关闭代订入口，Pomerado 反过来把网站封装成确定性 MCP，aws-emulator 用本地克隆绕开付费凭据；三处动作都发生在接入层，而非模型能力侧。",
       "cluster_ids": [
-        "096f075e11080075",
-        "3e1919c777ea2db3",
-        "fda2777d68cef54d"
+        "645f1651bd53c9c8",
+        "71cb7085c6189427",
+        "53d5cdba12bea358"
       ],
       "verified_by": 3
     },
     {
-      "title": "Agent 的短板在记忆与工具契约",
-      "why": "Graphon 用 $35M 做跨 docs、videos、images 的连接，CS 329Z 把工具调用与任务编排独立成讲，本地 2 台 Sparks 加 hermes agent 的 harness 也在算投入产出；三者都指向上下文与契约，而不是模型选型。",
+      "title": "工具契约要写清失败与授权",
+      "why": "自愈 API、准入拒绝与显式标注 [no ai] 的版本说明，本质都在补『谁授权、失败怎么办』，而不是新增能力；契约字段比工具数量更决定可用性。",
       "cluster_ids": [
-        "7c2ab083f460ca73",
-        "e8c5a09b311ad300",
-        "40bd82e68c624de0"
+        "71cb7085c6189427",
+        "645f1651bd53c9c8",
+        "8e8c59556028c219"
       ],
       "verified_by": 3
     },
     {
-      "title": "版本号里藏着要回归的调用约定",
-      "why": "v0.40.17 改了 CLI 重启与集显 mmap，Blender 5.3 引入 Gaussian Splat，Dependabot 自 December 8, 2026 起按活跃度关闭告警；三处都是行为变更，只盯版本号会漏掉回归点。",
+      "title": "可复现性被写成硬门槛",
+      "why": "20 个确定性任务配同一套提示词、full validation 下才谈更快、官方模拟器供本地测试；三者都把测试条件写进结论，而不是只报一个吞吐数字。",
       "cluster_ids": [
-        "e9d10d6fe9a8158c",
-        "92b8883870aedc23",
-        "b7cb9f6e519263ef"
+        "88494da4c56beb64",
+        "5457d31dcad4910e",
+        "53d5cdba12bea358"
       ],
       "verified_by": 3
     },
     {
-      "title": "算力需求真实，利润仍在路上",
-      "why": "CoreWeave 的 $132.5B 积压与 168% 增速证明需求，OpenAI 向投资人披露 Q3 增 50% 至约 $10B，但 10-year 收益率回到 5% 抬高了长期算力资产的折现率，是同日的反向指标。",
+      "title": "小版本里藏着要回归的行为",
+      "why": "0.2 与 0.2.1 的差别、v1.4.0.9 的修复重构、Decision 1 固定三类输出，都是调用约定变化；只盯版本号会漏掉需要回归的那一行。",
       "cluster_ids": [
-        "fda2777d68cef54d",
-        "d605c96308d9f397",
-        "8625966f767db0d2"
+        "5457d31dcad4910e",
+        "8e8c59556028c219",
+        "624a305adfa41ec6"
       ],
       "verified_by": 3
     },
     {
-      "title": "资本给 Agent 胶水层单独定价",
-      "why": "$35M 投跨模态记忆、$27.5 million 投 AI 制药、$25M 投自测试网站，三笔都不是基座模型，而是把检索、仿真、验证闭环做成独立层的中间设施。",
+      "title": "算力的钱流向专用与端侧",
+      "why": "$720M 投专用 AI 芯片、8GB RAM 上对标每月 $50-200 的商用方案、每月 100 美元订阅档，成本结构正从通用云侧向专用芯片与端侧分摊。",
       "cluster_ids": [
-        "7c2ab083f460ca73",
-        "fe7c43dd8a50381b",
-        "0728147b6a369003"
+        "6f3c74a04fea158f",
+        "4f325e87353de30b",
+        "4ca7aee3cb7d2f9b"
       ],
       "verified_by": 3
     },
     {
-      "title": "极小的改动也能撬动大模型",
-      "why": "零化少于 0.05% 权重即可匹配全量微调，weight-space-programming 在 9x9 围棋网络与 Qwen3-0.6B 上被讨论，SIMCO 用 9 种药物与 2.18 亿白细胞做仿真；成本压缩正从数据侧转向结构侧。",
+      "title": "物理场景开始给真实读数",
+      "why": "耕深超 30 厘米与 11.8km/h、8GB RAM 上的多模态检测、$999 的硬件定价，三者都给出可核对的量级，而不是『效果显著』这类形容词。",
       "cluster_ids": [
-        "7bcb98eb0c6b42b7-c",
-        "faef9281aef0f1c0",
-        "4f689bfc393cdb60"
+        "1a98b3ef3c0bae51",
+        "4f325e87353de30b",
+        "642481bfe9c3357a"
       ],
       "verified_by": 3
     },
     {
-      "title": "工具链适配比榜单更决定可用性",
-      "why": "llm-gemini 0.36 在开放当天接住新模型，ollama v0.40.17 同步改运行时路径，而 coding agent 若仍按 ~2019 的 JavaScript 生成代码，会把 50 行依赖与焦点管理缺陷批量复制进产品。",
+      "title": "社区热度不等于可用性",
+      "why": "162 分与 150 条讨论的是被封禁的入口，39 分的是刚发布的接入工具，而 20 任务基准才真正给出可比口径；热度与可判定性是两件事。",
       "cluster_ids": [
-        "096f075e11080075",
-        "e9d10d6fe9a8158c",
-        "5175b6a2b765750a"
+        "645f1651bd53c9c8",
+        "71cb7085c6189427",
+        "88494da4c56beb64"
       ],
       "verified_by": 3
     }
@@ -82,98 +82,93 @@
       "label": "模型与研究",
       "items": [
         {
-          "id": "096f075e11080075",
-          "title": "llm-gemini 0.36",
-          "url": "https://simonwillison.net/2026/Nov/10/llm-gemini",
-          "source": "Simon Willison's Weblog",
-          "published_at": "2026-11-10T20:09:44Z",
-          "score": 77.52,
+          "id": "4ca7aee3cb7d2f9b",
+          "title": "Gemini 4 Carbon连夜上桌！力压Fable 5.2花费仅一半，还挖出了PHP同级漏洞…",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw%3D%3D&mid=2247942861&idx=1&sn=41d0336965ce7b66565918f5d29e0dd8&chksm=e9f26d6615223de84b0445235e0ab28ed341a882ea76a8605119f697ddc73487dd4166ea0227&scene=0&xtrack=1",
+          "source": "智源社区 · 最新分享（匿名 API）",
+          "published_at": "2026-11-11T22:30:00Z",
+          "score": 80.86,
           "category": "ai-models",
-          "cluster_id": "096f075e11080075",
-          "summary": "Release: llm-gemini 0.36 Gemini 4 Carbon was announced two weeks ago for \"a subset of cyber defenders\", but today it's available to everyone else. This is Google's best ever Gemini, priced at $2/million input and $10/million output at launch (that's GPT-6.1 Sol / Claude Sonnet 5.5 prices) but schedu",
-          "why_matters": "两周前只给 cyber defenders 子集，如今开放且可被命令行调用；可用性的变化比模型评分更影响接入决策。",
-          "fact_anchor": "llm-gemini 0.36 发布，Gemini 4 Carbon 从限定人群开放至所有人，输入 $2、输出 $10 每百万 token",
+          "cluster_id": "4ca7aee3cb7d2f9b",
+          "summary": "安全、AI｜谷歌正式上线Gemini 4 Carbon模型API，并向每月100美元的Ultra订阅用户开放。该模型被定位为对标Claude Opus 5.5与GPT-6 Astra的旗舰级AI，旨在重夺大模型竞争主动权。目前可实际体验，谷歌已用其分析阿波罗登月舱案例，验证能力。",
+          "why_matters": "定价以每月订阅档而非按量公开，说明旗舰能力先做可得性分层；对标对象写进摘要而非跑分，比较口径尚不可核验。",
+          "fact_anchor": "谷歌上线 Gemini 4 Carbon 模型 API，向每月 100 美元 Ultra 订阅用户开放，摘要称其对标 Claude Opus 5.5 与 GPT-6 Astra",
           "numbers": [
-            "0.36",
-            "$2",
-            "$10"
+            "100美元",
+            "5.5",
+            "5.2"
           ],
           "entities": [
-            "llm-gemini",
+            "谷歌",
             "Gemini 4 Carbon",
-            "Google",
-            "GPT-6.1"
+            "Claude Opus 5.5",
+            "GPT-6 Astra",
+            "Ultra"
           ],
           "evidence_urls": [
-            "https://simonwillison.net/2026/Nov/10/llm-gemini"
+            "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw%3D%3D&mid=2247942861&idx=1&sn=41d0336965ce7b66565918f5d29e0dd8&chksm=e9f26d6615223de84b0445235e0ab28ed341a882ea76a8605119f697ddc73487dd4166ea0227&scene=0&xtrack=1"
           ],
-          "impact": "对 WorkBuddy 模型路由与 skill 调用有直接影响：可把联网推理档纳入候选，但需按 $2/$10 单价核算长任务预算。",
-          "next_action": "用同一 10 条提示词跑 llm-gemini 0.36，若返回完整率 ≥9/10 且单价核算不超预算，才纳入默认路由。",
+          "impact": "对 WorkBuddy 模型路由与 skill 调用暂无直接影响：单一匿名来源、无公开评测集，不能据此调整默认档，仅记录为供给侧可得性变化。",
+          "next_action": "等官方模型卡或 API 文档，若 100 美元档与 5.5 / 5.2 的对标结论同时被一手来源确认，才写入候选路由表。",
           "signal_type": "release",
-          "confidence": "fact"
+          "confidence": "unverified"
         },
         {
-          "id": "e8c5a09b311ad300",
-          "title": "课程 | 2026年斯坦福CS 329Z《Agent工程》| 第6讲：Agent 设计模式与脚手架",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzU4NTQyNjc5Mg%3D%3D&mid=2247499027&idx=1&sn=f2db4105ce173f26380aa00320a4fc51&chksm=fc521d0df4c7db69372ce4e073ca3c75a3079b78cca2e13c063e3f5cf3997a432220ad81f078&scene=0&xtrack=1",
-          "source": "智源社区 · 最新分享（匿名 API）",
-          "published_at": "2026-11-10T12:10:00Z",
-          "score": 77.55,
+          "id": "88494da4c56beb64",
+          "title": "How an LLM Benchmark Produces Comparable Numbers: Inside LFORLA's LLM Evaluation",
+          "url": "https://dev.to/resk/how-an-llm-benchmark-produces-comparable-numbers-inside-lforlas-llm-evaluation-47o5",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-11T10:00:42.952000Z",
+          "score": 74.92,
           "category": "ai-models",
-          "cluster_id": "e8c5a09b311ad300",
-          "summary": "多模态、Agent、生成模型｜2026年斯坦福CS 329Z《Agent工程》系列课程涵盖Agent开发核心内容：第2讲讲解面向开发者的LLM基础原理；第3讲聚焦检索增强生成（RAG）技术，提升模型知识时效性与准确性；第4讲深入工具调用机制，实现Agent与外部系统交互；第5讲探讨框架选型与任务编排策略，支撑复杂多步推理与协作。课程体系强调工程实践与前沿方法结合，旨在培养构建可靠、可扩展智能体系统的能力。",
-          "why_matters": "课程把工具调用与任务编排独立成讲，说明 Agent 工程的难点已从模型能力转到与外部系统的交互契约。",
-          "fact_anchor": "斯坦福 CS 329Z《Agent工程》放出第6讲 Agent 设计模式与脚手架，前几讲依次覆盖 LLM 基础、RAG 与工具调用",
+          "cluster_id": "88494da4c56beb64",
+          "summary": "TL;DR: LFORLA's Capability Retention benchmark runs 20 deterministic tasks through every model with identical prompts, scores them with… 〔Folo分类:开源项目〕",
+          "why_matters": "把确定性任务与统一提示词当成可比性前提，等于承认榜单差异多来自评测口径而非模型本身。",
+          "fact_anchor": "LFORLA 的 Capability Retention 基准用 20 个确定性任务、同一套提示词跑每个模型，讨论如何让评测数字可比",
           "numbers": [
-            "CS 329Z",
-            "第6讲",
-            "第2讲",
-            "第3讲"
+            "20"
           ],
           "entities": [
-            "斯坦福",
-            "Agent工程",
-            "RAG",
+            "LFORLA",
+            "Capability Retention",
             "LLM"
           ],
           "evidence_urls": [
-            "https://mp.weixin.qq.com/s?__biz=MzU4NTQyNjc5Mg%3D%3D&mid=2247499027&idx=1&sn=f2db4105ce173f26380aa00320a4fc51&chksm=fc521d0df4c7db69372ce4e073ca3c75a3079b78cca2e13c063e3f5cf3997a432220ad81f078&scene=0&xtrack=1"
+            "https://dev.to/resk/how-an-llm-benchmark-produces-comparable-numbers-inside-lforlas-llm-evaluation-47o5"
           ],
-          "impact": "对 MCP / A2A 与 skill 设计有直接参考价值：第4讲的工具调用边界可对照当前 connector 契约逐条核对。",
-          "next_action": "对照第4讲与第5讲清单逐项自查，若工具描述、错误回退、编排幂等三项均覆盖，判定现有契约合格。",
-          "signal_type": "tutorial",
+          "impact": "对 automation 与 skill 评测有直接影响：现有回归集应固化提示词版本与任务数，否则跨日结果不可比。",
+          "next_action": "固化同一组 20 条提示词跑 3 轮，若三轮得分极差 <2 个百分点，判定该回归集可作为跨版本基线。",
+          "signal_type": "research",
           "confidence": "fact"
         },
         {
-          "id": "faef9281aef0f1c0",
-          "title": "Claude Fable 5.2 can do \"weight-space-programming\" about as well as GPT-6 Astra",
-          "url": "https://www.lesswrong.com/posts/wg3K6xFFTdM6RmRgn/claude-fable-5-2-can-do-weight-space-programming-about-as",
-          "source": "LessWrong",
-          "published_at": "2026-11-10T18:06:06Z",
-          "score": 72.82,
-          "category": "agent-engineering",
-          "cluster_id": "faef9281aef0f1c0",
-          "summary": "Recently this paper demonstrated that GPT-6 Astra was capable of a bunch of low-level operations on neural networks, including improving Qwen3-0.6B's ability on some math benchmarks and writing some networks to play 9x9 Go from scratch. Since the authors released nearly all of their prompts, the net",
-          "why_matters": "能力比较落在直接改权重而非提示词；若可复现，模型定制的成本结构会从训练数据转向权重编辑。",
-          "fact_anchor": "论文演示 GPT-6 Astra 对神经网络做底层操作，讨论称 Claude Fable 5.2 具备相近的 weight-space-programming 能力",
+          "id": "624a305adfa41ec6",
+          "title": "Gemini Decisions API",
+          "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api",
+          "source": "Simon Willison's Weblog",
+          "published_at": "2026-11-11T22:03:25Z",
+          "score": 77.32,
+          "category": "ai-models",
+          "cluster_id": "624a305adfa41ec6",
+          "summary": "Gemini Decisions API Google join Jev and OpenAI in the decision model category with \"Gemini Decision 1\". This new model API is almost identical to Jev: it supports the same three types of questions (yes/no, choice, and rubric-scoring) and even reuses Jev's term \"Noul\" for a yes/no question. It's pri",
+          "why_matters": "把问答式模型收窄成三类固定输出，等于用输出契约换可判定性，比自由文本更适合写断言。",
+          "fact_anchor": "Google 以 Gemini Decision 1 加入决策模型类别，支持与 Jev 相同的三类问题（yes/no、choice、rubric-scoring）",
           "numbers": [
-            "5.2",
-            "9x9",
-            "0.6B"
+            "Gemini Decision 1"
           ],
           "entities": [
-            "Claude Fable 5.2",
-            "GPT-6 Astra",
-            "Qwen3-0.6B",
-            "weight-space-programming"
+            "Gemini Decisions API",
+            "Google",
+            "Jev",
+            "OpenAI"
           ],
           "evidence_urls": [
-            "https://www.lesswrong.com/posts/wg3K6xFFTdM6RmRgn/claude-fable-5-2-can-do-weight-space-programming-about-as"
+            "https://simonwillison.net/2026/Nov/11/gemini-decisions-api"
           ],
-          "impact": "对 skill 与 agent 部署暂无直接影响：权重级改动需要可复现的评测集，当前只有单篇讨论，不构成接入依据。",
-          "next_action": "在同一数学基准复跑 3 组权重编辑，若 Qwen3-0.6B 提升可重复且无回归，才判定该路径值得评估。",
-          "signal_type": "research",
-          "confidence": "unverified"
+          "impact": "对 WorkBuddy 的 automation 判定环节有直接参考：固定三类输出可对照现有核验闸门，减少解析歧义。",
+          "next_action": "用 20 条已知答案的判定题跑该 API，若三类输出格式 20/20 合法且结论与人工标注一致 ≥18 条，判定可进核验链路。",
+          "signal_type": "release",
+          "confidence": "fact"
         }
       ]
     },
@@ -182,63 +177,60 @@
       "label": "Agent 与工程",
       "items": [
         {
-          "id": "7c2ab083f460ca73",
-          "title": "Graphon, which wants to resolve AI agent memory limitations by mapping connections across docs, videos, and images, raised a $35M Series A led by RRE Ventures (Shubhangi Goel/Business Insider)",
-          "url": "https://www.techmeme.com/261110/p49",
-          "source": "Techmeme",
-          "published_at": "2026-11-10T20:25:16Z",
-          "score": 72.29,
+          "id": "53d5cdba12bea358",
+          "title": "aws-emulator",
+          "url": "https://simonwillison.net/2026/Nov/11/aws-emulator",
+          "source": "Simon Willison's Weblog",
+          "published_at": "2026-11-11T21:18:30Z",
+          "score": 78.37,
           "category": "agent-engineering",
-          "cluster_id": "7c2ab083f460ca73",
-          "summary": "Shubhangi Goel / Business Insider: Graphon, which wants to resolve AI agent memory limitations by mapping connections across docs, videos, and images, raised a $35M Series A led by RRE Ventures — AI agents can write code, search databases, and carry out multistep tasks. But they can still lose track",
-          "why_matters": "资本把记忆当作独立基础设施层定价而非模型附带能力，说明跨模态索引已是 agent 落地的显性瓶颈。",
-          "fact_anchor": "Graphon 以跨 docs、videos、images 建立连接来补 AI agent 记忆短板，获 RRE Ventures 领投的 $35M Series A",
+          "cluster_id": "53d5cdba12bea358",
+          "summary": "aws-emulator Finally, an official emulator from AWS to run tests against a local clone of their many different services without having to provision a paid API key to do so. It's written in Rust by a huge swarm of agents - 29,684 commits in the first three weeks of the project. Swaminathan (Swami) Si",
+          "why_matters": "官方模拟器把集成测试从付费凭据里解耦，29,684 次提交也把 agent 群写代码放到可审计的规模上。",
+          "fact_anchor": "AWS 推出官方 aws-emulator，可在本地克隆其多项服务跑测试而无需付费 API key，Rust 代码由 agent 群写出 29,684 次提交",
           "numbers": [
-            "$35M"
+            "29,684"
           ],
           "entities": [
-            "Graphon",
-            "RRE Ventures",
-            "Business Insider"
+            "aws-emulator",
+            "AWS",
+            "Rust"
           ],
           "evidence_urls": [
-            "https://www.techmeme.com/261110/p49"
+            "https://simonwillison.net/2026/Nov/11/aws-emulator"
           ],
-          "impact": "对 agent 部署与数据基建有直接影响：多模态记忆需要可回溯引用链，现有 skill 上下文管理应补来源字段。",
-          "next_action": "给现有记忆表加来源与时间戳两项，若跨 3 类素材检索命中率 ≥80%，才判定可替换现有上下文拼接。",
-          "signal_type": "funding",
+          "impact": "对 automation 与 agent 部署有直接影响：本地服务克隆可作为 CI 依赖替代项，减少无人值守链路对外部凭据的依赖。",
+          "next_action": "把 1 条现有 AWS 集成用例迁到本地克隆跑 10 次，若 10/10 通过且全程无需 API key，判定可替换云端联调。",
+          "signal_type": "release",
           "confidence": "fact"
         },
         {
-          "id": "40bd82e68c624de0",
-          "title": "My AI is lazier than me",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xsytlk/my_ai_is_lazier_than_me",
-          "source": "r/LocalLLaMA",
-          "published_at": "2026-11-10T21:11:05Z",
-          "score": 71.52,
+          "id": "645f1651bd53c9c8",
+          "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+          "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights",
+          "source": "HN Algolia front_page (points/comments)",
+          "published_at": "2026-11-11T21:24:35Z",
+          "score": 78.37,
           "category": "agent-engineering",
-          "cluster_id": "40bd82e68c624de0",
-          "summary": "Let's start with my setup: I have 2 Sparks running glm 5.3 flash, and the harness is hermes agent running on a MacBook Air. While trying to justify all the money I spent (around 6500 euro for both machines, a long time ago when prices were just high instead of outrageous), I decided to hop on the de",
-          "why_matters": "这是少见的把 hermes agent 作为本地编排 harness 的一手配置记录，硬件成本与模型体感被同时量化。",
-          "fact_anchor": "一位 LocalLLaMA 用户用 2 台 Sparks 跑 glm 5.3 flash、以 hermes agent 作 harness，吐槽约 6500 euro 双机投入",
+          "cluster_id": "645f1651bd53c9c8",
+          "summary": "",
+          "why_matters": "服务方直接关闭代订入口，说明 agent 落地的阻力先出现在被调系统的准入侧，而不是模型能力侧。",
+          "fact_anchor": "United Airlines 禁止 AI agent 代替旅客订票，HN 条目获 162 分与 150 条评论",
           "numbers": [
-            "2",
-            "5.3",
-            "6500"
+            "162",
+            "150"
           ],
           "entities": [
-            "glm 5.3 flash",
-            "hermes agent",
-            "MacBook Air",
-            "Sparks"
+            "United Airlines",
+            "AI agents"
           ],
           "evidence_urls": [
-            "https://www.reddit.com/r/LocalLLaMA/comments/1xsytlk/my_ai_is_lazier_than_me"
+            "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights"
           ],
-          "impact": "对 hermes-agent 部署有直接参考：多机加 MacBook 的编排需验证任务分发是否真的落到两台机器。",
-          "next_action": "在同一 harness 跑 20 次并发任务，若两台 Sparks 负载差 <20% 且无排队超时，判定分发有效。",
-          "signal_type": "opinion",
-          "confidence": "unverified"
+          "impact": "对 MCP / A2A 与 connector 设计有直接影响：外部系统授权应写成显式失败分支，不能假设拿到凭证即可调用。",
+          "next_action": "在现有 connector 里模拟 403 / 需人工确认 / 限流 3 类拒绝响应，若 3/3 都落到可回滚状态，判定准入分支合格。",
+          "signal_type": "incident",
+          "confidence": "fact"
         }
       ]
     },
@@ -247,154 +239,102 @@
       "label": "开发者工具与版本",
       "items": [
         {
-          "id": "e9d10d6fe9a8158c",
-          "title": "v0.40.17",
-          "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc0",
-          "source": "ollama Releases",
-          "published_at": "2026-11-10T22:25:00Z",
-          "score": 79.65,
+          "id": "4f325e87353de30b",
+          "title": "How I Built an Arabic-First Shoplifting Detector with YOLOv8 and Qwen2-VL (on 8GB RAM)",
+          "url": "https://dev.to/ahmad_anas_0edb1a3236362e/how-i-built-an-arabic-first-shoplifting-detector-with-yolov8-and-qwen2-vl-on-8gb-ram-1i40",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-11T21:53:14.752000Z",
+          "score": 78.8,
           "category": "dev-tools",
-          "cluster_id": "e9d10d6fe9a8158c",
-          "summary": "What's Changed Improve ChatGPT CLI restore and graceful restart by @hoyyeva in #19583 cmd/launch: use thinking metadata for OpenCode settings by @hoyyeva in #19409 llm: use mmap for Vulkan integrated GPUs by @dhiltgen in #19640 rpreslar4765/Ollama by @rpreslar4765 in #17163 mlx: support concurrent g",
-          "why_matters": "三个改动都落在启动与推理路径而非新模型，CLI 优雅重启与集显 mmap 直接决定本地服务能否无人值守常驻。",
-          "fact_anchor": "Ollama v0.40.17 预发布合入 ChatGPT CLI 恢复与优雅重启、OpenCode thinking metadata 与 Vulkan 集显 mmap 改动",
+          "cluster_id": "4f325e87353de30b",
+          "summary": "Retail theft costs small stores 2-3% of annual revenue. Existing AI solutions (Everseen, Veesion) cost $50-200/month and don't support… 〔Folo分类:开源项目〕",
+          "why_matters": "把 2-3% 的年营收损耗与每月 $50-200 的替代成本并排给出，量化了端侧自建方案的动机。",
+          "fact_anchor": "作者用 YOLOv8 与 Qwen2-VL 在 8GB RAM 上搭阿拉伯语优先的盗窃检测，对标每月 $50-200 的商用方案",
           "numbers": [
-            "v0.40.17",
-            "#19583",
-            "#19409",
-            "#19640"
+            "YOLOv8",
+            "Qwen2-VL",
+            "8GB",
+            "2-3%",
+            "$50-200"
           ],
           "entities": [
-            "ChatGPT CLI",
-            "OpenCode",
-            "Vulkan",
-            "Ollama"
+            "YOLOv8",
+            "Qwen2-VL",
+            "Everseen",
+            "Veesion"
           ],
           "evidence_urls": [
-            "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc0"
+            "https://dev.to/ahmad_anas_0edb1a3236362e/how-i-built-an-arabic-first-shoplifting-detector-with-yolov8-and-qwen2-vl-on-8gb-ram-1i40"
           ],
-          "impact": "对 automation 与本地 agent 运行时有直接影响：常驻推理服务升级前需回归 CLI 重启与 GPU 内存映射路径。",
-          "next_action": "升级后跑 10 次 CLI 中断重启，若 ≥9 次恢复会话且集显显存占用不升，判定可替换现有版本。",
-          "signal_type": "release",
+          "impact": "对端侧 agent 部署有参考：8GB RAM 是明确的硬件门槛，可据此判断本地多模态推理是否值得替换现有云侧调用。",
+          "next_action": "在 8GB 机器上跑 100 帧回归，若误报率低于现有云侧方案且单帧耗时 <200ms，判定可进本地候选。",
+          "signal_type": "tutorial",
           "confidence": "fact"
         },
         {
-          "id": "92b8883870aedc23",
-          "title": "Blender 5.3 released with Gaussian Splat support",
-          "url": "https://www.blender.org/download/releases/5-3",
-          "source": "HN Algolia front_page (points/comments)",
-          "published_at": "2026-11-10T16:15:43Z",
-          "score": 76.11,
+          "id": "8e8c59556028c219",
+          "title": "[no ai] Release QoL Improvements, Fixes & Refactors v1.4.0.9 · DCTS (decentralized chat platform)",
+          "url": "https://www.reddit.com/r/opensource/comments/1xtsygi/no_ai_release_qol_improvements_fixes_refactors",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-11T20:38:08.455000Z",
+          "score": 77.89,
           "category": "dev-tools",
-          "cluster_id": "92b8883870aedc23",
-          "summary": "",
-          "why_matters": "Gaussian Splat 进入主流 DCC 工具，意味着 3D 资产管线从网格扩展到辐射场表示，导出与版本管理都要跟着改。",
-          "fact_anchor": "Blender 5.3 发布并加入 Gaussian Splat 支持，HN 条目获 385 分",
+          "cluster_id": "8e8c59556028c219",
+          "summary": "submitted by /u/HackTheDev [link] [comments] 〔Folo分类:开源项目〕",
+          "why_matters": "显式声明无 AI 参与开发，把生成式工具的使用边界变成版本发布信息的一部分，是少见的可用来源标注。",
+          "fact_anchor": "DCTS 去中心化聊天平台发布 v1.4.0.9，标注为体验改进、修复与重构，并在标题显式打出 [no ai] 标签",
           "numbers": [
-            "5.3",
-            "385"
+            "v1.4.0.9"
           ],
           "entities": [
-            "Blender",
-            "Gaussian Splat"
+            "DCTS",
+            "decentralized chat platform",
+            "HackTheDev"
           ],
           "evidence_urls": [
-            "https://www.blender.org/download/releases/5-3"
+            "https://www.reddit.com/r/opensource/comments/1xtsygi/no_ai_release_qol_improvements_fixes_refactors"
           ],
-          "impact": "对 3D 资产生成链路有直接影响：需确认生成的 Splat 数据能否在 5.3 里直接导入并转存。",
-          "next_action": "导入 1 个 Splat 场景做往返测试，若 5.3 能无损导出且渲染无报错，判定可纳入资产流程。",
+          "impact": "对 skill 与 automation 暂无直接影响；但把 AI 使用写进发布说明的做法可借鉴到产物溯源字段。",
+          "next_action": "对照其 changelog 逐条核对 10 项改动，若 ≥8 项能定位到具体提交，判定 [no ai] 标注可引用。",
           "signal_type": "release",
-          "confidence": "fact"
-        },
-        {
-          "id": "b7cb9f6e519263ef",
-          "title": "Dependabot alerts will pause on inactive repositories",
-          "url": "https://github.blog/changelog/2026-11-10-dependabot-alerts-will-pause-on-inactive-repositories",
-          "source": "GitHub Changelog",
-          "published_at": "2026-11-10T14:20:05Z",
-          "score": 72.3,
-          "category": "dev-tools",
-          "cluster_id": "b7cb9f6e519263ef",
-          "summary": "Starting December 8, 2026, GitHub will turn off Dependabot alerts on most repositories with no activity in the past year. Their existing alerts are archived, not deleted, and you can… The post Dependabot alerts will pause on inactive repositories appeared first on The GitHub Blog.",
-          "why_matters": "告警从持续在线变成按活跃度开关，归档仓库的安全债会被静默隐藏而不是被修复。",
-          "fact_anchor": "GitHub 宣布自 December 8, 2026 起对过去一年无活动的大多数仓库关闭 Dependabot 告警，既有告警归档不删除",
-          "numbers": [
-            "December 8, 2026"
-          ],
-          "entities": [
-            "Dependabot",
-            "GitHub"
-          ],
-          "evidence_urls": [
-            "https://github.blog/changelog/2026-11-10-dependabot-alerts-will-pause-on-inactive-repositories"
-          ],
-          "impact": "对 automation 与仓库数据基建有直接影响：无人值守的依赖巡检不能把 Dependabot 告警当唯一信号。",
-          "next_action": "在 December 8, 2026 前导出归档仓库清单，若无活动但仍在部署的仓库 ≥1 个，则补独立扫描任务。",
-          "signal_type": "docs-change",
           "confidence": "fact"
         }
       ]
     },
     {
-      "key": "research-papers",
-      "label": "论文与学术",
+      "key": "docs-changelog",
+      "label": "文档与变更",
       "items": [
         {
-          "id": "7bcb98eb0c6b42b7-c",
-          "title": "The Surprising Effectiveness of Deleting Weights in LLM Post-Training",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xswmb7/the_surprising_effectiveness_of_deleting_weights",
-          "source": "r/LocalLLaMA",
-          "published_at": "2026-11-10T19:44:57Z",
-          "score": 67.51,
-          "category": "ai-models",
-          "cluster_id": "7bcb98eb0c6b42b7-c",
-          "summary": "How little of a pretrained large language model (LLM) has to change for it to acquire new capabilities? We find that zeroing fewer than 0.05% of its weights, with no other modification, matches full fine-tuning (FFT) at scale across three LLM post-training regimes: reinforcement learning with verifi",
-          "why_matters": "若结论可复现，后训练的资源门槛会从全量微调降到极小权重子集，改变模型定制的成本模型。",
-          "fact_anchor": "arXiv 论文《The Surprising Effectiveness of Deleting Weights in LLM Post-Training》称零化少于 0.05% 权重即可匹配全量微调",
+          "id": "5457d31dcad4910e",
+          "title": "yolow64 0.2: a new decode kernel that beats Turbo-Base64 under full validation",
+          "url": "https://dev.to/yolow92/yolow64-02-a-new-decode-kernel-that-beats-turbo-base64-under-full-validation-55nn",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-11T15:32:02.218000Z",
+          "score": 76.21,
+          "category": "docs-changelog",
+          "cluster_id": "5457d31dcad4910e",
+          "summary": "yolow64 is the Base64 codec extracted from PageSift, published as 0.1 on Nov 9. Version 0.2 (plus a docs-only 0.2.1) is out, and the… 〔Folo分类:开源项目〕",
+          "why_matters": "把 full validation 写进对比条件，说明性能结论依赖校验强度；只比吞吐不看校验会误判解码内核。",
+          "fact_anchor": "yolow64 0.2 发布新解码内核，声称在完整校验下优于 Turbo-Base64，0.2.1 为仅改文档的版本",
           "numbers": [
-            "0.05%"
+            "0.2",
+            "0.1",
+            "0.2.1",
+            "Nov 9"
           ],
           "entities": [
-            "LLM",
-            "FFT"
+            "yolow64",
+            "Turbo-Base64",
+            "PageSift",
+            "Base64"
           ],
           "evidence_urls": [
-            "https://www.reddit.com/r/LocalLLaMA/comments/1xswmb7/the_surprising_effectiveness_of_deleting_weights",
-            "https://arxiv.org/abs/2611.10866"
+            "https://dev.to/yolow92/yolow64-02-a-new-decode-kernel-that-beats-turbo-base64-under-full-validation-55nn"
           ],
-          "impact": "对 skill 与 agent 部署暂无直接影响：结论只在三类后训练场景给出，未覆盖工具调用类任务。",
-          "next_action": "在自有评测集复现 3 次 0.05% 权重零化，若与 FFT 差距 <2 个百分点，才判定可用于轻量定制。",
-          "signal_type": "research",
-          "confidence": "fact"
-        },
-        {
-          "id": "4f689bfc393cdb60",
-          "title": "基于9种药物/2.18亿白细胞，斯坦福医学院发布单细胞级数字孪生系统SIMCO，助力早产预防药物开发",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzU3NTQ2NDIyOQ%3D%3D&mid=2247531296&idx=1&sn=93d9fcad3fd222953256c04854baec9a&chksm=fc42a1c45186425bbb8868ba7b72482d197ec949756406624b8ff7c93fd77bd8598ea0a7fb4a&scene=0&xtrack=1",
-          "source": "智源社区 · 最新分享（匿名 API）",
-          "published_at": "2026-11-10T12:20:00Z",
-          "score": 72.83,
-          "category": "research-papers",
-          "cluster_id": "4f689bfc393cdb60",
-          "summary": "智慧医疗、AI、数据库｜斯坦福医学院团队开发出AI驱动的单细胞级数字孪生系统SIMCO，可精准模拟母体免疫系统，用于测试预防早产的药物。该系统有望在临床试验中实现个性化治疗方案指导，提升早产干预的精准性与有效性。早产（妊娠＜37周）风险高、危害大，但目前缺乏针对性强、个体化程度高的预测与干预手段。SIMCO通过数字化重建患者特异性免疫微环境，为早产机制研究和药物筛选提供新范式。（150字）",
-          "why_matters": "数字孪生把药物筛选从真实试验前移到仿真层，2.18 亿白细胞是少数给出明确样本量级的公开读数。",
-          "fact_anchor": "斯坦福医学院发布单细胞级数字孪生系统 SIMCO，基于 9 种药物与 2.18 亿白细胞重建母体免疫微环境",
-          "numbers": [
-            "9种药物",
-            "2.18亿",
-            "37周"
-          ],
-          "entities": [
-            "SIMCO",
-            "斯坦福医学院",
-            "数字孪生"
-          ],
-          "evidence_urls": [
-            "https://mp.weixin.qq.com/s?__biz=MzU3NTQ2NDIyOQ%3D%3D&mid=2247531296&idx=1&sn=93d9fcad3fd222953256c04854baec9a&chksm=fc42a1c45186425bbb8868ba7b72482d197ec949756406624b8ff7c93fd77bd8598ea0a7fb4a&scene=0&xtrack=1"
-          ],
-          "impact": "对数据基建有间接影响：单细胞级仿真说明高基数结构化数据的版本与溯源设计仍是瓶颈。",
-          "next_action": "核对样本量与评测口径是否公开，若 9 种药物的仿真排序与实验一致 ≥7 种，判定结果可引用。",
-          "signal_type": "research",
+          "impact": "对数据基建与 automation 有间接影响：编解码是采集归一链路的底层依赖，升级前需回归校验路径而非只看基准数字。",
+          "next_action": "用同一份 10000 条样本跑 0.1 与 0.2，若开启完整校验后仍快 ≥10% 且解码结果全等，判定可升级。",
+          "signal_type": "release",
           "confidence": "fact"
         }
       ]
@@ -404,191 +344,37 @@
       "label": "深度长文",
       "items": [
         {
-          "id": "3e1919c777ea2db3",
-          "title": "NaiveAI Promises 2,100 Tokens per Second. How Well Does It Code?",
-          "url": "https://latent.space/p/naiveai",
-          "source": "Latent Space",
-          "published_at": "2026-11-10T18:56:32Z",
-          "score": 76.69,
+          "id": "1a98b3ef3c0bae51",
+          "title": "无人拖拉机真正下地了！新疆大田深翻30+厘米，丘沃智能开物™系统首次完整曝光",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw%3D%3D&mid=2247942861&idx=2&sn=32ea257fcc98924cf226b76eb6251ce8&chksm=e9224e5423abd74c754752ada7eaae4f23634588f52ab0f8674bc084b2211f2f90c522245433&scene=0&xtrack=1",
+          "source": "智源社区 · 最新分享（匿名 API）",
+          "published_at": "2026-11-11T22:20:00Z",
+          "score": 79.13,
           "category": "deep-read",
-          "cluster_id": "3e1919c777ea2db3",
-          "summary": "NaiveAI could potentially top Artificial Analysis’s speed rankings. Our hands-on test suggests its coding quality holds up against DeepSeek.",
-          "why_matters": "速度与编码质量被分开测：厂商只给吞吐承诺，独立测试才回答长任务里是否仍旧可用。",
-          "fact_anchor": "Latent Space 实测 NaiveAI，检验其 2,100 Tokens per Second 的速度承诺在编码任务上是否守住质量",
+          "cluster_id": "1a98b3ef3c0bae51",
+          "summary": "机器人、AI驾驶、AI｜丘沃智能携开物™ L4无人作业套件，首次在新疆芳草湖农场实现临工3004混动拖拉机无人深翻作业，耕深超30厘米、速度达11.8km/h；11月2日与卓品智能启动农具控制器及边缘域控深度合作，聚焦ISOBUS标准，布局全球农具控制器矩阵；首家直营旗舰店将于11月底落地新疆芳草湖农场，加速无人农机商业化落地。",
+          "why_matters": "少见地同时给出耕深与行进速度两项作业读数，把无人农机从演示视频推进到可核对的田间指标。",
+          "fact_anchor": "丘沃智能开物™ L4 无人作业套件在新疆芳草湖农场让临工 3004 混动拖拉机完成无人深翻，耕深超 30 厘米、速度 11.8km/h",
           "numbers": [
-            "2,100"
+            "30厘米",
+            "11.8km/h",
+            "3004",
+            "L4"
           ],
           "entities": [
-            "NaiveAI",
-            "Artificial Analysis",
-            "DeepSeek"
+            "丘沃智能",
+            "开物",
+            "临工3004",
+            "卓品智能",
+            "ISOBUS",
+            "新疆芳草湖农场"
           ],
           "evidence_urls": [
-            "https://latent.space/p/naiveai"
+            "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw%3D%3D&mid=2247942861&idx=2&sn=32ea257fcc98924cf226b76eb6251ce8&chksm=e9224e5423abd74c754752ada7eaae4f23634588f52ab0f8674bc084b2211f2f90c522245433&scene=0&xtrack=1"
           ],
-          "impact": "对 automation 的模型选型有直接影响：高吞吐只有在长提示词下不降质才值得替换现有执行档。",
-          "next_action": "用 10 个长提示词跑编码回归，若吞吐 ≥2,000 tokens/s 且通过率不低于现有档，判定可切换。",
-          "signal_type": "research",
-          "confidence": "fact"
-        }
-      ]
-    },
-    {
-      "key": "industry-capital",
-      "label": "产业与资本",
-      "items": [
-        {
-          "id": "d605c96308d9f397",
-          "title": "Source: OpenAI told investors on Tuesday that its revenue jumped 50% to around $10B in Q3, up from 17% growth in Q2 (The Information)",
-          "url": "https://www.techmeme.com/261110/p51",
-          "source": "Techmeme",
-          "published_at": "2026-11-10T21:22:07Z",
-          "score": 71.36,
-          "category": "industry-capital",
-          "cluster_id": "d605c96308d9f397",
-          "summary": "The Information: Source: OpenAI told investors on Tuesday that its revenue jumped 50% to around $10B in Q3, up from 17% growth in Q2 — OpenAI has told investors that revenue jumped nearly 50% to $10 billion in the third quarter, rebounding from a period of slower growth as demand for its more recent",
-          "why_matters": "增速从 17% 跳到 50% 是向投资人披露的口径而非经审计财报，数字用途应限定在趋势而非估值。",
-          "fact_anchor": "The Information 引述消息称 OpenAI 向投资人披露 Q3 营收增 50% 至约 $10B，Q2 增速为 17%",
-          "numbers": [
-            "50%",
-            "$10B",
-            "17%",
-            "Q3"
-          ],
-          "entities": [
-            "OpenAI",
-            "The Information"
-          ],
-          "evidence_urls": [
-            "https://www.techmeme.com/261110/p51"
-          ],
-          "impact": "对 WorkBuddy 侧模型采购预算暂无直接影响；仅作为 API 供给方产能扩张的间接信号。",
-          "next_action": "等一手财报或官方披露，若 50% 与 $10B 两项均被正式确认，才把它写入成本模型。",
-          "signal_type": "market-data",
-          "confidence": "unverified"
-        },
-        {
-          "id": "fe7c43dd8a50381b",
-          "title": "Proximal Ventures raises debut fund to back startups bringing AI to drug development",
-          "url": "https://techcrunch.com/2026/11/10/proximal-ventures-raises-debut-fund-to-back-startups-bringing-ai-to-drug-development",
-          "source": "TechCrunch Venture",
-          "published_at": "2026-11-10T20:47:05Z",
-          "score": 73.65,
-          "category": "industry-capital",
-          "cluster_id": "fe7c43dd8a50381b",
-          "summary": "Former SignalFire investor Sahir Raoof raises $27.5 million for new fund targeting AI in pharma.",
-          "why_matters": "首期基金规模不大但方向专一，说明 AI 制药仍靠专项资本而非平台级预算推动。",
-          "fact_anchor": "前 SignalFire 投资人 Sahir Raoof 为 Proximal Ventures 募得 $27.5 million 首期基金，投向 AI 制药",
-          "numbers": [
-            "$27.5"
-          ],
-          "entities": [
-            "Proximal Ventures",
-            "SignalFire",
-            "Sahir Raoof"
-          ],
-          "evidence_urls": [
-            "https://techcrunch.com/2026/11/10/proximal-ventures-raises-debut-fund-to-back-startups-bringing-ai-to-drug-development"
-          ],
-          "impact": "对数据基建暂无直接影响；可对照 SIMCO 一类仿真工作看资本是否流向可验证的样本量级。",
-          "next_action": "核对该基金前 3 笔投资是否披露评测口径，若 ≥2 笔给出可复现数据，判定方向成立。",
-          "signal_type": "funding",
-          "confidence": "fact"
-        },
-        {
-          "id": "0728147b6a369003",
-          "title": "Coframe, which uses AI to make websites that test and personalize themselves for each visitor, raised a $25M Series A, bringing its total funding to $35M (Ben Bergman/Business Insider)",
-          "url": "https://www.techmeme.com/261110/p55",
-          "source": "Techmeme",
-          "published_at": "2026-11-10T22:45:00Z",
-          "score": 72.39,
-          "category": "industry-capital",
-          "cluster_id": "0728147b6a369003",
-          "summary": "Ben Bergman / Business Insider: Coframe, which uses AI to make websites that test and personalize themselves for each visitor, raised a $25M Series A, bringing its total funding to $35M — Billionaire venture capitalist Vinod Khosla is betting the days of one-size-fits-all websites are numbered.",
-          "why_matters": "把 A/B 测试与个性化交给网站自身执行，等于把改动与验证的闭环做成产品而非运营流程。",
-          "fact_anchor": "Coframe 用 AI 生成可自测与按访客个性化的网站，获 $25M Series A，累计融资 $35M",
-          "numbers": [
-            "$25M",
-            "$35M"
-          ],
-          "entities": [
-            "Coframe",
-            "Business Insider",
-            "Vinod Khosla"
-          ],
-          "evidence_urls": [
-            "https://www.techmeme.com/261110/p55"
-          ],
-          "impact": "对 automation 有方法论参考：可验证闭环应内置阈值与回滚，而不是靠人工巡检判定效果。",
-          "next_action": "若其公开案例给出 ≥2 个可复现的转化率阈值与回滚条件，才判定该闭环值得借鉴。",
-          "signal_type": "funding",
-          "confidence": "fact"
-        }
-      ]
-    },
-    {
-      "key": "market-invest",
-      "label": "市场与投资",
-      "items": [
-        {
-          "id": "fda2777d68cef54d",
-          "title": "CoreWeave reports Q3 revenue up 168% YoY to $3.66B, vs. $3.55B est., a net loss of $709M, and a $132.5B revenue backlog, up from $104B as of June (Jordan Novet/CNBC)",
-          "url": "https://www.techmeme.com/261110/p53",
-          "source": "Techmeme",
-          "published_at": "2026-11-10T21:40:01Z",
-          "score": 73.18,
-          "category": "dev-tools",
-          "cluster_id": "fda2777d68cef54d",
-          "summary": "Jordan Novet / CNBC: CoreWeave reports Q3 revenue up 168% YoY to $3.66B, vs. $3.55B est., a net loss of $709M, and a $132.5B revenue backlog, up from $104B as of June — CoreWeave reported better-than-expected quarterly revenue and lifted its 2026 guidance on Tuesday, showing that demand for artifici",
-          "why_matters": "营收超预期与净亏损同时扩大，$132.5B 积压说明算力需求真实，但转化为利润仍需资本开支周期。",
-          "fact_anchor": "CNBC 报道 CoreWeave Q3 营收同比增 168% 至 $3.66B（预期 $3.55B），净亏损 $709M，订单积压 $132.5B",
-          "numbers": [
-            "168%",
-            "$3.66B",
-            "$3.55B",
-            "$709M",
-            "$132.5B"
-          ],
-          "entities": [
-            "CoreWeave",
-            "CNBC",
-            "Jordan Novet"
-          ],
-          "evidence_urls": [
-            "https://www.techmeme.com/261110/p53"
-          ],
-          "impact": "对数据基建与成本核算有间接影响：算力供给紧俏时，无人值守任务的预算阈值要按峰值单价重算。",
-          "next_action": "对照下一季财报，若净亏损收窄至 $500M 以下且积压仍 ≥$100B，判定规模效应开始兑现。",
-          "signal_type": "market-data",
-          "confidence": "fact"
-        },
-        {
-          "id": "8625966f767db0d2",
-          "title": "10-year Treasury yield races back to 5% as inflation data, Waller comments drive rate hike expectations",
-          "url": "https://www.cnbc.com/2026/11/10/us-bonds-treasurys-yields.html",
-          "source": "CNBC Markets",
-          "published_at": "2026-11-10T21:06:07Z",
-          "score": 71.66,
-          "category": "market-invest",
-          "cluster_id": "8625966f767db0d2",
-          "summary": "Treasury yields moved higher after a hotter-than-expected CPI report.",
-          "why_matters": "无风险利率抬升会抬高长期算力资产的折现率，是解释同日算力资本开支叙事的反向指标。",
-          "fact_anchor": "10-year Treasury 收益率回到 5%，CPI 高于预期与 Waller 表态推升加息预期",
-          "numbers": [
-            "10-year",
-            "5%"
-          ],
-          "entities": [
-            "Treasury",
-            "CPI",
-            "Waller"
-          ],
-          "evidence_urls": [
-            "https://www.cnbc.com/2026/11/10/us-bonds-treasurys-yields.html"
-          ],
-          "impact": "对数据基建预算暂无直接影响，但可作为评估长期算力合约成本时的外部宏观变量。",
-          "next_action": "若 10-year 连续 5 个交易日站稳 5% 以上，判定高利率情景需纳入明年预算假设。",
-          "signal_type": "market-data",
+          "impact": "对 WinVM 与数据基建暂无直接影响；但 L4 套件加边缘域控的架构可对照本地无人值守任务的容错设计。",
+          "next_action": "核对该作业是否有第三方测产报告，若 30 厘米耕深与 11.8km/h 在同一地块连续 3 天复现，判定指标可引用。",
+          "signal_type": "product",
           "confidence": "fact"
         }
       ]
@@ -598,131 +384,176 @@
       "label": "社区与观点",
       "items": [
         {
-          "id": "5175b6a2b765750a",
-          "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
-          "url": "https://github.com/GoogleChrome/modern-web-guidance",
+          "id": "71cb7085c6189427",
+          "title": "Launch HN: Pomerado (YC F26) – Turn any website into an MCP for agents",
+          "url": "https://news.ycombinator.com/item?id=50455811",
           "source": "HN Algolia front_page (points/comments)",
-          "published_at": "2026-11-10T18:01:15Z",
-          "score": 77.28,
+          "published_at": "2026-11-11T17:11:56Z",
+          "score": 76.29,
           "category": "community",
-          "cluster_id": "5175b6a2b765750a",
-          "summary": "Browsers natively handle a lot of what used to take 50 lines of JS (or a dependency): `CSS.highlights` for text range highlighting without s everywhere, `` and showModal() give you backdrops and ideal focus management, `field-sizing` to auto-grow textareas as the user types.. (Something yesterday's ",
-          "why_matters": "agent 生成的代码若停留在旧范式，会把依赖与焦点管理缺陷批量复制进产品；这是生成质量的输入侧问题。",
-          "fact_anchor": "HN 项目主张让 coding agent 用浏览器原生原语替代 ~2019 年那套 JavaScript，举例 50 行 JS 可被原生能力替代",
+          "cluster_id": "71cb7085c6189427",
+          "summary": "Hi HN, we’re Alan and Akshay from Pomerado (https://pomerado.ai/). We connect your agents to any website by turning sites into deterministic, self-healing APIs in minutes, fully self-serve.Agents are no longer limited by their intelligence, but rather by their ability to interact with systems. Airli",
+          "why_matters": "把网站封装成确定性 API 直指 agent 接入的稳定性问题，与同日服务方封禁 agent 形成正反两面。",
+          "fact_anchor": "Pomerado 以 YC F26 身份发布，把任意网站转成确定性、自愈的 API 供 agent 调用，强调瓶颈不在智能而在接入",
           "numbers": [
-            "~2019",
-            "50",
-            "205"
+            "F26",
+            "39",
+            "34"
           ],
           "entities": [
-            "JavaScript",
-            "CSS.highlights",
-            "showModal()",
-            "field-sizing"
+            "Pomerado",
+            "MCP",
+            "HN",
+            "Alan",
+            "Akshay"
           ],
           "evidence_urls": [
-            "https://github.com/GoogleChrome/modern-web-guidance"
+            "https://news.ycombinator.com/item?id=50455811"
           ],
-          "impact": "对 skill 与前端 automation 有直接影响：应把现代原语清单写进代码生成约束，减少无谓依赖。",
-          "next_action": "在生成模板中替换 3 处旧写法，若依赖数下降且焦点回归用例 10/10 通过，判定清单有效。",
-          "signal_type": "opinion",
+          "impact": "对 MCP 与 connector 落地有直接影响：自愈 API 的失败重试与版本漂移策略可对照现有 connector 契约逐条核对。",
+          "next_action": "选 3 个结构不同的站点跑封装，若 3/3 在页面改版后 24 小时内自愈成功，判定可进 connector 候选。",
+          "signal_type": "product",
+          "confidence": "fact"
+        },
+        {
+          "id": "642481bfe9c3357a",
+          "title": "Knit’s $999 Dolby Atmos soundbar comes wrapped in a woven sweater",
+          "url": "https://www.yankodesign.com/2026/11/11/knits-999-dolby-atmos-soundbar-comes-wrapped-in-a-woven-sweater",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-11T22:30:55.563000Z",
+          "score": 76.07,
+          "category": "community",
+          "cluster_id": "642481bfe9c3357a",
+          "summary": "Look under your TV right now. There’s a good chance a black plastic rectangle is sitting there, wearing a fine layer of dust and a logo you… 〔Folo分类:新奇产品〕",
+          "why_matters": "把材料与外观写成主要差异点，$999 的定价说明设计溢价被单独计价，而非声道或解码规格。",
+          "fact_anchor": "Knit 推出标价 $999 的 Dolby Atmos 音箱，用针织外套替代常见黑色塑料外壳",
+          "numbers": [
+            "$999"
+          ],
+          "entities": [
+            "Knit",
+            "Dolby Atmos"
+          ],
+          "evidence_urls": [
+            "https://www.yankodesign.com/2026/11/11/knits-999-dolby-atmos-soundbar-comes-wrapped-in-a-woven-sweater"
+          ],
+          "impact": "对 WinVM 与数据基建暂无直接影响；仅作为硬件消费品的定价参照，不改变现有采集与部署判断。",
+          "next_action": "核对该产品是否公开频响与声道实测，若 ≥2 项独立实测与宣传一致，才把 $999 记为可比规格档。",
+          "signal_type": "product",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "industry-capital",
+      "label": "产业与资本",
+      "items": [
+        {
+          "id": "6f3c74a04fea158f",
+          "title": "With $720M round, Britain’s Fractile gets a leg up in the race for AI chips",
+          "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-11T19:34:55.857000Z",
+          "score": 75.56,
+          "category": "industry-capital",
+          "cluster_id": "6f3c74a04fea158f",
+          "summary": "Fractile has now become one of the top-funded players in the race for purpose-built AI chips. 〔Folo分类:美、中、港投融资市场〕",
+          "why_matters": "资本继续为推理侧专用芯片单独定价，说明通用算力之外的成本优化仍是独立赛道。",
+          "fact_anchor": "英国 Fractile 完成 $720M 融资，进入专用 AI 芯片赛道的头部融资行列",
+          "numbers": [
+            "$720M"
+          ],
+          "entities": [
+            "Fractile",
+            "AI chips"
+          ],
+          "evidence_urls": [
+            "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips"
+          ],
+          "impact": "对数据基建预算暂无直接影响：无公开量产与单价数据，不能据此重算推理成本，仅记录供给侧资本动向。",
+          "next_action": "等其公布流片或量产节点，若给出每 TOPS 成本且低于现有云单价 20%，才纳入算力预算假设。",
+          "signal_type": "funding",
           "confidence": "fact"
         }
       ]
     }
   ],
-  "editor_note": "本期 173 个信源收进 10600 条、聚成 3180 簇，Folo 基线降级为 0 条，社区侧覆盖偏薄；按 v1.1 口径把无实质读数的簇挡在 sections 外，最终 17 条入报。三条判断落到工程动作。一是模型侧变的是可得性：llm-gemini 0.36 把 Gemini 4 Carbon 接进命令行，$2/$10 让联网推理档能进成本模型，但 2,100 tokens/s 只有单一实测，须跑同一组 10 条长提示词、通过率不低于现有档才切换。二是 Agent 瓶颈在记忆与工具契约：Graphon 用 $35M 做跨模态连接，CS 329Z 把工具调用与编排独立成讲；skill 与 MCP/A2A 的上下文要补齐来源、时间戳与幂等字段，跨 3 类素材命中率过 80% 再替换拼接逻辑。三是防静默降级：GitHub 自 December 8, 2026 起对无活动仓库关闭 Dependabot 告警且只归档不删除，ollama v0.40.17 改了 CLI 重启与集显 mmap；把 10 次中断重启 ≥9 次恢复、归档清单仍有部署中仓库 ≥1 个就补独立扫描写成断言。",
-  "brief": "2026-11-11 每日信息 · 17 条入报 / 8 板块 / 7 主题 / 5 个待验证信号。\n信源 173/185 可用，原始 10600 条 → 归一 3240 条 → 3180 簇 → 入选 40 簇；Folo 基线降级 0 条。\n\n导语：168% 的同比营收增长伴随 $709M 净亏损，CoreWeave 把 $132.5B 订单积压写进 Q3；同日 llm-gemini 0.36 以 $2/$10 每百万 token 接入 Gemini 4 Carbon，Graphon 拿 $35M 补 Agent 记忆，2,100 tokens/s 的承诺仍待独立复测。\n\n模型与研究：llm-gemini 0.36 让 Gemini 4 Carbon 从限定人群开放到所有人；斯坦福 CS 329Z《Agent工程》第6讲讲设计模式与脚手架；Claude Fable 5.2 的 weight-space-programming 被拿来与 GPT-6 Astra 比较。\nAgent 与工程：Graphon $35M 补跨模态记忆；本地 2 台 Sparks 加 hermes agent harness 的一手配置记录。\n开发者工具：ollama v0.40.17 合入 ChatGPT CLI 优雅重启与 Vulkan 集显 mmap；Blender 5.3 支持 Gaussian Splat；Dependabot 自 December 8, 2026 起对无活动仓库暂停告警。\n论文与学术：0.05% 权重零化匹配全量微调；SIMCO 基于 9 种药物与 2.18 亿白细胞做单细胞数字孪生。\n深度长文：NaiveAI 的 2,100 Tokens per Second 承诺在编码任务上接受实测检验。\n产业与资本：OpenAI Q3 营收增 50% 至约 $10B（未经审计口径）；Proximal Ventures $27.5 million 首期基金投 AI 制药；Coframe $25M Series A、累计 $35M。\n市场与投资：CoreWeave Q3 营收增 168% 至 $3.66B、净亏 $709M、积压 $132.5B；10-year Treasury 收益率回到 5%。\n社区与观点：coding agent 该从 ~2019 的 JavaScript 迁到浏览器原生原语。\n\n七个判断式主题：降价入场，成本账却没变简单；Agent 的短板在记忆与工具契约；版本号里藏着要回归的调用约定；算力需求真实，利润仍在路上；资本给 Agent 胶水层单独定价；极小的改动也能撬动大模型；工具链适配比榜单更决定可用性。\n\n待验证信号：长任务费用下降 ≥20% 才纳入默认路由；下一季净亏损 <$500M 且积压 ≥$100B 才判定规模效应；0.05% 权重零化 3 次复跑差距 <2 个百分点；December 8, 2026 前导出归档仓库清单；生成模板替换 3 处旧写法后依赖数下降且焦点回归 10/10 通过。\n\n内容仅供参考，不构成投资建议；外部事实未独立验证。",
+  "editor_note": "本期 182 个信源收进 11306 条、聚成 2741 簇，Folo 基线 417 条但多数摘要只有 Comments，按 v1.1 口径挡掉无实质读数簇，最终 12 条入报。一是 Agent 瓶颈已从模型转到接入权限：United 禁止个人 agent 代订机票，Pomerado 把网站转成确定性自愈 MCP，aws-emulator 让官方服务可在本地克隆后测试。对 MCP / A2A 与 connector：工具描述要写清授权边界与失败回退；对照三条核对鉴权字段，缺 1 项即补契约测试，10 次调用全通过才合格。二是可复现性变成硬门槛：LFORLA 用 20 个确定性任务配同一套提示词横评，yolow64 0.2 强调完整校验下才优于 Turbo-Base64，29,684 次提交仍要靠本地测试兜底。automation 侧把 smoke 断言写进流水线：verify_digest 需 0 violations、Atom 稳定 ID 本地与线上一致才分发。三是成本读数：Fractile 获 $720M 投专用 AI 芯片，YOLOv8 加 Qwen2-VL 在 8GB RAM 上对标每月 $50-200 商用方案，无人拖拉机给出 30 厘米耕深与 11.8km/h。数据基建侧按峰值单价重算，跑 10 次长任务，费用不超现有档 20% 才纳入默认路由。",
+  "brief": "2026-11-12 每日信息 · 12 条入报 / 7 板块 / 7 主题 / 5 个待验证信号。\n信源 182/185 可用，原始 11306 条 → 归一 2839 条 → 2741 簇 → 入选 40 簇；Folo 基线 417 条，多数摘要仅 Comments，按 v1.1 口径剔除无实质读数簇。\n\n导语：29,684 次提交堆出的 aws-emulator 由官方给出本地服务克隆，United 却禁止 AI agent 代订机票（HN 162 分、150 评论）；同日 Pomerado 以 YC F26 身份把任意网站转成 MCP，Fractile 拿 $720M 挤进专用 AI 芯片赛道。今日张力是接入层被资本与工具同时加速，却被服务方按下权限闸门。\n\n模型与研究：谷歌上线 Gemini 4 Carbon 模型 API，向每月 100 美元 Ultra 订阅开放；LFORLA 的 Capability Retention 用 20 个确定性任务做横评；Google 以 Gemini Decision 1 加入决策模型类别，固定 yes/no、choice、rubric-scoring 三类输出。\nAgent 与工程：AWS 官方 aws-emulator 在本地克隆服务跑测试，Rust 代码由 agent 群写出 29,684 次提交；United Airlines 禁止 AI agent 代订机票。\n开发者工具：YOLOv8 加 Qwen2-VL 在 8GB RAM 上做端侧检测，对标每月 $50-200 商用方案；DCTS 发布 v1.4.0.9 并标注 [no ai]。\n文档与变更：yolow64 0.2 新解码内核声称在 full validation 下优于 Turbo-Base64，0.2.1 仅改文档。\n深度长文：丘沃智能开物™ L4 套件让临工 3004 完成无人深翻，耕深超 30 厘米、速度 11.8km/h。\n社区与观点：Pomerado 把网站转成确定性自愈 API；Knit 推出 $999 Dolby Atmos 音箱。\n产业与资本：英国 Fractile 完成 $720M 融资进入专用 AI 芯片赛道。\n\n七个判断式主题：Agent 卡在接入权限，不在模型；工具契约要写清失败与授权；可复现性被写成硬门槛；小版本里藏着要回归的行为；算力的钱流向专用与端侧；物理场景开始给真实读数；社区热度不等于可用性。\n\n待验证信号：3 个站点改版后 24 小时内 3/3 自愈成功；403 / 人工确认 / 限流 3 类响应均落到可回滚状态；20 条提示词跑 3 轮得分极差 <2 个百分点；full validation 下仍快 ≥10% 且解码全等；本地克隆跑 10/10 通过且无需 API key。\n\n内容仅供参考，不构成投资建议；外部事实未独立验证；取不到可靠数据处标注「暂无可靠数据」。",
   "watch_signals": [
     {
-      "signal": "Gemini 4 Carbon 的 $2/$10 定价是否带来长任务成本下降",
-      "threshold": "同一 10 条长提示词下总费用下降 ≥20% 且完整返回 ≥9 次",
-      "judgement": "判定可把联网推理档纳入默认模型路由，否则只保留为可选档"
+      "signal": "Pomerado 自愈 API 在页面改版后能否恢复",
+      "threshold": "3 个结构不同站点在改版后 24 小时内 3/3 自愈成功",
+      "judgement": "判定可纳入 connector 候选，否则只作为实验依赖保留"
     },
     {
-      "signal": "CoreWeave 净亏损与订单积压的剪刀差",
-      "threshold": "下一季净亏损 <$500M 且积压仍 ≥$100B",
-      "judgement": "判定规模效应开始兑现；否则上调无人值守任务的算力单价假设"
+      "signal": "United 类准入拒绝是否被 connector 正确降级",
+      "threshold": "403 / 人工确认 / 限流 3 类响应均落到可回滚状态",
+      "judgement": "判定 MCP / A2A 准入分支合格，否则补显式失败契约"
     },
     {
-      "signal": "0.05% 权重零化可否复现匹配全量微调",
-      "threshold": "3 次复跑与 FFT 差距均 <2 个百分点且无回归",
-      "judgement": "判定轻量后训练路径值得评估，否则仅作为研究线索记录"
+      "signal": "LFORLA 式固定评测能否作为跨版本基线",
+      "threshold": "同一组 20 条提示词跑 3 轮，得分极差 <2 个百分点",
+      "judgement": "判定回归集可用于跨版本比较，否则结果不可比"
     },
     {
-      "signal": "Dependabot 告警关闭对归档仓库的暴露面",
-      "threshold": "December 8, 2026 前导出清单，无活动但仍在部署的仓库 ≥1 个",
-      "judgement": "判定必须补一条独立依赖扫描任务，不能只靠平台告警"
+      "signal": "yolow64 0.2 在完整校验下的提速是否成立",
+      "threshold": "开启 full validation 后仍快 ≥10% 且解码结果全等",
+      "judgement": "判定可升级编解码依赖，否则保留 0.1"
     },
     {
-      "signal": "coding agent 生成代码的依赖膨胀是否可控",
-      "threshold": "替换 3 处旧写法后依赖数下降且焦点回归用例 10/10 通过",
-      "judgement": "判定现代浏览器原语清单可写进代码生成约束"
+      "signal": "aws-emulator 能否替代云端联调",
+      "threshold": "1 条现有 AWS 集成用例在本地克隆跑 10/10 通过且无需 API key",
+      "judgement": "判定可移除 CI 里的付费凭据依赖"
     }
   ],
   "reference_summary": [
     {
-      "domain": "techmeme.com",
-      "count": 4
+      "domain": "dev.to",
+      "count": 3
     },
     {
       "domain": "mp.weixin.qq.com",
       "count": 2
     },
     {
-      "domain": "reddit.com",
-      "count": 2
-    },
-    {
-      "domain": "github.com",
-      "count": 2
-    },
-    {
       "domain": "simonwillison.net",
+      "count": 2
+    },
+    {
+      "domain": "cbsnews.com",
       "count": 1
     },
     {
-      "domain": "lesswrong.com",
+      "domain": "reddit.com",
       "count": 1
     },
     {
-      "domain": "blender.org",
+      "domain": "news.ycombinator.com",
       "count": 1
     },
     {
-      "domain": "github.blog",
-      "count": 1
-    },
-    {
-      "domain": "arxiv.org",
-      "count": 1
-    },
-    {
-      "domain": "latent.space",
+      "domain": "yankodesign.com",
       "count": 1
     },
     {
       "domain": "techcrunch.com",
       "count": 1
-    },
-    {
-      "domain": "cnbc.com",
-      "count": 1
     }
   ],
   "stats": {
-    "sources_ok": 173,
+    "sources_ok": 182,
     "sources_total": 185,
-    "total_items": 3240,
-    "clusters": 3180,
+    "total_items": 2839,
+    "clusters": 2741,
     "selected": 40,
-    "published_items": 17,
-    "seven_element_pass": 17,
+    "published_items": 12,
+    "seven_element_pass": 12,
     "seven_element_ratio": 1.0,
-    "items_with_numbers": 17,
+    "items_with_numbers": 12,
     "substantive_number_ratio": 1.0,
     "rejected_no_number": 0,
-    "unique_reference_domains": 12
+    "unique_reference_domains": 8
   },
   "quality": {
     "ai_status": "ok",

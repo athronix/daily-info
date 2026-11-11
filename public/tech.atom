@@ -5,10 +5,90 @@
   <ns0:subtitle>挖掘 · 聚合 · 研判 · 订阅；每条附原文链接；内容仅供参考，不构成投资建议</ns0:subtitle>
   <ns0:link rel="self" type="application/atom+xml" href="https://daily-info.local/tech.atom" />
   <ns0:link rel="alternate" type="text/html" href="https://daily-info.local/index.html" />
-  <ns0:updated>2026-11-10T23:04:57.316406Z</ns0:updated>
+  <ns0:updated>2026-11-11T22:57:12.685301Z</ns0:updated>
   <ns0:author>
     <ns0:name>Personal Daily Info</ns0:name>
   </ns0:author>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-12:5457d31dcad4910e</ns0:id>
+    <ns0:title>[文档与变更] yolow64 0.2: a new decode kernel that beats Turbo-Base64 under full validation</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://dev.to/yolow92/yolow64-02-a-new-decode-kernel-that-beats-turbo-base64-under-full-validation-55nn" />
+    <ns0:published>2026-11-11T15:32:02.218000Z</ns0:published>
+    <ns0:updated>2026-11-11T22:57:12.685301Z</ns0:updated>
+    <ns0:category term="docs-changelog" label="文档与变更" />
+    <ns0:summary type="text">yolow64 is the Base64 codec extracted from PageSift, published as 0.1 on Nov 9. Version 0.2 (plus a docs-only 0.2.1) is out, and the… 〔Folo分类:开源项目〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;yolow64 0.2 发布新解码内核，声称在完整校验下优于 Turbo-Base64，0.2.1 为仅改文档的版本&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：0.2 / 0.1 / 0.2.1 / Nov 9 · 相关方：yolow64 / Turbo-Base64 / PageSift / Base64&lt;/p&gt;&lt;p&gt;yolow64 is the Base64 codec extracted from PageSift, published as 0.1 on Nov 9. Version 0.2 (plus a docs-only 0.2.1) is out, and the… 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把 full validation 写进对比条件，说明性能结论依赖校验强度；只比吞吐不看校验会误判解码内核。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建与 automation 有间接影响：编解码是采集归一链路的底层依赖，升级前需回归校验路径而非只看基准数字。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;用同一份 10000 条样本跑 0.1 与 0.2，若开启完整校验后仍快 ≥10% 且解码结果全等，判定可升级。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-11T15:32 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://dev.to/yolow92/yolow64-02-a-new-decode-kernel-that-beats-turbo-base64-under-full-validation-55nn" rel="noopener noreferrer"&gt;https://dev.to/yolow92/yolow64-02-a-new-decode-kernel-that-beats-turbo-base64-under-full-validation-55nn&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-12:8e8c59556028c219</ns0:id>
+    <ns0:title>[开发者工具与版本] [no ai] Release QoL Improvements, Fixes &amp; Refactors v1.4.0.9 · DCTS (decentralized chat platform)</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.reddit.com/r/opensource/comments/1xtsygi/no_ai_release_qol_improvements_fixes_refactors" />
+    <ns0:published>2026-11-11T20:38:08.455000Z</ns0:published>
+    <ns0:updated>2026-11-11T22:57:12.685301Z</ns0:updated>
+    <ns0:category term="dev-tools" label="开发者工具与版本" />
+    <ns0:summary type="text">submitted by /u/HackTheDev [link] [comments] 〔Folo分类:开源项目〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;DCTS 去中心化聊天平台发布 v1.4.0.9，标注为体验改进、修复与重构，并在标题显式打出 [no ai] 标签&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：v1.4.0.9 · 相关方：DCTS / decentralized chat platform / HackTheDev&lt;/p&gt;&lt;p&gt;submitted by /u/HackTheDev [link] [comments] 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;显式声明无 AI 参与开发，把生成式工具的使用边界变成版本发布信息的一部分，是少见的可用来源标注。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 skill 与 automation 暂无直接影响；但把 AI 使用写进发布说明的做法可借鉴到产物溯源字段。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照其 changelog 逐条核对 10 项改动，若 ≥8 项能定位到具体提交，判定 [no ai] 标注可引用。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-11T20:38 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.reddit.com/r/opensource/comments/1xtsygi/no_ai_release_qol_improvements_fixes_refactors" rel="noopener noreferrer"&gt;https://www.reddit.com/r/opensource/comments/1xtsygi/no_ai_release_qol_improvements_fixes_refactors&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-12:4f325e87353de30b</ns0:id>
+    <ns0:title>[开发者工具与版本] How I Built an Arabic-First Shoplifting Detector with YOLOv8 and Qwen2-VL (on 8GB RAM)</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://dev.to/ahmad_anas_0edb1a3236362e/how-i-built-an-arabic-first-shoplifting-detector-with-yolov8-and-qwen2-vl-on-8gb-ram-1i40" />
+    <ns0:published>2026-11-11T21:53:14.752000Z</ns0:published>
+    <ns0:updated>2026-11-11T22:57:12.685301Z</ns0:updated>
+    <ns0:category term="dev-tools" label="开发者工具与版本" />
+    <ns0:summary type="text">Retail theft costs small stores 2-3% of annual revenue. Existing AI solutions (Everseen, Veesion) cost $50-200/month and don't support… 〔Folo分类:开源项目〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;作者用 YOLOv8 与 Qwen2-VL 在 8GB RAM 上搭阿拉伯语优先的盗窃检测，对标每月 $50-200 的商用方案&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：YOLOv8 / Qwen2-VL / 8GB / 2-3% / $50-200 · 相关方：YOLOv8 / Qwen2-VL / Everseen / Veesion&lt;/p&gt;&lt;p&gt;Retail theft costs small stores 2-3% of annual revenue. Existing AI solutions (Everseen, Veesion) cost $50-200/month and don&amp;#x27;t support… 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把 2-3% 的年营收损耗与每月 $50-200 的替代成本并排给出，量化了端侧自建方案的动机。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对端侧 agent 部署有参考：8GB RAM 是明确的硬件门槛，可据此判断本地多模态推理是否值得替换现有云侧调用。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在 8GB 机器上跑 100 帧回归，若误报率低于现有云侧方案且单帧耗时 &amp;lt;200ms，判定可进本地候选。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-11T21:53 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://dev.to/ahmad_anas_0edb1a3236362e/how-i-built-an-arabic-first-shoplifting-detector-with-yolov8-and-qwen2-vl-on-8gb-ram-1i40" rel="noopener noreferrer"&gt;https://dev.to/ahmad_anas_0edb1a3236362e/how-i-built-an-arabic-first-shoplifting-detector-with-yolov8-and-qwen2-vl-on-8gb-ram-1i40&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-12:645f1651bd53c9c8</ns0:id>
+    <ns0:title>[Agent 与工程] United Airlines bans AI agents from booking flights on behalf of travelers</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights" />
+    <ns0:published>2026-11-11T21:24:35Z</ns0:published>
+    <ns0:updated>2026-11-11T22:57:12.685301Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="Agent 与工程" />
+    <ns0:summary type="text">服务方直接关闭代订入口，说明 agent 落地的阻力先出现在被调系统的准入侧，而不是模型能力侧。</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;United Airlines 禁止 AI agent 代替旅客订票，HN 条目获 162 分与 150 条评论&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：162 / 150 · 相关方：United Airlines / AI agents&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;服务方直接关闭代订入口，说明 agent 落地的阻力先出现在被调系统的准入侧，而不是模型能力侧。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 MCP / A2A 与 connector 设计有直接影响：外部系统授权应写成显式失败分支，不能假设拿到凭证即可调用。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在现有 connector 里模拟 403 / 需人工确认 / 限流 3 类拒绝响应，若 3/3 都落到可回滚状态，判定准入分支合格。&lt;/p&gt;&lt;p&gt;来源：HN Algolia front_page (points/comments) · 发布于 2026-11-11T21:24 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights" rel="noopener noreferrer"&gt;https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-12:53d5cdba12bea358</ns0:id>
+    <ns0:title>[Agent 与工程] aws-emulator</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://simonwillison.net/2026/Nov/11/aws-emulator" />
+    <ns0:published>2026-11-11T21:18:30Z</ns0:published>
+    <ns0:updated>2026-11-11T22:57:12.685301Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="Agent 与工程" />
+    <ns0:summary type="text">aws-emulator Finally, an official emulator from AWS to run tests against a local clone of their many different services without having to provision a paid API key to do so. It's written in Rust by a huge swarm of agents - 29,684 commits in the first three weeks of the project. Swaminathan (Swami) Si</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;AWS 推出官方 aws-emulator，可在本地克隆其多项服务跑测试而无需付费 API key，Rust 代码由 agent 群写出 29,684 次提交&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：29,684 · 相关方：aws-emulator / AWS / Rust&lt;/p&gt;&lt;p&gt;aws-emulator Finally, an official emulator from AWS to run tests against a local clone of their many different services without having to provision a paid API key to do so. It&amp;#x27;s written in Rust by a huge swarm of agents - 29,684 commits in the first three weeks of the project. Swaminathan (Swami) Si&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;官方模拟器把集成测试从付费凭据里解耦，29,684 次提交也把 agent 群写代码放到可审计的规模上。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 automation 与 agent 部署有直接影响：本地服务克隆可作为 CI 依赖替代项，减少无人值守链路对外部凭据的依赖。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;把 1 条现有 AWS 集成用例迁到本地克隆跑 10 次，若 10/10 通过且全程无需 API key，判定可替换云端联调。&lt;/p&gt;&lt;p&gt;来源：Simon Willison&amp;#x27;s Weblog · 发布于 2026-11-11T21:18 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://simonwillison.net/2026/Nov/11/aws-emulator" rel="noopener noreferrer"&gt;https://simonwillison.net/2026/Nov/11/aws-emulator&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-12:624a305adfa41ec6</ns0:id>
+    <ns0:title>[模型与研究] Gemini Decisions API</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://simonwillison.net/2026/Nov/11/gemini-decisions-api" />
+    <ns0:published>2026-11-11T22:03:25Z</ns0:published>
+    <ns0:updated>2026-11-11T22:57:12.685301Z</ns0:updated>
+    <ns0:category term="ai-models" label="模型与研究" />
+    <ns0:summary type="text">Gemini Decisions API Google join Jev and OpenAI in the decision model category with "Gemini Decision 1". This new model API is almost identical to Jev: it supports the same three types of questions (yes/no, choice, and rubric-scoring) and even reuses Jev's term "Noul" for a yes/no question. It's pri</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Google 以 Gemini Decision 1 加入决策模型类别，支持与 Jev 相同的三类问题（yes/no、choice、rubric-scoring）&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：Gemini Decision 1 · 相关方：Gemini Decisions API / Google / Jev / OpenAI&lt;/p&gt;&lt;p&gt;Gemini Decisions API Google join Jev and OpenAI in the decision model category with &amp;quot;Gemini Decision 1&amp;quot;. This new model API is almost identical to Jev: it supports the same three types of questions (yes/no, choice, and rubric-scoring) and even reuses Jev&amp;#x27;s term &amp;quot;Noul&amp;quot; for a yes/no question. It&amp;#x27;s pri&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把问答式模型收窄成三类固定输出，等于用输出契约换可判定性，比自由文本更适合写断言。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 WorkBuddy 的 automation 判定环节有直接参考：固定三类输出可对照现有核验闸门，减少解析歧义。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;用 20 条已知答案的判定题跑该 API，若三类输出格式 20/20 合法且结论与人工标注一致 ≥18 条，判定可进核验链路。&lt;/p&gt;&lt;p&gt;来源：Simon Willison&amp;#x27;s Weblog · 发布于 2026-11-11T22:03 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://simonwillison.net/2026/Nov/11/gemini-decisions-api" rel="noopener noreferrer"&gt;https://simonwillison.net/2026/Nov/11/gemini-decisions-api&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-12:88494da4c56beb64</ns0:id>
+    <ns0:title>[模型与研究] How an LLM Benchmark Produces Comparable Numbers: Inside LFORLA's LLM Evaluation</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://dev.to/resk/how-an-llm-benchmark-produces-comparable-numbers-inside-lforlas-llm-evaluation-47o5" />
+    <ns0:published>2026-11-11T10:00:42.952000Z</ns0:published>
+    <ns0:updated>2026-11-11T22:57:12.685301Z</ns0:updated>
+    <ns0:category term="ai-models" label="模型与研究" />
+    <ns0:summary type="text">TL;DR: LFORLA's Capability Retention benchmark runs 20 deterministic tasks through every model with identical prompts, scores them with… 〔Folo分类:开源项目〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;LFORLA 的 Capability Retention 基准用 20 个确定性任务、同一套提示词跑每个模型，讨论如何让评测数字可比&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：20 · 相关方：LFORLA / Capability Retention / LLM&lt;/p&gt;&lt;p&gt;TL;DR: LFORLA&amp;#x27;s Capability Retention benchmark runs 20 deterministic tasks through every model with identical prompts, scores them with… 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把确定性任务与统一提示词当成可比性前提，等于承认榜单差异多来自评测口径而非模型本身。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 automation 与 skill 评测有直接影响：现有回归集应固化提示词版本与任务数，否则跨日结果不可比。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;固化同一组 20 条提示词跑 3 轮，若三轮得分极差 &amp;lt;2 个百分点，判定该回归集可作为跨版本基线。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-11T10:00 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://dev.to/resk/how-an-llm-benchmark-produces-comparable-numbers-inside-lforlas-llm-evaluation-47o5" rel="noopener noreferrer"&gt;https://dev.to/resk/how-an-llm-benchmark-produces-comparable-numbers-inside-lforlas-llm-evaluation-47o5&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-12:4ca7aee3cb7d2f9b</ns0:id>
+    <ns0:title>[模型与研究] Gemini 4 Carbon连夜上桌！力压Fable 5.2花费仅一半，还挖出了PHP同级漏洞…</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw%3D%3D&amp;mid=2247942861&amp;idx=1&amp;sn=41d0336965ce7b66565918f5d29e0dd8&amp;chksm=e9f26d6615223de84b0445235e0ab28ed341a882ea76a8605119f697ddc73487dd4166ea0227&amp;scene=0&amp;xtrack=1" />
+    <ns0:published>2026-11-11T22:30:00Z</ns0:published>
+    <ns0:updated>2026-11-11T22:57:12.685301Z</ns0:updated>
+    <ns0:category term="ai-models" label="模型与研究" />
+    <ns0:summary type="text">安全、AI｜谷歌正式上线Gemini 4 Carbon模型API，并向每月100美元的Ultra订阅用户开放。该模型被定位为对标Claude Opus 5.5与GPT-6 Astra的旗舰级AI，旨在重夺大模型竞争主动权。目前可实际体验，谷歌已用其分析阿波罗登月舱案例，验证能力。</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;谷歌上线 Gemini 4 Carbon 模型 API，向每月 100 美元 Ultra 订阅用户开放，摘要称其对标 Claude Opus 5.5 与 GPT-6 Astra&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：100美元 / 5.5 / 5.2 · 相关方：谷歌 / Gemini 4 Carbon / Claude Opus 5.5 / GPT-6 Astra / Ultra&lt;/p&gt;&lt;p&gt;安全、AI｜谷歌正式上线Gemini 4 Carbon模型API，并向每月100美元的Ultra订阅用户开放。该模型被定位为对标Claude Opus 5.5与GPT-6 Astra的旗舰级AI，旨在重夺大模型竞争主动权。目前可实际体验，谷歌已用其分析阿波罗登月舱案例，验证能力。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;定价以每月订阅档而非按量公开，说明旗舰能力先做可得性分层；对标对象写进摘要而非跑分，比较口径尚不可核验。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 WorkBuddy 模型路由与 skill 调用暂无直接影响：单一匿名来源、无公开评测集，不能据此调整默认档，仅记录为供给侧可得性变化。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;等官方模型卡或 API 文档，若 100 美元档与 5.5 / 5.2 的对标结论同时被一手来源确认，才写入候选路由表。&lt;/p&gt;&lt;p&gt;来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-11T22:30 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;证据状态：未独立验证&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw%3D%3D&amp;amp;mid=2247942861&amp;amp;idx=1&amp;amp;sn=41d0336965ce7b66565918f5d29e0dd8&amp;amp;chksm=e9f26d6615223de84b0445235e0ab28ed341a882ea76a8605119f697ddc73487dd4166ea0227&amp;amp;scene=0&amp;amp;xtrack=1" rel="noopener noreferrer"&gt;https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw%3D%3D&amp;amp;mid=2247942861&amp;amp;idx=1&amp;amp;sn=41d0336965ce7b66565918f5d29e0dd8&amp;amp;chksm=e9f26d6615223de84b0445235e0ab28ed341a882ea76a8605119f697ddc73487dd4166ea0227&amp;amp;scene=0&amp;amp;xtrack=1&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:daily-info.local,2026-11-11:fda2777d68cef54d</ns0:id>
     <ns0:title>[市场与投资] CoreWeave reports Q3 revenue up 168% YoY to $3.66B, vs. $3.55B est., a net loss of $709M, and a $132.5B revenue backlog, up from $104B as of June (Jordan Novet/CNBC)</ns0:title>

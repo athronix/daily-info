@@ -5,8 +5,35 @@
     "timezone": "Asia/Shanghai",
     "version": "1.0.0"
   },
-  "generated_at": "2026-11-10T23:04:57.316406Z",
+  "generated_at": "2026-11-11T22:57:12.685301Z",
   "dates": [
+    {
+      "date": "2026-11-12",
+      "headline": "29,684 次提交换来官方模拟器，United 仍对 agent 关上门：接入层比模型层更卡",
+      "lead": "29,684 次提交堆出的 aws-emulator 由官方给出本地服务克隆，United 却禁止 AI agent 代订机票（HN 162 分、150 评论）；同日 Pomerado 以 YC F26 身份把任意网站转成 MCP，Fractile 拿 $720M 挤进专用 AI 芯片赛道。今日张力是：接入层被资本与工具同时加速，却被服务方按下权限闸门。",
+      "demo": false,
+      "stats": {
+        "sources_ok": 182,
+        "sources_total": 185,
+        "total_items": 2839,
+        "clusters": 2741,
+        "selected": 40,
+        "published_items": 12,
+        "seven_element_pass": 12,
+        "seven_element_ratio": 1.0,
+        "items_with_numbers": 12,
+        "substantive_number_ratio": 1.0,
+        "rejected_no_number": 0,
+        "unique_reference_domains": 8
+      },
+      "section_count": 7,
+      "item_count": 12,
+      "ai_status": "ok",
+      "seven_element_ratio": 1.0,
+      "theme_count": 7,
+      "watch_signal_count": 5,
+      "reference_domains": 8
+    },
     {
       "date": "2026-11-11",
       "headline": "Gemini 4 Carbon 以 $2/$10 入场、CoreWeave 营收增 168% 仍亏 $709M：能力扩张与单位成本两条曲线正在分叉",

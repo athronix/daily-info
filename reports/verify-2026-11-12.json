@@ -1,0 +1,188 @@
+{
+  "date": "2026-11-12",
+  "total_checks": 36,
+  "passed": 36,
+  "violations": 0,
+  "checks": [
+    {
+      "check": "V1[2026-11-12] 必填字段",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "V1[2026-11-12] ai_status 合法",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "V1[2026-11-12] stats 自洽",
+      "ok": true,
+      "detail": "stats=12 vs 实际=12"
+    },
+    {
+      "check": "V2[2026-11-12] id/url 白名单",
+      "ok": true,
+      "detail": "violations=0 []"
+    },
+    {
+      "check": "V2[2026-11-12] 无重复条目",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "V8[2026-11-12] 七要素达标率",
+      "ok": true,
+      "detail": "12/12 = 100.0% (阈值 80%)"
+    },
+    {
+      "check": "V8[2026-11-12] 含可核验数字条目比",
+      "ok": true,
+      "detail": "12/12 = 100.0%"
+    },
+    {
+      "check": "V8[2026-11-12] 数据化导语含数字",
+      "ok": true,
+      "detail": "lead=29,684 次提交堆出的 aws-emulator 由官方给出本地服务克隆，U"
+    },
+    {
+      "check": "V8[2026-11-12] 待验证信号清单",
+      "ok": true,
+      "detail": "count=5（阈值 3）"
+    },
+    {
+      "check": "V8[2026-11-12] 下一步动作无空话",
+      "ok": true,
+      "detail": "命中=[]"
+    },
+    {
+      "check": "V8[2026-11-12] 编者观察字数",
+      "ok": true,
+      "detail": "588 字（要求 400-600）"
+    },
+    {
+      "check": "V8[2026-11-12] 主题数与佐证",
+      "ok": true,
+      "detail": "themes=7 min_evidence=3"
+    },
+    {
+      "check": "V8[2026-11-12] 数字/实体/URL 均来自原文",
+      "ok": true,
+      "detail": "make_digest.py 白名单校验标记"
+    },
+    {
+      "check": "V8[2026-11-12] 数字白名单口径排除元数据",
+      "ok": true,
+      "detail": "scope=title+summary_raw+metrics excludes=['published_at', 'fetched_at']"
+    },
+    {
+      "check": "V8[2026-11-12] 实质数字比自洽",
+      "ok": true,
+      "detail": "stats=1.0 vs 实算=1.0"
+    },
+    {
+      "check": "V8[2026-11-12] 无数字条目拒绝留痕",
+      "ok": true,
+      "detail": "stats=0 warnings=0"
+    },
+    {
+      "check": "V3 凭据扫描",
+      "ok": true,
+      "detail": "violations=0 []"
+    },
+    {
+      "check": "V3 危险 HTML",
+      "ok": true,
+      "detail": "files=[]"
+    },
+    {
+      "check": "V4 Atom 文件存在",
+      "ok": true,
+      "detail": "count=6"
+    },
+    {
+      "check": "V4 all.atom 解析/ID 唯一",
+      "ok": true,
+      "detail": "entries=100 unique=100"
+    },
+    {
+      "check": "V4 docs.atom 解析/ID 唯一",
+      "ok": true,
+      "detail": "entries=9 unique=9"
+    },
+    {
+      "check": "V4 feed.atom 解析/ID 唯一",
+      "ok": true,
+      "detail": "entries=100 unique=100"
+    },
+    {
+      "check": "V4 high-signal.atom 解析/ID 唯一",
+      "ok": true,
+      "detail": "entries=100 unique=100"
+    },
+    {
+      "check": "V4 invest.atom 解析/ID 唯一",
+      "ok": true,
+      "detail": "entries=30 unique=30"
+    },
+    {
+      "check": "V4 tech.atom 解析/ID 唯一",
+      "ok": true,
+      "detail": "entries=91 unique=91"
+    },
+    {
+      "check": "V6 站点索引",
+      "ok": true,
+      "detail": "days=8"
+    },
+    {
+      "check": "V6 latest 一致",
+      "ok": true,
+      "detail": "latest=2026-11-12 index0=2026-11-12"
+    },
+    {
+      "check": "V6 日切片 2026-11-12",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "V6 日切片 2026-11-11",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "V6 日切片 2026-11-10",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "V6 订阅地址 all.atom",
+      "ok": true,
+      "detail": "索引里的 profile 产物文件必须真实存在（防 P05 口径漂移）"
+    },
+    {
+      "check": "V6 订阅地址 high-signal.atom",
+      "ok": true,
+      "detail": "索引里的 profile 产物文件必须真实存在（防 P05 口径漂移）"
+    },
+    {
+      "check": "V6 订阅地址 tech.atom",
+      "ok": true,
+      "detail": "索引里的 profile 产物文件必须真实存在（防 P05 口径漂移）"
+    },
+    {
+      "check": "V6 订阅地址 invest.atom",
+      "ok": true,
+      "detail": "索引里的 profile 产物文件必须真实存在（防 P05 口径漂移）"
+    },
+    {
+      "check": "V6 订阅地址 docs.atom",
+      "ok": true,
+      "detail": "索引里的 profile 产物文件必须真实存在（防 P05 口径漂移）"
+    },
+    {
+      "check": "V5 幂等（二次构建字节一致）",
+      "ok": true,
+      "detail": "files=18 changed=0 []"
+    }
+  ]
+}
