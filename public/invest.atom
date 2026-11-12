@@ -5,10 +5,30 @@
   <ns0:subtitle>挖掘 · 聚合 · 研判 · 订阅；每条附原文链接；内容仅供参考，不构成投资建议</ns0:subtitle>
   <ns0:link rel="self" type="application/atom+xml" href="https://daily-info.local/invest.atom" />
   <ns0:link rel="alternate" type="text/html" href="https://daily-info.local/index.html" />
-  <ns0:updated>2026-11-11T22:57:12.685301Z</ns0:updated>
+  <ns0:updated>2026-11-12T23:18:18.237901Z</ns0:updated>
   <ns0:author>
     <ns0:name>Personal Daily Info</ns0:name>
   </ns0:author>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-13:3e8a63beb1fdbc55</ns0:id>
+    <ns0:title>[产业与资本] Sources: Kalshi is in talks to raise funding at a $65B valuation, weeks after closing a round at a $40B valuation; its annual run rate recently surpassed $5B (Bloomberg)</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.techmeme.com/261112/p58" />
+    <ns0:published>2026-11-12T21:50:00Z</ns0:published>
+    <ns0:updated>2026-11-12T23:18:18.237901Z</ns0:updated>
+    <ns0:category term="industry-capital" label="产业与资本" />
+    <ns0:summary type="text">Bloomberg: Sources: Kalshi is in talks to raise funding at a $65B valuation, weeks after closing a round at a $40B valuation; its annual run rate recently surpassed $5B — Weeks after finalizing new funding at a $40 billion valuation, prediction marketplace Kalshi is in talks with investors to raise </ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;消息源称 Kalshi 洽谈以 $65B 估值融资，距 $40B 那轮仅数周，年化 run rate 已超 $5B&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：$65B / $40B / $5B · 相关方：Kalshi / Bloomberg&lt;/p&gt;&lt;p&gt;Bloomberg: Sources: Kalshi is in talks to raise funding at a $65B valuation, weeks after closing a round at a $40B valuation; its annual run rate recently surpassed $5B — Weeks after finalizing new funding at a $40 billion valuation, prediction marketplace Kalshi is in talks with investors to raise &lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;估值在数周内从 $40B 抬到 $65B，材料同时给出 $5B 年化 run rate，可据此核对倍数而非只看叙事&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;市场与投资板块只记录公开估值与 run rate，不构成任何标的判断；数据基建只需保留可核验字段&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;若下一轮估值未获官方确认或 run rate 口径未披露，则判定该读数仅为消息源层级，不进入索引&lt;/p&gt;&lt;p&gt;来源：Techmeme · 发布于 2026-11-12T21:50 UTC · 归类：industry-capital&lt;/p&gt;&lt;p&gt;证据状态：未独立验证&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.techmeme.com/261112/p58" rel="noopener noreferrer"&gt;https://www.techmeme.com/261112/p58&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-13:f101ffad2bb3a113</ns0:id>
+    <ns0:title>[产业与资本] Anthropic IPO</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://ipo.anthropic.com/us" />
+    <ns0:published>2026-11-12T11:46:41Z</ns0:published>
+    <ns0:updated>2026-11-12T23:18:18.237901Z</ns0:updated>
+    <ns0:category term="industry-capital" label="产业与资本" />
+    <ns0:summary type="text">评论数几乎追平分数，说明这是一次高争议事件而非单纯利好，材料本身没有招股条款</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Anthropic IPO 相关讨论帖在社区获 761 分、758 条评论&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：761 / 758 · 相关方：Anthropic&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;评论数几乎追平分数，说明这是一次高争议事件而非单纯利好，材料本身没有招股条款&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;模型供应商资本结构变化会影响 API 长期定价与稳定性，provider 备选清单应保留至少两家&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;若招股文件公开且给出具体发行价与募资额，才更新供应商风险表；在此之前只记为事件标记&lt;/p&gt;&lt;p&gt;来源：HN Algolia front_page (points/comments) · 发布于 2026-11-12T11:46 UTC · 归类：industry-capital&lt;/p&gt;&lt;p&gt;证据状态：未独立验证&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://ipo.anthropic.com/us" rel="noopener noreferrer"&gt;https://ipo.anthropic.com/us&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:daily-info.local,2026-11-12:6f3c74a04fea158f</ns0:id>
     <ns0:title>[产业与资本] With $720M round, Britain’s Fractile gets a leg up in the race for AI chips</ns0:title>

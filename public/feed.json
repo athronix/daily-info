@@ -7,6 +7,367 @@
   "language": "zh-CN",
   "items": [
     {
+      "id": "tag:daily-info.local,2026-11-13:73fef9673ed486b3",
+      "url": "https://github.com/Yuri-Fernando/AWS-Project",
+      "title": "Yuri-Fernando/AWS-Project · ★0",
+      "summary": "AWS-Project 用同一套 IaC 在本地模拟器与真实 AWS Free Plan 两端部署，端到端 13/13，成本 US$ 0,86 — 把本地仿真与真实云端收敛到同一份 IaC 并给出 13/13 通过率，可复现性比口头承诺更实",
+      "content_html": "<p><strong>AWS-Project 用同一套 IaC 在本地模拟器与真实 AWS Free Plan 两端部署，端到端 13/13，成本 US$ 0,86</strong></p><p>关键数字：13/13 / 0,86 / 0 · 相关方：AWS / EKS / ECR / ArgoCD / Kustomize / MCP</p><p>Plataforma AWS de ponta a ponta com a MESMA IaC em dois alvos: emulador floci (R$ 0) e conta AWS real Free Plan — EKS, ECR, GitOps (ArgoCD/Kustomize), Pod Identity, Prometheus/Grafana, serverless e MCP. Sessão real: e2e 13/13, US$ 0,86 em créditos, tudo desmontado.</p><p><strong>为什么值得看：</strong>把本地仿真与真实云端收敛到同一份 IaC 并给出 13/13 通过率，可复现性比口头承诺更实</p><p><strong>对我意味着什么：</strong>对数据基建与 smoke 规范有用：应要求每个部署目标给出端到端通过数与成本读数，而非只报成功</p><p><strong>下一步：</strong>照其清单复现：若本地与云端各 13/13 通过且成本差额在 1 个数量级内，才判定 IaC 双目标成立</p><p>来源：GitHub 搜索 · topic:mcp · 发布于 2026-11-12T17:55 UTC · 归类：agent-engineering</p><p>→ <a href=\"https://github.com/Yuri-Fernando/AWS-Project\" rel=\"noopener noreferrer\">https://github.com/Yuri-Fernando/AWS-Project</a></p>",
+      "date_published": "2026-11-12T17:55:13Z",
+      "date_modified": "2026-11-12T23:18:18.237901Z",
+      "tags": [
+        "agent-engineering",
+        "Agent 与工程"
+      ],
+      "_daily_info": {
+        "score": 71.94,
+        "source": "GitHub 搜索 · topic:mcp",
+        "cluster_id": "73fef9673ed486b3",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-13:3d7d027034d3d63b",
+      "url": "https://github.com/ALENOC/tandem-mcp",
+      "title": "ALENOC/tandem-mcp · ★0",
+      "summary": "tandem-mcp 是一个把云端编排模型与 LM Studio 本地执行模型配对的 MCP server，当前 0 star — 云编排加本地执行的分工被写进 MCP server，正是权限与数据边界最容易被模糊的地方",
+      "content_html": "<p><strong>tandem-mcp 是一个把云端编排模型与 LM Studio 本地执行模型配对的 MCP server，当前 0 star</strong></p><p>关键数字：0 · 相关方：tandem-mcp / MCP server / LM Studio / ALENOC</p><p>MCP server pairing a cloud orchestrator model with a local executor model in LM Studio</p><p><strong>为什么值得看：</strong>云编排加本地执行的分工被写进 MCP server，正是权限与数据边界最容易被模糊的地方</p><p><strong>对我意味着什么：</strong>与我的 A2A 双路径委派同构：可对照其任务切分，检查 WinVM 侧 direct MCP 与 A2A 边界是否重复</p><p><strong>下一步：</strong>读其 README 复现一次配对：若云端编排能调用本地工具且 0 次越权，才判定该分工模式可借鉴</p><p>来源：GitHub 搜索 · topic:mcp · 发布于 2026-11-12T18:22 UTC · 归类：agent-engineering</p><p>→ <a href=\"https://github.com/ALENOC/tandem-mcp\" rel=\"noopener noreferrer\">https://github.com/ALENOC/tandem-mcp</a></p>",
+      "date_published": "2026-11-12T18:22:59Z",
+      "date_modified": "2026-11-12T23:18:18.237901Z",
+      "tags": [
+        "agent-engineering",
+        "Agent 与工程"
+      ],
+      "_daily_info": {
+        "score": 72.23,
+        "source": "GitHub 搜索 · topic:mcp",
+        "cluster_id": "3d7d027034d3d63b",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-13:1a84fda568160878",
+      "url": "https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-98",
+      "title": "Microsoft Research Focus – Edition #98",
+      "summary": "Microsoft Research Focus 第 98 期汇总通用翻译、31 年数学难题突破与让 AI coding agents 更高效的进展 — 把 coding agent 的效率与研究级突破并列，说明工程侧优化已被当作正式研究产出",
+      "content_html": "<p><strong>Microsoft Research Focus 第 98 期汇总通用翻译、31 年数学难题突破与让 AI coding agents 更高效的进展</strong></p><p>关键数字：98 / 31 · 相关方：Microsoft Research / Anson Ho / AI coding agents / Microsoft</p><p>What&#x27;s new in research at Microsoft? Host Anson Ho explores the latest, including AI-powered universal translation, a breakthrough in a 31-year-old mathematics challenge, and advances making AI coding agents faster and more efficient. The post Microsoft Research Focus – Edition #98 appeared first on</p><p><strong>为什么值得看：</strong>把 coding agent 的效率与研究级突破并列，说明工程侧优化已被当作正式研究产出</p><p><strong>对我意味着什么：</strong>agent 部署成本可借鉴其效率结论，但需要可复现的基准数字才值得改架构</p><p><strong>下一步：</strong>若该期给出 coding agent 的具体提速百分比且达到 20% 以上，才纳入 WinVM 委派路径的优化评估</p><p>来源：Microsoft Research · 发布于 2026-11-12T21:31 UTC · 归类：agent-engineering</p><p>→ <a href=\"https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-98\" rel=\"noopener noreferrer\">https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-98</a></p>",
+      "date_published": "2026-11-12T21:31:57Z",
+      "date_modified": "2026-11-12T23:18:18.237901Z",
+      "tags": [
+        "agent-engineering",
+        "Agent 与工程"
+      ],
+      "_daily_info": {
+        "score": 72.99,
+        "source": "Microsoft Research",
+        "cluster_id": "1a84fda568160878",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-13:372847c9499451eb",
+      "url": "https://openai.com/index/amplitude",
+      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "summary": "Amplitude 称其基于 OpenAI 模型的主动式产品 agent Wave 可在 1 到 2 天内交付产品改进并用 coding agents 度量效果 — 交付周期被压到天级，agent 同时承担决策、编码与效果测量，闭环比单点助手更完整",
+      "content_html": "<p><strong>Amplitude 称其基于 OpenAI 模型的主动式产品 agent Wave 可在 1 到 2 天内交付产品改进并用 coding agents 度量效果</strong></p><p>关键数字：1 / 2 · 相关方：Amplitude / OpenAI / Wave / coding agents</p><p>Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.</p><p><strong>为什么值得看：</strong>交付周期被压到天级，agent 同时承担决策、编码与效果测量，闭环比单点助手更完整</p><p><strong>对我意味着什么：</strong>对 automation 流水线是直接参照：把生成、执行、度量写成同一条可回放链路，而不是分散脚本</p><p><strong>下一步：</strong>跑一次对照：若本地流水线从采集到核验超过 2 天或出现 1 次以上人工补写，则判定闭环未成立</p><p>来源：OpenAI Blog · 发布于 2026-11-12T20:00 UTC · 归类：agent-engineering</p><p>→ <a href=\"https://openai.com/index/amplitude\" rel=\"noopener noreferrer\">https://openai.com/index/amplitude</a></p>",
+      "date_published": "2026-11-12T20:00:00Z",
+      "date_modified": "2026-11-12T23:18:18.237901Z",
+      "tags": [
+        "agent-engineering",
+        "Agent 与工程"
+      ],
+      "_daily_info": {
+        "score": 73.02,
+        "source": "OpenAI Blog",
+        "cluster_id": "372847c9499451eb",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-13:3e8a63beb1fdbc55",
+      "url": "https://www.techmeme.com/261112/p58",
+      "title": "Sources: Kalshi is in talks to raise funding at a $65B valuation, weeks after closing a round at a $40B valuation; its annual run rate recently surpassed $5B (Bloomberg)",
+      "summary": "消息源称 Kalshi 洽谈以 $65B 估值融资，距 $40B 那轮仅数周，年化 run rate 已超 $5B — 估值在数周内从 $40B 抬到 $65B，材料同时给出 $5B 年化 run rate，可据此核对倍数而非只看叙事",
+      "content_html": "<p><strong>消息源称 Kalshi 洽谈以 $65B 估值融资，距 $40B 那轮仅数周，年化 run rate 已超 $5B</strong></p><p>关键数字：$65B / $40B / $5B · 相关方：Kalshi / Bloomberg</p><p>Bloomberg: Sources: Kalshi is in talks to raise funding at a $65B valuation, weeks after closing a round at a $40B valuation; its annual run rate recently surpassed $5B — Weeks after finalizing new funding at a $40 billion valuation, prediction marketplace Kalshi is in talks with investors to raise </p><p><strong>为什么值得看：</strong>估值在数周内从 $40B 抬到 $65B，材料同时给出 $5B 年化 run rate，可据此核对倍数而非只看叙事</p><p><strong>对我意味着什么：</strong>市场与投资板块只记录公开估值与 run rate，不构成任何标的判断；数据基建只需保留可核验字段</p><p><strong>下一步：</strong>若下一轮估值未获官方确认或 run rate 口径未披露，则判定该读数仅为消息源层级，不进入索引</p><p>来源：Techmeme · 发布于 2026-11-12T21:50 UTC · 归类：industry-capital</p><p>证据状态：未独立验证</p><p>→ <a href=\"https://www.techmeme.com/261112/p58\" rel=\"noopener noreferrer\">https://www.techmeme.com/261112/p58</a></p>",
+      "date_published": "2026-11-12T21:50:00Z",
+      "date_modified": "2026-11-12T23:18:18.237901Z",
+      "tags": [
+        "industry-capital",
+        "产业与资本"
+      ],
+      "_daily_info": {
+        "score": 71.61,
+        "source": "Techmeme",
+        "cluster_id": "3e8a63beb1fdbc55",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-13:f101ffad2bb3a113",
+      "url": "https://ipo.anthropic.com/us",
+      "title": "Anthropic IPO",
+      "summary": "Anthropic IPO 相关讨论帖在社区获 761 分、758 条评论 — 评论数几乎追平分数，说明这是一次高争议事件而非单纯利好，材料本身没有招股条款",
+      "content_html": "<p><strong>Anthropic IPO 相关讨论帖在社区获 761 分、758 条评论</strong></p><p>关键数字：761 / 758 · 相关方：Anthropic</p><p><strong>为什么值得看：</strong>评论数几乎追平分数，说明这是一次高争议事件而非单纯利好，材料本身没有招股条款</p><p><strong>对我意味着什么：</strong>模型供应商资本结构变化会影响 API 长期定价与稳定性，provider 备选清单应保留至少两家</p><p><strong>下一步：</strong>若招股文件公开且给出具体发行价与募资额，才更新供应商风险表；在此之前只记为事件标记</p><p>来源：HN Algolia front_page (points/comments) · 发布于 2026-11-12T11:46 UTC · 归类：industry-capital</p><p>证据状态：未独立验证</p><p>→ <a href=\"https://ipo.anthropic.com/us\" rel=\"noopener noreferrer\">https://ipo.anthropic.com/us</a></p>",
+      "date_published": "2026-11-12T11:46:41Z",
+      "date_modified": "2026-11-12T23:18:18.237901Z",
+      "tags": [
+        "industry-capital",
+        "产业与资本"
+      ],
+      "_daily_info": {
+        "score": 74.22,
+        "source": "HN Algolia front_page (points/comments)",
+        "cluster_id": "f101ffad2bb3a113",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-13:c8c5dc29297d2e3d",
+      "url": "https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-track-and-cap-amazon-bedrock-spend-per-iam-principal-with-cur-2-0-and-aws-budgets",
+      "title": "Tokenomics at scale: Track and cap Amazon Bedrock spend per IAM principal with CUR 2.0 and AWS Budgets",
+      "summary": "AWS 给出用 IAM principal 标签配合 CUR 2.0 与 AWS Budgets 按身份追踪并封顶 Bedrock 花费、无需改应用代码的做法 — 把成本归因下沉到身份维度且不动业务代码，是配额治理最省事的一条路径",
+      "content_html": "<p><strong>AWS 给出用 IAM principal 标签配合 CUR 2.0 与 AWS Budgets 按身份追踪并封顶 Bedrock 花费、无需改应用代码的做法</strong></p><p>关键数字：2.0 · 相关方：Amazon Bedrock / CUR 2.0 / AWS Budgets / IAM / Cost Explorer</p><p>Get per-identity Amazon Bedrock cost visibility and enforceable spend limits using only AWS-native features, with no application code for the common case. Attribute spend with IAM principal tags, report with CUR 2.0 or Cost Explorer, and enforce with AWS Budgets actions that apply a Deny policy when</p><p><strong>为什么值得看：</strong>把成本归因下沉到身份维度且不动业务代码，是配额治理最省事的一条路径</p><p><strong>对我意味着什么：</strong>免密钥 LLM 调用若多租户共用，可直接照此按 principal 设硬上限，避免单任务刷爆账单</p><p><strong>下一步：</strong>跑一次配额冒烟：若某个 principal 超预算后调用被拒且错误码明确，则判定封顶生效</p><p>来源：AWS ML Blog · 发布于 2026-11-12T19:29 UTC · 归类：ai-models</p><p>→ <a href=\"https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-track-and-cap-amazon-bedrock-spend-per-iam-principal-with-cur-2-0-and-aws-budgets\" rel=\"noopener noreferrer\">https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-track-and-cap-amazon-bedrock-spend-per-iam-principal-with-cur-2-0-and-aws-budgets</a></p>",
+      "date_published": "2026-11-12T19:29:55Z",
+      "date_modified": "2026-11-12T23:18:18.237901Z",
+      "tags": [
+        "ai-models",
+        "模型与研究"
+      ],
+      "_daily_info": {
+        "score": 70.46,
+        "source": "AWS ML Blog",
+        "cluster_id": "c8c5dc29297d2e3d",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-13:4d9244537a2033a7",
+      "url": "https://the-decoder.com/googles-gemini-4-hydrogen-outscores-the-bigger-argon-just-four-weeks-after-its-launch",
+      "title": "Google's Gemini 4 Hydrogen outscores the bigger Argon just four weeks after its launch",
+      "summary": "Gemini 4 Hydrogen 取代 Flash 系列，独立指数显示其接近 Claude Sonnet 5.5，摘要另给出 2.5 倍成本读数 — 同一份材料里更便宜与 2.5 倍成本并存，说明单位价格与总账单是两回事，不能混用",
+      "content_html": "<p><strong>Gemini 4 Hydrogen 取代 Flash 系列，独立指数显示其接近 Claude Sonnet 5.5，摘要另给出 2.5 倍成本读数</strong></p><p>关键数字：4 / 5.5 / 2.5 · 相关方：Gemini 4 Hydrogen / Argon / Flash / Claude Sonnet 5.5 / Artificial Analysis Intelligence Index / Google</p><p>Google&#x27;s Gemini 4 Hydrogen replaces the Flash series, but benchmarks suggest it also makes the pricier Argon obsolete. On the independent Artificial Analysis Intelligence Index, Hydrogen nearly matches Claude Sonnet 5.5 for less money but costs about 2.5 times more per task than GPT-6.1 Sol and stil</p><p><strong>为什么值得看：</strong>同一份材料里更便宜与 2.5 倍成本并存，说明单位价格与总账单是两回事，不能混用</p><p><strong>对我意味着什么：</strong>WorkBuddy 模型路由若按单价切换，需同时记录上下文长度与调用次数，否则总价会反向上升</p><p><strong>下一步：</strong>对照 Artificial Analysis 具体分项：若两者指数分差小于 5% 且单任务总成本更低，才判定可替换</p><p>来源：The Decoder · 发布于 2026-11-12T19:58 UTC · 归类：ai-models</p><p>→ <a href=\"https://the-decoder.com/googles-gemini-4-hydrogen-outscores-the-bigger-argon-just-four-weeks-after-its-launch\" rel=\"noopener noreferrer\">https://the-decoder.com/googles-gemini-4-hydrogen-outscores-the-bigger-argon-just-four-weeks-after-its-launch</a></p>",
+      "date_published": "2026-11-12T19:58:43Z",
+      "date_modified": "2026-11-12T23:18:18.237901Z",
+      "tags": [
+        "ai-models",
+        "模型与研究"
+      ],
+      "_daily_info": {
+        "score": 70.78,
+        "source": "The Decoder",
+        "cluster_id": "4d9244537a2033a7",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-13:0667a519c65042ee",
+      "url": "https://github.com/hyperionaidev/smolmaxxing",
+      "title": "I'm making LLMs work on small and old devices",
+      "summary": "作者让 LLM 在小型旧设备上运行的帖子获 245 分、86 条评论 — 端侧推理讨论热度高，但材料没有设备型号、内存占用或吞吐，无法判断可用性边界",
+      "content_html": "<p><strong>作者让 LLM 在小型旧设备上运行的帖子获 245 分、86 条评论</strong></p><p>关键数字：245 / 86 · 相关方：LLMs</p><p><strong>为什么值得看：</strong>端侧推理讨论热度高，但材料没有设备型号、内存占用或吞吐，无法判断可用性边界</p><p><strong>对我意味着什么：</strong>WinVM 上的本地执行模型若走端侧路线，需先有内存与延迟读数，再决定是否分担云端编排</p><p><strong>下一步：</strong>若后续给出具体内存占用与每秒 token 数，且旧设备上达到 10 token/s 以上，才判定端侧可承担实际任务</p><p>来源：HN Algolia front_page (points/comments) · 发布于 2026-11-12T15:23 UTC · 归类：ai-models</p><p>证据状态：未独立验证</p><p>→ <a href=\"https://github.com/hyperionaidev/smolmaxxing\" rel=\"noopener noreferrer\">https://github.com/hyperionaidev/smolmaxxing</a></p>",
+      "date_published": "2026-11-12T15:23:10Z",
+      "date_modified": "2026-11-12T23:18:18.237901Z",
+      "tags": [
+        "ai-models",
+        "模型与研究"
+      ],
+      "_daily_info": {
+        "score": 74.44,
+        "source": "HN Algolia front_page (points/comments)",
+        "cluster_id": "0667a519c65042ee",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-13:bc81dad5a88a96b1",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&mid=2652742286&idx=2&sn=c52effcf422a1c9f2503cbf18ffe0d8d&chksm=f02d8bb553c6327d767b283f832099c9d6e00f284da9d9331f3414633eb0c4e7295a67d03bfc&scene=0&xtrack=1",
+      "title": "狂肝11小时搓出虚幻5大作！文心5.5 Flash Preview发布",
+      "summary": "百度发布文心5.5 Flash Preview，总参数 2800 亿、每次激活 140 亿、推理超 200 token/秒，输入闲时 1 元每百万 token — 稀疏激活把大参数模型的单位成本压向小模型，定价按忙闲时段分层是新的成本变量",
+      "content_html": "<p><strong>百度发布文心5.5 Flash Preview，总参数 2800 亿、每次激活 140 亿、推理超 200 token/秒，输入闲时 1 元每百万 token</strong></p><p>关键数字：11 / 5.5 / 2800 / 140 / 200 · 相关方：文心5.5 Flash Preview / ERNIE 5.5 Flash Preview / 百度 / 虚幻5</p><p>扩散模型、生成模型、深度学习｜百度正式发布文心5.5 Flash Preview（ERNIE 5.5 Flash Preview），主打“快、便宜、开源”。模型参数达2800亿，但每次仅激活140亿，推理速度超200 token/秒。API定价极具竞争力：输入忙时2元/百万token、闲时1元，输出忙时8元、闲时4元，当前限时五折。该模型即日起上线，面向开发者开放。</p><p><strong>为什么值得看：</strong>稀疏激活把大参数模型的单位成本压向小模型，定价按忙闲时段分层是新的成本变量</p><p><strong>对我意味着什么：</strong>WorkBuddy 免密钥 LLM 调用若接入分时定价，需把忙闲时段写进调度策略，而非只看名义单价</p><p><strong>下一步：</strong>做一次对照：若闲时输入 1 元每百万 token 下 200 token/秒吞吐能复现，才判定可纳入低成本批处理通道</p><p>来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-12T15:30 UTC · 归类：ai-models</p><p>→ <a href=\"https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&amp;mid=2652742286&amp;idx=2&amp;sn=c52effcf422a1c9f2503cbf18ffe0d8d&amp;chksm=f02d8bb553c6327d767b283f832099c9d6e00f284da9d9331f3414633eb0c4e7295a67d03bfc&amp;scene=0&amp;xtrack=1\" rel=\"noopener noreferrer\">https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&amp;mid=2652742286&amp;idx=2&amp;sn=c52effcf422a1c9f2503cbf18ffe0d8d&amp;chksm=f02d8bb553c6327d767b283f832099c9d6e00f284da9d9331f3414633eb0c4e7295a67d03bfc&amp;scene=0&amp;xtrack=1</a></p>",
+      "date_published": "2026-11-12T15:30:00Z",
+      "date_modified": "2026-11-12T23:18:18.237901Z",
+      "tags": [
+        "ai-models",
+        "模型与研究"
+      ],
+      "_daily_info": {
+        "score": 74.49,
+        "source": "智源社区 · 最新分享（匿名 API）",
+        "cluster_id": "bc81dad5a88a96b1",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-13:cd4a15607d6f089b",
+      "url": "https://www.techmeme.com/261112/p57",
+      "title": "Cerebras reports Q3 core revenue up 70% YoY to $230.9M, vs. $214.7M est., issues strong guidance, and announces a Microsoft deal; CBRS jumps 15%+ after hours (Jordan Novet/CNBC)",
+      "summary": "Cerebras Q3 核心营收同比增 70% 至 $230.9M，高于 $214.7M 预期，并宣布与 Microsoft 合作，CBRS 盘后涨超 15% — 营收超预期与盘后涨幅同时出现，说明市场把算力需求当作可验证订单而非叙事",
+      "content_html": "<p><strong>Cerebras Q3 核心营收同比增 70% 至 $230.9M，高于 $214.7M 预期，并宣布与 Microsoft 合作，CBRS 盘后涨超 15%</strong></p><p>关键数字：70% / 230.9 / 214.7 / 15% · 相关方：Cerebras / Microsoft / CBRS / CNBC</p><p>Jordan Novet / CNBC: Cerebras reports Q3 core revenue up 70% YoY to $230.9M, vs. $214.7M est., issues strong guidance, and announces a Microsoft deal; CBRS jumps 15%+ after hours — Cerebras Systems reported better-than-expected revenue and quarterly guidance in its earnings report on Thursday, and t</p><p><strong>为什么值得看：</strong>营收超预期与盘后涨幅同时出现，说明市场把算力需求当作可验证订单而非叙事</p><p><strong>对我意味着什么：</strong>算力供给侧报价与交付周期会传导到 LLM provider 成本，选型表里需保留单价与配额字段</p><p><strong>下一步：</strong>若下季度核心营收同比增速跌破 70% 或 Microsoft 合作未落地为具体订单，则判定高增长不可外推</p><p>来源：Techmeme · 发布于 2026-11-12T21:35 UTC · 归类：dev-tools</p><p>→ <a href=\"https://www.techmeme.com/261112/p57\" rel=\"noopener noreferrer\">https://www.techmeme.com/261112/p57</a></p>",
+      "date_published": "2026-11-12T21:35:02Z",
+      "date_modified": "2026-11-12T23:18:18.237901Z",
+      "tags": [
+        "dev-tools",
+        "开发者工具与版本"
+      ],
+      "_daily_info": {
+        "score": 74.63,
+        "source": "Techmeme",
+        "cluster_id": "cd4a15607d6f089b",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-13:c5003bfe5e9237f3",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&mid=2652742286&idx=1&sn=7412d40e19e2c81d1c7c921926efb698&chksm=f01a4c444a51cedd505f9dba08b1aadc15e2c970e053dfa4c5b99f55f62ca7e12a6ad12017d5&scene=0&xtrack=1",
+      "title": "清华系团队死磕20年！攻破71%盲区，最强深海AI大脑诞生",
+      "summary": "标题以 20 年与 71% 盲区描述深海 AI 大脑，摘要同时披露领渊智能完成千万级种子轮融资 — 标题的性能数字与摘要的融资事实不对齐，读者无法从同一条材料判断技术进展到哪一步",
+      "content_html": "<p><strong>标题以 20 年与 71% 盲区描述深海 AI 大脑，摘要同时披露领渊智能完成千万级种子轮融资</strong></p><p>关键数字：20 / 71% · 相关方：清华系团队 / 领渊智能 / 水下AI智能系统</p><p>AI、生成模型、深度学习｜深圳初创公司领渊智能完成千万级种子轮融资，聚焦水下AI智能系统研发，旨在为水下装备赋予自主决策能力。其目标是实现设备下水后无需人工实时操控，可自主执行任务、识别问题并生成结构化报告，替代当前依赖人工操控与潜水员高风险作业的传统模式。该方案显著降低作业成本与安全风险，并将原始“死数据”转化为可分析、可行动的智能信息，推动海洋探测智能化升级。</p><p><strong>为什么值得看：</strong>标题的性能数字与摘要的融资事实不对齐，读者无法从同一条材料判断技术进展到哪一步</p><p><strong>对我意味着什么：</strong>对数据基建选题的启发：把标题读数和正文读数分开入库，避免把营销数字当作可核验指标</p><p><strong>下一步：</strong>对照原始论文或融资公告核对 71% 的定义与测试集，若找不到出处则判定该读数不可入索引</p><p>来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-12T15:20 UTC · 归类：deep-read</p><p>证据状态：未独立验证</p><p>→ <a href=\"https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&amp;mid=2652742286&amp;idx=1&amp;sn=7412d40e19e2c81d1c7c921926efb698&amp;chksm=f01a4c444a51cedd505f9dba08b1aadc15e2c970e053dfa4c5b99f55f62ca7e12a6ad12017d5&amp;scene=0&amp;xtrack=1\" rel=\"noopener noreferrer\">https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&amp;mid=2652742286&amp;idx=1&amp;sn=7412d40e19e2c81d1c7c921926efb698&amp;chksm=f01a4c444a51cedd505f9dba08b1aadc15e2c970e053dfa4c5b99f55f62ca7e12a6ad12017d5&amp;scene=0&amp;xtrack=1</a></p>",
+      "date_published": "2026-11-12T15:20:00Z",
+      "date_modified": "2026-11-12T23:18:18.237901Z",
+      "tags": [
+        "deep-read",
+        "深度长文"
+      ],
+      "_daily_info": {
+        "score": 77.59,
+        "source": "智源社区 · 最新分享（匿名 API）",
+        "cluster_id": "c5003bfe5e9237f3",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-13:b8c82d5c01fe377a",
+      "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0",
+      "title": "Rust 1.100",
+      "summary": "Rust 1.100 发布帖在社区获 243 分、124 条评论 — 三位数版本跨度通常伴随工具链行为变化，但材料只有版本号与热度，没有 changelog 明细",
+      "content_html": "<p><strong>Rust 1.100 发布帖在社区获 243 分、124 条评论</strong></p><p>关键数字：1.100 / 243 / 124 · 相关方：Rust</p><p><strong>为什么值得看：</strong>三位数版本跨度通常伴随工具链行为变化，但材料只有版本号与热度，没有 changelog 明细</p><p><strong>对我意味着什么：</strong>本地 Rust 工具链升级前需回归构建脚本，尤其是被 skill 依赖的 CLI 二进制</p><p><strong>下一步：</strong>读 1.100 release notes：若列出 1 项以上破坏性变更，则先跑全量构建回归并确认 0 error 再升级</p><p>来源：HN Algolia front_page (points/comments) · 发布于 2026-11-12T18:39 UTC · 归类：community</p><p>证据状态：未独立验证</p><p>→ <a href=\"https://blog.rust-lang.org/2026/11/12/Rust-1.100.0\" rel=\"noopener noreferrer\">https://blog.rust-lang.org/2026/11/12/Rust-1.100.0</a></p>",
+      "date_published": "2026-11-12T18:39:05Z",
+      "date_modified": "2026-11-12T23:18:18.237901Z",
+      "tags": [
+        "community",
+        "社区与观点"
+      ],
+      "_daily_info": {
+        "score": 74.82,
+        "source": "HN Algolia front_page (points/comments)",
+        "cluster_id": "b8c82d5c01fe377a",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-13:c52958cc869a513c",
+      "url": "https://github.com/simpsoka/zigzag",
+      "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
+      "summary": "作者因 300 美元刺绣机被要求订阅而自建应用，帖子获 232 分、98 条评论 — 硬件功能被订阅化后用户选择自建而非付费，说明本地可控性是真实的付费替代项",
+      "content_html": "<p><strong>作者因 300 美元刺绣机被要求订阅而自建应用，帖子获 232 分、98 条评论</strong></p><p>关键数字：300 / 232 / 98 · 相关方：embroidery machine</p><p><strong>为什么值得看：</strong>硬件功能被订阅化后用户选择自建而非付费，说明本地可控性是真实的付费替代项</p><p><strong>对我意味着什么：</strong>与 WorkBuddy skill 本地可改可留存的定位一致：把关键能力锁进云端订阅会触发用户自建分叉</p><p><strong>下一步：</strong>统计自建项目 star 数：若 30 天内超过 100 且出现 2 个以上独立 fork，判定该订阅模式存在替代压力</p><p>来源：HN Algolia front_page (points/comments) · 发布于 2026-11-12T17:02 UTC · 归类：community</p><p>→ <a href=\"https://github.com/simpsoka/zigzag\" rel=\"noopener noreferrer\">https://github.com/simpsoka/zigzag</a></p>",
+      "date_published": "2026-11-12T17:02:42Z",
+      "date_modified": "2026-11-12T23:18:18.237901Z",
+      "tags": [
+        "community",
+        "社区与观点"
+      ],
+      "_daily_info": {
+        "score": 75.29,
+        "source": "HN Algolia front_page (points/comments)",
+        "cluster_id": "c52958cc869a513c",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-13:2d31f20a157137df",
+      "url": "https://news.cornell.edu/stories/2026/11/data-centers-need-power-lower-income-rural-residents-pay-price",
+      "title": "Data centers need power – lower income, rural residents pay the price",
+      "summary": "数据中心用电需求被指让低收入、农村居民承担代价，社区讨论 143 分、144 条评论 — 算力扩张的外部成本被摆到分配维度，而多数成本模型只算 GPU 与电费单价",
+      "content_html": "<p><strong>数据中心用电需求被指让低收入、农村居民承担代价，社区讨论 143 分、144 条评论</strong></p><p>关键数字：143 / 144 · 相关方：Data centers / rural residents</p><p><strong>为什么值得看：</strong>算力扩张的外部成本被摆到分配维度，而多数成本模型只算 GPU 与电费单价</p><p><strong>对我意味着什么：</strong>做容量与成本估算时应把外部性作为独立字段，避免把单位价格下降直接等同于总成本下降</p><p><strong>下一步：</strong>若同一来源后续给出每户电价增幅的具体百分比，才判定可纳入成本模型；否则只记为待验证观点</p><p>来源：HN Algolia front_page (points/comments) · 发布于 2026-11-12T19:53 UTC · 归类：community</p><p>证据状态：未独立验证</p><p>→ <a href=\"https://news.cornell.edu/stories/2026/11/data-centers-need-power-lower-income-rural-residents-pay-price\" rel=\"noopener noreferrer\">https://news.cornell.edu/stories/2026/11/data-centers-need-power-lower-income-rural-residents-pay-price</a></p>",
+      "date_published": "2026-11-12T19:53:54Z",
+      "date_modified": "2026-11-12T23:18:18.237901Z",
+      "tags": [
+        "community",
+        "社区与观点"
+      ],
+      "_daily_info": {
+        "score": 75.47,
+        "source": "HN Algolia front_page (points/comments)",
+        "cluster_id": "2d31f20a157137df",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-13:8fdb0296ea11e78c",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen",
+      "title": "Gemini 4 Hydrogen",
+      "summary": "Gemini 4 Hydrogen 发布帖在社区获得 403 分、268 条评论 — 只有型号与热度、没有任何基准或价格读数，说明新品讨论尚停留在命名层面",
+      "content_html": "<p><strong>Gemini 4 Hydrogen 发布帖在社区获得 403 分、268 条评论</strong></p><p>关键数字：4 / 403 / 268 · 相关方：Gemini 4 Hydrogen</p><p><strong>为什么值得看：</strong>只有型号与热度、没有任何基准或价格读数，说明新品讨论尚停留在命名层面</p><p><strong>对我意味着什么：</strong>模型选型不能靠热度决定；WorkBuddy 的 provider 切换需要等可复现的基准数据再评估</p><p><strong>下一步：</strong>等第三方基准给出具体分数后，若 Hydrogen 单位 token 成本低于现用模型 20% 以上才进入切换评审</p><p>来源：HN Algolia front_page (points/comments) · 发布于 2026-11-12T18:01 UTC · 归类：community</p><p>证据状态：未独立验证</p><p>→ <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen\" rel=\"noopener noreferrer\">https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen</a></p>",
+      "date_published": "2026-11-12T18:01:48Z",
+      "date_modified": "2026-11-12T23:18:18.237901Z",
+      "tags": [
+        "community",
+        "社区与观点"
+      ],
+      "_daily_info": {
+        "score": 75.86,
+        "source": "HN Algolia front_page (points/comments)",
+        "cluster_id": "8fdb0296ea11e78c",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-13:1704b1c03cb59add",
+      "url": "https://status.cloud.microsoft/",
+      "title": "Service degradation on Microsoft 365",
+      "summary": "Microsoft 365 服务降级事件在社区讨论中获得 357 分与 343 条评论并汇总多个状态页链接 — 单一厂商办公套件故障被 343 条评论快速放大，说明协作链路可用性依赖外部状态而非本地冗余",
+      "content_html": "<p><strong>Microsoft 365 服务降级事件在社区讨论中获得 357 分与 343 条评论并汇总多个状态页链接</strong></p><p>关键数字：357 / 343 · 相关方：Microsoft 365</p><p>https://www.abc.net.au/news/2026-11-13/microsoft-outage-affe...https://www.reddit.com/r/sysadmin/comments/1xuje83/microsoft...https://downdetector.com/status/microsoft-365/</p><p><strong>为什么值得看：</strong>单一厂商办公套件故障被 343 条评论快速放大，说明协作链路可用性依赖外部状态而非本地冗余</p><p><strong>对我意味着什么：</strong>automation 定时任务若依赖 Microsoft 365 侧通知或日历，缺少降级兜底会让分发链在故障日静默失败</p><p><strong>下一步：</strong>对照状态页复现一次：若降级持续超过 2 小时且告警未触达，则判定需为外部依赖加超时与本地留痕</p><p>来源：HN Algolia front_page (points/comments) · 发布于 2026-11-12T18:20 UTC · 归类：community</p><p>证据状态：未独立验证</p><p>→ <a href=\"https://status.cloud.microsoft/\" rel=\"noopener noreferrer\">https://status.cloud.microsoft/</a></p>",
+      "date_published": "2026-11-12T18:20:48Z",
+      "date_modified": "2026-11-12T23:18:18.237901Z",
+      "tags": [
+        "community",
+        "社区与观点"
+      ],
+      "_daily_info": {
+        "score": 77.96,
+        "source": "HN Algolia front_page (points/comments)",
+        "cluster_id": "1704b1c03cb59add",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-13:05a61ad7e4a9114b",
+      "url": "https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement",
+      "title": "Actions for ARM32 Linux & Windows retirement",
+      "summary": "GitHub Actions 托管 runner 将在 8th Dec 2026 前停止 Windows 与 Linux 上的 ARM32 作业，此前已结束 node20 支持 — CI 运行时的架构与 Node 版本被连续收窄，跨架构构建链需要提前改 runner 标签",
+      "content_html": "<p><strong>GitHub Actions 托管 runner 将在 8th Dec 2026 前停止 Windows 与 Linux 上的 ARM32 作业，此前已结束 node20 支持</strong></p><p>关键数字：ARM32 / node20 · 相关方：GitHub Actions / ARM32 / node20 / Linux / Windows</p><p>GitHub Actions hosted runners will be ending support for ARM32 job execution on Windows and Linux by 8th Dec 2026. This follows our end of support for node20 where Node… The post Actions for ARM32 Linux &amp; Windows retirement appeared first on The GitHub Blog.</p><p><strong>为什么值得看：</strong>CI 运行时的架构与 Node 版本被连续收窄，跨架构构建链需要提前改 runner 标签</p><p><strong>对我意味着什么：</strong>Pages workflow 与本地脚本若硬编码 ARM32 或 node20，下一次 runner 镜像更新会直接让构建失败</p><p><strong>下一步：</strong>跑一次 workflow 矩阵：若 arm32 与 node20 作业各出现 1 次以上失败，则判定必须迁移 runner 标签</p><p>来源：GitHub Changelog · 发布于 2026-11-12T20:59 UTC · 归类：docs-changelog</p><p>→ <a href=\"https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement\" rel=\"noopener noreferrer\">https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement</a></p>",
+      "date_published": "2026-11-12T20:59:36Z",
+      "date_modified": "2026-11-12T23:18:18.237901Z",
+      "tags": [
+        "docs-changelog",
+        "文档与变更"
+      ],
+      "_daily_info": {
+        "score": 74.82,
+        "source": "GitHub Changelog",
+        "cluster_id": "05a61ad7e4a9114b",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-13:1e1f91e95e92e49a",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.323",
+      "title": "v2.1.323",
+      "summary": "Claude Code v2.1.323 新增实验性 Code Mode，让 Claude 写 JavaScript 调用工具，并给 plugin.json 增加引擎版本约束 — 工具调用从固定 schema 变成生成代码，插件版本约束同步收紧，说明扩展点稳定性被当成发布闸门",
+      "content_html": "<p><strong>Claude Code v2.1.323 新增实验性 Code Mode，让 Claude 写 JavaScript 调用工具，并给 plugin.json 增加引擎版本约束</strong></p><p>关键数字：2.1.323 · 相关方：Code Mode / JavaScript / plugin.json / Claude</p><p>What&#x27;s changed Added Code Mode, an experimental opt-in in which Claude writes JavaScript to call its tools; see https://code.claude.com/docs/en/code-mode to turn it on, or to turn it off for an organization Added engines[&quot;claude-code&quot;] to plugin.json: plugins outside their stated Claude Code version</p><p><strong>为什么值得看：</strong>工具调用从固定 schema 变成生成代码，插件版本约束同步收紧，说明扩展点稳定性被当成发布闸门</p><p><strong>对我意味着什么：</strong>WorkBuddy 的 skill 与 MCP 扩展点若跟随动态调用，需在插件清单固化引擎版本范围，否则升级会出现不可加载</p><p><strong>下一步：</strong>跑一次隔离环境 smoke：启用 Code Mode 后若插件加载失败数为 0 且 engines 范围校验命中，才判定可接入</p><p>来源：claude-code Releases · 发布于 2026-11-12T22:12 UTC · 归类：docs-changelog</p><p>→ <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.323\" rel=\"noopener noreferrer\">https://github.com/anthropics/claude-code/releases/tag/v2.1.323</a></p>",
+      "date_published": "2026-11-12T22:12:13Z",
+      "date_modified": "2026-11-12T23:18:18.237901Z",
+      "tags": [
+        "docs-changelog",
+        "文档与变更"
+      ],
+      "_daily_info": {
+        "score": 78.9,
+        "source": "claude-code Releases",
+        "cluster_id": "1e1f91e95e92e49a",
+        "ai_status": "ok"
+      }
+    },
+    {
       "id": "tag:daily-info.local,2026-11-12:6f3c74a04fea158f",
       "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips",
       "title": "With $720M round, Britain’s Fractile gets a leg up in the race for AI chips",
@@ -1542,367 +1903,6 @@
         "score": 76.93,
         "source": "Folo 订阅池基线（人工筛选信源）",
         "cluster_id": "a4281c90cf6927ea-c",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-07:5e722243eff5bdd6",
-      "url": "https://www.macrumors.com/how-to/turn-glowing-apple-logo-macbook-pro",
-      "title": "Control the Glowing Apple Logo on Your New MacBook Pro",
-      "summary": "14 与 16 英寸 MacBook Pro 的发光 Apple logo 需在 Terminal 用命令关闭 — 开关不进系统设置而落到命令行，说明厂商把低频定制留给了可脚本化通道",
-      "content_html": "<p><strong>14 与 16 英寸 MacBook Pro 的发光 Apple logo 需在 Terminal 用命令关闭</strong></p><p>关键数字：14 / 16 · 相关方：MacBook Pro / Apple / Terminal</p><p>New 14-inch and 16-inch MacBook Pro models reintroduce the illuminated Apple logo, which automatically adjusts to ambient light. To disable this feature, users must execute a specific command in the Terminal application, as it is not available in System Settings. This action turns off the light imme</p><p><strong>为什么值得看：</strong>开关不进系统设置而落到命令行，说明厂商把低频定制留给了可脚本化通道</p><p><strong>对我意味着什么：</strong>对 automation 有借鉴：可脚本化的开关应配一份可回滚命令清单，本机设备配置才能进幂等流水线</p><p><strong>下一步：</strong>把该命令纳入设备配置脚本并跑一次 dry-run，若 0 处副作用才允许在其它机器复用</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-06T20:03 UTC · 归类：docs-changelog</p><p>→ <a href=\"https://www.macrumors.com/how-to/turn-glowing-apple-logo-macbook-pro\" rel=\"noopener noreferrer\">https://www.macrumors.com/how-to/turn-glowing-apple-logo-macbook-pro</a></p>",
-      "date_published": "2026-11-06T20:03:09.496000Z",
-      "date_modified": "2026-11-06T23:25:27.690104Z",
-      "tags": [
-        "docs-changelog",
-        "开发者工具与版本"
-      ],
-      "_daily_info": {
-        "score": 75.66,
-        "source": "Folo 订阅池基线（人工筛选信源）",
-        "cluster_id": "5e722243eff5bdd6",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-07:c18d0ced5e118c57",
-      "url": "https://www.macrumors.com/2026/11/06/oled-macbook-pro-hands-on",
-      "title": "Hands-On With Apple's New OLED Touchscreen MacBook Pro",
-      "summary": "Apple 的 OLED 触控 MacBook Pro 提供 14 与 16 英寸机型，起价分别为 $2,899 与 $3,399 — 原文自己下了判断：触控属增量改进而非笔记本交互的根本变化，硬件叙事需要打折读",
-      "content_html": "<p><strong>Apple 的 OLED 触控 MacBook Pro 提供 14 与 16 英寸机型，起价分别为 $2,899 与 $3,399</strong></p><p>关键数字：$2,899 / $3,399 / 14 / 16 · 相关方：Apple / MacBook Pro / OLED XDR / M5 Pro</p><p>Apple’s new PROLED MacBook Pro, launched in 2026, replaces the previous mini-LED model with a thinner, lighter, and more responsive design. It features an OLED XDR display with touch capabilities, including swipe, tap, and pinch-to-zoom gestures, alongside a Dynamic Island for Siri and Live Activiti</p><p><strong>为什么值得看：</strong>原文自己下了判断：触控属增量改进而非笔记本交互的根本变化，硬件叙事需要打折读</p><p><strong>对我意味着什么：</strong>对 WinVM 与数据基建暂无直接影响：本机形态不改变 agent 部署与 MCP 通道，仅影响本地开发设备选型</p><p><strong>下一步：</strong>若后续出现 2 个以上独立来源确认触控提升效率，才把它列入开发机换机依据</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-06T22:05 UTC · 归类：docs-changelog</p><p>→ <a href=\"https://www.macrumors.com/2026/11/06/oled-macbook-pro-hands-on\" rel=\"noopener noreferrer\">https://www.macrumors.com/2026/11/06/oled-macbook-pro-hands-on</a></p>",
-      "date_published": "2026-11-06T22:05:59.161000Z",
-      "date_modified": "2026-11-06T23:25:27.690104Z",
-      "tags": [
-        "docs-changelog",
-        "开发者工具与版本"
-      ],
-      "_daily_info": {
-        "score": 77.12,
-        "source": "Folo 订阅池基线（人工筛选信源）",
-        "cluster_id": "c18d0ced5e118c57",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-07:35670172de926c8a",
-      "url": "https://dev.to/natuworkguy/my-ai-agent-called-me-at-2am-i-picked-up-it-had-already-found-the-bug-bcb",
-      "title": "My AI agent called me at 2am. I picked up. It had already found the bug.",
-      "summary": "一位开发者的后台 AI agent 在 2am 主动来电，且已先定位到 bug — 后台 Agent 从被动应答转向主动打断，通知时机本身成了需要设计的权限面",
-      "content_html": "<p><strong>一位开发者的后台 AI agent 在 2am 主动来电，且已先定位到 bug</strong></p><p>关键数字：2 · 相关方：AI agent</p><p>My phone didn&#x27;t ring. My laptop did. A soft two-tone ring, a card sliding up over my half-finished code, and a name I gave a background… 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>后台 Agent 从被动应答转向主动打断，通知时机本身成了需要设计的权限面</p><p><strong>对我意味着什么：</strong>automation 定时任务默认不外发，但主动来电这类交互要求先有静默时段与授权门槛，否则会打断人</p><p><strong>下一步：</strong>给通知链路设静默窗口，若非工作时段触发 1 次即判定该主动通道应默认关闭并回到人工确认</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-06T18:26 UTC · 归类：agent-engineering</p><p>→ <a href=\"https://dev.to/natuworkguy/my-ai-agent-called-me-at-2am-i-picked-up-it-had-already-found-the-bug-bcb\" rel=\"noopener noreferrer\">https://dev.to/natuworkguy/my-ai-agent-called-me-at-2am-i-picked-up-it-had-already-found-the-bug-bcb</a></p>",
-      "date_published": "2026-11-06T18:26:58.717000Z",
-      "date_modified": "2026-11-06T23:25:27.690104Z",
-      "tags": [
-        "agent-engineering",
-        "Agent 与工程"
-      ],
-      "_daily_info": {
-        "score": 76.2,
-        "source": "Folo 订阅池基线（人工筛选信源）",
-        "cluster_id": "35670172de926c8a",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-07:442c2eb5c2c85552-c",
-      "url": "https://adikshatriyag-crypto.github.io/aegis-kernel",
-      "title": "Show HN: AegisKernel – Zero-trust POSIX runtime for AI agents in <0.016ms",
-      "summary": "AegisKernel 宣称面向 AI agents 的零信任 POSIX 运行时开销低于 0.016ms — 把权限隔离的代价写成延迟数字，说明零信任不再只是架构口号，而是可测的工程开销",
-      "content_html": "<p><strong>AegisKernel 宣称面向 AI agents 的零信任 POSIX 运行时开销低于 0.016ms</strong></p><p>关键数字：0.016ms · 相关方：AegisKernel / POSIX / AI agents</p><p>Comments 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>把权限隔离的代价写成延迟数字，说明零信任不再只是架构口号，而是可测的工程开销</p><p><strong>对我意味着什么：</strong>WinVM Bridge 的 VM 侧隔离层与 MCP 直连路径都能拿这个数当预算上限，判断零信任是否值得引入</p><p><strong>下一步：</strong>在隔离测试环境跑 100 次冷启动，若 P99 延迟不超过 0.016ms 且 0 violations 才列入沙箱候选</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-06T17:00 UTC · 归类：community</p><p>→ <a href=\"https://adikshatriyag-crypto.github.io/aegis-kernel\" rel=\"noopener noreferrer\">https://adikshatriyag-crypto.github.io/aegis-kernel</a></p>",
-      "date_published": "2026-11-06T17:00:23.052000Z",
-      "date_modified": "2026-11-06T23:25:27.690104Z",
-      "tags": [
-        "community",
-        "Agent 与工程"
-      ],
-      "_daily_info": {
-        "score": 76.89,
-        "source": "Folo 订阅池基线（人工筛选信源）",
-        "cluster_id": "442c2eb5c2c85552-c",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-07:ef2a83f7f3a44d74",
-      "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
-      "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
-      "summary": "可求助 Opus 的 Jev 以 4x 更低成本取得 Opus 级准确率 — 把 LLM judge 的成本与准确率同时量化，路由策略第一次有了可对照的两个维度",
-      "content_html": "<p><strong>可求助 Opus 的 Jev 以 4x 更低成本取得 Opus 级准确率</strong></p><p>关键数字：4x · 相关方：Opus / Jev</p><p>Comments 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>把 LLM judge 的成本与准确率同时量化，路由策略第一次有了可对照的两个维度</p><p><strong>对我意味着什么：</strong>WorkBuddy 的 LLM provider V1 若引入分级 judge，可照此设成本上限，避免所有请求都走高价模型</p><p><strong>下一步：</strong>对照 Opus 基线跑 200 条样本，若成本比达到 4 且准确率差小于 2 个百分点才判定可切换路由</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-06T19:48 UTC · 归类：dev-tools</p><p>证据状态：推断</p><p>→ <a href=\"https://hightouch.com/blog/llm-judges-identity-resolution\" rel=\"noopener noreferrer\">https://hightouch.com/blog/llm-judges-identity-resolution</a></p>",
-      "date_published": "2026-11-06T19:48:51.048000Z",
-      "date_modified": "2026-11-06T23:25:27.690104Z",
-      "tags": [
-        "dev-tools",
-        "模型与研究"
-      ],
-      "_daily_info": {
-        "score": 77.1,
-        "source": "Folo 订阅池基线（人工筛选信源）",
-        "cluster_id": "ef2a83f7f3a44d74",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-07:46db23cc1210bae5",
-      "url": "https://sketchagent.dev/",
-      "title": "SketchAgentBench – evaluate LLMs on 3D spatial reasoning",
-      "summary": "SketchAgentBench 把 LLMs 的 3D 空间推理做成可跑的评测基准 — 空间推理从定性描述变成有基准可打分的对象，Agent 能力声明开始需要独立复现",
-      "content_html": "<p><strong>SketchAgentBench 把 LLMs 的 3D 空间推理做成可跑的评测基准</strong></p><p>关键数字：3D · 相关方：SketchAgentBench / LLMs</p><p>Comments 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>空间推理从定性描述变成有基准可打分的对象，Agent 能力声明开始需要独立复现</p><p><strong>对我意味着什么：</strong>WinVM Bridge 与 3D 资产链路都依赖空间理解，该基准可直接用作 agent 部署前的验收项，替代主观描述</p><p><strong>下一步：</strong>取该基准跑一次本地 smoke，若 3D 任务通过率低于 60% 则判定当前 provider 不满足空间推理接入条件</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-06T20:28 UTC · 归类：agent-engineering</p><p>→ <a href=\"https://sketchagent.dev/\" rel=\"noopener noreferrer\">https://sketchagent.dev/</a></p>",
-      "date_published": "2026-11-06T20:28:24.123000Z",
-      "date_modified": "2026-11-06T23:25:27.690104Z",
-      "tags": [
-        "agent-engineering",
-        "模型与研究"
-      ],
-      "_daily_info": {
-        "score": 80.75,
-        "source": "Folo 订阅池基线（人工筛选信源）",
-        "cluster_id": "46db23cc1210bae5",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-05:86809fee4f8cf7e7",
-      "url": "https://sspai.com/post/118541",
-      "title": "新玩意 255｜少数派的编辑们最近买了啥？",
-      "summary": "少数派「新玩意」第 255 期由编辑分享近期个人购入的数码产品与上手体验 — 一手使用体验补足参数表之外的信息，但抓取摘要不含价格与型号，可核验性有限。",
-      "content_html": "<p><strong>少数派「新玩意」第 255 期由编辑分享近期个人购入的数码产品与上手体验</strong></p><p>关键数字：255 · 相关方：Sspai / New Toys</p><p>The digital publication Sspai introduces a recurring feature titled &quot;New Toys,&quot; which aims to satisfy reader curiosity about the editorial team&#x27;s personal purchases. In this segment, editors share firsthand accounts and usage experiences of the latest gadgets and products they have recently acquired</p><p><strong>为什么值得看：</strong>一手使用体验补足参数表之外的信息，但抓取摘要不含价格与型号，可核验性有限。</p><p><strong>对我意味着什么：</strong>对设备选型只能当线索：进入比较表前必须补齐 2 项可核验规格。</p><p><strong>下一步：</strong>若补齐型号与价格后仍缺 1 项，则本期不纳入设备候选清单。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-05T09:11 UTC · 归类：agent-engineering</p><p>→ <a href=\"https://sspai.com/post/118541\" rel=\"noopener noreferrer\">https://sspai.com/post/118541</a></p>",
-      "date_published": "2026-11-05T09:11:28.852000Z",
-      "date_modified": "2026-11-05T11:52:53.812318Z",
-      "tags": [
-        "agent-engineering",
-        "社区与观点"
-      ],
-      "_daily_info": {
-        "score": 77.96,
-        "source": "Folo 订阅池基线（人工筛选信源）",
-        "cluster_id": "86809fee4f8cf7e7",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-05:f8424668a04d6ed1",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-05/yardeni-yields-attractive-at-5-nasdaq-to-outperform-video",
-      "title": "Yardeni: Yields Attractive at 5%; Nasdaq to Outperform",
-      "summary": "Yardeni 在彭博访谈中称 10 年期美债收益率约 5% 具吸引力，并偏好 Nasdaq 100 — 这是第三方观点而非独立验证数据，5% 与「偏好」之间不构成本站结论。",
-      "content_html": "<p><strong>Yardeni 在彭博访谈中称 10 年期美债收益率约 5% 具吸引力，并偏好 Nasdaq 100</strong></p><p>关键数字：5% / 10 / 100 · 相关方：Yardeni / Nasdaq 100 / Bloomberg</p><p>Yardeni Research President, Ed Yardeni, says US 10-year Treasury yields look “very attractive” at around the 5% level with inflation expected to cool. On Bloomberg&#x27;s Insight with Haslinda Amin, he also told us why the Nasdaq 100 is his preferred asset for the next 24 months. (Source: Bloomberg)</p><p><strong>为什么值得看：</strong>这是第三方观点而非独立验证数据，5% 与「偏好」之间不构成本站结论。</p><p><strong>对我意味着什么：</strong>仅记录公开观点与风险提示，不产生任何仓位或交易判断；观点类条目需单列。</p><p><strong>下一步：</strong>对照官方收益率曲线核对 5% 与 10 年期口径，偏差超过 0.1 个百分点则标注存疑。</p><p>来源：Bloomberg Markets · 发布于 2026-11-05T07:16 UTC · 归类：market-invest</p><p>证据状态：未独立验证</p><p>→ <a href=\"https://www.bloomberg.com/news/videos/2026-11-05/yardeni-yields-attractive-at-5-nasdaq-to-outperform-video\" rel=\"noopener noreferrer\">https://www.bloomberg.com/news/videos/2026-11-05/yardeni-yields-attractive-at-5-nasdaq-to-outperform-video</a></p>",
-      "date_published": "2026-11-05T07:16:56Z",
-      "date_modified": "2026-11-05T11:52:53.812318Z",
-      "tags": [
-        "market-invest",
-        "市场与投资"
-      ],
-      "_daily_info": {
-        "score": 72.34,
-        "source": "Bloomberg Markets",
-        "cluster_id": "f8424668a04d6ed1",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-05:678851dd9a3f9fb9",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-05/pound-strength-gauge-hits-highest-since-2016-ahead-of-boe-hike",
-      "title": "Pound Gauge Hits Strongest Since Brexit Vote on Likely BOE Hike",
-      "summary": "彭博称英镑强度指标升至 2016 年以来最高，受英国经济数据与加息预期支撑 — 「2016 年以来最高」是长周期比较，容易掩盖中间波动，读时必须带基准年份。",
-      "content_html": "<p><strong>彭博称英镑强度指标升至 2016 年以来最高，受英国经济数据与加息预期支撑</strong></p><p>关键数字：2016 · 相关方：Brexit / BOE</p><p>A gauge of pound strength rose to its highest level since 2016, supported by resilient UK economic data and expectations for interest-rate hikes.</p><p><strong>为什么值得看：</strong>「2016 年以来最高」是长周期比较，容易掩盖中间波动，读时必须带基准年份。</p><p><strong>对我意味着什么：</strong>仅作公开数据记录，不构成投资判断；提醒所有相对读数必须写明基期。</p><p><strong>下一步：</strong>核对基期是否确为 2016 年同一口径，若口径不一致则撤回该比较表述。</p><p>来源：Bloomberg Markets · 发布于 2026-11-05T10:04 UTC · 归类：market-invest</p><p>→ <a href=\"https://www.bloomberg.com/news/articles/2026-11-05/pound-strength-gauge-hits-highest-since-2016-ahead-of-boe-hike\" rel=\"noopener noreferrer\">https://www.bloomberg.com/news/articles/2026-11-05/pound-strength-gauge-hits-highest-since-2016-ahead-of-boe-hike</a></p>",
-      "date_published": "2026-11-05T10:04:51Z",
-      "date_modified": "2026-11-05T11:52:53.812318Z",
-      "tags": [
-        "market-invest",
-        "市场与投资"
-      ],
-      "_daily_info": {
-        "score": 72.7,
-        "source": "Bloomberg Markets",
-        "cluster_id": "678851dd9a3f9fb9",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-05:f1e03683a29d4bc1-c",
-      "url": "https://arxiv.org/abs/2611.06724",
-      "title": "Dexterous Robotic Hands in the Foundation-Model Era: A Full-Stack Survey of Hardware, Data, Cross-Embodiment Transfer, Learning, and Evaluation",
-      "summary": "arXiv 2611.06724 综述基础模型时代灵巧机械手在硬件、数据、跨本体迁移与评测上的全栈进展 — 把硬件、数据与评测拆开综述，等于承认单一指标无法代表具身能力的进展。",
-      "content_html": "<p><strong>arXiv 2611.06724 综述基础模型时代灵巧机械手在硬件、数据、跨本体迁移与评测上的全栈进展</strong></p><p>关键数字：2611.06724 / 2024 · 相关方：arXiv / foundation models</p><p>arXiv:2611.06724v1 Announce Type: cross Abstract: Dexterous robotic hands are increasingly coupled to large-scale human data and foundation models, yet progress in hardware, representation learning and evaluation is often assessed separately. This survey reviews work from January 2024 to early Novem</p><p><strong>为什么值得看：</strong>把硬件、数据与评测拆开综述，等于承认单一指标无法代表具身能力的进展。</p><p><strong>对我意味着什么：</strong>对 3D 资产与具身链路的评估表有参考价值：至少分 4 列，别压成一个分数。</p><p><strong>下一步：</strong>核对综述给出的 4 个维度是否都有量化基准，若缺 1 列则标注该维度暂无可靠数据。</p><p>来源：arXiv cs.AI · 发布于 2026-11-05T05:00 UTC · 归类：research-papers</p><p>→ <a href=\"https://arxiv.org/abs/2611.06724\" rel=\"noopener noreferrer\">https://arxiv.org/abs/2611.06724</a></p><p>→ <a href=\"https://arxiv.org/abs/2611.06724v1\" rel=\"noopener noreferrer\">https://arxiv.org/abs/2611.06724v1</a></p>",
-      "date_published": "2026-11-05T05:00:00Z",
-      "date_modified": "2026-11-05T11:52:53.812318Z",
-      "tags": [
-        "research-papers",
-        "论文与学术"
-      ],
-      "_daily_info": {
-        "score": 69.18,
-        "source": "arXiv cs.AI",
-        "cluster_id": "f1e03683a29d4bc1-c",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-05:3504862794ad47cd",
-      "url": "https://www.36kr.com/newsflashes/4056722893329545",
-      "title": "美国10月挑战者企业裁员人数43994人",
-      "summary": "挑战者企业报告称美国雇主 10 月宣布裁员 43,994 人 — 单一月度读数缺少同比与行业拆分，只能作为一个观测点，不能当趋势。",
-      "content_html": "<p><strong>挑战者企业报告称美国雇主 10 月宣布裁员 43,994 人</strong></p><p>关键数字：43,994 / 43994 / 10 · 相关方：挑战者企业 / 界面</p><p>美国就业咨询公司“挑战者企业”发布报告显示，美国雇主10月宣布的裁员人数为43,994人。（界面）</p><p><strong>为什么值得看：</strong>单一月度读数缺少同比与行业拆分，只能作为一个观测点，不能当趋势。</p><p><strong>对我意味着什么：</strong>与本项目数据基建无直接关联，仅用于练习「单点数不入结论」的核验习惯。</p><p><strong>下一步：</strong>补齐至少 2 个连续月份读数后才允许写入趋势表述，否则只保留原始数字。</p><p>来源：36氪快讯（RSSHub 镜像路由） · 发布于 2026-11-05T10:31 UTC · 归类：industry-capital</p><p>→ <a href=\"https://www.36kr.com/newsflashes/4056722893329545\" rel=\"noopener noreferrer\">https://www.36kr.com/newsflashes/4056722893329545</a></p>",
-      "date_published": "2026-11-05T10:31:55Z",
-      "date_modified": "2026-11-05T11:52:53.812318Z",
-      "tags": [
-        "industry-capital",
-        "产业与资本"
-      ],
-      "_daily_info": {
-        "score": 71.92,
-        "source": "36氪快讯（RSSHub 镜像路由）",
-        "cluster_id": "3504862794ad47cd",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-05:73d653898f632f20",
-      "url": "https://www.techmeme.com/261105/p3",
-      "title": "Sources and company memo: Chinese NAND flash maker YMTC has put its Shanghai IPO on hold as China tightens share sale approvals; YMTC sought to raise ~$4.9B (Reuters)",
-      "summary": "路透援引消息称长江存储 YMTC 暂停上海 IPO，原计划募资约 49 亿美元 — 约 4.9B 的募资计划与审批收紧同时出现，融资节奏受监管变量影响大于技术进度。",
-      "content_html": "<p><strong>路透援引消息称长江存储 YMTC 暂停上海 IPO，原计划募资约 49 亿美元</strong></p><p>关键数字：4.9 · 相关方：YMTC / Reuters</p><p>Reuters: Sources and company memo: Chinese NAND flash maker YMTC has put its Shanghai IPO on hold as China tightens share sale approvals; YMTC sought to raise ~$4.9B — Flash-memory chipmaker Yangtze Memory Technologies Co has put its Shanghai IPO on hold, according to a company memo and three people</p><p><strong>为什么值得看：</strong>约 4.9B 的募资计划与审批收紧同时出现，融资节奏受监管变量影响大于技术进度。</p><p><strong>对我意味着什么：</strong>对数据基建侧的供应链假设只作背景记录，不据此调整任何选型或采购判断。</p><p><strong>下一步：</strong>等 1 份官方披露再更新状态，若 30 天内无一手来源则保持 unverified 标记。</p><p>来源：Techmeme · 发布于 2026-11-05T06:05 UTC · 归类：community</p><p>证据状态：未独立验证</p><p>→ <a href=\"https://www.techmeme.com/261105/p3\" rel=\"noopener noreferrer\">https://www.techmeme.com/261105/p3</a></p>",
-      "date_published": "2026-11-05T06:05:04Z",
-      "date_modified": "2026-11-05T11:52:53.812318Z",
-      "tags": [
-        "community",
-        "产业与资本"
-      ],
-      "_daily_info": {
-        "score": 72.06,
-        "source": "Techmeme",
-        "cluster_id": "73d653898f632f20",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-05:2d48fe9f88e1b74d",
-      "url": "https://www.36kr.com/newsflashes/4056714556216196",
-      "title": "4天3板引力传媒：截至10月末AI短剧业务收入占经审计2025年公司营收的比例不足0.1%",
-      "summary": "引力传媒公告 AI 短剧业务收入占 2025 年经审计营收不足 0.1%，提示规模与盈利模式不确定 — 4 天 3 板的市场叙事与公司自述 0.1% 收入敞口差距明显，是叙事与基本面的可量化反例。",
-      "content_html": "<p><strong>引力传媒公告 AI 短剧业务收入占 2025 年经审计营收不足 0.1%，提示规模与盈利模式不确定</strong></p><p>关键数字：0.1% / 4 / 3 / 2025 · 相关方：引力传媒 / 36氪</p><p>36氪获悉，引力传媒公告，公司AI短剧业务尚处于前期投入阶段，业务规模较小，其市场认可度及盈利模式均存在不确定性，截至10月末该业务产生的收入占经审计2025年公司营业收入的比例不足0.1%，不会对公司业绩构成重大影响。</p><p><strong>为什么值得看：</strong>4 天 3 板的市场叙事与公司自述 0.1% 收入敞口差距明显，是叙事与基本面的可量化反例。</p><p><strong>对我意味着什么：</strong>仅作信息披露口径记录，不构成任何投资判断；提醒带数字公告保留原文、不加解读。</p><p><strong>下一步：</strong>对照公告原文核对 0.1% 与统计截止期，若有 1 处出入则撤回该条并标注二次转述。</p><p>来源：36氪快讯（RSSHub 镜像路由） · 发布于 2026-11-05T10:23 UTC · 归类：industry-capital</p><p>→ <a href=\"https://www.36kr.com/newsflashes/4056714556216196\" rel=\"noopener noreferrer\">https://www.36kr.com/newsflashes/4056714556216196</a></p>",
-      "date_published": "2026-11-05T10:23:26Z",
-      "date_modified": "2026-11-05T11:52:53.812318Z",
-      "tags": [
-        "industry-capital",
-        "产业与资本"
-      ],
-      "_daily_info": {
-        "score": 73.42,
-        "source": "36氪快讯（RSSHub 镜像路由）",
-        "cluster_id": "2d48fe9f88e1b74d",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-05:dccf297bb82e70c4",
-      "url": "https://www.36kr.com/newsflashes/4056739997160585",
-      "title": "Meta首次发行欧元债融资90亿欧元，认购需求创纪录",
-      "summary": "Meta 首次发行欧元债券融资 90 亿欧元，获超 620 亿欧元认购，创欧洲公司债认购纪录 — 620 亿欧元认购对比 2016 年 310 亿的旧纪录，资金对 AI 资本开支的承接意愿仍强。",
-      "content_html": "<p><strong>Meta 首次发行欧元债券融资 90 亿欧元，获超 620 亿欧元认购，创欧洲公司债认购纪录</strong></p><p>关键数字：90 / 620 / 310 / 2016 · 相关方：Meta / 百威英博 / 彭博</p><p>Meta Platforms Inc．通过首次欧元债券发行融资90亿欧元，获得超过620亿欧元认购，创下欧洲公司债发行的最高认购纪录。由于其提供的收益率颇具吸引力，即便是对人工智能热潮持谨慎态度的投资者也难以抗拒。数据显示，这笔交易的认购订单已超过百威英博2016年发行债券时获得的逾310亿欧元需求。Meta欧元债券报价已升至面值之上。彭博汇编数据显示，Meta发行的六档债券周四报价均走高，甚至买入报价（即交易员愿意买入债券的价格）也已高于面值。（新浪财经）</p><p><strong>为什么值得看：</strong>620 亿欧元认购对比 2016 年 310 亿的旧纪录，资金对 AI 资本开支的承接意愿仍强。</p><p><strong>对我意味着什么：</strong>影响自建与托管的成本假设：资本便宜时托管侧更容易降价，成本模型要留出价格变量。</p><p><strong>下一步：</strong>把该认购倍数记入成本表备注，若下季度融资成本上升超过 1 个百分点则重算选型。</p><p>来源：36氪快讯（RSSHub 镜像路由） · 发布于 2026-11-05T11:04 UTC · 归类：industry-capital</p><p>→ <a href=\"https://www.36kr.com/newsflashes/4056739997160585\" rel=\"noopener noreferrer\">https://www.36kr.com/newsflashes/4056739997160585</a></p>",
-      "date_published": "2026-11-05T11:04:09Z",
-      "date_modified": "2026-11-05T11:52:53.812318Z",
-      "tags": [
-        "industry-capital",
-        "产业与资本"
-      ],
-      "_daily_info": {
-        "score": 73.93,
-        "source": "36氪快讯（RSSHub 镜像路由）",
-        "cluster_id": "dccf297bb82e70c4",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-05:fc977d6a1078d384",
-      "url": "https://www.eu-startups.com/2026/11/barcelonas-kabilio-raises-e10-million-to-deploy-its-ai-accounting-agent-as-client-base-nears-500-firms",
-      "title": "Barcelona’s Kabilio raises €10 million to deploy its AI accounting agent as client base nears 500 firms",
-      "summary": "巴塞罗那 Kabilio 融资 1000 万欧元部署 AI 会计 Agent，客户数接近 500 家 — 垂直 Agent 用「客户数接近 500」而非模型指标募资，商业化口径回到可数的交付量。",
-      "content_html": "<p><strong>巴塞罗那 Kabilio 融资 1000 万欧元部署 AI 会计 Agent，客户数接近 500 家</strong></p><p>关键数字：10 / 500 · 相关方：Kabilio / Picus Capital / Visionaries / CDTI</p><p>Kabilio, a Barcelona-based startup building an AI platform for accounting firms and the small businesses they serve, has closed a €10 million funding round. The round was led by Picus Capital and Visionaries; they also led Kabilio’s pre-Seed round. CDTI, Spain’s public agency for technological innov</p><p><strong>为什么值得看：</strong>垂直 Agent 用「客户数接近 500」而非模型指标募资，商业化口径回到可数的交付量。</p><p><strong>对我意味着什么：</strong>给 Agent 项目的阶段划分提供参照：用接入客户数与留存定义可用，而不是 demo 数量。</p><p><strong>下一步：</strong>记录 2 个可比垂直 Agent 的客户数口径，若统计定义不一致则不可横向比较。</p><p>来源：EU-Startups · 发布于 2026-11-05T09:19 UTC · 归类：industry-capital</p><p>→ <a href=\"https://www.eu-startups.com/2026/11/barcelonas-kabilio-raises-e10-million-to-deploy-its-ai-accounting-agent-as-client-base-nears-500-firms\" rel=\"noopener noreferrer\">https://www.eu-startups.com/2026/11/barcelonas-kabilio-raises-e10-million-to-deploy-its-ai-accounting-agent-as-client-base-nears-500-firms</a></p>",
-      "date_published": "2026-11-05T09:19:45Z",
-      "date_modified": "2026-11-05T11:52:53.812318Z",
-      "tags": [
-        "industry-capital",
-        "产业与资本"
-      ],
-      "_daily_info": {
-        "score": 74.73,
-        "source": "EU-Startups",
-        "cluster_id": "fc977d6a1078d384",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-05:aa089abfd1658634",
-      "url": "https://dev.to/julesrobineau/keycloak-2681-fixes-19-flaws-sort-them-by-your-config-not-by-their-score-3pom",
-      "title": "Keycloak 26.8.1 fixes 19 flaws: sort them by your config, not by their score",
-      "summary": "Keycloak 26.8.1 修复 19 个带 CVE 编号的缺陷，作者主张按自身配置而非评分排序 — 19 个 CVE 里只有 1 个评为高危，按分数排序会把实际暴露面最大的配置漏掉。",
-      "content_html": "<p><strong>Keycloak 26.8.1 修复 19 个带 CVE 编号的缺陷，作者主张按自身配置而非评分排序</strong></p><p>关键数字：26.8.1 / 19 / 13 · 相关方：Keycloak / CVE</p><p>On October 13, Keycloak shipped version 26.8.1. It fixes 19 flaws that carry a CVE number. Keycloak&#x27;s ticket for the only flaw rated &quot;high… 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>19 个 CVE 里只有 1 个评为高危，按分数排序会把实际暴露面最大的配置漏掉。</p><p><strong>对我意味着什么：</strong>与凭据闸门同构：先按自身是否启用该路径排序，再看通用严重度，避免把精力花在没开的口子上。</p><p><strong>下一步：</strong>对照本环境 3 项认证配置逐条筛 19 个 CVE，若命中 0 项才判定可延后升级。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-05T07:03 UTC · 归类：security-governance</p><p>→ <a href=\"https://dev.to/julesrobineau/keycloak-2681-fixes-19-flaws-sort-them-by-your-config-not-by-their-score-3pom\" rel=\"noopener noreferrer\">https://dev.to/julesrobineau/keycloak-2681-fixes-19-flaws-sort-them-by-your-config-not-by-their-score-3pom</a></p>",
-      "date_published": "2026-11-05T07:03:00.166000Z",
-      "date_modified": "2026-11-05T11:52:53.812318Z",
-      "tags": [
-        "security-governance",
-        "安全与治理"
-      ],
-      "_daily_info": {
-        "score": 72.1,
-        "source": "Folo 订阅池基线（人工筛选信源）",
-        "cluster_id": "aa089abfd1658634",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-05:7c72ef3696766993",
-      "url": "https://hachyderm.io/@damienmiller/117563026759098135",
-      "title": "OpenSSH 10.6p2 has been released with a workaround for a critical vulnerability",
-      "summary": "OpenSSH 10.6p2 发布，为一项严重漏洞提供绕行方案，HN 记录 28 分 6 条评论 — 绕行方案先于完整修复落地，补丁窗口内需要按缓解措施而不是按版本号管理风险。",
-      "content_html": "<p><strong>OpenSSH 10.6p2 发布，为一项严重漏洞提供绕行方案，HN 记录 28 分 6 条评论</strong></p><p>关键数字：10.6 / 28 / 6 · 相关方：OpenSSH 10.6p2</p><p><strong>为什么值得看：</strong>绕行方案先于完整修复落地，补丁窗口内需要按缓解措施而不是按版本号管理风险。</p><p><strong>对我意味着什么：</strong>直接影响 WinVM 的远程访问组件基线，需在资产清单单独标记已缓解但未修复的主机。</p><p><strong>下一步：</strong>对全部纳管主机跑 1 次版本扫描，若存在 1 台低于 10.6p2 则先应用绕行配置再排升级窗口。</p><p>来源：HN Algolia front_page (points/comments) · 发布于 2026-11-05T09:46 UTC · 归类：security-governance</p><p>→ <a href=\"https://hachyderm.io/@damienmiller/117563026759098135\" rel=\"noopener noreferrer\">https://hachyderm.io/@damienmiller/117563026759098135</a></p>",
-      "date_published": "2026-11-05T09:46:17Z",
-      "date_modified": "2026-11-05T11:52:53.812318Z",
-      "tags": [
-        "security-governance",
-        "安全与治理"
-      ],
-      "_daily_info": {
-        "score": 74.84,
-        "source": "HN Algolia front_page (points/comments)",
-        "cluster_id": "7c72ef3696766993",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-05:0aa88563920e1cf5",
-      "url": "https://www.techmeme.com/261105/p9",
-      "title": "Sony reports Q2 revenue of ~$21.7B, operating profit of $3.94B, both above est., and 2.6M PS5 sales, as GTA VI sparks a US sales jump, especially of the PS5 Pro (Takashi Mochizuki/Bloomberg)",
-      "summary": "索尼 Q2 营收约 217 亿美元、营业利润 39.4 亿美元，PS5 销量 260 万台，均高于预期 — 同一天里硬件厂商给出量、价、利三个方向的读数，适合作为财报类信源的结构基线。",
-      "content_html": "<p><strong>索尼 Q2 营收约 217 亿美元、营业利润 39.4 亿美元，PS5 销量 260 万台，均高于预期</strong></p><p>关键数字：21.7 / 3.94 / 2.6 · 相关方：Sony / PS5 / GTA VI</p><p>Takashi Mochizuki / Bloomberg: Sony reports Q2 revenue of ~$21.7B, operating profit of $3.94B, both above est., and 2.6M PS5 sales, as GTA VI sparks a US sales jump, especially of the PS5 Pro — Sony Group Corp. raised its profit outlook after a string of entertainment hits propelled better-than-expe</p><p><strong>为什么值得看：</strong>同一天里硬件厂商给出量、价、利三个方向的读数，适合作为财报类信源的结构基线。</p><p><strong>对我意味着什么：</strong>提醒变更板块不该只收版本号：带数字的业绩公告同样是可核验的变更记录。</p><p><strong>下一步：</strong>按 3 个口径核对转载与原始公告，若有 1 处不一致则在日报里标注二次转述。</p><p>来源：Techmeme · 发布于 2026-11-05T10:30 UTC · 归类：docs-changelog</p><p>→ <a href=\"https://www.techmeme.com/261105/p9\" rel=\"noopener noreferrer\">https://www.techmeme.com/261105/p9</a></p>",
-      "date_published": "2026-11-05T10:30:29Z",
-      "date_modified": "2026-11-05T11:52:53.812318Z",
-      "tags": [
-        "docs-changelog",
-        "文档与变更"
-      ],
-      "_daily_info": {
-        "score": 75.1,
-        "source": "Techmeme",
-        "cluster_id": "0aa88563920e1cf5",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-05:38e387c5903f171f",
-      "url": "https://www.techmeme.com/261105/p13",
-      "title": "Nintendo reports Q2 net profit down 16% YoY to $468M, as rising Switch 2 component costs cut into its margins; Switch 2's H1 FY 2027 sales fell 37% YoY to 6.49M (Takashi Mochizuki/Bloomberg)",
-      "summary": "任天堂 Q2 净利同比降 16% 至 4.68 亿美元，Switch 2 上半财年销量降 37% 至 649 万台 — 成本上升与销量下滑同时出现，是「新硬件放量就能摊薄成本」这一假设的直接反例。",
-      "content_html": "<p><strong>任天堂 Q2 净利同比降 16% 至 4.68 亿美元，Switch 2 上半财年销量降 37% 至 649 万台</strong></p><p>关键数字：16% / 468 / 37% / 6.49 · 相关方：Nintendo / Switch 2 / Bloomberg</p><p>Takashi Mochizuki / Bloomberg: Nintendo reports Q2 net profit down 16% YoY to $468M, as rising Switch 2 component costs cut into its margins; Switch 2&#x27;s H1 FY 2027 sales fell 37% YoY to 6.49M — Nintendo Co. reported a surprise quarterly profit decline, hurt by a dearth of major new game releases and</p><p><strong>为什么值得看：</strong>成本上升与销量下滑同时出现，是「新硬件放量就能摊薄成本」这一假设的直接反例。</p><p><strong>对我意味着什么：</strong>可用于成本模型评审：把组件成本列为独立变量，别把它藏在规模效应里。</p><p><strong>下一步：</strong>把 16% 与 37% 代入同一张成本表，若无法解释 2 个方向同时恶化则标注口径存疑。</p><p>来源：Techmeme · 发布于 2026-11-05T11:05 UTC · 归类：dev-tools</p><p>→ <a href=\"https://www.techmeme.com/261105/p13\" rel=\"noopener noreferrer\">https://www.techmeme.com/261105/p13</a></p>",
-      "date_published": "2026-11-05T11:05:06Z",
-      "date_modified": "2026-11-05T11:52:53.812318Z",
-      "tags": [
-        "dev-tools",
-        "开发者工具与版本"
-      ],
-      "_daily_info": {
-        "score": 72.34,
-        "source": "Techmeme",
-        "cluster_id": "38e387c5903f171f",
         "ai_status": "ok"
       }
     }

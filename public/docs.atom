@@ -5,10 +5,30 @@
   <ns0:subtitle>挖掘 · 聚合 · 研判 · 订阅；每条附原文链接；内容仅供参考，不构成投资建议</ns0:subtitle>
   <ns0:link rel="self" type="application/atom+xml" href="https://daily-info.local/docs.atom" />
   <ns0:link rel="alternate" type="text/html" href="https://daily-info.local/index.html" />
-  <ns0:updated>2026-11-11T22:57:12.685301Z</ns0:updated>
+  <ns0:updated>2026-11-12T23:18:18.237901Z</ns0:updated>
   <ns0:author>
     <ns0:name>Personal Daily Info</ns0:name>
   </ns0:author>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-13:05a61ad7e4a9114b</ns0:id>
+    <ns0:title>[文档与变更] Actions for ARM32 Linux &amp; Windows retirement</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement" />
+    <ns0:published>2026-11-12T20:59:36Z</ns0:published>
+    <ns0:updated>2026-11-12T23:18:18.237901Z</ns0:updated>
+    <ns0:category term="docs-changelog" label="文档与变更" />
+    <ns0:summary type="text">GitHub Actions hosted runners will be ending support for ARM32 job execution on Windows and Linux by 8th Dec 2026. This follows our end of support for node20 where Node… The post Actions for ARM32 Linux &amp; Windows retirement appeared first on The GitHub Blog.</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;GitHub Actions 托管 runner 将在 8th Dec 2026 前停止 Windows 与 Linux 上的 ARM32 作业，此前已结束 node20 支持&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：ARM32 / node20 · 相关方：GitHub Actions / ARM32 / node20 / Linux / Windows&lt;/p&gt;&lt;p&gt;GitHub Actions hosted runners will be ending support for ARM32 job execution on Windows and Linux by 8th Dec 2026. This follows our end of support for node20 where Node… The post Actions for ARM32 Linux &amp;amp; Windows retirement appeared first on The GitHub Blog.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;CI 运行时的架构与 Node 版本被连续收窄，跨架构构建链需要提前改 runner 标签&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;Pages workflow 与本地脚本若硬编码 ARM32 或 node20，下一次 runner 镜像更新会直接让构建失败&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;跑一次 workflow 矩阵：若 arm32 与 node20 作业各出现 1 次以上失败，则判定必须迁移 runner 标签&lt;/p&gt;&lt;p&gt;来源：GitHub Changelog · 发布于 2026-11-12T20:59 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement" rel="noopener noreferrer"&gt;https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-13:1e1f91e95e92e49a</ns0:id>
+    <ns0:title>[文档与变更] v2.1.323</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://github.com/anthropics/claude-code/releases/tag/v2.1.323" />
+    <ns0:published>2026-11-12T22:12:13Z</ns0:published>
+    <ns0:updated>2026-11-12T23:18:18.237901Z</ns0:updated>
+    <ns0:category term="docs-changelog" label="文档与变更" />
+    <ns0:summary type="text">What's changed Added Code Mode, an experimental opt-in in which Claude writes JavaScript to call its tools; see https://code.claude.com/docs/en/code-mode to turn it on, or to turn it off for an organization Added engines["claude-code"] to plugin.json: plugins outside their stated Claude Code version</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Claude Code v2.1.323 新增实验性 Code Mode，让 Claude 写 JavaScript 调用工具，并给 plugin.json 增加引擎版本约束&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2.1.323 · 相关方：Code Mode / JavaScript / plugin.json / Claude&lt;/p&gt;&lt;p&gt;What&amp;#x27;s changed Added Code Mode, an experimental opt-in in which Claude writes JavaScript to call its tools; see https://code.claude.com/docs/en/code-mode to turn it on, or to turn it off for an organization Added engines[&amp;quot;claude-code&amp;quot;] to plugin.json: plugins outside their stated Claude Code version&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;工具调用从固定 schema 变成生成代码，插件版本约束同步收紧，说明扩展点稳定性被当成发布闸门&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;WorkBuddy 的 skill 与 MCP 扩展点若跟随动态调用，需在插件清单固化引擎版本范围，否则升级会出现不可加载&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;跑一次隔离环境 smoke：启用 Code Mode 后若插件加载失败数为 0 且 engines 范围校验命中，才判定可接入&lt;/p&gt;&lt;p&gt;来源：claude-code Releases · 发布于 2026-11-12T22:12 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.323" rel="noopener noreferrer"&gt;https://github.com/anthropics/claude-code/releases/tag/v2.1.323&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:daily-info.local,2026-11-12:5457d31dcad4910e</ns0:id>
     <ns0:title>[文档与变更] yolow64 0.2: a new decode kernel that beats Turbo-Base64 under full validation</ns0:title>

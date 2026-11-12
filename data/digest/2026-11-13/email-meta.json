@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-13",
+  "generated_at": "2026-11-12T23:18:18.237901Z",
+  "subject": "[每日信息] 2026-11-13 · 降价与改契约同日发生：模型把单价压到激活",
+  "to_policy": "SELF_AGENT_MAIL_ADDRESS",
+  "to_hint": "收件人用 agent-mail GetMe 动态获取，不硬编码地址",
+  "attachments": [
+    "D:\\Users\\towyq\\Documents\\Projects\\personal-daily-info\\public\\feed.atom",
+    "D:\\Users\\towyq\\Documents\\Projects\\personal-daily-info\\data\\digest\\2026-11-13\\digest.md"
+  ],
+  "body_chars": 16351,
+  "max_body_chars": 24000,
+  "omitted_sections": 0,
+  "site_online": false,
+  "credential_scan": "clean",
+  "dispatch": "pending_authorization",
+  "note": "本脚本只生成本地 payload；实际发送由 Agent 在用户授权后调用 agent-mail"
+}

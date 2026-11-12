@@ -5,8 +5,35 @@
     "timezone": "Asia/Shanghai",
     "version": "1.0.0"
   },
-  "generated_at": "2026-11-11T22:57:12.685301Z",
+  "generated_at": "2026-11-12T23:18:18.237901Z",
   "dates": [
+    {
+      "date": "2026-11-13",
+      "headline": "降价与改契约同日发生：模型把单价压到激活参数，工具把调用改成生成代码，资本却继续抬估值",
+      "lead": "70% 的营收增速、2800 亿总参数、$65B 估值同日出现：Cerebras Q3 核心营收 $230.9M，文心5.5 用 2800 亿参数只激活 140 亿、推理超 200 token/秒，Kalshi 数周内把估值从 $40B 抬到 $65B；而 Claude Code v2.1.323 把工具调用改成模型写 JavaScript。张力在于：单价在降，插件契约与 runner 架构却同日收紧。",
+      "demo": false,
+      "stats": {
+        "sources_ok": 126,
+        "sources_total": 185,
+        "total_items": 947,
+        "clusters": 940,
+        "selected": 40,
+        "published_items": 19,
+        "seven_element_pass": 19,
+        "seven_element_ratio": 1.0,
+        "items_with_numbers": 19,
+        "substantive_number_ratio": 1.0,
+        "rejected_no_number": 0,
+        "unique_reference_domains": 13
+      },
+      "section_count": 7,
+      "item_count": 19,
+      "ai_status": "ok",
+      "seven_element_ratio": 1.0,
+      "theme_count": 7,
+      "watch_signal_count": 5,
+      "reference_domains": 13
+    },
     {
       "date": "2026-11-12",
       "headline": "29,684 次提交换来官方模拟器，United 仍对 agent 关上门：接入层比模型层更卡",

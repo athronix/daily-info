@@ -5,10 +5,120 @@
   <ns0:subtitle>挖掘 · 聚合 · 研判 · 订阅；每条附原文链接；内容仅供参考，不构成投资建议</ns0:subtitle>
   <ns0:link rel="self" type="application/atom+xml" href="https://daily-info.local/tech.atom" />
   <ns0:link rel="alternate" type="text/html" href="https://daily-info.local/index.html" />
-  <ns0:updated>2026-11-11T22:57:12.685301Z</ns0:updated>
+  <ns0:updated>2026-11-12T23:18:18.237901Z</ns0:updated>
   <ns0:author>
     <ns0:name>Personal Daily Info</ns0:name>
   </ns0:author>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-13:73fef9673ed486b3</ns0:id>
+    <ns0:title>[Agent 与工程] Yuri-Fernando/AWS-Project · ★0</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://github.com/Yuri-Fernando/AWS-Project" />
+    <ns0:published>2026-11-12T17:55:13Z</ns0:published>
+    <ns0:updated>2026-11-12T23:18:18.237901Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="Agent 与工程" />
+    <ns0:summary type="text">Plataforma AWS de ponta a ponta com a MESMA IaC em dois alvos: emulador floci (R$ 0) e conta AWS real Free Plan — EKS, ECR, GitOps (ArgoCD/Kustomize), Pod Identity, Prometheus/Grafana, serverless e MCP. Sessão real: e2e 13/13, US$ 0,86 em créditos, tudo desmontado.</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;AWS-Project 用同一套 IaC 在本地模拟器与真实 AWS Free Plan 两端部署，端到端 13/13，成本 US$ 0,86&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：13/13 / 0,86 / 0 · 相关方：AWS / EKS / ECR / ArgoCD / Kustomize / MCP&lt;/p&gt;&lt;p&gt;Plataforma AWS de ponta a ponta com a MESMA IaC em dois alvos: emulador floci (R$ 0) e conta AWS real Free Plan — EKS, ECR, GitOps (ArgoCD/Kustomize), Pod Identity, Prometheus/Grafana, serverless e MCP. Sessão real: e2e 13/13, US$ 0,86 em créditos, tudo desmontado.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把本地仿真与真实云端收敛到同一份 IaC 并给出 13/13 通过率，可复现性比口头承诺更实&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建与 smoke 规范有用：应要求每个部署目标给出端到端通过数与成本读数，而非只报成功&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;照其清单复现：若本地与云端各 13/13 通过且成本差额在 1 个数量级内，才判定 IaC 双目标成立&lt;/p&gt;&lt;p&gt;来源：GitHub 搜索 · topic:mcp · 发布于 2026-11-12T17:55 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/Yuri-Fernando/AWS-Project" rel="noopener noreferrer"&gt;https://github.com/Yuri-Fernando/AWS-Project&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-13:3d7d027034d3d63b</ns0:id>
+    <ns0:title>[Agent 与工程] ALENOC/tandem-mcp · ★0</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://github.com/ALENOC/tandem-mcp" />
+    <ns0:published>2026-11-12T18:22:59Z</ns0:published>
+    <ns0:updated>2026-11-12T23:18:18.237901Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="Agent 与工程" />
+    <ns0:summary type="text">MCP server pairing a cloud orchestrator model with a local executor model in LM Studio</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;tandem-mcp 是一个把云端编排模型与 LM Studio 本地执行模型配对的 MCP server，当前 0 star&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：0 · 相关方：tandem-mcp / MCP server / LM Studio / ALENOC&lt;/p&gt;&lt;p&gt;MCP server pairing a cloud orchestrator model with a local executor model in LM Studio&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;云编排加本地执行的分工被写进 MCP server，正是权限与数据边界最容易被模糊的地方&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;与我的 A2A 双路径委派同构：可对照其任务切分，检查 WinVM 侧 direct MCP 与 A2A 边界是否重复&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;读其 README 复现一次配对：若云端编排能调用本地工具且 0 次越权，才判定该分工模式可借鉴&lt;/p&gt;&lt;p&gt;来源：GitHub 搜索 · topic:mcp · 发布于 2026-11-12T18:22 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/ALENOC/tandem-mcp" rel="noopener noreferrer"&gt;https://github.com/ALENOC/tandem-mcp&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-13:1a84fda568160878</ns0:id>
+    <ns0:title>[Agent 与工程] Microsoft Research Focus – Edition #98</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-98" />
+    <ns0:published>2026-11-12T21:31:57Z</ns0:published>
+    <ns0:updated>2026-11-12T23:18:18.237901Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="Agent 与工程" />
+    <ns0:summary type="text">What's new in research at Microsoft? Host Anson Ho explores the latest, including AI-powered universal translation, a breakthrough in a 31-year-old mathematics challenge, and advances making AI coding agents faster and more efficient. The post Microsoft Research Focus – Edition #98 appeared first on</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Microsoft Research Focus 第 98 期汇总通用翻译、31 年数学难题突破与让 AI coding agents 更高效的进展&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：98 / 31 · 相关方：Microsoft Research / Anson Ho / AI coding agents / Microsoft&lt;/p&gt;&lt;p&gt;What&amp;#x27;s new in research at Microsoft? Host Anson Ho explores the latest, including AI-powered universal translation, a breakthrough in a 31-year-old mathematics challenge, and advances making AI coding agents faster and more efficient. The post Microsoft Research Focus – Edition #98 appeared first on&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把 coding agent 的效率与研究级突破并列，说明工程侧优化已被当作正式研究产出&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;agent 部署成本可借鉴其效率结论，但需要可复现的基准数字才值得改架构&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;若该期给出 coding agent 的具体提速百分比且达到 20% 以上，才纳入 WinVM 委派路径的优化评估&lt;/p&gt;&lt;p&gt;来源：Microsoft Research · 发布于 2026-11-12T21:31 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-98" rel="noopener noreferrer"&gt;https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-98&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-13:372847c9499451eb</ns0:id>
+    <ns0:title>[Agent 与工程] How Amplitude ships product improvements in 1–2 days with OpenAI</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://openai.com/index/amplitude" />
+    <ns0:published>2026-11-12T20:00:00Z</ns0:published>
+    <ns0:updated>2026-11-12T23:18:18.237901Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="Agent 与工程" />
+    <ns0:summary type="text">Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Amplitude 称其基于 OpenAI 模型的主动式产品 agent Wave 可在 1 到 2 天内交付产品改进并用 coding agents 度量效果&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：1 / 2 · 相关方：Amplitude / OpenAI / Wave / coding agents&lt;/p&gt;&lt;p&gt;Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;交付周期被压到天级，agent 同时承担决策、编码与效果测量，闭环比单点助手更完整&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 automation 流水线是直接参照：把生成、执行、度量写成同一条可回放链路，而不是分散脚本&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;跑一次对照：若本地流水线从采集到核验超过 2 天或出现 1 次以上人工补写，则判定闭环未成立&lt;/p&gt;&lt;p&gt;来源：OpenAI Blog · 发布于 2026-11-12T20:00 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://openai.com/index/amplitude" rel="noopener noreferrer"&gt;https://openai.com/index/amplitude&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-13:c8c5dc29297d2e3d</ns0:id>
+    <ns0:title>[模型与研究] Tokenomics at scale: Track and cap Amazon Bedrock spend per IAM principal with CUR 2.0 and AWS Budgets</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-track-and-cap-amazon-bedrock-spend-per-iam-principal-with-cur-2-0-and-aws-budgets" />
+    <ns0:published>2026-11-12T19:29:55Z</ns0:published>
+    <ns0:updated>2026-11-12T23:18:18.237901Z</ns0:updated>
+    <ns0:category term="ai-models" label="模型与研究" />
+    <ns0:summary type="text">Get per-identity Amazon Bedrock cost visibility and enforceable spend limits using only AWS-native features, with no application code for the common case. Attribute spend with IAM principal tags, report with CUR 2.0 or Cost Explorer, and enforce with AWS Budgets actions that apply a Deny policy when</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;AWS 给出用 IAM principal 标签配合 CUR 2.0 与 AWS Budgets 按身份追踪并封顶 Bedrock 花费、无需改应用代码的做法&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2.0 · 相关方：Amazon Bedrock / CUR 2.0 / AWS Budgets / IAM / Cost Explorer&lt;/p&gt;&lt;p&gt;Get per-identity Amazon Bedrock cost visibility and enforceable spend limits using only AWS-native features, with no application code for the common case. Attribute spend with IAM principal tags, report with CUR 2.0 or Cost Explorer, and enforce with AWS Budgets actions that apply a Deny policy when&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把成本归因下沉到身份维度且不动业务代码，是配额治理最省事的一条路径&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;免密钥 LLM 调用若多租户共用，可直接照此按 principal 设硬上限，避免单任务刷爆账单&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;跑一次配额冒烟：若某个 principal 超预算后调用被拒且错误码明确，则判定封顶生效&lt;/p&gt;&lt;p&gt;来源：AWS ML Blog · 发布于 2026-11-12T19:29 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-track-and-cap-amazon-bedrock-spend-per-iam-principal-with-cur-2-0-and-aws-budgets" rel="noopener noreferrer"&gt;https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-track-and-cap-amazon-bedrock-spend-per-iam-principal-with-cur-2-0-and-aws-budgets&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-13:4d9244537a2033a7</ns0:id>
+    <ns0:title>[模型与研究] Google's Gemini 4 Hydrogen outscores the bigger Argon just four weeks after its launch</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://the-decoder.com/googles-gemini-4-hydrogen-outscores-the-bigger-argon-just-four-weeks-after-its-launch" />
+    <ns0:published>2026-11-12T19:58:43Z</ns0:published>
+    <ns0:updated>2026-11-12T23:18:18.237901Z</ns0:updated>
+    <ns0:category term="ai-models" label="模型与研究" />
+    <ns0:summary type="text">Google's Gemini 4 Hydrogen replaces the Flash series, but benchmarks suggest it also makes the pricier Argon obsolete. On the independent Artificial Analysis Intelligence Index, Hydrogen nearly matches Claude Sonnet 5.5 for less money but costs about 2.5 times more per task than GPT-6.1 Sol and stil</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Gemini 4 Hydrogen 取代 Flash 系列，独立指数显示其接近 Claude Sonnet 5.5，摘要另给出 2.5 倍成本读数&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：4 / 5.5 / 2.5 · 相关方：Gemini 4 Hydrogen / Argon / Flash / Claude Sonnet 5.5 / Artificial Analysis Intelligence Index / Google&lt;/p&gt;&lt;p&gt;Google&amp;#x27;s Gemini 4 Hydrogen replaces the Flash series, but benchmarks suggest it also makes the pricier Argon obsolete. On the independent Artificial Analysis Intelligence Index, Hydrogen nearly matches Claude Sonnet 5.5 for less money but costs about 2.5 times more per task than GPT-6.1 Sol and stil&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;同一份材料里更便宜与 2.5 倍成本并存，说明单位价格与总账单是两回事，不能混用&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;WorkBuddy 模型路由若按单价切换，需同时记录上下文长度与调用次数，否则总价会反向上升&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照 Artificial Analysis 具体分项：若两者指数分差小于 5% 且单任务总成本更低，才判定可替换&lt;/p&gt;&lt;p&gt;来源：The Decoder · 发布于 2026-11-12T19:58 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://the-decoder.com/googles-gemini-4-hydrogen-outscores-the-bigger-argon-just-four-weeks-after-its-launch" rel="noopener noreferrer"&gt;https://the-decoder.com/googles-gemini-4-hydrogen-outscores-the-bigger-argon-just-four-weeks-after-its-launch&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-13:0667a519c65042ee</ns0:id>
+    <ns0:title>[模型与研究] I'm making LLMs work on small and old devices</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://github.com/hyperionaidev/smolmaxxing" />
+    <ns0:published>2026-11-12T15:23:10Z</ns0:published>
+    <ns0:updated>2026-11-12T23:18:18.237901Z</ns0:updated>
+    <ns0:category term="ai-models" label="模型与研究" />
+    <ns0:summary type="text">端侧推理讨论热度高，但材料没有设备型号、内存占用或吞吐，无法判断可用性边界</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;作者让 LLM 在小型旧设备上运行的帖子获 245 分、86 条评论&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：245 / 86 · 相关方：LLMs&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;端侧推理讨论热度高，但材料没有设备型号、内存占用或吞吐，无法判断可用性边界&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;WinVM 上的本地执行模型若走端侧路线，需先有内存与延迟读数，再决定是否分担云端编排&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;若后续给出具体内存占用与每秒 token 数，且旧设备上达到 10 token/s 以上，才判定端侧可承担实际任务&lt;/p&gt;&lt;p&gt;来源：HN Algolia front_page (points/comments) · 发布于 2026-11-12T15:23 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;证据状态：未独立验证&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/hyperionaidev/smolmaxxing" rel="noopener noreferrer"&gt;https://github.com/hyperionaidev/smolmaxxing&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-13:bc81dad5a88a96b1</ns0:id>
+    <ns0:title>[模型与研究] 狂肝11小时搓出虚幻5大作！文心5.5 Flash Preview发布</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&amp;mid=2652742286&amp;idx=2&amp;sn=c52effcf422a1c9f2503cbf18ffe0d8d&amp;chksm=f02d8bb553c6327d767b283f832099c9d6e00f284da9d9331f3414633eb0c4e7295a67d03bfc&amp;scene=0&amp;xtrack=1" />
+    <ns0:published>2026-11-12T15:30:00Z</ns0:published>
+    <ns0:updated>2026-11-12T23:18:18.237901Z</ns0:updated>
+    <ns0:category term="ai-models" label="模型与研究" />
+    <ns0:summary type="text">扩散模型、生成模型、深度学习｜百度正式发布文心5.5 Flash Preview（ERNIE 5.5 Flash Preview），主打“快、便宜、开源”。模型参数达2800亿，但每次仅激活140亿，推理速度超200 token/秒。API定价极具竞争力：输入忙时2元/百万token、闲时1元，输出忙时8元、闲时4元，当前限时五折。该模型即日起上线，面向开发者开放。</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;百度发布文心5.5 Flash Preview，总参数 2800 亿、每次激活 140 亿、推理超 200 token/秒，输入闲时 1 元每百万 token&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：11 / 5.5 / 2800 / 140 / 200 · 相关方：文心5.5 Flash Preview / ERNIE 5.5 Flash Preview / 百度 / 虚幻5&lt;/p&gt;&lt;p&gt;扩散模型、生成模型、深度学习｜百度正式发布文心5.5 Flash Preview（ERNIE 5.5 Flash Preview），主打“快、便宜、开源”。模型参数达2800亿，但每次仅激活140亿，推理速度超200 token/秒。API定价极具竞争力：输入忙时2元/百万token、闲时1元，输出忙时8元、闲时4元，当前限时五折。该模型即日起上线，面向开发者开放。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;稀疏激活把大参数模型的单位成本压向小模型，定价按忙闲时段分层是新的成本变量&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;WorkBuddy 免密钥 LLM 调用若接入分时定价，需把忙闲时段写进调度策略，而非只看名义单价&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;做一次对照：若闲时输入 1 元每百万 token 下 200 token/秒吞吐能复现，才判定可纳入低成本批处理通道&lt;/p&gt;&lt;p&gt;来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-12T15:30 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&amp;amp;mid=2652742286&amp;amp;idx=2&amp;amp;sn=c52effcf422a1c9f2503cbf18ffe0d8d&amp;amp;chksm=f02d8bb553c6327d767b283f832099c9d6e00f284da9d9331f3414633eb0c4e7295a67d03bfc&amp;amp;scene=0&amp;amp;xtrack=1" rel="noopener noreferrer"&gt;https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&amp;amp;mid=2652742286&amp;amp;idx=2&amp;amp;sn=c52effcf422a1c9f2503cbf18ffe0d8d&amp;amp;chksm=f02d8bb553c6327d767b283f832099c9d6e00f284da9d9331f3414633eb0c4e7295a67d03bfc&amp;amp;scene=0&amp;amp;xtrack=1&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-13:cd4a15607d6f089b</ns0:id>
+    <ns0:title>[开发者工具与版本] Cerebras reports Q3 core revenue up 70% YoY to $230.9M, vs. $214.7M est., issues strong guidance, and announces a Microsoft deal; CBRS jumps 15%+ after hours (Jordan Novet/CNBC)</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.techmeme.com/261112/p57" />
+    <ns0:published>2026-11-12T21:35:02Z</ns0:published>
+    <ns0:updated>2026-11-12T23:18:18.237901Z</ns0:updated>
+    <ns0:category term="dev-tools" label="开发者工具与版本" />
+    <ns0:summary type="text">Jordan Novet / CNBC: Cerebras reports Q3 core revenue up 70% YoY to $230.9M, vs. $214.7M est., issues strong guidance, and announces a Microsoft deal; CBRS jumps 15%+ after hours — Cerebras Systems reported better-than-expected revenue and quarterly guidance in its earnings report on Thursday, and t</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Cerebras Q3 核心营收同比增 70% 至 $230.9M，高于 $214.7M 预期，并宣布与 Microsoft 合作，CBRS 盘后涨超 15%&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：70% / 230.9 / 214.7 / 15% · 相关方：Cerebras / Microsoft / CBRS / CNBC&lt;/p&gt;&lt;p&gt;Jordan Novet / CNBC: Cerebras reports Q3 core revenue up 70% YoY to $230.9M, vs. $214.7M est., issues strong guidance, and announces a Microsoft deal; CBRS jumps 15%+ after hours — Cerebras Systems reported better-than-expected revenue and quarterly guidance in its earnings report on Thursday, and t&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;营收超预期与盘后涨幅同时出现，说明市场把算力需求当作可验证订单而非叙事&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;算力供给侧报价与交付周期会传导到 LLM provider 成本，选型表里需保留单价与配额字段&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;若下季度核心营收同比增速跌破 70% 或 Microsoft 合作未落地为具体订单，则判定高增长不可外推&lt;/p&gt;&lt;p&gt;来源：Techmeme · 发布于 2026-11-12T21:35 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.techmeme.com/261112/p57" rel="noopener noreferrer"&gt;https://www.techmeme.com/261112/p57&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-13:05a61ad7e4a9114b</ns0:id>
+    <ns0:title>[文档与变更] Actions for ARM32 Linux &amp; Windows retirement</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement" />
+    <ns0:published>2026-11-12T20:59:36Z</ns0:published>
+    <ns0:updated>2026-11-12T23:18:18.237901Z</ns0:updated>
+    <ns0:category term="docs-changelog" label="文档与变更" />
+    <ns0:summary type="text">GitHub Actions hosted runners will be ending support for ARM32 job execution on Windows and Linux by 8th Dec 2026. This follows our end of support for node20 where Node… The post Actions for ARM32 Linux &amp; Windows retirement appeared first on The GitHub Blog.</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;GitHub Actions 托管 runner 将在 8th Dec 2026 前停止 Windows 与 Linux 上的 ARM32 作业，此前已结束 node20 支持&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：ARM32 / node20 · 相关方：GitHub Actions / ARM32 / node20 / Linux / Windows&lt;/p&gt;&lt;p&gt;GitHub Actions hosted runners will be ending support for ARM32 job execution on Windows and Linux by 8th Dec 2026. This follows our end of support for node20 where Node… The post Actions for ARM32 Linux &amp;amp; Windows retirement appeared first on The GitHub Blog.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;CI 运行时的架构与 Node 版本被连续收窄，跨架构构建链需要提前改 runner 标签&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;Pages workflow 与本地脚本若硬编码 ARM32 或 node20，下一次 runner 镜像更新会直接让构建失败&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;跑一次 workflow 矩阵：若 arm32 与 node20 作业各出现 1 次以上失败，则判定必须迁移 runner 标签&lt;/p&gt;&lt;p&gt;来源：GitHub Changelog · 发布于 2026-11-12T20:59 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement" rel="noopener noreferrer"&gt;https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-13:1e1f91e95e92e49a</ns0:id>
+    <ns0:title>[文档与变更] v2.1.323</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://github.com/anthropics/claude-code/releases/tag/v2.1.323" />
+    <ns0:published>2026-11-12T22:12:13Z</ns0:published>
+    <ns0:updated>2026-11-12T23:18:18.237901Z</ns0:updated>
+    <ns0:category term="docs-changelog" label="文档与变更" />
+    <ns0:summary type="text">What's changed Added Code Mode, an experimental opt-in in which Claude writes JavaScript to call its tools; see https://code.claude.com/docs/en/code-mode to turn it on, or to turn it off for an organization Added engines["claude-code"] to plugin.json: plugins outside their stated Claude Code version</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Claude Code v2.1.323 新增实验性 Code Mode，让 Claude 写 JavaScript 调用工具，并给 plugin.json 增加引擎版本约束&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2.1.323 · 相关方：Code Mode / JavaScript / plugin.json / Claude&lt;/p&gt;&lt;p&gt;What&amp;#x27;s changed Added Code Mode, an experimental opt-in in which Claude writes JavaScript to call its tools; see https://code.claude.com/docs/en/code-mode to turn it on, or to turn it off for an organization Added engines[&amp;quot;claude-code&amp;quot;] to plugin.json: plugins outside their stated Claude Code version&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;工具调用从固定 schema 变成生成代码，插件版本约束同步收紧，说明扩展点稳定性被当成发布闸门&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;WorkBuddy 的 skill 与 MCP 扩展点若跟随动态调用，需在插件清单固化引擎版本范围，否则升级会出现不可加载&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;跑一次隔离环境 smoke：启用 Code Mode 后若插件加载失败数为 0 且 engines 范围校验命中，才判定可接入&lt;/p&gt;&lt;p&gt;来源：claude-code Releases · 发布于 2026-11-12T22:12 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.323" rel="noopener noreferrer"&gt;https://github.com/anthropics/claude-code/releases/tag/v2.1.323&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:daily-info.local,2026-11-12:5457d31dcad4910e</ns0:id>
     <ns0:title>[文档与变更] yolow64 0.2: a new decode kernel that beats Turbo-Base64 under full validation</ns0:title>
@@ -898,25 +1008,5 @@
     <ns0:category term="agent-engineering" label="Agent 与工程" />
     <ns0:summary type="text">arXiv:2606.11435v2 Announce Type: replace Abstract: The growth of agent skills has transformed how agentic systems are built, evaluated, and deployed. As skill libraries continue to scale, rigorous evaluation becomes critical to ensuring their utility, quality, and safety in real-world applications.</ns0:summary>
     <ns0:content type="html">&lt;p&gt;&lt;strong&gt;arXiv 2606.11435 提出 agent skill 的评估与演化框架和基准&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2606.11435 · 相关方：arXiv / agent skill&lt;/p&gt;&lt;p&gt;arXiv:2606.11435v2 Announce Type: replace Abstract: The growth of agent skills has transformed how agentic systems are built, evaluated, and deployed. As skill libraries continue to scale, rigorous evaluation becomes critical to ensuring their utility, quality, and safety in real-world applications.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;skill 质量首次被系统性度量与迭代，而不是靠人工感觉&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;可直接用于专家包质量审查的评分维度设计&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;精读其 benchmark 维度，若不少于 3 个维度可复用则纳入 monitor-quality-audit&lt;/p&gt;&lt;p&gt;来源：arXiv cs.CL · 发布于 2026-11-04T05:00 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://arxiv.org/abs/2606.11435" rel="noopener noreferrer"&gt;https://arxiv.org/abs/2606.11435&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-04:adafdd4764cb9dbb</ns0:id>
-    <ns0:title>[Agent 与工程] Agentic cheminformatics with Google Antigravity</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity" />
-    <ns0:published>2026-11-03T17:01:49Z</ns0:published>
-    <ns0:updated>2026-11-04T13:33:31.530620Z</ns0:updated>
-    <ns0:category term="agent-engineering" label="Agent 与工程" />
-    <ns0:summary type="text">Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Google DeepMind 发布 Antigravity 驱动的 agentic cheminformatics，用 Cheminformatics Skills 加速药物发现&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2026-11-03 · 相关方：Google Antigravity / Cheminformatics Skills&lt;/p&gt;&lt;p&gt;Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;官方把 Skills 作为领域 agent 的一等抽象推向垂直行业，验证技能化路线的产品价值&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;与 skill-creator / 专家包工作同向：领域技能包正在成为大厂产品形态&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照其 Skills 结构与 canonical AgentRole schema，若字段覆盖率不低于 80% 则考虑对齐&lt;/p&gt;&lt;p&gt;来源：Google DeepMind Blog · 发布于 2026-11-03T17:01 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity" rel="noopener noreferrer"&gt;https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-04:51a16b58b8504ef7</ns0:id>
-    <ns0:title>[Agent 与工程] Dependabot version updates support Agent Package Manager</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://github.blog/changelog/2026-11-03-dependabot-version-updates-support-agent-package-manager" />
-    <ns0:published>2026-11-03T20:24:07Z</ns0:published>
-    <ns0:updated>2026-11-04T13:33:31.530620Z</ns0:updated>
-    <ns0:category term="agent-engineering" label="Agent 与工程" />
-    <ns0:summary type="text">You can now keep your AI agent skills, prompts, and instructions up to date with Dependabot version updates for Agent Package Manager (APM). Dependabot opens pull requests to update supported… The post Dependabot version updates support Agent Package Manager appeared first on The GitHub Blog.</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;GitHub Dependabot 版本更新支持 Agent Package Manager，可自动更新 agent skills、prompts 与 instructions&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2026-11-03 · 相关方：GitHub / Dependabot / Agent Package Manager&lt;/p&gt;&lt;p&gt;You can now keep your AI agent skills, prompts, and instructions up to date with Dependabot version updates for Agent Package Manager (APM). Dependabot opens pull requests to update supported… The post Dependabot version updates support Agent Package Manager appeared first on The GitHub Blog.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;skills/prompt 第一次有了包管理与自动升级通道，agent 配置开始像依赖一样被治理&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;直接命中 skill 资产化方向：WorkBuddy / hermes 的 skills 可考虑走 APM 式版本更新而非手工同步&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在测试仓库注册 1 个 skill 包，若 Dependabot 能自动开 PR 更新则判定可迁移到 skills 发布流程&lt;/p&gt;&lt;p&gt;来源：GitHub Changelog · 发布于 2026-11-03T20:24 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.blog/changelog/2026-11-03-dependabot-version-updates-support-agent-package-manager" rel="noopener noreferrer"&gt;https://github.blog/changelog/2026-11-03-dependabot-version-updates-support-agent-package-manager&lt;/a&gt;&lt;/p&gt;</ns0:content>
   </ns0:entry>
 </ns0:feed>

@@ -5,10 +5,200 @@
   <ns0:subtitle>挖掘 · 聚合 · 研判 · 订阅；每条附原文链接；内容仅供参考，不构成投资建议</ns0:subtitle>
   <ns0:link rel="self" type="application/atom+xml" href="https://daily-info.local/all.atom" />
   <ns0:link rel="alternate" type="text/html" href="https://daily-info.local/index.html" />
-  <ns0:updated>2026-11-11T22:57:12.685301Z</ns0:updated>
+  <ns0:updated>2026-11-12T23:18:18.237901Z</ns0:updated>
   <ns0:author>
     <ns0:name>Personal Daily Info</ns0:name>
   </ns0:author>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-13:73fef9673ed486b3</ns0:id>
+    <ns0:title>[Agent 与工程] Yuri-Fernando/AWS-Project · ★0</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://github.com/Yuri-Fernando/AWS-Project" />
+    <ns0:published>2026-11-12T17:55:13Z</ns0:published>
+    <ns0:updated>2026-11-12T23:18:18.237901Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="Agent 与工程" />
+    <ns0:summary type="text">Plataforma AWS de ponta a ponta com a MESMA IaC em dois alvos: emulador floci (R$ 0) e conta AWS real Free Plan — EKS, ECR, GitOps (ArgoCD/Kustomize), Pod Identity, Prometheus/Grafana, serverless e MCP. Sessão real: e2e 13/13, US$ 0,86 em créditos, tudo desmontado.</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;AWS-Project 用同一套 IaC 在本地模拟器与真实 AWS Free Plan 两端部署，端到端 13/13，成本 US$ 0,86&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：13/13 / 0,86 / 0 · 相关方：AWS / EKS / ECR / ArgoCD / Kustomize / MCP&lt;/p&gt;&lt;p&gt;Plataforma AWS de ponta a ponta com a MESMA IaC em dois alvos: emulador floci (R$ 0) e conta AWS real Free Plan — EKS, ECR, GitOps (ArgoCD/Kustomize), Pod Identity, Prometheus/Grafana, serverless e MCP. Sessão real: e2e 13/13, US$ 0,86 em créditos, tudo desmontado.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把本地仿真与真实云端收敛到同一份 IaC 并给出 13/13 通过率，可复现性比口头承诺更实&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建与 smoke 规范有用：应要求每个部署目标给出端到端通过数与成本读数，而非只报成功&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;照其清单复现：若本地与云端各 13/13 通过且成本差额在 1 个数量级内，才判定 IaC 双目标成立&lt;/p&gt;&lt;p&gt;来源：GitHub 搜索 · topic:mcp · 发布于 2026-11-12T17:55 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/Yuri-Fernando/AWS-Project" rel="noopener noreferrer"&gt;https://github.com/Yuri-Fernando/AWS-Project&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-13:3d7d027034d3d63b</ns0:id>
+    <ns0:title>[Agent 与工程] ALENOC/tandem-mcp · ★0</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://github.com/ALENOC/tandem-mcp" />
+    <ns0:published>2026-11-12T18:22:59Z</ns0:published>
+    <ns0:updated>2026-11-12T23:18:18.237901Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="Agent 与工程" />
+    <ns0:summary type="text">MCP server pairing a cloud orchestrator model with a local executor model in LM Studio</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;tandem-mcp 是一个把云端编排模型与 LM Studio 本地执行模型配对的 MCP server，当前 0 star&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：0 · 相关方：tandem-mcp / MCP server / LM Studio / ALENOC&lt;/p&gt;&lt;p&gt;MCP server pairing a cloud orchestrator model with a local executor model in LM Studio&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;云编排加本地执行的分工被写进 MCP server，正是权限与数据边界最容易被模糊的地方&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;与我的 A2A 双路径委派同构：可对照其任务切分，检查 WinVM 侧 direct MCP 与 A2A 边界是否重复&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;读其 README 复现一次配对：若云端编排能调用本地工具且 0 次越权，才判定该分工模式可借鉴&lt;/p&gt;&lt;p&gt;来源：GitHub 搜索 · topic:mcp · 发布于 2026-11-12T18:22 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/ALENOC/tandem-mcp" rel="noopener noreferrer"&gt;https://github.com/ALENOC/tandem-mcp&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-13:1a84fda568160878</ns0:id>
+    <ns0:title>[Agent 与工程] Microsoft Research Focus – Edition #98</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-98" />
+    <ns0:published>2026-11-12T21:31:57Z</ns0:published>
+    <ns0:updated>2026-11-12T23:18:18.237901Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="Agent 与工程" />
+    <ns0:summary type="text">What's new in research at Microsoft? Host Anson Ho explores the latest, including AI-powered universal translation, a breakthrough in a 31-year-old mathematics challenge, and advances making AI coding agents faster and more efficient. The post Microsoft Research Focus – Edition #98 appeared first on</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Microsoft Research Focus 第 98 期汇总通用翻译、31 年数学难题突破与让 AI coding agents 更高效的进展&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：98 / 31 · 相关方：Microsoft Research / Anson Ho / AI coding agents / Microsoft&lt;/p&gt;&lt;p&gt;What&amp;#x27;s new in research at Microsoft? Host Anson Ho explores the latest, including AI-powered universal translation, a breakthrough in a 31-year-old mathematics challenge, and advances making AI coding agents faster and more efficient. The post Microsoft Research Focus – Edition #98 appeared first on&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把 coding agent 的效率与研究级突破并列，说明工程侧优化已被当作正式研究产出&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;agent 部署成本可借鉴其效率结论，但需要可复现的基准数字才值得改架构&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;若该期给出 coding agent 的具体提速百分比且达到 20% 以上，才纳入 WinVM 委派路径的优化评估&lt;/p&gt;&lt;p&gt;来源：Microsoft Research · 发布于 2026-11-12T21:31 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-98" rel="noopener noreferrer"&gt;https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-98&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-13:372847c9499451eb</ns0:id>
+    <ns0:title>[Agent 与工程] How Amplitude ships product improvements in 1–2 days with OpenAI</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://openai.com/index/amplitude" />
+    <ns0:published>2026-11-12T20:00:00Z</ns0:published>
+    <ns0:updated>2026-11-12T23:18:18.237901Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="Agent 与工程" />
+    <ns0:summary type="text">Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Amplitude 称其基于 OpenAI 模型的主动式产品 agent Wave 可在 1 到 2 天内交付产品改进并用 coding agents 度量效果&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：1 / 2 · 相关方：Amplitude / OpenAI / Wave / coding agents&lt;/p&gt;&lt;p&gt;Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;交付周期被压到天级，agent 同时承担决策、编码与效果测量，闭环比单点助手更完整&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 automation 流水线是直接参照：把生成、执行、度量写成同一条可回放链路，而不是分散脚本&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;跑一次对照：若本地流水线从采集到核验超过 2 天或出现 1 次以上人工补写，则判定闭环未成立&lt;/p&gt;&lt;p&gt;来源：OpenAI Blog · 发布于 2026-11-12T20:00 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://openai.com/index/amplitude" rel="noopener noreferrer"&gt;https://openai.com/index/amplitude&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-13:3e8a63beb1fdbc55</ns0:id>
+    <ns0:title>[产业与资本] Sources: Kalshi is in talks to raise funding at a $65B valuation, weeks after closing a round at a $40B valuation; its annual run rate recently surpassed $5B (Bloomberg)</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.techmeme.com/261112/p58" />
+    <ns0:published>2026-11-12T21:50:00Z</ns0:published>
+    <ns0:updated>2026-11-12T23:18:18.237901Z</ns0:updated>
+    <ns0:category term="industry-capital" label="产业与资本" />
+    <ns0:summary type="text">Bloomberg: Sources: Kalshi is in talks to raise funding at a $65B valuation, weeks after closing a round at a $40B valuation; its annual run rate recently surpassed $5B — Weeks after finalizing new funding at a $40 billion valuation, prediction marketplace Kalshi is in talks with investors to raise </ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;消息源称 Kalshi 洽谈以 $65B 估值融资，距 $40B 那轮仅数周，年化 run rate 已超 $5B&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：$65B / $40B / $5B · 相关方：Kalshi / Bloomberg&lt;/p&gt;&lt;p&gt;Bloomberg: Sources: Kalshi is in talks to raise funding at a $65B valuation, weeks after closing a round at a $40B valuation; its annual run rate recently surpassed $5B — Weeks after finalizing new funding at a $40 billion valuation, prediction marketplace Kalshi is in talks with investors to raise &lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;估值在数周内从 $40B 抬到 $65B，材料同时给出 $5B 年化 run rate，可据此核对倍数而非只看叙事&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;市场与投资板块只记录公开估值与 run rate，不构成任何标的判断；数据基建只需保留可核验字段&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;若下一轮估值未获官方确认或 run rate 口径未披露，则判定该读数仅为消息源层级，不进入索引&lt;/p&gt;&lt;p&gt;来源：Techmeme · 发布于 2026-11-12T21:50 UTC · 归类：industry-capital&lt;/p&gt;&lt;p&gt;证据状态：未独立验证&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.techmeme.com/261112/p58" rel="noopener noreferrer"&gt;https://www.techmeme.com/261112/p58&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-13:f101ffad2bb3a113</ns0:id>
+    <ns0:title>[产业与资本] Anthropic IPO</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://ipo.anthropic.com/us" />
+    <ns0:published>2026-11-12T11:46:41Z</ns0:published>
+    <ns0:updated>2026-11-12T23:18:18.237901Z</ns0:updated>
+    <ns0:category term="industry-capital" label="产业与资本" />
+    <ns0:summary type="text">评论数几乎追平分数，说明这是一次高争议事件而非单纯利好，材料本身没有招股条款</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Anthropic IPO 相关讨论帖在社区获 761 分、758 条评论&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：761 / 758 · 相关方：Anthropic&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;评论数几乎追平分数，说明这是一次高争议事件而非单纯利好，材料本身没有招股条款&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;模型供应商资本结构变化会影响 API 长期定价与稳定性，provider 备选清单应保留至少两家&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;若招股文件公开且给出具体发行价与募资额，才更新供应商风险表；在此之前只记为事件标记&lt;/p&gt;&lt;p&gt;来源：HN Algolia front_page (points/comments) · 发布于 2026-11-12T11:46 UTC · 归类：industry-capital&lt;/p&gt;&lt;p&gt;证据状态：未独立验证&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://ipo.anthropic.com/us" rel="noopener noreferrer"&gt;https://ipo.anthropic.com/us&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-13:c8c5dc29297d2e3d</ns0:id>
+    <ns0:title>[模型与研究] Tokenomics at scale: Track and cap Amazon Bedrock spend per IAM principal with CUR 2.0 and AWS Budgets</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-track-and-cap-amazon-bedrock-spend-per-iam-principal-with-cur-2-0-and-aws-budgets" />
+    <ns0:published>2026-11-12T19:29:55Z</ns0:published>
+    <ns0:updated>2026-11-12T23:18:18.237901Z</ns0:updated>
+    <ns0:category term="ai-models" label="模型与研究" />
+    <ns0:summary type="text">Get per-identity Amazon Bedrock cost visibility and enforceable spend limits using only AWS-native features, with no application code for the common case. Attribute spend with IAM principal tags, report with CUR 2.0 or Cost Explorer, and enforce with AWS Budgets actions that apply a Deny policy when</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;AWS 给出用 IAM principal 标签配合 CUR 2.0 与 AWS Budgets 按身份追踪并封顶 Bedrock 花费、无需改应用代码的做法&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2.0 · 相关方：Amazon Bedrock / CUR 2.0 / AWS Budgets / IAM / Cost Explorer&lt;/p&gt;&lt;p&gt;Get per-identity Amazon Bedrock cost visibility and enforceable spend limits using only AWS-native features, with no application code for the common case. Attribute spend with IAM principal tags, report with CUR 2.0 or Cost Explorer, and enforce with AWS Budgets actions that apply a Deny policy when&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把成本归因下沉到身份维度且不动业务代码，是配额治理最省事的一条路径&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;免密钥 LLM 调用若多租户共用，可直接照此按 principal 设硬上限，避免单任务刷爆账单&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;跑一次配额冒烟：若某个 principal 超预算后调用被拒且错误码明确，则判定封顶生效&lt;/p&gt;&lt;p&gt;来源：AWS ML Blog · 发布于 2026-11-12T19:29 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-track-and-cap-amazon-bedrock-spend-per-iam-principal-with-cur-2-0-and-aws-budgets" rel="noopener noreferrer"&gt;https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-track-and-cap-amazon-bedrock-spend-per-iam-principal-with-cur-2-0-and-aws-budgets&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-13:4d9244537a2033a7</ns0:id>
+    <ns0:title>[模型与研究] Google's Gemini 4 Hydrogen outscores the bigger Argon just four weeks after its launch</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://the-decoder.com/googles-gemini-4-hydrogen-outscores-the-bigger-argon-just-four-weeks-after-its-launch" />
+    <ns0:published>2026-11-12T19:58:43Z</ns0:published>
+    <ns0:updated>2026-11-12T23:18:18.237901Z</ns0:updated>
+    <ns0:category term="ai-models" label="模型与研究" />
+    <ns0:summary type="text">Google's Gemini 4 Hydrogen replaces the Flash series, but benchmarks suggest it also makes the pricier Argon obsolete. On the independent Artificial Analysis Intelligence Index, Hydrogen nearly matches Claude Sonnet 5.5 for less money but costs about 2.5 times more per task than GPT-6.1 Sol and stil</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Gemini 4 Hydrogen 取代 Flash 系列，独立指数显示其接近 Claude Sonnet 5.5，摘要另给出 2.5 倍成本读数&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：4 / 5.5 / 2.5 · 相关方：Gemini 4 Hydrogen / Argon / Flash / Claude Sonnet 5.5 / Artificial Analysis Intelligence Index / Google&lt;/p&gt;&lt;p&gt;Google&amp;#x27;s Gemini 4 Hydrogen replaces the Flash series, but benchmarks suggest it also makes the pricier Argon obsolete. On the independent Artificial Analysis Intelligence Index, Hydrogen nearly matches Claude Sonnet 5.5 for less money but costs about 2.5 times more per task than GPT-6.1 Sol and stil&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;同一份材料里更便宜与 2.5 倍成本并存，说明单位价格与总账单是两回事，不能混用&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;WorkBuddy 模型路由若按单价切换，需同时记录上下文长度与调用次数，否则总价会反向上升&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照 Artificial Analysis 具体分项：若两者指数分差小于 5% 且单任务总成本更低，才判定可替换&lt;/p&gt;&lt;p&gt;来源：The Decoder · 发布于 2026-11-12T19:58 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://the-decoder.com/googles-gemini-4-hydrogen-outscores-the-bigger-argon-just-four-weeks-after-its-launch" rel="noopener noreferrer"&gt;https://the-decoder.com/googles-gemini-4-hydrogen-outscores-the-bigger-argon-just-four-weeks-after-its-launch&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-13:0667a519c65042ee</ns0:id>
+    <ns0:title>[模型与研究] I'm making LLMs work on small and old devices</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://github.com/hyperionaidev/smolmaxxing" />
+    <ns0:published>2026-11-12T15:23:10Z</ns0:published>
+    <ns0:updated>2026-11-12T23:18:18.237901Z</ns0:updated>
+    <ns0:category term="ai-models" label="模型与研究" />
+    <ns0:summary type="text">端侧推理讨论热度高，但材料没有设备型号、内存占用或吞吐，无法判断可用性边界</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;作者让 LLM 在小型旧设备上运行的帖子获 245 分、86 条评论&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：245 / 86 · 相关方：LLMs&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;端侧推理讨论热度高，但材料没有设备型号、内存占用或吞吐，无法判断可用性边界&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;WinVM 上的本地执行模型若走端侧路线，需先有内存与延迟读数，再决定是否分担云端编排&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;若后续给出具体内存占用与每秒 token 数，且旧设备上达到 10 token/s 以上，才判定端侧可承担实际任务&lt;/p&gt;&lt;p&gt;来源：HN Algolia front_page (points/comments) · 发布于 2026-11-12T15:23 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;证据状态：未独立验证&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/hyperionaidev/smolmaxxing" rel="noopener noreferrer"&gt;https://github.com/hyperionaidev/smolmaxxing&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-13:bc81dad5a88a96b1</ns0:id>
+    <ns0:title>[模型与研究] 狂肝11小时搓出虚幻5大作！文心5.5 Flash Preview发布</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&amp;mid=2652742286&amp;idx=2&amp;sn=c52effcf422a1c9f2503cbf18ffe0d8d&amp;chksm=f02d8bb553c6327d767b283f832099c9d6e00f284da9d9331f3414633eb0c4e7295a67d03bfc&amp;scene=0&amp;xtrack=1" />
+    <ns0:published>2026-11-12T15:30:00Z</ns0:published>
+    <ns0:updated>2026-11-12T23:18:18.237901Z</ns0:updated>
+    <ns0:category term="ai-models" label="模型与研究" />
+    <ns0:summary type="text">扩散模型、生成模型、深度学习｜百度正式发布文心5.5 Flash Preview（ERNIE 5.5 Flash Preview），主打“快、便宜、开源”。模型参数达2800亿，但每次仅激活140亿，推理速度超200 token/秒。API定价极具竞争力：输入忙时2元/百万token、闲时1元，输出忙时8元、闲时4元，当前限时五折。该模型即日起上线，面向开发者开放。</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;百度发布文心5.5 Flash Preview，总参数 2800 亿、每次激活 140 亿、推理超 200 token/秒，输入闲时 1 元每百万 token&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：11 / 5.5 / 2800 / 140 / 200 · 相关方：文心5.5 Flash Preview / ERNIE 5.5 Flash Preview / 百度 / 虚幻5&lt;/p&gt;&lt;p&gt;扩散模型、生成模型、深度学习｜百度正式发布文心5.5 Flash Preview（ERNIE 5.5 Flash Preview），主打“快、便宜、开源”。模型参数达2800亿，但每次仅激活140亿，推理速度超200 token/秒。API定价极具竞争力：输入忙时2元/百万token、闲时1元，输出忙时8元、闲时4元，当前限时五折。该模型即日起上线，面向开发者开放。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;稀疏激活把大参数模型的单位成本压向小模型，定价按忙闲时段分层是新的成本变量&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;WorkBuddy 免密钥 LLM 调用若接入分时定价，需把忙闲时段写进调度策略，而非只看名义单价&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;做一次对照：若闲时输入 1 元每百万 token 下 200 token/秒吞吐能复现，才判定可纳入低成本批处理通道&lt;/p&gt;&lt;p&gt;来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-12T15:30 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&amp;amp;mid=2652742286&amp;amp;idx=2&amp;amp;sn=c52effcf422a1c9f2503cbf18ffe0d8d&amp;amp;chksm=f02d8bb553c6327d767b283f832099c9d6e00f284da9d9331f3414633eb0c4e7295a67d03bfc&amp;amp;scene=0&amp;amp;xtrack=1" rel="noopener noreferrer"&gt;https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&amp;amp;mid=2652742286&amp;amp;idx=2&amp;amp;sn=c52effcf422a1c9f2503cbf18ffe0d8d&amp;amp;chksm=f02d8bb553c6327d767b283f832099c9d6e00f284da9d9331f3414633eb0c4e7295a67d03bfc&amp;amp;scene=0&amp;amp;xtrack=1&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-13:cd4a15607d6f089b</ns0:id>
+    <ns0:title>[开发者工具与版本] Cerebras reports Q3 core revenue up 70% YoY to $230.9M, vs. $214.7M est., issues strong guidance, and announces a Microsoft deal; CBRS jumps 15%+ after hours (Jordan Novet/CNBC)</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.techmeme.com/261112/p57" />
+    <ns0:published>2026-11-12T21:35:02Z</ns0:published>
+    <ns0:updated>2026-11-12T23:18:18.237901Z</ns0:updated>
+    <ns0:category term="dev-tools" label="开发者工具与版本" />
+    <ns0:summary type="text">Jordan Novet / CNBC: Cerebras reports Q3 core revenue up 70% YoY to $230.9M, vs. $214.7M est., issues strong guidance, and announces a Microsoft deal; CBRS jumps 15%+ after hours — Cerebras Systems reported better-than-expected revenue and quarterly guidance in its earnings report on Thursday, and t</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Cerebras Q3 核心营收同比增 70% 至 $230.9M，高于 $214.7M 预期，并宣布与 Microsoft 合作，CBRS 盘后涨超 15%&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：70% / 230.9 / 214.7 / 15% · 相关方：Cerebras / Microsoft / CBRS / CNBC&lt;/p&gt;&lt;p&gt;Jordan Novet / CNBC: Cerebras reports Q3 core revenue up 70% YoY to $230.9M, vs. $214.7M est., issues strong guidance, and announces a Microsoft deal; CBRS jumps 15%+ after hours — Cerebras Systems reported better-than-expected revenue and quarterly guidance in its earnings report on Thursday, and t&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;营收超预期与盘后涨幅同时出现，说明市场把算力需求当作可验证订单而非叙事&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;算力供给侧报价与交付周期会传导到 LLM provider 成本，选型表里需保留单价与配额字段&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;若下季度核心营收同比增速跌破 70% 或 Microsoft 合作未落地为具体订单，则判定高增长不可外推&lt;/p&gt;&lt;p&gt;来源：Techmeme · 发布于 2026-11-12T21:35 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.techmeme.com/261112/p57" rel="noopener noreferrer"&gt;https://www.techmeme.com/261112/p57&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-13:c5003bfe5e9237f3</ns0:id>
+    <ns0:title>[深度长文] 清华系团队死磕20年！攻破71%盲区，最强深海AI大脑诞生</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&amp;mid=2652742286&amp;idx=1&amp;sn=7412d40e19e2c81d1c7c921926efb698&amp;chksm=f01a4c444a51cedd505f9dba08b1aadc15e2c970e053dfa4c5b99f55f62ca7e12a6ad12017d5&amp;scene=0&amp;xtrack=1" />
+    <ns0:published>2026-11-12T15:20:00Z</ns0:published>
+    <ns0:updated>2026-11-12T23:18:18.237901Z</ns0:updated>
+    <ns0:category term="deep-read" label="深度长文" />
+    <ns0:summary type="text">AI、生成模型、深度学习｜深圳初创公司领渊智能完成千万级种子轮融资，聚焦水下AI智能系统研发，旨在为水下装备赋予自主决策能力。其目标是实现设备下水后无需人工实时操控，可自主执行任务、识别问题并生成结构化报告，替代当前依赖人工操控与潜水员高风险作业的传统模式。该方案显著降低作业成本与安全风险，并将原始“死数据”转化为可分析、可行动的智能信息，推动海洋探测智能化升级。</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;标题以 20 年与 71% 盲区描述深海 AI 大脑，摘要同时披露领渊智能完成千万级种子轮融资&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：20 / 71% · 相关方：清华系团队 / 领渊智能 / 水下AI智能系统&lt;/p&gt;&lt;p&gt;AI、生成模型、深度学习｜深圳初创公司领渊智能完成千万级种子轮融资，聚焦水下AI智能系统研发，旨在为水下装备赋予自主决策能力。其目标是实现设备下水后无需人工实时操控，可自主执行任务、识别问题并生成结构化报告，替代当前依赖人工操控与潜水员高风险作业的传统模式。该方案显著降低作业成本与安全风险，并将原始“死数据”转化为可分析、可行动的智能信息，推动海洋探测智能化升级。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;标题的性能数字与摘要的融资事实不对齐，读者无法从同一条材料判断技术进展到哪一步&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建选题的启发：把标题读数和正文读数分开入库，避免把营销数字当作可核验指标&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照原始论文或融资公告核对 71% 的定义与测试集，若找不到出处则判定该读数不可入索引&lt;/p&gt;&lt;p&gt;来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-12T15:20 UTC · 归类：deep-read&lt;/p&gt;&lt;p&gt;证据状态：未独立验证&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&amp;amp;mid=2652742286&amp;amp;idx=1&amp;amp;sn=7412d40e19e2c81d1c7c921926efb698&amp;amp;chksm=f01a4c444a51cedd505f9dba08b1aadc15e2c970e053dfa4c5b99f55f62ca7e12a6ad12017d5&amp;amp;scene=0&amp;amp;xtrack=1" rel="noopener noreferrer"&gt;https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&amp;amp;mid=2652742286&amp;amp;idx=1&amp;amp;sn=7412d40e19e2c81d1c7c921926efb698&amp;amp;chksm=f01a4c444a51cedd505f9dba08b1aadc15e2c970e053dfa4c5b99f55f62ca7e12a6ad12017d5&amp;amp;scene=0&amp;amp;xtrack=1&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-13:b8c82d5c01fe377a</ns0:id>
+    <ns0:title>[社区与观点] Rust 1.100</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://blog.rust-lang.org/2026/11/12/Rust-1.100.0" />
+    <ns0:published>2026-11-12T18:39:05Z</ns0:published>
+    <ns0:updated>2026-11-12T23:18:18.237901Z</ns0:updated>
+    <ns0:category term="community" label="社区与观点" />
+    <ns0:summary type="text">三位数版本跨度通常伴随工具链行为变化，但材料只有版本号与热度，没有 changelog 明细</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Rust 1.100 发布帖在社区获 243 分、124 条评论&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：1.100 / 243 / 124 · 相关方：Rust&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;三位数版本跨度通常伴随工具链行为变化，但材料只有版本号与热度，没有 changelog 明细&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;本地 Rust 工具链升级前需回归构建脚本，尤其是被 skill 依赖的 CLI 二进制&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;读 1.100 release notes：若列出 1 项以上破坏性变更，则先跑全量构建回归并确认 0 error 再升级&lt;/p&gt;&lt;p&gt;来源：HN Algolia front_page (points/comments) · 发布于 2026-11-12T18:39 UTC · 归类：community&lt;/p&gt;&lt;p&gt;证据状态：未独立验证&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://blog.rust-lang.org/2026/11/12/Rust-1.100.0" rel="noopener noreferrer"&gt;https://blog.rust-lang.org/2026/11/12/Rust-1.100.0&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-13:c52958cc869a513c</ns0:id>
+    <ns0:title>[社区与观点] Show HN: My $300 embroidery machine needed a subscription, so I built my own app</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://github.com/simpsoka/zigzag" />
+    <ns0:published>2026-11-12T17:02:42Z</ns0:published>
+    <ns0:updated>2026-11-12T23:18:18.237901Z</ns0:updated>
+    <ns0:category term="community" label="社区与观点" />
+    <ns0:summary type="text">硬件功能被订阅化后用户选择自建而非付费，说明本地可控性是真实的付费替代项</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;作者因 300 美元刺绣机被要求订阅而自建应用，帖子获 232 分、98 条评论&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：300 / 232 / 98 · 相关方：embroidery machine&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;硬件功能被订阅化后用户选择自建而非付费，说明本地可控性是真实的付费替代项&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;与 WorkBuddy skill 本地可改可留存的定位一致：把关键能力锁进云端订阅会触发用户自建分叉&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;统计自建项目 star 数：若 30 天内超过 100 且出现 2 个以上独立 fork，判定该订阅模式存在替代压力&lt;/p&gt;&lt;p&gt;来源：HN Algolia front_page (points/comments) · 发布于 2026-11-12T17:02 UTC · 归类：community&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/simpsoka/zigzag" rel="noopener noreferrer"&gt;https://github.com/simpsoka/zigzag&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-13:2d31f20a157137df</ns0:id>
+    <ns0:title>[社区与观点] Data centers need power – lower income, rural residents pay the price</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://news.cornell.edu/stories/2026/11/data-centers-need-power-lower-income-rural-residents-pay-price" />
+    <ns0:published>2026-11-12T19:53:54Z</ns0:published>
+    <ns0:updated>2026-11-12T23:18:18.237901Z</ns0:updated>
+    <ns0:category term="community" label="社区与观点" />
+    <ns0:summary type="text">算力扩张的外部成本被摆到分配维度，而多数成本模型只算 GPU 与电费单价</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;数据中心用电需求被指让低收入、农村居民承担代价，社区讨论 143 分、144 条评论&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：143 / 144 · 相关方：Data centers / rural residents&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;算力扩张的外部成本被摆到分配维度，而多数成本模型只算 GPU 与电费单价&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;做容量与成本估算时应把外部性作为独立字段，避免把单位价格下降直接等同于总成本下降&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;若同一来源后续给出每户电价增幅的具体百分比，才判定可纳入成本模型；否则只记为待验证观点&lt;/p&gt;&lt;p&gt;来源：HN Algolia front_page (points/comments) · 发布于 2026-11-12T19:53 UTC · 归类：community&lt;/p&gt;&lt;p&gt;证据状态：未独立验证&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://news.cornell.edu/stories/2026/11/data-centers-need-power-lower-income-rural-residents-pay-price" rel="noopener noreferrer"&gt;https://news.cornell.edu/stories/2026/11/data-centers-need-power-lower-income-rural-residents-pay-price&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-13:8fdb0296ea11e78c</ns0:id>
+    <ns0:title>[社区与观点] Gemini 4 Hydrogen</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen" />
+    <ns0:published>2026-11-12T18:01:48Z</ns0:published>
+    <ns0:updated>2026-11-12T23:18:18.237901Z</ns0:updated>
+    <ns0:category term="community" label="社区与观点" />
+    <ns0:summary type="text">只有型号与热度、没有任何基准或价格读数，说明新品讨论尚停留在命名层面</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Gemini 4 Hydrogen 发布帖在社区获得 403 分、268 条评论&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：4 / 403 / 268 · 相关方：Gemini 4 Hydrogen&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;只有型号与热度、没有任何基准或价格读数，说明新品讨论尚停留在命名层面&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;模型选型不能靠热度决定；WorkBuddy 的 provider 切换需要等可复现的基准数据再评估&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;等第三方基准给出具体分数后，若 Hydrogen 单位 token 成本低于现用模型 20% 以上才进入切换评审&lt;/p&gt;&lt;p&gt;来源：HN Algolia front_page (points/comments) · 发布于 2026-11-12T18:01 UTC · 归类：community&lt;/p&gt;&lt;p&gt;证据状态：未独立验证&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen" rel="noopener noreferrer"&gt;https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-13:1704b1c03cb59add</ns0:id>
+    <ns0:title>[社区与观点] Service degradation on Microsoft 365</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://status.cloud.microsoft/" />
+    <ns0:published>2026-11-12T18:20:48Z</ns0:published>
+    <ns0:updated>2026-11-12T23:18:18.237901Z</ns0:updated>
+    <ns0:category term="community" label="社区与观点" />
+    <ns0:summary type="text">https://www.abc.net.au/news/2026-11-13/microsoft-outage-affe...https://www.reddit.com/r/sysadmin/comments/1xuje83/microsoft...https://downdetector.com/status/microsoft-365/</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Microsoft 365 服务降级事件在社区讨论中获得 357 分与 343 条评论并汇总多个状态页链接&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：357 / 343 · 相关方：Microsoft 365&lt;/p&gt;&lt;p&gt;https://www.abc.net.au/news/2026-11-13/microsoft-outage-affe...https://www.reddit.com/r/sysadmin/comments/1xuje83/microsoft...https://downdetector.com/status/microsoft-365/&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;单一厂商办公套件故障被 343 条评论快速放大，说明协作链路可用性依赖外部状态而非本地冗余&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;automation 定时任务若依赖 Microsoft 365 侧通知或日历，缺少降级兜底会让分发链在故障日静默失败&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照状态页复现一次：若降级持续超过 2 小时且告警未触达，则判定需为外部依赖加超时与本地留痕&lt;/p&gt;&lt;p&gt;来源：HN Algolia front_page (points/comments) · 发布于 2026-11-12T18:20 UTC · 归类：community&lt;/p&gt;&lt;p&gt;证据状态：未独立验证&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://status.cloud.microsoft/" rel="noopener noreferrer"&gt;https://status.cloud.microsoft/&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-13:05a61ad7e4a9114b</ns0:id>
+    <ns0:title>[文档与变更] Actions for ARM32 Linux &amp; Windows retirement</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement" />
+    <ns0:published>2026-11-12T20:59:36Z</ns0:published>
+    <ns0:updated>2026-11-12T23:18:18.237901Z</ns0:updated>
+    <ns0:category term="docs-changelog" label="文档与变更" />
+    <ns0:summary type="text">GitHub Actions hosted runners will be ending support for ARM32 job execution on Windows and Linux by 8th Dec 2026. This follows our end of support for node20 where Node… The post Actions for ARM32 Linux &amp; Windows retirement appeared first on The GitHub Blog.</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;GitHub Actions 托管 runner 将在 8th Dec 2026 前停止 Windows 与 Linux 上的 ARM32 作业，此前已结束 node20 支持&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：ARM32 / node20 · 相关方：GitHub Actions / ARM32 / node20 / Linux / Windows&lt;/p&gt;&lt;p&gt;GitHub Actions hosted runners will be ending support for ARM32 job execution on Windows and Linux by 8th Dec 2026. This follows our end of support for node20 where Node… The post Actions for ARM32 Linux &amp;amp; Windows retirement appeared first on The GitHub Blog.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;CI 运行时的架构与 Node 版本被连续收窄，跨架构构建链需要提前改 runner 标签&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;Pages workflow 与本地脚本若硬编码 ARM32 或 node20，下一次 runner 镜像更新会直接让构建失败&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;跑一次 workflow 矩阵：若 arm32 与 node20 作业各出现 1 次以上失败，则判定必须迁移 runner 标签&lt;/p&gt;&lt;p&gt;来源：GitHub Changelog · 发布于 2026-11-12T20:59 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement" rel="noopener noreferrer"&gt;https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-13:1e1f91e95e92e49a</ns0:id>
+    <ns0:title>[文档与变更] v2.1.323</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://github.com/anthropics/claude-code/releases/tag/v2.1.323" />
+    <ns0:published>2026-11-12T22:12:13Z</ns0:published>
+    <ns0:updated>2026-11-12T23:18:18.237901Z</ns0:updated>
+    <ns0:category term="docs-changelog" label="文档与变更" />
+    <ns0:summary type="text">What's changed Added Code Mode, an experimental opt-in in which Claude writes JavaScript to call its tools; see https://code.claude.com/docs/en/code-mode to turn it on, or to turn it off for an organization Added engines["claude-code"] to plugin.json: plugins outside their stated Claude Code version</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Claude Code v2.1.323 新增实验性 Code Mode，让 Claude 写 JavaScript 调用工具，并给 plugin.json 增加引擎版本约束&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2.1.323 · 相关方：Code Mode / JavaScript / plugin.json / Claude&lt;/p&gt;&lt;p&gt;What&amp;#x27;s changed Added Code Mode, an experimental opt-in in which Claude writes JavaScript to call its tools; see https://code.claude.com/docs/en/code-mode to turn it on, or to turn it off for an organization Added engines[&amp;quot;claude-code&amp;quot;] to plugin.json: plugins outside their stated Claude Code version&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;工具调用从固定 schema 变成生成代码，插件版本约束同步收紧，说明扩展点稳定性被当成发布闸门&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;WorkBuddy 的 skill 与 MCP 扩展点若跟随动态调用，需在插件清单固化引擎版本范围，否则升级会出现不可加载&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;跑一次隔离环境 smoke：启用 Code Mode 后若插件加载失败数为 0 且 engines 范围校验命中，才判定可接入&lt;/p&gt;&lt;p&gt;来源：claude-code Releases · 发布于 2026-11-12T22:12 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.323" rel="noopener noreferrer"&gt;https://github.com/anthropics/claude-code/releases/tag/v2.1.323&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:daily-info.local,2026-11-12:6f3c74a04fea158f</ns0:id>
     <ns0:title>[产业与资本] With $720M round, Britain’s Fractile gets a leg up in the race for AI chips</ns0:title>
@@ -818,195 +1008,5 @@
     <ns0:category term="dev-tools" label="安全与治理" />
     <ns0:summary type="text">Comments 〔Folo分类:开源项目〕</ns0:summary>
     <ns0:content type="html">&lt;p&gt;&lt;strong&gt;PwnEscape 第 2 部分公开 Firecracker VM 逃逸路径&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2 · 相关方：Firecracker / PwnEscape&lt;/p&gt;&lt;p&gt;Comments 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;微 VM 常被当作 Agent 沙箱的默认隔离假设，逃逸复现会直接推翻这个假设&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;WinVM Bridge 的 VM 侧 Agent 与 A2A 委派路径依赖 VM 边界，逃逸一旦可复现就必须重审隔离层&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在受控 VM 尝试复现逃逸，若 1 次成功即判定隔离假设失效并暂停该 VM 的 A2A 委派&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-06T19:33 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://pwn.ai/blog/firecracker-escape" rel="noopener noreferrer"&gt;https://pwn.ai/blog/firecracker-escape&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-07:5e722243eff5bdd6</ns0:id>
-    <ns0:title>[开发者工具与版本] Control the Glowing Apple Logo on Your New MacBook Pro</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://www.macrumors.com/how-to/turn-glowing-apple-logo-macbook-pro" />
-    <ns0:published>2026-11-06T20:03:09.496000Z</ns0:published>
-    <ns0:updated>2026-11-06T23:25:27.690104Z</ns0:updated>
-    <ns0:category term="docs-changelog" label="开发者工具与版本" />
-    <ns0:summary type="text">New 14-inch and 16-inch MacBook Pro models reintroduce the illuminated Apple logo, which automatically adjusts to ambient light. To disable this feature, users must execute a specific command in the Terminal application, as it is not available in System Settings. This action turns off the light imme</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;14 与 16 英寸 MacBook Pro 的发光 Apple logo 需在 Terminal 用命令关闭&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：14 / 16 · 相关方：MacBook Pro / Apple / Terminal&lt;/p&gt;&lt;p&gt;New 14-inch and 16-inch MacBook Pro models reintroduce the illuminated Apple logo, which automatically adjusts to ambient light. To disable this feature, users must execute a specific command in the Terminal application, as it is not available in System Settings. This action turns off the light imme&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;开关不进系统设置而落到命令行，说明厂商把低频定制留给了可脚本化通道&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 automation 有借鉴：可脚本化的开关应配一份可回滚命令清单，本机设备配置才能进幂等流水线&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;把该命令纳入设备配置脚本并跑一次 dry-run，若 0 处副作用才允许在其它机器复用&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-06T20:03 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.macrumors.com/how-to/turn-glowing-apple-logo-macbook-pro" rel="noopener noreferrer"&gt;https://www.macrumors.com/how-to/turn-glowing-apple-logo-macbook-pro&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-07:c18d0ced5e118c57</ns0:id>
-    <ns0:title>[开发者工具与版本] Hands-On With Apple's New OLED Touchscreen MacBook Pro</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://www.macrumors.com/2026/11/06/oled-macbook-pro-hands-on" />
-    <ns0:published>2026-11-06T22:05:59.161000Z</ns0:published>
-    <ns0:updated>2026-11-06T23:25:27.690104Z</ns0:updated>
-    <ns0:category term="docs-changelog" label="开发者工具与版本" />
-    <ns0:summary type="text">Apple’s new PROLED MacBook Pro, launched in 2026, replaces the previous mini-LED model with a thinner, lighter, and more responsive design. It features an OLED XDR display with touch capabilities, including swipe, tap, and pinch-to-zoom gestures, alongside a Dynamic Island for Siri and Live Activiti</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Apple 的 OLED 触控 MacBook Pro 提供 14 与 16 英寸机型，起价分别为 $2,899 与 $3,399&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：$2,899 / $3,399 / 14 / 16 · 相关方：Apple / MacBook Pro / OLED XDR / M5 Pro&lt;/p&gt;&lt;p&gt;Apple’s new PROLED MacBook Pro, launched in 2026, replaces the previous mini-LED model with a thinner, lighter, and more responsive design. It features an OLED XDR display with touch capabilities, including swipe, tap, and pinch-to-zoom gestures, alongside a Dynamic Island for Siri and Live Activiti&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;原文自己下了判断：触控属增量改进而非笔记本交互的根本变化，硬件叙事需要打折读&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 WinVM 与数据基建暂无直接影响：本机形态不改变 agent 部署与 MCP 通道，仅影响本地开发设备选型&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;若后续出现 2 个以上独立来源确认触控提升效率，才把它列入开发机换机依据&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-06T22:05 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.macrumors.com/2026/11/06/oled-macbook-pro-hands-on" rel="noopener noreferrer"&gt;https://www.macrumors.com/2026/11/06/oled-macbook-pro-hands-on&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-07:35670172de926c8a</ns0:id>
-    <ns0:title>[Agent 与工程] My AI agent called me at 2am. I picked up. It had already found the bug.</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://dev.to/natuworkguy/my-ai-agent-called-me-at-2am-i-picked-up-it-had-already-found-the-bug-bcb" />
-    <ns0:published>2026-11-06T18:26:58.717000Z</ns0:published>
-    <ns0:updated>2026-11-06T23:25:27.690104Z</ns0:updated>
-    <ns0:category term="agent-engineering" label="Agent 与工程" />
-    <ns0:summary type="text">My phone didn't ring. My laptop did. A soft two-tone ring, a card sliding up over my half-finished code, and a name I gave a background… 〔Folo分类:开源项目〕</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;一位开发者的后台 AI agent 在 2am 主动来电，且已先定位到 bug&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2 · 相关方：AI agent&lt;/p&gt;&lt;p&gt;My phone didn&amp;#x27;t ring. My laptop did. A soft two-tone ring, a card sliding up over my half-finished code, and a name I gave a background… 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;后台 Agent 从被动应答转向主动打断，通知时机本身成了需要设计的权限面&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;automation 定时任务默认不外发，但主动来电这类交互要求先有静默时段与授权门槛，否则会打断人&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;给通知链路设静默窗口，若非工作时段触发 1 次即判定该主动通道应默认关闭并回到人工确认&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-06T18:26 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://dev.to/natuworkguy/my-ai-agent-called-me-at-2am-i-picked-up-it-had-already-found-the-bug-bcb" rel="noopener noreferrer"&gt;https://dev.to/natuworkguy/my-ai-agent-called-me-at-2am-i-picked-up-it-had-already-found-the-bug-bcb&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-07:442c2eb5c2c85552-c</ns0:id>
-    <ns0:title>[Agent 与工程] Show HN: AegisKernel – Zero-trust POSIX runtime for AI agents in &lt;0.016ms</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://adikshatriyag-crypto.github.io/aegis-kernel" />
-    <ns0:published>2026-11-06T17:00:23.052000Z</ns0:published>
-    <ns0:updated>2026-11-06T23:25:27.690104Z</ns0:updated>
-    <ns0:category term="community" label="Agent 与工程" />
-    <ns0:summary type="text">Comments 〔Folo分类:开源项目〕</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;AegisKernel 宣称面向 AI agents 的零信任 POSIX 运行时开销低于 0.016ms&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：0.016ms · 相关方：AegisKernel / POSIX / AI agents&lt;/p&gt;&lt;p&gt;Comments 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把权限隔离的代价写成延迟数字，说明零信任不再只是架构口号，而是可测的工程开销&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;WinVM Bridge 的 VM 侧隔离层与 MCP 直连路径都能拿这个数当预算上限，判断零信任是否值得引入&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在隔离测试环境跑 100 次冷启动，若 P99 延迟不超过 0.016ms 且 0 violations 才列入沙箱候选&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-06T17:00 UTC · 归类：community&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://adikshatriyag-crypto.github.io/aegis-kernel" rel="noopener noreferrer"&gt;https://adikshatriyag-crypto.github.io/aegis-kernel&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-07:ef2a83f7f3a44d74</ns0:id>
-    <ns0:title>[模型与研究] A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://hightouch.com/blog/llm-judges-identity-resolution" />
-    <ns0:published>2026-11-06T19:48:51.048000Z</ns0:published>
-    <ns0:updated>2026-11-06T23:25:27.690104Z</ns0:updated>
-    <ns0:category term="dev-tools" label="模型与研究" />
-    <ns0:summary type="text">Comments 〔Folo分类:开源项目〕</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;可求助 Opus 的 Jev 以 4x 更低成本取得 Opus 级准确率&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：4x · 相关方：Opus / Jev&lt;/p&gt;&lt;p&gt;Comments 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把 LLM judge 的成本与准确率同时量化，路由策略第一次有了可对照的两个维度&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;WorkBuddy 的 LLM provider V1 若引入分级 judge，可照此设成本上限，避免所有请求都走高价模型&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照 Opus 基线跑 200 条样本，若成本比达到 4 且准确率差小于 2 个百分点才判定可切换路由&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-06T19:48 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;证据状态：推断&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://hightouch.com/blog/llm-judges-identity-resolution" rel="noopener noreferrer"&gt;https://hightouch.com/blog/llm-judges-identity-resolution&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-07:46db23cc1210bae5</ns0:id>
-    <ns0:title>[模型与研究] SketchAgentBench – evaluate LLMs on 3D spatial reasoning</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://sketchagent.dev/" />
-    <ns0:published>2026-11-06T20:28:24.123000Z</ns0:published>
-    <ns0:updated>2026-11-06T23:25:27.690104Z</ns0:updated>
-    <ns0:category term="agent-engineering" label="模型与研究" />
-    <ns0:summary type="text">Comments 〔Folo分类:开源项目〕</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;SketchAgentBench 把 LLMs 的 3D 空间推理做成可跑的评测基准&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：3D · 相关方：SketchAgentBench / LLMs&lt;/p&gt;&lt;p&gt;Comments 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;空间推理从定性描述变成有基准可打分的对象，Agent 能力声明开始需要独立复现&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;WinVM Bridge 与 3D 资产链路都依赖空间理解，该基准可直接用作 agent 部署前的验收项，替代主观描述&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;取该基准跑一次本地 smoke，若 3D 任务通过率低于 60% 则判定当前 provider 不满足空间推理接入条件&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-06T20:28 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://sketchagent.dev/" rel="noopener noreferrer"&gt;https://sketchagent.dev/&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-05:86809fee4f8cf7e7</ns0:id>
-    <ns0:title>[社区与观点] 新玩意 255｜少数派的编辑们最近买了啥？</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://sspai.com/post/118541" />
-    <ns0:published>2026-11-05T09:11:28.852000Z</ns0:published>
-    <ns0:updated>2026-11-05T11:52:53.812318Z</ns0:updated>
-    <ns0:category term="agent-engineering" label="社区与观点" />
-    <ns0:summary type="text">The digital publication Sspai introduces a recurring feature titled "New Toys," which aims to satisfy reader curiosity about the editorial team's personal purchases. In this segment, editors share firsthand accounts and usage experiences of the latest gadgets and products they have recently acquired</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;少数派「新玩意」第 255 期由编辑分享近期个人购入的数码产品与上手体验&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：255 · 相关方：Sspai / New Toys&lt;/p&gt;&lt;p&gt;The digital publication Sspai introduces a recurring feature titled &amp;quot;New Toys,&amp;quot; which aims to satisfy reader curiosity about the editorial team&amp;#x27;s personal purchases. In this segment, editors share firsthand accounts and usage experiences of the latest gadgets and products they have recently acquired&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;一手使用体验补足参数表之外的信息，但抓取摘要不含价格与型号，可核验性有限。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对设备选型只能当线索：进入比较表前必须补齐 2 项可核验规格。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;若补齐型号与价格后仍缺 1 项，则本期不纳入设备候选清单。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-05T09:11 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://sspai.com/post/118541" rel="noopener noreferrer"&gt;https://sspai.com/post/118541&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-05:f8424668a04d6ed1</ns0:id>
-    <ns0:title>[市场与投资] Yardeni: Yields Attractive at 5%; Nasdaq to Outperform</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://www.bloomberg.com/news/videos/2026-11-05/yardeni-yields-attractive-at-5-nasdaq-to-outperform-video" />
-    <ns0:published>2026-11-05T07:16:56Z</ns0:published>
-    <ns0:updated>2026-11-05T11:52:53.812318Z</ns0:updated>
-    <ns0:category term="market-invest" label="市场与投资" />
-    <ns0:summary type="text">Yardeni Research President, Ed Yardeni, says US 10-year Treasury yields look “very attractive” at around the 5% level with inflation expected to cool. On Bloomberg's Insight with Haslinda Amin, he also told us why the Nasdaq 100 is his preferred asset for the next 24 months. (Source: Bloomberg)</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Yardeni 在彭博访谈中称 10 年期美债收益率约 5% 具吸引力，并偏好 Nasdaq 100&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：5% / 10 / 100 · 相关方：Yardeni / Nasdaq 100 / Bloomberg&lt;/p&gt;&lt;p&gt;Yardeni Research President, Ed Yardeni, says US 10-year Treasury yields look “very attractive” at around the 5% level with inflation expected to cool. On Bloomberg&amp;#x27;s Insight with Haslinda Amin, he also told us why the Nasdaq 100 is his preferred asset for the next 24 months. (Source: Bloomberg)&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;这是第三方观点而非独立验证数据，5% 与「偏好」之间不构成本站结论。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;仅记录公开观点与风险提示，不产生任何仓位或交易判断；观点类条目需单列。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照官方收益率曲线核对 5% 与 10 年期口径，偏差超过 0.1 个百分点则标注存疑。&lt;/p&gt;&lt;p&gt;来源：Bloomberg Markets · 发布于 2026-11-05T07:16 UTC · 归类：market-invest&lt;/p&gt;&lt;p&gt;证据状态：未独立验证&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.bloomberg.com/news/videos/2026-11-05/yardeni-yields-attractive-at-5-nasdaq-to-outperform-video" rel="noopener noreferrer"&gt;https://www.bloomberg.com/news/videos/2026-11-05/yardeni-yields-attractive-at-5-nasdaq-to-outperform-video&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-05:678851dd9a3f9fb9</ns0:id>
-    <ns0:title>[市场与投资] Pound Gauge Hits Strongest Since Brexit Vote on Likely BOE Hike</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://www.bloomberg.com/news/articles/2026-11-05/pound-strength-gauge-hits-highest-since-2016-ahead-of-boe-hike" />
-    <ns0:published>2026-11-05T10:04:51Z</ns0:published>
-    <ns0:updated>2026-11-05T11:52:53.812318Z</ns0:updated>
-    <ns0:category term="market-invest" label="市场与投资" />
-    <ns0:summary type="text">A gauge of pound strength rose to its highest level since 2016, supported by resilient UK economic data and expectations for interest-rate hikes.</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;彭博称英镑强度指标升至 2016 年以来最高，受英国经济数据与加息预期支撑&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2016 · 相关方：Brexit / BOE&lt;/p&gt;&lt;p&gt;A gauge of pound strength rose to its highest level since 2016, supported by resilient UK economic data and expectations for interest-rate hikes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;「2016 年以来最高」是长周期比较，容易掩盖中间波动，读时必须带基准年份。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;仅作公开数据记录，不构成投资判断；提醒所有相对读数必须写明基期。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对基期是否确为 2016 年同一口径，若口径不一致则撤回该比较表述。&lt;/p&gt;&lt;p&gt;来源：Bloomberg Markets · 发布于 2026-11-05T10:04 UTC · 归类：market-invest&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.bloomberg.com/news/articles/2026-11-05/pound-strength-gauge-hits-highest-since-2016-ahead-of-boe-hike" rel="noopener noreferrer"&gt;https://www.bloomberg.com/news/articles/2026-11-05/pound-strength-gauge-hits-highest-since-2016-ahead-of-boe-hike&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-05:f1e03683a29d4bc1-c</ns0:id>
-    <ns0:title>[论文与学术] Dexterous Robotic Hands in the Foundation-Model Era: A Full-Stack Survey of Hardware, Data, Cross-Embodiment Transfer, Learning, and Evaluation</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://arxiv.org/abs/2611.06724" />
-    <ns0:published>2026-11-05T05:00:00Z</ns0:published>
-    <ns0:updated>2026-11-05T11:52:53.812318Z</ns0:updated>
-    <ns0:category term="research-papers" label="论文与学术" />
-    <ns0:summary type="text">arXiv:2611.06724v1 Announce Type: cross Abstract: Dexterous robotic hands are increasingly coupled to large-scale human data and foundation models, yet progress in hardware, representation learning and evaluation is often assessed separately. This survey reviews work from January 2024 to early Novem</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;arXiv 2611.06724 综述基础模型时代灵巧机械手在硬件、数据、跨本体迁移与评测上的全栈进展&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2611.06724 / 2024 · 相关方：arXiv / foundation models&lt;/p&gt;&lt;p&gt;arXiv:2611.06724v1 Announce Type: cross Abstract: Dexterous robotic hands are increasingly coupled to large-scale human data and foundation models, yet progress in hardware, representation learning and evaluation is often assessed separately. This survey reviews work from January 2024 to early Novem&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把硬件、数据与评测拆开综述，等于承认单一指标无法代表具身能力的进展。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 3D 资产与具身链路的评估表有参考价值：至少分 4 列，别压成一个分数。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对综述给出的 4 个维度是否都有量化基准，若缺 1 列则标注该维度暂无可靠数据。&lt;/p&gt;&lt;p&gt;来源：arXiv cs.AI · 发布于 2026-11-05T05:00 UTC · 归类：research-papers&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://arxiv.org/abs/2611.06724" rel="noopener noreferrer"&gt;https://arxiv.org/abs/2611.06724&lt;/a&gt;&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://arxiv.org/abs/2611.06724v1" rel="noopener noreferrer"&gt;https://arxiv.org/abs/2611.06724v1&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-05:3504862794ad47cd</ns0:id>
-    <ns0:title>[产业与资本] 美国10月挑战者企业裁员人数43994人</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://www.36kr.com/newsflashes/4056722893329545" />
-    <ns0:published>2026-11-05T10:31:55Z</ns0:published>
-    <ns0:updated>2026-11-05T11:52:53.812318Z</ns0:updated>
-    <ns0:category term="industry-capital" label="产业与资本" />
-    <ns0:summary type="text">美国就业咨询公司“挑战者企业”发布报告显示，美国雇主10月宣布的裁员人数为43,994人。（界面）</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;挑战者企业报告称美国雇主 10 月宣布裁员 43,994 人&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：43,994 / 43994 / 10 · 相关方：挑战者企业 / 界面&lt;/p&gt;&lt;p&gt;美国就业咨询公司“挑战者企业”发布报告显示，美国雇主10月宣布的裁员人数为43,994人。（界面）&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;单一月度读数缺少同比与行业拆分，只能作为一个观测点，不能当趋势。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;与本项目数据基建无直接关联，仅用于练习「单点数不入结论」的核验习惯。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;补齐至少 2 个连续月份读数后才允许写入趋势表述，否则只保留原始数字。&lt;/p&gt;&lt;p&gt;来源：36氪快讯（RSSHub 镜像路由） · 发布于 2026-11-05T10:31 UTC · 归类：industry-capital&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.36kr.com/newsflashes/4056722893329545" rel="noopener noreferrer"&gt;https://www.36kr.com/newsflashes/4056722893329545&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-05:73d653898f632f20</ns0:id>
-    <ns0:title>[产业与资本] Sources and company memo: Chinese NAND flash maker YMTC has put its Shanghai IPO on hold as China tightens share sale approvals; YMTC sought to raise ~$4.9B (Reuters)</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://www.techmeme.com/261105/p3" />
-    <ns0:published>2026-11-05T06:05:04Z</ns0:published>
-    <ns0:updated>2026-11-05T11:52:53.812318Z</ns0:updated>
-    <ns0:category term="community" label="产业与资本" />
-    <ns0:summary type="text">Reuters: Sources and company memo: Chinese NAND flash maker YMTC has put its Shanghai IPO on hold as China tightens share sale approvals; YMTC sought to raise ~$4.9B — Flash-memory chipmaker Yangtze Memory Technologies Co has put its Shanghai IPO on hold, according to a company memo and three people</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;路透援引消息称长江存储 YMTC 暂停上海 IPO，原计划募资约 49 亿美元&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：4.9 · 相关方：YMTC / Reuters&lt;/p&gt;&lt;p&gt;Reuters: Sources and company memo: Chinese NAND flash maker YMTC has put its Shanghai IPO on hold as China tightens share sale approvals; YMTC sought to raise ~$4.9B — Flash-memory chipmaker Yangtze Memory Technologies Co has put its Shanghai IPO on hold, according to a company memo and three people&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;约 4.9B 的募资计划与审批收紧同时出现，融资节奏受监管变量影响大于技术进度。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建侧的供应链假设只作背景记录，不据此调整任何选型或采购判断。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;等 1 份官方披露再更新状态，若 30 天内无一手来源则保持 unverified 标记。&lt;/p&gt;&lt;p&gt;来源：Techmeme · 发布于 2026-11-05T06:05 UTC · 归类：community&lt;/p&gt;&lt;p&gt;证据状态：未独立验证&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.techmeme.com/261105/p3" rel="noopener noreferrer"&gt;https://www.techmeme.com/261105/p3&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-05:2d48fe9f88e1b74d</ns0:id>
-    <ns0:title>[产业与资本] 4天3板引力传媒：截至10月末AI短剧业务收入占经审计2025年公司营收的比例不足0.1%</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://www.36kr.com/newsflashes/4056714556216196" />
-    <ns0:published>2026-11-05T10:23:26Z</ns0:published>
-    <ns0:updated>2026-11-05T11:52:53.812318Z</ns0:updated>
-    <ns0:category term="industry-capital" label="产业与资本" />
-    <ns0:summary type="text">36氪获悉，引力传媒公告，公司AI短剧业务尚处于前期投入阶段，业务规模较小，其市场认可度及盈利模式均存在不确定性，截至10月末该业务产生的收入占经审计2025年公司营业收入的比例不足0.1%，不会对公司业绩构成重大影响。</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;引力传媒公告 AI 短剧业务收入占 2025 年经审计营收不足 0.1%，提示规模与盈利模式不确定&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：0.1% / 4 / 3 / 2025 · 相关方：引力传媒 / 36氪&lt;/p&gt;&lt;p&gt;36氪获悉，引力传媒公告，公司AI短剧业务尚处于前期投入阶段，业务规模较小，其市场认可度及盈利模式均存在不确定性，截至10月末该业务产生的收入占经审计2025年公司营业收入的比例不足0.1%，不会对公司业绩构成重大影响。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;4 天 3 板的市场叙事与公司自述 0.1% 收入敞口差距明显，是叙事与基本面的可量化反例。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;仅作信息披露口径记录，不构成任何投资判断；提醒带数字公告保留原文、不加解读。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照公告原文核对 0.1% 与统计截止期，若有 1 处出入则撤回该条并标注二次转述。&lt;/p&gt;&lt;p&gt;来源：36氪快讯（RSSHub 镜像路由） · 发布于 2026-11-05T10:23 UTC · 归类：industry-capital&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.36kr.com/newsflashes/4056714556216196" rel="noopener noreferrer"&gt;https://www.36kr.com/newsflashes/4056714556216196&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-05:dccf297bb82e70c4</ns0:id>
-    <ns0:title>[产业与资本] Meta首次发行欧元债融资90亿欧元，认购需求创纪录</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://www.36kr.com/newsflashes/4056739997160585" />
-    <ns0:published>2026-11-05T11:04:09Z</ns0:published>
-    <ns0:updated>2026-11-05T11:52:53.812318Z</ns0:updated>
-    <ns0:category term="industry-capital" label="产业与资本" />
-    <ns0:summary type="text">Meta Platforms Inc．通过首次欧元债券发行融资90亿欧元，获得超过620亿欧元认购，创下欧洲公司债发行的最高认购纪录。由于其提供的收益率颇具吸引力，即便是对人工智能热潮持谨慎态度的投资者也难以抗拒。数据显示，这笔交易的认购订单已超过百威英博2016年发行债券时获得的逾310亿欧元需求。Meta欧元债券报价已升至面值之上。彭博汇编数据显示，Meta发行的六档债券周四报价均走高，甚至买入报价（即交易员愿意买入债券的价格）也已高于面值。（新浪财经）</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Meta 首次发行欧元债券融资 90 亿欧元，获超 620 亿欧元认购，创欧洲公司债认购纪录&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：90 / 620 / 310 / 2016 · 相关方：Meta / 百威英博 / 彭博&lt;/p&gt;&lt;p&gt;Meta Platforms Inc．通过首次欧元债券发行融资90亿欧元，获得超过620亿欧元认购，创下欧洲公司债发行的最高认购纪录。由于其提供的收益率颇具吸引力，即便是对人工智能热潮持谨慎态度的投资者也难以抗拒。数据显示，这笔交易的认购订单已超过百威英博2016年发行债券时获得的逾310亿欧元需求。Meta欧元债券报价已升至面值之上。彭博汇编数据显示，Meta发行的六档债券周四报价均走高，甚至买入报价（即交易员愿意买入债券的价格）也已高于面值。（新浪财经）&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;620 亿欧元认购对比 2016 年 310 亿的旧纪录，资金对 AI 资本开支的承接意愿仍强。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;影响自建与托管的成本假设：资本便宜时托管侧更容易降价，成本模型要留出价格变量。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;把该认购倍数记入成本表备注，若下季度融资成本上升超过 1 个百分点则重算选型。&lt;/p&gt;&lt;p&gt;来源：36氪快讯（RSSHub 镜像路由） · 发布于 2026-11-05T11:04 UTC · 归类：industry-capital&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.36kr.com/newsflashes/4056739997160585" rel="noopener noreferrer"&gt;https://www.36kr.com/newsflashes/4056739997160585&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-05:fc977d6a1078d384</ns0:id>
-    <ns0:title>[产业与资本] Barcelona’s Kabilio raises €10 million to deploy its AI accounting agent as client base nears 500 firms</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://www.eu-startups.com/2026/11/barcelonas-kabilio-raises-e10-million-to-deploy-its-ai-accounting-agent-as-client-base-nears-500-firms" />
-    <ns0:published>2026-11-05T09:19:45Z</ns0:published>
-    <ns0:updated>2026-11-05T11:52:53.812318Z</ns0:updated>
-    <ns0:category term="industry-capital" label="产业与资本" />
-    <ns0:summary type="text">Kabilio, a Barcelona-based startup building an AI platform for accounting firms and the small businesses they serve, has closed a €10 million funding round. The round was led by Picus Capital and Visionaries; they also led Kabilio’s pre-Seed round. CDTI, Spain’s public agency for technological innov</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;巴塞罗那 Kabilio 融资 1000 万欧元部署 AI 会计 Agent，客户数接近 500 家&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：10 / 500 · 相关方：Kabilio / Picus Capital / Visionaries / CDTI&lt;/p&gt;&lt;p&gt;Kabilio, a Barcelona-based startup building an AI platform for accounting firms and the small businesses they serve, has closed a €10 million funding round. The round was led by Picus Capital and Visionaries; they also led Kabilio’s pre-Seed round. CDTI, Spain’s public agency for technological innov&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;垂直 Agent 用「客户数接近 500」而非模型指标募资，商业化口径回到可数的交付量。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;给 Agent 项目的阶段划分提供参照：用接入客户数与留存定义可用，而不是 demo 数量。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;记录 2 个可比垂直 Agent 的客户数口径，若统计定义不一致则不可横向比较。&lt;/p&gt;&lt;p&gt;来源：EU-Startups · 发布于 2026-11-05T09:19 UTC · 归类：industry-capital&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.eu-startups.com/2026/11/barcelonas-kabilio-raises-e10-million-to-deploy-its-ai-accounting-agent-as-client-base-nears-500-firms" rel="noopener noreferrer"&gt;https://www.eu-startups.com/2026/11/barcelonas-kabilio-raises-e10-million-to-deploy-its-ai-accounting-agent-as-client-base-nears-500-firms&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-05:aa089abfd1658634</ns0:id>
-    <ns0:title>[安全与治理] Keycloak 26.8.1 fixes 19 flaws: sort them by your config, not by their score</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://dev.to/julesrobineau/keycloak-2681-fixes-19-flaws-sort-them-by-your-config-not-by-their-score-3pom" />
-    <ns0:published>2026-11-05T07:03:00.166000Z</ns0:published>
-    <ns0:updated>2026-11-05T11:52:53.812318Z</ns0:updated>
-    <ns0:category term="security-governance" label="安全与治理" />
-    <ns0:summary type="text">On October 13, Keycloak shipped version 26.8.1. It fixes 19 flaws that carry a CVE number. Keycloak's ticket for the only flaw rated "high… 〔Folo分类:开源项目〕</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Keycloak 26.8.1 修复 19 个带 CVE 编号的缺陷，作者主张按自身配置而非评分排序&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：26.8.1 / 19 / 13 · 相关方：Keycloak / CVE&lt;/p&gt;&lt;p&gt;On October 13, Keycloak shipped version 26.8.1. It fixes 19 flaws that carry a CVE number. Keycloak&amp;#x27;s ticket for the only flaw rated &amp;quot;high… 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;19 个 CVE 里只有 1 个评为高危，按分数排序会把实际暴露面最大的配置漏掉。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;与凭据闸门同构：先按自身是否启用该路径排序，再看通用严重度，避免把精力花在没开的口子上。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照本环境 3 项认证配置逐条筛 19 个 CVE，若命中 0 项才判定可延后升级。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-05T07:03 UTC · 归类：security-governance&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://dev.to/julesrobineau/keycloak-2681-fixes-19-flaws-sort-them-by-your-config-not-by-their-score-3pom" rel="noopener noreferrer"&gt;https://dev.to/julesrobineau/keycloak-2681-fixes-19-flaws-sort-them-by-your-config-not-by-their-score-3pom&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-05:7c72ef3696766993</ns0:id>
-    <ns0:title>[安全与治理] OpenSSH 10.6p2 has been released with a workaround for a critical vulnerability</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://hachyderm.io/@damienmiller/117563026759098135" />
-    <ns0:published>2026-11-05T09:46:17Z</ns0:published>
-    <ns0:updated>2026-11-05T11:52:53.812318Z</ns0:updated>
-    <ns0:category term="security-governance" label="安全与治理" />
-    <ns0:summary type="text">绕行方案先于完整修复落地，补丁窗口内需要按缓解措施而不是按版本号管理风险。</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;OpenSSH 10.6p2 发布，为一项严重漏洞提供绕行方案，HN 记录 28 分 6 条评论&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：10.6 / 28 / 6 · 相关方：OpenSSH 10.6p2&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;绕行方案先于完整修复落地，补丁窗口内需要按缓解措施而不是按版本号管理风险。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;直接影响 WinVM 的远程访问组件基线，需在资产清单单独标记已缓解但未修复的主机。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对全部纳管主机跑 1 次版本扫描，若存在 1 台低于 10.6p2 则先应用绕行配置再排升级窗口。&lt;/p&gt;&lt;p&gt;来源：HN Algolia front_page (points/comments) · 发布于 2026-11-05T09:46 UTC · 归类：security-governance&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://hachyderm.io/@damienmiller/117563026759098135" rel="noopener noreferrer"&gt;https://hachyderm.io/@damienmiller/117563026759098135&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-05:0aa88563920e1cf5</ns0:id>
-    <ns0:title>[文档与变更] Sony reports Q2 revenue of ~$21.7B, operating profit of $3.94B, both above est., and 2.6M PS5 sales, as GTA VI sparks a US sales jump, especially of the PS5 Pro (Takashi Mochizuki/Bloomberg)</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://www.techmeme.com/261105/p9" />
-    <ns0:published>2026-11-05T10:30:29Z</ns0:published>
-    <ns0:updated>2026-11-05T11:52:53.812318Z</ns0:updated>
-    <ns0:category term="docs-changelog" label="文档与变更" />
-    <ns0:summary type="text">Takashi Mochizuki / Bloomberg: Sony reports Q2 revenue of ~$21.7B, operating profit of $3.94B, both above est., and 2.6M PS5 sales, as GTA VI sparks a US sales jump, especially of the PS5 Pro — Sony Group Corp. raised its profit outlook after a string of entertainment hits propelled better-than-expe</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;索尼 Q2 营收约 217 亿美元、营业利润 39.4 亿美元，PS5 销量 260 万台，均高于预期&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：21.7 / 3.94 / 2.6 · 相关方：Sony / PS5 / GTA VI&lt;/p&gt;&lt;p&gt;Takashi Mochizuki / Bloomberg: Sony reports Q2 revenue of ~$21.7B, operating profit of $3.94B, both above est., and 2.6M PS5 sales, as GTA VI sparks a US sales jump, especially of the PS5 Pro — Sony Group Corp. raised its profit outlook after a string of entertainment hits propelled better-than-expe&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;同一天里硬件厂商给出量、价、利三个方向的读数，适合作为财报类信源的结构基线。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;提醒变更板块不该只收版本号：带数字的业绩公告同样是可核验的变更记录。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;按 3 个口径核对转载与原始公告，若有 1 处不一致则在日报里标注二次转述。&lt;/p&gt;&lt;p&gt;来源：Techmeme · 发布于 2026-11-05T10:30 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.techmeme.com/261105/p9" rel="noopener noreferrer"&gt;https://www.techmeme.com/261105/p9&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-05:38e387c5903f171f</ns0:id>
-    <ns0:title>[开发者工具与版本] Nintendo reports Q2 net profit down 16% YoY to $468M, as rising Switch 2 component costs cut into its margins; Switch 2's H1 FY 2027 sales fell 37% YoY to 6.49M (Takashi Mochizuki/Bloomberg</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://www.techmeme.com/261105/p13" />
-    <ns0:published>2026-11-05T11:05:06Z</ns0:published>
-    <ns0:updated>2026-11-05T11:52:53.812318Z</ns0:updated>
-    <ns0:category term="dev-tools" label="开发者工具与版本" />
-    <ns0:summary type="text">Takashi Mochizuki / Bloomberg: Nintendo reports Q2 net profit down 16% YoY to $468M, as rising Switch 2 component costs cut into its margins; Switch 2's H1 FY 2027 sales fell 37% YoY to 6.49M — Nintendo Co. reported a surprise quarterly profit decline, hurt by a dearth of major new game releases and</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;任天堂 Q2 净利同比降 16% 至 4.68 亿美元，Switch 2 上半财年销量降 37% 至 649 万台&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：16% / 468 / 37% / 6.49 · 相关方：Nintendo / Switch 2 / Bloomberg&lt;/p&gt;&lt;p&gt;Takashi Mochizuki / Bloomberg: Nintendo reports Q2 net profit down 16% YoY to $468M, as rising Switch 2 component costs cut into its margins; Switch 2&amp;#x27;s H1 FY 2027 sales fell 37% YoY to 6.49M — Nintendo Co. reported a surprise quarterly profit decline, hurt by a dearth of major new game releases and&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;成本上升与销量下滑同时出现，是「新硬件放量就能摊薄成本」这一假设的直接反例。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;可用于成本模型评审：把组件成本列为独立变量，别把它藏在规模效应里。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;把 16% 与 37% 代入同一张成本表，若无法解释 2 个方向同时恶化则标注口径存疑。&lt;/p&gt;&lt;p&gt;来源：Techmeme · 发布于 2026-11-05T11:05 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.techmeme.com/261105/p13" rel="noopener noreferrer"&gt;https://www.techmeme.com/261105/p13&lt;/a&gt;&lt;/p&gt;</ns0:content>
   </ns0:entry>
 </ns0:feed>
