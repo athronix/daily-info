@@ -1,0 +1,152 @@
+{
+  "date": "2026-11-15",
+  "base": "https://athronix.github.io/daily-info",
+  "workflow_run": 43650595529,
+  "paths": [
+    [
+      "/",
+      200,
+      "text/html; charset=utf-8",
+      26833
+    ],
+    [
+      "/data/index.json",
+      200,
+      "application/json; charset=utf-8",
+      12086
+    ],
+    [
+      "/data/latest.json",
+      200,
+      "application/json; charset=utf-8",
+      40537
+    ],
+    [
+      "/data/feeds.json",
+      200,
+      "application/json; charset=utf-8",
+      1115
+    ],
+    [
+      "/data/2026-11-15.json",
+      200,
+      "application/json; charset=utf-8",
+      40537
+    ],
+    [
+      "/data/2026-11-13.json",
+      200,
+      "application/json; charset=utf-8",
+      42765
+    ],
+    [
+      "/data/2026-11-12.json",
+      200,
+      "application/json; charset=utf-8",
+      32178
+    ],
+    [
+      "/feed.json",
+      200,
+      "application/json; charset=utf-8",
+      228354
+    ],
+    [
+      "/feed.atom",
+      200,
+      "application/atom+xml",
+      240174
+    ],
+    [
+      "/all.atom",
+      200,
+      "application/atom+xml",
+      240174
+    ],
+    [
+      "/high-signal.atom",
+      200,
+      "application/atom+xml",
+      240110
+    ],
+    [
+      "/tech.atom",
+      200,
+      "application/atom+xml",
+      237761
+    ],
+    [
+      "/invest.atom",
+      200,
+      "application/atom+xml",
+      74524
+    ],
+    [
+      "/docs.atom",
+      200,
+      "application/atom+xml",
+      26246
+    ]
+  ],
+  "checks": [
+    {
+      "check": "14 个 URL 全部 200",
+      "ok": true,
+      "detail": "14/14"
+    },
+    {
+      "check": "6 个 .atom = application/atom+xml",
+      "ok": true,
+      "detail": "6/6"
+    },
+    {
+      "check": "2026-11-15.json 与本地等价",
+      "ok": true,
+      "detail": "date=2026-11-15 equal=True"
+    },
+    {
+      "check": "index.json 最新为当日",
+      "ok": true,
+      "detail": "2026-11-15"
+    },
+    {
+      "check": "latest.json 日期为当日",
+      "ok": true,
+      "detail": "2026-11-15"
+    },
+    {
+      "check": "占位域名残留 0",
+      "ok": true,
+      "detail": "https://daily-info.local hits=0"
+    },
+    {
+      "check": "无 localhost/127.0.0.1 占位",
+      "ok": true,
+      "detail": "localhost+127 hits=0"
+    },
+    {
+      "check": "feed.atom 稳定 ID 本地/线上集合一致",
+      "ok": true,
+      "detail": "本地=100 线上=100 交集=100 线上重复=0"
+    },
+    {
+      "check": "6 个 Atom profile 均可解析且 ID 唯一",
+      "ok": true,
+      "detail": "/feed.atom:100/100 /all.atom:100/100 /high-signal.atom:100/100 /tech.atom:100/100 /invest.atom:34/34 /docs.atom:11/11"
+    },
+    {
+      "check": "订阅地址指向公开站点",
+      "ok": true,
+      "detail": "feeds.json len=1073 placeholder=0"
+    }
+  ],
+  "passed": 10,
+  "total": 10,
+  "violations": 0,
+  "urls_200": 14,
+  "atom_mime_ok": 6,
+  "placeholder_hits": 0,
+  "stable_ids_local": 100,
+  "stable_ids_live": 100,
+  "day_json_equal": true
+}
