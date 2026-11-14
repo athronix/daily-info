@@ -5,8 +5,35 @@
     "timezone": "Asia/Shanghai",
     "version": "1.0.0"
   },
-  "generated_at": "2026-11-12T23:18:18.237901Z",
+  "generated_at": "2026-11-14T22:53:41.482428Z",
   "dates": [
+    {
+      "date": "2026-11-15",
+      "headline": "开源模型往单机挤、Agent 往任务图走，验证门禁与工程实测成了真正的分水岭",
+      "lead": "LoopForge 以 694 stars 把 CodeBuddy、Codex、Claude Code 收进带人工审批门的脚本编排；GLM-5.3 在双 DGX 上跑到 607.8 tok/s，145B 参数模型被宣称可在本机运行。张力在于：能力与算力同时上量，2,539 个活密钥却因缺 .gitignore 被推上 GitHub——验证与门禁没跟上开放速度。",
+      "demo": false,
+      "stats": {
+        "sources_ok": 183,
+        "sources_total": 185,
+        "total_items": 1881,
+        "clusters": 1783,
+        "selected": 40,
+        "published_items": 16,
+        "seven_element_pass": 16,
+        "seven_element_ratio": 1.0,
+        "items_with_numbers": 16,
+        "substantive_number_ratio": 1.0,
+        "rejected_no_number": 0,
+        "unique_reference_domains": 9
+      },
+      "section_count": 9,
+      "item_count": 16,
+      "ai_status": "ok",
+      "seven_element_ratio": 1.0,
+      "theme_count": 7,
+      "watch_signal_count": 5,
+      "reference_domains": 9
+    },
     {
       "date": "2026-11-13",
       "headline": "降价与改契约同日发生：模型把单价压到激活参数，工具把调用改成生成代码，资本却继续抬估值",

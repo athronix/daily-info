@@ -1,325 +1,301 @@
 {
-  "date": "2026-11-13",
-  "headline": "降价与改契约同日发生：模型把单价压到激活参数，工具把调用改成生成代码，资本却继续抬估值",
-  "headline_short": "降价与改契约同日发生：模型把单价压到激活参数，工具把调用",
-  "lead": "70% 的营收增速、2800 亿总参数、$65B 估值同日出现：Cerebras Q3 核心营收 $230.9M，文心5.5 用 2800 亿参数只激活 140 亿、推理超 200 token/秒，Kalshi 数周内把估值从 $40B 抬到 $65B；而 Claude Code v2.1.323 把工具调用改成模型写 JavaScript。张力在于：单价在降，插件契约与 runner 架构却同日收紧。",
-  "generated_at": "2026-11-12T23:18:18.237901Z",
+  "date": "2026-11-15",
+  "headline": "开源模型往单机挤、Agent 往任务图走，验证门禁与工程实测成了真正的分水岭",
+  "headline_short": "开源模型往单机挤、Agent 往任务图走，验证门禁与工程",
+  "lead": "LoopForge 以 694 stars 把 CodeBuddy、Codex、Claude Code 收进带人工审批门的脚本编排；GLM-5.3 在双 DGX 上跑到 607.8 tok/s，145B 参数模型被宣称可在本机运行。张力在于：能力与算力同时上量，2,539 个活密钥却因缺 .gitignore 被推上 GitHub——验证与门禁没跟上开放速度。",
+  "generated_at": "2026-11-14T22:53:41.482428Z",
   "themes": [
     {
-      "title": "版本号越小，权限改动越大",
-      "why": "Claude Code 在补丁版本里加入 Code Mode 与 plugin.json 引擎约束，GitHub Actions 同期退役 ARM32 与 node20，Rust 1.100 也只以版本号示人：小版本正在承担行为闸门。",
+      "title": "参数越大，部署越往单机挤",
+      "why": "145B 模型宣称本机可跑、4GB 显卡给出 209 tok/s、双 DGX 给出 607.8 tok/s，三条读数指向同一件事：竞争焦点从参数规模转到稀疏激活与推理栈，但三者口径不一致，不能横向比大小。",
       "cluster_ids": [
-        "1e1f91e95e92e49a",
-        "05a61ad7e4a9114b",
-        "b8c82d5c01fe377a"
+        "423d06e41442f92b",
+        "797e41c445a6a3ee",
+        "8f2daa11c5051ada"
       ],
       "verified_by": 3
     },
     {
-      "title": "模型价格战打到激活参数",
-      "why": "文心5.5 用 2800 亿总参数换 140 亿激活、200 token/秒与分时定价，Gemini 4 Hydrogen 在独立指数上逼近 Claude Sonnet 5.5 却附带 2.5 倍成本读数，竞争焦点从跑分转向单位账单。",
+      "title": "编排权从对话移向可审批的图",
+      "why": "LoopForge 用脚本收编多家 coding agent 并保留人工审批门，另一篇工程文把长对话拆成 T1→T2/T3 的任务图，连一个只带 ★0 的 MCP 技能包也在按「server + CLI + skills + docs」组织交付；难点明显在依赖与权限。",
       "cluster_ids": [
-        "bc81dad5a88a96b1",
-        "4d9244537a2033a7",
-        "8fdb0296ea11e78c"
+        "6a36938791d14140",
+        "ecefef97db2b0a08",
+        "6c5cb0ab506c03c4"
       ],
       "verified_by": 3
     },
     {
-      "title": "算力账本从营收走到每 token",
-      "why": "Cerebras 用 70% 增速与 $230.9M 营收证明需求，AWS 把 Bedrock 花费按 IAM principal 用 CUR 2.0 封顶，社区讨论则提醒用电成本被转嫁给居民：成本口径正从总量拆到身份与单位。",
+      "title": "开放提速，验证与门禁掉队",
+      "why": "2,539 个密钥因缺 .gitignore 外泄、700 余份 AI 数学手稿引发验证滞后讨论、1000 条假招聘在调查后才下架，三件事的共同结构是「先发布、后校验」，而门禁成本最终由下游承担。",
       "cluster_ids": [
-        "cd4a15607d6f089b",
-        "c8c5dc29297d2e3d",
-        "2d31f20a157137df"
+        "94d5fd03df4fff4e",
+        "8a958749f044f5b6",
+        "15b6fbabb889152f"
       ],
       "verified_by": 3
     },
     {
-      "title": "资本抬估值，用户自己造工具",
-      "why": "Kalshi 数周内从 $40B 谈到 $65B，Anthropic IPO 讨论获 761 分与 758 条评论，另一边 300 美元刺绣机被要求订阅后作者直接自建应用：定价权与替代方案在同一天出现。",
+      "title": "同一场回收，两条独立源互相校准",
+      "why": "Flight 15 的两个独立来源一个只说「收尾」、一个说「助推器捕获中止、上面级捕获成功」；保留双条而非合并成一句结论，才能看出短摘要信源丢了哪一半事实。",
       "cluster_ids": [
-        "3e8a63beb1fdbc55",
-        "f101ffad2bb3a113",
-        "c52958cc869a513c"
+        "73d9d5b1e9033a86",
+        "7e59a67d8036bc32"
+      ],
+      "verified_by": 2
+    },
+    {
+      "title": "评测读数好看，能力边界仍硬",
+      "why": "30 道数学世界难题无一被 AI 独立攻破、读书会回到「标准经济学的界定是否多余」、607.8 tok/s 却缺并发数与序列长度，三处都在提醒：脱离判定条件的读数支撑不了能力结论。",
+      "cluster_ids": [
+        "54e91b9d8fad12a0",
+        "bc4bfd8f951086cc",
+        "8f2daa11c5051ada"
       ],
       "verified_by": 3
     },
     {
-      "title": "Agent 比的是交付周期不是模型",
-      "why": "Amplitude 用 Wave 把产品改进压到 1 到 2 天，Microsoft Research 第 98 期把 coding agent 效率列为研究产出，tandem-mcp 则把云编排与本地执行拆成两个模型：闭环速度取代参数量成为卖点。",
+      "title": "星数高低都不能替代工程验证",
+      "why": "Airgorah 的 5,473 stars、LoopForge 的 694 stars 与 transformer-mcp 的 ★0 落在一张版面上，星数只说明关注度，不说明审批门是否可绕过、误报率是否可接受或仓库是否只是占位。",
       "cluster_ids": [
-        "372847c9499451eb",
-        "1a84fda568160878",
-        "3d7d027034d3d63b"
+        "d39f1081244a9510",
+        "6a36938791d14140",
+        "6c5cb0ab506c03c4"
       ],
       "verified_by": 3
     },
     {
-      "title": "云与本地的分界被写进 MCP",
-      "why": "tandem-mcp 用 MCP server 配对云端编排与 LM Studio 本地执行，AWS-Project 用同一份 IaC 打通本地仿真与真实云端并给出 13/13，端侧 LLM 讨论则拿到 245 分：边界正在被工程化而非讨论。",
+      "title": "资本热度与工程风险同框",
+      "why": "6% 收益率在 Nvidia 波动后更受关注、1.5T 估值叙事与 2,539 个外泄密钥并置、145B 模型开源同日出现，市场读数、估值口径与工程事故需要分开陈述，不能互相当佐证。",
       "cluster_ids": [
-        "3d7d027034d3d63b",
-        "73fef9673ed486b3",
-        "0667a519c65042ee",
-        "1e1f91e95e92e49a"
+        "99892725955d150f",
+        "94d5fd03df4fff4e",
+        "423d06e41442f92b"
       ],
-      "verified_by": 4
-    },
-    {
-      "title": "热度数字不等于可用性证据",
-      "why": "Microsoft 365 降级、Gemini 4 Hydrogen、Anthropic IPO 三条都只有分数与评论数，没有基准或条款；深海 AI 那条更把 20 年与 71% 放进标题、把融资放进摘要。读数出处比读数本身更重要。",
-      "cluster_ids": [
-        "1704b1c03cb59add",
-        "8fdb0296ea11e78c",
-        "f101ffad2bb3a113",
-        "c5003bfe5e9237f3"
-      ],
-      "verified_by": 4
+      "verified_by": 3
     }
   ],
   "sections": [
     {
-      "key": "docs-changelog",
-      "label": "文档与变更",
+      "key": "agent-engineering",
+      "label": "Agent 与工程",
       "items": [
         {
-          "id": "1e1f91e95e92e49a",
-          "title": "v2.1.323",
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.323",
-          "source": "claude-code Releases",
-          "published_at": "2026-11-12T22:12:13Z",
-          "score": 78.9,
-          "category": "docs-changelog",
-          "cluster_id": "1e1f91e95e92e49a",
-          "summary": "What's changed Added Code Mode, an experimental opt-in in which Claude writes JavaScript to call its tools; see https://code.claude.com/docs/en/code-mode to turn it on, or to turn it off for an organization Added engines[\"claude-code\"] to plugin.json: plugins outside their stated Claude Code version",
-          "why_matters": "工具调用从固定 schema 变成生成代码，插件版本约束同步收紧，说明扩展点稳定性被当成发布闸门",
-          "fact_anchor": "Claude Code v2.1.323 新增实验性 Code Mode，让 Claude 写 JavaScript 调用工具，并给 plugin.json 增加引擎版本约束",
+          "id": "6c5cb0ab506c03c4",
+          "title": "NBV-AppFactory/transformer-mcp · ★0",
+          "url": "https://github.com/NBV-AppFactory/transformer-mcp",
+          "source": "GitHub 搜索 · topic:mcp",
+          "published_at": "2026-11-14T22:42:49Z",
+          "score": 80.22,
+          "category": "agent-engineering",
+          "cluster_id": "6c5cb0ab506c03c4",
+          "summary": "Transformer (transformer.gg) MCP server, CLI, agent skills and docs: paid X creator partnerships for brands and AI agents",
+          "why_matters": "把 MCP server、CLI 与 agent skills 放进同一仓库，说明能力交付正从单点接口转向可整套搬走的技能包，但零星标意味着尚无社区验证",
+          "fact_anchor": "NBV-AppFactory 发布 transformer-mcp，把 transformer.gg 的 MCP server、CLI 与 agent skills 文档打包开源",
           "numbers": [
-            "2.1.323"
+            "★0"
           ],
           "entities": [
-            "Code Mode",
-            "JavaScript",
-            "plugin.json",
-            "Claude"
+            "transformer-mcp",
+            "MCP",
+            "CLI",
+            "agent skills"
           ],
           "evidence_urls": [
-            "https://github.com/anthropics/claude-code/releases/tag/v2.1.323"
+            "https://github.com/NBV-AppFactory/transformer-mcp"
           ],
-          "impact": "WorkBuddy 的 skill 与 MCP 扩展点若跟随动态调用，需在插件清单固化引擎版本范围，否则升级会出现不可加载",
-          "next_action": "跑一次隔离环境 smoke：启用 Code Mode 后若插件加载失败数为 0 且 engines 范围校验命中，才判定可接入",
+          "impact": "对 WorkBuddy / CodeBuddy 的 MCP 与 skill 部署有直接参考价值：可对照其目录结构判断「server + CLI + skills + docs」是否值得作为自建技能包的骨架",
+          "next_action": "克隆仓库逐一核对 server、CLI、skills、docs 四个目录是否齐全，若任一缺失或 ★0 在 7 天后仍为 0 则判定为占位仓库、不纳入选型",
           "signal_type": "release",
           "confidence": "fact"
         },
         {
-          "id": "05a61ad7e4a9114b",
-          "title": "Actions for ARM32 Linux & Windows retirement",
-          "url": "https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement",
-          "source": "GitHub Changelog",
-          "published_at": "2026-11-12T20:59:36Z",
-          "score": 74.82,
-          "category": "docs-changelog",
-          "cluster_id": "05a61ad7e4a9114b",
-          "summary": "GitHub Actions hosted runners will be ending support for ARM32 job execution on Windows and Linux by 8th Dec 2026. This follows our end of support for node20 where Node… The post Actions for ARM32 Linux & Windows retirement appeared first on The GitHub Blog.",
-          "why_matters": "CI 运行时的架构与 Node 版本被连续收窄，跨架构构建链需要提前改 runner 标签",
-          "fact_anchor": "GitHub Actions 托管 runner 将在 8th Dec 2026 前停止 Windows 与 Linux 上的 ARM32 作业，此前已结束 node20 支持",
+          "id": "6a36938791d14140",
+          "title": "Tencent/LoopForge",
+          "url": "https://github.com/Tencent/LoopForge",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-14T13:04:48.045000Z",
+          "score": 76.26,
+          "category": "agent-engineering",
+          "cluster_id": "6a36938791d14140",
+          "summary": "LoopForge is a self-hosted Go repository from Tencent that orchestrates coding agents such as CodeBuddy, Codex, and Claude Code. It delivers workflows through scripts and requires human approval gates. The project maintains 694 stars and 114 forks on its platform. 〔Folo分类:开源项目〕",
+          "why_matters": "把多家厂商的 coding agent 收进同一编排层且显式要求人工审批，说明多 agent 协作的难点在权限与流程而非模型选择",
+          "fact_anchor": "腾讯开源自托管 Go 仓库 LoopForge，用脚本编排 CodeBuddy、Codex、Claude Code 并保留人工审批门",
           "numbers": [
-            "ARM32",
-            "node20"
+            "694",
+            "114"
           ],
           "entities": [
-            "GitHub Actions",
-            "ARM32",
-            "node20",
-            "Linux",
-            "Windows"
+            "Tencent",
+            "LoopForge",
+            "CodeBuddy",
+            "Codex",
+            "Claude Code",
+            "Go"
           ],
           "evidence_urls": [
-            "https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement"
+            "https://github.com/Tencent/LoopForge"
           ],
-          "impact": "Pages workflow 与本地脚本若硬编码 ARM32 或 node20，下一次 runner 镜像更新会直接让构建失败",
-          "next_action": "跑一次 workflow 矩阵：若 arm32 与 node20 作业各出现 1 次以上失败，则判定必须迁移 runner 标签",
-          "signal_type": "docs-change",
-          "confidence": "fact"
-        }
-      ]
-    },
-    {
-      "key": "community",
-      "label": "社区与观点",
-      "items": [
-        {
-          "id": "1704b1c03cb59add",
-          "title": "Service degradation on Microsoft 365",
-          "url": "https://status.cloud.microsoft/",
-          "source": "HN Algolia front_page (points/comments)",
-          "published_at": "2026-11-12T18:20:48Z",
-          "score": 77.96,
-          "category": "community",
-          "cluster_id": "1704b1c03cb59add",
-          "summary": "https://www.abc.net.au/news/2026-11-13/microsoft-outage-affe...https://www.reddit.com/r/sysadmin/comments/1xuje83/microsoft...https://downdetector.com/status/microsoft-365/",
-          "why_matters": "单一厂商办公套件故障被 343 条评论快速放大，说明协作链路可用性依赖外部状态而非本地冗余",
-          "fact_anchor": "Microsoft 365 服务降级事件在社区讨论中获得 357 分与 343 条评论并汇总多个状态页链接",
-          "numbers": [
-            "357",
-            "343"
-          ],
-          "entities": [
-            "Microsoft 365"
-          ],
-          "evidence_urls": [
-            "https://status.cloud.microsoft/"
-          ],
-          "impact": "automation 定时任务若依赖 Microsoft 365 侧通知或日历，缺少降级兜底会让分发链在故障日静默失败",
-          "next_action": "对照状态页复现一次：若降级持续超过 2 小时且告警未触达，则判定需为外部依赖加超时与本地留痕",
-          "signal_type": "incident",
-          "confidence": "unverified"
-        },
-        {
-          "id": "8fdb0296ea11e78c",
-          "title": "Gemini 4 Hydrogen",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen",
-          "source": "HN Algolia front_page (points/comments)",
-          "published_at": "2026-11-12T18:01:48Z",
-          "score": 75.86,
-          "category": "community",
-          "cluster_id": "8fdb0296ea11e78c",
-          "summary": "",
-          "why_matters": "只有型号与热度、没有任何基准或价格读数，说明新品讨论尚停留在命名层面",
-          "fact_anchor": "Gemini 4 Hydrogen 发布帖在社区获得 403 分、268 条评论",
-          "numbers": [
-            "4",
-            "403",
-            "268"
-          ],
-          "entities": [
-            "Gemini 4 Hydrogen"
-          ],
-          "evidence_urls": [
-            "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen"
-          ],
-          "impact": "模型选型不能靠热度决定；WorkBuddy 的 provider 切换需要等可复现的基准数据再评估",
-          "next_action": "等第三方基准给出具体分数后，若 Hydrogen 单位 token 成本低于现用模型 20% 以上才进入切换评审",
+          "impact": "与 WorkBuddy / CodeBuddy 的 skill 编排、A2A 委派路径高度同构，可直接对照其审批门设计校准 WinVM Bridge 的 plan-first + DDD 流程",
+          "next_action": "读其 workflow 脚本复现一次「提交→审批→执行」链路，若审批门可被脚本绕过或在 694 stars 的 issue 里有未修复绕过记录则判定不可直接借鉴",
           "signal_type": "release",
-          "confidence": "unverified"
+          "confidence": "fact"
         },
         {
-          "id": "2d31f20a157137df",
-          "title": "Data centers need power – lower income, rural residents pay the price",
-          "url": "https://news.cornell.edu/stories/2026/11/data-centers-need-power-lower-income-rural-residents-pay-price",
-          "source": "HN Algolia front_page (points/comments)",
-          "published_at": "2026-11-12T19:53:54Z",
-          "score": 75.47,
-          "category": "community",
-          "cluster_id": "2d31f20a157137df",
-          "summary": "",
-          "why_matters": "算力扩张的外部成本被摆到分配维度，而多数成本模型只算 GPU 与电费单价",
-          "fact_anchor": "数据中心用电需求被指让低收入、农村居民承担代价，社区讨论 143 分、144 条评论",
+          "id": "797e41c445a6a3ee",
+          "title": "Swizzle Runtime v0.1.0: How We Reached 209 tok/s and 43ms TTFT on a 4GB Laptop GPU in Pure Rust",
+          "url": "https://dev.to/paramveer_singh_53163a04c/swizzle-runtime-v010-how-we-reached-209-toks-and-43ms-ttft-on-a-4gb-laptop-gpu-in-pure-rust-4l7l",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-14T14:55:59.913000Z",
+          "score": 74.28,
+          "category": "agent-engineering",
+          "cluster_id": "797e41c445a6a3ee",
+          "summary": "Autonomous coding agents, local developer tools, and edge robotics are bottlenecked by the traditional Python/PyTorch serving stack. On… 〔Folo分类:开源项目〕",
+          "why_matters": "把优化目标定为首 token 延迟与单卡吞吐而非峰值算力，说明本地 agent 的体验瓶颈在首响应与内存占用",
+          "fact_anchor": "Swizzle Runtime v0.1.0 用纯 Rust 在 4GB 笔记本 GPU 上跑到 209 tok/s、43ms TTFT，瞄准本地 coding agent 的推理瓶颈",
           "numbers": [
-            "143",
-            "144"
+            "0.1.0",
+            "209",
+            "43",
+            "4"
           ],
           "entities": [
-            "Data centers",
-            "rural residents"
+            "Swizzle Runtime",
+            "Rust",
+            "TTFT",
+            "Python/PyTorch"
           ],
           "evidence_urls": [
-            "https://news.cornell.edu/stories/2026/11/data-centers-need-power-lower-income-rural-residents-pay-price"
+            "https://dev.to/paramveer_singh_53163a04c/swizzle-runtime-v010-how-we-reached-209-toks-and-43ms-ttft-on-a-4gb-laptop-gpu-in-pure-rust-4l7l"
           ],
-          "impact": "做容量与成本估算时应把外部性作为独立字段，避免把单位价格下降直接等同于总成本下降",
-          "next_action": "若同一来源后续给出每户电价增幅的具体百分比，才判定可纳入成本模型；否则只记为待验证观点",
+          "impact": "对 WinVM Bridge 的 VM 侧推理与本地 agent 部署直接相关：可作为「是否绕开 Python/PyTorch 服务栈」的对照实现",
+          "next_action": "在同一 4GB GPU 上复现 209 tok/s 与 43ms TTFT，若两项实测偏差任一超过 20% 则判定读数依赖特定环境、不纳入本地基准",
+          "signal_type": "release",
+          "confidence": "fact"
+        },
+        {
+          "id": "ecefef97db2b0a08",
+          "title": "Running coding agents on a task graph instead of one long chat",
+          "url": "https://dev.to/rom_matetzky_436dce893285/running-coding-agents-on-a-task-graph-instead-of-one-long-chat-1lcf",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-14T14:31:41.276000Z",
+          "score": 74.05,
+          "category": "agent-engineering",
+          "cluster_id": "ecefef97db2b0a08",
+          "summary": "The idea A feature usually breaks down into slices like this: graph LR T1[1. Data model] --> T2[2. API endpoint] T1 --> T3… 〔Folo分类:开源项目〕",
+          "why_matters": "把依赖顺序显式画成 T1→T2/T3 的图，等于承认长对话里的上下文漂移才是编排失败的主因",
+          "fact_anchor": "一篇工程文提出用 task graph 承接 coding agent，把功能拆成 T1 数据模型、T2 API 端点等节点替代一条长对话",
+          "numbers": [
+            "T1",
+            "T2",
+            "T3"
+          ],
+          "entities": [
+            "coding agents",
+            "task graph",
+            "Data model",
+            "API endpoint"
+          ],
+          "evidence_urls": [
+            "https://dev.to/rom_matetzky_436dce893285/running-coding-agents-on-a-task-graph-instead-of-one-long-chat-1lcf"
+          ],
+          "impact": "与 WinVM Bridge 的 plan-first + DDD skills workflow 同构：可对照把复杂任务从单轮委派改为带依赖关系的图式委派",
+          "next_action": "把现有 A2A 委派链路改写成 3 节点任务图跑一次 smoke，若节点依赖冲突数 >0 或最终产物字节不一致则判定拆分失败",
           "signal_type": "opinion",
-          "confidence": "unverified"
-        },
-        {
-          "id": "c52958cc869a513c",
-          "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
-          "url": "https://github.com/simpsoka/zigzag",
-          "source": "HN Algolia front_page (points/comments)",
-          "published_at": "2026-11-12T17:02:42Z",
-          "score": 75.29,
-          "category": "community",
-          "cluster_id": "c52958cc869a513c",
-          "summary": "",
-          "why_matters": "硬件功能被订阅化后用户选择自建而非付费，说明本地可控性是真实的付费替代项",
-          "fact_anchor": "作者因 300 美元刺绣机被要求订阅而自建应用，帖子获 232 分、98 条评论",
-          "numbers": [
-            "300",
-            "232",
-            "98"
-          ],
-          "entities": [
-            "embroidery machine"
-          ],
-          "evidence_urls": [
-            "https://github.com/simpsoka/zigzag"
-          ],
-          "impact": "与 WorkBuddy skill 本地可改可留存的定位一致：把关键能力锁进云端订阅会触发用户自建分叉",
-          "next_action": "统计自建项目 star 数：若 30 天内超过 100 且出现 2 个以上独立 fork，判定该订阅模式存在替代压力",
-          "signal_type": "product",
           "confidence": "fact"
-        },
-        {
-          "id": "b8c82d5c01fe377a",
-          "title": "Rust 1.100",
-          "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0",
-          "source": "HN Algolia front_page (points/comments)",
-          "published_at": "2026-11-12T18:39:05Z",
-          "score": 74.82,
-          "category": "community",
-          "cluster_id": "b8c82d5c01fe377a",
-          "summary": "",
-          "why_matters": "三位数版本跨度通常伴随工具链行为变化，但材料只有版本号与热度，没有 changelog 明细",
-          "fact_anchor": "Rust 1.100 发布帖在社区获 243 分、124 条评论",
-          "numbers": [
-            "1.100",
-            "243",
-            "124"
-          ],
-          "entities": [
-            "Rust"
-          ],
-          "evidence_urls": [
-            "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0"
-          ],
-          "impact": "本地 Rust 工具链升级前需回归构建脚本，尤其是被 skill 依赖的 CLI 二进制",
-          "next_action": "读 1.100 release notes：若列出 1 项以上破坏性变更，则先跑全量构建回归并确认 0 error 再升级",
-          "signal_type": "release",
-          "confidence": "unverified"
         }
       ]
     },
     {
-      "key": "deep-read",
-      "label": "深度长文",
+      "key": "ai-models",
+      "label": "模型与研究",
       "items": [
         {
-          "id": "c5003bfe5e9237f3",
-          "title": "清华系团队死磕20年！攻破71%盲区，最强深海AI大脑诞生",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&mid=2652742286&idx=1&sn=7412d40e19e2c81d1c7c921926efb698&chksm=f01a4c444a51cedd505f9dba08b1aadc15e2c970e053dfa4c5b99f55f62ca7e12a6ad12017d5&scene=0&xtrack=1",
+          "id": "54e91b9d8fad12a0",
+          "title": "姚期智杨植麟首次联手发论文！30道数学世界难题无一AI独立攻破",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw%3D%3D&mid=2247943908&idx=2&sn=79813e5c6542b53a1ac694e4b426ecf5&chksm=e95bad77f195631f5594129ced0192b85a793ea656b1d06ee8c6004f45f4bbb5686bf6696091&scene=0&xtrack=1",
           "source": "智源社区 · 最新分享（匿名 API）",
-          "published_at": "2026-11-12T15:20:00Z",
-          "score": 77.59,
-          "category": "deep-read",
-          "cluster_id": "c5003bfe5e9237f3",
-          "summary": "AI、生成模型、深度学习｜深圳初创公司领渊智能完成千万级种子轮融资，聚焦水下AI智能系统研发，旨在为水下装备赋予自主决策能力。其目标是实现设备下水后无需人工实时操控，可自主执行任务、识别问题并生成结构化报告，替代当前依赖人工操控与潜水员高风险作业的传统模式。该方案显著降低作业成本与安全风险，并将原始“死数据”转化为可分析、可行动的智能信息，推动海洋探测智能化升级。",
-          "why_matters": "标题的性能数字与摘要的融资事实不对齐，读者无法从同一条材料判断技术进展到哪一步",
-          "fact_anchor": "标题以 20 年与 71% 盲区描述深海 AI 大脑，摘要同时披露领渊智能完成千万级种子轮融资",
+          "published_at": "2026-11-14T18:10:00Z",
+          "score": 79.44,
+          "category": "ai-models",
+          "cluster_id": "54e91b9d8fad12a0",
+          "summary": "扩散模型、生成模型、深度学习｜图灵奖得主姚期智与Kimi创始人杨植麟首次联合发表arXiv论文，系两人迄今首度共同署名的研究。姚期智为理论计算机科学泰斗，杨植麟是国内大模型创业代表人物。本次合作聚焦当前顶尖人工智能领域的核心难题，体现学术界与产业界在前沿AI基础研究上的深度交汇，引发学界广泛关注。论文尚未正式刊发，但已凸显跨代际、跨领域协同攻关的创新趋势。（150字）",
+          "why_matters": "理论计算机与大模型的两代作者联手，把议题落在「AI 尚未独立攻破的难题」而非刷榜分数，是评测口径转向开放问题的信号",
+          "fact_anchor": "姚期智与 Kimi 创始人杨植麟首次联合署名 arXiv 论文，标题称 30 道数学世界难题无一被 AI 独立攻破",
           "numbers": [
-            "20",
-            "71%"
+            "30"
           ],
           "entities": [
-            "清华系团队",
-            "领渊智能",
-            "水下AI智能系统"
+            "姚期智",
+            "杨植麟",
+            "Kimi",
+            "arXiv"
           ],
           "evidence_urls": [
-            "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&mid=2652742286&idx=1&sn=7412d40e19e2c81d1c7c921926efb698&chksm=f01a4c444a51cedd505f9dba08b1aadc15e2c970e053dfa4c5b99f55f62ca7e12a6ad12017d5&scene=0&xtrack=1"
+            "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw%3D%3D&mid=2247943908&idx=2&sn=79813e5c6542b53a1ac694e4b426ecf5&chksm=e95bad77f195631f5594129ced0192b85a793ea656b1d06ee8c6004f45f4bbb5686bf6696091&scene=0&xtrack=1"
           ],
-          "impact": "对数据基建选题的启发：把标题读数和正文读数分开入库，避免把营销数字当作可核验指标",
-          "next_action": "对照原始论文或融资公告核对 71% 的定义与测试集，若找不到出处则判定该读数不可入索引",
+          "impact": "对 WinVM Bridge 与 agent 自动化的评测设计有直接影响：应把「能否独立闭环」而非「单步命中率」列为验收指标",
+          "next_action": "取该 arXiv 预印本核对题目是否确为 30 道并抽查 3 道题的判定规则，若题目数与 30 不符则判定标题口径夸大",
+          "signal_type": "research",
+          "confidence": "unverified"
+        },
+        {
+          "id": "423d06e41442f92b",
+          "title": "Edge0 AI open-sources Edge0-145B: a 145-billion-parameter latent-MoE model that runs AI on your own computer",
+          "url": "https://dev.to/delimitter/edge0-ai-open-sources-edge0-145b-a-145-billion-parameter-latent-moe-model-that-runs-ai-on-your-own-1i4f",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-14T15:00:18.238000Z",
+          "score": 74.32,
+          "category": "ai-models",
+          "cluster_id": "423d06e41442f92b",
+          "summary": "📅 November 14, 2026 • Edge0 AI Edge0 AI has open-sourced Edge0-145B and Edge0-120B together with the company's unified inference… 〔Folo分类:开源项目〕",
+          "why_matters": "145B 参数与「跑在自己电脑上」并列，意味着稀疏激活与推理栈优化正替代单纯堆参数成为卖点",
+          "fact_anchor": "Edge0 AI 开源 Edge0-145B 与 Edge0-120B 两款 latent-MoE 模型及统一推理栈，宣称可在个人电脑本地运行",
+          "numbers": [
+            "145B",
+            "120B",
+            "145"
+          ],
+          "entities": [
+            "Edge0 AI",
+            "Edge0-145B",
+            "Edge0-120B",
+            "latent-MoE"
+          ],
+          "evidence_urls": [
+            "https://dev.to/delimitter/edge0-ai-open-sources-edge0-145b-a-145-billion-parameter-latent-moe-model-that-runs-ai-on-your-own-1i4f"
+          ],
+          "impact": "对 WinVM Bridge 与本地 agent 部署是候选底座：若真能在消费级显存跑通，可把 VM 侧推理从云端回迁",
+          "next_action": "对照同批 209 tok/s 的本地基线跑一次对比，若 145B 在目标机器上 60 秒内出不来首 token 或需联网拉取未公开权重则判定不可本地部署",
+          "signal_type": "release",
+          "confidence": "fact"
+        },
+        {
+          "id": "8f2daa11c5051ada",
+          "title": "Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM",
+          "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-14T14:09:25.786000Z",
+          "score": 73.84,
+          "category": "ai-models",
+          "cluster_id": "8f2daa11c5051ada",
+          "summary": "The text states that the GLM-5.3 model was served at a speed of 607.8 tokens per second. This performance was achieved using two Nvidia DGX stations with the vLLM inference framework. No further details are provided in the source material. 〔Folo分类:开源项目〕",
+          "why_matters": "摘要明确只给出吞吐数字、没有并发数或序列长度，单看 607.8 tok/s 无法判断是单请求还是聚合吞吐",
+          "fact_anchor": "Nvidia 开发者博客记录用 vLLM 在两台 DGX 上把 GLM-5.3 跑到 607.8 tok/s",
+          "numbers": [
+            "5.3",
+            "607.8"
+          ],
+          "entities": [
+            "GLM-5.3",
+            "Nvidia DGX",
+            "vLLM"
+          ],
+          "evidence_urls": [
+            "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm"
+          ],
+          "impact": "对本地推理选型是反向参照：缺上下文的吞吐读数不能直接与单机 209 tok/s 对比，需先对齐批次与序列长度",
+          "next_action": "查该博客是否给出并发数与序列长度，若两项任一缺失则把 607.8 tok/s 标为不可比读数、不入基准表",
           "signal_type": "research",
           "confidence": "unverified"
         }
@@ -330,164 +306,94 @@
       "label": "开发者工具与版本",
       "items": [
         {
-          "id": "cd4a15607d6f089b",
-          "title": "Cerebras reports Q3 core revenue up 70% YoY to $230.9M, vs. $214.7M est., issues strong guidance, and announces a Microsoft deal; CBRS jumps 15%+ after hours (Jordan Novet/CNBC)",
-          "url": "https://www.techmeme.com/261112/p57",
-          "source": "Techmeme",
-          "published_at": "2026-11-12T21:35:02Z",
-          "score": 74.63,
+          "id": "73d9d5b1e9033a86",
+          "title": "SpaceX Catches the Starship to end Flight 15",
+          "url": "https://x.com/i/broadcasts/2brajgZlOKRMka",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-14T21:22:24.127000Z",
+          "score": 78.44,
           "category": "dev-tools",
-          "cluster_id": "cd4a15607d6f089b",
-          "summary": "Jordan Novet / CNBC: Cerebras reports Q3 core revenue up 70% YoY to $230.9M, vs. $214.7M est., issues strong guidance, and announces a Microsoft deal; CBRS jumps 15%+ after hours — Cerebras Systems reported better-than-expected revenue and quarterly guidance in its earnings report on Thursday, and t",
-          "why_matters": "营收超预期与盘后涨幅同时出现，说明市场把算力需求当作可验证订单而非叙事",
-          "fact_anchor": "Cerebras Q3 核心营收同比增 70% 至 $230.9M，高于 $214.7M 预期，并宣布与 Microsoft 合作，CBRS 盘后涨超 15%",
+          "cluster_id": "73d9d5b1e9033a86",
+          "summary": "Comments 〔Folo分类:开源项目〕",
+          "why_matters": "同一事件在 Folo 基线里以极短文本出现，说明订阅池能提供事实骨架，却给不出可核验的技术细节",
+          "fact_anchor": "SpaceX 以「筷子」方式回收 Starship，为 Flight 15 收尾",
           "numbers": [
-            "70%",
-            "230.9",
-            "214.7",
-            "15%"
+            "15"
           ],
           "entities": [
-            "Cerebras",
-            "Microsoft",
-            "CBRS",
-            "CNBC"
+            "SpaceX",
+            "Starship"
           ],
           "evidence_urls": [
-            "https://www.techmeme.com/261112/p57"
+            "https://x.com/i/broadcasts/2brajgZlOKRMka"
           ],
-          "impact": "算力供给侧报价与交付周期会传导到 LLM provider 成本，选型表里需保留单价与配额字段",
-          "next_action": "若下季度核心营收同比增速跌破 70% 或 Microsoft 合作未落地为具体订单，则判定高增长不可外推",
-          "signal_type": "market-data",
+          "impact": "对数据基建有直接影响：摘要只有 Comments 的条目应进补摘要待办清单，不能靠标题里的序号充当完整事实",
+          "next_action": "对照同事件独立源的 Flight 15 表述逐字段比对，若 2 个以上来源对「哪一级被捕获」说法冲突则标记为口径不一致",
+          "signal_type": "product",
+          "confidence": "fact"
+        },
+        {
+          "id": "15b6fbabb889152f",
+          "title": "LinkedIn, Monster take down over 1000 fake job postings after CBC investigation",
+          "url": "https://www.cbc.ca/news/canada/linkedin-monster-take-down-over-1-000-fake-job-postings-after-cbc-investigation-9.7415379",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-14T18:56:47.413000Z",
+          "score": 76.75,
+          "category": "dev-tools",
+          "cluster_id": "15b6fbabb889152f",
+          "summary": "Comments 〔Folo分类:开源项目〕",
+          "why_matters": "平台在媒体调查后才批量清理，说明内容审核是被动触发而非默认门禁，成本被外部化给了求职者",
+          "fact_anchor": "LinkedIn 与 Monster 在 CBC 调查后下架超过 1000 条虚假招聘信息",
+          "numbers": [
+            "1000"
+          ],
+          "entities": [
+            "LinkedIn",
+            "Monster",
+            "CBC"
+          ],
+          "evidence_urls": [
+            "https://www.cbc.ca/news/canada/linkedin-monster-take-down-over-1-000-fake-job-postings-after-cbc-investigation-9.7415379"
+          ],
+          "impact": "对 automation 与 agent 部署有直接影响：任何自动发布通道都应把「发布前校验」做成硬闸门，而不是事后回删",
+          "next_action": "在自家发布链路跑一次发布前校验并统计被拦条数，若拦截数为 0 且人工抽检仍发现占位内容则判定门禁失效",
+          "signal_type": "incident",
           "confidence": "fact"
         }
       ]
     },
     {
-      "key": "ai-models",
-      "label": "模型与研究",
+      "key": "deep-read",
+      "label": "深度长文",
       "items": [
         {
-          "id": "bc81dad5a88a96b1",
-          "title": "狂肝11小时搓出虚幻5大作！文心5.5 Flash Preview发布",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&mid=2652742286&idx=2&sn=c52effcf422a1c9f2503cbf18ffe0d8d&chksm=f02d8bb553c6327d767b283f832099c9d6e00f284da9d9331f3414633eb0c4e7295a67d03bfc&scene=0&xtrack=1",
+          "id": "8a958749f044f5b6",
+          "title": "见证未来：AI加速中的人类科技演化｜未来学读书会第九期",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIzMjQyNzQ5MA%3D%3D&mid=2247738293&idx=3&sn=93f89308215629600324e4e8dfc78413&chksm=e9bfd73c417eb8115fd1b632654d40ab68b89b54b194fc37d201e3d80efe209d8e2a7ac78b27&scene=0&xtrack=1",
           "source": "智源社区 · 最新分享（匿名 API）",
-          "published_at": "2026-11-12T15:30:00Z",
-          "score": 74.49,
-          "category": "ai-models",
-          "cluster_id": "bc81dad5a88a96b1",
-          "summary": "扩散模型、生成模型、深度学习｜百度正式发布文心5.5 Flash Preview（ERNIE 5.5 Flash Preview），主打“快、便宜、开源”。模型参数达2800亿，但每次仅激活140亿，推理速度超200 token/秒。API定价极具竞争力：输入忙时2元/百万token、闲时1元，输出忙时8元、闲时4元，当前限时五折。该模型即日起上线，面向开发者开放。",
-          "why_matters": "稀疏激活把大参数模型的单位成本压向小模型，定价按忙闲时段分层是新的成本变量",
-          "fact_anchor": "百度发布文心5.5 Flash Preview，总参数 2800 亿、每次激活 140 亿、推理超 200 token/秒，输入闲时 1 元每百万 token",
+          "published_at": "2026-11-14T15:20:00Z",
+          "score": 76.11,
+          "category": "deep-read",
+          "cluster_id": "8a958749f044f5b6",
+          "summary": "AI、生成模型、深度学习｜今年10月，OpenAI公开700余份AI数学手稿，引发学界对AI批量解题的反思。陶哲轩等数学家警示：过度依赖AI恐削弱深层数学理解；独立顾问组呼吁暂停用封闭模型测试高等数学难题。在答案“潮水般涌现”的背景下，验证滞后成为关键瓶颈。上海人工智能实验室徐兴成博士将在未来学读书会第9期，以《见证未来：AI加速中的人类科技演化》为题，聚焦核心问题——AI生成成果如何转化为可靠的科学知识。",
+          "why_matters": "答案供给暴增而验证能力滞后，瓶颈从生成侧移到核验侧；数学家呼吁暂停用封闭模型测高等数学难题即这一失衡的回声",
+          "fact_anchor": "OpenAI 公开 700 余份 AI 数学手稿后，未来学读书会第 9 期把「AI 生成成果如何转为可靠知识」设为主题",
           "numbers": [
-            "11",
-            "5.5",
-            "2800",
-            "140",
-            "200"
+            "700",
+            "9"
           ],
           "entities": [
-            "文心5.5 Flash Preview",
-            "ERNIE 5.5 Flash Preview",
-            "百度",
-            "虚幻5"
+            "OpenAI",
+            "陶哲轩",
+            "上海人工智能实验室",
+            "徐兴成"
           ],
           "evidence_urls": [
-            "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&mid=2652742286&idx=2&sn=c52effcf422a1c9f2503cbf18ffe0d8d&chksm=f02d8bb553c6327d767b283f832099c9d6e00f284da9d9331f3414633eb0c4e7295a67d03bfc&scene=0&xtrack=1"
+            "https://mp.weixin.qq.com/s?__biz=MzIzMjQyNzQ5MA%3D%3D&mid=2247738293&idx=3&sn=93f89308215629600324e4e8dfc78413&chksm=e9bfd73c417eb8115fd1b632654d40ab68b89b54b194fc37d201e3d80efe209d8e2a7ac78b27&scene=0&xtrack=1"
           ],
-          "impact": "WorkBuddy 免密钥 LLM 调用若接入分时定价，需把忙闲时段写进调度策略，而非只看名义单价",
-          "next_action": "做一次对照：若闲时输入 1 元每百万 token 下 200 token/秒吞吐能复现，才判定可纳入低成本批处理通道",
-          "signal_type": "release",
-          "confidence": "fact"
-        },
-        {
-          "id": "0667a519c65042ee",
-          "title": "I'm making LLMs work on small and old devices",
-          "url": "https://github.com/hyperionaidev/smolmaxxing",
-          "source": "HN Algolia front_page (points/comments)",
-          "published_at": "2026-11-12T15:23:10Z",
-          "score": 74.44,
-          "category": "ai-models",
-          "cluster_id": "0667a519c65042ee",
-          "summary": "",
-          "why_matters": "端侧推理讨论热度高，但材料没有设备型号、内存占用或吞吐，无法判断可用性边界",
-          "fact_anchor": "作者让 LLM 在小型旧设备上运行的帖子获 245 分、86 条评论",
-          "numbers": [
-            "245",
-            "86"
-          ],
-          "entities": [
-            "LLMs"
-          ],
-          "evidence_urls": [
-            "https://github.com/hyperionaidev/smolmaxxing"
-          ],
-          "impact": "WinVM 上的本地执行模型若走端侧路线，需先有内存与延迟读数，再决定是否分担云端编排",
-          "next_action": "若后续给出具体内存占用与每秒 token 数，且旧设备上达到 10 token/s 以上，才判定端侧可承担实际任务",
+          "impact": "对每日信息流水线的白名单溯源闸门是正面印证：确定性脚本做索引、AI 只做研判，正是把核验成本固化进流程",
+          "next_action": "统计本轮入报条目的白名单丢弃数，若 invented_numbers_dropped 或 rejected_no_substantive_number 不为 0 则先修素材再发报",
           "signal_type": "opinion",
-          "confidence": "unverified"
-        },
-        {
-          "id": "4d9244537a2033a7",
-          "title": "Google's Gemini 4 Hydrogen outscores the bigger Argon just four weeks after its launch",
-          "url": "https://the-decoder.com/googles-gemini-4-hydrogen-outscores-the-bigger-argon-just-four-weeks-after-its-launch",
-          "source": "The Decoder",
-          "published_at": "2026-11-12T19:58:43Z",
-          "score": 70.78,
-          "category": "ai-models",
-          "cluster_id": "4d9244537a2033a7",
-          "summary": "Google's Gemini 4 Hydrogen replaces the Flash series, but benchmarks suggest it also makes the pricier Argon obsolete. On the independent Artificial Analysis Intelligence Index, Hydrogen nearly matches Claude Sonnet 5.5 for less money but costs about 2.5 times more per task than GPT-6.1 Sol and stil",
-          "why_matters": "同一份材料里更便宜与 2.5 倍成本并存，说明单位价格与总账单是两回事，不能混用",
-          "fact_anchor": "Gemini 4 Hydrogen 取代 Flash 系列，独立指数显示其接近 Claude Sonnet 5.5，摘要另给出 2.5 倍成本读数",
-          "numbers": [
-            "4",
-            "5.5",
-            "2.5"
-          ],
-          "entities": [
-            "Gemini 4 Hydrogen",
-            "Argon",
-            "Flash",
-            "Claude Sonnet 5.5",
-            "Artificial Analysis Intelligence Index",
-            "Google"
-          ],
-          "evidence_urls": [
-            "https://the-decoder.com/googles-gemini-4-hydrogen-outscores-the-bigger-argon-just-four-weeks-after-its-launch"
-          ],
-          "impact": "WorkBuddy 模型路由若按单价切换，需同时记录上下文长度与调用次数，否则总价会反向上升",
-          "next_action": "对照 Artificial Analysis 具体分项：若两者指数分差小于 5% 且单任务总成本更低，才判定可替换",
-          "signal_type": "research",
-          "confidence": "fact"
-        },
-        {
-          "id": "c8c5dc29297d2e3d",
-          "title": "Tokenomics at scale: Track and cap Amazon Bedrock spend per IAM principal with CUR 2.0 and AWS Budgets",
-          "url": "https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-track-and-cap-amazon-bedrock-spend-per-iam-principal-with-cur-2-0-and-aws-budgets",
-          "source": "AWS ML Blog",
-          "published_at": "2026-11-12T19:29:55Z",
-          "score": 70.46,
-          "category": "ai-models",
-          "cluster_id": "c8c5dc29297d2e3d",
-          "summary": "Get per-identity Amazon Bedrock cost visibility and enforceable spend limits using only AWS-native features, with no application code for the common case. Attribute spend with IAM principal tags, report with CUR 2.0 or Cost Explorer, and enforce with AWS Budgets actions that apply a Deny policy when",
-          "why_matters": "把成本归因下沉到身份维度且不动业务代码，是配额治理最省事的一条路径",
-          "fact_anchor": "AWS 给出用 IAM principal 标签配合 CUR 2.0 与 AWS Budgets 按身份追踪并封顶 Bedrock 花费、无需改应用代码的做法",
-          "numbers": [
-            "2.0"
-          ],
-          "entities": [
-            "Amazon Bedrock",
-            "CUR 2.0",
-            "AWS Budgets",
-            "IAM",
-            "Cost Explorer"
-          ],
-          "evidence_urls": [
-            "https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-track-and-cap-amazon-bedrock-spend-per-iam-principal-with-cur-2-0-and-aws-budgets"
-          ],
-          "impact": "免密钥 LLM 调用若多租户共用，可直接照此按 principal 设硬上限，避免单任务刷爆账单",
-          "next_action": "跑一次配额冒烟：若某个 principal 超预算后调用被拒且错误码明确，则判定封顶生效",
-          "signal_type": "tutorial",
           "confidence": "fact"
         }
       ]
@@ -497,288 +403,284 @@
       "label": "产业与资本",
       "items": [
         {
-          "id": "f101ffad2bb3a113",
-          "title": "Anthropic IPO",
-          "url": "https://ipo.anthropic.com/us",
-          "source": "HN Algolia front_page (points/comments)",
-          "published_at": "2026-11-12T11:46:41Z",
-          "score": 74.22,
+          "id": "94d5fd03df4fff4e",
+          "title": "$1.5T Valuation, Zero .gitignore: How Claude Code Leaked 2,539 Live Secrets to GitHub",
+          "url": "https://dev.to/devkursat/15t-valuation-zero-gitignore-how-claude-code-leaked-2539-live-secrets-to-github-4ndb",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-14T14:51:56.772000Z",
+          "score": 75.84,
           "category": "industry-capital",
-          "cluster_id": "f101ffad2bb3a113",
-          "summary": "",
-          "why_matters": "评论数几乎追平分数，说明这是一次高争议事件而非单纯利好，材料本身没有招股条款",
-          "fact_anchor": "Anthropic IPO 相关讨论帖在社区获 761 分、758 条评论",
+          "cluster_id": "94d5fd03df4fff4e",
+          "summary": "Anthropic is preparing for a $1.5T IPO while its flagship coding agent, Claude Code, casually dumped 2,539 live developer secrets across 1… 〔Folo分类:开源项目〕",
+          "why_matters": "估值叙事与最基础的 .gitignore 缺失同框，说明 coding agent 的默认写入路径缺少凭据边界检查",
+          "fact_anchor": "报道称 Anthropic 筹备 1.5T 估值 IPO 之际，Claude Code 把 2,539 个有效开发者密钥推上了 GitHub",
           "numbers": [
-            "761",
-            "758"
+            "1.5",
+            "2,539"
           ],
           "entities": [
-            "Anthropic"
+            "Anthropic",
+            "Claude Code",
+            "GitHub"
           ],
           "evidence_urls": [
-            "https://ipo.anthropic.com/us"
+            "https://dev.to/devkursat/15t-valuation-zero-gitignore-how-claude-code-leaked-2539-live-secrets-to-github-4ndb"
           ],
-          "impact": "模型供应商资本结构变化会影响 API 长期定价与稳定性，provider 备选清单应保留至少两家",
-          "next_action": "若招股文件公开且给出具体发行价与募资额，才更新供应商风险表；在此之前只记为事件标记",
-          "signal_type": "market-data",
-          "confidence": "unverified"
-        },
-        {
-          "id": "3e8a63beb1fdbc55",
-          "title": "Sources: Kalshi is in talks to raise funding at a $65B valuation, weeks after closing a round at a $40B valuation; its annual run rate recently surpassed $5B (Bloomberg)",
-          "url": "https://www.techmeme.com/261112/p58",
-          "source": "Techmeme",
-          "published_at": "2026-11-12T21:50:00Z",
-          "score": 71.61,
-          "category": "industry-capital",
-          "cluster_id": "3e8a63beb1fdbc55",
-          "summary": "Bloomberg: Sources: Kalshi is in talks to raise funding at a $65B valuation, weeks after closing a round at a $40B valuation; its annual run rate recently surpassed $5B — Weeks after finalizing new funding at a $40 billion valuation, prediction marketplace Kalshi is in talks with investors to raise ",
-          "why_matters": "估值在数周内从 $40B 抬到 $65B，材料同时给出 $5B 年化 run rate，可据此核对倍数而非只看叙事",
-          "fact_anchor": "消息源称 Kalshi 洽谈以 $65B 估值融资，距 $40B 那轮仅数周，年化 run rate 已超 $5B",
-          "numbers": [
-            "$65B",
-            "$40B",
-            "$5B"
-          ],
-          "entities": [
-            "Kalshi",
-            "Bloomberg"
-          ],
-          "evidence_urls": [
-            "https://www.techmeme.com/261112/p58"
-          ],
-          "impact": "市场与投资板块只记录公开估值与 run rate，不构成任何标的判断；数据基建只需保留可核验字段",
-          "next_action": "若下一轮估值未获官方确认或 run rate 口径未披露，则判定该读数仅为消息源层级，不进入索引",
-          "signal_type": "funding",
+          "impact": "直接命中 automation 与 skill 落盘环节：本项目的凭据扫描与 redact_credentials 属同类防线，应确认覆盖 agent 自动生成的临时文件",
+          "next_action": "对 agent 产出目录跑一次凭据正则扫描，若命中数 >0 则阻断发布并定位写入点，不能只依赖提交前人工检查",
+          "signal_type": "incident",
           "confidence": "unverified"
         }
       ]
     },
     {
-      "key": "agent-engineering",
-      "label": "Agent 与工程",
+      "key": "security-governance",
+      "label": "安全与治理",
       "items": [
         {
-          "id": "372847c9499451eb",
-          "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
-          "url": "https://openai.com/index/amplitude",
-          "source": "OpenAI Blog",
-          "published_at": "2026-11-12T20:00:00Z",
-          "score": 73.02,
-          "category": "agent-engineering",
-          "cluster_id": "372847c9499451eb",
-          "summary": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
-          "why_matters": "交付周期被压到天级，agent 同时承担决策、编码与效果测量，闭环比单点助手更完整",
-          "fact_anchor": "Amplitude 称其基于 OpenAI 模型的主动式产品 agent Wave 可在 1 到 2 天内交付产品改进并用 coding agents 度量效果",
+          "id": "d39f1081244a9510",
+          "title": "martin-olivier/airgorah",
+          "url": "https://github.com/martin-olivier/airgorah",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-14T13:04:48.043000Z",
+          "score": 73.26,
+          "category": "security-governance",
+          "cluster_id": "d39f1081244a9510",
+          "summary": "Airgorah is an open-source WiFi security auditing tool written in Rust. It is designed to identify vulnerabilities in wireless networks and perform penetration testing. The project is hosted on GitHub, where it has garnered approximately 5,473 stars and 919 forks, indicating significant community ad",
+          "why_matters": "安全工具的星数常被当作可信度代理，但审计类工具的真实门槛在规则覆盖与误报率，星数无法替代",
+          "fact_anchor": "开源 WiFi 安全审计工具 Airgorah 用 Rust 实现无线漏洞识别与渗透测试，GitHub 上约 5,473 stars、919 forks",
           "numbers": [
-            "1",
-            "2"
+            "5,473",
+            "919"
           ],
           "entities": [
-            "Amplitude",
-            "OpenAI",
-            "Wave",
-            "coding agents"
+            "Airgorah",
+            "Rust",
+            "GitHub",
+            "WiFi"
           ],
           "evidence_urls": [
-            "https://openai.com/index/amplitude"
+            "https://github.com/martin-olivier/airgorah"
           ],
-          "impact": "对 automation 流水线是直接参照：把生成、执行、度量写成同一条可回放链路，而不是分散脚本",
-          "next_action": "跑一次对照：若本地流水线从采集到核验超过 2 天或出现 1 次以上人工补写，则判定闭环未成立",
-          "signal_type": "tutorial",
-          "confidence": "fact"
-        },
-        {
-          "id": "1a84fda568160878",
-          "title": "Microsoft Research Focus – Edition #98",
-          "url": "https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-98",
-          "source": "Microsoft Research",
-          "published_at": "2026-11-12T21:31:57Z",
-          "score": 72.99,
-          "category": "agent-engineering",
-          "cluster_id": "1a84fda568160878",
-          "summary": "What's new in research at Microsoft? Host Anson Ho explores the latest, including AI-powered universal translation, a breakthrough in a 31-year-old mathematics challenge, and advances making AI coding agents faster and more efficient. The post Microsoft Research Focus – Edition #98 appeared first on",
-          "why_matters": "把 coding agent 的效率与研究级突破并列，说明工程侧优化已被当作正式研究产出",
-          "fact_anchor": "Microsoft Research Focus 第 98 期汇总通用翻译、31 年数学难题突破与让 AI coding agents 更高效的进展",
-          "numbers": [
-            "98",
-            "31"
-          ],
-          "entities": [
-            "Microsoft Research",
-            "Anson Ho",
-            "AI coding agents",
-            "Microsoft"
-          ],
-          "evidence_urls": [
-            "https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-98"
-          ],
-          "impact": "agent 部署成本可借鉴其效率结论，但需要可复现的基准数字才值得改架构",
-          "next_action": "若该期给出 coding agent 的具体提速百分比且达到 20% 以上，才纳入 WinVM 委派路径的优化评估",
-          "signal_type": "research",
-          "confidence": "fact"
-        },
-        {
-          "id": "3d7d027034d3d63b",
-          "title": "ALENOC/tandem-mcp · ★0",
-          "url": "https://github.com/ALENOC/tandem-mcp",
-          "source": "GitHub 搜索 · topic:mcp",
-          "published_at": "2026-11-12T18:22:59Z",
-          "score": 72.23,
-          "category": "agent-engineering",
-          "cluster_id": "3d7d027034d3d63b",
-          "summary": "MCP server pairing a cloud orchestrator model with a local executor model in LM Studio",
-          "why_matters": "云编排加本地执行的分工被写进 MCP server，正是权限与数据边界最容易被模糊的地方",
-          "fact_anchor": "tandem-mcp 是一个把云端编排模型与 LM Studio 本地执行模型配对的 MCP server，当前 0 star",
-          "numbers": [
-            "0"
-          ],
-          "entities": [
-            "tandem-mcp",
-            "MCP server",
-            "LM Studio",
-            "ALENOC"
-          ],
-          "evidence_urls": [
-            "https://github.com/ALENOC/tandem-mcp"
-          ],
-          "impact": "与我的 A2A 双路径委派同构：可对照其任务切分，检查 WinVM 侧 direct MCP 与 A2A 边界是否重复",
-          "next_action": "读其 README 复现一次配对：若云端编排能调用本地工具且 0 次越权，才判定该分工模式可借鉴",
+          "impact": "对 WinVM Bridge 的系统与网络管理面有可参考性：若引入无线审计能力，应把误报率与权限范围列为验收项",
+          "next_action": "在隔离网络跑一次扫描并统计误报数，若误报数超过真阳性数的 2 倍则判定不适用于自动化巡检",
           "signal_type": "product",
           "confidence": "fact"
-        },
+        }
+      ]
+    },
+    {
+      "key": "market-invest",
+      "label": "市场与投资",
+      "items": [
         {
-          "id": "73fef9673ed486b3",
-          "title": "Yuri-Fernando/AWS-Project · ★0",
-          "url": "https://github.com/Yuri-Fernando/AWS-Project",
-          "source": "GitHub 搜索 · topic:mcp",
-          "published_at": "2026-11-12T17:55:13Z",
-          "score": 71.94,
-          "category": "agent-engineering",
-          "cluster_id": "73fef9673ed486b3",
-          "summary": "Plataforma AWS de ponta a ponta com a MESMA IaC em dois alvos: emulador floci (R$ 0) e conta AWS real Free Plan — EKS, ECR, GitOps (ArgoCD/Kustomize), Pod Identity, Prometheus/Grafana, serverless e MCP. Sessão real: e2e 13/13, US$ 0,86 em créditos, tudo desmontado.",
-          "why_matters": "把本地仿真与真实云端收敛到同一份 IaC 并给出 13/13 通过率，可复现性比口头承诺更实",
-          "fact_anchor": "AWS-Project 用同一套 IaC 在本地模拟器与真实 AWS Free Plan 两端部署，端到端 13/13，成本 US$ 0,86",
+          "id": "99892725955d150f",
+          "title": "Juicy 6% Yields Gain Appeal After Nvidia Drama: Credit Weekly",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-14/juicy-6-yields-gain-appeal-after-nvidia-drama-credit-weekly",
+          "source": "Bloomberg Markets",
+          "published_at": "2026-11-14T20:00:00Z",
+          "score": 74.75,
+          "category": "market-invest",
+          "cluster_id": "99892725955d150f",
+          "summary": "US corporate bonds have been rallying in recent weeks, drawing the attention of money managers seeking shelter from turbulence in stocks.",
+          "why_matters": "股债之间的避险迁移给出的是公开市场读数而非配置结论，把它写成方向判断就越过了数据边界",
+          "fact_anchor": "一篇信用市场周报指出，Nvidia 相关波动后 6% 收益率的美国公司债更受资金青睐",
           "numbers": [
-            "13/13",
-            "0,86",
-            "0"
+            "6%"
           ],
           "entities": [
-            "AWS",
-            "EKS",
-            "ECR",
-            "ArgoCD",
-            "Kustomize",
-            "MCP"
+            "Nvidia",
+            "US corporate bonds"
           ],
           "evidence_urls": [
-            "https://github.com/Yuri-Fernando/AWS-Project"
+            "https://www.bloomberg.com/news/articles/2026-11-14/juicy-6-yields-gain-appeal-after-nvidia-drama-credit-weekly"
           ],
-          "impact": "对数据基建与 smoke 规范有用：应要求每个部署目标给出端到端通过数与成本读数，而非只报成功",
-          "next_action": "照其清单复现：若本地与云端各 13/13 通过且成本差额在 1 个数量级内，才判定 IaC 双目标成立",
-          "signal_type": "tutorial",
+          "impact": "对 automation 报表有直接影响：市场板块只陈述公开数据与风险提示，模板应硬编码禁止仓位与买卖表述",
+          "next_action": "检查本期市场板块是否出现买入、仓位或目标价字样，若命中 1 处即判定越界并回退该段",
+          "signal_type": "market-data",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "research-papers",
+      "label": "论文与学术",
+      "items": [
+        {
+          "id": "bc4bfd8f951086cc",
+          "title": "标准经济学的局限性｜《理解混沌》读书会第 3 期",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIzMjQyNzQ5MA%3D%3D&mid=2247738293&idx=4&sn=17fd70752888ccf2dc1b0a5d18dc9d44&chksm=e984a0a0e1dfc1ad0a4119e4acc62cf083dcfbff73581514aee18c84367e324015cb46ceb712&scene=0&xtrack=1",
+          "source": "智源社区 · 最新分享（匿名 API）",
+          "published_at": "2026-11-14T15:40:00Z",
+          "score": 74.7,
+          "category": "research-papers",
+          "cluster_id": "bc4bfd8f951086cc",
+          "summary": "金融、神经与进化计算、博弈论｜在数据驱动研究时代，标准经济学的界定日益显得多余，本次讨论聚焦其发展脉络与内在局限。《理解混沌》由集智俱乐部组织翻译，新书共读活动由三位译者——北师大博士生陶如意、澳科大博士生孙璐及北师大硕士生方逸雯联合发起。活动将于2026年10月31日起每周六19:30–21:30线上举行，持续约10周，形式包括主讲分享与互动讨论。",
+          "why_matters": "把「标准经济学的界定是否多余」作为共读主题，呼应了数据驱动研究里模型边界先于模型性能的问题",
+          "fact_anchor": "集智俱乐部《理解混沌》新书共读第 3 期讨论标准经济学的局限，活动自 10 月 31 日起每周六线上举行约 10 周",
+          "numbers": [
+            "3",
+            "10"
+          ],
+          "entities": [
+            "集智俱乐部",
+            "《理解混沌》",
+            "北师大",
+            "澳科大"
+          ],
+          "evidence_urls": [
+            "https://mp.weixin.qq.com/s?__biz=MzIzMjQyNzQ5MA%3D%3D&mid=2247738293&idx=4&sn=17fd70752888ccf2dc1b0a5d18dc9d44&chksm=e984a0a0e1dfc1ad0a4119e4acc62cf083dcfbff73581514aee18c84367e324015cb46ceb712&scene=0&xtrack=1"
+          ],
+          "impact": "对 skill 与 automation 的方法论有间接影响：规则层与研判层的职责边界应先定义清楚，再谈打分调优",
+          "next_action": "对照活动页核对「约 10 周」与每周六时段是否一致，若两处时段冲突则只保留可核验的期数 3",
+          "signal_type": "opinion",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "community",
+      "label": "社区与观点",
+      "items": [
+        {
+          "id": "7e59a67d8036bc32",
+          "title": "Watch SpaceX successfully execute the first ‘chopstick’ catch of Starship",
+          "url": "https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-14T21:44:44.783000Z",
+          "score": 75.51,
+          "category": "community",
+          "cluster_id": "7e59a67d8036bc32",
+          "summary": "After aborting a planned catch of Starship Flight 15's booster, SpaceX successfully captured Starship with its \"Mechazilla\" launch… 〔Folo分类:Recommended〕",
+          "why_matters": "助推器捕获中止与上面级捕获成功同属一次任务，单看任一标题都会得出片面结论",
+          "fact_anchor": "SpaceX 在放弃 Flight 15 助推器回收后，用 Mechazilla 发射塔完成对 Starship 的首次「筷子」捕获",
+          "numbers": [
+            "15"
+          ],
+          "entities": [
+            "SpaceX",
+            "Starship",
+            "Mechazilla"
+          ],
+          "evidence_urls": [
+            "https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch"
+          ],
+          "impact": "对数据基建的启发是同一事件要保留多源条目而非合并成一条结论，去重簇里应能回溯到各自原文",
+          "next_action": "在同一去重簇内比对两条 SpaceX 条目的 title 与 summary，若动作主体或捕获对象不一致则保留双条并标 multi-source",
+          "signal_type": "product",
+          "confidence": "multi-source"
+        },
+        {
+          "id": "6626aeba79c7bc1a",
+          "title": "11 Of The Most Affordable Solar-Powered Gadgets You Can Use In Your Yard",
+          "url": "https://www.slashgear.com/2314503/most-affordable-solar-powered-gadgets-use-at-home-yard",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-14T21:30:00.439000Z",
+          "score": 75.33,
+          "category": "community",
+          "cluster_id": "6626aeba79c7bc1a",
+          "summary": "From solar-powered lights and fountains to security cameras and bug zappers, these affordable gadgets can make your yard smarter and more… 〔Folo分类:新奇产品〕",
+          "why_matters": "清单类内容靠「11 款」这种可核验计数撑起信息量，也暴露订阅池里大量条目只有数量、没有规格与价格",
+          "fact_anchor": "一篇庭院太阳能设备清单列出 11 款平价小工具，覆盖照明、喷泉、安防摄像头与灭虫灯",
+          "numbers": [
+            "11"
+          ],
+          "entities": [
+            "Solar-Powered Gadgets",
+            "solar-powered lights",
+            "security cameras"
+          ],
+          "evidence_urls": [
+            "https://www.slashgear.com/2314503/most-affordable-solar-powered-gadgets-use-at-home-yard"
+          ],
+          "impact": "对数据基建的意义在于给「实质数字」划线：计数型数字可入报，但摘要为空或只有分类标签的条目应进补摘要待办",
+          "next_action": "抽 3 条同批清单文核对标题计数与正文条目数，若不一致则把该类信源降权并记入 no-number 诊断",
+          "signal_type": "opinion",
           "confidence": "fact"
         }
       ]
     }
   ],
-  "editor_note": "今天最值得动手的不是模型降价，而是契约收紧。Claude Code 在 v2.1.323 里把工具调用改成让模型写 JavaScript，并给 plugin.json 补上引擎版本范围；GitHub Actions 同期宣布 ARM32 与 node20 退役。扩展点的行为边界正从文档约定前移到可执行的清单字段。对 WorkBuddy 的 skill 与 MCP 接入层，不能假设插件加载成功就等于契约稳定；应把版本范围、失败降级路径写成可校验字段，每次升级前跑隔离环境加载冒烟，失败数为 0 才算通过。\n成本口径也在细分。文心5.5 Flash Preview 用 2800 亿总参数、140 亿激活、200 token/秒与分时定价压低单价；AWS 用 IAM principal 标签配合 CUR 2.0 与 AWS Budgets 按身份封顶 Bedrock 花费，常见场景无需改应用代码。给数据基建的动作是：多租户免密钥 LLM 调用应按 principal 设硬上限并记录单位任务总成本，而非只记名义单价。门槛是配额冒烟——超预算后调用被拒且返回明确错误码，才算封顶生效。\n委派边界同理。",
-  "brief": "今日速览｜2026-11-13：126/185 信源成功，原始 5875 条、归一 947 条、940 簇、入选 40 簇，按 v1.1 数字白名单口径主动剔除 21 个无实质读数或伪读数簇，最终 19 条入报、7 个板块、7 个判断式主题、5 条待验证信号。\n主线一：契约在收紧。Claude Code v2.1.323 新增实验性 Code Mode（模型写 JavaScript 调用工具）与 plugin.json 引擎版本范围；GitHub Actions 宣布 8th Dec 2026 前停止 Windows/Linux 的 ARM32 作业，此前已结束 node20 支持；Rust 1.100 发布。三条都说明小版本与运行时架构正在承担行为闸门，升级前要跑加载与构建回归。\n主线二：单价与账单分离。百度文心5.5 Flash Preview 总参数 2800 亿、每次激活 140 亿、推理超 200 token/秒，输入忙时 2 元、闲时 1 元每百万 token，输出忙时 8 元、闲时 4 元；Gemini 4 Hydrogen 在 Artificial Analysis Intelligence Index 上接近 Claude Sonnet 5.5，摘要却给出 2.5 倍成本读数；Cerebras Q3 核心营收同比增 70% 至 $230.9M（预期 $214.7M），CBRS 盘后涨超 15%；Kalshi 传以 $65B 估值融资，数周前那轮为 $40B，年化 run rate 超 $5B。市场与投资板块只陈述公开读数与风险提示，不构成投资建议。\n主线三：成本治理与委派边界。AWS 给出用 IAM principal 标签 + CUR 2.0 + AWS Budgets 按身份封顶 Bedrock 花费、无需改应用代码的做法；Amplitude 用基于 OpenAI 的 Wave 把产品改进压到 1 到 2 天；Microsoft Research Focus 第 98 期把 AI coding agents 效率列为研究产出；tandem-mcp 用 MCP server 配对云端编排模型与 LM Studio 本地执行模型（0 star）；AWS-Project 用同一份 IaC 打通本地仿真与真实云端，端到端 13/13、成本 US$ 0,86。\n需要打折看的部分：Microsoft 365 降级、Gemini 4 Hydrogen 发布帖、Anthropic IPO 讨论等条目只有社区热度读数，没有基准、条款或性能明细；深海 AI 那条更把 20 年与 71% 放在标题、把融资放在摘要，读数出处需回原文核对。\n下一步动作（均带阈值）：Code Mode 升级前跑隔离加载冒烟，插件加载失败数 0 才通过；workflow 矩阵里 arm32 与 node20 作业各出现 1 次以上失败即迁移 runner 标签；闲时 1 元每百万 token 下实测吞吐低于 200 token/秒则判定不足以支撑批处理；principal 超预算后调用被拒且错误码明确才算封顶生效；tandem-mcp 复现若云端编排能调用本地工具且 0 次越权，才借鉴其分工。\n数据说明：Folo 基线本轮软降级 0 条，59 个信源超时或 403 按预期跳过，未清空任何中间产物。取不到可靠数据处标注暂无可靠数据；外部事实未独立验证。",
+  "editor_note": "本期把「确定性脚本做索引、LLM 只做研判」这条分工又跑了一遍，规则层从归一后的候选中选出 40 个簇，最终只有 16 条带实质读数进入版面。被剔掉的条目里，多数是 Folo 基线只有 Comments 的空摘要，其余是把发布年份、型号尾数、URL 路径里的数字误当读数，这类伪读数在 v1.1 口径下不算原文。按既定闸门，它们不是降权而是直接不进 sections：宁可少一条，也不发一条空话，且不放宽任何 V8 阈值。对 WorkBuddy 与 CodeBuddy 的 skill、automation 体系而言，这比多凑十条更有价值，因为唯一事实源只有一个，任何分发通道都不该为了版面自行补内容。今天最值得对照的是多 agent 编排：LoopForge 用 694 stars 的自托管 Go 仓库把 CodeBuddy、Codex、Claude Code 收进脚本流程并保留人工审批门，另一篇工程文则把长对话拆成 T1→T2/T3 的任务图。两者指向同一判断——复杂任务的失败点已从模型能力转到依赖顺序与权限边界，这正好对应 WinVM Bridge 的 plan-first + DDD 与 A2A 两条委派路径。",
+  "brief": "每日信息 · 2026-11-15。本轮规则层入选 40 簇，16 条带可核验实质读数进入版面；其余因原文只有空摘要或伪读数（日期年份、型号尾数、URL 数字）被拒，未放宽任何阈值。\n\n【编排】腾讯 LoopForge 以 694 stars、114 forks 把 CodeBuddy、Codex、Claude Code 收进带人工审批门的脚本编排；另有工程文主张用 T1→T2/T3 任务图替代长对话。两者都把难点指向依赖顺序与权限边界，而非模型选型。一个只带 ★0 的 transformer-mcp 仓库则给出「server + CLI + agent skills + docs」的技能包骨架。\n\n【本地推理】Edge0 AI 开源 Edge0-145B 与 Edge0-120B 并宣称本机可跑；Swizzle Runtime v0.1.0 在 4GB 笔记本 GPU 上报 209 tok/s、43ms TTFT；Nvidia 博客记录 GLM-5.3 在双 DGX 上 607.8 tok/s，但未给并发数与序列长度，暂不可与单机读数横比。\n\n【研究口径】姚期智与杨植麟首次联合署名的 arXiv 论文标题称 30 道数学世界难题无一被 AI 独立攻破；OpenAI 公开 700 余份 AI 数学手稿后，读书会第 9 期把「AI 生成成果如何转为可靠知识」设为主题，验证滞后被点名为瓶颈。\n\n【安全与治理】一篇报道把 1.5T 估值叙事与 2,539 个因缺 .gitignore 外泄的活密钥并置；Airgorah 以 5,473 stars、919 forks 成为 Rust 写的 WiFi 审计工具，但星数不能替代误报率验证。LinkedIn 与 Monster 在 CBC 调查后下架超过 1000 条假招聘，同样说明门禁做在事后。\n\n【市场与社区】6% 收益率的美国公司债在 Nvidia 波动后更受关注（仅陈述公开数据）；Flight 15 的 Starship 回收由两条独立源分别记录「收尾」与「助推器捕获中止、上面级捕获成功」，保留双条以免丢掉一半事实；另有 11 款庭院太阳能设备的清单文，计数可读但缺规格与价格。\n\n【待验证】145B 能否离线加载并在 60 秒内出首 token；209 tok/s 与 43ms TTFT 在同规格 4GB GPU 上偏差是否超过 20%；607.8 tok/s 是否补齐并发数与序列长度；LoopForge 审批门是否存在 1 条绕过路径；发布前凭据扫描命中数是否 >0。\n\n内容仅供参考，不构成投资建议；外部事实未独立验证；取不到可靠数据处标注「暂无可靠数据」。",
   "watch_signals": [
     {
-      "signal": "Claude Code Code Mode 是否进入默认开启",
-      "threshold": "官方把 opt-in 改为默认或组织级策略出现 1 项以上开关",
-      "judgement": "判定工具调用形态变化，需要重跑 skill 与 MCP 扩展点的兼容回归"
+      "signal": "Edge0-145B 是否真能本机加载",
+      "threshold": "目标机器 60 秒内出首 token 且无需联网拉取未公开权重",
+      "judgement": "两项同时成立才判定「本机运行」可用，否则按宣传口径处理、不纳入本地底座选型"
     },
     {
-      "signal": "GitHub Actions ARM32 与 node20 退役落地",
-      "threshold": "8th Dec 之后 arm32 作业失败数达到 1 次以上",
-      "judgement": "判定必须迁移 runner 标签，Pages workflow 同步改构建矩阵"
+      "signal": "Swizzle Runtime 209 tok/s 与 43ms TTFT 可复现性",
+      "threshold": "同规格 4GB GPU 实测偏差任一超过 20%",
+      "judgement": "判定读数依赖特定环境，不写入本地推理基准表"
     },
     {
-      "signal": "文心5.5 分时定价是否可复现",
-      "threshold": "闲时输入 1 元每百万 token 下实测吞吐低于 200 token/秒",
-      "judgement": "判定名义单价不足以支撑批处理通道，继续走现有 provider"
+      "signal": "GLM-5.3 的 607.8 tok/s 是否可比",
+      "threshold": "博客补齐并发数与序列长度 2 项字段",
+      "judgement": "任一缺失即标为不可比读数，不与单机吞吐直接对比"
     },
     {
-      "signal": "Gemini 4 Hydrogen 的成本口径",
-      "threshold": "第三方分项里 2.5 倍读数未说明比较对象或指数分差达到 5%",
-      "judgement": "判定不可替换现用模型，仅记录为待验证读数"
+      "signal": "LoopForge 人工审批门是否可绕过",
+      "threshold": "脚本链路中出现 1 条未经审批即执行的路径",
+      "judgement": "判定审批门为装饰性，WinVM Bridge 委派设计不得直接借鉴"
     },
     {
-      "signal": "Anthropic IPO 条款公开",
-      "threshold": "招股文件给出具体发行价与募资额且独立来源达到 2 家",
-      "judgement": "才更新供应商风险表与 provider 备选清单；未满足前只标事件"
+      "signal": "凭据扫描是否覆盖 agent 自动生成文件",
+      "threshold": "发布前凭据扫描命中数 >0",
+      "judgement": "阻断当日全部通道并定位写入点，不依赖提交前人工检查"
     }
   ],
   "reference_summary": [
     {
+      "domain": "dev.to",
+      "count": 4
+    },
+    {
       "domain": "github.com",
-      "count": 5
+      "count": 3
     },
     {
       "domain": "mp.weixin.qq.com",
-      "count": 2
+      "count": 3
     },
     {
-      "domain": "techmeme.com",
-      "count": 2
-    },
-    {
-      "domain": "github.blog",
+      "domain": "developer.nvidia.com",
       "count": 1
     },
     {
-      "domain": "status.cloud.microsoft",
+      "domain": "x.com",
       "count": 1
     },
     {
-      "domain": "blog.google",
+      "domain": "cbc.ca",
       "count": 1
     },
     {
-      "domain": "news.cornell.edu",
+      "domain": "bloomberg.com",
       "count": 1
     },
     {
-      "domain": "blog.rust-lang.org",
+      "domain": "theverge.com",
       "count": 1
     },
     {
-      "domain": "the-decoder.com",
-      "count": 1
-    },
-    {
-      "domain": "aws.amazon.com",
-      "count": 1
-    },
-    {
-      "domain": "ipo.anthropic.com",
-      "count": 1
-    },
-    {
-      "domain": "openai.com",
-      "count": 1
-    },
-    {
-      "domain": "microsoft.com",
+      "domain": "slashgear.com",
       "count": 1
     }
   ],
   "stats": {
-    "sources_ok": 126,
+    "sources_ok": 183,
     "sources_total": 185,
-    "total_items": 947,
-    "clusters": 940,
+    "total_items": 1881,
+    "clusters": 1783,
     "selected": 40,
-    "published_items": 19,
-    "seven_element_pass": 19,
+    "published_items": 16,
+    "seven_element_pass": 16,
     "seven_element_ratio": 1.0,
-    "items_with_numbers": 19,
+    "items_with_numbers": 16,
     "substantive_number_ratio": 1.0,
     "rejected_no_number": 0,
-    "unique_reference_domains": 13
+    "unique_reference_domains": 9
   },
   "quality": {
     "ai_status": "ok",

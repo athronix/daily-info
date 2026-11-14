@@ -5,10 +5,30 @@
   <ns0:subtitle>挖掘 · 聚合 · 研判 · 订阅；每条附原文链接；内容仅供参考，不构成投资建议</ns0:subtitle>
   <ns0:link rel="self" type="application/atom+xml" href="https://daily-info.local/invest.atom" />
   <ns0:link rel="alternate" type="text/html" href="https://daily-info.local/index.html" />
-  <ns0:updated>2026-11-12T23:18:18.237901Z</ns0:updated>
+  <ns0:updated>2026-11-14T22:53:41.482428Z</ns0:updated>
   <ns0:author>
     <ns0:name>Personal Daily Info</ns0:name>
   </ns0:author>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-15:99892725955d150f</ns0:id>
+    <ns0:title>[市场与投资] Juicy 6% Yields Gain Appeal After Nvidia Drama: Credit Weekly</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.bloomberg.com/news/articles/2026-11-14/juicy-6-yields-gain-appeal-after-nvidia-drama-credit-weekly" />
+    <ns0:published>2026-11-14T20:00:00Z</ns0:published>
+    <ns0:updated>2026-11-14T22:53:41.482428Z</ns0:updated>
+    <ns0:category term="market-invest" label="市场与投资" />
+    <ns0:summary type="text">US corporate bonds have been rallying in recent weeks, drawing the attention of money managers seeking shelter from turbulence in stocks.</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;一篇信用市场周报指出，Nvidia 相关波动后 6% 收益率的美国公司债更受资金青睐&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：6% · 相关方：Nvidia / US corporate bonds&lt;/p&gt;&lt;p&gt;US corporate bonds have been rallying in recent weeks, drawing the attention of money managers seeking shelter from turbulence in stocks.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;股债之间的避险迁移给出的是公开市场读数而非配置结论，把它写成方向判断就越过了数据边界&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 automation 报表有直接影响：市场板块只陈述公开数据与风险提示，模板应硬编码禁止仓位与买卖表述&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;检查本期市场板块是否出现买入、仓位或目标价字样，若命中 1 处即判定越界并回退该段&lt;/p&gt;&lt;p&gt;来源：Bloomberg Markets · 发布于 2026-11-14T20:00 UTC · 归类：market-invest&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.bloomberg.com/news/articles/2026-11-14/juicy-6-yields-gain-appeal-after-nvidia-drama-credit-weekly" rel="noopener noreferrer"&gt;https://www.bloomberg.com/news/articles/2026-11-14/juicy-6-yields-gain-appeal-after-nvidia-drama-credit-weekly&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-15:94d5fd03df4fff4e</ns0:id>
+    <ns0:title>[产业与资本] $1.5T Valuation, Zero .gitignore: How Claude Code Leaked 2,539 Live Secrets to GitHub</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://dev.to/devkursat/15t-valuation-zero-gitignore-how-claude-code-leaked-2539-live-secrets-to-github-4ndb" />
+    <ns0:published>2026-11-14T14:51:56.772000Z</ns0:published>
+    <ns0:updated>2026-11-14T22:53:41.482428Z</ns0:updated>
+    <ns0:category term="industry-capital" label="产业与资本" />
+    <ns0:summary type="text">Anthropic is preparing for a $1.5T IPO while its flagship coding agent, Claude Code, casually dumped 2,539 live developer secrets across 1… 〔Folo分类:开源项目〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;报道称 Anthropic 筹备 1.5T 估值 IPO 之际，Claude Code 把 2,539 个有效开发者密钥推上了 GitHub&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：1.5 / 2,539 · 相关方：Anthropic / Claude Code / GitHub&lt;/p&gt;&lt;p&gt;Anthropic is preparing for a $1.5T IPO while its flagship coding agent, Claude Code, casually dumped 2,539 live developer secrets across 1… 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;估值叙事与最基础的 .gitignore 缺失同框，说明 coding agent 的默认写入路径缺少凭据边界检查&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;直接命中 automation 与 skill 落盘环节：本项目的凭据扫描与 redact_credentials 属同类防线，应确认覆盖 agent 自动生成的临时文件&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对 agent 产出目录跑一次凭据正则扫描，若命中数 &amp;gt;0 则阻断发布并定位写入点，不能只依赖提交前人工检查&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-14T14:51 UTC · 归类：industry-capital&lt;/p&gt;&lt;p&gt;证据状态：未独立验证&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://dev.to/devkursat/15t-valuation-zero-gitignore-how-claude-code-leaked-2539-live-secrets-to-github-4ndb" rel="noopener noreferrer"&gt;https://dev.to/devkursat/15t-valuation-zero-gitignore-how-claude-code-leaked-2539-live-secrets-to-github-4ndb&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:daily-info.local,2026-11-13:3e8a63beb1fdbc55</ns0:id>
     <ns0:title>[产业与资本] Sources: Kalshi is in talks to raise funding at a $65B valuation, weeks after closing a round at a $40B valuation; its annual run rate recently surpassed $5B (Bloomberg)</ns0:title>
