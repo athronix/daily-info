@@ -7,6 +7,348 @@
   "language": "zh-CN",
   "items": [
     {
+      "id": "tag:daily-info.local,2026-11-16:f4086cc528cd49ce",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&mid=2652743100&idx=1&sn=e57278b28bf21f341ed34de97af26cb7&chksm=f0a61ab8ea653b37b7e67eda6332cfeac5770bf1fc78b66c1f9bd872201d3f7d3f233fa9d299&scene=0&xtrack=1",
+      "title": "12万人联名逼英伟达董事会请回黄仁勋！马斯克警告：没有老黄要丢大单",
+      "summary": "一篇转载称 Stand with Jensen 联名请愿在 24 小时内签名突破 10 万、远超前日 3000 人，并转述马斯克关于订单风险的警告。 — 12 万与 3000 的落差是全文最硬的读数，但来源为单一转载且含立场化措辞，数字与结论需分开对待。",
+      "content_html": "<p><strong>一篇转载称 Stand with Jensen 联名请愿在 24 小时内签名突破 10 万、远超前日 3000 人，并转述马斯克关于订单风险的警告。</strong></p><p>关键数字：12万 / 24小时 / 10万 / 3000 · 相关方：黄仁勋 / 英伟达 / 马斯克 / Stand with Jensen</p><p>强化学习、AI、深度学习｜硅谷正掀起一场“救黄”运动，要求黄仁勋重返英伟达CEO职位的“Stand with Jensen”联名请愿24小时内签名突破10万，远超前日3000人，迅速升级为逼宫董事会的行动。马斯克率先签署，并发出严厉警告：若黄仁勋不回归，英伟达将至少丧失部分关键订单，凸显其不可替代性与公司战略稳定性的紧密关联。</p><p><strong>为什么值得看：</strong>12 万与 3000 的落差是全文最硬的读数，但来源为单一转载且含立场化措辞，数字与结论需分开对待。</p><p><strong>对我意味着什么：</strong>暂无直接影响：属企业治理舆论，与我们的工程关注面无交集；仅作为高响度读数需一手复核的样本。</p><p><strong>下一步：</strong>在请愿平台核对签名数是否达到 10 万且 24 小时增量属实；若查不到可核验计数，则判定为未证实传闻并移出事实引用。</p><p>来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-16T00:50 UTC · 归类：deep-read</p><p>证据状态：未独立验证</p><p>→ <a href=\"https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&amp;mid=2652743100&amp;idx=1&amp;sn=e57278b28bf21f341ed34de97af26cb7&amp;chksm=f0a61ab8ea653b37b7e67eda6332cfeac5770bf1fc78b66c1f9bd872201d3f7d3f233fa9d299&amp;scene=0&amp;xtrack=1\" rel=\"noopener noreferrer\">https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&amp;mid=2652743100&amp;idx=1&amp;sn=e57278b28bf21f341ed34de97af26cb7&amp;chksm=f0a61ab8ea653b37b7e67eda6332cfeac5770bf1fc78b66c1f9bd872201d3f7d3f233fa9d299&amp;scene=0&amp;xtrack=1</a></p>",
+      "date_published": "2026-11-16T00:50:00Z",
+      "date_modified": "2026-11-16T02:01:41.758063Z",
+      "tags": [
+        "deep-read",
+        "深度长文"
+      ],
+      "_daily_info": {
+        "score": 77.12,
+        "source": "智源社区 · 最新分享（匿名 API）",
+        "cluster_id": "f4086cc528cd49ce",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-16:a850a5bee1633730",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/ula-vulcan-centaur-return-to-flight-amazon-leo-internet-satellite-launch",
+      "title": "Vulcan rocket fails during return-to-flight launch, 40 Amazon satellites lost",
+      "summary": "Vulcan 火箭在复飞发射中失败，报道称 40 颗 Amazon 卫星损失。 — 把一次发射失败折算成 40 颗的可数损失，说明大型系统的风险披露正从事故转向量化影响。",
+      "content_html": "<p><strong>Vulcan 火箭在复飞发射中失败，报道称 40 颗 Amazon 卫星损失。</strong></p><p>关键数字：40 · 相关方：Vulcan / Amazon</p><p>Comments 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>把一次发射失败折算成 40 颗的可数损失，说明大型系统的风险披露正从事故转向量化影响。</p><p><strong>对我意味着什么：</strong>暂无直接影响：航天事故与我们的关注面无关，但把故障换算成可数损失的写法可借鉴到我们自己的事故复盘模板。</p><p><strong>下一步：</strong>在自身变更事故复盘里加入受影响对象计数字段；若连续 3 次事故仍填不出该计数，则判定可观测性不足并补埋点。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-15T20:37 UTC · 归类：community</p><p>→ <a href=\"https://www.space.com/space-exploration/launches-spacecraft/ula-vulcan-centaur-return-to-flight-amazon-leo-internet-satellite-launch\" rel=\"noopener noreferrer\">https://www.space.com/space-exploration/launches-spacecraft/ula-vulcan-centaur-return-to-flight-amazon-leo-internet-satellite-launch</a></p>",
+      "date_published": "2026-11-15T20:37:28.366000Z",
+      "date_modified": "2026-11-16T02:01:41.758063Z",
+      "tags": [
+        "community",
+        "社区与观点"
+      ],
+      "_daily_info": {
+        "score": 75.84,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "a850a5bee1633730",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-16:47b57b00d8353101",
+      "url": "https://news.ycombinator.com/item?id=50510042",
+      "title": "Ask HN: Stripe closed us after one $1,500 invoice and never asked for evidence",
+      "summary": "一位商户在 Ask HN 发帖称 Stripe 在一张 $1,500 发票后关闭其账户且从未索取凭证。 — 金额很小却触发关停，指向风控自动化里的申诉缺口，读数与后果之间的不匹配才是重点。",
+      "content_html": "<p><strong>一位商户在 Ask HN 发帖称 Stripe 在一张 $1,500 发票后关闭其账户且从未索取凭证。</strong></p><p>关键数字：1,500 · 相关方：Stripe</p><p>Comments 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>金额很小却触发关停，指向风控自动化里的申诉缺口，读数与后果之间的不匹配才是重点。</p><p><strong>对我意味着什么：</strong>对应我们的自动化流水线设计：自动处置动作需保留人工申诉通道与可回滚记录，避免小额异常被不可逆处理。</p><p><strong>下一步：</strong>核对自家自动化里是否存在无凭证即终态的处置规则；若存在 ≥1 条且不可回滚，则补人工复核环节后再上线。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-15T19:49 UTC · 归类：community</p><p>证据状态：未独立验证</p><p>→ <a href=\"https://news.ycombinator.com/item?id=50510042\" rel=\"noopener noreferrer\">https://news.ycombinator.com/item?id=50510042</a></p>",
+      "date_published": "2026-11-15T19:49:28.016000Z",
+      "date_modified": "2026-11-16T02:01:41.758063Z",
+      "tags": [
+        "community",
+        "社区与观点"
+      ],
+      "_daily_info": {
+        "score": 76.94,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "47b57b00d8353101",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-16:fb60cc1ec1fcdcf5",
+      "url": "https://www.ft.com/content/450100ba-074c-46a6-b962-89dbef146135?syn-25a6b1a6=1",
+      "title": "Johnson & Johnson looking to buy eye disease biotech for up to $3.4bn",
+      "summary": "强生拟以最高 $3.4bn 收购眼病生物技术公司 Ollin Biosciences，被报道为生物技术板块密集交易中的最新一笔。 — 给出的是收购金额上限而非成交价，读这类读数要区分至多与已付，否则会高估交易规模。",
+      "content_html": "<p><strong>强生拟以最高 $3.4bn 收购眼病生物技术公司 Ollin Biosciences，被报道为生物技术板块密集交易中的最新一笔。</strong></p><p>关键数字：3.4 · 相关方：Johnson &amp; Johnson / Ollin Biosciences</p><p>Drugmaker’s potential acquisition of Ollin Biosciences is latest in glut of deals in biotechnology sector</p><p><strong>为什么值得看：</strong>给出的是收购金额上限而非成交价，读这类读数要区分至多与已付，否则会高估交易规模。</p><p><strong>对我意味着什么：</strong>暂无直接影响：医药并购与我们的 agent/数据基建关注面无关，仅作为上限型读数的辨析样本，不构成投资建议。</p><p><strong>下一步：</strong>跟踪是否披露最终成交价；若最终价低于 $3.4bn 超过 20%，则把该条改标为上限报价并修正引用口径。</p><p>来源：Financial Times · 发布于 2026-11-15T23:54 UTC · 归类：market-invest</p><p>→ <a href=\"https://www.ft.com/content/450100ba-074c-46a6-b962-89dbef146135?syn-25a6b1a6=1\" rel=\"noopener noreferrer\">https://www.ft.com/content/450100ba-074c-46a6-b962-89dbef146135?syn-25a6b1a6=1</a></p>",
+      "date_published": "2026-11-15T23:54:31Z",
+      "date_modified": "2026-11-16T02:01:41.758063Z",
+      "tags": [
+        "market-invest",
+        "市场与投资"
+      ],
+      "_daily_info": {
+        "score": 74.23,
+        "source": "Financial Times",
+        "cluster_id": "fb60cc1ec1fcdcf5",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-16:ff37d90f9a8644db",
+      "url": "https://www.36kr.com/newsflashes/4071714541769865",
+      "title": "摩根士丹利预计标普500指数将升至8700点，看好2027年的德国国债和英国国债",
+      "summary": "摩根士丹利在市场展望中把标普500 目标价上调至 8700 点，称隐含约 15% 上涨空间，并看好部分 G10 国家债券。 — 点位目标与隐含涨幅是可证伪的量化预测，适合作为事后校准卖方预期的样本，而非操作依据。",
+      "content_html": "<p><strong>摩根士丹利在市场展望中把标普500 目标价上调至 8700 点，称隐含约 15% 上涨空间，并看好部分 G10 国家债券。</strong></p><p>关键数字：8700 / 15% · 相关方：摩根士丹利 / 标普500 / Marina Zavolock</p><p>摩根士丹利在2027年市场展望中看好美国股票和部分G10国家债券。包括Marina Zavolock在内的策略师在11月15日的报告中写道，该行已将标普500指数的目标价上调至8700点，这意味着约有15%的上涨空间。“健康的盈利增长、趋稳的利率和油价、持续的人工智能投资与应用，以及低于公允价值的估值，支撑了我们对2027年的展望。”（新浪财经）</p><p><strong>为什么值得看：</strong>点位目标与隐含涨幅是可证伪的量化预测，适合作为事后校准卖方预期的样本，而非操作依据。</p><p><strong>对我意味着什么：</strong>暂无直接影响：属公开市场展望，与我们的工程关注面无关；此处只保留其可核验读数，不构成投资建议。</p><p><strong>下一步：</strong>把 8700 点与 15% 记为待验证预测，若对应周期结束时指数偏离目标超过 15%，则判定该展望失效并归档为校准样本。</p><p>来源：36氪快讯（RSSHub 镜像路由） · 发布于 2026-11-16T00:42 UTC · 归类：industry-capital</p><p>→ <a href=\"https://www.36kr.com/newsflashes/4071714541769865\" rel=\"noopener noreferrer\">https://www.36kr.com/newsflashes/4071714541769865</a></p>",
+      "date_published": "2026-11-16T00:42:13Z",
+      "date_modified": "2026-11-16T02:01:41.758063Z",
+      "tags": [
+        "industry-capital",
+        "产业与资本"
+      ],
+      "_daily_info": {
+        "score": 73.2,
+        "source": "36氪快讯（RSSHub 镜像路由）",
+        "cluster_id": "ff37d90f9a8644db",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-16:fc91828979fbf24c",
+      "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market",
+      "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
+      "summary": "印度芯片初创 Bharat Semi 拿到 $24M 种子轮，称其 AI 传感器技术已拿下包括 General Atomics 在内的设计订单。 — 种子轮金额与设计订单同时披露，给出资金与客户双读数，比单看融资额更能判断早期项目的落地程度。",
+      "content_html": "<p><strong>印度芯片初创 Bharat Semi 拿到 $24M 种子轮，称其 AI 传感器技术已拿下包括 General Atomics 在内的设计订单。</strong></p><p>关键数字：24M · 相关方：Bharat Semi / General Atomics</p><p>Bharat Semi says it has secured design wins for its AI-enabled sensor technology with companies including General Atomics. 〔Folo分类:AI技术与应用〕</p><p><strong>为什么值得看：</strong>种子轮金额与设计订单同时披露，给出资金与客户双读数，比单看融资额更能判断早期项目的落地程度。</p><p><strong>对我意味着什么：</strong>对 AI 传感器供应链是可用线索，但与当前 WorkBuddy/MCP/agent 部署关注面无直接交集，暂不纳入技术选型输入。</p><p><strong>下一步：</strong>核对 General Atomics 设计订单是否有第二来源；若 30 天内仍只有公司自述，则把该条标注为单一来源并降低可信等级。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-15T23:30 UTC · 归类：community</p><p>→ <a href=\"https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market\" rel=\"noopener noreferrer\">https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market</a></p>",
+      "date_published": "2026-11-15T23:30:00.555000Z",
+      "date_modified": "2026-11-16T02:01:41.758063Z",
+      "tags": [
+        "community",
+        "产业与资本"
+      ],
+      "_daily_info": {
+        "score": 76.15,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "fc91828979fbf24c",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-16:9781145a655dc727",
+      "url": "https://www.macrumors.com/2026/11/15/early-apple-watch-black-friday-deals",
+      "title": "Early Apple Watch Black Friday Deals Arrive With Series 12 Hitting New Record Lows",
+      "summary": "Amazon 与 Best Buy 提前给出 Apple Watch Series 12 的黑五折扣，降价 $70，覆盖 42mm 与 46mm 尺寸。 — 同一折扣同时给出金额与尺寸覆盖，是少数把促销口径写全的读数，便于判断适用范围而非只看标题价。",
+      "content_html": "<p><strong>Amazon 与 Best Buy 提前给出 Apple Watch Series 12 的黑五折扣，降价 $70，覆盖 42mm 与 46mm 尺寸。</strong></p><p>关键数字：70 / 42mm / 46mm · 相关方：Apple Watch Series 12 / Amazon / Best Buy</p><p>Amazon and Best Buy are offering early Black Friday discounts on Apple Watch Series 12, reducing prices by $70 across Aluminum, Titanium, and Ceramic models. These new low prices apply to both 42mm and 46mm sizes in GPS and Cellular variations. Retailers like Amazon and Best Buy are currently sellin</p><p><strong>为什么值得看：</strong>同一折扣同时给出金额与尺寸覆盖，是少数把促销口径写全的读数，便于判断适用范围而非只看标题价。</p><p><strong>对我意味着什么：</strong>暂无直接影响：消费电子促销与我们的 agent/数据基建关注面无关，此处仅作为可核验读数完整性的对照样本。</p><p><strong>下一步：</strong>若后续出现同型号更高折扣，比较 $70 是否被突破；差额超过 $70 时判定 record low 表述失效，不再引用该条作为极值。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-15T17:59 UTC · 归类：docs-changelog</p><p>→ <a href=\"https://www.macrumors.com/2026/11/15/early-apple-watch-black-friday-deals\" rel=\"noopener noreferrer\">https://www.macrumors.com/2026/11/15/early-apple-watch-black-friday-deals</a></p>",
+      "date_published": "2026-11-15T17:59:53.286000Z",
+      "date_modified": "2026-11-16T02:01:41.758063Z",
+      "tags": [
+        "docs-changelog",
+        "文档与变更"
+      ],
+      "_daily_info": {
+        "score": 74.27,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "9781145a655dc727",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-16:042b8471176f671c",
+      "url": "https://www.engadget.com/2317185/italy-orders-meta-to-pay-887m-for-not-obtaining-specific-consent-over-user-photos",
+      "title": "Italy orders Meta to pay $887M for not obtaining specific consent over user photos",
+      "summary": "意大利监管机构就未取得用户照片的特定同意，要求 Meta 支付 $887M，Meta 计划提起上诉。 — 把同意这一细粒度合规要求直接折算成可计量罚款，说明数据采集的授权粒度有明确的财务后果。",
+      "content_html": "<p><strong>意大利监管机构就未取得用户照片的特定同意，要求 Meta 支付 $887M，Meta 计划提起上诉。</strong></p><p>关键数字：887 · 相关方：Meta / Italy</p><p>Meta is reportedly planning to appeal the fine. 〔Folo分类:新奇产品〕</p><p><strong>为什么值得看：</strong>把同意这一细粒度合规要求直接折算成可计量罚款，说明数据采集的授权粒度有明确的财务后果。</p><p><strong>对我意味着什么：</strong>对应我们的数据基建与凭据治理：采集或留存涉及用户内容时，同意范围与用途需可追溯，否则口径风险会外溢到产物。</p><p><strong>下一步：</strong>核对本地采集是否留存用户照片类字段，若存在且无逐项同意记录，则在下一次产物落盘前移除该字段并记为整改项。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-15T17:44 UTC · 归类：docs-changelog</p><p>→ <a href=\"https://www.engadget.com/2317185/italy-orders-meta-to-pay-887m-for-not-obtaining-specific-consent-over-user-photos\" rel=\"noopener noreferrer\">https://www.engadget.com/2317185/italy-orders-meta-to-pay-887m-for-not-obtaining-specific-consent-over-user-photos</a></p>",
+      "date_published": "2026-11-15T17:44:06.463000Z",
+      "date_modified": "2026-11-16T02:01:41.758063Z",
+      "tags": [
+        "docs-changelog",
+        "文档与变更"
+      ],
+      "_daily_info": {
+        "score": 74.12,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "042b8471176f671c",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-16:1a391f32e27ef31a",
+      "url": "https://sspai.com/post/119119",
+      "title": "派早报：Microsoft 365 服务在 19 小时全球宕机后恢复",
+      "summary": "派早报汇总 Microsoft 365 在 19 小时全球宕机后恢复，并提到超 100,000 签名的请愿与 Blackwell GPU 特征等数条动态。 — 一次长时宕机与多条产业动态被压进同一条早报，暴露聚合源把不同证据等级的读数并列的问题。",
+      "content_html": "<p><strong>派早报汇总 Microsoft 365 在 19 小时全球宕机后恢复，并提到超 100,000 签名的请愿与 Blackwell GPU 特征等数条动态。</strong></p><p>关键数字：19 / 100,000 · 相关方：Microsoft 365 / Blackwell / Tesla Cybercab</p><p>Microsoft 365 services resumed after a 19-hour global outage. The briefing also covers several other topics: domestic frontier AI models exhibiting Blackwell GPU features, a US-wide aviation halt caused by cable replacement, a petition with over 100,000 signatures demanding Jensen Huang&#x27;s reinstatem</p><p><strong>为什么值得看：</strong>一次长时宕机与多条产业动态被压进同一条早报，暴露聚合源把不同证据等级的读数并列的问题。</p><p><strong>对我意味着什么：</strong>对我们的采集链是反面参照：多话题聚合条目不宜作为单一事实源，入库前需按事件拆分与标注，避免数字串台。</p><p><strong>下一步：</strong>把该条按事件拆成独立记录，若 19 小时与 100,000 两个读数无法各自找到一手来源，则判定为聚合噪声并降级为线索。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-15T23:24 UTC · 归类：docs-changelog</p><p>→ <a href=\"https://sspai.com/post/119119\" rel=\"noopener noreferrer\">https://sspai.com/post/119119</a></p>",
+      "date_published": "2026-11-15T23:24:34.371000Z",
+      "date_modified": "2026-11-16T02:01:41.758063Z",
+      "tags": [
+        "docs-changelog",
+        "文档与变更"
+      ],
+      "_daily_info": {
+        "score": 77.69,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "1a391f32e27ef31a",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-16:28b10992cceb6449",
+      "url": "https://blog.archive.org/2026/11/12/preserving-30-years-of-salon-journalism",
+      "title": "Preserving 30 Years of Salon Journalism",
+      "summary": "一篇存档主题文章以 30 Years 为题记录对 Salon 新闻的保存跨度，摘要区仅留 Comments 未给更多细节。 — 长周期网页存档是可核验的时间跨度数字，提醒数据基建里保留多久本身是一项需要明示的口径。",
+      "content_html": "<p><strong>一篇存档主题文章以 30 Years 为题记录对 Salon 新闻的保存跨度，摘要区仅留 Comments 未给更多细节。</strong></p><p>关键数字：30 · 相关方：Salon</p><p>Comments 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>长周期网页存档是可核验的时间跨度数字，提醒数据基建里保留多久本身是一项需要明示的口径。</p><p><strong>对我意味着什么：</strong>对应我们的归档与去重策略：30 年跨度提示长期留存不能只靠摘要，需保留原始快照与可追溯时间戳。</p><p><strong>下一步：</strong>对照本地归档保留窗口，若窗口明显短于该量级且无原始快照，则补一份不可变快照清单后再谈长期可用。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-15T23:00 UTC · 归类：dev-tools</p><p>→ <a href=\"https://blog.archive.org/2026/11/12/preserving-30-years-of-salon-journalism\" rel=\"noopener noreferrer\">https://blog.archive.org/2026/11/12/preserving-30-years-of-salon-journalism</a></p>",
+      "date_published": "2026-11-15T23:00:11.491000Z",
+      "date_modified": "2026-11-16T02:01:41.758063Z",
+      "tags": [
+        "dev-tools",
+        "开发者工具与版本"
+      ],
+      "_daily_info": {
+        "score": 77.41,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "28b10992cceb6449",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-16:2cff81e9a05646a1",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-groq%3D%3D1.2.0",
+      "title": "langchain-groq==1.2.0",
+      "summary": "LangChain 发布 langchain-groq 1.2.0，相对 1.1.3 在集成测试中显式指定 reasoning_effort，并把 ChatGroq 改走 LangSmith gateway。 — 与 mistralai 包同批改走 gateway，说明这是平台级路由调整而非单个 provider 的修复，跨包一致性需一起验证。",
+      "content_html": "<p><strong>LangChain 发布 langchain-groq 1.2.0，相对 1.1.3 在集成测试中显式指定 reasoning_effort，并把 ChatGroq 改走 LangSmith gateway。</strong></p><p>关键数字：1.2.0 / 1.1.3 · 相关方：langchain-groq / LangSmith / ChatGroq</p><p>Changes since langchain-groq==1.1.3 fix(groq): specify reasoning_effort in integration tests (#41886) fix(groq,mistralai,xai): bump deps (#41884) release(groq): 1.2.0 (#41856) feat(groq): route ChatGroq through LangSmith gateway (#41837) feat(partners): Remove EOL&#x27;d Python 3.10 from partner packages</p><p><strong>为什么值得看：</strong>与 mistralai 包同批改走 gateway，说明这是平台级路由调整而非单个 provider 的修复，跨包一致性需一起验证。</p><p><strong>对我意味着什么：</strong>对 automation 链路里经 LangChain 调用 Groq 的部分是一次隐性依赖变更，升级会影响网关鉴权与超时配置。</p><p><strong>下一步：</strong>把 groq 与 mistralai 两个包同时升级后跑统一回归；若任一包出现 reasoning_effort 被忽略或超时错误，则整批回滚到 1.1.3/1.1.6。</p><p>来源：LangChain Releases · 发布于 2026-11-15T21:49 UTC · 归类：docs-changelog</p><p>→ <a href=\"https://github.com/langchain-ai/langchain/releases/tag/langchain-groq%3D%3D1.2.0\" rel=\"noopener noreferrer\">https://github.com/langchain-ai/langchain/releases/tag/langchain-groq%3D%3D1.2.0</a></p>",
+      "date_published": "2026-11-15T21:49:10Z",
+      "date_modified": "2026-11-16T02:01:41.758063Z",
+      "tags": [
+        "docs-changelog",
+        "开发者工具与版本"
+      ],
+      "_daily_info": {
+        "score": 73.9,
+        "source": "LangChain Releases",
+        "cluster_id": "2cff81e9a05646a1",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-16:505dd0d701f36e99",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-mistralai%3D%3D1.2.0",
+      "title": "langchain-mistralai==1.2.0",
+      "summary": "LangChain 发布 langchain-mistralai 1.2.0，相对 1.1.6 修复推理模型流式行为，并把 ChatMistralAI 改走 LangSmith gateway。 — 把 partner 模型统一路由到自家 gateway，是工具链收口而非功能新增，升级时需留意调用链被改写。",
+      "content_html": "<p><strong>LangChain 发布 langchain-mistralai 1.2.0，相对 1.1.6 修复推理模型流式行为，并把 ChatMistralAI 改走 LangSmith gateway。</strong></p><p>关键数字：1.2.0 / 1.1.6 · 相关方：langchain-mistralai / LangSmith / ChatMistralAI</p><p>Changes since langchain-mistralai==1.1.6 fix(mistralai): fix streaming behavior for reasoning models (#41887) fix(groq,mistralai,xai): bump deps (#41884) chore(model-profiles): refresh model profile data (#41861) release(mistralai): 1.2.0 (#41859) feat(mistralai): route ChatMistralAI through LangSmi</p><p><strong>为什么值得看：</strong>把 partner 模型统一路由到自家 gateway，是工具链收口而非功能新增，升级时需留意调用链被改写。</p><p><strong>对我意味着什么：</strong>我们的 MCP/A2A 链路里若有走 LangChain 的适配层，1.2.0 的 gateway 变更会影响可观测与代理配置，升级前应做回归。</p><p><strong>下一步：</strong>在测试环境把依赖升到 1.2.0 跑一遍流式推理 smoke，若出现调用链中断或流式分片异常，则判定不兼容并锁定 1.1.6。</p><p>来源：LangChain Releases · 发布于 2026-11-15T22:38 UTC · 归类：ai-models</p><p>→ <a href=\"https://github.com/langchain-ai/langchain/releases/tag/langchain-mistralai%3D%3D1.2.0\" rel=\"noopener noreferrer\">https://github.com/langchain-ai/langchain/releases/tag/langchain-mistralai%3D%3D1.2.0</a></p>",
+      "date_published": "2026-11-15T22:38:06Z",
+      "date_modified": "2026-11-16T02:01:41.758063Z",
+      "tags": [
+        "ai-models",
+        "模型与研究"
+      ],
+      "_daily_info": {
+        "score": 74.45,
+        "source": "LangChain Releases",
+        "cluster_id": "505dd0d701f36e99",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-16:3c784896e5d8dae1",
+      "url": "https://arex-research.com/feeds/a655c45f-f32c-4e74-8be0-e69ed2489277",
+      "title": "美团开源 LongCat-2.5 权重：1.6 万亿参数 MoE Agent 模型，自托管指南未提供 Nvidia GPU 路径",
+      "summary": "美团 LongCat 团队开源 LongCat-2.5 权重，采用 MIT 许可证，总参数 1.6 万亿的 MoE 模型每 token 约激活 480 亿参数，定位长程多步 agent 任务。 — 万亿级总参数与 480 亿激活量的稀疏结构把推理门槛压低，但报道明确指出自托管指南未给 Nvidia GPU 路径，开放权重不等于可落地。",
+      "content_html": "<p><strong>美团 LongCat 团队开源 LongCat-2.5 权重，采用 MIT 许可证，总参数 1.6 万亿的 MoE 模型每 token 约激活 480 亿参数，定位长程多步 agent 任务。</strong></p><p>关键数字：2.5 / 1.6 万亿 / 480 亿 · 相关方：美团 / LongCat-2.5 / MoE / MIT / Nvidia</p><p>资讯｜据 The Decoder 2026 年 11 月 15 日的详细报道，美团 LongCat 团队已发布 LongCat-2.5 的开源权重，采用 MIT 许可证，允许商用、修改与再分发。这是一个总参数 1.6 万亿的 MoE（混合专家）模型，每个 token（词元）约激活 480 亿参数，原生处理多模态输入，定位是执行长程多步任务的自主 agent（智能体…</p><p><strong>为什么值得看：</strong>万亿级总参数与 480 亿激活量的稀疏结构把推理门槛压低，但报道明确指出自托管指南未给 Nvidia GPU 路径，开放权重不等于可落地。</p><p><strong>对我意味着什么：</strong>影响本地模型选型与 WinVM 侧自托管评估：在拿到可复现的 GPU 部署步骤前，不把该权重列入可用 provider，只作架构参考。</p><p><strong>下一步：</strong>查找官方自托管文档，若仍无 Nvidia GPU 路径或最小显存配置，则判定为权重开放、部署路径未开放，暂缓纳入自托管测试队列。</p><p>来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-15T18:56 UTC · 归类：ai-models</p><p>→ <a href=\"https://arex-research.com/feeds/a655c45f-f32c-4e74-8be0-e69ed2489277\" rel=\"noopener noreferrer\">https://arex-research.com/feeds/a655c45f-f32c-4e74-8be0-e69ed2489277</a></p>",
+      "date_published": "2026-11-15T18:56:00Z",
+      "date_modified": "2026-11-16T02:01:41.758063Z",
+      "tags": [
+        "ai-models",
+        "模型与研究"
+      ],
+      "_daily_info": {
+        "score": 74.81,
+        "source": "智源社区 · 最新分享（匿名 API）",
+        "cluster_id": "3c784896e5d8dae1",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-16:bbd5c593a5dbb4b3",
+      "url": "https://dev.to/10xgraph/10xgraph-10-the-backend-your-ai-agent-needs-before-it-ships-to-customers-1loa",
+      "title": "10xGraph 1.0: the backend your AI agent needs before it ships to customers",
+      "summary": "10xGraph 发布 1.0，定位为 AI agent 交付客户前所需的后端层，主张 demo 与可上线系统之间差的是后端能力而非模型。 — 把 agent 落地缺口从模型能不能跑重新定义成持久化、权限与可观测后端，是工程侧的清醒判断。",
+      "content_html": "<p><strong>10xGraph 发布 1.0，定位为 AI agent 交付客户前所需的后端层，主张 demo 与可上线系统之间差的是后端能力而非模型。</strong></p><p>关键数字：1.0 · 相关方：10xGraph / AI agent</p><p>Getting an AI agent to work is the easy part now. A model, a few tools and a loop, and you have a demo in an afternoon. Then someone asks… 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>把 agent 落地缺口从模型能不能跑重新定义成持久化、权限与可观测后端，是工程侧的清醒判断。</p><p><strong>对我意味着什么：</strong>对应我们 agent 部署与数据基建的分层：可对照其后端清单检查 WinVM/A2A 链路里是否缺持久化与审计两类能力。</p><p><strong>下一步：</strong>列出其宣称的后端能力清单并与本地 agent 栈逐项对照，若缺失项 ≥2 个且影响审计或回滚，则先把缺口补进部署清单再评估接入。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-15T20:13 UTC · 归类：agent-engineering</p><p>→ <a href=\"https://dev.to/10xgraph/10xgraph-10-the-backend-your-ai-agent-needs-before-it-ships-to-customers-1loa\" rel=\"noopener noreferrer\">https://dev.to/10xgraph/10xgraph-10-the-backend-your-ai-agent-needs-before-it-ships-to-customers-1loa</a></p>",
+      "date_published": "2026-11-15T20:13:30.740000Z",
+      "date_modified": "2026-11-16T02:01:41.758063Z",
+      "tags": [
+        "agent-engineering",
+        "Agent 与工程"
+      ],
+      "_daily_info": {
+        "score": 75.59,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "bbd5c593a5dbb4b3",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-16:9555a9e6eb0016f5",
+      "url": "https://arex-research.com/feeds/a4499309-898b-478d-a4ab-a7db99057011",
+      "title": "Anthropic 公开 Claude Code 团队 AI 代码评审流程：人工审批按风险分级，自报合并 PR 翻倍以上、回退占比降超 40%",
+      "summary": "Anthropic 公开 Claude Code 团队的 AI 代码评审流程，按风险分级做人工审批，自报合并 PR 翻倍以上、回退占比降超 40%。 — 把 AI 写代码的瓶颈定位在人工审批分层而非生成能力，是流程工程而非模型能力提升带来的收益。",
+      "content_html": "<p><strong>Anthropic 公开 Claude Code 团队的 AI 代码评审流程，按风险分级做人工审批，自报合并 PR 翻倍以上、回退占比降超 40%。</strong></p><p>关键数字：40% · 相关方：Anthropic / Claude Code / InfoQ</p><p>资讯｜据 InfoQ 11 月 15 日报道，Anthropic 在其 claude.dev 博客发表题为《How the Claude Code team does code review》的文章，署名为 Addy Osmani、Morgan Westlee Lunt 与 Qing Wang，公开了团队在“Claude 编写了 Claude Code 自身约 9…</p><p><strong>为什么值得看：</strong>把 AI 写代码的瓶颈定位在人工审批分层而非生成能力，是流程工程而非模型能力提升带来的收益。</p><p><strong>对我意味着什么：</strong>可迁移到我们的自动化流水线：按风险分级决定哪些改动自动合并、哪些必须人工复核，比一刀切 gate 更能兼顾吞吐与可回滚性。</p><p><strong>下一步：</strong>先统计自身仓库回退占比基线，若引入风险分级后 2 个迭代内降幅未达 40%，则判定分级规则过松，收紧高风险变更的人工审批条件。</p><p>来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-15T18:56 UTC · 归类：market-invest</p><p>→ <a href=\"https://arex-research.com/feeds/a4499309-898b-478d-a4ab-a7db99057011\" rel=\"noopener noreferrer\">https://arex-research.com/feeds/a4499309-898b-478d-a4ab-a7db99057011</a></p>",
+      "date_published": "2026-11-15T18:56:00Z",
+      "date_modified": "2026-11-16T02:01:41.758063Z",
+      "tags": [
+        "market-invest",
+        "Agent 与工程"
+      ],
+      "_daily_info": {
+        "score": 73.21,
+        "source": "智源社区 · 最新分享（匿名 API）",
+        "cluster_id": "9555a9e6eb0016f5",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-16:16b2dbffe2c452b4",
+      "url": "https://dev.to/githubopensource/claude-fable-52-code-execution-updates-and-local-agent-workflows-10o3",
+      "title": "Claude Fable 5.2, Code Execution Updates, and Local Agent Workflows",
+      "summary": "一篇 dev.to 帖称 Anthropic 发布 Claude Fable 5.2，同时给出 API 降价 20 percent 与提速 30 percent 的说法，并附带本地 agent 工作流更新。 — 降价与提速同时出现，反映推理成本的竞争焦点，但单一社区源、产品命名与官方命名不一致，读数需一手 changelog 复核。",
+      "content_html": "<p><strong>一篇 dev.to 帖称 Anthropic 发布 Claude Fable 5.2，同时给出 API 降价 20 percent 与提速 30 percent 的说法，并附带本地 agent 工作流更新。</strong></p><p>关键数字：5.2 / 20 / 30 · 相关方：Anthropic / Claude Fable 5.2 / API</p><p>TL;DR Anthropic released Claude Fable 5.2 alongside a 20 percent API price cut and a 30 percent speed boost, while introducing an… 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>降价与提速同时出现，反映推理成本的竞争焦点，但单一社区源、产品命名与官方命名不一致，读数需一手 changelog 复核。</p><p><strong>对我意味着什么：</strong>若属实会影响模型调用成本估算与 WinVM 侧 provider 选型；在官方确认前不写进成本基线，避免把 unverified 读数当预算输入。</p><p><strong>下一步：</strong>对照 Anthropic 官方 changelog 核验 5.2 与 20 percent/30 percent；若 48 小时内无官方条目，则判定为未证实社区传闻并从成本模型剔除。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-15T19:53 UTC · 归类：agent-engineering</p><p>证据状态：未独立验证</p><p>→ <a href=\"https://dev.to/githubopensource/claude-fable-52-code-execution-updates-and-local-agent-workflows-10o3\" rel=\"noopener noreferrer\">https://dev.to/githubopensource/claude-fable-52-code-execution-updates-and-local-agent-workflows-10o3</a></p>",
+      "date_published": "2026-11-15T19:53:52.316000Z",
+      "date_modified": "2026-11-16T02:01:41.758063Z",
+      "tags": [
+        "agent-engineering",
+        "Agent 与工程"
+      ],
+      "_daily_info": {
+        "score": 75.39,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "16b2dbffe2c452b4",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-16:3781448153b0315f",
+      "url": "https://github.com/NVIDIA/SkillEvaluator",
+      "title": "NVIDIA/SkillEvaluator",
+      "summary": "NVIDIA 开源基于 Python 的 SkillEvaluator 框架，用质量闸门与语义重叠检测评估 agent skill，仓库已积累 1,308 星、154 次 fork。 — 评测从看效果转向可量化闸门，说明 skill 的准入正被当成工程依赖对待，而不是提示词草稿。",
+      "content_html": "<p><strong>NVIDIA 开源基于 Python 的 SkillEvaluator 框架，用质量闸门与语义重叠检测评估 agent skill，仓库已积累 1,308 星、154 次 fork。</strong></p><p>关键数字：1,308 / 154 · 相关方：SkillEvaluator / NVIDIA / Python / GitHub</p><p>The SkillEvaluator project is a Python-based framework for assessing AI agent capabilities. It features a multi-tier evaluation structure incorporating quality gates and semantic overlap detection to analyze agent skills. The tool generates synthetic datasets and performs live agent evaluations to m</p><p><strong>为什么值得看：</strong>评测从看效果转向可量化闸门，说明 skill 的准入正被当成工程依赖对待，而不是提示词草稿。</p><p><strong>对我意味着什么：</strong>与我们的 agent 部署评测链直接相关：其语义重叠检测可迁移为 skill 去重与冲突检测的一道 gate，减少自动化链路里的隐性覆盖。</p><p><strong>下一步：</strong>在本地 skill 集上跑一次评测，若语义重叠检出数 &gt;0 且人工确认存在真冲突，则把该检测加进部署前 gate；0 检出则暂不接入以免徒增开销。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-15T13:21 UTC · 归类：agent-engineering</p><p>→ <a href=\"https://github.com/NVIDIA/SkillEvaluator\" rel=\"noopener noreferrer\">https://github.com/NVIDIA/SkillEvaluator</a></p>",
+      "date_published": "2026-11-15T13:21:08.007000Z",
+      "date_modified": "2026-11-16T02:01:41.758063Z",
+      "tags": [
+        "agent-engineering",
+        "Agent 与工程"
+      ],
+      "_daily_info": {
+        "score": 78.05,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "3781448153b0315f",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-16:c6524b3bb676a860",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "title": "elementalsouls/Claude-BugHunter",
+      "summary": "elementalsouls 把 82 个专用 skill、15 条 slash command 与 681 条已披露报告模式打包成 Claude-BugHunter 开源 Python skill 集。 — 把红队经验固化成可复用 skill 包，规模数字首次让 skill 资产可被清点，也给 skill 供应链的审计面立了参照。",
+      "content_html": "<p><strong>elementalsouls 把 82 个专用 skill、15 条 slash command 与 681 条已披露报告模式打包成 Claude-BugHunter 开源 Python skill 集。</strong></p><p>关键数字：82 / 15 / 681 / 24 / 5,895 · 相关方：Claude-BugHunter / Python</p><p>Claude-BugHunter is an open-source Python skill bundle designed for bug hunting and external red-team operations. The collection comprises 82 specialized skills, 15 slash commands, and 681 disclosed-report patterns covering 24 core vulnerability classes. It also includes enterprise identity and infr</p><p><strong>为什么值得看：</strong>把红队经验固化成可复用 skill 包，规模数字首次让 skill 资产可被清点，也给 skill 供应链的审计面立了参照。</p><p><strong>对我意味着什么：</strong>直接对应我们的 skill 版本化与部署治理：82 个 skill 与 681 条模式的组织方式，可作为 WorkBuddy/MCP skill 包分层与准入清单的对照样本。</p><p><strong>下一步：</strong>拉取仓库逐一核对 skill 目录数与 82 是否一致；若偏差超过 10% 或缺版本锁定文件，则判定不可直接接入，先补 manifest 再评估。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-15T13:21 UTC · 归类：agent-engineering</p><p>→ <a href=\"https://github.com/elementalsouls/Claude-BugHunter\" rel=\"noopener noreferrer\">https://github.com/elementalsouls/Claude-BugHunter</a></p>",
+      "date_published": "2026-11-15T13:21:08.010000Z",
+      "date_modified": "2026-11-16T02:01:41.758063Z",
+      "tags": [
+        "agent-engineering",
+        "Agent 与工程"
+      ],
+      "_daily_info": {
+        "score": 79.65,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "c6524b3bb676a860",
+        "ai_status": "ok"
+      }
+    },
+    {
       "id": "tag:daily-info.local,2026-11-15:6626aeba79c7bc1a",
       "url": "https://www.slashgear.com/2314503/most-affordable-solar-powered-gadgets-use-at-home-yard",
       "title": "11 Of The Most Affordable Solar-Powered Gadgets You Can Use In Your Yard",
@@ -1561,348 +1903,6 @@
         "score": 78.96,
         "source": "Folo 订阅池基线（人工筛选信源）",
         "cluster_id": "5abe40cdd3f03602",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-09:83254f823c84d293",
-      "url": "https://dev.to/randynorthrup/7-multistream-chat-tools-compared-every-cell-sourced-to-their-own-docs-239c",
-      "title": "7 multistream chat tools compared, every cell sourced to their own docs",
-      "summary": "作者对比 7 个 multistream chat 工具，声称表格每个单元格都溯源到各家自己的文档，并开源了配套工具 CrossChat — 把每个比较单元格都挂回一手文档，是对照表能否被复核的分界线。",
-      "content_html": "<p><strong>作者对比 7 个 multistream chat 工具，声称表格每个单元格都溯源到各家自己的文档，并开源了配套工具 CrossChat</strong></p><p>关键数字：7 · 相关方：CrossChat / OBS / multistream chat tools</p><p>If you stream to more than one platform, your chat lives in several places at once. I made CrossChat, a free, open-source companion for OBS… 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>把每个比较单元格都挂回一手文档，是对照表能否被复核的分界线。</p><p><strong>对我意味着什么：</strong>直接呼应本项目数字白名单闸门：结论只有能逐项回原文才准进报，跨源拼凑的值一律丢弃。</p><p><strong>下一步：</strong>抽查表中任意 7 个单元格的出处链接，若有 1 个打不到对应文档则判定该对比不可引用。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-08T17:17 UTC · 归类：docs-changelog</p><p>→ <a href=\"https://dev.to/randynorthrup/7-multistream-chat-tools-compared-every-cell-sourced-to-their-own-docs-239c\" rel=\"noopener noreferrer\">https://dev.to/randynorthrup/7-multistream-chat-tools-compared-every-cell-sourced-to-their-own-docs-239c</a></p>",
-      "date_published": "2026-11-08T17:17:14.644000Z",
-      "date_modified": "2026-11-09T01:51:44.934256Z",
-      "tags": [
-        "docs-changelog",
-        "开发者工具与版本"
-      ],
-      "_daily_info": {
-        "score": 74.0,
-        "source": "Folo 订阅池基线（人工筛选信源）",
-        "cluster_id": "83254f823c84d293",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-09:282cc56cf39d2406",
-      "url": "https://dev.to/anguoyang/the-official-rkllm-vision-demo-doesnt-run-on-the-transformers-it-targets-a-five-version-bisection-4a7i",
-      "title": "The official RKLLM vision demo doesn't run on the transformers it targets — a five-version bisection",
-      "summary": "开发者转换 Qwen2-VL-2B-Instruct 到 Rockchip 板，发现官方 RKLLM vision demo 在目标 transformers 上跑不起来，用五个版本二分定位 — 官方 demo 与目标版本不兼容这件事靠逐版本回退定位，比换更大模型更贴近真实工程成本。",
-      "content_html": "<p><strong>开发者转换 Qwen2-VL-2B-Instruct 到 Rockchip 板，发现官方 RKLLM vision demo 在目标 transformers 上跑不起来，用五个版本二分定位</strong></p><p>关键数字：Qwen2-VL-2B-Instruct / 2B · 相关方：Qwen2-VL-2B-Instruct / Rockchip / rknn-llm / transformers / RKLLM</p><p>I&#x27;m converting Qwen2-VL-2B-Instruct to run on a Rockchip board with Rockchip&#x27;s official rknn-llm toolkit. Step one is exporting the vision… 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>官方 demo 与目标版本不兼容这件事靠逐版本回退定位，比换更大模型更贴近真实工程成本。</p><p><strong>对我意味着什么：</strong>对 WinVM 与桌面端插件的启示：宿主依赖版本变更后应跑一次最小复现，而不是只看安装是否成功。</p><p><strong>下一步：</strong>在目标环境复现一次版本二分，若 5 个候选版本中定位不到首个可用版本则判定该依赖组合不可用。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-08T22:11 UTC · 归类：ai-models</p><p>→ <a href=\"https://dev.to/anguoyang/the-official-rkllm-vision-demo-doesnt-run-on-the-transformers-it-targets-a-five-version-bisection-4a7i\" rel=\"noopener noreferrer\">https://dev.to/anguoyang/the-official-rkllm-vision-demo-doesnt-run-on-the-transformers-it-targets-a-five-version-bisection-4a7i</a></p>",
-      "date_published": "2026-11-08T22:11:01.693000Z",
-      "date_modified": "2026-11-09T01:51:44.934256Z",
-      "tags": [
-        "ai-models",
-        "开发者工具与版本"
-      ],
-      "_daily_info": {
-        "score": 78.61,
-        "source": "Folo 订阅池基线（人工筛选信源）",
-        "cluster_id": "282cc56cf39d2406",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-09:6346806ff2c40fcb",
-      "url": "https://dev.to/vellumkasane/week-7-of-an-llm-trying-to-earn-money-on-its-own-i-posted-a-wrong-measurement-corrected-it-and-558j",
-      "title": "Week 7 of an LLM trying to earn money on its own: I posted a wrong measurement, corrected it, and the correction got merged. Still $0",
-      "summary": "一个由 LLM agent（Claude Code）运营的账户自述第 7 周更正了一处错误测量并被合并，收入仍为 $0 — 把错误测量公开更正并合并进流程，比宣称自主赚钱更接近可复盘的 agent 运行记录。",
-      "content_html": "<p><strong>一个由 LLM agent（Claude Code）运营的账户自述第 7 周更正了一处错误测量并被合并，收入仍为 $0</strong></p><p>关键数字：Week 7 / $0 · 相关方：Claude Code / Vellum Labs / LLM agent / API</p><p>Disclosure: this post was written by an LLM agent (Claude Code) that operates the Vellum Labs account. Every number below comes from an API… 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>把错误测量公开更正并合并进流程，比宣称自主赚钱更接近可复盘的 agent 运行记录。</p><p><strong>对我意味着什么：</strong>对 automation 的直接提醒：无人值守任务的价值是可回放的状态与更正记录，而非单轮结果。</p><p><strong>下一步：</strong>在本流水线补一条更正留痕字段，若 1 条被更正读数无法追溯到原条目则判定回放链不完整。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-08T23:02 UTC · 归类：agent-engineering</p><p>证据状态：未独立验证</p><p>→ <a href=\"https://dev.to/vellumkasane/week-7-of-an-llm-trying-to-earn-money-on-its-own-i-posted-a-wrong-measurement-corrected-it-and-558j\" rel=\"noopener noreferrer\">https://dev.to/vellumkasane/week-7-of-an-llm-trying-to-earn-money-on-its-own-i-posted-a-wrong-measurement-corrected-it-and-558j</a></p>",
-      "date_published": "2026-11-08T23:02:46.848000Z",
-      "date_modified": "2026-11-09T01:51:44.934256Z",
-      "tags": [
-        "agent-engineering",
-        "Agent 与工程"
-      ],
-      "_daily_info": {
-        "score": 79.2,
-        "source": "Folo 订阅池基线（人工筛选信源）",
-        "cluster_id": "6346806ff2c40fcb",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-09:1876b9abaa20b9f0",
-      "url": "https://github.com/SWE-agent/mini-swe-agent",
-      "title": "SWE-agent/mini-swe-agent",
-      "summary": "SWE-agent 发布 mini-swe-agent，自称用 100 行实现的 AI agent 可解 GitHub issue 或在命令行协助 — 用 100 行把 agent 骨架收敛到可读规模，暴露的是编排逻辑而非框架体积。",
-      "content_html": "<p><strong>SWE-agent 发布 mini-swe-agent，自称用 100 行实现的 AI agent 可解 GitHub issue 或在命令行协助</strong></p><p>关键数字：100 · 相关方：SWE-agent / mini-swe-agent / GitHub</p><p>The 100 line AI agent that solves GitHub issues or helps you in your command line. Radically simple, no huge configs, no giant… 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>用 100 行把 agent 骨架收敛到可读规模，暴露的是编排逻辑而非框架体积。</p><p><strong>对我意味着什么：</strong>对 WinVM Bridge 的直接参照：直接 MCP 工具调用这条简单路径应能收敛成一个可读的最小实现。</p><p><strong>下一步：</strong>对照其 100 行骨架复现一次最小 agent 循环，若本仓库 simple 路径代码超过其 3 倍则判定需拆分。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-09T00:03 UTC · 归类：agent-engineering</p><p>→ <a href=\"https://github.com/SWE-agent/mini-swe-agent\" rel=\"noopener noreferrer\">https://github.com/SWE-agent/mini-swe-agent</a></p>",
-      "date_published": "2026-11-09T00:03:43.949000Z",
-      "date_modified": "2026-11-09T01:51:44.934256Z",
-      "tags": [
-        "agent-engineering",
-        "Agent 与工程"
-      ],
-      "_daily_info": {
-        "score": 78.32,
-        "source": "Folo 订阅池基线（人工筛选信源）",
-        "cluster_id": "1876b9abaa20b9f0",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-09:66d41b8aa3e54926",
-      "url": "https://github.com/humanlayer/12-factor-agents",
-      "title": "humanlayer/12-factor-agents",
-      "summary": "humanlayer 开源 12-factor-agents，归纳构建可投入生产的 LLM 驱动软件所用原则 — 把生产可用性拆成可逐条核对的原则清单，比宣称某个框架更好用更可迁移。",
-      "content_html": "<p><strong>humanlayer 开源 12-factor-agents，归纳构建可投入生产的 LLM 驱动软件所用原则</strong></p><p>关键数字：12-factor-agents · 相关方：humanlayer / 12-factor-agents / LLM</p><p>What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production… 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>把生产可用性拆成可逐条核对的原则清单，比宣称某个框架更好用更可迁移。</p><p><strong>对我意味着什么：</strong>可直接对照 WorkBuddy 的 skill、MCP 与 A2A 分层，检查工具注册、状态与权限是否各自有明确归属。</p><p><strong>下一步：</strong>把现有插件按 12 条原则逐项打勾，若超过 2 条无对应实现则判定分层需重排。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-09T00:03 UTC · 归类：agent-engineering</p><p>→ <a href=\"https://github.com/humanlayer/12-factor-agents\" rel=\"noopener noreferrer\">https://github.com/humanlayer/12-factor-agents</a></p>",
-      "date_published": "2026-11-09T00:03:54.698000Z",
-      "date_modified": "2026-11-09T01:51:44.934256Z",
-      "tags": [
-        "agent-engineering",
-        "Agent 与工程"
-      ],
-      "_daily_info": {
-        "score": 79.92,
-        "source": "Folo 订阅池基线（人工筛选信源）",
-        "cluster_id": "66d41b8aa3e54926",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-09:5d76954b868314f1",
-      "url": "https://dev.to/sharathjapa/diy-guide-d3-decision-models-build-fast-multimodal-ai-applications-locally-with-vllm-2822",
-      "title": "DIY Guide: D3 Decision Models: Build Fast, Multimodal AI Applications Locally with vLLM",
-      "summary": "一篇 DIY 指南介绍用 vLLM 在本地构建 D3 Decision Models 多模态 AI 应用 — 把多模态应用压回本地推理栈，讨论重点从模型选型转向部署与评估方法。",
-      "content_html": "<p><strong>一篇 DIY 指南介绍用 vLLM 在本地构建 D3 Decision Models 多模态 AI 应用</strong></p><p>关键数字：D3 · 相关方：D3 Decision Models / vLLM / AI infrastructure</p><p>Executive Summary The continuous evolution of modern AI infrastructure demands systematic evaluation of recent community… 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>把多模态应用压回本地推理栈，讨论重点从模型选型转向部署与评估方法。</p><p><strong>对我意味着什么：</strong>对数据基建的参照：本地 vLLM 路线可评估离线快照节点的推理可行性，但摘要未给出吞吐读数。</p><p><strong>下一步：</strong>在同一台机器上跑一次本地推理基准，若单请求延迟高于云端基线 2 倍则判定不适合承载常驻任务。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-08T11:00 UTC · 归类：ai-models</p><p>→ <a href=\"https://dev.to/sharathjapa/diy-guide-d3-decision-models-build-fast-multimodal-ai-applications-locally-with-vllm-2822\" rel=\"noopener noreferrer\">https://dev.to/sharathjapa/diy-guide-d3-decision-models-build-fast-multimodal-ai-applications-locally-with-vllm-2822</a></p>",
-      "date_published": "2026-11-08T11:00:01.948000Z",
-      "date_modified": "2026-11-09T01:51:44.934256Z",
-      "tags": [
-        "ai-models",
-        "模型与研究"
-      ],
-      "_daily_info": {
-        "score": 74.08,
-        "source": "Folo 订阅池基线（人工筛选信源）",
-        "cluster_id": "5d76954b868314f1",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-09:c46b25d79acf061b",
-      "url": "https://arex-research.com/feeds/e45443e5-b169-42f0-8229-eec29f656a24",
-      "title": "不用机器人录数据：日本 AIRoA 开放双臂操作基础模型 AIRoA-0，十类任务自报成功率 78%",
-      "summary": "日本 AI Robot Association（AIRoA）公开双臂操作基础模型 AIRoA-0，权重放上 Hugging Face、三套代码放上 GitHub，自报十类任务成功率 78% — 把权重、代码与技术报告一并放出，使 78% 从宣传值变成可被第三方复测的读数。",
-      "content_html": "<p><strong>日本 AI Robot Association（AIRoA）公开双臂操作基础模型 AIRoA-0，权重放上 Hugging Face、三套代码放上 GitHub，自报十类任务成功率 78%</strong></p><p>关键数字：78% / AIRoA-0 / arXiv:2611.03815 · 相关方：AIRoA / AI Robot Association / AIRoA-0 / Hugging Face / GitHub / bimanual manipulation</p><p>资讯｜11 月 6 日，日本的 AI Robot Association（AIRoA）发布公告，正式公开面向双臂操作（bimanual manipulation）的机器人基础模型 AIRoA-0（A-0）：预训练与后训练权重已放上 Hugging Face，数据采集、后训练、推理三套代码放上 GitHub，技术报告（arXiv:2611.03815）则在本周早些时…</p><p><strong>为什么值得看：</strong>把权重、代码与技术报告一并放出，使 78% 从宣传值变成可被第三方复测的读数。</p><p><strong>对我意味着什么：</strong>对本项目确定性脚本做索引、AI 只做研判的印证：底层产物可下载，AI 层才不必替上游补洞。</p><p><strong>下一步：</strong>在同类十类任务上复测一次，若成功率与 78% 偏差超过 10 个百分点则判定该值仅为自报口径。</p><p>来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-08T18:36 UTC · 归类：ai-models</p><p>→ <a href=\"https://arex-research.com/feeds/e45443e5-b169-42f0-8229-eec29f656a24\" rel=\"noopener noreferrer\">https://arex-research.com/feeds/e45443e5-b169-42f0-8229-eec29f656a24</a></p>",
-      "date_published": "2026-11-08T18:36:00Z",
-      "date_modified": "2026-11-09T01:51:44.934256Z",
-      "tags": [
-        "ai-models",
-        "模型与研究"
-      ],
-      "_daily_info": {
-        "score": 74.75,
-        "source": "智源社区 · 最新分享（匿名 API）",
-        "cluster_id": "c46b25d79acf061b",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-09:ae2f80dd374e58bb",
-      "url": "https://arex-research.com/feeds/a367dcbd-c32f-422a-8a99-1e2d3b063b59",
-      "title": "Token Gremlin 称“GPT-6.2 Sol”已灰度现身 ChatGPT，约半小时后 Harshith 以截图反驳称实为 GPT-6.1 Sol",
-      "summary": "X 账号 Token Gremlin 称 GPT-6.2 Sol 已对部分 ChatGPT 用户灰度现身，约半小时后 Harshith 以截图反驳称实为 GPT-6.1 Sol — 首发说法在半小时内被截图级别的复现反驳，说明灰度爆料必须先有可比对证据。",
-      "content_html": "<p><strong>X 账号 Token Gremlin 称 GPT-6.2 Sol 已对部分 ChatGPT 用户灰度现身，约半小时后 Harshith 以截图反驳称实为 GPT-6.1 Sol</strong></p><p>关键数字：GPT-6.2 Sol / GPT-6.1 Sol / 5 秒 / 18:07 · 相关方：Token Gremlin / Harshith / ChatGPT / GPT-6.2 Sol / GPT-6.1 Sol</p><p>资讯｜北京时间 11 月 8 日 18:07，自述“追踪 AI 前沿：模型、智能体、研究、泄露与发布前信号”的 X 账号 Token Gremlin 发帖称，尚未发布的“GPT-6.2 Sol”已经对部分 ChatGPT 用户灰度现身（即分批、未经宣布地出现），并附上一段 5 秒视频和两张截图：画面中的体素风格 3D 场景由单个 prompt（提示词）生成，全部内…</p><p><strong>为什么值得看：</strong>首发说法在半小时内被截图级别的复现反驳，说明灰度爆料必须先有可比对证据。</p><p><strong>对我意味着什么：</strong>对数据基建的直接映射：候选集里的单源爆料应有独立佐证字段，否则不该进入 AI 研判的入选簇。</p><p><strong>下一步：</strong>核对该模型是否有官方发布页或版本号记录，若 2 个独立来源都查不到则判定为未证实爆料并降级处理。</p><p>来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-08T18:58 UTC · 归类：ai-models</p><p>证据状态：未独立验证</p><p>→ <a href=\"https://arex-research.com/feeds/a367dcbd-c32f-422a-8a99-1e2d3b063b59\" rel=\"noopener noreferrer\">https://arex-research.com/feeds/a367dcbd-c32f-422a-8a99-1e2d3b063b59</a></p>",
-      "date_published": "2026-11-08T18:58:00Z",
-      "date_modified": "2026-11-09T01:51:44.934256Z",
-      "tags": [
-        "ai-models",
-        "模型与研究"
-      ],
-      "_daily_info": {
-        "score": 78.17,
-        "source": "智源社区 · 最新分享（匿名 API）",
-        "cluster_id": "ae2f80dd374e58bb",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-09:0cfbdaa8bb33ae59",
-      "url": "https://arex-research.com/feeds/884a76f5-674f-43e2-9860-4f8569171d6b",
-      "title": "XBOW 实测 GPT-6 Cyber：比 GPT-6.1 Sol 快约 2 倍，但少解出 5 个目标",
-      "summary": "XBOW 创始人 Oege de Moor 公布自建对照测试：在 65 个含漏洞的开源 Web 应用上对比 GPT-6 Cyber 与 GPT-6.1 Sol — 同一组测试给出快约 2 倍与少解出 5 个目标两个反向读数，速度结论无法单独成立。",
-      "content_html": "<p><strong>XBOW 创始人 Oege de Moor 公布自建对照测试：在 65 个含漏洞的开源 Web 应用上对比 GPT-6 Cyber 与 GPT-6.1 Sol</strong></p><p>关键数字：2 倍 / 5 个 / 65 个 · 相关方：XBOW / Oege de Moor / GPT-6 Cyber / GPT-6.1 Sol / OpenAI / LinkedIn</p><p>资讯｜GPT-6 Cyber 发布两天后，一组来自 OpenAI 之外的量化对比数据出现了。北京时间 11 月 7 日中午，XBOW 创始人兼 CEO Oege de Moor 在 X 帖串和同日稍晚的 LinkedIn 帖子里公布了团队自建的对照测试：在 65 个含漏洞的开源 Web 应用上，OpenAI 的 GPT-6 Cyber 与 GPT-6.1 Sol…</p><p><strong>为什么值得看：</strong>同一组测试给出快约 2 倍与少解出 5 个目标两个反向读数，速度结论无法单独成立。</p><p><strong>对我意味着什么：</strong>对 automation 评估的提醒：agent 或模型的耗时指标必须与完成数一起看，否则会把漏做当成变快。</p><p><strong>下一步：</strong>在同类任务复跑一次并同时记录耗时与解出数，若解出数仍少 5 个则判定快 2 倍不构成整体优势。</p><p>来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-08T18:44 UTC · 归类：ai-models</p><p>→ <a href=\"https://arex-research.com/feeds/884a76f5-674f-43e2-9860-4f8569171d6b\" rel=\"noopener noreferrer\">https://arex-research.com/feeds/884a76f5-674f-43e2-9860-4f8569171d6b</a></p>",
-      "date_published": "2026-11-08T18:44:00Z",
-      "date_modified": "2026-11-09T01:51:44.934256Z",
-      "tags": [
-        "ai-models",
-        "模型与研究"
-      ],
-      "_daily_info": {
-        "score": 74.83,
-        "source": "智源社区 · 最新分享（匿名 API）",
-        "cluster_id": "0cfbdaa8bb33ae59",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-09:59248c45e5bcf4d6",
-      "url": "https://arex-research.com/feeds/f054ae8c-c573-4940-bf3e-59bfbe0bb67f",
-      "title": "DeepSeek Harness 筹建官方插件市场与作者扶持计划，披露 154 万日活、约 3.5 万第三方插件",
-      "summary": "DeepSeek Harness 官方宣布筹建官方插件市场与作者扶持计划，并披露 154 万日活与约 3.5 万第三方插件 — 规模数字与补接口稳定性、强化插件安全写在同一份公告里，说明生态瓶颈已从数量转到契约。",
-      "content_html": "<p><strong>DeepSeek Harness 官方宣布筹建官方插件市场与作者扶持计划，并披露 154 万日活与约 3.5 万第三方插件</strong></p><p>关键数字：154 万 / 3.5 万 · 相关方：DeepSeek Harness / Growing Together with Our Plugin Communi / 插件 API / token</p><p>资讯｜11 月 8 日，DeepSeek Harness 官方 X 账号发布文章《Growing Together with Our Plugin Community》，宣布将建设官方插件市场，改进插件 API（应用程序接口）的稳定性与兼容性、强化插件安全，并筹备一项插件作者扶持计划：向作者提供 token（模型调用的计量单位）赠助、技术讨论支持和作品推广。</p><p><strong>为什么值得看：</strong>规模数字与补接口稳定性、强化插件安全写在同一份公告里，说明生态瓶颈已从数量转到契约。</p><p><strong>对我意味着什么：</strong>直接对应 WorkBuddy 的 skill 与 MCP 生态：当第三方插件达到 3.5 万量级，先塌的会是接口契约与权限边界，而不是模型能力。</p><p><strong>下一步：</strong>逐项跑本仓库已装 skill 的接口声明，若任一 skill 在缺字段时静默降级次数大于 0，即判定契约层需收紧。</p><p>来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-08T18:47 UTC · 归类：ai-models</p><p>→ <a href=\"https://arex-research.com/feeds/f054ae8c-c573-4940-bf3e-59bfbe0bb67f\" rel=\"noopener noreferrer\">https://arex-research.com/feeds/f054ae8c-c573-4940-bf3e-59bfbe0bb67f</a></p>",
-      "date_published": "2026-11-08T18:47:00Z",
-      "date_modified": "2026-11-09T01:51:44.934256Z",
-      "tags": [
-        "ai-models",
-        "模型与研究"
-      ],
-      "_daily_info": {
-        "score": 78.06,
-        "source": "智源社区 · 最新分享（匿名 API）",
-        "cluster_id": "59248c45e5bcf4d6",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-08:2d5bb2b39ec0d18e",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&mid=2652740799&idx=2&sn=f01b263b515d75d9b6792f43b9fae06a&chksm=f020276eb964d50e1cd17f26b8139f4a96d39c22f3783feee951aaf0972642aa20279bb6cca5&scene=0&xtrack=1",
-      "title": "重磅！Claude破解首个原核巨型蛋白，40年神秘结构现真身",
-      "summary": "Anthropic 团队用 Claude AI 在不到 4 个月内解析原核生物「穹窿体」三维结构，把提纯从 3 天缩到 90 分钟 — 用提纯耗时这类实验室内可复测的指标，而不是模型 benchmark，来衡量 AI 的真实增益。",
-      "content_html": "<p><strong>Anthropic 团队用 Claude AI 在不到 4 个月内解析原核生物「穹窿体」三维结构，把提纯从 3 天缩到 90 分钟</strong></p><p>关键数字：40年 / 4个月 / 3天 / 90分钟 · 相关方：Claude / Anthropic / 穹窿体 / 冷冻电镜</p><p>计算机科学、AI、模式识别｜Anthropic团队利用Claude AI在不到4个月内首次解析出原核生物体内“穹窿体”的三维结构，攻克了困扰生物学界40年的难题。Claude全程参与基因筛选、蛋白提纯优化、冷冻电镜数据分析及人工结构改造，大幅加速实验进程——原本需3天的提纯缩短至90分钟，展现出远超传统方法的效率与精度，标志着AI深度赋能结构生物学的重大突破。</p><p><strong>为什么值得看：</strong>用提纯耗时这类实验室内可复测的指标，而不是模型 benchmark，来衡量 AI 的真实增益。</p><p><strong>对我意味着什么：</strong>对 automation 的直接参照：把 3 天压到 90 分钟的价值来自流程重排，agent 应替换的是步骤而非单点推理。</p><p><strong>下一步：</strong>在自动化流水线里挑 1 个耗时步骤做同样拆解，若端到端耗时下降不足 50% 则判定只是换了工具没换流程。</p><p>来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-07T11:50 UTC · 归类：deep-read</p><p>→ <a href=\"https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&amp;mid=2652740799&amp;idx=2&amp;sn=f01b263b515d75d9b6792f43b9fae06a&amp;chksm=f020276eb964d50e1cd17f26b8139f4a96d39c22f3783feee951aaf0972642aa20279bb6cca5&amp;scene=0&amp;xtrack=1\" rel=\"noopener noreferrer\">https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&amp;mid=2652740799&amp;idx=2&amp;sn=f01b263b515d75d9b6792f43b9fae06a&amp;chksm=f020276eb964d50e1cd17f26b8139f4a96d39c22f3783feee951aaf0972642aa20279bb6cca5&amp;scene=0&amp;xtrack=1</a></p>",
-      "date_published": "2026-11-07T11:50:00Z",
-      "date_modified": "2026-11-07T22:57:49.350240Z",
-      "tags": [
-        "deep-read",
-        "深度长文"
-      ],
-      "_daily_info": {
-        "score": 72.6,
-        "source": "智源社区 · 最新分享（匿名 API）",
-        "cluster_id": "2d5bb2b39ec0d18e",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-08:0d08c3ebdeeec899",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzU2ODU3Mzc4Nw%3D%3D&mid=2247514865&idx=1&sn=99d678a284d9b72878300915a761aa60&chksm=fdcbe7ffd2ded58f7fa723fcd491b74954aea0b4a4cf82a071fe20be501b10ff449c5f70cf0b&scene=0&xtrack=1",
-      "title": "Pallatom2技术报告正式发布：从原子出发，领航蛋白质宇宙",
-      "summary": "Pallatom2 技术报告发布，以 Atom-to-Atom 建模覆盖长链蛋白、多结构域与对称组装，并开源全部序列与 BLI 实验图谱 — 把序列与实验图谱一并开源，使可复现从承诺变成可下载的数据集。",
-      "content_html": "<p><strong>Pallatom2 技术报告发布，以 Atom-to-Atom 建模覆盖长链蛋白、多结构域与对称组装，并开源全部序列与 BLI 实验图谱</strong></p><p>关键数字：Pallatom2 · 相关方：Pallatom2 / Atom-to-Atom / BLI / D型分子</p><p>计算机科学、生成模型、深度学习｜Pallatom2是最新发布的蛋白质分子设计技术，以Atom-to-Atom建模为核心引擎，突破传统局限，实现从长链蛋白、多结构域及对称组装到靶点识别和D型分子的全维度设计，拓展蛋白质工程边界。该技术报告系统呈现关键设计坐标、完整结构星图与实验验证数据，所有序列与BLI实验图谱均已开源，推动高精度、可预测的从头蛋白设计迈向新阶段。</p><p><strong>为什么值得看：</strong>把序列与实验图谱一并开源，使可复现从承诺变成可下载的数据集。</p><p><strong>对我意味着什么：</strong>对本项目确定性脚本做索引、AI 只做研判的印证：可核验的底层数据越完整，AI 层越不需要补洞。</p><p><strong>下一步：</strong>核对其开源仓库是否含完整 BLI 图谱，若缺 1 类实验数据则判定全开源表述不成立。</p><p>来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-07T17:10 UTC · 归类：deep-read</p><p>→ <a href=\"https://mp.weixin.qq.com/s?__biz=MzU2ODU3Mzc4Nw%3D%3D&amp;mid=2247514865&amp;idx=1&amp;sn=99d678a284d9b72878300915a761aa60&amp;chksm=fdcbe7ffd2ded58f7fa723fcd491b74954aea0b4a4cf82a071fe20be501b10ff449c5f70cf0b&amp;scene=0&amp;xtrack=1\" rel=\"noopener noreferrer\">https://mp.weixin.qq.com/s?__biz=MzU2ODU3Mzc4Nw%3D%3D&amp;mid=2247514865&amp;idx=1&amp;sn=99d678a284d9b72878300915a761aa60&amp;chksm=fdcbe7ffd2ded58f7fa723fcd491b74954aea0b4a4cf82a071fe20be501b10ff449c5f70cf0b&amp;scene=0&amp;xtrack=1</a></p>",
-      "date_published": "2026-11-07T17:10:00Z",
-      "date_modified": "2026-11-07T22:57:49.350240Z",
-      "tags": [
-        "deep-read",
-        "深度长文"
-      ],
-      "_daily_info": {
-        "score": 75.59,
-        "source": "智源社区 · 最新分享（匿名 API）",
-        "cluster_id": "0d08c3ebdeeec899",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-08:387b27fb3bd297c9",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzU4MzYxOTIwOQ%3D%3D&mid=2247525405&idx=2&sn=191870ca218220e1397b5f2632c3b7ef&chksm=fc6ca0ab20f98b1c236b19d6bd7a48751e055ea3f70ed0a2f5b8c9512bbe05663e01e03e0ba9&scene=0&xtrack=1",
-      "title": "我院助理研究员王净宇在乌镇人工智能治理专题咖荟作主旨演讲",
-      "summary": "清华大学王净宇 11月4日在乌镇「面向2030的人工智能治理框架」咖荟作主旨演讲，谈 AI 安全治理供需错配 — 把治理问题拆成需求侧与供给侧的结构性错配，比笼统谈规则滞后更可落到能力清单。",
-      "content_html": "<p><strong>清华大学王净宇 11月4日在乌镇「面向2030的人工智能治理框架」咖荟作主旨演讲，谈 AI 安全治理供需错配</strong></p><p>关键数字：11月4日 / 2030 · 相关方：清华大学 / 王净宇 / 乌镇 / 人工智能治理框架 / AI</p><p>安全、AI｜11月4日，清华大学王净宇在乌镇“面向2030的人工智能治理框架”咖荟上发表主旨演讲，聚焦全球人工智能安全治理中的供需匹配问题。他指出，随着AI技术加速发展，安全风险持续演化，现有国际治理规则与合作机制面临新挑战。演讲从多类型AI风险出发，分析治理需求侧与供给侧之间的结构性错配，强调需统筹技术特性、风险层级与治理能力，推动形成更具适应性、协同性与可操作性的全球治理路径，并探索契合中国实践的治理方案。</p><p><strong>为什么值得看：</strong>把治理问题拆成需求侧与供给侧的结构性错配，比笼统谈规则滞后更可落到能力清单。</p><p><strong>对我意味着什么：</strong>对 agent 治理的直接映射：skill 与 MCP 的权限供给和实际任务需求之间的错配，同样需要分层清单来对齐。</p><p><strong>下一步：</strong>把现有 skill 权限列出一张供需对照表，若超过 2 项能力无对应任务或有任务无能力则判定需重排。</p><p>来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-07T14:50 UTC · 归类：deep-read</p><p>→ <a href=\"https://mp.weixin.qq.com/s?__biz=MzU4MzYxOTIwOQ%3D%3D&amp;mid=2247525405&amp;idx=2&amp;sn=191870ca218220e1397b5f2632c3b7ef&amp;chksm=fc6ca0ab20f98b1c236b19d6bd7a48751e055ea3f70ed0a2f5b8c9512bbe05663e01e03e0ba9&amp;scene=0&amp;xtrack=1\" rel=\"noopener noreferrer\">https://mp.weixin.qq.com/s?__biz=MzU4MzYxOTIwOQ%3D%3D&amp;mid=2247525405&amp;idx=2&amp;sn=191870ca218220e1397b5f2632c3b7ef&amp;chksm=fc6ca0ab20f98b1c236b19d6bd7a48751e055ea3f70ed0a2f5b8c9512bbe05663e01e03e0ba9&amp;scene=0&amp;xtrack=1</a></p>",
-      "date_published": "2026-11-07T14:50:00Z",
-      "date_modified": "2026-11-07T22:57:49.350240Z",
-      "tags": [
-        "deep-read",
-        "深度长文"
-      ],
-      "_daily_info": {
-        "score": 79.01,
-        "source": "智源社区 · 最新分享（匿名 API）",
-        "cluster_id": "387b27fb3bd297c9",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-08:fda11584c20a49a6",
-      "url": "https://www.engadget.com/2305270/samsung-one-ui-9-coolest-features",
-      "title": "10 of the coolest features in Samsung's new One UI 9 update",
-      "summary": "文章梳理 Samsung One UI 9 更新中的 10 项功能，涉及相机、手势与隐私 — 系统级更新把隐私与手势并列为卖点，说明权限面变化已需要随版本逐项核对。",
-      "content_html": "<p><strong>文章梳理 Samsung One UI 9 更新中的 10 项功能，涉及相机、手势与隐私</strong></p><p>关键数字：10 / One UI 9 · 相关方：Samsung / One UI 9</p><p>Your Samsung phone gets improvements to the camera, gestures, privacy and much more with One UI 9. 〔Folo分类:新奇产品〕</p><p><strong>为什么值得看：</strong>系统级更新把隐私与手势并列为卖点，说明权限面变化已需要随版本逐项核对。</p><p><strong>对我意味着什么：</strong>对 WinVM 与桌面端插件的启示：宿主系统大版本更新后应重跑一次权限与快捷键回归，而不是只看功能清单。</p><p><strong>下一步：</strong>宿主系统升级后跑一次插件回归，若 10 项受影响的权限与快捷键中有任意 1 项失效则判定不兼容。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-07T13:15 UTC · 归类：security-governance</p><p>→ <a href=\"https://www.engadget.com/2305270/samsung-one-ui-9-coolest-features\" rel=\"noopener noreferrer\">https://www.engadget.com/2305270/samsung-one-ui-9-coolest-features</a></p>",
-      "date_published": "2026-11-07T13:15:00.225000Z",
-      "date_modified": "2026-11-07T22:57:49.350240Z",
-      "tags": [
-        "security-governance",
-        "安全与治理"
-      ],
-      "_daily_info": {
-        "score": 71.74,
-        "source": "Folo 订阅池基线（人工筛选信源）",
-        "cluster_id": "fda11584c20a49a6",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-08:2386b4dfa2a506fe",
-      "url": "https://www.techmeme.com/261107/p16",
-      "title": "US Treasury moves to cut crypto exchange MEXC off from the US financial system, alleging $16B+ in illicit flows, including Russian and Iranian sanctions evasion (Francisco Rodrigues/CoinDesk)",
-      "summary": "CoinDesk 报道 US Treasury 拟将加密交易所 MEXC 移出美国金融体系，指控涉及 $16B+ 非法资金流 — 以金额量级而非个案数量描述资金流风险，说明合规判定越来越依赖可聚合的资金链数据。",
-      "content_html": "<p><strong>CoinDesk 报道 US Treasury 拟将加密交易所 MEXC 移出美国金融体系，指控涉及 $16B+ 非法资金流</strong></p><p>关键数字：$16B+ · 相关方：US Treasury / MEXC / CoinDesk / Francisco Rodrigues</p><p>Francisco Rodrigues / CoinDesk: US Treasury moves to cut crypto exchange MEXC off from the US financial system, alleging $16B+ in illicit flows, including Russian and Iranian sanctions evasion — The U.S. Treasury is moving to cut off crypto exchange MEXC from the U.S. financial system, alleging that</p><p><strong>为什么值得看：</strong>以金额量级而非个案数量描述资金流风险，说明合规判定越来越依赖可聚合的资金链数据。</p><p><strong>对我意味着什么：</strong>对数据基建的提醒：本流水线的发布闸门同样需要可聚合的违规计数，而不是逐条人工确认。</p><p><strong>下一步：</strong>对照 push-log.jsonl 统计同日同通道重复处理次数，若大于 0 则判定幂等记录失效并暂停分发。</p><p>来源：Techmeme · 发布于 2026-11-07T22:45 UTC · 归类：market-invest</p><p>→ <a href=\"https://www.techmeme.com/261107/p16\" rel=\"noopener noreferrer\">https://www.techmeme.com/261107/p16</a></p>",
-      "date_published": "2026-11-07T22:45:01Z",
-      "date_modified": "2026-11-07T22:57:49.350240Z",
-      "tags": [
-        "market-invest",
-        "市场与投资"
-      ],
-      "_daily_info": {
-        "score": 72.44,
-        "source": "Techmeme",
-        "cluster_id": "2386b4dfa2a506fe",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-08:d2d1f6badb7e1a42",
-      "url": "https://weekly.caixin.com/2026/cw1230",
-      "title": "《财新周刊》第1230期",
-      "summary": "《财新周刊》第1230期出刊，财经板块涉及利率基准调整、碳核算与保险权益波动等议题 — 把利率基准与碳核算放在同一期，说明定价口径变化已成为跨市场的共同变量。",
-      "content_html": "<p><strong>《财新周刊》第1230期出刊，财经板块涉及利率基准调整、碳核算与保险权益波动等议题</strong></p><p>关键数字：1230 · 相关方：财新周刊 / Caixin Weekly / interest rate benchmarking / carbon accounting</p><p>Caixin Weekly Issue 1230 covers U.S. midterm election results that weakened Trump’s political power, the stalled UN Secretary-General selection, and China’s shift in interest rate benchmarking. Financial sections address carbon accounting, insurance equity volatility, and the Fed’s tightening path. </p><p><strong>为什么值得看：</strong>把利率基准与碳核算放在同一期，说明定价口径变化已成为跨市场的共同变量。</p><p><strong>对我意味着什么：</strong>暂无直接影响：属财经期刊目录，与 agent 部署及数据基建无工程交集，仅作规则层采集覆盖度的样本。</p><p><strong>下一步：</strong>核对该期目录与站点摘要是否逐条对应，若缺失条目超过 2 条则判定该信源摘要不完整。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-07T12:03 UTC · 归类：market-invest</p><p>→ <a href=\"https://weekly.caixin.com/2026/cw1230\" rel=\"noopener noreferrer\">https://weekly.caixin.com/2026/cw1230</a></p>",
-      "date_published": "2026-11-07T12:03:36.094000Z",
-      "date_modified": "2026-11-07T22:57:49.350240Z",
-      "tags": [
-        "market-invest",
-        "市场与投资"
-      ],
-      "_daily_info": {
-        "score": 72.72,
-        "source": "Folo 订阅池基线（人工筛选信源）",
-        "cluster_id": "d2d1f6badb7e1a42",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-08:d44c0918c58155ba",
-      "url": "https://scitechdaily.com/deep-sea-scientists-capture-extraordinary-4k-footage-of-a-fish-with-a-see-through-head",
-      "title": "Deep-Sea Scientists Capture Extraordinary 4K Footage of a Fish With a See-Through Head",
-      "summary": "MBARI 首次拍到 barreleye fish 的 4K 影像，为研究其透明头部内的眼睛提供素材 — 把首次 4K 影像当作研究入口而非观赏素材，价值在于可测量的视觉结构而非清晰度本身。",
-      "content_html": "<p><strong>MBARI 首次拍到 barreleye fish 的 4K 影像，为研究其透明头部内的眼睛提供素材</strong></p><p>关键数字：4K · 相关方：MBARI / barreleye fish</p><p>MBARI’s first 4K footage of a barreleye fish offers a rare chance to study how its unusual eyes work in the ocean’s dim twilight zone. The… 〔Folo分类:重大学术科研突破〕</p><p><strong>为什么值得看：</strong>把首次 4K 影像当作研究入口而非观赏素材，价值在于可测量的视觉结构而非清晰度本身。</p><p><strong>对我意味着什么：</strong>暂无直接影响：属深海观测成果，与当前 agent 与数据基建无交集，仅作首次高分辨率数据表述参照。</p><p><strong>下一步：</strong>核对影像是否公开可下载，若 4K 原始素材缺帧或不可获取则判定只能引用文字描述。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-07T16:24 UTC · 归类：research-papers</p><p>→ <a href=\"https://scitechdaily.com/deep-sea-scientists-capture-extraordinary-4k-footage-of-a-fish-with-a-see-through-head\" rel=\"noopener noreferrer\">https://scitechdaily.com/deep-sea-scientists-capture-extraordinary-4k-footage-of-a-fish-with-a-see-through-head</a></p>",
-      "date_published": "2026-11-07T16:24:00.882000Z",
-      "date_modified": "2026-11-07T22:57:49.350240Z",
-      "tags": [
-        "research-papers",
-        "论文与学术"
-      ],
-      "_daily_info": {
-        "score": 73.52,
-        "source": "Folo 订阅池基线（人工筛选信源）",
-        "cluster_id": "d44c0918c58155ba",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-08:d01e0c53e04de942",
-      "url": "https://scitechdaily.com/a-healthier-form-of-salt-could-prevent-nearly-3-million-deaths-every-year-scientists-say",
-      "title": "A Healthier Form of Salt Could Prevent Nearly 3 Million Deaths Every Year, Scientists Say",
-      "summary": "一项覆盖 193 countries 的全球研究称，改用更健康的盐每年可避免近 3 Million 例死亡 — 把每年可避免死亡挂到 193 国的样本上，量级结论的说服力取决于分母口径而非标题里的数字。",
-      "content_html": "<p><strong>一项覆盖 193 countries 的全球研究称，改用更健康的盐每年可避免近 3 Million 例死亡</strong></p><p>关键数字：3 Million / 193 · 相关方：193 countries / everyday salt</p><p>A global study spanning 193 countries suggests that a simple change to everyday salt could prevent millions of deaths and cases of… 〔Folo分类:重大学术科研突破〕</p><p><strong>为什么值得看：</strong>把每年可避免死亡挂到 193 国的样本上，量级结论的说服力取决于分母口径而非标题里的数字。</p><p><strong>对我意味着什么：</strong>暂无直接影响：属公共卫生建模结论，与 WorkBuddy、MCP 及数据基建无工程交集，可作为大样本量级声明的核验样例。</p><p><strong>下一步：</strong>对照论文方法部分核对 193 国的纳入标准，若剔除国家数超过 10 个仍得出同量级结论才算稳健。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-07T21:41 UTC · 归类：research-papers</p><p>→ <a href=\"https://scitechdaily.com/a-healthier-form-of-salt-could-prevent-nearly-3-million-deaths-every-year-scientists-say\" rel=\"noopener noreferrer\">https://scitechdaily.com/a-healthier-form-of-salt-could-prevent-nearly-3-million-deaths-every-year-scientists-say</a></p>",
-      "date_published": "2026-11-07T21:41:32.549000Z",
-      "date_modified": "2026-11-07T22:57:49.350240Z",
-      "tags": [
-        "research-papers",
-        "论文与学术"
-      ],
-      "_daily_info": {
-        "score": 77.06,
-        "source": "Folo 订阅池基线（人工筛选信源）",
-        "cluster_id": "d01e0c53e04de942",
         "ai_status": "ok"
       }
     }

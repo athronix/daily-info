@@ -5,8 +5,35 @@
     "timezone": "Asia/Shanghai",
     "version": "1.0.0"
   },
-  "generated_at": "2026-11-14T22:53:41.482428Z",
+  "generated_at": "2026-11-16T02:01:41.758063Z",
   "dates": [
+    {
+      "date": "2026-11-16",
+      "headline": "skill 有了星数也该有评测门槛，权重开放不等于部署路径开放——今日读数密集，可接入项仍需逐项验收",
+      "lead": "今日入报里，82 个专用 skill 与 1,308 星的评测框架同时出现，也有 1.6 万亿参数却缺 Nvidia GPU 自托管路径的开源权重；同一天，19 小时宕机与 $887M 罚款把基础设施代价写成了可核验读数。张力在于能数清的越来越多、能直接接入的却没同步变多：版本号密集刷新到 1.2.0，部署清单仍要逐项对照。",
+      "demo": false,
+      "stats": {
+        "sources_ok": 182,
+        "sources_total": 185,
+        "total_items": 1186,
+        "clusters": 1131,
+        "selected": 40,
+        "published_items": 18,
+        "seven_element_pass": 18,
+        "seven_element_ratio": 1.0,
+        "items_with_numbers": 18,
+        "substantive_number_ratio": 1.0,
+        "rejected_no_number": 0,
+        "unique_reference_domains": 13
+      },
+      "section_count": 8,
+      "item_count": 18,
+      "ai_status": "ok",
+      "seven_element_ratio": 1.0,
+      "theme_count": 7,
+      "watch_signal_count": 5,
+      "reference_domains": 13
+    },
     {
       "date": "2026-11-15",
       "headline": "开源模型往单机挤、Agent 往任务图走，验证门禁与工程实测成了真正的分水岭",

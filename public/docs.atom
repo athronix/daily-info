@@ -5,10 +5,50 @@
   <ns0:subtitle>挖掘 · 聚合 · 研判 · 订阅；每条附原文链接；内容仅供参考，不构成投资建议</ns0:subtitle>
   <ns0:link rel="self" type="application/atom+xml" href="https://daily-info.local/docs.atom" />
   <ns0:link rel="alternate" type="text/html" href="https://daily-info.local/index.html" />
-  <ns0:updated>2026-11-12T23:18:18.237901Z</ns0:updated>
+  <ns0:updated>2026-11-16T02:01:41.758063Z</ns0:updated>
   <ns0:author>
     <ns0:name>Personal Daily Info</ns0:name>
   </ns0:author>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-16:9781145a655dc727</ns0:id>
+    <ns0:title>[文档与变更] Early Apple Watch Black Friday Deals Arrive With Series 12 Hitting New Record Lows</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.macrumors.com/2026/11/15/early-apple-watch-black-friday-deals" />
+    <ns0:published>2026-11-15T17:59:53.286000Z</ns0:published>
+    <ns0:updated>2026-11-16T02:01:41.758063Z</ns0:updated>
+    <ns0:category term="docs-changelog" label="文档与变更" />
+    <ns0:summary type="text">Amazon and Best Buy are offering early Black Friday discounts on Apple Watch Series 12, reducing prices by $70 across Aluminum, Titanium, and Ceramic models. These new low prices apply to both 42mm and 46mm sizes in GPS and Cellular variations. Retailers like Amazon and Best Buy are currently sellin</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Amazon 与 Best Buy 提前给出 Apple Watch Series 12 的黑五折扣，降价 $70，覆盖 42mm 与 46mm 尺寸。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：70 / 42mm / 46mm · 相关方：Apple Watch Series 12 / Amazon / Best Buy&lt;/p&gt;&lt;p&gt;Amazon and Best Buy are offering early Black Friday discounts on Apple Watch Series 12, reducing prices by $70 across Aluminum, Titanium, and Ceramic models. These new low prices apply to both 42mm and 46mm sizes in GPS and Cellular variations. Retailers like Amazon and Best Buy are currently sellin&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;同一折扣同时给出金额与尺寸覆盖，是少数把促销口径写全的读数，便于判断适用范围而非只看标题价。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;暂无直接影响：消费电子促销与我们的 agent/数据基建关注面无关，此处仅作为可核验读数完整性的对照样本。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;若后续出现同型号更高折扣，比较 $70 是否被突破；差额超过 $70 时判定 record low 表述失效，不再引用该条作为极值。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-15T17:59 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.macrumors.com/2026/11/15/early-apple-watch-black-friday-deals" rel="noopener noreferrer"&gt;https://www.macrumors.com/2026/11/15/early-apple-watch-black-friday-deals&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-16:042b8471176f671c</ns0:id>
+    <ns0:title>[文档与变更] Italy orders Meta to pay $887M for not obtaining specific consent over user photos</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.engadget.com/2317185/italy-orders-meta-to-pay-887m-for-not-obtaining-specific-consent-over-user-photos" />
+    <ns0:published>2026-11-15T17:44:06.463000Z</ns0:published>
+    <ns0:updated>2026-11-16T02:01:41.758063Z</ns0:updated>
+    <ns0:category term="docs-changelog" label="文档与变更" />
+    <ns0:summary type="text">Meta is reportedly planning to appeal the fine. 〔Folo分类:新奇产品〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;意大利监管机构就未取得用户照片的特定同意，要求 Meta 支付 $887M，Meta 计划提起上诉。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：887 · 相关方：Meta / Italy&lt;/p&gt;&lt;p&gt;Meta is reportedly planning to appeal the fine. 〔Folo分类:新奇产品〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把同意这一细粒度合规要求直接折算成可计量罚款，说明数据采集的授权粒度有明确的财务后果。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对应我们的数据基建与凭据治理：采集或留存涉及用户内容时，同意范围与用途需可追溯，否则口径风险会外溢到产物。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对本地采集是否留存用户照片类字段，若存在且无逐项同意记录，则在下一次产物落盘前移除该字段并记为整改项。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-15T17:44 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.engadget.com/2317185/italy-orders-meta-to-pay-887m-for-not-obtaining-specific-consent-over-user-photos" rel="noopener noreferrer"&gt;https://www.engadget.com/2317185/italy-orders-meta-to-pay-887m-for-not-obtaining-specific-consent-over-user-photos&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-16:1a391f32e27ef31a</ns0:id>
+    <ns0:title>[文档与变更] 派早报：Microsoft 365 服务在 19 小时全球宕机后恢复</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://sspai.com/post/119119" />
+    <ns0:published>2026-11-15T23:24:34.371000Z</ns0:published>
+    <ns0:updated>2026-11-16T02:01:41.758063Z</ns0:updated>
+    <ns0:category term="docs-changelog" label="文档与变更" />
+    <ns0:summary type="text">Microsoft 365 services resumed after a 19-hour global outage. The briefing also covers several other topics: domestic frontier AI models exhibiting Blackwell GPU features, a US-wide aviation halt caused by cable replacement, a petition with over 100,000 signatures demanding Jensen Huang's reinstatem</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;派早报汇总 Microsoft 365 在 19 小时全球宕机后恢复，并提到超 100,000 签名的请愿与 Blackwell GPU 特征等数条动态。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：19 / 100,000 · 相关方：Microsoft 365 / Blackwell / Tesla Cybercab&lt;/p&gt;&lt;p&gt;Microsoft 365 services resumed after a 19-hour global outage. The briefing also covers several other topics: domestic frontier AI models exhibiting Blackwell GPU features, a US-wide aviation halt caused by cable replacement, a petition with over 100,000 signatures demanding Jensen Huang&amp;#x27;s reinstatem&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;一次长时宕机与多条产业动态被压进同一条早报，暴露聚合源把不同证据等级的读数并列的问题。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对我们的采集链是反面参照：多话题聚合条目不宜作为单一事实源，入库前需按事件拆分与标注，避免数字串台。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;把该条按事件拆成独立记录，若 19 小时与 100,000 两个读数无法各自找到一手来源，则判定为聚合噪声并降级为线索。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-15T23:24 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://sspai.com/post/119119" rel="noopener noreferrer"&gt;https://sspai.com/post/119119&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-16:2cff81e9a05646a1</ns0:id>
+    <ns0:title>[开发者工具与版本] langchain-groq==1.2.0</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://github.com/langchain-ai/langchain/releases/tag/langchain-groq%3D%3D1.2.0" />
+    <ns0:published>2026-11-15T21:49:10Z</ns0:published>
+    <ns0:updated>2026-11-16T02:01:41.758063Z</ns0:updated>
+    <ns0:category term="docs-changelog" label="开发者工具与版本" />
+    <ns0:summary type="text">Changes since langchain-groq==1.1.3 fix(groq): specify reasoning_effort in integration tests (#41886) fix(groq,mistralai,xai): bump deps (#41884) release(groq): 1.2.0 (#41856) feat(groq): route ChatGroq through LangSmith gateway (#41837) feat(partners): Remove EOL'd Python 3.10 from partner packages</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;LangChain 发布 langchain-groq 1.2.0，相对 1.1.3 在集成测试中显式指定 reasoning_effort，并把 ChatGroq 改走 LangSmith gateway。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：1.2.0 / 1.1.3 · 相关方：langchain-groq / LangSmith / ChatGroq&lt;/p&gt;&lt;p&gt;Changes since langchain-groq==1.1.3 fix(groq): specify reasoning_effort in integration tests (#41886) fix(groq,mistralai,xai): bump deps (#41884) release(groq): 1.2.0 (#41856) feat(groq): route ChatGroq through LangSmith gateway (#41837) feat(partners): Remove EOL&amp;#x27;d Python 3.10 from partner packages&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;与 mistralai 包同批改走 gateway，说明这是平台级路由调整而非单个 provider 的修复，跨包一致性需一起验证。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 automation 链路里经 LangChain 调用 Groq 的部分是一次隐性依赖变更，升级会影响网关鉴权与超时配置。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;把 groq 与 mistralai 两个包同时升级后跑统一回归；若任一包出现 reasoning_effort 被忽略或超时错误，则整批回滚到 1.1.3/1.1.6。&lt;/p&gt;&lt;p&gt;来源：LangChain Releases · 发布于 2026-11-15T21:49 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/langchain-ai/langchain/releases/tag/langchain-groq%3D%3D1.2.0" rel="noopener noreferrer"&gt;https://github.com/langchain-ai/langchain/releases/tag/langchain-groq%3D%3D1.2.0&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:daily-info.local,2026-11-13:05a61ad7e4a9114b</ns0:id>
     <ns0:title>[文档与变更] Actions for ARM32 Linux &amp; Windows retirement</ns0:title>

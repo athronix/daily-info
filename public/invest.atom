@@ -5,10 +5,40 @@
   <ns0:subtitle>挖掘 · 聚合 · 研判 · 订阅；每条附原文链接；内容仅供参考，不构成投资建议</ns0:subtitle>
   <ns0:link rel="self" type="application/atom+xml" href="https://daily-info.local/invest.atom" />
   <ns0:link rel="alternate" type="text/html" href="https://daily-info.local/index.html" />
-  <ns0:updated>2026-11-14T22:53:41.482428Z</ns0:updated>
+  <ns0:updated>2026-11-16T02:01:41.758063Z</ns0:updated>
   <ns0:author>
     <ns0:name>Personal Daily Info</ns0:name>
   </ns0:author>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-16:fb60cc1ec1fcdcf5</ns0:id>
+    <ns0:title>[市场与投资] Johnson &amp; Johnson looking to buy eye disease biotech for up to $3.4bn</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.ft.com/content/450100ba-074c-46a6-b962-89dbef146135?syn-25a6b1a6=1" />
+    <ns0:published>2026-11-15T23:54:31Z</ns0:published>
+    <ns0:updated>2026-11-16T02:01:41.758063Z</ns0:updated>
+    <ns0:category term="market-invest" label="市场与投资" />
+    <ns0:summary type="text">Drugmaker’s potential acquisition of Ollin Biosciences is latest in glut of deals in biotechnology sector</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;强生拟以最高 $3.4bn 收购眼病生物技术公司 Ollin Biosciences，被报道为生物技术板块密集交易中的最新一笔。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：3.4 · 相关方：Johnson &amp;amp; Johnson / Ollin Biosciences&lt;/p&gt;&lt;p&gt;Drugmaker’s potential acquisition of Ollin Biosciences is latest in glut of deals in biotechnology sector&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;给出的是收购金额上限而非成交价，读这类读数要区分至多与已付，否则会高估交易规模。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;暂无直接影响：医药并购与我们的 agent/数据基建关注面无关，仅作为上限型读数的辨析样本，不构成投资建议。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;跟踪是否披露最终成交价；若最终价低于 $3.4bn 超过 20%，则把该条改标为上限报价并修正引用口径。&lt;/p&gt;&lt;p&gt;来源：Financial Times · 发布于 2026-11-15T23:54 UTC · 归类：market-invest&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.ft.com/content/450100ba-074c-46a6-b962-89dbef146135?syn-25a6b1a6=1" rel="noopener noreferrer"&gt;https://www.ft.com/content/450100ba-074c-46a6-b962-89dbef146135?syn-25a6b1a6=1&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-16:ff37d90f9a8644db</ns0:id>
+    <ns0:title>[产业与资本] 摩根士丹利预计标普500指数将升至8700点，看好2027年的德国国债和英国国债</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.36kr.com/newsflashes/4071714541769865" />
+    <ns0:published>2026-11-16T00:42:13Z</ns0:published>
+    <ns0:updated>2026-11-16T02:01:41.758063Z</ns0:updated>
+    <ns0:category term="industry-capital" label="产业与资本" />
+    <ns0:summary type="text">摩根士丹利在2027年市场展望中看好美国股票和部分G10国家债券。包括Marina Zavolock在内的策略师在11月15日的报告中写道，该行已将标普500指数的目标价上调至8700点，这意味着约有15%的上涨空间。“健康的盈利增长、趋稳的利率和油价、持续的人工智能投资与应用，以及低于公允价值的估值，支撑了我们对2027年的展望。”（新浪财经）</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;摩根士丹利在市场展望中把标普500 目标价上调至 8700 点，称隐含约 15% 上涨空间，并看好部分 G10 国家债券。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：8700 / 15% · 相关方：摩根士丹利 / 标普500 / Marina Zavolock&lt;/p&gt;&lt;p&gt;摩根士丹利在2027年市场展望中看好美国股票和部分G10国家债券。包括Marina Zavolock在内的策略师在11月15日的报告中写道，该行已将标普500指数的目标价上调至8700点，这意味着约有15%的上涨空间。“健康的盈利增长、趋稳的利率和油价、持续的人工智能投资与应用，以及低于公允价值的估值，支撑了我们对2027年的展望。”（新浪财经）&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;点位目标与隐含涨幅是可证伪的量化预测，适合作为事后校准卖方预期的样本，而非操作依据。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;暂无直接影响：属公开市场展望，与我们的工程关注面无关；此处只保留其可核验读数，不构成投资建议。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;把 8700 点与 15% 记为待验证预测，若对应周期结束时指数偏离目标超过 15%，则判定该展望失效并归档为校准样本。&lt;/p&gt;&lt;p&gt;来源：36氪快讯（RSSHub 镜像路由） · 发布于 2026-11-16T00:42 UTC · 归类：industry-capital&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.36kr.com/newsflashes/4071714541769865" rel="noopener noreferrer"&gt;https://www.36kr.com/newsflashes/4071714541769865&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-16:9555a9e6eb0016f5</ns0:id>
+    <ns0:title>[Agent 与工程] Anthropic 公开 Claude Code 团队 AI 代码评审流程：人工审批按风险分级，自报合并 PR 翻倍以上、回退占比降超 40%</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://arex-research.com/feeds/a4499309-898b-478d-a4ab-a7db99057011" />
+    <ns0:published>2026-11-15T18:56:00Z</ns0:published>
+    <ns0:updated>2026-11-16T02:01:41.758063Z</ns0:updated>
+    <ns0:category term="market-invest" label="Agent 与工程" />
+    <ns0:summary type="text">资讯｜据 InfoQ 11 月 15 日报道，Anthropic 在其 claude.dev 博客发表题为《How the Claude Code team does code review》的文章，署名为 Addy Osmani、Morgan Westlee Lunt 与 Qing Wang，公开了团队在“Claude 编写了 Claude Code 自身约 9…</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Anthropic 公开 Claude Code 团队的 AI 代码评审流程，按风险分级做人工审批，自报合并 PR 翻倍以上、回退占比降超 40%。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：40% · 相关方：Anthropic / Claude Code / InfoQ&lt;/p&gt;&lt;p&gt;资讯｜据 InfoQ 11 月 15 日报道，Anthropic 在其 claude.dev 博客发表题为《How the Claude Code team does code review》的文章，署名为 Addy Osmani、Morgan Westlee Lunt 与 Qing Wang，公开了团队在“Claude 编写了 Claude Code 自身约 9…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把 AI 写代码的瓶颈定位在人工审批分层而非生成能力，是流程工程而非模型能力提升带来的收益。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;可迁移到我们的自动化流水线：按风险分级决定哪些改动自动合并、哪些必须人工复核，比一刀切 gate 更能兼顾吞吐与可回滚性。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;先统计自身仓库回退占比基线，若引入风险分级后 2 个迭代内降幅未达 40%，则判定分级规则过松，收紧高风险变更的人工审批条件。&lt;/p&gt;&lt;p&gt;来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-15T18:56 UTC · 归类：market-invest&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://arex-research.com/feeds/a4499309-898b-478d-a4ab-a7db99057011" rel="noopener noreferrer"&gt;https://arex-research.com/feeds/a4499309-898b-478d-a4ab-a7db99057011&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:daily-info.local,2026-11-15:99892725955d150f</ns0:id>
     <ns0:title>[市场与投资] Juicy 6% Yields Gain Appeal After Nvidia Drama: Credit Weekly</ns0:title>

@@ -1,76 +1,77 @@
 {
-  "date": "2026-11-15",
-  "headline": "开源模型往单机挤、Agent 往任务图走，验证门禁与工程实测成了真正的分水岭",
-  "headline_short": "开源模型往单机挤、Agent 往任务图走，验证门禁与工程",
-  "lead": "LoopForge 以 694 stars 把 CodeBuddy、Codex、Claude Code 收进带人工审批门的脚本编排；GLM-5.3 在双 DGX 上跑到 607.8 tok/s，145B 参数模型被宣称可在本机运行。张力在于：能力与算力同时上量，2,539 个活密钥却因缺 .gitignore 被推上 GitHub——验证与门禁没跟上开放速度。",
-  "generated_at": "2026-11-14T22:53:41.482428Z",
+  "date": "2026-11-16",
+  "headline": "skill 有了星数也该有评测门槛，权重开放不等于部署路径开放——今日读数密集，可接入项仍需逐项验收",
+  "headline_short": "skill 有了星数也该有评测门槛，权重开放不等于部署路",
+  "lead": "今日入报里，82 个专用 skill 与 1,308 星的评测框架同时出现，也有 1.6 万亿参数却缺 Nvidia GPU 自托管路径的开源权重；同一天，19 小时宕机与 $887M 罚款把基础设施代价写成了可核验读数。张力在于能数清的越来越多、能直接接入的却没同步变多：版本号密集刷新到 1.2.0，部署清单仍要逐项对照。",
+  "generated_at": "2026-11-16T02:01:41.758063Z",
   "themes": [
     {
-      "title": "参数越大，部署越往单机挤",
-      "why": "145B 模型宣称本机可跑、4GB 显卡给出 209 tok/s、双 DGX 给出 607.8 tok/s，三条读数指向同一件事：竞争焦点从参数规模转到稀疏激活与推理栈，但三者口径不一致，不能横向比大小。",
+      "title": "skill 有了星数，也该有评测门槛",
+      "why": "两个仓库一个给规模读数、一个给评测框架，说明 skill 正被当作可清点、可准入的工程依赖，而不是提示词草稿。",
       "cluster_ids": [
-        "423d06e41442f92b",
-        "797e41c445a6a3ee",
-        "8f2daa11c5051ada"
+        "c6524b3bb676a860",
+        "3781448153b0315f",
+        "9555a9e6eb0016f5"
       ],
       "verified_by": 3
     },
     {
-      "title": "编排权从对话移向可审批的图",
-      "why": "LoopForge 用脚本收编多家 coding agent 并保留人工审批门，另一篇工程文把长对话拆成 T1→T2/T3 的任务图，连一个只带 ★0 的 MCP 技能包也在按「server + CLI + skills + docs」组织交付；难点明显在依赖与权限。",
+      "title": "版本号密集刷新，工具链在悄悄重排",
+      "why": "mistralai 与 groq 两个包同批改走 gateway，叠加社区帖里的版本与成本读数，是平台级路由调整而非单点修复，升级需成批回归。",
       "cluster_ids": [
-        "6a36938791d14140",
-        "ecefef97db2b0a08",
-        "6c5cb0ab506c03c4"
+        "505dd0d701f36e99",
+        "2cff81e9a05646a1",
+        "16b2dbffe2c452b4"
       ],
       "verified_by": 3
     },
     {
-      "title": "开放提速，验证与门禁掉队",
-      "why": "2,539 个密钥因缺 .gitignore 外泄、700 余份 AI 数学手稿引发验证滞后讨论、1000 条假招聘在调查后才下架，三件事的共同结构是「先发布、后校验」，而门禁成本最终由下游承担。",
+      "title": "权重开放，不等于部署路径开放",
+      "why": "万亿参数与稀疏激活压低了纸面门槛，但缺 GPU 自托管路径、agent 后端清单仍待补，能力数字与可接入能力之间有明显落差。",
       "cluster_ids": [
-        "94d5fd03df4fff4e",
-        "8a958749f044f5b6",
-        "15b6fbabb889152f"
+        "3c784896e5d8dae1",
+        "bbd5c593a5dbb4b3",
+        "9555a9e6eb0016f5"
       ],
       "verified_by": 3
     },
     {
-      "title": "同一场回收，两条独立源互相校准",
-      "why": "Flight 15 的两个独立来源一个只说「收尾」、一个说「助推器捕获中止、上面级捕获成功」；保留双条而非合并成一句结论，才能看出短摘要信源丢了哪一半事实。",
+      "title": "基础设施的代价被写成可核验数字",
+      "why": "19 小时宕机、$887M 罚款与一张 $1,500 发票触发的关停，把可用性、合规与风控三类成本同时量化，也暴露聚合源的证据混排。",
       "cluster_ids": [
-        "73d9d5b1e9033a86",
-        "7e59a67d8036bc32"
-      ],
-      "verified_by": 2
-    },
-    {
-      "title": "评测读数好看，能力边界仍硬",
-      "why": "30 道数学世界难题无一被 AI 独立攻破、读书会回到「标准经济学的界定是否多余」、607.8 tok/s 却缺并发数与序列长度，三处都在提醒：脱离判定条件的读数支撑不了能力结论。",
-      "cluster_ids": [
-        "54e91b9d8fad12a0",
-        "bc4bfd8f951086cc",
-        "8f2daa11c5051ada"
+        "1a391f32e27ef31a",
+        "042b8471176f671c",
+        "47b57b00d8353101"
       ],
       "verified_by": 3
     },
     {
-      "title": "星数高低都不能替代工程验证",
-      "why": "Airgorah 的 5,473 stars、LoopForge 的 694 stars 与 transformer-mcp 的 ★0 落在一张版面上，星数只说明关注度，不说明审批门是否可绕过、误报率是否可接受或仓库是否只是占位。",
+      "title": "资本读数分化，上限与成交要分清",
+      "why": "并购上限、种子轮与指数目标同日出现，但分别属于至多、已筹、预测三种口径，混读会高估实际规模。",
       "cluster_ids": [
-        "d39f1081244a9510",
-        "6a36938791d14140",
-        "6c5cb0ab506c03c4"
+        "fb60cc1ec1fcdcf5",
+        "fc91828979fbf24c",
+        "ff37d90f9a8644db"
       ],
       "verified_by": 3
     },
     {
-      "title": "资本热度与工程风险同框",
-      "why": "6% 收益率在 Nvidia 波动后更受关注、1.5T 估值叙事与 2,539 个外泄密钥并置、145B 模型开源同日出现，市场读数、估值口径与工程事故需要分开陈述，不能互相当佐证。",
+      "title": "把损失换算成可数条目，才算复盘",
+      "why": "40 颗卫星损失、30 年存档跨度与明码标价的折扣，都在把模糊影响转成可核验计数，这正是我们事故复盘模板缺的字段。",
       "cluster_ids": [
-        "99892725955d150f",
-        "94d5fd03df4fff4e",
-        "423d06e41442f92b"
+        "a850a5bee1633730",
+        "28b10992cceb6449",
+        "9781145a655dc727"
+      ],
+      "verified_by": 3
+    },
+    {
+      "title": "读数最响的转载，最需要一手复核",
+      "why": "12 万签名与 3000 人的落差很醒目，但单一转载、立场化措辞、社区源版本传闻都提示：响度不等于证据等级，先分级再引用。",
+      "cluster_ids": [
+        "f4086cc528cd49ce",
+        "16b2dbffe2c452b4",
+        "1a391f32e27ef31a"
       ],
       "verified_by": 3
     }
@@ -81,127 +82,149 @@
       "label": "Agent 与工程",
       "items": [
         {
-          "id": "6c5cb0ab506c03c4",
-          "title": "NBV-AppFactory/transformer-mcp · ★0",
-          "url": "https://github.com/NBV-AppFactory/transformer-mcp",
-          "source": "GitHub 搜索 · topic:mcp",
-          "published_at": "2026-11-14T22:42:49Z",
-          "score": 80.22,
+          "id": "c6524b3bb676a860",
+          "title": "elementalsouls/Claude-BugHunter",
+          "url": "https://github.com/elementalsouls/Claude-BugHunter",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-15T13:21:08.010000Z",
+          "score": 79.65,
           "category": "agent-engineering",
-          "cluster_id": "6c5cb0ab506c03c4",
-          "summary": "Transformer (transformer.gg) MCP server, CLI, agent skills and docs: paid X creator partnerships for brands and AI agents",
-          "why_matters": "把 MCP server、CLI 与 agent skills 放进同一仓库，说明能力交付正从单点接口转向可整套搬走的技能包，但零星标意味着尚无社区验证",
-          "fact_anchor": "NBV-AppFactory 发布 transformer-mcp，把 transformer.gg 的 MCP server、CLI 与 agent skills 文档打包开源",
+          "cluster_id": "c6524b3bb676a860",
+          "summary": "Claude-BugHunter is an open-source Python skill bundle designed for bug hunting and external red-team operations. The collection comprises 82 specialized skills, 15 slash commands, and 681 disclosed-report patterns covering 24 core vulnerability classes. It also includes enterprise identity and infr",
+          "why_matters": "把红队经验固化成可复用 skill 包，规模数字首次让 skill 资产可被清点，也给 skill 供应链的审计面立了参照。",
+          "fact_anchor": "elementalsouls 把 82 个专用 skill、15 条 slash command 与 681 条已披露报告模式打包成 Claude-BugHunter 开源 Python skill 集。",
           "numbers": [
-            "★0"
+            "82",
+            "15",
+            "681",
+            "24",
+            "5,895"
           ],
           "entities": [
-            "transformer-mcp",
-            "MCP",
-            "CLI",
-            "agent skills"
+            "Claude-BugHunter",
+            "Python"
           ],
           "evidence_urls": [
-            "https://github.com/NBV-AppFactory/transformer-mcp"
+            "https://github.com/elementalsouls/Claude-BugHunter"
           ],
-          "impact": "对 WorkBuddy / CodeBuddy 的 MCP 与 skill 部署有直接参考价值：可对照其目录结构判断「server + CLI + skills + docs」是否值得作为自建技能包的骨架",
-          "next_action": "克隆仓库逐一核对 server、CLI、skills、docs 四个目录是否齐全，若任一缺失或 ★0 在 7 天后仍为 0 则判定为占位仓库、不纳入选型",
+          "impact": "直接对应我们的 skill 版本化与部署治理：82 个 skill 与 681 条模式的组织方式，可作为 WorkBuddy/MCP skill 包分层与准入清单的对照样本。",
+          "next_action": "拉取仓库逐一核对 skill 目录数与 82 是否一致；若偏差超过 10% 或缺版本锁定文件，则判定不可直接接入，先补 manifest 再评估。",
           "signal_type": "release",
           "confidence": "fact"
         },
         {
-          "id": "6a36938791d14140",
-          "title": "Tencent/LoopForge",
-          "url": "https://github.com/Tencent/LoopForge",
+          "id": "3781448153b0315f",
+          "title": "NVIDIA/SkillEvaluator",
+          "url": "https://github.com/NVIDIA/SkillEvaluator",
           "source": "Folo 订阅池基线（人工筛选信源）",
-          "published_at": "2026-11-14T13:04:48.045000Z",
-          "score": 76.26,
+          "published_at": "2026-11-15T13:21:08.007000Z",
+          "score": 78.05,
           "category": "agent-engineering",
-          "cluster_id": "6a36938791d14140",
-          "summary": "LoopForge is a self-hosted Go repository from Tencent that orchestrates coding agents such as CodeBuddy, Codex, and Claude Code. It delivers workflows through scripts and requires human approval gates. The project maintains 694 stars and 114 forks on its platform. 〔Folo分类:开源项目〕",
-          "why_matters": "把多家厂商的 coding agent 收进同一编排层且显式要求人工审批，说明多 agent 协作的难点在权限与流程而非模型选择",
-          "fact_anchor": "腾讯开源自托管 Go 仓库 LoopForge，用脚本编排 CodeBuddy、Codex、Claude Code 并保留人工审批门",
+          "cluster_id": "3781448153b0315f",
+          "summary": "The SkillEvaluator project is a Python-based framework for assessing AI agent capabilities. It features a multi-tier evaluation structure incorporating quality gates and semantic overlap detection to analyze agent skills. The tool generates synthetic datasets and performs live agent evaluations to m",
+          "why_matters": "评测从看效果转向可量化闸门，说明 skill 的准入正被当成工程依赖对待，而不是提示词草稿。",
+          "fact_anchor": "NVIDIA 开源基于 Python 的 SkillEvaluator 框架，用质量闸门与语义重叠检测评估 agent skill，仓库已积累 1,308 星、154 次 fork。",
           "numbers": [
-            "694",
-            "114"
+            "1,308",
+            "154"
           ],
           "entities": [
-            "Tencent",
-            "LoopForge",
-            "CodeBuddy",
-            "Codex",
+            "SkillEvaluator",
+            "NVIDIA",
+            "Python",
+            "GitHub"
+          ],
+          "evidence_urls": [
+            "https://github.com/NVIDIA/SkillEvaluator"
+          ],
+          "impact": "与我们的 agent 部署评测链直接相关：其语义重叠检测可迁移为 skill 去重与冲突检测的一道 gate，减少自动化链路里的隐性覆盖。",
+          "next_action": "在本地 skill 集上跑一次评测，若语义重叠检出数 >0 且人工确认存在真冲突，则把该检测加进部署前 gate；0 检出则暂不接入以免徒增开销。",
+          "signal_type": "release",
+          "confidence": "fact"
+        },
+        {
+          "id": "16b2dbffe2c452b4",
+          "title": "Claude Fable 5.2, Code Execution Updates, and Local Agent Workflows",
+          "url": "https://dev.to/githubopensource/claude-fable-52-code-execution-updates-and-local-agent-workflows-10o3",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-15T19:53:52.316000Z",
+          "score": 75.39,
+          "category": "agent-engineering",
+          "cluster_id": "16b2dbffe2c452b4",
+          "summary": "TL;DR Anthropic released Claude Fable 5.2 alongside a 20 percent API price cut and a 30 percent speed boost, while introducing an… 〔Folo分类:开源项目〕",
+          "why_matters": "降价与提速同时出现，反映推理成本的竞争焦点，但单一社区源、产品命名与官方命名不一致，读数需一手 changelog 复核。",
+          "fact_anchor": "一篇 dev.to 帖称 Anthropic 发布 Claude Fable 5.2，同时给出 API 降价 20 percent 与提速 30 percent 的说法，并附带本地 agent 工作流更新。",
+          "numbers": [
+            "5.2",
+            "20",
+            "30"
+          ],
+          "entities": [
+            "Anthropic",
+            "Claude Fable 5.2",
+            "API"
+          ],
+          "evidence_urls": [
+            "https://dev.to/githubopensource/claude-fable-52-code-execution-updates-and-local-agent-workflows-10o3"
+          ],
+          "impact": "若属实会影响模型调用成本估算与 WinVM 侧 provider 选型；在官方确认前不写进成本基线，避免把 unverified 读数当预算输入。",
+          "next_action": "对照 Anthropic 官方 changelog 核验 5.2 与 20 percent/30 percent；若 48 小时内无官方条目，则判定为未证实社区传闻并从成本模型剔除。",
+          "signal_type": "release",
+          "confidence": "unverified"
+        },
+        {
+          "id": "9555a9e6eb0016f5",
+          "title": "Anthropic 公开 Claude Code 团队 AI 代码评审流程：人工审批按风险分级，自报合并 PR 翻倍以上、回退占比降超 40%",
+          "url": "https://arex-research.com/feeds/a4499309-898b-478d-a4ab-a7db99057011",
+          "source": "智源社区 · 最新分享（匿名 API）",
+          "published_at": "2026-11-15T18:56:00Z",
+          "score": 73.21,
+          "category": "market-invest",
+          "cluster_id": "9555a9e6eb0016f5",
+          "summary": "资讯｜据 InfoQ 11 月 15 日报道，Anthropic 在其 claude.dev 博客发表题为《How the Claude Code team does code review》的文章，署名为 Addy Osmani、Morgan Westlee Lunt 与 Qing Wang，公开了团队在“Claude 编写了 Claude Code 自身约 9…",
+          "why_matters": "把 AI 写代码的瓶颈定位在人工审批分层而非生成能力，是流程工程而非模型能力提升带来的收益。",
+          "fact_anchor": "Anthropic 公开 Claude Code 团队的 AI 代码评审流程，按风险分级做人工审批，自报合并 PR 翻倍以上、回退占比降超 40%。",
+          "numbers": [
+            "40%"
+          ],
+          "entities": [
+            "Anthropic",
             "Claude Code",
-            "Go"
+            "InfoQ"
           ],
           "evidence_urls": [
-            "https://github.com/Tencent/LoopForge"
+            "https://arex-research.com/feeds/a4499309-898b-478d-a4ab-a7db99057011"
           ],
-          "impact": "与 WorkBuddy / CodeBuddy 的 skill 编排、A2A 委派路径高度同构，可直接对照其审批门设计校准 WinVM Bridge 的 plan-first + DDD 流程",
-          "next_action": "读其 workflow 脚本复现一次「提交→审批→执行」链路，若审批门可被脚本绕过或在 694 stars 的 issue 里有未修复绕过记录则判定不可直接借鉴",
-          "signal_type": "release",
+          "impact": "可迁移到我们的自动化流水线：按风险分级决定哪些改动自动合并、哪些必须人工复核，比一刀切 gate 更能兼顾吞吐与可回滚性。",
+          "next_action": "先统计自身仓库回退占比基线，若引入风险分级后 2 个迭代内降幅未达 40%，则判定分级规则过松，收紧高风险变更的人工审批条件。",
+          "signal_type": "research",
           "confidence": "fact"
         },
         {
-          "id": "797e41c445a6a3ee",
-          "title": "Swizzle Runtime v0.1.0: How We Reached 209 tok/s and 43ms TTFT on a 4GB Laptop GPU in Pure Rust",
-          "url": "https://dev.to/paramveer_singh_53163a04c/swizzle-runtime-v010-how-we-reached-209-toks-and-43ms-ttft-on-a-4gb-laptop-gpu-in-pure-rust-4l7l",
+          "id": "bbd5c593a5dbb4b3",
+          "title": "10xGraph 1.0: the backend your AI agent needs before it ships to customers",
+          "url": "https://dev.to/10xgraph/10xgraph-10-the-backend-your-ai-agent-needs-before-it-ships-to-customers-1loa",
           "source": "Folo 订阅池基线（人工筛选信源）",
-          "published_at": "2026-11-14T14:55:59.913000Z",
-          "score": 74.28,
+          "published_at": "2026-11-15T20:13:30.740000Z",
+          "score": 75.59,
           "category": "agent-engineering",
-          "cluster_id": "797e41c445a6a3ee",
-          "summary": "Autonomous coding agents, local developer tools, and edge robotics are bottlenecked by the traditional Python/PyTorch serving stack. On… 〔Folo分类:开源项目〕",
-          "why_matters": "把优化目标定为首 token 延迟与单卡吞吐而非峰值算力，说明本地 agent 的体验瓶颈在首响应与内存占用",
-          "fact_anchor": "Swizzle Runtime v0.1.0 用纯 Rust 在 4GB 笔记本 GPU 上跑到 209 tok/s、43ms TTFT，瞄准本地 coding agent 的推理瓶颈",
+          "cluster_id": "bbd5c593a5dbb4b3",
+          "summary": "Getting an AI agent to work is the easy part now. A model, a few tools and a loop, and you have a demo in an afternoon. Then someone asks… 〔Folo分类:开源项目〕",
+          "why_matters": "把 agent 落地缺口从模型能不能跑重新定义成持久化、权限与可观测后端，是工程侧的清醒判断。",
+          "fact_anchor": "10xGraph 发布 1.0，定位为 AI agent 交付客户前所需的后端层，主张 demo 与可上线系统之间差的是后端能力而非模型。",
           "numbers": [
-            "0.1.0",
-            "209",
-            "43",
-            "4"
+            "1.0"
           ],
           "entities": [
-            "Swizzle Runtime",
-            "Rust",
-            "TTFT",
-            "Python/PyTorch"
+            "10xGraph",
+            "AI agent"
           ],
           "evidence_urls": [
-            "https://dev.to/paramveer_singh_53163a04c/swizzle-runtime-v010-how-we-reached-209-toks-and-43ms-ttft-on-a-4gb-laptop-gpu-in-pure-rust-4l7l"
+            "https://dev.to/10xgraph/10xgraph-10-the-backend-your-ai-agent-needs-before-it-ships-to-customers-1loa"
           ],
-          "impact": "对 WinVM Bridge 的 VM 侧推理与本地 agent 部署直接相关：可作为「是否绕开 Python/PyTorch 服务栈」的对照实现",
-          "next_action": "在同一 4GB GPU 上复现 209 tok/s 与 43ms TTFT，若两项实测偏差任一超过 20% 则判定读数依赖特定环境、不纳入本地基准",
-          "signal_type": "release",
-          "confidence": "fact"
-        },
-        {
-          "id": "ecefef97db2b0a08",
-          "title": "Running coding agents on a task graph instead of one long chat",
-          "url": "https://dev.to/rom_matetzky_436dce893285/running-coding-agents-on-a-task-graph-instead-of-one-long-chat-1lcf",
-          "source": "Folo 订阅池基线（人工筛选信源）",
-          "published_at": "2026-11-14T14:31:41.276000Z",
-          "score": 74.05,
-          "category": "agent-engineering",
-          "cluster_id": "ecefef97db2b0a08",
-          "summary": "The idea A feature usually breaks down into slices like this: graph LR T1[1. Data model] --> T2[2. API endpoint] T1 --> T3… 〔Folo分类:开源项目〕",
-          "why_matters": "把依赖顺序显式画成 T1→T2/T3 的图，等于承认长对话里的上下文漂移才是编排失败的主因",
-          "fact_anchor": "一篇工程文提出用 task graph 承接 coding agent，把功能拆成 T1 数据模型、T2 API 端点等节点替代一条长对话",
-          "numbers": [
-            "T1",
-            "T2",
-            "T3"
-          ],
-          "entities": [
-            "coding agents",
-            "task graph",
-            "Data model",
-            "API endpoint"
-          ],
-          "evidence_urls": [
-            "https://dev.to/rom_matetzky_436dce893285/running-coding-agents-on-a-task-graph-instead-of-one-long-chat-1lcf"
-          ],
-          "impact": "与 WinVM Bridge 的 plan-first + DDD skills workflow 同构：可对照把复杂任务从单轮委派改为带依赖关系的图式委派",
-          "next_action": "把现有 A2A 委派链路改写成 3 节点任务图跑一次 smoke，若节点依赖冲突数 >0 或最终产物字节不一致则判定拆分失败",
-          "signal_type": "opinion",
+          "impact": "对应我们 agent 部署与数据基建的分层：可对照其后端清单检查 WinVM/A2A 链路里是否缺持久化与审计两类能力。",
+          "next_action": "列出其宣称的后端能力清单并与本地 agent 栈逐项对照，若缺失项 ≥2 个且影响审计或回滚，则先把缺口补进部署清单再评估接入。",
+          "signal_type": "product",
           "confidence": "fact"
         }
       ]
@@ -211,93 +234,65 @@
       "label": "模型与研究",
       "items": [
         {
-          "id": "54e91b9d8fad12a0",
-          "title": "姚期智杨植麟首次联手发论文！30道数学世界难题无一AI独立攻破",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw%3D%3D&mid=2247943908&idx=2&sn=79813e5c6542b53a1ac694e4b426ecf5&chksm=e95bad77f195631f5594129ced0192b85a793ea656b1d06ee8c6004f45f4bbb5686bf6696091&scene=0&xtrack=1",
+          "id": "3c784896e5d8dae1",
+          "title": "美团开源 LongCat-2.5 权重：1.6 万亿参数 MoE Agent 模型，自托管指南未提供 Nvidia GPU 路径",
+          "url": "https://arex-research.com/feeds/a655c45f-f32c-4e74-8be0-e69ed2489277",
           "source": "智源社区 · 最新分享（匿名 API）",
-          "published_at": "2026-11-14T18:10:00Z",
-          "score": 79.44,
+          "published_at": "2026-11-15T18:56:00Z",
+          "score": 74.81,
           "category": "ai-models",
-          "cluster_id": "54e91b9d8fad12a0",
-          "summary": "扩散模型、生成模型、深度学习｜图灵奖得主姚期智与Kimi创始人杨植麟首次联合发表arXiv论文，系两人迄今首度共同署名的研究。姚期智为理论计算机科学泰斗，杨植麟是国内大模型创业代表人物。本次合作聚焦当前顶尖人工智能领域的核心难题，体现学术界与产业界在前沿AI基础研究上的深度交汇，引发学界广泛关注。论文尚未正式刊发，但已凸显跨代际、跨领域协同攻关的创新趋势。（150字）",
-          "why_matters": "理论计算机与大模型的两代作者联手，把议题落在「AI 尚未独立攻破的难题」而非刷榜分数，是评测口径转向开放问题的信号",
-          "fact_anchor": "姚期智与 Kimi 创始人杨植麟首次联合署名 arXiv 论文，标题称 30 道数学世界难题无一被 AI 独立攻破",
+          "cluster_id": "3c784896e5d8dae1",
+          "summary": "资讯｜据 The Decoder 2026 年 11 月 15 日的详细报道，美团 LongCat 团队已发布 LongCat-2.5 的开源权重，采用 MIT 许可证，允许商用、修改与再分发。这是一个总参数 1.6 万亿的 MoE（混合专家）模型，每个 token（词元）约激活 480 亿参数，原生处理多模态输入，定位是执行长程多步任务的自主 agent（智能体…",
+          "why_matters": "万亿级总参数与 480 亿激活量的稀疏结构把推理门槛压低，但报道明确指出自托管指南未给 Nvidia GPU 路径，开放权重不等于可落地。",
+          "fact_anchor": "美团 LongCat 团队开源 LongCat-2.5 权重，采用 MIT 许可证，总参数 1.6 万亿的 MoE 模型每 token 约激活 480 亿参数，定位长程多步 agent 任务。",
           "numbers": [
-            "30"
+            "2.5",
+            "1.6 万亿",
+            "480 亿"
           ],
           "entities": [
-            "姚期智",
-            "杨植麟",
-            "Kimi",
-            "arXiv"
+            "美团",
+            "LongCat-2.5",
+            "MoE",
+            "MIT",
+            "Nvidia"
           ],
           "evidence_urls": [
-            "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw%3D%3D&mid=2247943908&idx=2&sn=79813e5c6542b53a1ac694e4b426ecf5&chksm=e95bad77f195631f5594129ced0192b85a793ea656b1d06ee8c6004f45f4bbb5686bf6696091&scene=0&xtrack=1"
+            "https://arex-research.com/feeds/a655c45f-f32c-4e74-8be0-e69ed2489277"
           ],
-          "impact": "对 WinVM Bridge 与 agent 自动化的评测设计有直接影响：应把「能否独立闭环」而非「单步命中率」列为验收指标",
-          "next_action": "取该 arXiv 预印本核对题目是否确为 30 道并抽查 3 道题的判定规则，若题目数与 30 不符则判定标题口径夸大",
-          "signal_type": "research",
-          "confidence": "unverified"
-        },
-        {
-          "id": "423d06e41442f92b",
-          "title": "Edge0 AI open-sources Edge0-145B: a 145-billion-parameter latent-MoE model that runs AI on your own computer",
-          "url": "https://dev.to/delimitter/edge0-ai-open-sources-edge0-145b-a-145-billion-parameter-latent-moe-model-that-runs-ai-on-your-own-1i4f",
-          "source": "Folo 订阅池基线（人工筛选信源）",
-          "published_at": "2026-11-14T15:00:18.238000Z",
-          "score": 74.32,
-          "category": "ai-models",
-          "cluster_id": "423d06e41442f92b",
-          "summary": "📅 November 14, 2026 • Edge0 AI Edge0 AI has open-sourced Edge0-145B and Edge0-120B together with the company's unified inference… 〔Folo分类:开源项目〕",
-          "why_matters": "145B 参数与「跑在自己电脑上」并列，意味着稀疏激活与推理栈优化正替代单纯堆参数成为卖点",
-          "fact_anchor": "Edge0 AI 开源 Edge0-145B 与 Edge0-120B 两款 latent-MoE 模型及统一推理栈，宣称可在个人电脑本地运行",
-          "numbers": [
-            "145B",
-            "120B",
-            "145"
-          ],
-          "entities": [
-            "Edge0 AI",
-            "Edge0-145B",
-            "Edge0-120B",
-            "latent-MoE"
-          ],
-          "evidence_urls": [
-            "https://dev.to/delimitter/edge0-ai-open-sources-edge0-145b-a-145-billion-parameter-latent-moe-model-that-runs-ai-on-your-own-1i4f"
-          ],
-          "impact": "对 WinVM Bridge 与本地 agent 部署是候选底座：若真能在消费级显存跑通，可把 VM 侧推理从云端回迁",
-          "next_action": "对照同批 209 tok/s 的本地基线跑一次对比，若 145B 在目标机器上 60 秒内出不来首 token 或需联网拉取未公开权重则判定不可本地部署",
+          "impact": "影响本地模型选型与 WinVM 侧自托管评估：在拿到可复现的 GPU 部署步骤前，不把该权重列入可用 provider，只作架构参考。",
+          "next_action": "查找官方自托管文档，若仍无 Nvidia GPU 路径或最小显存配置，则判定为权重开放、部署路径未开放，暂缓纳入自托管测试队列。",
           "signal_type": "release",
           "confidence": "fact"
         },
         {
-          "id": "8f2daa11c5051ada",
-          "title": "Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM",
-          "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm",
-          "source": "Folo 订阅池基线（人工筛选信源）",
-          "published_at": "2026-11-14T14:09:25.786000Z",
-          "score": 73.84,
+          "id": "505dd0d701f36e99",
+          "title": "langchain-mistralai==1.2.0",
+          "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-mistralai%3D%3D1.2.0",
+          "source": "LangChain Releases",
+          "published_at": "2026-11-15T22:38:06Z",
+          "score": 74.45,
           "category": "ai-models",
-          "cluster_id": "8f2daa11c5051ada",
-          "summary": "The text states that the GLM-5.3 model was served at a speed of 607.8 tokens per second. This performance was achieved using two Nvidia DGX stations with the vLLM inference framework. No further details are provided in the source material. 〔Folo分类:开源项目〕",
-          "why_matters": "摘要明确只给出吞吐数字、没有并发数或序列长度，单看 607.8 tok/s 无法判断是单请求还是聚合吞吐",
-          "fact_anchor": "Nvidia 开发者博客记录用 vLLM 在两台 DGX 上把 GLM-5.3 跑到 607.8 tok/s",
+          "cluster_id": "505dd0d701f36e99",
+          "summary": "Changes since langchain-mistralai==1.1.6 fix(mistralai): fix streaming behavior for reasoning models (#41887) fix(groq,mistralai,xai): bump deps (#41884) chore(model-profiles): refresh model profile data (#41861) release(mistralai): 1.2.0 (#41859) feat(mistralai): route ChatMistralAI through LangSmi",
+          "why_matters": "把 partner 模型统一路由到自家 gateway，是工具链收口而非功能新增，升级时需留意调用链被改写。",
+          "fact_anchor": "LangChain 发布 langchain-mistralai 1.2.0，相对 1.1.6 修复推理模型流式行为，并把 ChatMistralAI 改走 LangSmith gateway。",
           "numbers": [
-            "5.3",
-            "607.8"
+            "1.2.0",
+            "1.1.6"
           ],
           "entities": [
-            "GLM-5.3",
-            "Nvidia DGX",
-            "vLLM"
+            "langchain-mistralai",
+            "LangSmith",
+            "ChatMistralAI"
           ],
           "evidence_urls": [
-            "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm"
+            "https://github.com/langchain-ai/langchain/releases/tag/langchain-mistralai%3D%3D1.2.0"
           ],
-          "impact": "对本地推理选型是反向参照：缺上下文的吞吐读数不能直接与单机 209 tok/s 对比，需先对齐批次与序列长度",
-          "next_action": "查该博客是否给出并发数与序列长度，若两项任一缺失则把 607.8 tok/s 标为不可比读数、不入基准表",
-          "signal_type": "research",
-          "confidence": "unverified"
+          "impact": "我们的 MCP/A2A 链路里若有走 LangChain 的适配层，1.2.0 的 gateway 变更会影响可观测与代理配置，升级前应做回归。",
+          "next_action": "在测试环境把依赖升到 1.2.0 跑一遍流式推理 smoke，若出现调用链中断或流式分片异常，则判定不兼容并锁定 1.1.6。",
+          "signal_type": "docs-change",
+          "confidence": "fact"
         }
       ]
     },
@@ -306,57 +301,303 @@
       "label": "开发者工具与版本",
       "items": [
         {
-          "id": "73d9d5b1e9033a86",
-          "title": "SpaceX Catches the Starship to end Flight 15",
-          "url": "https://x.com/i/broadcasts/2brajgZlOKRMka",
-          "source": "Folo 订阅池基线（人工筛选信源）",
-          "published_at": "2026-11-14T21:22:24.127000Z",
-          "score": 78.44,
-          "category": "dev-tools",
-          "cluster_id": "73d9d5b1e9033a86",
-          "summary": "Comments 〔Folo分类:开源项目〕",
-          "why_matters": "同一事件在 Folo 基线里以极短文本出现，说明订阅池能提供事实骨架，却给不出可核验的技术细节",
-          "fact_anchor": "SpaceX 以「筷子」方式回收 Starship，为 Flight 15 收尾",
+          "id": "2cff81e9a05646a1",
+          "title": "langchain-groq==1.2.0",
+          "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-groq%3D%3D1.2.0",
+          "source": "LangChain Releases",
+          "published_at": "2026-11-15T21:49:10Z",
+          "score": 73.9,
+          "category": "docs-changelog",
+          "cluster_id": "2cff81e9a05646a1",
+          "summary": "Changes since langchain-groq==1.1.3 fix(groq): specify reasoning_effort in integration tests (#41886) fix(groq,mistralai,xai): bump deps (#41884) release(groq): 1.2.0 (#41856) feat(groq): route ChatGroq through LangSmith gateway (#41837) feat(partners): Remove EOL'd Python 3.10 from partner packages",
+          "why_matters": "与 mistralai 包同批改走 gateway，说明这是平台级路由调整而非单个 provider 的修复，跨包一致性需一起验证。",
+          "fact_anchor": "LangChain 发布 langchain-groq 1.2.0，相对 1.1.3 在集成测试中显式指定 reasoning_effort，并把 ChatGroq 改走 LangSmith gateway。",
           "numbers": [
-            "15"
+            "1.2.0",
+            "1.1.3"
           ],
           "entities": [
-            "SpaceX",
-            "Starship"
+            "langchain-groq",
+            "LangSmith",
+            "ChatGroq"
           ],
           "evidence_urls": [
-            "https://x.com/i/broadcasts/2brajgZlOKRMka"
+            "https://github.com/langchain-ai/langchain/releases/tag/langchain-groq%3D%3D1.2.0"
           ],
-          "impact": "对数据基建有直接影响：摘要只有 Comments 的条目应进补摘要待办清单，不能靠标题里的序号充当完整事实",
-          "next_action": "对照同事件独立源的 Flight 15 表述逐字段比对，若 2 个以上来源对「哪一级被捕获」说法冲突则标记为口径不一致",
-          "signal_type": "product",
+          "impact": "对 automation 链路里经 LangChain 调用 Groq 的部分是一次隐性依赖变更，升级会影响网关鉴权与超时配置。",
+          "next_action": "把 groq 与 mistralai 两个包同时升级后跑统一回归；若任一包出现 reasoning_effort 被忽略或超时错误，则整批回滚到 1.1.3/1.1.6。",
+          "signal_type": "docs-change",
           "confidence": "fact"
         },
         {
-          "id": "15b6fbabb889152f",
-          "title": "LinkedIn, Monster take down over 1000 fake job postings after CBC investigation",
-          "url": "https://www.cbc.ca/news/canada/linkedin-monster-take-down-over-1-000-fake-job-postings-after-cbc-investigation-9.7415379",
+          "id": "28b10992cceb6449",
+          "title": "Preserving 30 Years of Salon Journalism",
+          "url": "https://blog.archive.org/2026/11/12/preserving-30-years-of-salon-journalism",
           "source": "Folo 订阅池基线（人工筛选信源）",
-          "published_at": "2026-11-14T18:56:47.413000Z",
-          "score": 76.75,
+          "published_at": "2026-11-15T23:00:11.491000Z",
+          "score": 77.41,
           "category": "dev-tools",
-          "cluster_id": "15b6fbabb889152f",
+          "cluster_id": "28b10992cceb6449",
           "summary": "Comments 〔Folo分类:开源项目〕",
-          "why_matters": "平台在媒体调查后才批量清理，说明内容审核是被动触发而非默认门禁，成本被外部化给了求职者",
-          "fact_anchor": "LinkedIn 与 Monster 在 CBC 调查后下架超过 1000 条虚假招聘信息",
+          "why_matters": "长周期网页存档是可核验的时间跨度数字，提醒数据基建里保留多久本身是一项需要明示的口径。",
+          "fact_anchor": "一篇存档主题文章以 30 Years 为题记录对 Salon 新闻的保存跨度，摘要区仅留 Comments 未给更多细节。",
           "numbers": [
-            "1000"
+            "30"
           ],
           "entities": [
-            "LinkedIn",
-            "Monster",
-            "CBC"
+            "Salon"
           ],
           "evidence_urls": [
-            "https://www.cbc.ca/news/canada/linkedin-monster-take-down-over-1-000-fake-job-postings-after-cbc-investigation-9.7415379"
+            "https://blog.archive.org/2026/11/12/preserving-30-years-of-salon-journalism"
           ],
-          "impact": "对 automation 与 agent 部署有直接影响：任何自动发布通道都应把「发布前校验」做成硬闸门，而不是事后回删",
-          "next_action": "在自家发布链路跑一次发布前校验并统计被拦条数，若拦截数为 0 且人工抽检仍发现占位内容则判定门禁失效",
+          "impact": "对应我们的归档与去重策略：30 年跨度提示长期留存不能只靠摘要，需保留原始快照与可追溯时间戳。",
+          "next_action": "对照本地归档保留窗口，若窗口明显短于该量级且无原始快照，则补一份不可变快照清单后再谈长期可用。",
+          "signal_type": "opinion",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "docs-changelog",
+      "label": "文档与变更",
+      "items": [
+        {
+          "id": "1a391f32e27ef31a",
+          "title": "派早报：Microsoft 365 服务在 19 小时全球宕机后恢复",
+          "url": "https://sspai.com/post/119119",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-15T23:24:34.371000Z",
+          "score": 77.69,
+          "category": "docs-changelog",
+          "cluster_id": "1a391f32e27ef31a",
+          "summary": "Microsoft 365 services resumed after a 19-hour global outage. The briefing also covers several other topics: domestic frontier AI models exhibiting Blackwell GPU features, a US-wide aviation halt caused by cable replacement, a petition with over 100,000 signatures demanding Jensen Huang's reinstatem",
+          "why_matters": "一次长时宕机与多条产业动态被压进同一条早报，暴露聚合源把不同证据等级的读数并列的问题。",
+          "fact_anchor": "派早报汇总 Microsoft 365 在 19 小时全球宕机后恢复，并提到超 100,000 签名的请愿与 Blackwell GPU 特征等数条动态。",
+          "numbers": [
+            "19",
+            "100,000"
+          ],
+          "entities": [
+            "Microsoft 365",
+            "Blackwell",
+            "Tesla Cybercab"
+          ],
+          "evidence_urls": [
+            "https://sspai.com/post/119119"
+          ],
+          "impact": "对我们的采集链是反面参照：多话题聚合条目不宜作为单一事实源，入库前需按事件拆分与标注，避免数字串台。",
+          "next_action": "把该条按事件拆成独立记录，若 19 小时与 100,000 两个读数无法各自找到一手来源，则判定为聚合噪声并降级为线索。",
+          "signal_type": "incident",
+          "confidence": "fact"
+        },
+        {
+          "id": "042b8471176f671c",
+          "title": "Italy orders Meta to pay $887M for not obtaining specific consent over user photos",
+          "url": "https://www.engadget.com/2317185/italy-orders-meta-to-pay-887m-for-not-obtaining-specific-consent-over-user-photos",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-15T17:44:06.463000Z",
+          "score": 74.12,
+          "category": "docs-changelog",
+          "cluster_id": "042b8471176f671c",
+          "summary": "Meta is reportedly planning to appeal the fine. 〔Folo分类:新奇产品〕",
+          "why_matters": "把同意这一细粒度合规要求直接折算成可计量罚款，说明数据采集的授权粒度有明确的财务后果。",
+          "fact_anchor": "意大利监管机构就未取得用户照片的特定同意，要求 Meta 支付 $887M，Meta 计划提起上诉。",
+          "numbers": [
+            "887"
+          ],
+          "entities": [
+            "Meta",
+            "Italy"
+          ],
+          "evidence_urls": [
+            "https://www.engadget.com/2317185/italy-orders-meta-to-pay-887m-for-not-obtaining-specific-consent-over-user-photos"
+          ],
+          "impact": "对应我们的数据基建与凭据治理：采集或留存涉及用户内容时，同意范围与用途需可追溯，否则口径风险会外溢到产物。",
+          "next_action": "核对本地采集是否留存用户照片类字段，若存在且无逐项同意记录，则在下一次产物落盘前移除该字段并记为整改项。",
+          "signal_type": "incident",
+          "confidence": "fact"
+        },
+        {
+          "id": "9781145a655dc727",
+          "title": "Early Apple Watch Black Friday Deals Arrive With Series 12 Hitting New Record Lows",
+          "url": "https://www.macrumors.com/2026/11/15/early-apple-watch-black-friday-deals",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-15T17:59:53.286000Z",
+          "score": 74.27,
+          "category": "docs-changelog",
+          "cluster_id": "9781145a655dc727",
+          "summary": "Amazon and Best Buy are offering early Black Friday discounts on Apple Watch Series 12, reducing prices by $70 across Aluminum, Titanium, and Ceramic models. These new low prices apply to both 42mm and 46mm sizes in GPS and Cellular variations. Retailers like Amazon and Best Buy are currently sellin",
+          "why_matters": "同一折扣同时给出金额与尺寸覆盖，是少数把促销口径写全的读数，便于判断适用范围而非只看标题价。",
+          "fact_anchor": "Amazon 与 Best Buy 提前给出 Apple Watch Series 12 的黑五折扣，降价 $70，覆盖 42mm 与 46mm 尺寸。",
+          "numbers": [
+            "70",
+            "42mm",
+            "46mm"
+          ],
+          "entities": [
+            "Apple Watch Series 12",
+            "Amazon",
+            "Best Buy"
+          ],
+          "evidence_urls": [
+            "https://www.macrumors.com/2026/11/15/early-apple-watch-black-friday-deals"
+          ],
+          "impact": "暂无直接影响：消费电子促销与我们的 agent/数据基建关注面无关，此处仅作为可核验读数完整性的对照样本。",
+          "next_action": "若后续出现同型号更高折扣，比较 $70 是否被突破；差额超过 $70 时判定 record low 表述失效，不再引用该条作为极值。",
+          "signal_type": "market-data",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "industry-capital",
+      "label": "产业与资本",
+      "items": [
+        {
+          "id": "fc91828979fbf24c",
+          "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
+          "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-15T23:30:00.555000Z",
+          "score": 76.15,
+          "category": "community",
+          "cluster_id": "fc91828979fbf24c",
+          "summary": "Bharat Semi says it has secured design wins for its AI-enabled sensor technology with companies including General Atomics. 〔Folo分类:AI技术与应用〕",
+          "why_matters": "种子轮金额与设计订单同时披露，给出资金与客户双读数，比单看融资额更能判断早期项目的落地程度。",
+          "fact_anchor": "印度芯片初创 Bharat Semi 拿到 $24M 种子轮，称其 AI 传感器技术已拿下包括 General Atomics 在内的设计订单。",
+          "numbers": [
+            "24M"
+          ],
+          "entities": [
+            "Bharat Semi",
+            "General Atomics"
+          ],
+          "evidence_urls": [
+            "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market"
+          ],
+          "impact": "对 AI 传感器供应链是可用线索，但与当前 WorkBuddy/MCP/agent 部署关注面无直接交集，暂不纳入技术选型输入。",
+          "next_action": "核对 General Atomics 设计订单是否有第二来源；若 30 天内仍只有公司自述，则把该条标注为单一来源并降低可信等级。",
+          "signal_type": "funding",
+          "confidence": "fact"
+        },
+        {
+          "id": "ff37d90f9a8644db",
+          "title": "摩根士丹利预计标普500指数将升至8700点，看好2027年的德国国债和英国国债",
+          "url": "https://www.36kr.com/newsflashes/4071714541769865",
+          "source": "36氪快讯（RSSHub 镜像路由）",
+          "published_at": "2026-11-16T00:42:13Z",
+          "score": 73.2,
+          "category": "industry-capital",
+          "cluster_id": "ff37d90f9a8644db",
+          "summary": "摩根士丹利在2027年市场展望中看好美国股票和部分G10国家债券。包括Marina Zavolock在内的策略师在11月15日的报告中写道，该行已将标普500指数的目标价上调至8700点，这意味着约有15%的上涨空间。“健康的盈利增长、趋稳的利率和油价、持续的人工智能投资与应用，以及低于公允价值的估值，支撑了我们对2027年的展望。”（新浪财经）",
+          "why_matters": "点位目标与隐含涨幅是可证伪的量化预测，适合作为事后校准卖方预期的样本，而非操作依据。",
+          "fact_anchor": "摩根士丹利在市场展望中把标普500 目标价上调至 8700 点，称隐含约 15% 上涨空间，并看好部分 G10 国家债券。",
+          "numbers": [
+            "8700",
+            "15%"
+          ],
+          "entities": [
+            "摩根士丹利",
+            "标普500",
+            "Marina Zavolock"
+          ],
+          "evidence_urls": [
+            "https://www.36kr.com/newsflashes/4071714541769865"
+          ],
+          "impact": "暂无直接影响：属公开市场展望，与我们的工程关注面无关；此处只保留其可核验读数，不构成投资建议。",
+          "next_action": "把 8700 点与 15% 记为待验证预测，若对应周期结束时指数偏离目标超过 15%，则判定该展望失效并归档为校准样本。",
+          "signal_type": "market-data",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "market-invest",
+      "label": "市场与投资",
+      "items": [
+        {
+          "id": "fb60cc1ec1fcdcf5",
+          "title": "Johnson & Johnson looking to buy eye disease biotech for up to $3.4bn",
+          "url": "https://www.ft.com/content/450100ba-074c-46a6-b962-89dbef146135?syn-25a6b1a6=1",
+          "source": "Financial Times",
+          "published_at": "2026-11-15T23:54:31Z",
+          "score": 74.23,
+          "category": "market-invest",
+          "cluster_id": "fb60cc1ec1fcdcf5",
+          "summary": "Drugmaker’s potential acquisition of Ollin Biosciences is latest in glut of deals in biotechnology sector",
+          "why_matters": "给出的是收购金额上限而非成交价，读这类读数要区分至多与已付，否则会高估交易规模。",
+          "fact_anchor": "强生拟以最高 $3.4bn 收购眼病生物技术公司 Ollin Biosciences，被报道为生物技术板块密集交易中的最新一笔。",
+          "numbers": [
+            "3.4"
+          ],
+          "entities": [
+            "Johnson & Johnson",
+            "Ollin Biosciences"
+          ],
+          "evidence_urls": [
+            "https://www.ft.com/content/450100ba-074c-46a6-b962-89dbef146135?syn-25a6b1a6=1"
+          ],
+          "impact": "暂无直接影响：医药并购与我们的 agent/数据基建关注面无关，仅作为上限型读数的辨析样本，不构成投资建议。",
+          "next_action": "跟踪是否披露最终成交价；若最终价低于 $3.4bn 超过 20%，则把该条改标为上限报价并修正引用口径。",
+          "signal_type": "funding",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "community",
+      "label": "社区与观点",
+      "items": [
+        {
+          "id": "47b57b00d8353101",
+          "title": "Ask HN: Stripe closed us after one $1,500 invoice and never asked for evidence",
+          "url": "https://news.ycombinator.com/item?id=50510042",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-15T19:49:28.016000Z",
+          "score": 76.94,
+          "category": "community",
+          "cluster_id": "47b57b00d8353101",
+          "summary": "Comments 〔Folo分类:开源项目〕",
+          "why_matters": "金额很小却触发关停，指向风控自动化里的申诉缺口，读数与后果之间的不匹配才是重点。",
+          "fact_anchor": "一位商户在 Ask HN 发帖称 Stripe 在一张 $1,500 发票后关闭其账户且从未索取凭证。",
+          "numbers": [
+            "1,500"
+          ],
+          "entities": [
+            "Stripe"
+          ],
+          "evidence_urls": [
+            "https://news.ycombinator.com/item?id=50510042"
+          ],
+          "impact": "对应我们的自动化流水线设计：自动处置动作需保留人工申诉通道与可回滚记录，避免小额异常被不可逆处理。",
+          "next_action": "核对自家自动化里是否存在无凭证即终态的处置规则；若存在 ≥1 条且不可回滚，则补人工复核环节后再上线。",
+          "signal_type": "incident",
+          "confidence": "unverified"
+        },
+        {
+          "id": "a850a5bee1633730",
+          "title": "Vulcan rocket fails during return-to-flight launch, 40 Amazon satellites lost",
+          "url": "https://www.space.com/space-exploration/launches-spacecraft/ula-vulcan-centaur-return-to-flight-amazon-leo-internet-satellite-launch",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-15T20:37:28.366000Z",
+          "score": 75.84,
+          "category": "community",
+          "cluster_id": "a850a5bee1633730",
+          "summary": "Comments 〔Folo分类:开源项目〕",
+          "why_matters": "把一次发射失败折算成 40 颗的可数损失，说明大型系统的风险披露正从事故转向量化影响。",
+          "fact_anchor": "Vulcan 火箭在复飞发射中失败，报道称 40 颗 Amazon 卫星损失。",
+          "numbers": [
+            "40"
+          ],
+          "entities": [
+            "Vulcan",
+            "Amazon"
+          ],
+          "evidence_urls": [
+            "https://www.space.com/space-exploration/launches-spacecraft/ula-vulcan-centaur-return-to-flight-amazon-leo-internet-satellite-launch"
+          ],
+          "impact": "暂无直接影响：航天事故与我们的关注面无关，但把故障换算成可数损失的写法可借鉴到我们自己的事故复盘模板。",
+          "next_action": "在自身变更事故复盘里加入受影响对象计数字段；若连续 3 次事故仍填不出该计数，则判定可观测性不足并补埋点。",
           "signal_type": "incident",
           "confidence": "fact"
         }
@@ -367,320 +608,136 @@
       "label": "深度长文",
       "items": [
         {
-          "id": "8a958749f044f5b6",
-          "title": "见证未来：AI加速中的人类科技演化｜未来学读书会第九期",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzIzMjQyNzQ5MA%3D%3D&mid=2247738293&idx=3&sn=93f89308215629600324e4e8dfc78413&chksm=e9bfd73c417eb8115fd1b632654d40ab68b89b54b194fc37d201e3d80efe209d8e2a7ac78b27&scene=0&xtrack=1",
+          "id": "f4086cc528cd49ce",
+          "title": "12万人联名逼英伟达董事会请回黄仁勋！马斯克警告：没有老黄要丢大单",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&mid=2652743100&idx=1&sn=e57278b28bf21f341ed34de97af26cb7&chksm=f0a61ab8ea653b37b7e67eda6332cfeac5770bf1fc78b66c1f9bd872201d3f7d3f233fa9d299&scene=0&xtrack=1",
           "source": "智源社区 · 最新分享（匿名 API）",
-          "published_at": "2026-11-14T15:20:00Z",
-          "score": 76.11,
+          "published_at": "2026-11-16T00:50:00Z",
+          "score": 77.12,
           "category": "deep-read",
-          "cluster_id": "8a958749f044f5b6",
-          "summary": "AI、生成模型、深度学习｜今年10月，OpenAI公开700余份AI数学手稿，引发学界对AI批量解题的反思。陶哲轩等数学家警示：过度依赖AI恐削弱深层数学理解；独立顾问组呼吁暂停用封闭模型测试高等数学难题。在答案“潮水般涌现”的背景下，验证滞后成为关键瓶颈。上海人工智能实验室徐兴成博士将在未来学读书会第9期，以《见证未来：AI加速中的人类科技演化》为题，聚焦核心问题——AI生成成果如何转化为可靠的科学知识。",
-          "why_matters": "答案供给暴增而验证能力滞后，瓶颈从生成侧移到核验侧；数学家呼吁暂停用封闭模型测高等数学难题即这一失衡的回声",
-          "fact_anchor": "OpenAI 公开 700 余份 AI 数学手稿后，未来学读书会第 9 期把「AI 生成成果如何转为可靠知识」设为主题",
+          "cluster_id": "f4086cc528cd49ce",
+          "summary": "强化学习、AI、深度学习｜硅谷正掀起一场“救黄”运动，要求黄仁勋重返英伟达CEO职位的“Stand with Jensen”联名请愿24小时内签名突破10万，远超前日3000人，迅速升级为逼宫董事会的行动。马斯克率先签署，并发出严厉警告：若黄仁勋不回归，英伟达将至少丧失部分关键订单，凸显其不可替代性与公司战略稳定性的紧密关联。",
+          "why_matters": "12 万与 3000 的落差是全文最硬的读数，但来源为单一转载且含立场化措辞，数字与结论需分开对待。",
+          "fact_anchor": "一篇转载称 Stand with Jensen 联名请愿在 24 小时内签名突破 10 万、远超前日 3000 人，并转述马斯克关于订单风险的警告。",
           "numbers": [
-            "700",
-            "9"
+            "12万",
+            "24小时",
+            "10万",
+            "3000"
           ],
           "entities": [
-            "OpenAI",
-            "陶哲轩",
-            "上海人工智能实验室",
-            "徐兴成"
+            "黄仁勋",
+            "英伟达",
+            "马斯克",
+            "Stand with Jensen"
           ],
           "evidence_urls": [
-            "https://mp.weixin.qq.com/s?__biz=MzIzMjQyNzQ5MA%3D%3D&mid=2247738293&idx=3&sn=93f89308215629600324e4e8dfc78413&chksm=e9bfd73c417eb8115fd1b632654d40ab68b89b54b194fc37d201e3d80efe209d8e2a7ac78b27&scene=0&xtrack=1"
+            "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&mid=2652743100&idx=1&sn=e57278b28bf21f341ed34de97af26cb7&chksm=f0a61ab8ea653b37b7e67eda6332cfeac5770bf1fc78b66c1f9bd872201d3f7d3f233fa9d299&scene=0&xtrack=1"
           ],
-          "impact": "对每日信息流水线的白名单溯源闸门是正面印证：确定性脚本做索引、AI 只做研判，正是把核验成本固化进流程",
-          "next_action": "统计本轮入报条目的白名单丢弃数，若 invented_numbers_dropped 或 rejected_no_substantive_number 不为 0 则先修素材再发报",
+          "impact": "暂无直接影响：属企业治理舆论，与我们的工程关注面无交集；仅作为高响度读数需一手复核的样本。",
+          "next_action": "在请愿平台核对签名数是否达到 10 万且 24 小时增量属实；若查不到可核验计数，则判定为未证实传闻并移出事实引用。",
           "signal_type": "opinion",
-          "confidence": "fact"
-        }
-      ]
-    },
-    {
-      "key": "industry-capital",
-      "label": "产业与资本",
-      "items": [
-        {
-          "id": "94d5fd03df4fff4e",
-          "title": "$1.5T Valuation, Zero .gitignore: How Claude Code Leaked 2,539 Live Secrets to GitHub",
-          "url": "https://dev.to/devkursat/15t-valuation-zero-gitignore-how-claude-code-leaked-2539-live-secrets-to-github-4ndb",
-          "source": "Folo 订阅池基线（人工筛选信源）",
-          "published_at": "2026-11-14T14:51:56.772000Z",
-          "score": 75.84,
-          "category": "industry-capital",
-          "cluster_id": "94d5fd03df4fff4e",
-          "summary": "Anthropic is preparing for a $1.5T IPO while its flagship coding agent, Claude Code, casually dumped 2,539 live developer secrets across 1… 〔Folo分类:开源项目〕",
-          "why_matters": "估值叙事与最基础的 .gitignore 缺失同框，说明 coding agent 的默认写入路径缺少凭据边界检查",
-          "fact_anchor": "报道称 Anthropic 筹备 1.5T 估值 IPO 之际，Claude Code 把 2,539 个有效开发者密钥推上了 GitHub",
-          "numbers": [
-            "1.5",
-            "2,539"
-          ],
-          "entities": [
-            "Anthropic",
-            "Claude Code",
-            "GitHub"
-          ],
-          "evidence_urls": [
-            "https://dev.to/devkursat/15t-valuation-zero-gitignore-how-claude-code-leaked-2539-live-secrets-to-github-4ndb"
-          ],
-          "impact": "直接命中 automation 与 skill 落盘环节：本项目的凭据扫描与 redact_credentials 属同类防线，应确认覆盖 agent 自动生成的临时文件",
-          "next_action": "对 agent 产出目录跑一次凭据正则扫描，若命中数 >0 则阻断发布并定位写入点，不能只依赖提交前人工检查",
-          "signal_type": "incident",
           "confidence": "unverified"
-        }
-      ]
-    },
-    {
-      "key": "security-governance",
-      "label": "安全与治理",
-      "items": [
-        {
-          "id": "d39f1081244a9510",
-          "title": "martin-olivier/airgorah",
-          "url": "https://github.com/martin-olivier/airgorah",
-          "source": "Folo 订阅池基线（人工筛选信源）",
-          "published_at": "2026-11-14T13:04:48.043000Z",
-          "score": 73.26,
-          "category": "security-governance",
-          "cluster_id": "d39f1081244a9510",
-          "summary": "Airgorah is an open-source WiFi security auditing tool written in Rust. It is designed to identify vulnerabilities in wireless networks and perform penetration testing. The project is hosted on GitHub, where it has garnered approximately 5,473 stars and 919 forks, indicating significant community ad",
-          "why_matters": "安全工具的星数常被当作可信度代理，但审计类工具的真实门槛在规则覆盖与误报率，星数无法替代",
-          "fact_anchor": "开源 WiFi 安全审计工具 Airgorah 用 Rust 实现无线漏洞识别与渗透测试，GitHub 上约 5,473 stars、919 forks",
-          "numbers": [
-            "5,473",
-            "919"
-          ],
-          "entities": [
-            "Airgorah",
-            "Rust",
-            "GitHub",
-            "WiFi"
-          ],
-          "evidence_urls": [
-            "https://github.com/martin-olivier/airgorah"
-          ],
-          "impact": "对 WinVM Bridge 的系统与网络管理面有可参考性：若引入无线审计能力，应把误报率与权限范围列为验收项",
-          "next_action": "在隔离网络跑一次扫描并统计误报数，若误报数超过真阳性数的 2 倍则判定不适用于自动化巡检",
-          "signal_type": "product",
-          "confidence": "fact"
-        }
-      ]
-    },
-    {
-      "key": "market-invest",
-      "label": "市场与投资",
-      "items": [
-        {
-          "id": "99892725955d150f",
-          "title": "Juicy 6% Yields Gain Appeal After Nvidia Drama: Credit Weekly",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-14/juicy-6-yields-gain-appeal-after-nvidia-drama-credit-weekly",
-          "source": "Bloomberg Markets",
-          "published_at": "2026-11-14T20:00:00Z",
-          "score": 74.75,
-          "category": "market-invest",
-          "cluster_id": "99892725955d150f",
-          "summary": "US corporate bonds have been rallying in recent weeks, drawing the attention of money managers seeking shelter from turbulence in stocks.",
-          "why_matters": "股债之间的避险迁移给出的是公开市场读数而非配置结论，把它写成方向判断就越过了数据边界",
-          "fact_anchor": "一篇信用市场周报指出，Nvidia 相关波动后 6% 收益率的美国公司债更受资金青睐",
-          "numbers": [
-            "6%"
-          ],
-          "entities": [
-            "Nvidia",
-            "US corporate bonds"
-          ],
-          "evidence_urls": [
-            "https://www.bloomberg.com/news/articles/2026-11-14/juicy-6-yields-gain-appeal-after-nvidia-drama-credit-weekly"
-          ],
-          "impact": "对 automation 报表有直接影响：市场板块只陈述公开数据与风险提示，模板应硬编码禁止仓位与买卖表述",
-          "next_action": "检查本期市场板块是否出现买入、仓位或目标价字样，若命中 1 处即判定越界并回退该段",
-          "signal_type": "market-data",
-          "confidence": "fact"
-        }
-      ]
-    },
-    {
-      "key": "research-papers",
-      "label": "论文与学术",
-      "items": [
-        {
-          "id": "bc4bfd8f951086cc",
-          "title": "标准经济学的局限性｜《理解混沌》读书会第 3 期",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzIzMjQyNzQ5MA%3D%3D&mid=2247738293&idx=4&sn=17fd70752888ccf2dc1b0a5d18dc9d44&chksm=e984a0a0e1dfc1ad0a4119e4acc62cf083dcfbff73581514aee18c84367e324015cb46ceb712&scene=0&xtrack=1",
-          "source": "智源社区 · 最新分享（匿名 API）",
-          "published_at": "2026-11-14T15:40:00Z",
-          "score": 74.7,
-          "category": "research-papers",
-          "cluster_id": "bc4bfd8f951086cc",
-          "summary": "金融、神经与进化计算、博弈论｜在数据驱动研究时代，标准经济学的界定日益显得多余，本次讨论聚焦其发展脉络与内在局限。《理解混沌》由集智俱乐部组织翻译，新书共读活动由三位译者——北师大博士生陶如意、澳科大博士生孙璐及北师大硕士生方逸雯联合发起。活动将于2026年10月31日起每周六19:30–21:30线上举行，持续约10周，形式包括主讲分享与互动讨论。",
-          "why_matters": "把「标准经济学的界定是否多余」作为共读主题，呼应了数据驱动研究里模型边界先于模型性能的问题",
-          "fact_anchor": "集智俱乐部《理解混沌》新书共读第 3 期讨论标准经济学的局限，活动自 10 月 31 日起每周六线上举行约 10 周",
-          "numbers": [
-            "3",
-            "10"
-          ],
-          "entities": [
-            "集智俱乐部",
-            "《理解混沌》",
-            "北师大",
-            "澳科大"
-          ],
-          "evidence_urls": [
-            "https://mp.weixin.qq.com/s?__biz=MzIzMjQyNzQ5MA%3D%3D&mid=2247738293&idx=4&sn=17fd70752888ccf2dc1b0a5d18dc9d44&chksm=e984a0a0e1dfc1ad0a4119e4acc62cf083dcfbff73581514aee18c84367e324015cb46ceb712&scene=0&xtrack=1"
-          ],
-          "impact": "对 skill 与 automation 的方法论有间接影响：规则层与研判层的职责边界应先定义清楚，再谈打分调优",
-          "next_action": "对照活动页核对「约 10 周」与每周六时段是否一致，若两处时段冲突则只保留可核验的期数 3",
-          "signal_type": "opinion",
-          "confidence": "fact"
-        }
-      ]
-    },
-    {
-      "key": "community",
-      "label": "社区与观点",
-      "items": [
-        {
-          "id": "7e59a67d8036bc32",
-          "title": "Watch SpaceX successfully execute the first ‘chopstick’ catch of Starship",
-          "url": "https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch",
-          "source": "Folo 订阅池基线（人工筛选信源）",
-          "published_at": "2026-11-14T21:44:44.783000Z",
-          "score": 75.51,
-          "category": "community",
-          "cluster_id": "7e59a67d8036bc32",
-          "summary": "After aborting a planned catch of Starship Flight 15's booster, SpaceX successfully captured Starship with its \"Mechazilla\" launch… 〔Folo分类:Recommended〕",
-          "why_matters": "助推器捕获中止与上面级捕获成功同属一次任务，单看任一标题都会得出片面结论",
-          "fact_anchor": "SpaceX 在放弃 Flight 15 助推器回收后，用 Mechazilla 发射塔完成对 Starship 的首次「筷子」捕获",
-          "numbers": [
-            "15"
-          ],
-          "entities": [
-            "SpaceX",
-            "Starship",
-            "Mechazilla"
-          ],
-          "evidence_urls": [
-            "https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch"
-          ],
-          "impact": "对数据基建的启发是同一事件要保留多源条目而非合并成一条结论，去重簇里应能回溯到各自原文",
-          "next_action": "在同一去重簇内比对两条 SpaceX 条目的 title 与 summary，若动作主体或捕获对象不一致则保留双条并标 multi-source",
-          "signal_type": "product",
-          "confidence": "multi-source"
-        },
-        {
-          "id": "6626aeba79c7bc1a",
-          "title": "11 Of The Most Affordable Solar-Powered Gadgets You Can Use In Your Yard",
-          "url": "https://www.slashgear.com/2314503/most-affordable-solar-powered-gadgets-use-at-home-yard",
-          "source": "Folo 订阅池基线（人工筛选信源）",
-          "published_at": "2026-11-14T21:30:00.439000Z",
-          "score": 75.33,
-          "category": "community",
-          "cluster_id": "6626aeba79c7bc1a",
-          "summary": "From solar-powered lights and fountains to security cameras and bug zappers, these affordable gadgets can make your yard smarter and more… 〔Folo分类:新奇产品〕",
-          "why_matters": "清单类内容靠「11 款」这种可核验计数撑起信息量，也暴露订阅池里大量条目只有数量、没有规格与价格",
-          "fact_anchor": "一篇庭院太阳能设备清单列出 11 款平价小工具，覆盖照明、喷泉、安防摄像头与灭虫灯",
-          "numbers": [
-            "11"
-          ],
-          "entities": [
-            "Solar-Powered Gadgets",
-            "solar-powered lights",
-            "security cameras"
-          ],
-          "evidence_urls": [
-            "https://www.slashgear.com/2314503/most-affordable-solar-powered-gadgets-use-at-home-yard"
-          ],
-          "impact": "对数据基建的意义在于给「实质数字」划线：计数型数字可入报，但摘要为空或只有分类标签的条目应进补摘要待办",
-          "next_action": "抽 3 条同批清单文核对标题计数与正文条目数，若不一致则把该类信源降权并记入 no-number 诊断",
-          "signal_type": "opinion",
-          "confidence": "fact"
         }
       ]
     }
   ],
-  "editor_note": "本期把「确定性脚本做索引、LLM 只做研判」这条分工又跑了一遍，规则层从归一后的候选中选出 40 个簇，最终只有 16 条带实质读数进入版面。被剔掉的条目里，多数是 Folo 基线只有 Comments 的空摘要，其余是把发布年份、型号尾数、URL 路径里的数字误当读数，这类伪读数在 v1.1 口径下不算原文。按既定闸门，它们不是降权而是直接不进 sections：宁可少一条，也不发一条空话，且不放宽任何 V8 阈值。对 WorkBuddy 与 CodeBuddy 的 skill、automation 体系而言，这比多凑十条更有价值，因为唯一事实源只有一个，任何分发通道都不该为了版面自行补内容。今天最值得对照的是多 agent 编排：LoopForge 用 694 stars 的自托管 Go 仓库把 CodeBuddy、Codex、Claude Code 收进脚本流程并保留人工审批门，另一篇工程文则把长对话拆成 T1→T2/T3 的任务图。两者指向同一判断——复杂任务的失败点已从模型能力转到依赖顺序与权限边界，这正好对应 WinVM Bridge 的 plan-first + DDD 与 A2A 两条委派路径。",
-  "brief": "每日信息 · 2026-11-15。本轮规则层入选 40 簇，16 条带可核验实质读数进入版面；其余因原文只有空摘要或伪读数（日期年份、型号尾数、URL 数字）被拒，未放宽任何阈值。\n\n【编排】腾讯 LoopForge 以 694 stars、114 forks 把 CodeBuddy、Codex、Claude Code 收进带人工审批门的脚本编排；另有工程文主张用 T1→T2/T3 任务图替代长对话。两者都把难点指向依赖顺序与权限边界，而非模型选型。一个只带 ★0 的 transformer-mcp 仓库则给出「server + CLI + agent skills + docs」的技能包骨架。\n\n【本地推理】Edge0 AI 开源 Edge0-145B 与 Edge0-120B 并宣称本机可跑；Swizzle Runtime v0.1.0 在 4GB 笔记本 GPU 上报 209 tok/s、43ms TTFT；Nvidia 博客记录 GLM-5.3 在双 DGX 上 607.8 tok/s，但未给并发数与序列长度，暂不可与单机读数横比。\n\n【研究口径】姚期智与杨植麟首次联合署名的 arXiv 论文标题称 30 道数学世界难题无一被 AI 独立攻破；OpenAI 公开 700 余份 AI 数学手稿后，读书会第 9 期把「AI 生成成果如何转为可靠知识」设为主题，验证滞后被点名为瓶颈。\n\n【安全与治理】一篇报道把 1.5T 估值叙事与 2,539 个因缺 .gitignore 外泄的活密钥并置；Airgorah 以 5,473 stars、919 forks 成为 Rust 写的 WiFi 审计工具，但星数不能替代误报率验证。LinkedIn 与 Monster 在 CBC 调查后下架超过 1000 条假招聘，同样说明门禁做在事后。\n\n【市场与社区】6% 收益率的美国公司债在 Nvidia 波动后更受关注（仅陈述公开数据）；Flight 15 的 Starship 回收由两条独立源分别记录「收尾」与「助推器捕获中止、上面级捕获成功」，保留双条以免丢掉一半事实；另有 11 款庭院太阳能设备的清单文，计数可读但缺规格与价格。\n\n【待验证】145B 能否离线加载并在 60 秒内出首 token；209 tok/s 与 43ms TTFT 在同规格 4GB GPU 上偏差是否超过 20%；607.8 tok/s 是否补齐并发数与序列长度；LoopForge 审批门是否存在 1 条绕过路径；发布前凭据扫描命中数是否 >0。\n\n内容仅供参考，不构成投资建议；外部事实未独立验证；取不到可靠数据处标注「暂无可靠数据」。",
+  "editor_note": "本期把注意力放在「skill 正在从文件夹变成依赖」这条线上。两个仓库给出了互补读数：一个把红队经验打包成 82 个专用 skill、15 条 slash command 与 681 条报告模式，另一个用质量闸门和语义重叠检测去评测 agent skill。两者放在一起，对 WorkBuddy、MCP 与自动化部署的含义很具体：skill 集合既需要可清点的清单，也需要准入前的冲突检测，否则规模上去之后，隐式覆盖会先于功能失效暴露出来。我们的做法应当是把版本锁定文件、来源 URL 与语义重叠结果一起写进部署前 gate，而不是等到线上行为异常再回溯。模型侧的张力更值得警惕。1.6 万亿参数的开源权重配上每 token 约 480 亿的稀疏激活，纸面推理成本看似可控，但报道明确指出自托管指南未给 Nvidia GPU 路径。对 WinVM 侧 provider 选型来说，这意味着权重开放与部署路径开放是两件事：在拿到可复现的最小显存配置和启动步骤之前，不应把它计入可用算力，也不该为它调整成本基线。同样，社区帖里同时出现的降价与提速读数，因缺少官方 changelog 佐证，只能标为未独立验证，不写进预算输入。工程流程上还有一条可直接迁移的经验：代码评审按风险分级做人工审批，让回退占比出现可量化的降幅。",
+  "brief": "每日信息 · 2026-11-16\n\n今日入报里，82 个专用 skill 与 1,308 星的评测框架同时出现，也有 1.6 万亿参数却缺 Nvidia GPU 自托管路径的开源权重；同一天，19 小时宕机与 $887M 罚款把基础设施代价写成了可核验读数。张力在于能数清的越来越多、能直接接入的却没同步变多：版本号密集刷新到 1.2.0，部署清单仍要逐项对照。\n\n【Agent 与工程】\n- elementalsouls 把 82 个专用 skill、…（82 / 15）\n- NVIDIA 开源基于 Python 的 SkillEval…（1,308 / 154）\n- 一篇 dev.to 帖称 Anthropic 发布 Clau…（5.2 / 20）\n- Anthropic 公开 Claude Code 团队的 A…（40%）\n- 10xGraph 发布 1.0，定位为 AI agent 交…（1.0）\n\n【模型与研究】\n- 美团 LongCat 团队开源 LongCat-2.5 权重…（2.5 / 1.6 万亿）\n- LangChain 发布 langchain-mistral…（1.2.0 / 1.1.6）\n\n【开发者工具与版本】\n- LangChain 发布 langchain-groq 1.…（1.2.0 / 1.1.3）\n- 一篇存档主题文章以 30 Years 为题记录对 Salon…（30）\n\n【文档与变更】\n- 派早报汇总 Microsoft 365 在 19 小时全球宕…（19 / 100,000）\n- 意大利监管机构就未取得用户照片的特定同意，要求 Meta 支…（887）\n- Amazon 与 Best Buy 提前给出 Apple W…（70 / 42mm）\n\n【产业与资本】\n- 印度芯片初创 Bharat Semi 拿到 $24M 种子轮…（24M）\n- 摩根士丹利在市场展望中把标普500 目标价上调至 8700 …（8700 / 15%）\n\n【市场与投资】\n- 强生拟以最高 $3.4bn 收购眼病生物技术公司 Ollin…（3.4）\n\n【社区与观点】\n- 一位商户在 Ask HN 发帖称 Stripe 在一张 $1…（1,500）\n- Vulcan 火箭在复飞发射中失败，报道称 40 颗 Ama…（40）\n\n【深度长文】\n- 一篇转载称 Stand with Jensen 联名请愿在 …（12万 / 24小时）\n\n【待验证信号】\n- Claude-BugHunter 的 ski…：若 目录数与 82 的偏差超过 10%，则判定该 skill 包清单不可信，暂缓接入部署。\n- SkillEvaluator 在本地 ski…：若 检出数 >0 且人工确认存在真冲突，则把语义重叠检测加入部署前 gate。\n- LongCat-2.5 官方自托管文档给出 …：若 出现最小显存配置与可复现启动步骤，或 30 天内仍无，则前者判定可纳入自托管测试，后者判定仅作架构参考。\n- Claude Fable 5.2 的降价与提…：若 48 小时内 Anthropic changelog 出现 20 percent / 30 percent 条目，则无条目则判定为未证实传闻，从成本模型剔除。\n- 风险分级评审的回退占比改善：若 2 个迭代内回退占比降幅未达 40%，则判定分级规则过松，收紧高风险变更的人工审批。\n\n内容仅供参考，不构成投资建议；外部事实未独立验证；取不到可靠数据处标注「暂无可靠数据」。",
   "watch_signals": [
     {
-      "signal": "Edge0-145B 是否真能本机加载",
-      "threshold": "目标机器 60 秒内出首 token 且无需联网拉取未公开权重",
-      "judgement": "两项同时成立才判定「本机运行」可用，否则按宣传口径处理、不纳入本地底座选型"
+      "signal": "Claude-BugHunter 的 skill 目录数与自报 82 不一致",
+      "threshold": "目录数与 82 的偏差超过 10%",
+      "judgement": "判定该 skill 包清单不可信，暂缓接入部署"
     },
     {
-      "signal": "Swizzle Runtime 209 tok/s 与 43ms TTFT 可复现性",
-      "threshold": "同规格 4GB GPU 实测偏差任一超过 20%",
-      "judgement": "判定读数依赖特定环境，不写入本地推理基准表"
+      "signal": "SkillEvaluator 在本地 skill 集检出语义重叠",
+      "threshold": "检出数 >0 且人工确认存在真冲突",
+      "judgement": "把语义重叠检测加入部署前 gate"
     },
     {
-      "signal": "GLM-5.3 的 607.8 tok/s 是否可比",
-      "threshold": "博客补齐并发数与序列长度 2 项字段",
-      "judgement": "任一缺失即标为不可比读数，不与单机吞吐直接对比"
+      "signal": "LongCat-2.5 官方自托管文档给出 Nvidia GPU 路径",
+      "threshold": "出现最小显存配置与可复现启动步骤，或 30 天内仍无",
+      "judgement": "前者判定可纳入自托管测试，后者判定仅作架构参考"
     },
     {
-      "signal": "LoopForge 人工审批门是否可绕过",
-      "threshold": "脚本链路中出现 1 条未经审批即执行的路径",
-      "judgement": "判定审批门为装饰性，WinVM Bridge 委派设计不得直接借鉴"
+      "signal": "Claude Fable 5.2 的降价与提速读数获官方确认",
+      "threshold": "48 小时内 Anthropic changelog 出现 20 percent / 30 percent 条目",
+      "judgement": "无条目则判定为未证实传闻，从成本模型剔除"
     },
     {
-      "signal": "凭据扫描是否覆盖 agent 自动生成文件",
-      "threshold": "发布前凭据扫描命中数 >0",
-      "judgement": "阻断当日全部通道并定位写入点，不依赖提交前人工检查"
+      "signal": "风险分级评审的回退占比改善",
+      "threshold": "2 个迭代内回退占比降幅未达 40%",
+      "judgement": "判定分级规则过松，收紧高风险变更的人工审批"
     }
   ],
   "reference_summary": [
     {
-      "domain": "dev.to",
+      "domain": "github.com",
       "count": 4
     },
     {
-      "domain": "github.com",
-      "count": 3
+      "domain": "dev.to",
+      "count": 2
+    },
+    {
+      "domain": "arex-research.com",
+      "count": 2
+    },
+    {
+      "domain": "blog.archive.org",
+      "count": 1
+    },
+    {
+      "domain": "sspai.com",
+      "count": 1
+    },
+    {
+      "domain": "engadget.com",
+      "count": 1
+    },
+    {
+      "domain": "macrumors.com",
+      "count": 1
+    },
+    {
+      "domain": "techcrunch.com",
+      "count": 1
+    },
+    {
+      "domain": "36kr.com",
+      "count": 1
+    },
+    {
+      "domain": "ft.com",
+      "count": 1
+    },
+    {
+      "domain": "news.ycombinator.com",
+      "count": 1
+    },
+    {
+      "domain": "space.com",
+      "count": 1
     },
     {
       "domain": "mp.weixin.qq.com",
-      "count": 3
-    },
-    {
-      "domain": "developer.nvidia.com",
-      "count": 1
-    },
-    {
-      "domain": "x.com",
-      "count": 1
-    },
-    {
-      "domain": "cbc.ca",
-      "count": 1
-    },
-    {
-      "domain": "bloomberg.com",
-      "count": 1
-    },
-    {
-      "domain": "theverge.com",
-      "count": 1
-    },
-    {
-      "domain": "slashgear.com",
       "count": 1
     }
   ],
   "stats": {
-    "sources_ok": 183,
+    "sources_ok": 182,
     "sources_total": 185,
-    "total_items": 1881,
-    "clusters": 1783,
+    "total_items": 1186,
+    "clusters": 1131,
     "selected": 40,
-    "published_items": 16,
-    "seven_element_pass": 16,
+    "published_items": 18,
+    "seven_element_pass": 18,
     "seven_element_ratio": 1.0,
-    "items_with_numbers": 16,
+    "items_with_numbers": 18,
     "substantive_number_ratio": 1.0,
     "rejected_no_number": 0,
-    "unique_reference_domains": 9
+    "unique_reference_domains": 13
   },
   "quality": {
     "ai_status": "ok",

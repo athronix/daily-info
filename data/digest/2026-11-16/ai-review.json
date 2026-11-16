@@ -1,0 +1,521 @@
+{
+  "date": "2026-11-16",
+  "headline": "skill 有了星数也该有评测门槛，权重开放不等于部署路径开放——今日读数密集，可接入项仍需逐项验收",
+  "lead": "今日入报里，82 个专用 skill 与 1,308 星的评测框架同时出现，也有 1.6 万亿参数却缺 Nvidia GPU 自托管路径的开源权重；同一天，19 小时宕机与 $887M 罚款把基础设施代价写成了可核验读数。张力在于能数清的越来越多、能直接接入的却没同步变多：版本号密集刷新到 1.2.0，部署清单仍要逐项对照。",
+  "themes": [
+    {
+      "title": "skill 有了星数，也该有评测门槛",
+      "why": "两个仓库一个给规模读数、一个给评测框架，说明 skill 正被当作可清点、可准入的工程依赖，而不是提示词草稿。",
+      "cluster_ids": [
+        "c6524b3bb676a860",
+        "3781448153b0315f",
+        "9555a9e6eb0016f5"
+      ]
+    },
+    {
+      "title": "版本号密集刷新，工具链在悄悄重排",
+      "why": "mistralai 与 groq 两个包同批改走 gateway，叠加社区帖里的版本与成本读数，是平台级路由调整而非单点修复，升级需成批回归。",
+      "cluster_ids": [
+        "505dd0d701f36e99",
+        "2cff81e9a05646a1",
+        "16b2dbffe2c452b4"
+      ]
+    },
+    {
+      "title": "权重开放，不等于部署路径开放",
+      "why": "万亿参数与稀疏激活压低了纸面门槛，但缺 GPU 自托管路径、agent 后端清单仍待补，能力数字与可接入能力之间有明显落差。",
+      "cluster_ids": [
+        "3c784896e5d8dae1",
+        "bbd5c593a5dbb4b3",
+        "9555a9e6eb0016f5"
+      ]
+    },
+    {
+      "title": "基础设施的代价被写成可核验数字",
+      "why": "19 小时宕机、$887M 罚款与一张 $1,500 发票触发的关停，把可用性、合规与风控三类成本同时量化，也暴露聚合源的证据混排。",
+      "cluster_ids": [
+        "1a391f32e27ef31a",
+        "042b8471176f671c",
+        "47b57b00d8353101"
+      ]
+    },
+    {
+      "title": "资本读数分化，上限与成交要分清",
+      "why": "并购上限、种子轮与指数目标同日出现，但分别属于至多、已筹、预测三种口径，混读会高估实际规模。",
+      "cluster_ids": [
+        "fb60cc1ec1fcdcf5",
+        "fc91828979fbf24c",
+        "ff37d90f9a8644db"
+      ]
+    },
+    {
+      "title": "把损失换算成可数条目，才算复盘",
+      "why": "40 颗卫星损失、30 年存档跨度与明码标价的折扣，都在把模糊影响转成可核验计数，这正是我们事故复盘模板缺的字段。",
+      "cluster_ids": [
+        "a850a5bee1633730",
+        "28b10992cceb6449",
+        "9781145a655dc727"
+      ]
+    },
+    {
+      "title": "读数最响的转载，最需要一手复核",
+      "why": "12 万签名与 3000 人的落差很醒目，但单一转载、立场化措辞、社区源版本传闻都提示：响度不等于证据等级，先分级再引用。",
+      "cluster_ids": [
+        "f4086cc528cd49ce",
+        "16b2dbffe2c452b4",
+        "1a391f32e27ef31a"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "agent-engineering",
+      "label": "Agent 与工程",
+      "items": [
+        {
+          "id": "c6524b3bb676a860",
+          "fact_anchor": "elementalsouls 把 82 个专用 skill、15 条 slash command 与 681 条已披露报告模式打包成 Claude-BugHunter 开源 Python skill 集。",
+          "numbers": [
+            "82",
+            "15",
+            "681",
+            "24",
+            "5,895"
+          ],
+          "entities": [
+            "Claude-BugHunter",
+            "Python"
+          ],
+          "evidence_urls": [
+            "https://github.com/elementalsouls/Claude-BugHunter"
+          ],
+          "why_matters": "把红队经验固化成可复用 skill 包，规模数字首次让 skill 资产可被清点，也给 skill 供应链的审计面立了参照。",
+          "impact": "直接对应我们的 skill 版本化与部署治理：82 个 skill 与 681 条模式的组织方式，可作为 WorkBuddy/MCP skill 包分层与准入清单的对照样本。",
+          "next_action": "拉取仓库逐一核对 skill 目录数与 82 是否一致；若偏差超过 10% 或缺版本锁定文件，则判定不可直接接入，先补 manifest 再评估。",
+          "signal_type": "release",
+          "confidence": "fact"
+        },
+        {
+          "id": "3781448153b0315f",
+          "fact_anchor": "NVIDIA 开源基于 Python 的 SkillEvaluator 框架，用质量闸门与语义重叠检测评估 agent skill，仓库已积累 1,308 星、154 次 fork。",
+          "numbers": [
+            "1,308",
+            "154"
+          ],
+          "entities": [
+            "SkillEvaluator",
+            "NVIDIA",
+            "Python",
+            "GitHub"
+          ],
+          "evidence_urls": [
+            "https://github.com/NVIDIA/SkillEvaluator"
+          ],
+          "why_matters": "评测从看效果转向可量化闸门，说明 skill 的准入正被当成工程依赖对待，而不是提示词草稿。",
+          "impact": "与我们的 agent 部署评测链直接相关：其语义重叠检测可迁移为 skill 去重与冲突检测的一道 gate，减少自动化链路里的隐性覆盖。",
+          "next_action": "在本地 skill 集上跑一次评测，若语义重叠检出数 >0 且人工确认存在真冲突，则把该检测加进部署前 gate；0 检出则暂不接入以免徒增开销。",
+          "signal_type": "release",
+          "confidence": "fact"
+        },
+        {
+          "id": "16b2dbffe2c452b4",
+          "fact_anchor": "一篇 dev.to 帖称 Anthropic 发布 Claude Fable 5.2，同时给出 API 降价 20 percent 与提速 30 percent 的说法，并附带本地 agent 工作流更新。",
+          "numbers": [
+            "5.2",
+            "20",
+            "30"
+          ],
+          "entities": [
+            "Anthropic",
+            "Claude Fable 5.2",
+            "API"
+          ],
+          "evidence_urls": [
+            "https://dev.to/githubopensource/claude-fable-52-code-execution-updates-and-local-agent-workflows-10o3"
+          ],
+          "why_matters": "降价与提速同时出现，反映推理成本的竞争焦点，但单一社区源、产品命名与官方命名不一致，读数需一手 changelog 复核。",
+          "impact": "若属实会影响模型调用成本估算与 WinVM 侧 provider 选型；在官方确认前不写进成本基线，避免把 unverified 读数当预算输入。",
+          "next_action": "对照 Anthropic 官方 changelog 核验 5.2 与 20 percent/30 percent；若 48 小时内无官方条目，则判定为未证实社区传闻并从成本模型剔除。",
+          "signal_type": "release",
+          "confidence": "unverified"
+        },
+        {
+          "id": "9555a9e6eb0016f5",
+          "fact_anchor": "Anthropic 公开 Claude Code 团队的 AI 代码评审流程，按风险分级做人工审批，自报合并 PR 翻倍以上、回退占比降超 40%。",
+          "numbers": [
+            "40%"
+          ],
+          "entities": [
+            "Anthropic",
+            "Claude Code",
+            "InfoQ"
+          ],
+          "evidence_urls": [
+            "https://arex-research.com/feeds/a4499309-898b-478d-a4ab-a7db99057011"
+          ],
+          "why_matters": "把 AI 写代码的瓶颈定位在人工审批分层而非生成能力，是流程工程而非模型能力提升带来的收益。",
+          "impact": "可迁移到我们的自动化流水线：按风险分级决定哪些改动自动合并、哪些必须人工复核，比一刀切 gate 更能兼顾吞吐与可回滚性。",
+          "next_action": "先统计自身仓库回退占比基线，若引入风险分级后 2 个迭代内降幅未达 40%，则判定分级规则过松，收紧高风险变更的人工审批条件。",
+          "signal_type": "research",
+          "confidence": "fact"
+        },
+        {
+          "id": "bbd5c593a5dbb4b3",
+          "fact_anchor": "10xGraph 发布 1.0，定位为 AI agent 交付客户前所需的后端层，主张 demo 与可上线系统之间差的是后端能力而非模型。",
+          "numbers": [
+            "1.0"
+          ],
+          "entities": [
+            "10xGraph",
+            "AI agent"
+          ],
+          "evidence_urls": [
+            "https://dev.to/10xgraph/10xgraph-10-the-backend-your-ai-agent-needs-before-it-ships-to-customers-1loa"
+          ],
+          "why_matters": "把 agent 落地缺口从模型能不能跑重新定义成持久化、权限与可观测后端，是工程侧的清醒判断。",
+          "impact": "对应我们 agent 部署与数据基建的分层：可对照其后端清单检查 WinVM/A2A 链路里是否缺持久化与审计两类能力。",
+          "next_action": "列出其宣称的后端能力清单并与本地 agent 栈逐项对照，若缺失项 ≥2 个且影响审计或回滚，则先把缺口补进部署清单再评估接入。",
+          "signal_type": "product",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "ai-models",
+      "label": "模型与研究",
+      "items": [
+        {
+          "id": "3c784896e5d8dae1",
+          "fact_anchor": "美团 LongCat 团队开源 LongCat-2.5 权重，采用 MIT 许可证，总参数 1.6 万亿的 MoE 模型每 token 约激活 480 亿参数，定位长程多步 agent 任务。",
+          "numbers": [
+            "2.5",
+            "1.6 万亿",
+            "480 亿"
+          ],
+          "entities": [
+            "美团",
+            "LongCat-2.5",
+            "MoE",
+            "MIT",
+            "Nvidia"
+          ],
+          "evidence_urls": [
+            "https://arex-research.com/feeds/a655c45f-f32c-4e74-8be0-e69ed2489277"
+          ],
+          "why_matters": "万亿级总参数与 480 亿激活量的稀疏结构把推理门槛压低，但报道明确指出自托管指南未给 Nvidia GPU 路径，开放权重不等于可落地。",
+          "impact": "影响本地模型选型与 WinVM 侧自托管评估：在拿到可复现的 GPU 部署步骤前，不把该权重列入可用 provider，只作架构参考。",
+          "next_action": "查找官方自托管文档，若仍无 Nvidia GPU 路径或最小显存配置，则判定为权重开放、部署路径未开放，暂缓纳入自托管测试队列。",
+          "signal_type": "release",
+          "confidence": "fact"
+        },
+        {
+          "id": "505dd0d701f36e99",
+          "fact_anchor": "LangChain 发布 langchain-mistralai 1.2.0，相对 1.1.6 修复推理模型流式行为，并把 ChatMistralAI 改走 LangSmith gateway。",
+          "numbers": [
+            "1.2.0",
+            "1.1.6"
+          ],
+          "entities": [
+            "langchain-mistralai",
+            "LangSmith",
+            "ChatMistralAI"
+          ],
+          "evidence_urls": [
+            "https://github.com/langchain-ai/langchain/releases/tag/langchain-mistralai%3D%3D1.2.0"
+          ],
+          "why_matters": "把 partner 模型统一路由到自家 gateway，是工具链收口而非功能新增，升级时需留意调用链被改写。",
+          "impact": "我们的 MCP/A2A 链路里若有走 LangChain 的适配层，1.2.0 的 gateway 变更会影响可观测与代理配置，升级前应做回归。",
+          "next_action": "在测试环境把依赖升到 1.2.0 跑一遍流式推理 smoke，若出现调用链中断或流式分片异常，则判定不兼容并锁定 1.1.6。",
+          "signal_type": "docs-change",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "dev-tools",
+      "label": "开发者工具与版本",
+      "items": [
+        {
+          "id": "2cff81e9a05646a1",
+          "fact_anchor": "LangChain 发布 langchain-groq 1.2.0，相对 1.1.3 在集成测试中显式指定 reasoning_effort，并把 ChatGroq 改走 LangSmith gateway。",
+          "numbers": [
+            "1.2.0",
+            "1.1.3"
+          ],
+          "entities": [
+            "langchain-groq",
+            "LangSmith",
+            "ChatGroq"
+          ],
+          "evidence_urls": [
+            "https://github.com/langchain-ai/langchain/releases/tag/langchain-groq%3D%3D1.2.0"
+          ],
+          "why_matters": "与 mistralai 包同批改走 gateway，说明这是平台级路由调整而非单个 provider 的修复，跨包一致性需一起验证。",
+          "impact": "对 automation 链路里经 LangChain 调用 Groq 的部分是一次隐性依赖变更，升级会影响网关鉴权与超时配置。",
+          "next_action": "把 groq 与 mistralai 两个包同时升级后跑统一回归；若任一包出现 reasoning_effort 被忽略或超时错误，则整批回滚到 1.1.3/1.1.6。",
+          "signal_type": "docs-change",
+          "confidence": "fact"
+        },
+        {
+          "id": "28b10992cceb6449",
+          "fact_anchor": "一篇存档主题文章以 30 Years 为题记录对 Salon 新闻的保存跨度，摘要区仅留 Comments 未给更多细节。",
+          "numbers": [
+            "30"
+          ],
+          "entities": [
+            "Salon"
+          ],
+          "evidence_urls": [
+            "https://blog.archive.org/2026/11/12/preserving-30-years-of-salon-journalism"
+          ],
+          "why_matters": "长周期网页存档是可核验的时间跨度数字，提醒数据基建里保留多久本身是一项需要明示的口径。",
+          "impact": "对应我们的归档与去重策略：30 年跨度提示长期留存不能只靠摘要，需保留原始快照与可追溯时间戳。",
+          "next_action": "对照本地归档保留窗口，若窗口明显短于该量级且无原始快照，则补一份不可变快照清单后再谈长期可用。",
+          "signal_type": "opinion",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "docs-changelog",
+      "label": "文档与变更",
+      "items": [
+        {
+          "id": "1a391f32e27ef31a",
+          "fact_anchor": "派早报汇总 Microsoft 365 在 19 小时全球宕机后恢复，并提到超 100,000 签名的请愿与 Blackwell GPU 特征等数条动态。",
+          "numbers": [
+            "19",
+            "100,000"
+          ],
+          "entities": [
+            "Microsoft 365",
+            "Blackwell",
+            "Tesla Cybercab"
+          ],
+          "evidence_urls": [
+            "https://sspai.com/post/119119"
+          ],
+          "why_matters": "一次长时宕机与多条产业动态被压进同一条早报，暴露聚合源把不同证据等级的读数并列的问题。",
+          "impact": "对我们的采集链是反面参照：多话题聚合条目不宜作为单一事实源，入库前需按事件拆分与标注，避免数字串台。",
+          "next_action": "把该条按事件拆成独立记录，若 19 小时与 100,000 两个读数无法各自找到一手来源，则判定为聚合噪声并降级为线索。",
+          "signal_type": "incident",
+          "confidence": "fact"
+        },
+        {
+          "id": "042b8471176f671c",
+          "fact_anchor": "意大利监管机构就未取得用户照片的特定同意，要求 Meta 支付 $887M，Meta 计划提起上诉。",
+          "numbers": [
+            "887"
+          ],
+          "entities": [
+            "Meta",
+            "Italy"
+          ],
+          "evidence_urls": [
+            "https://www.engadget.com/2317185/italy-orders-meta-to-pay-887m-for-not-obtaining-specific-consent-over-user-photos"
+          ],
+          "why_matters": "把同意这一细粒度合规要求直接折算成可计量罚款，说明数据采集的授权粒度有明确的财务后果。",
+          "impact": "对应我们的数据基建与凭据治理：采集或留存涉及用户内容时，同意范围与用途需可追溯，否则口径风险会外溢到产物。",
+          "next_action": "核对本地采集是否留存用户照片类字段，若存在且无逐项同意记录，则在下一次产物落盘前移除该字段并记为整改项。",
+          "signal_type": "incident",
+          "confidence": "fact"
+        },
+        {
+          "id": "9781145a655dc727",
+          "fact_anchor": "Amazon 与 Best Buy 提前给出 Apple Watch Series 12 的黑五折扣，降价 $70，覆盖 42mm 与 46mm 尺寸。",
+          "numbers": [
+            "70",
+            "42mm",
+            "46mm"
+          ],
+          "entities": [
+            "Apple Watch Series 12",
+            "Amazon",
+            "Best Buy"
+          ],
+          "evidence_urls": [
+            "https://www.macrumors.com/2026/11/15/early-apple-watch-black-friday-deals"
+          ],
+          "why_matters": "同一折扣同时给出金额与尺寸覆盖，是少数把促销口径写全的读数，便于判断适用范围而非只看标题价。",
+          "impact": "暂无直接影响：消费电子促销与我们的 agent/数据基建关注面无关，此处仅作为可核验读数完整性的对照样本。",
+          "next_action": "若后续出现同型号更高折扣，比较 $70 是否被突破；差额超过 $70 时判定 record low 表述失效，不再引用该条作为极值。",
+          "signal_type": "market-data",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "industry-capital",
+      "label": "产业与资本",
+      "items": [
+        {
+          "id": "fc91828979fbf24c",
+          "fact_anchor": "印度芯片初创 Bharat Semi 拿到 $24M 种子轮，称其 AI 传感器技术已拿下包括 General Atomics 在内的设计订单。",
+          "numbers": [
+            "24M"
+          ],
+          "entities": [
+            "Bharat Semi",
+            "General Atomics"
+          ],
+          "evidence_urls": [
+            "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market"
+          ],
+          "why_matters": "种子轮金额与设计订单同时披露，给出资金与客户双读数，比单看融资额更能判断早期项目的落地程度。",
+          "impact": "对 AI 传感器供应链是可用线索，但与当前 WorkBuddy/MCP/agent 部署关注面无直接交集，暂不纳入技术选型输入。",
+          "next_action": "核对 General Atomics 设计订单是否有第二来源；若 30 天内仍只有公司自述，则把该条标注为单一来源并降低可信等级。",
+          "signal_type": "funding",
+          "confidence": "fact"
+        },
+        {
+          "id": "ff37d90f9a8644db",
+          "fact_anchor": "摩根士丹利在市场展望中把标普500 目标价上调至 8700 点，称隐含约 15% 上涨空间，并看好部分 G10 国家债券。",
+          "numbers": [
+            "8700",
+            "15%"
+          ],
+          "entities": [
+            "摩根士丹利",
+            "标普500",
+            "Marina Zavolock"
+          ],
+          "evidence_urls": [
+            "https://www.36kr.com/newsflashes/4071714541769865"
+          ],
+          "why_matters": "点位目标与隐含涨幅是可证伪的量化预测，适合作为事后校准卖方预期的样本，而非操作依据。",
+          "impact": "暂无直接影响：属公开市场展望，与我们的工程关注面无关；此处只保留其可核验读数，不构成投资建议。",
+          "next_action": "把 8700 点与 15% 记为待验证预测，若对应周期结束时指数偏离目标超过 15%，则判定该展望失效并归档为校准样本。",
+          "signal_type": "market-data",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "market-invest",
+      "label": "市场与投资",
+      "items": [
+        {
+          "id": "fb60cc1ec1fcdcf5",
+          "fact_anchor": "强生拟以最高 $3.4bn 收购眼病生物技术公司 Ollin Biosciences，被报道为生物技术板块密集交易中的最新一笔。",
+          "numbers": [
+            "3.4"
+          ],
+          "entities": [
+            "Johnson & Johnson",
+            "Ollin Biosciences"
+          ],
+          "evidence_urls": [
+            "https://www.ft.com/content/450100ba-074c-46a6-b962-89dbef146135?syn-25a6b1a6=1"
+          ],
+          "why_matters": "给出的是收购金额上限而非成交价，读这类读数要区分至多与已付，否则会高估交易规模。",
+          "impact": "暂无直接影响：医药并购与我们的 agent/数据基建关注面无关，仅作为上限型读数的辨析样本，不构成投资建议。",
+          "next_action": "跟踪是否披露最终成交价；若最终价低于 $3.4bn 超过 20%，则把该条改标为上限报价并修正引用口径。",
+          "signal_type": "funding",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "community",
+      "label": "社区与观点",
+      "items": [
+        {
+          "id": "47b57b00d8353101",
+          "fact_anchor": "一位商户在 Ask HN 发帖称 Stripe 在一张 $1,500 发票后关闭其账户且从未索取凭证。",
+          "numbers": [
+            "1,500"
+          ],
+          "entities": [
+            "Stripe"
+          ],
+          "evidence_urls": [
+            "https://news.ycombinator.com/item?id=50510042"
+          ],
+          "why_matters": "金额很小却触发关停，指向风控自动化里的申诉缺口，读数与后果之间的不匹配才是重点。",
+          "impact": "对应我们的自动化流水线设计：自动处置动作需保留人工申诉通道与可回滚记录，避免小额异常被不可逆处理。",
+          "next_action": "核对自家自动化里是否存在无凭证即终态的处置规则；若存在 ≥1 条且不可回滚，则补人工复核环节后再上线。",
+          "signal_type": "incident",
+          "confidence": "unverified"
+        },
+        {
+          "id": "a850a5bee1633730",
+          "fact_anchor": "Vulcan 火箭在复飞发射中失败，报道称 40 颗 Amazon 卫星损失。",
+          "numbers": [
+            "40"
+          ],
+          "entities": [
+            "Vulcan",
+            "Amazon"
+          ],
+          "evidence_urls": [
+            "https://www.space.com/space-exploration/launches-spacecraft/ula-vulcan-centaur-return-to-flight-amazon-leo-internet-satellite-launch"
+          ],
+          "why_matters": "把一次发射失败折算成 40 颗的可数损失，说明大型系统的风险披露正从事故转向量化影响。",
+          "impact": "暂无直接影响：航天事故与我们的关注面无关，但把故障换算成可数损失的写法可借鉴到我们自己的事故复盘模板。",
+          "next_action": "在自身变更事故复盘里加入受影响对象计数字段；若连续 3 次事故仍填不出该计数，则判定可观测性不足并补埋点。",
+          "signal_type": "incident",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "deep-read",
+      "label": "深度长文",
+      "items": [
+        {
+          "id": "f4086cc528cd49ce",
+          "fact_anchor": "一篇转载称 Stand with Jensen 联名请愿在 24 小时内签名突破 10 万、远超前日 3000 人，并转述马斯克关于订单风险的警告。",
+          "numbers": [
+            "12万",
+            "24小时",
+            "10万",
+            "3000"
+          ],
+          "entities": [
+            "黄仁勋",
+            "英伟达",
+            "马斯克",
+            "Stand with Jensen"
+          ],
+          "evidence_urls": [
+            "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&mid=2652743100&idx=1&sn=e57278b28bf21f341ed34de97af26cb7&chksm=f0a61ab8ea653b37b7e67eda6332cfeac5770bf1fc78b66c1f9bd872201d3f7d3f233fa9d299&scene=0&xtrack=1"
+          ],
+          "why_matters": "12 万与 3000 的落差是全文最硬的读数，但来源为单一转载且含立场化措辞，数字与结论需分开对待。",
+          "impact": "暂无直接影响：属企业治理舆论，与我们的工程关注面无交集；仅作为高响度读数需一手复核的样本。",
+          "next_action": "在请愿平台核对签名数是否达到 10 万且 24 小时增量属实；若查不到可核验计数，则判定为未证实传闻并移出事实引用。",
+          "signal_type": "opinion",
+          "confidence": "unverified"
+        }
+      ]
+    }
+  ],
+  "editor_note": "本期把注意力放在「skill 正在从文件夹变成依赖」这条线上。两个仓库给出了互补读数：一个把红队经验打包成 82 个专用 skill、15 条 slash command 与 681 条报告模式，另一个用质量闸门和语义重叠检测去评测 agent skill。两者放在一起，对 WorkBuddy、MCP 与自动化部署的含义很具体：skill 集合既需要可清点的清单，也需要准入前的冲突检测，否则规模上去之后，隐式覆盖会先于功能失效暴露出来。我们的做法应当是把版本锁定文件、来源 URL 与语义重叠结果一起写进部署前 gate，而不是等到线上行为异常再回溯。模型侧的张力更值得警惕。1.6 万亿参数的开源权重配上每 token 约 480 亿的稀疏激活，纸面推理成本看似可控，但报道明确指出自托管指南未给 Nvidia GPU 路径。对 WinVM 侧 provider 选型来说，这意味着权重开放与部署路径开放是两件事：在拿到可复现的最小显存配置和启动步骤之前，不应把它计入可用算力，也不该为它调整成本基线。同样，社区帖里同时出现的降价与提速读数，因缺少官方 changelog 佐证，只能标为未独立验证，不写进预算输入。工程流程上还有一条可直接迁移的经验：代码评审按风险分级做人工审批，让回退占比出现可量化的降幅。",
+  "brief": "每日信息 · 2026-11-16\n\n今日入报里，82 个专用 skill 与 1,308 星的评测框架同时出现，也有 1.6 万亿参数却缺 Nvidia GPU 自托管路径的开源权重；同一天，19 小时宕机与 $887M 罚款把基础设施代价写成了可核验读数。张力在于能数清的越来越多、能直接接入的却没同步变多：版本号密集刷新到 1.2.0，部署清单仍要逐项对照。\n\n【Agent 与工程】\n- elementalsouls 把 82 个专用 skill、…（82 / 15）\n- NVIDIA 开源基于 Python 的 SkillEval…（1,308 / 154）\n- 一篇 dev.to 帖称 Anthropic 发布 Clau…（5.2 / 20）\n- Anthropic 公开 Claude Code 团队的 A…（40%）\n- 10xGraph 发布 1.0，定位为 AI agent 交…（1.0）\n\n【模型与研究】\n- 美团 LongCat 团队开源 LongCat-2.5 权重…（2.5 / 1.6 万亿）\n- LangChain 发布 langchain-mistral…（1.2.0 / 1.1.6）\n\n【开发者工具与版本】\n- LangChain 发布 langchain-groq 1.…（1.2.0 / 1.1.3）\n- 一篇存档主题文章以 30 Years 为题记录对 Salon…（30）\n\n【文档与变更】\n- 派早报汇总 Microsoft 365 在 19 小时全球宕…（19 / 100,000）\n- 意大利监管机构就未取得用户照片的特定同意，要求 Meta 支…（887）\n- Amazon 与 Best Buy 提前给出 Apple W…（70 / 42mm）\n\n【产业与资本】\n- 印度芯片初创 Bharat Semi 拿到 $24M 种子轮…（24M）\n- 摩根士丹利在市场展望中把标普500 目标价上调至 8700 …（8700 / 15%）\n\n【市场与投资】\n- 强生拟以最高 $3.4bn 收购眼病生物技术公司 Ollin…（3.4）\n\n【社区与观点】\n- 一位商户在 Ask HN 发帖称 Stripe 在一张 $1…（1,500）\n- Vulcan 火箭在复飞发射中失败，报道称 40 颗 Ama…（40）\n\n【深度长文】\n- 一篇转载称 Stand with Jensen 联名请愿在 …（12万 / 24小时）\n\n【待验证信号】\n- Claude-BugHunter 的 ski…：若 目录数与 82 的偏差超过 10%，则判定该 skill 包清单不可信，暂缓接入部署。\n- SkillEvaluator 在本地 ski…：若 检出数 >0 且人工确认存在真冲突，则把语义重叠检测加入部署前 gate。\n- LongCat-2.5 官方自托管文档给出 …：若 出现最小显存配置与可复现启动步骤，或 30 天内仍无，则前者判定可纳入自托管测试，后者判定仅作架构参考。\n- Claude Fable 5.2 的降价与提…：若 48 小时内 Anthropic changelog 出现 20 percent / 30 percent 条目，则无条目则判定为未证实传闻，从成本模型剔除。\n- 风险分级评审的回退占比改善：若 2 个迭代内回退占比降幅未达 40%，则判定分级规则过松，收紧高风险变更的人工审批。\n\n内容仅供参考，不构成投资建议；外部事实未独立验证；取不到可靠数据处标注「暂无可靠数据」。",
+  "watch_signals": [
+    {
+      "signal": "Claude-BugHunter 的 skill 目录数与自报 82 不一致",
+      "threshold": "目录数与 82 的偏差超过 10%",
+      "judgement": "判定该 skill 包清单不可信，暂缓接入部署"
+    },
+    {
+      "signal": "SkillEvaluator 在本地 skill 集检出语义重叠",
+      "threshold": "检出数 >0 且人工确认存在真冲突",
+      "judgement": "把语义重叠检测加入部署前 gate"
+    },
+    {
+      "signal": "LongCat-2.5 官方自托管文档给出 Nvidia GPU 路径",
+      "threshold": "出现最小显存配置与可复现启动步骤，或 30 天内仍无",
+      "judgement": "前者判定可纳入自托管测试，后者判定仅作架构参考"
+    },
+    {
+      "signal": "Claude Fable 5.2 的降价与提速读数获官方确认",
+      "threshold": "48 小时内 Anthropic changelog 出现 20 percent / 30 percent 条目",
+      "judgement": "无条目则判定为未证实传闻，从成本模型剔除"
+    },
+    {
+      "signal": "风险分级评审的回退占比改善",
+      "threshold": "2 个迭代内回退占比降幅未达 40%",
+      "judgement": "判定分级规则过松，收紧高风险变更的人工审批"
+    }
+  ]
+}
