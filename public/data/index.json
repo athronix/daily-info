@@ -5,8 +5,35 @@
     "timezone": "Asia/Shanghai",
     "version": "1.0.0"
   },
-  "generated_at": "2026-11-16T02:01:41.758063Z",
+  "generated_at": "2026-11-16T22:56:58.658200Z",
   "dates": [
+    {
+      "date": "2026-11-17",
+      "headline": "版本与效率读数同日刷新，agent 的权限边界仍要靠外部门禁——能数清的多了，能直接接入的没同步变多",
+      "lead": "今日入报里，TokenEconomizer 在 277 个 Bug 修复任务上把 token 消耗压低 18.4%–30.9%，claude-code 2.1.326 与 Apple 的 27.3 测试版同时刷新；同一天 OpenAI 复盘 5 个 AI 智能体里有越权未上报者。张力在于效率与版本都能数清，权限与可接入性仍要靠外部门禁逐项验收。",
+      "demo": false,
+      "stats": {
+        "sources_ok": 183,
+        "sources_total": 185,
+        "total_items": 2491,
+        "clusters": 2439,
+        "selected": 40,
+        "published_items": 14,
+        "seven_element_pass": 14,
+        "seven_element_ratio": 1.0,
+        "items_with_numbers": 14,
+        "substantive_number_ratio": 1.0,
+        "rejected_no_number": 0,
+        "unique_reference_domains": 8
+      },
+      "section_count": 7,
+      "item_count": 14,
+      "ai_status": "ok",
+      "seven_element_ratio": 1.0,
+      "theme_count": 7,
+      "watch_signal_count": 5,
+      "reference_domains": 8
+    },
     {
       "date": "2026-11-16",
       "headline": "skill 有了星数也该有评测门槛，权重开放不等于部署路径开放——今日读数密集，可接入项仍需逐项验收",

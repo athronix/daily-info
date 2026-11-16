@@ -5,10 +5,30 @@
   <ns0:subtitle>挖掘 · 聚合 · 研判 · 订阅；每条附原文链接；内容仅供参考，不构成投资建议</ns0:subtitle>
   <ns0:link rel="self" type="application/atom+xml" href="https://daily-info.local/docs.atom" />
   <ns0:link rel="alternate" type="text/html" href="https://daily-info.local/index.html" />
-  <ns0:updated>2026-11-16T02:01:41.758063Z</ns0:updated>
+  <ns0:updated>2026-11-16T22:56:58.658200Z</ns0:updated>
   <ns0:author>
     <ns0:name>Personal Daily Info</ns0:name>
   </ns0:author>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-17:edae3e542f5a2b98</ns0:id>
+    <ns0:title>[文档与变更] Apple Celebrates Pokémon With iPhone Wallpapers and Special Gift Card</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.macrumors.com/2026/11/16/apple-pokemon-gift-card-iphone-wallpapers" />
+    <ns0:published>2026-11-16T19:39:00.697000Z</ns0:published>
+    <ns0:updated>2026-11-16T22:56:58.658200Z</ns0:updated>
+    <ns0:category term="docs-changelog" label="文档与变更" />
+    <ns0:summary type="text">Apple is celebrating the 30th anniversary of Pokémon in Japan through several initiatives. These include selling limited edition gift cards featuring Applin, offering free Pokémon-themed iPhone wallpapers, and designating all Apple Stores as PokéStops. The in-store promotions and card sales run unti</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Apple 为 Pokémon 30 周年在日本推出限量 gift card、免费 iPhone 壁纸，并把 Apple Stores 设为 PokéStops，活动持续到 November 30。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：30 · 相关方：Pokémon / Apple Stores / PokéStops / App Store&lt;/p&gt;&lt;p&gt;Apple is celebrating the 30th anniversary of Pokémon in Japan through several initiatives. These include selling limited edition gift cards featuring Applin, offering free Pokémon-themed iPhone wallpapers, and designating all Apple Stores as PokéStops. The in-store promotions and card sales run unti&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;同一条里 30 既是周年跨度又是活动截止日，两个 30 含义不同，正是数字口径易串台的典型。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对采集链是反面样本：同一读数在标题与摘要里语义不同，入库前应保留原始字段而非压成一句摘要。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;检查自家归一逻辑是否把标题数字与正文数字合并；若 5 条样本中出现 1 次以上串台，则补字段级溯源后再入报。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-16T19:39 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.macrumors.com/2026/11/16/apple-pokemon-gift-card-iphone-wallpapers" rel="noopener noreferrer"&gt;https://www.macrumors.com/2026/11/16/apple-pokemon-gift-card-iphone-wallpapers&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-17:f385705fddfc8d20</ns0:id>
+    <ns0:title>[文档与变更] New study reveals immune cells' ability to engulf and destroy amoebae</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://phys.org/news/2026-11-reveals-immune-cells-ability-engulf.html" />
+    <ns0:published>2026-11-16T19:40:16.474000Z</ns0:published>
+    <ns0:updated>2026-11-16T22:56:58.658200Z</ns0:updated>
+    <ns0:category term="docs-changelog" label="文档与变更" />
+    <ns0:summary type="text">More than 100 million severe infections are believed to be caused worldwide each year by various species of amoebae, single-celled organisms… 〔Folo分类:重大学术科研突破〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;一项新研究称免疫细胞能吞噬并摧毁 amoebae，摘要给出全球每年逾 100 million 例严重感染的背景量级。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：100 million · 相关方：immune cells / amoebae / single-celled organisms&lt;/p&gt;&lt;p&gt;More than 100 million severe infections are believed to be caused worldwide each year by various species of amoebae, single-celled organisms… 〔Folo分类:重大学术科研突破〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;背景规模与研究结论写在同一段，读时要分清 100 million 是疾病负担而非实验样本或效果量。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;暂无直接影响：医学研究与我们的 agent 与数据基建无关，仅作为「背景量级不可当作效果读数」的口径样本。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在自家报告模板里给背景值与效果值加分字段；若 3 篇摘要里出现 1 次以上混写，则判定口径不合格并退回改写。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-16T19:40 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://phys.org/news/2026-11-reveals-immune-cells-ability-engulf.html" rel="noopener noreferrer"&gt;https://phys.org/news/2026-11-reveals-immune-cells-ability-engulf.html&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:daily-info.local,2026-11-16:9781145a655dc727</ns0:id>
     <ns0:title>[文档与变更] Early Apple Watch Black Friday Deals Arrive With Series 12 Hitting New Record Lows</ns0:title>

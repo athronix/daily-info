@@ -5,10 +5,30 @@
   <ns0:subtitle>挖掘 · 聚合 · 研判 · 订阅；每条附原文链接；内容仅供参考，不构成投资建议</ns0:subtitle>
   <ns0:link rel="self" type="application/atom+xml" href="https://daily-info.local/invest.atom" />
   <ns0:link rel="alternate" type="text/html" href="https://daily-info.local/index.html" />
-  <ns0:updated>2026-11-16T02:01:41.758063Z</ns0:updated>
+  <ns0:updated>2026-11-16T22:56:58.658200Z</ns0:updated>
   <ns0:author>
     <ns0:name>Personal Daily Info</ns0:name>
   </ns0:author>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-17:ae2c27b931ec65bb</ns0:id>
+    <ns0:title>[市场与投资] BugMeNot Has Closed</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.bugmenot.com/" />
+    <ns0:published>2026-11-16T21:32:17Z</ns0:published>
+    <ns0:updated>2026-11-16T22:56:58.658200Z</ns0:updated>
+    <ns0:category term="market-invest" label="市场与投资" />
+    <ns0:summary type="text">一个长期被当作绕过登录的公共服务退场，热度读数说明它的替代成本被集中讨论，而非悄无声息消失。</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;BugMeNot 宣布关闭，HN 条目在关闭消息下积累 122 points 与 70 comments 的讨论热度。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：122 / 70 · 相关方：BugMeNot&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;一个长期被当作绕过登录的公共服务退场，热度读数说明它的替代成本被集中讨论，而非悄无声息消失。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;提醒自动化链路不要把第三方账号共享服务当稳定依赖：凭据应落在自有 .env 注入，避免外部关停导致整条链路失效。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;扫描流水线里是否引用共享账号服务；若命中 1 处以上且无自有凭据兜底，则替换后再跑一次全链路 smoke。&lt;/p&gt;&lt;p&gt;来源：HN Algolia front_page (points/comments) · 发布于 2026-11-16T21:32 UTC · 归类：market-invest&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.bugmenot.com/" rel="noopener noreferrer"&gt;https://www.bugmenot.com/&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-17:e4947805c443e350</ns0:id>
+    <ns0:title>[市场与投资] Hands-On With the iPhone Duo's New Face Unlock</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.macrumors.com/2026/11/16/iphone-duo-face-unlock-hands-on" />
+    <ns0:published>2026-11-16T21:39:27.132000Z</ns0:published>
+    <ns0:updated>2026-11-16T22:56:58.658200Z</ns0:updated>
+    <ns0:category term="market-invest" label="市场与投资" />
+    <ns0:summary type="text">Apple’s iOS 27.3 introduces an “Unlock with Front Camera” option for the iPhone Duo, allowing face-based unlocking only while the device is closed. This feature operates exclusively on the Lock Screen, excluding secure transactions and autofill, and requires Touch ID or a passcode when unfolded. Ena</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Apple 在 iOS 27.3 为 iPhone Duo 加入「Unlock with Front Camera」，仅在合盖锁屏生效，安全交易与自动填充仍需 Touch ID 或密码。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：27.3 · 相关方：iOS / iPhone Duo / Touch ID / Lock Screen&lt;/p&gt;&lt;p&gt;Apple’s iOS 27.3 introduces an “Unlock with Front Camera” option for the iPhone Duo, allowing face-based unlocking only while the device is closed. This feature operates exclusively on the Lock Screen, excluding secure transactions and autofill, and requires Touch ID or a passcode when unfolded. Ena&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把生物识别按场景降级：锁屏可用、支付不可用，是权限分层而非单纯的功能开关。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;可借鉴到 automation 的权限设计：同一凭据按操作风险分级授权，高风险动作必须回落到强校验，避免一键全放开。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在自家自动化里列出高风险动作清单；若存在 1 个以上动作沿用低风险凭据，则补二次校验后再上线。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-16T21:39 UTC · 归类：market-invest&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.macrumors.com/2026/11/16/iphone-duo-face-unlock-hands-on" rel="noopener noreferrer"&gt;https://www.macrumors.com/2026/11/16/iphone-duo-face-unlock-hands-on&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:daily-info.local,2026-11-16:fb60cc1ec1fcdcf5</ns0:id>
     <ns0:title>[市场与投资] Johnson &amp; Johnson looking to buy eye disease biotech for up to $3.4bn</ns0:title>
