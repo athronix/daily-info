@@ -5,10 +5,70 @@
   <ns0:subtitle>挖掘 · 聚合 · 研判 · 订阅；每条附原文链接；内容仅供参考，不构成投资建议</ns0:subtitle>
   <ns0:link rel="self" type="application/atom+xml" href="https://daily-info.local/tech.atom" />
   <ns0:link rel="alternate" type="text/html" href="https://daily-info.local/index.html" />
-  <ns0:updated>2026-11-16T22:56:58.658200Z</ns0:updated>
+  <ns0:updated>2026-11-17T22:54:19.919515Z</ns0:updated>
   <ns0:author>
     <ns0:name>Personal Daily Info</ns0:name>
   </ns0:author>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-18:f032f7d5e33c0841</ns0:id>
+    <ns0:title>[市场与投资] Nvidia’s AI Money Machine Keeps Churning Without Jensen Huang</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://gizmodo.com/nvidias-ai-money-machine-keeps-churning-without-jensen-huang-2000841301" />
+    <ns0:published>2026-11-17T21:46:11.308000Z</ns0:published>
+    <ns0:updated>2026-11-17T22:54:19.919515Z</ns0:updated>
+    <ns0:category term="dev-tools" label="市场与投资" />
+    <ns0:summary type="text">The chipmaker reported a record $115.84 billion in revenue and expects even bigger numbers next quarter, despite the scandal surrounding its… 〔Folo分类:新奇产品〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;报道称 Nvidia 录得创纪录 $115.84 billion 营收并预计下季更高，标题同时点出公司高管变动背景。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：$115.84 billion · 相关方：Nvidia / Jensen Huang&lt;/p&gt;&lt;p&gt;The chipmaker reported a record $115.84 billion in revenue and expects even bigger numbers next quarter, despite the scandal surrounding its… 〔Folo分类:新奇产品〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;营收是可核验的公开读数，高管相关说法属未经独立证实的背景，两者不应合并成一条因果结论。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建是口径提醒：财报读数与人事传闻要分字段存储、分证据等级，避免在摘要里被并成一句。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照官方财报核对该营收数字；若官方口径与 $115.84 billion 不一致，则判定为二手转述，降级为线索。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-17T21:46 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;证据状态：未独立验证&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://gizmodo.com/nvidias-ai-money-machine-keeps-churning-without-jensen-huang-2000841301" rel="noopener noreferrer"&gt;https://gizmodo.com/nvidias-ai-money-machine-keeps-churning-without-jensen-huang-2000841301&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-18:776157cf22e3ea27</ns0:id>
+    <ns0:title>[产业与资本] Model ML raises $250M to automate investment banking grunt work</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work" />
+    <ns0:published>2026-11-17T19:32:11.722000Z</ns0:published>
+    <ns0:updated>2026-11-17T22:54:19.919515Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="产业与资本" />
+    <ns0:summary type="text">The startup says its agents understand the full context of deals that bankers and consultants are working on and can automatically update… 〔Folo分类:AI技术与应用〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Model ML 融资 $250M，其 agents 声称理解投行与顾问正在做的交易上下文，并可自动更新材料。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：$250M · 相关方：Model ML / investment banking / agents&lt;/p&gt;&lt;p&gt;The startup says its agents understand the full context of deals that bankers and consultants are working on and can automatically update… 〔Folo分类:AI技术与应用〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;金额与能力声明差距大：能否自动更新交易材料取决于上下文是否完整，而不是融资规模。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;提醒 agent 部署要把上下文完整性做成门禁：委派链路应先验证输入材料齐全，再允许自动改写产物。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;构造 3 份缺字段的交易材料试跑；若自动更新仍产出完整结论，则判定其上下文校验不足，不接入自动改写。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-17T19:32 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work" rel="noopener noreferrer"&gt;https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-18:aa50908e8f80d48e</ns0:id>
+    <ns0:title>[开发者工具与版本] Taming a 14.6 GB RAM Cliff and 4 GB GPU VRAM Limits in a Local-First AI Desktop App (Tauri v2 + Node.js + PyTorch)</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://dev.to/ayumuml/taming-a-146-gb-ram-cliff-and-4-gb-gpu-vram-limits-in-a-local-first-ai-desktop-app-tauri-v2--5hk2" />
+    <ns0:published>2026-11-17T19:54:21.799000Z</ns0:published>
+    <ns0:updated>2026-11-17T22:54:19.919515Z</ns0:updated>
+    <ns0:category term="dev-tools" label="开发者工具与版本" />
+    <ns0:summary type="text">Whenever I tried using cloud LLMs to get through 500-page technical textbooks or multi-thousand-chapter web serials, I ran into the same two… 〔Folo分类:开源项目〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;工程文章记录 Tauri v2 + Node.js + PyTorch 的本地优先 AI 桌面应用撞上 14.6 GB RAM 与 4 GB GPU VRAM 限制，起因是读 500-page 教材。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：14.6 GB / 4 GB / 500-page · 相关方：Tauri v2 / Node.js / PyTorch / Local-First&lt;/p&gt;&lt;p&gt;Whenever I tried using cloud LLMs to get through 500-page technical textbooks or multi-thousand-chapter web serials, I ran into the same two… 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把「本地能跑」拆成内存与显存两条明码上限，比笼统谈端侧推理更容易复现失败边界。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 WinVM 自托管选型是硬输入：权重纳入 provider 队列前，先按同类上限核对本机资源，别只按模型规模决策。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在本机 4 GB 显存下复现 500-page 文档处理；若 2 次均因内存溢出中断，则判定该配置不可纳入自托管队列。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-17T19:54 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://dev.to/ayumuml/taming-a-146-gb-ram-cliff-and-4-gb-gpu-vram-limits-in-a-local-first-ai-desktop-app-tauri-v2--5hk2" rel="noopener noreferrer"&gt;https://dev.to/ayumuml/taming-a-146-gb-ram-cliff-and-4-gb-gpu-vram-limits-in-a-local-first-ai-desktop-app-tauri-v2--5hk2&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-18:155c261944ee5228</ns0:id>
+    <ns0:title>[Agent 与工程] Control Home Assistant with a self-hosted AI bot team (kwant 0.9.21)</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://dev.to/ale_ukr/control-home-assistant-with-a-self-hosted-ai-bot-team-kwant-0921-3gha" />
+    <ns0:published>2026-11-17T14:16:29.068000Z</ns0:published>
+    <ns0:updated>2026-11-17T22:54:19.919515Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="Agent 与工程" />
+    <ns0:summary type="text">Disclosure: I'm Oleksandr, the author of kwant. Links: GitHub · kwant.si · MCP docs I built kwant, an open-source team of AI bots you run… 〔Folo分类:开源项目〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;开发者 Oleksandr 发布自托管 AI bot 团队 kwant 0.9.21，用它控制 Home Assistant，并给出 GitHub 与 MCP docs 链接。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：0.9.21 · 相关方：kwant / Home Assistant / MCP docs / GitHub / Oleksandr&lt;/p&gt;&lt;p&gt;Disclosure: I&amp;#x27;m Oleksandr, the author of kwant. Links: GitHub · kwant.si · MCP docs I built kwant, an open-source team of AI bots you run… 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把 agent 团队做成自托管并附 MCP 文档，说明可接入性取决于部署说明与协议文档是否齐全。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 MCP/A2A 委派链路是同类样本：接入前先核对版本号与 MCP docs，缺一就不纳入可用工具清单。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;按 MCP docs 跑 1 次最小接入；若 0.9.21 无法在 3 步内连通 Home Assistant，则判定自托管链路尚不可用。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-17T14:16 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://dev.to/ale_ukr/control-home-assistant-with-a-self-hosted-ai-bot-team-kwant-0921-3gha" rel="noopener noreferrer"&gt;https://dev.to/ale_ukr/control-home-assistant-with-a-self-hosted-ai-bot-team-kwant-0921-3gha&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-18:b899783d0290da39</ns0:id>
+    <ns0:title>[模型与研究] Claude破解千页哥德尔手稿：80年前他差一步拿菲尔兹奖</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw%3D%3D&amp;mid=2247944324&amp;idx=2&amp;sn=aa3eb0414935136d02e8999ce363f0b1&amp;chksm=e9cd62c0f0bedcc7a7b737f958128563c590e968ced43504cf152529e54ca0f6139cb1b4d474&amp;scene=0&amp;xtrack=1" />
+    <ns0:published>2026-11-17T16:30:00Z</ns0:published>
+    <ns0:updated>2026-11-17T22:54:19.919515Z</ns0:updated>
+    <ns0:category term="ai-models" label="模型与研究" />
+    <ns0:summary type="text">AI、生成模型、深度学习｜赫尔辛基大学逻辑学家扬·冯·普拉托将哥德尔1009页手稿转录本输入Claude，数日内AI生成650页解析，挖掘出数百个此前未被发现的定理。该手稿写于20世纪40年代，内容艰深，人类专家通常需一周仅研读一页。Claude展现出远超人类的文本理解与逻辑推演能力，尤其在形式化逻辑和数学基础领域表现突出。这一突破引发学界震动，凸显大模型在专业学术研究中的潜力，也促使人们重新思考AI辅助数学史研究与前沿逻辑探索的新范式。</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;赫尔辛基大学逻辑学家扬·冯·普拉托把哥德尔 1009 页手稿转录本输入 Claude，数日内生成 650 页解析，并称挖出数百个此前未被发现的定理。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：1009页 / 650页 · 相关方：Claude / 哥德尔 / 赫尔辛基大学 / 扬·冯·普拉托&lt;/p&gt;&lt;p&gt;AI、生成模型、深度学习｜赫尔辛基大学逻辑学家扬·冯·普拉托将哥德尔1009页手稿转录本输入Claude，数日内AI生成650页解析，挖掘出数百个此前未被发现的定理。该手稿写于20世纪40年代，内容艰深，人类专家通常需一周仅研读一页。Claude展现出远超人类的文本理解与逻辑推演能力，尤其在形式化逻辑和数学基础领域表现突出。这一突破引发学界震动，凸显大模型在专业学术研究中的潜力，也促使人们重新思考AI辅助数学史研究与前沿逻辑探索的新范式。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把 AI 读手稿的成果写成输入页数与输出页数，比「远超人类」这类定性断言更可复核。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 agent 处理长文档的评估有借鉴：应以可复核的产物页数与命中率为指标，而不是模型自述的理解能力。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;抽查 650 页解析中的定理；若独立可复核的新定理少于 1 条，则判定「数百个定理」为未证实断言，降级为线索。&lt;/p&gt;&lt;p&gt;来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-17T16:30 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;证据状态：未独立验证&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw%3D%3D&amp;amp;mid=2247944324&amp;amp;idx=2&amp;amp;sn=aa3eb0414935136d02e8999ce363f0b1&amp;amp;chksm=e9cd62c0f0bedcc7a7b737f958128563c590e968ced43504cf152529e54ca0f6139cb1b4d474&amp;amp;scene=0&amp;amp;xtrack=1" rel="noopener noreferrer"&gt;https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw%3D%3D&amp;amp;mid=2247944324&amp;amp;idx=2&amp;amp;sn=aa3eb0414935136d02e8999ce363f0b1&amp;amp;chksm=e9cd62c0f0bedcc7a7b737f958128563c590e968ced43504cf152529e54ca0f6139cb1b4d474&amp;amp;scene=0&amp;amp;xtrack=1&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-18:5cbc55e1b429d883</ns0:id>
+    <ns0:title>[模型与研究] GPT‑6.2 Astra and GPT‑6.2 Sol</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol" />
+    <ns0:published>2026-11-17T22:38:52Z</ns0:published>
+    <ns0:updated>2026-11-17T22:54:19.919515Z</ns0:updated>
+    <ns0:category term="ai-models" label="模型与研究" />
+    <ns0:summary type="text">GPT‑6.2 Astra and GPT‑6.2 Sol OpenAI: We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work. They're available in the API as gpt-6.2-astra and gpt-6.2-sol. I shipped LLM 0.38 with support for the new model</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;OpenAI 推出 GPT‑6.2 Astra 与 GPT‑6.2 Sol，6.2 Astra 定价为前代 80%，输入 $8/MTok、输出 $40/MTok，缓存价 $0.40/million，LLM 0.38 已支持。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：6.2 / 80% / $8/MTok / $40/MTok / 0.38 · 相关方：OpenAI / LLM / Claude Fable 5.2 / gpt-6.2-astra / gpt-6.2-sol&lt;/p&gt;&lt;p&gt;GPT‑6.2 Astra and GPT‑6.2 Sol OpenAI: We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work. They&amp;#x27;re available in the API as gpt-6.2-astra and gpt-6.2-sol. I shipped LLM 0.38 with support for the new model&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;价格降到前代 80%、缓存价再打折，直接改变长会话 agent 的成本模型，而不只是换一个更强的模型。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 automation 长任务最实在：应把缓存命中率与新单价写进成本基线，未用一手账单复现前不按摘要价估算。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;连跑 10 次同类长会话并核对账单；若均价高于 $8/MTok input，则判定摘要价格不适用，改用实付成本重算。&lt;/p&gt;&lt;p&gt;来源：Simon Willison&amp;#x27;s Weblog · 发布于 2026-11-17T22:38 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol" rel="noopener noreferrer"&gt;https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:daily-info.local,2026-11-17:6793bcef62da88a0</ns0:id>
     <ns0:title>[论文与学术] Groundwater's annual cycle is shifting: 50-year study in Finland reveals contrasting outcomes in the north and south</ns0:title>
@@ -948,65 +1008,5 @@
     <ns0:category term="docs-changelog" label="开发者工具与版本" />
     <ns0:summary type="text">New 14-inch and 16-inch MacBook Pro models reintroduce the illuminated Apple logo, which automatically adjusts to ambient light. To disable this feature, users must execute a specific command in the Terminal application, as it is not available in System Settings. This action turns off the light imme</ns0:summary>
     <ns0:content type="html">&lt;p&gt;&lt;strong&gt;14 与 16 英寸 MacBook Pro 的发光 Apple logo 需在 Terminal 用命令关闭&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：14 / 16 · 相关方：MacBook Pro / Apple / Terminal&lt;/p&gt;&lt;p&gt;New 14-inch and 16-inch MacBook Pro models reintroduce the illuminated Apple logo, which automatically adjusts to ambient light. To disable this feature, users must execute a specific command in the Terminal application, as it is not available in System Settings. This action turns off the light imme&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;开关不进系统设置而落到命令行，说明厂商把低频定制留给了可脚本化通道&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 automation 有借鉴：可脚本化的开关应配一份可回滚命令清单，本机设备配置才能进幂等流水线&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;把该命令纳入设备配置脚本并跑一次 dry-run，若 0 处副作用才允许在其它机器复用&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-06T20:03 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.macrumors.com/how-to/turn-glowing-apple-logo-macbook-pro" rel="noopener noreferrer"&gt;https://www.macrumors.com/how-to/turn-glowing-apple-logo-macbook-pro&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-07:c18d0ced5e118c57</ns0:id>
-    <ns0:title>[开发者工具与版本] Hands-On With Apple's New OLED Touchscreen MacBook Pro</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://www.macrumors.com/2026/11/06/oled-macbook-pro-hands-on" />
-    <ns0:published>2026-11-06T22:05:59.161000Z</ns0:published>
-    <ns0:updated>2026-11-06T23:25:27.690104Z</ns0:updated>
-    <ns0:category term="docs-changelog" label="开发者工具与版本" />
-    <ns0:summary type="text">Apple’s new PROLED MacBook Pro, launched in 2026, replaces the previous mini-LED model with a thinner, lighter, and more responsive design. It features an OLED XDR display with touch capabilities, including swipe, tap, and pinch-to-zoom gestures, alongside a Dynamic Island for Siri and Live Activiti</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Apple 的 OLED 触控 MacBook Pro 提供 14 与 16 英寸机型，起价分别为 $2,899 与 $3,399&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：$2,899 / $3,399 / 14 / 16 · 相关方：Apple / MacBook Pro / OLED XDR / M5 Pro&lt;/p&gt;&lt;p&gt;Apple’s new PROLED MacBook Pro, launched in 2026, replaces the previous mini-LED model with a thinner, lighter, and more responsive design. It features an OLED XDR display with touch capabilities, including swipe, tap, and pinch-to-zoom gestures, alongside a Dynamic Island for Siri and Live Activiti&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;原文自己下了判断：触控属增量改进而非笔记本交互的根本变化，硬件叙事需要打折读&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 WinVM 与数据基建暂无直接影响：本机形态不改变 agent 部署与 MCP 通道，仅影响本地开发设备选型&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;若后续出现 2 个以上独立来源确认触控提升效率，才把它列入开发机换机依据&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-06T22:05 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.macrumors.com/2026/11/06/oled-macbook-pro-hands-on" rel="noopener noreferrer"&gt;https://www.macrumors.com/2026/11/06/oled-macbook-pro-hands-on&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-07:35670172de926c8a</ns0:id>
-    <ns0:title>[Agent 与工程] My AI agent called me at 2am. I picked up. It had already found the bug.</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://dev.to/natuworkguy/my-ai-agent-called-me-at-2am-i-picked-up-it-had-already-found-the-bug-bcb" />
-    <ns0:published>2026-11-06T18:26:58.717000Z</ns0:published>
-    <ns0:updated>2026-11-06T23:25:27.690104Z</ns0:updated>
-    <ns0:category term="agent-engineering" label="Agent 与工程" />
-    <ns0:summary type="text">My phone didn't ring. My laptop did. A soft two-tone ring, a card sliding up over my half-finished code, and a name I gave a background… 〔Folo分类:开源项目〕</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;一位开发者的后台 AI agent 在 2am 主动来电，且已先定位到 bug&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2 · 相关方：AI agent&lt;/p&gt;&lt;p&gt;My phone didn&amp;#x27;t ring. My laptop did. A soft two-tone ring, a card sliding up over my half-finished code, and a name I gave a background… 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;后台 Agent 从被动应答转向主动打断，通知时机本身成了需要设计的权限面&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;automation 定时任务默认不外发，但主动来电这类交互要求先有静默时段与授权门槛，否则会打断人&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;给通知链路设静默窗口，若非工作时段触发 1 次即判定该主动通道应默认关闭并回到人工确认&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-06T18:26 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://dev.to/natuworkguy/my-ai-agent-called-me-at-2am-i-picked-up-it-had-already-found-the-bug-bcb" rel="noopener noreferrer"&gt;https://dev.to/natuworkguy/my-ai-agent-called-me-at-2am-i-picked-up-it-had-already-found-the-bug-bcb&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-07:ef2a83f7f3a44d74</ns0:id>
-    <ns0:title>[模型与研究] A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://hightouch.com/blog/llm-judges-identity-resolution" />
-    <ns0:published>2026-11-06T19:48:51.048000Z</ns0:published>
-    <ns0:updated>2026-11-06T23:25:27.690104Z</ns0:updated>
-    <ns0:category term="dev-tools" label="模型与研究" />
-    <ns0:summary type="text">Comments 〔Folo分类:开源项目〕</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;可求助 Opus 的 Jev 以 4x 更低成本取得 Opus 级准确率&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：4x · 相关方：Opus / Jev&lt;/p&gt;&lt;p&gt;Comments 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把 LLM judge 的成本与准确率同时量化，路由策略第一次有了可对照的两个维度&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;WorkBuddy 的 LLM provider V1 若引入分级 judge，可照此设成本上限，避免所有请求都走高价模型&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照 Opus 基线跑 200 条样本，若成本比达到 4 且准确率差小于 2 个百分点才判定可切换路由&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-06T19:48 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;证据状态：推断&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://hightouch.com/blog/llm-judges-identity-resolution" rel="noopener noreferrer"&gt;https://hightouch.com/blog/llm-judges-identity-resolution&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-07:46db23cc1210bae5</ns0:id>
-    <ns0:title>[模型与研究] SketchAgentBench – evaluate LLMs on 3D spatial reasoning</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://sketchagent.dev/" />
-    <ns0:published>2026-11-06T20:28:24.123000Z</ns0:published>
-    <ns0:updated>2026-11-06T23:25:27.690104Z</ns0:updated>
-    <ns0:category term="agent-engineering" label="模型与研究" />
-    <ns0:summary type="text">Comments 〔Folo分类:开源项目〕</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;SketchAgentBench 把 LLMs 的 3D 空间推理做成可跑的评测基准&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：3D · 相关方：SketchAgentBench / LLMs&lt;/p&gt;&lt;p&gt;Comments 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;空间推理从定性描述变成有基准可打分的对象，Agent 能力声明开始需要独立复现&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;WinVM Bridge 与 3D 资产链路都依赖空间理解，该基准可直接用作 agent 部署前的验收项，替代主观描述&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;取该基准跑一次本地 smoke，若 3D 任务通过率低于 60% 则判定当前 provider 不满足空间推理接入条件&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-06T20:28 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://sketchagent.dev/" rel="noopener noreferrer"&gt;https://sketchagent.dev/&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-05:86809fee4f8cf7e7</ns0:id>
-    <ns0:title>[社区与观点] 新玩意 255｜少数派的编辑们最近买了啥？</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://sspai.com/post/118541" />
-    <ns0:published>2026-11-05T09:11:28.852000Z</ns0:published>
-    <ns0:updated>2026-11-05T11:52:53.812318Z</ns0:updated>
-    <ns0:category term="agent-engineering" label="社区与观点" />
-    <ns0:summary type="text">The digital publication Sspai introduces a recurring feature titled "New Toys," which aims to satisfy reader curiosity about the editorial team's personal purchases. In this segment, editors share firsthand accounts and usage experiences of the latest gadgets and products they have recently acquired</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;少数派「新玩意」第 255 期由编辑分享近期个人购入的数码产品与上手体验&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：255 · 相关方：Sspai / New Toys&lt;/p&gt;&lt;p&gt;The digital publication Sspai introduces a recurring feature titled &amp;quot;New Toys,&amp;quot; which aims to satisfy reader curiosity about the editorial team&amp;#x27;s personal purchases. In this segment, editors share firsthand accounts and usage experiences of the latest gadgets and products they have recently acquired&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;一手使用体验补足参数表之外的信息，但抓取摘要不含价格与型号，可核验性有限。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对设备选型只能当线索：进入比较表前必须补齐 2 项可核验规格。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;若补齐型号与价格后仍缺 1 项，则本期不纳入设备候选清单。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-05T09:11 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://sspai.com/post/118541" rel="noopener noreferrer"&gt;https://sspai.com/post/118541&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-05:f1e03683a29d4bc1-c</ns0:id>
-    <ns0:title>[论文与学术] Dexterous Robotic Hands in the Foundation-Model Era: A Full-Stack Survey of Hardware, Data, Cross-Embodiment Transfer, Learning, and Evaluation</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://arxiv.org/abs/2611.06724" />
-    <ns0:published>2026-11-05T05:00:00Z</ns0:published>
-    <ns0:updated>2026-11-05T11:52:53.812318Z</ns0:updated>
-    <ns0:category term="research-papers" label="论文与学术" />
-    <ns0:summary type="text">arXiv:2611.06724v1 Announce Type: cross Abstract: Dexterous robotic hands are increasingly coupled to large-scale human data and foundation models, yet progress in hardware, representation learning and evaluation is often assessed separately. This survey reviews work from January 2024 to early Novem</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;arXiv 2611.06724 综述基础模型时代灵巧机械手在硬件、数据、跨本体迁移与评测上的全栈进展&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2611.06724 / 2024 · 相关方：arXiv / foundation models&lt;/p&gt;&lt;p&gt;arXiv:2611.06724v1 Announce Type: cross Abstract: Dexterous robotic hands are increasingly coupled to large-scale human data and foundation models, yet progress in hardware, representation learning and evaluation is often assessed separately. This survey reviews work from January 2024 to early Novem&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把硬件、数据与评测拆开综述，等于承认单一指标无法代表具身能力的进展。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 3D 资产与具身链路的评估表有参考价值：至少分 4 列，别压成一个分数。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对综述给出的 4 个维度是否都有量化基准，若缺 1 列则标注该维度暂无可靠数据。&lt;/p&gt;&lt;p&gt;来源：arXiv cs.AI · 发布于 2026-11-05T05:00 UTC · 归类：research-papers&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://arxiv.org/abs/2611.06724" rel="noopener noreferrer"&gt;https://arxiv.org/abs/2611.06724&lt;/a&gt;&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://arxiv.org/abs/2611.06724v1" rel="noopener noreferrer"&gt;https://arxiv.org/abs/2611.06724v1&lt;/a&gt;&lt;/p&gt;</ns0:content>
   </ns0:entry>
 </ns0:feed>

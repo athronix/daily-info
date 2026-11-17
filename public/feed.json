@@ -7,6 +7,196 @@
   "language": "zh-CN",
   "items": [
     {
+      "id": "tag:daily-info.local,2026-11-18:2b1f6bcd929f99fd",
+      "url": "https://thehill.com/policy/defense/6224597-pentagon-fails-ninth-audit",
+      "title": "Pentagon fails 9th financial audit in a row",
+      "summary": "报道标题称 Pentagon 连续第 9 次未通过财务审计，正文摘要仅为评论占位，未提供整改细节。 — 连续期次是可核验的计数，但摘要只有评论占位说明整改细节缺失，计数不能替代闭环证据。",
+      "content_html": "<p><strong>报道标题称 Pentagon 连续第 9 次未通过财务审计，正文摘要仅为评论占位，未提供整改细节。</strong></p><p>关键数字：9 · 相关方：Pentagon</p><p>Comments 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>连续期次是可核验的计数，但摘要只有评论占位说明整改细节缺失，计数不能替代闭环证据。</p><p><strong>对我意味着什么：</strong>对治理留痕是反面样本：核验闸门要按期次记录通过/失败与原因，否则同样只剩一个漂亮计数。</p><p><strong>下一步：</strong>核对后续 3 期审计是否附整改项闭环说明；若均只给出期次数字，则判定治理记录不可用于复盘。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-17T15:02 UTC · 归类：security-governance</p><p>证据状态：未独立验证</p><p>→ <a href=\"https://thehill.com/policy/defense/6224597-pentagon-fails-ninth-audit\" rel=\"noopener noreferrer\">https://thehill.com/policy/defense/6224597-pentagon-fails-ninth-audit</a></p>",
+      "date_published": "2026-11-17T15:02:53.357000Z",
+      "date_modified": "2026-11-17T22:54:19.919515Z",
+      "tags": [
+        "security-governance",
+        "安全与治理"
+      ],
+      "_daily_info": {
+        "score": 75.93,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "2b1f6bcd929f99fd",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-18:c7ee78cc35fb1176",
+      "url": "https://www.aikido.dev/blog/java-17-rce-vulnerability-cve-2026-114938",
+      "title": "Java4Shell: pre-auth RCE flaw in Java 17 puts servers at risk (CVE-2026-114938)",
+      "summary": "安全公告把 Java4Shell 标为 Java 17 的前置认证 RCE 漏洞，编号 CVE-2026-114938，可危及服务器。 — 给出受影响版本与 CVE 编号，让门禁能写成精确匹配规则，而不是笼统提示 Java 有风险。",
+      "content_html": "<p><strong>安全公告把 Java4Shell 标为 Java 17 的前置认证 RCE 漏洞，编号 CVE-2026-114938，可危及服务器。</strong></p><p>关键数字：Java 17 / CVE-2026-114938 · 相关方：Java4Shell / Java 17 / CVE-2026-114938</p><p>Comments 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>给出受影响版本与 CVE 编号，让门禁能写成精确匹配规则，而不是笼统提示 Java 有风险。</p><p><strong>对我意味着什么：</strong>对 agent 部署前检查最可直接落地：把 CVE 编号与受影响版本写进依赖扫描规则，命中即阻断启动。</p><p><strong>下一步：</strong>扫描 3 台测试机的 Java 版本；若仍有 Java 17 未升级实例，则判定补丁未闭环并暂停暴露服务。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-17T14:48 UTC · 归类：security-governance</p><p>证据状态：未独立验证</p><p>→ <a href=\"https://www.aikido.dev/blog/java-17-rce-vulnerability-cve-2026-114938\" rel=\"noopener noreferrer\">https://www.aikido.dev/blog/java-17-rce-vulnerability-cve-2026-114938</a></p>",
+      "date_published": "2026-11-17T14:48:03.203000Z",
+      "date_modified": "2026-11-17T22:54:19.919515Z",
+      "tags": [
+        "security-governance",
+        "安全与治理"
+      ],
+      "_daily_info": {
+        "score": 75.79,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "c7ee78cc35fb1176",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-18:8bdb69244f3ae25e",
+      "url": "https://phys.org/news/2026-11-lakes-reveal-ecological-sync.html",
+      "title": "Records from 2,000 lakes reveal ecological changes moving increasingly in sync",
+      "summary": "一项研究用 2,000 个湖泊的记录指出生态变化正趋于同步，并说明湖泊覆盖不到地球表面 2%。 — 样本量与地表占比是两种口径：前者是观测规模，后者是背景约束，混读会高估结论的外延。",
+      "content_html": "<p><strong>一项研究用 2,000 个湖泊的记录指出生态变化正趋于同步，并说明湖泊覆盖不到地球表面 2%。</strong></p><p>关键数字：2,000 / 2% · 相关方：2,000 lakes / Earth&#x27;s surface</p><p>Although lakes cover less than 2% of Earth&#x27;s surface, they play a key role in regulating global carbon, nutrient and biodiversity dynamics. 〔Folo分类:重大学术科研突破〕</p><p><strong>为什么值得看：</strong>样本量与地表占比是两种口径：前者是观测规模，后者是背景约束，混读会高估结论的外延。</p><p><strong>对我意味着什么：</strong>对采集链的数据概览有直接用处：统计应分列样本量与覆盖率，别把两类数字并成一句。</p><p><strong>下一步：</strong>核对原文是否给出 2,000 个湖泊的时间跨度；若缺失则判定样本口径不完整，只保留可核验的样本量。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-17T20:20 UTC · 归类：market-invest</p><p>→ <a href=\"https://phys.org/news/2026-11-lakes-reveal-ecological-sync.html\" rel=\"noopener noreferrer\">https://phys.org/news/2026-11-lakes-reveal-ecological-sync.html</a></p>",
+      "date_published": "2026-11-17T20:20:14.803000Z",
+      "date_modified": "2026-11-17T22:54:19.919515Z",
+      "tags": [
+        "market-invest",
+        "论文与学术"
+      ],
+      "_daily_info": {
+        "score": 76.08,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "8bdb69244f3ae25e",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-18:f032f7d5e33c0841",
+      "url": "https://gizmodo.com/nvidias-ai-money-machine-keeps-churning-without-jensen-huang-2000841301",
+      "title": "Nvidia’s AI Money Machine Keeps Churning Without Jensen Huang",
+      "summary": "报道称 Nvidia 录得创纪录 $115.84 billion 营收并预计下季更高，标题同时点出公司高管变动背景。 — 营收是可核验的公开读数，高管相关说法属未经独立证实的背景，两者不应合并成一条因果结论。",
+      "content_html": "<p><strong>报道称 Nvidia 录得创纪录 $115.84 billion 营收并预计下季更高，标题同时点出公司高管变动背景。</strong></p><p>关键数字：$115.84 billion · 相关方：Nvidia / Jensen Huang</p><p>The chipmaker reported a record $115.84 billion in revenue and expects even bigger numbers next quarter, despite the scandal surrounding its… 〔Folo分类:新奇产品〕</p><p><strong>为什么值得看：</strong>营收是可核验的公开读数，高管相关说法属未经独立证实的背景，两者不应合并成一条因果结论。</p><p><strong>对我意味着什么：</strong>对数据基建是口径提醒：财报读数与人事传闻要分字段存储、分证据等级，避免在摘要里被并成一句。</p><p><strong>下一步：</strong>对照官方财报核对该营收数字；若官方口径与 $115.84 billion 不一致，则判定为二手转述，降级为线索。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-17T21:46 UTC · 归类：dev-tools</p><p>证据状态：未独立验证</p><p>→ <a href=\"https://gizmodo.com/nvidias-ai-money-machine-keeps-churning-without-jensen-huang-2000841301\" rel=\"noopener noreferrer\">https://gizmodo.com/nvidias-ai-money-machine-keeps-churning-without-jensen-huang-2000841301</a></p>",
+      "date_published": "2026-11-17T21:46:11.308000Z",
+      "date_modified": "2026-11-17T22:54:19.919515Z",
+      "tags": [
+        "dev-tools",
+        "市场与投资"
+      ],
+      "_daily_info": {
+        "score": 78.71,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "f032f7d5e33c0841",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-18:776157cf22e3ea27",
+      "url": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work",
+      "title": "Model ML raises $250M to automate investment banking grunt work",
+      "summary": "Model ML 融资 $250M，其 agents 声称理解投行与顾问正在做的交易上下文，并可自动更新材料。 — 金额与能力声明差距大：能否自动更新交易材料取决于上下文是否完整，而不是融资规模。",
+      "content_html": "<p><strong>Model ML 融资 $250M，其 agents 声称理解投行与顾问正在做的交易上下文，并可自动更新材料。</strong></p><p>关键数字：$250M · 相关方：Model ML / investment banking / agents</p><p>The startup says its agents understand the full context of deals that bankers and consultants are working on and can automatically update… 〔Folo分类:AI技术与应用〕</p><p><strong>为什么值得看：</strong>金额与能力声明差距大：能否自动更新交易材料取决于上下文是否完整，而不是融资规模。</p><p><strong>对我意味着什么：</strong>提醒 agent 部署要把上下文完整性做成门禁：委派链路应先验证输入材料齐全，再允许自动改写产物。</p><p><strong>下一步：</strong>构造 3 份缺字段的交易材料试跑；若自动更新仍产出完整结论，则判定其上下文校验不足，不接入自动改写。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-17T19:32 UTC · 归类：agent-engineering</p><p>→ <a href=\"https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work\" rel=\"noopener noreferrer\">https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work</a></p>",
+      "date_published": "2026-11-17T19:32:11.722000Z",
+      "date_modified": "2026-11-17T22:54:19.919515Z",
+      "tags": [
+        "agent-engineering",
+        "产业与资本"
+      ],
+      "_daily_info": {
+        "score": 77.13,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "776157cf22e3ea27",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-18:48c46304656078a6",
+      "url": "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain",
+      "title": "Pedestal AI raises $4.7 million to agentify the supply chain",
+      "summary": "Pedestal AI 融资 $4.7 million，用 agentic AI 让供应链更快、更可靠。 — 融资额与用途都写得很窄：钱投向流程改造而非训练新模型，资本在买可交付的自动化环节。",
+      "content_html": "<p><strong>Pedestal AI 融资 $4.7 million，用 agentic AI 让供应链更快、更可靠。</strong></p><p>关键数字：$4.7 million · 相关方：Pedestal AI / agentic AI / supply chain</p><p>The company uses agentic AI to make supply chains faster and more reliable. 〔Folo分类:美、中、港投融资市场〕</p><p><strong>为什么值得看：</strong>融资额与用途都写得很窄：钱投向流程改造而非训练新模型，资本在买可交付的自动化环节。</p><p><strong>对我意味着什么：</strong>对 skill 与 automation 的价值判断有参考：可复用的是流程状态与工具编排，不是再堆一层模型能力。</p><p><strong>下一步：</strong>核对其公开案例的流程耗时；若 3 个案例均未给出可复核的耗时降幅，则判定该轮融资仍缺效果证据。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-17T18:04 UTC · 归类：industry-capital</p><p>→ <a href=\"https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain\" rel=\"noopener noreferrer\">https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain</a></p>",
+      "date_published": "2026-11-17T18:04:16.339000Z",
+      "date_modified": "2026-11-17T22:54:19.919515Z",
+      "tags": [
+        "industry-capital",
+        "产业与资本"
+      ],
+      "_daily_info": {
+        "score": 77.76,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "48c46304656078a6",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-18:aa50908e8f80d48e",
+      "url": "https://dev.to/ayumuml/taming-a-146-gb-ram-cliff-and-4-gb-gpu-vram-limits-in-a-local-first-ai-desktop-app-tauri-v2--5hk2",
+      "title": "Taming a 14.6 GB RAM Cliff and 4 GB GPU VRAM Limits in a Local-First AI Desktop App (Tauri v2 + Node.js + PyTorch)",
+      "summary": "工程文章记录 Tauri v2 + Node.js + PyTorch 的本地优先 AI 桌面应用撞上 14.6 GB RAM 与 4 GB GPU VRAM 限制，起因是读 500-page 教材。 — 把「本地能跑」拆成内存与显存两条明码上限，比笼统谈端侧推理更容易复现失败边界。",
+      "content_html": "<p><strong>工程文章记录 Tauri v2 + Node.js + PyTorch 的本地优先 AI 桌面应用撞上 14.6 GB RAM 与 4 GB GPU VRAM 限制，起因是读 500-page 教材。</strong></p><p>关键数字：14.6 GB / 4 GB / 500-page · 相关方：Tauri v2 / Node.js / PyTorch / Local-First</p><p>Whenever I tried using cloud LLMs to get through 500-page technical textbooks or multi-thousand-chapter web serials, I ran into the same two… 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>把「本地能跑」拆成内存与显存两条明码上限，比笼统谈端侧推理更容易复现失败边界。</p><p><strong>对我意味着什么：</strong>对 WinVM 自托管选型是硬输入：权重纳入 provider 队列前，先按同类上限核对本机资源，别只按模型规模决策。</p><p><strong>下一步：</strong>在本机 4 GB 显存下复现 500-page 文档处理；若 2 次均因内存溢出中断，则判定该配置不可纳入自托管队列。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-17T19:54 UTC · 归类：dev-tools</p><p>→ <a href=\"https://dev.to/ayumuml/taming-a-146-gb-ram-cliff-and-4-gb-gpu-vram-limits-in-a-local-first-ai-desktop-app-tauri-v2--5hk2\" rel=\"noopener noreferrer\">https://dev.to/ayumuml/taming-a-146-gb-ram-cliff-and-4-gb-gpu-vram-limits-in-a-local-first-ai-desktop-app-tauri-v2--5hk2</a></p>",
+      "date_published": "2026-11-17T19:54:21.799000Z",
+      "date_modified": "2026-11-17T22:54:19.919515Z",
+      "tags": [
+        "dev-tools",
+        "开发者工具与版本"
+      ],
+      "_daily_info": {
+        "score": 78.98,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "aa50908e8f80d48e",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-18:155c261944ee5228",
+      "url": "https://dev.to/ale_ukr/control-home-assistant-with-a-self-hosted-ai-bot-team-kwant-0921-3gha",
+      "title": "Control Home Assistant with a self-hosted AI bot team (kwant 0.9.21)",
+      "summary": "开发者 Oleksandr 发布自托管 AI bot 团队 kwant 0.9.21，用它控制 Home Assistant，并给出 GitHub 与 MCP docs 链接。 — 把 agent 团队做成自托管并附 MCP 文档，说明可接入性取决于部署说明与协议文档是否齐全。",
+      "content_html": "<p><strong>开发者 Oleksandr 发布自托管 AI bot 团队 kwant 0.9.21，用它控制 Home Assistant，并给出 GitHub 与 MCP docs 链接。</strong></p><p>关键数字：0.9.21 · 相关方：kwant / Home Assistant / MCP docs / GitHub / Oleksandr</p><p>Disclosure: I&#x27;m Oleksandr, the author of kwant. Links: GitHub · kwant.si · MCP docs I built kwant, an open-source team of AI bots you run… 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>把 agent 团队做成自托管并附 MCP 文档，说明可接入性取决于部署说明与协议文档是否齐全。</p><p><strong>对我意味着什么：</strong>对 MCP/A2A 委派链路是同类样本：接入前先核对版本号与 MCP docs，缺一就不纳入可用工具清单。</p><p><strong>下一步：</strong>按 MCP docs 跑 1 次最小接入；若 0.9.21 无法在 3 步内连通 Home Assistant，则判定自托管链路尚不可用。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-17T14:16 UTC · 归类：agent-engineering</p><p>→ <a href=\"https://dev.to/ale_ukr/control-home-assistant-with-a-self-hosted-ai-bot-team-kwant-0921-3gha\" rel=\"noopener noreferrer\">https://dev.to/ale_ukr/control-home-assistant-with-a-self-hosted-ai-bot-team-kwant-0921-3gha</a></p>",
+      "date_published": "2026-11-17T14:16:29.068000Z",
+      "date_modified": "2026-11-17T22:54:19.919515Z",
+      "tags": [
+        "agent-engineering",
+        "Agent 与工程"
+      ],
+      "_daily_info": {
+        "score": 78.49,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "155c261944ee5228",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-18:b899783d0290da39",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw%3D%3D&mid=2247944324&idx=2&sn=aa3eb0414935136d02e8999ce363f0b1&chksm=e9cd62c0f0bedcc7a7b737f958128563c590e968ced43504cf152529e54ca0f6139cb1b4d474&scene=0&xtrack=1",
+      "title": "Claude破解千页哥德尔手稿：80年前他差一步拿菲尔兹奖",
+      "summary": "赫尔辛基大学逻辑学家扬·冯·普拉托把哥德尔 1009 页手稿转录本输入 Claude，数日内生成 650 页解析，并称挖出数百个此前未被发现的定理。 — 把 AI 读手稿的成果写成输入页数与输出页数，比「远超人类」这类定性断言更可复核。",
+      "content_html": "<p><strong>赫尔辛基大学逻辑学家扬·冯·普拉托把哥德尔 1009 页手稿转录本输入 Claude，数日内生成 650 页解析，并称挖出数百个此前未被发现的定理。</strong></p><p>关键数字：1009页 / 650页 · 相关方：Claude / 哥德尔 / 赫尔辛基大学 / 扬·冯·普拉托</p><p>AI、生成模型、深度学习｜赫尔辛基大学逻辑学家扬·冯·普拉托将哥德尔1009页手稿转录本输入Claude，数日内AI生成650页解析，挖掘出数百个此前未被发现的定理。该手稿写于20世纪40年代，内容艰深，人类专家通常需一周仅研读一页。Claude展现出远超人类的文本理解与逻辑推演能力，尤其在形式化逻辑和数学基础领域表现突出。这一突破引发学界震动，凸显大模型在专业学术研究中的潜力，也促使人们重新思考AI辅助数学史研究与前沿逻辑探索的新范式。</p><p><strong>为什么值得看：</strong>把 AI 读手稿的成果写成输入页数与输出页数，比「远超人类」这类定性断言更可复核。</p><p><strong>对我意味着什么：</strong>对 agent 处理长文档的评估有借鉴：应以可复核的产物页数与命中率为指标，而不是模型自述的理解能力。</p><p><strong>下一步：</strong>抽查 650 页解析中的定理；若独立可复核的新定理少于 1 条，则判定「数百个定理」为未证实断言，降级为线索。</p><p>来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-17T16:30 UTC · 归类：ai-models</p><p>证据状态：未独立验证</p><p>→ <a href=\"https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw%3D%3D&amp;mid=2247944324&amp;idx=2&amp;sn=aa3eb0414935136d02e8999ce363f0b1&amp;chksm=e9cd62c0f0bedcc7a7b737f958128563c590e968ced43504cf152529e54ca0f6139cb1b4d474&amp;scene=0&amp;xtrack=1\" rel=\"noopener noreferrer\">https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw%3D%3D&amp;mid=2247944324&amp;idx=2&amp;sn=aa3eb0414935136d02e8999ce363f0b1&amp;chksm=e9cd62c0f0bedcc7a7b737f958128563c590e968ced43504cf152529e54ca0f6139cb1b4d474&amp;scene=0&amp;xtrack=1</a></p>",
+      "date_published": "2026-11-17T16:30:00Z",
+      "date_modified": "2026-11-17T22:54:19.919515Z",
+      "tags": [
+        "ai-models",
+        "模型与研究"
+      ],
+      "_daily_info": {
+        "score": 76.78,
+        "source": "智源社区 · 最新分享（匿名 API）",
+        "cluster_id": "b899783d0290da39",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-18:5cbc55e1b429d883",
+      "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol",
+      "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
+      "summary": "OpenAI 推出 GPT‑6.2 Astra 与 GPT‑6.2 Sol，6.2 Astra 定价为前代 80%，输入 $8/MTok、输出 $40/MTok，缓存价 $0.40/million，LLM 0.38 已支持。 — 价格降到前代 80%、缓存价再打折，直接改变长会话 agent 的成本模型，而不只是换一个更强的模型。",
+      "content_html": "<p><strong>OpenAI 推出 GPT‑6.2 Astra 与 GPT‑6.2 Sol，6.2 Astra 定价为前代 80%，输入 $8/MTok、输出 $40/MTok，缓存价 $0.40/million，LLM 0.38 已支持。</strong></p><p>关键数字：6.2 / 80% / $8/MTok / $40/MTok / 0.38 · 相关方：OpenAI / LLM / Claude Fable 5.2 / gpt-6.2-astra / gpt-6.2-sol</p><p>GPT‑6.2 Astra and GPT‑6.2 Sol OpenAI: We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work. They&#x27;re available in the API as gpt-6.2-astra and gpt-6.2-sol. I shipped LLM 0.38 with support for the new model</p><p><strong>为什么值得看：</strong>价格降到前代 80%、缓存价再打折，直接改变长会话 agent 的成本模型，而不只是换一个更强的模型。</p><p><strong>对我意味着什么：</strong>对 automation 长任务最实在：应把缓存命中率与新单价写进成本基线，未用一手账单复现前不按摘要价估算。</p><p><strong>下一步：</strong>连跑 10 次同类长会话并核对账单；若均价高于 $8/MTok input，则判定摘要价格不适用，改用实付成本重算。</p><p>来源：Simon Willison&#x27;s Weblog · 发布于 2026-11-17T22:38 UTC · 归类：ai-models</p><p>→ <a href=\"https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol\" rel=\"noopener noreferrer\">https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol</a></p>",
+      "date_published": "2026-11-17T22:38:52Z",
+      "date_modified": "2026-11-17T22:54:19.919515Z",
+      "tags": [
+        "ai-models",
+        "模型与研究"
+      ],
+      "_daily_info": {
+        "score": 77.77,
+        "source": "Simon Willison's Weblog",
+        "cluster_id": "5cbc55e1b429d883",
+        "ai_status": "ok"
+      }
+    },
+    {
       "id": "tag:daily-info.local,2026-11-17:6793bcef62da88a0",
       "url": "https://phys.org/news/2026-11-groundwater-annual-shifting-year-finland.html",
       "title": "Groundwater's annual cycle is shifting: 50-year study in Finland reveals contrasting outcomes in the north and south",
@@ -1713,196 +1903,6 @@
         "score": 76.11,
         "source": "HN Algolia front_page (points/comments)",
         "cluster_id": "92b8883870aedc23",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-11:e9d10d6fe9a8158c",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc0",
-      "title": "v0.40.17",
-      "summary": "Ollama v0.40.17 预发布合入 ChatGPT CLI 恢复与优雅重启、OpenCode thinking metadata 与 Vulkan 集显 mmap 改动 — 三个改动都落在启动与推理路径而非新模型，CLI 优雅重启与集显 mmap 直接决定本地服务能否无人值守常驻。",
-      "content_html": "<p><strong>Ollama v0.40.17 预发布合入 ChatGPT CLI 恢复与优雅重启、OpenCode thinking metadata 与 Vulkan 集显 mmap 改动</strong></p><p>关键数字：v0.40.17 / #19583 / #19409 / #19640 · 相关方：ChatGPT CLI / OpenCode / Vulkan / Ollama</p><p>What&#x27;s Changed Improve ChatGPT CLI restore and graceful restart by @hoyyeva in #19583 cmd/launch: use thinking metadata for OpenCode settings by @hoyyeva in #19409 llm: use mmap for Vulkan integrated GPUs by @dhiltgen in #19640 rpreslar4765/Ollama by @rpreslar4765 in #17163 mlx: support concurrent g</p><p><strong>为什么值得看：</strong>三个改动都落在启动与推理路径而非新模型，CLI 优雅重启与集显 mmap 直接决定本地服务能否无人值守常驻。</p><p><strong>对我意味着什么：</strong>对 automation 与本地 agent 运行时有直接影响：常驻推理服务升级前需回归 CLI 重启与 GPU 内存映射路径。</p><p><strong>下一步：</strong>升级后跑 10 次 CLI 中断重启，若 ≥9 次恢复会话且集显显存占用不升，判定可替换现有版本。</p><p>来源：ollama Releases · 发布于 2026-11-10T22:25 UTC · 归类：dev-tools</p><p>→ <a href=\"https://github.com/ollama/ollama/releases/tag/v0.40.17-rc0\" rel=\"noopener noreferrer\">https://github.com/ollama/ollama/releases/tag/v0.40.17-rc0</a></p>",
-      "date_published": "2026-11-10T22:25:00Z",
-      "date_modified": "2026-11-10T23:04:57.316406Z",
-      "tags": [
-        "dev-tools",
-        "开发者工具与版本"
-      ],
-      "_daily_info": {
-        "score": 79.65,
-        "source": "ollama Releases",
-        "cluster_id": "e9d10d6fe9a8158c",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-11:40bd82e68c624de0",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xsytlk/my_ai_is_lazier_than_me",
-      "title": "My AI is lazier than me",
-      "summary": "一位 LocalLLaMA 用户用 2 台 Sparks 跑 glm 5.3 flash、以 hermes agent 作 harness，吐槽约 6500 euro 双机投入 — 这是少见的把 hermes agent 作为本地编排 harness 的一手配置记录，硬件成本与模型体感被同时量化。",
-      "content_html": "<p><strong>一位 LocalLLaMA 用户用 2 台 Sparks 跑 glm 5.3 flash、以 hermes agent 作 harness，吐槽约 6500 euro 双机投入</strong></p><p>关键数字：2 / 5.3 / 6500 · 相关方：glm 5.3 flash / hermes agent / MacBook Air / Sparks</p><p>Let&#x27;s start with my setup: I have 2 Sparks running glm 5.3 flash, and the harness is hermes agent running on a MacBook Air. While trying to justify all the money I spent (around 6500 euro for both machines, a long time ago when prices were just high instead of outrageous), I decided to hop on the de</p><p><strong>为什么值得看：</strong>这是少见的把 hermes agent 作为本地编排 harness 的一手配置记录，硬件成本与模型体感被同时量化。</p><p><strong>对我意味着什么：</strong>对 hermes-agent 部署有直接参考：多机加 MacBook 的编排需验证任务分发是否真的落到两台机器。</p><p><strong>下一步：</strong>在同一 harness 跑 20 次并发任务，若两台 Sparks 负载差 &lt;20% 且无排队超时，判定分发有效。</p><p>来源：r/LocalLLaMA · 发布于 2026-11-10T21:11 UTC · 归类：agent-engineering</p><p>证据状态：未独立验证</p><p>→ <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1xsytlk/my_ai_is_lazier_than_me\" rel=\"noopener noreferrer\">https://www.reddit.com/r/LocalLLaMA/comments/1xsytlk/my_ai_is_lazier_than_me</a></p>",
-      "date_published": "2026-11-10T21:11:05Z",
-      "date_modified": "2026-11-10T23:04:57.316406Z",
-      "tags": [
-        "agent-engineering",
-        "Agent 与工程"
-      ],
-      "_daily_info": {
-        "score": 71.52,
-        "source": "r/LocalLLaMA",
-        "cluster_id": "40bd82e68c624de0",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-11:7c2ab083f460ca73",
-      "url": "https://www.techmeme.com/261110/p49",
-      "title": "Graphon, which wants to resolve AI agent memory limitations by mapping connections across docs, videos, and images, raised a $35M Series A led by RRE Ventures (Shubhangi Goel/Business Insider)",
-      "summary": "Graphon 以跨 docs、videos、images 建立连接来补 AI agent 记忆短板，获 RRE Ventures 领投的 $35M Series A — 资本把记忆当作独立基础设施层定价而非模型附带能力，说明跨模态索引已是 agent 落地的显性瓶颈。",
-      "content_html": "<p><strong>Graphon 以跨 docs、videos、images 建立连接来补 AI agent 记忆短板，获 RRE Ventures 领投的 $35M Series A</strong></p><p>关键数字：$35M · 相关方：Graphon / RRE Ventures / Business Insider</p><p>Shubhangi Goel / Business Insider: Graphon, which wants to resolve AI agent memory limitations by mapping connections across docs, videos, and images, raised a $35M Series A led by RRE Ventures — AI agents can write code, search databases, and carry out multistep tasks. But they can still lose track</p><p><strong>为什么值得看：</strong>资本把记忆当作独立基础设施层定价而非模型附带能力，说明跨模态索引已是 agent 落地的显性瓶颈。</p><p><strong>对我意味着什么：</strong>对 agent 部署与数据基建有直接影响：多模态记忆需要可回溯引用链，现有 skill 上下文管理应补来源字段。</p><p><strong>下一步：</strong>给现有记忆表加来源与时间戳两项，若跨 3 类素材检索命中率 ≥80%，才判定可替换现有上下文拼接。</p><p>来源：Techmeme · 发布于 2026-11-10T20:25 UTC · 归类：agent-engineering</p><p>→ <a href=\"https://www.techmeme.com/261110/p49\" rel=\"noopener noreferrer\">https://www.techmeme.com/261110/p49</a></p>",
-      "date_published": "2026-11-10T20:25:16Z",
-      "date_modified": "2026-11-10T23:04:57.316406Z",
-      "tags": [
-        "agent-engineering",
-        "Agent 与工程"
-      ],
-      "_daily_info": {
-        "score": 72.29,
-        "source": "Techmeme",
-        "cluster_id": "7c2ab083f460ca73",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-11:faef9281aef0f1c0",
-      "url": "https://www.lesswrong.com/posts/wg3K6xFFTdM6RmRgn/claude-fable-5-2-can-do-weight-space-programming-about-as",
-      "title": "Claude Fable 5.2 can do \"weight-space-programming\" about as well as GPT-6 Astra",
-      "summary": "论文演示 GPT-6 Astra 对神经网络做底层操作，讨论称 Claude Fable 5.2 具备相近的 weight-space-programming 能力 — 能力比较落在直接改权重而非提示词；若可复现，模型定制的成本结构会从训练数据转向权重编辑。",
-      "content_html": "<p><strong>论文演示 GPT-6 Astra 对神经网络做底层操作，讨论称 Claude Fable 5.2 具备相近的 weight-space-programming 能力</strong></p><p>关键数字：5.2 / 9x9 / 0.6B · 相关方：Claude Fable 5.2 / GPT-6 Astra / Qwen3-0.6B / weight-space-programming</p><p>Recently this paper demonstrated that GPT-6 Astra was capable of a bunch of low-level operations on neural networks, including improving Qwen3-0.6B&#x27;s ability on some math benchmarks and writing some networks to play 9x9 Go from scratch. Since the authors released nearly all of their prompts, the net</p><p><strong>为什么值得看：</strong>能力比较落在直接改权重而非提示词；若可复现，模型定制的成本结构会从训练数据转向权重编辑。</p><p><strong>对我意味着什么：</strong>对 skill 与 agent 部署暂无直接影响：权重级改动需要可复现的评测集，当前只有单篇讨论，不构成接入依据。</p><p><strong>下一步：</strong>在同一数学基准复跑 3 组权重编辑，若 Qwen3-0.6B 提升可重复且无回归，才判定该路径值得评估。</p><p>来源：LessWrong · 发布于 2026-11-10T18:06 UTC · 归类：agent-engineering</p><p>证据状态：未独立验证</p><p>→ <a href=\"https://www.lesswrong.com/posts/wg3K6xFFTdM6RmRgn/claude-fable-5-2-can-do-weight-space-programming-about-as\" rel=\"noopener noreferrer\">https://www.lesswrong.com/posts/wg3K6xFFTdM6RmRgn/claude-fable-5-2-can-do-weight-space-programming-about-as</a></p>",
-      "date_published": "2026-11-10T18:06:06Z",
-      "date_modified": "2026-11-10T23:04:57.316406Z",
-      "tags": [
-        "agent-engineering",
-        "模型与研究"
-      ],
-      "_daily_info": {
-        "score": 72.82,
-        "source": "LessWrong",
-        "cluster_id": "faef9281aef0f1c0",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-11:e8c5a09b311ad300",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzU4NTQyNjc5Mg%3D%3D&mid=2247499027&idx=1&sn=f2db4105ce173f26380aa00320a4fc51&chksm=fc521d0df4c7db69372ce4e073ca3c75a3079b78cca2e13c063e3f5cf3997a432220ad81f078&scene=0&xtrack=1",
-      "title": "课程 | 2026年斯坦福CS 329Z《Agent工程》| 第6讲：Agent 设计模式与脚手架",
-      "summary": "斯坦福 CS 329Z《Agent工程》放出第6讲 Agent 设计模式与脚手架，前几讲依次覆盖 LLM 基础、RAG 与工具调用 — 课程把工具调用与任务编排独立成讲，说明 Agent 工程的难点已从模型能力转到与外部系统的交互契约。",
-      "content_html": "<p><strong>斯坦福 CS 329Z《Agent工程》放出第6讲 Agent 设计模式与脚手架，前几讲依次覆盖 LLM 基础、RAG 与工具调用</strong></p><p>关键数字：CS 329Z / 第6讲 / 第2讲 / 第3讲 · 相关方：斯坦福 / Agent工程 / RAG / LLM</p><p>多模态、Agent、生成模型｜2026年斯坦福CS 329Z《Agent工程》系列课程涵盖Agent开发核心内容：第2讲讲解面向开发者的LLM基础原理；第3讲聚焦检索增强生成（RAG）技术，提升模型知识时效性与准确性；第4讲深入工具调用机制，实现Agent与外部系统交互；第5讲探讨框架选型与任务编排策略，支撑复杂多步推理与协作。课程体系强调工程实践与前沿方法结合，旨在培养构建可靠、可扩展智能体系统的能力。</p><p><strong>为什么值得看：</strong>课程把工具调用与任务编排独立成讲，说明 Agent 工程的难点已从模型能力转到与外部系统的交互契约。</p><p><strong>对我意味着什么：</strong>对 MCP / A2A 与 skill 设计有直接参考价值：第4讲的工具调用边界可对照当前 connector 契约逐条核对。</p><p><strong>下一步：</strong>对照第4讲与第5讲清单逐项自查，若工具描述、错误回退、编排幂等三项均覆盖，判定现有契约合格。</p><p>来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-10T12:10 UTC · 归类：ai-models</p><p>→ <a href=\"https://mp.weixin.qq.com/s?__biz=MzU4NTQyNjc5Mg%3D%3D&amp;mid=2247499027&amp;idx=1&amp;sn=f2db4105ce173f26380aa00320a4fc51&amp;chksm=fc521d0df4c7db69372ce4e073ca3c75a3079b78cca2e13c063e3f5cf3997a432220ad81f078&amp;scene=0&amp;xtrack=1\" rel=\"noopener noreferrer\">https://mp.weixin.qq.com/s?__biz=MzU4NTQyNjc5Mg%3D%3D&amp;mid=2247499027&amp;idx=1&amp;sn=f2db4105ce173f26380aa00320a4fc51&amp;chksm=fc521d0df4c7db69372ce4e073ca3c75a3079b78cca2e13c063e3f5cf3997a432220ad81f078&amp;scene=0&amp;xtrack=1</a></p>",
-      "date_published": "2026-11-10T12:10:00Z",
-      "date_modified": "2026-11-10T23:04:57.316406Z",
-      "tags": [
-        "ai-models",
-        "模型与研究"
-      ],
-      "_daily_info": {
-        "score": 77.55,
-        "source": "智源社区 · 最新分享（匿名 API）",
-        "cluster_id": "e8c5a09b311ad300",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-11:096f075e11080075",
-      "url": "https://simonwillison.net/2026/Nov/10/llm-gemini",
-      "title": "llm-gemini 0.36",
-      "summary": "llm-gemini 0.36 发布，Gemini 4 Carbon 从限定人群开放至所有人，输入 $2、输出 $10 每百万 token — 两周前只给 cyber defenders 子集，如今开放且可被命令行调用；可用性的变化比模型评分更影响接入决策。",
-      "content_html": "<p><strong>llm-gemini 0.36 发布，Gemini 4 Carbon 从限定人群开放至所有人，输入 $2、输出 $10 每百万 token</strong></p><p>关键数字：0.36 / $2 / $10 · 相关方：llm-gemini / Gemini 4 Carbon / Google / GPT-6.1</p><p>Release: llm-gemini 0.36 Gemini 4 Carbon was announced two weeks ago for &quot;a subset of cyber defenders&quot;, but today it&#x27;s available to everyone else. This is Google&#x27;s best ever Gemini, priced at $2/million input and $10/million output at launch (that&#x27;s GPT-6.1 Sol / Claude Sonnet 5.5 prices) but schedu</p><p><strong>为什么值得看：</strong>两周前只给 cyber defenders 子集，如今开放且可被命令行调用；可用性的变化比模型评分更影响接入决策。</p><p><strong>对我意味着什么：</strong>对 WorkBuddy 模型路由与 skill 调用有直接影响：可把联网推理档纳入候选，但需按 $2/$10 单价核算长任务预算。</p><p><strong>下一步：</strong>用同一 10 条提示词跑 llm-gemini 0.36，若返回完整率 ≥9/10 且单价核算不超预算，才纳入默认路由。</p><p>来源：Simon Willison&#x27;s Weblog · 发布于 2026-11-10T20:09 UTC · 归类：ai-models</p><p>→ <a href=\"https://simonwillison.net/2026/Nov/10/llm-gemini\" rel=\"noopener noreferrer\">https://simonwillison.net/2026/Nov/10/llm-gemini</a></p>",
-      "date_published": "2026-11-10T20:09:44Z",
-      "date_modified": "2026-11-10T23:04:57.316406Z",
-      "tags": [
-        "ai-models",
-        "模型与研究"
-      ],
-      "_daily_info": {
-        "score": 77.52,
-        "source": "Simon Willison's Weblog",
-        "cluster_id": "096f075e11080075",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-10:6aa5fc030d1416fb",
-      "url": "https://phys.org/news/2026-11-fossil-emissions-decrease-energy-growth.html",
-      "title": "Fossil CO₂ emissions projected to decrease in 2026 amid clean energy growth and Iran conflict",
-      "summary": "一份预测称 2026 年全球化石燃料碳排放将下降 0.4%，归因于太阳能与风电扩张及伊朗冲突 — 0.4% 的降幅小于常见统计波动，且属预测而非实测；把它当趋势拐点会误读，需与后续实测年值分开存放。",
-      "content_html": "<p><strong>一份预测称 2026 年全球化石燃料碳排放将下降 0.4%，归因于太阳能与风电扩张及伊朗冲突</strong></p><p>关键数字：0.4% · 相关方：fossil fuels / solar / wind power / Iran / CO₂</p><p>Global carbon emissions from fossil fuels are projected to decrease by 0.4% in 2026—driven by expansion of solar and wind power and the Iran… 〔Folo分类:重大学术科研突破〕</p><p><strong>为什么值得看：</strong>0.4% 的降幅小于常见统计波动，且属预测而非实测；把它当趋势拐点会误读，需与后续实测年值分开存放。</p><p><strong>对我意味着什么：</strong>对数据基建有轻量用途：带单位的百分比读数是 feed 数字白名单的好样本，可验证提取器不把百分号或年份误当计数。</p><p><strong>下一步：</strong>用 0.4% 跑一次数字白名单单测，若百分号被正确保留且 2026 未被误判为读数，判定提取器通过。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-10T01:00 UTC · 归类：community</p><p>证据状态：未独立验证</p><p>→ <a href=\"https://phys.org/news/2026-11-fossil-emissions-decrease-energy-growth.html\" rel=\"noopener noreferrer\">https://phys.org/news/2026-11-fossil-emissions-decrease-energy-growth.html</a></p>",
-      "date_published": "2026-11-10T01:00:05.331000Z",
-      "date_modified": "2026-11-10T02:09:37.536152Z",
-      "tags": [
-        "community",
-        "社区与观点"
-      ],
-      "_daily_info": {
-        "score": 75.54,
-        "source": "Folo 订阅池基线（人工筛选信源）",
-        "cluster_id": "6aa5fc030d1416fb",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-10:382ff6535f6d860a",
-      "url": "https://phys.org/news/2026-11-case-roman-frog-graveyard.html",
-      "title": "Cracking the case of the Roman frog graveyard",
-      "summary": "Bournemouth University 与 Museum of London 的研究者重新分析一条沟渠中出土的 8,000 块古蛙骨 — 十年前的材料靠新方法重新得出结论，说明保留可重算的原始样本比保存当时的结论更有价值，这是资料沉淀的通用教训。",
-      "content_html": "<p><strong>Bournemouth University 与 Museum of London 的研究者重新分析一条沟渠中出土的 8,000 块古蛙骨</strong></p><p>关键数字：8,000 · 相关方：Bournemouth University / Museum of London</p><p>Ten years after 8,000 ancient frog bones were discovered in a single ditch, scientists at Bournemouth University and the Museum of London… 〔Folo分类:重大学术科研突破〕</p><p><strong>为什么值得看：</strong>十年前的材料靠新方法重新得出结论，说明保留可重算的原始样本比保存当时的结论更有价值，这是资料沉淀的通用教训。</p><p><strong>对我意味着什么：</strong>暂无直接影响：考古样本研究不涉及 WorkBuddy、MCP、agent 部署任何环节；8,000 仅作为本期实质读数样本供白名单复算。</p><p><strong>下一步：</strong>核对报告中 8,000 块骨骼的计数口径，若与发掘清单一致率 100%，判定该数字可作为白名单正样本。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-10T00:10 UTC · 归类：market-invest</p><p>→ <a href=\"https://phys.org/news/2026-11-case-roman-frog-graveyard.html\" rel=\"noopener noreferrer\">https://phys.org/news/2026-11-case-roman-frog-graveyard.html</a></p>",
-      "date_published": "2026-11-10T00:10:09.811000Z",
-      "date_modified": "2026-11-10T02:09:37.536152Z",
-      "tags": [
-        "market-invest",
-        "市场与投资"
-      ],
-      "_daily_info": {
-        "score": 76.54,
-        "source": "Folo 订阅池基线（人工筛选信源）",
-        "cluster_id": "382ff6535f6d860a",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-10:255b56db4a4a44d0",
-      "url": "https://artificialanalysis.ai/models/claude-fable-5-2",
-      "title": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
-      "summary": "Artificial Analysis 给出 Claude Fable 5.2 得分 65，标题称其为迄今最高，摘要区无正文内容 — 65 是第三方评测口径且摘要为空，无法独立核对测试集；同日已有 max 档失败的实测，榜单分不足以支撑默认模型切换。",
-      "content_html": "<p><strong>Artificial Analysis 给出 Claude Fable 5.2 得分 65，标题称其为迄今最高，摘要区无正文内容</strong></p><p>关键数字：5.2 / 65 · 相关方：Claude Fable 5.2 / Artificial Analysis</p><p>Comments 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>65 是第三方评测口径且摘要为空，无法独立核对测试集；同日已有 max 档失败的实测，榜单分不足以支撑默认模型切换。</p><p><strong>对我意味着什么：</strong>对 LLM provider V1 的选型口径有影响：默认模型切换须先跑固定提示词对照，不能只用榜单分排序。</p><p><strong>下一步：</strong>用固定提示词对照 65 分榜单口径复跑，若长任务完整返回率 ≥ 90%，判定可把 Fable 5.2 提为默认候选。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-09T20:04 UTC · 归类：deep-read</p><p>证据状态：未独立验证</p><p>→ <a href=\"https://artificialanalysis.ai/models/claude-fable-5-2\" rel=\"noopener noreferrer\">https://artificialanalysis.ai/models/claude-fable-5-2</a></p>",
-      "date_published": "2026-11-09T20:04:55.939000Z",
-      "date_modified": "2026-11-10T02:09:37.536152Z",
-      "tags": [
-        "deep-read",
-        "深度长文"
-      ],
-      "_daily_info": {
-        "score": 77.02,
-        "source": "Folo 订阅池基线（人工筛选信源）",
-        "cluster_id": "255b56db4a4a44d0",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-10:e27158c22be39665",
-      "url": "https://dev.to/opsnode_dev/my-solana-buy-bot-doubled-every-buy-amount-heres-the-post-mortem-2dea",
-      "title": "My Solana buy bot doubled every buy amount. Here's the post-mortem.",
-      "summary": "作者复盘自售的 Solana 买入机器人，称一次审计发现 5 个 bug，其中之一把每笔买入金额翻倍 — 金额翻倍属状态累积型缺陷，单次执行看起来正常、重跑才放大；这类复盘比功能发布更能暴露自动化管线的验收盲区。",
-      "content_html": "<p><strong>作者复盘自售的 Solana 买入机器人，称一次审计发现 5 个 bug，其中之一把每笔买入金额翻倍</strong></p><p>关键数字：5 · 相关方：Solana / buy bot</p><p>In October I audited the first version of the buy bot I was selling. I found 5 bugs. One of them doubled every buy amount. Another made the… 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>金额翻倍属状态累积型缺陷，单次执行看起来正常、重跑才放大；这类复盘比功能发布更能暴露自动化管线的验收盲区。</p><p><strong>对我意味着什么：</strong>对 automation 幂等设计是直接警示：prepared/dispatched 双状态去重同理，金额与数量类动作必须有单次上限断言。</p><p><strong>下一步：</strong>在测试网重放买入脚本 20 次，若单笔金额与配置值偏差为 0 且重跑不产生重复订单，判定幂等断言通过。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-09T21:48 UTC · 归类：security-governance</p><p>→ <a href=\"https://dev.to/opsnode_dev/my-solana-buy-bot-doubled-every-buy-amount-heres-the-post-mortem-2dea\" rel=\"noopener noreferrer\">https://dev.to/opsnode_dev/my-solana-buy-bot-doubled-every-buy-amount-heres-the-post-mortem-2dea</a></p>",
-      "date_published": "2026-11-09T21:48:08.686000Z",
-      "date_modified": "2026-11-10T02:09:37.536152Z",
-      "tags": [
-        "security-governance",
-        "安全与治理"
-      ],
-      "_daily_info": {
-        "score": 78.11,
-        "source": "Folo 订阅池基线（人工筛选信源）",
-        "cluster_id": "e27158c22be39665",
         "ai_status": "ok"
       }
     }

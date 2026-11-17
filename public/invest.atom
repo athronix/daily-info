@@ -5,10 +5,30 @@
   <ns0:subtitle>挖掘 · 聚合 · 研判 · 订阅；每条附原文链接；内容仅供参考，不构成投资建议</ns0:subtitle>
   <ns0:link rel="self" type="application/atom+xml" href="https://daily-info.local/invest.atom" />
   <ns0:link rel="alternate" type="text/html" href="https://daily-info.local/index.html" />
-  <ns0:updated>2026-11-16T22:56:58.658200Z</ns0:updated>
+  <ns0:updated>2026-11-17T22:54:19.919515Z</ns0:updated>
   <ns0:author>
     <ns0:name>Personal Daily Info</ns0:name>
   </ns0:author>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-18:8bdb69244f3ae25e</ns0:id>
+    <ns0:title>[论文与学术] Records from 2,000 lakes reveal ecological changes moving increasingly in sync</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://phys.org/news/2026-11-lakes-reveal-ecological-sync.html" />
+    <ns0:published>2026-11-17T20:20:14.803000Z</ns0:published>
+    <ns0:updated>2026-11-17T22:54:19.919515Z</ns0:updated>
+    <ns0:category term="market-invest" label="论文与学术" />
+    <ns0:summary type="text">Although lakes cover less than 2% of Earth's surface, they play a key role in regulating global carbon, nutrient and biodiversity dynamics. 〔Folo分类:重大学术科研突破〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;一项研究用 2,000 个湖泊的记录指出生态变化正趋于同步，并说明湖泊覆盖不到地球表面 2%。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2,000 / 2% · 相关方：2,000 lakes / Earth&amp;#x27;s surface&lt;/p&gt;&lt;p&gt;Although lakes cover less than 2% of Earth&amp;#x27;s surface, they play a key role in regulating global carbon, nutrient and biodiversity dynamics. 〔Folo分类:重大学术科研突破〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;样本量与地表占比是两种口径：前者是观测规模，后者是背景约束，混读会高估结论的外延。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对采集链的数据概览有直接用处：统计应分列样本量与覆盖率，别把两类数字并成一句。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对原文是否给出 2,000 个湖泊的时间跨度；若缺失则判定样本口径不完整，只保留可核验的样本量。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-17T20:20 UTC · 归类：market-invest&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://phys.org/news/2026-11-lakes-reveal-ecological-sync.html" rel="noopener noreferrer"&gt;https://phys.org/news/2026-11-lakes-reveal-ecological-sync.html&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-18:48c46304656078a6</ns0:id>
+    <ns0:title>[产业与资本] Pedestal AI raises $4.7 million to agentify the supply chain</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain" />
+    <ns0:published>2026-11-17T18:04:16.339000Z</ns0:published>
+    <ns0:updated>2026-11-17T22:54:19.919515Z</ns0:updated>
+    <ns0:category term="industry-capital" label="产业与资本" />
+    <ns0:summary type="text">The company uses agentic AI to make supply chains faster and more reliable. 〔Folo分类:美、中、港投融资市场〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Pedestal AI 融资 $4.7 million，用 agentic AI 让供应链更快、更可靠。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：$4.7 million · 相关方：Pedestal AI / agentic AI / supply chain&lt;/p&gt;&lt;p&gt;The company uses agentic AI to make supply chains faster and more reliable. 〔Folo分类:美、中、港投融资市场〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;融资额与用途都写得很窄：钱投向流程改造而非训练新模型，资本在买可交付的自动化环节。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 skill 与 automation 的价值判断有参考：可复用的是流程状态与工具编排，不是再堆一层模型能力。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对其公开案例的流程耗时；若 3 个案例均未给出可复核的耗时降幅，则判定该轮融资仍缺效果证据。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-17T18:04 UTC · 归类：industry-capital&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain" rel="noopener noreferrer"&gt;https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:daily-info.local,2026-11-17:ae2c27b931ec65bb</ns0:id>
     <ns0:title>[市场与投资] BugMeNot Has Closed</ns0:title>

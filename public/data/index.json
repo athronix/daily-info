@@ -5,8 +5,35 @@
     "timezone": "Asia/Shanghai",
     "version": "1.0.0"
   },
-  "generated_at": "2026-11-16T22:56:58.658200Z",
+  "generated_at": "2026-11-17T22:54:19.919515Z",
   "dates": [
+    {
+      "date": "2026-11-18",
+      "headline": "同日刷新价格、营收与内存上限读数，但融资买的是流程、漏洞卡在版本、治理只剩期次——能数清的多了，能直接复用的仍要逐项验",
+      "lead": "今日入报里，GPT‑6.2 Astra 定价降到前代的 80%，输入 $8/MTok、输出 $40/MTok；Nvidia 报出 $115.84 billion 创纪录营收；本地端侧却仍被 14.6 GB 内存与 4 GB GPU VRAM 卡住。张力在于：价格与营收都能数清，端侧可跑通、漏洞已修复、治理已闭环这类结论仍要一手验收，不能由读数直接推出。",
+      "demo": false,
+      "stats": {
+        "sources_ok": 180,
+        "sources_total": 185,
+        "total_items": 3329,
+        "clusters": 3247,
+        "selected": 40,
+        "published_items": 10,
+        "seven_element_pass": 10,
+        "seven_element_ratio": 1.0,
+        "items_with_numbers": 10,
+        "substantive_number_ratio": 1.0,
+        "rejected_no_number": 0,
+        "unique_reference_domains": 8
+      },
+      "section_count": 7,
+      "item_count": 10,
+      "ai_status": "ok",
+      "seven_element_ratio": 1.0,
+      "theme_count": 7,
+      "watch_signal_count": 5,
+      "reference_domains": 8
+    },
     {
       "date": "2026-11-17",
       "headline": "版本与效率读数同日刷新，agent 的权限边界仍要靠外部门禁——能数清的多了，能直接接入的没同步变多",
