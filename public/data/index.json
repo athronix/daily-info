@@ -5,8 +5,35 @@
     "timezone": "Asia/Shanghai",
     "version": "1.0.0"
   },
-  "generated_at": "2026-11-17T22:54:19.919515Z",
+  "generated_at": "2026-11-18T22:59:52.614033Z",
   "dates": [
+    {
+      "date": "2026-11-19",
+      "headline": "同一天里，版本号与 CVE 编号能直接写进门禁，融资额与并购额只是绝对值，真正决定能不能接的是复现率与改动清单",
+      "lead": "今日入报里，107 条 AI 设计抗体仅不足 30% 通过实验验证，1,200 项任务 RL 把 Terminal-Bench 4.1 从 5.6% 提到 12%；HomeView 27.2.1 与 vLLM 0.34.0 给出可匹配版本号，CVE-2026-99312 给出可扫描编号；Lilly 并购越过 $32B、Payhawk 融资 $280M。张力在于：编号、版本、复现率能逐字回查，金额与型号却推不出可用性。",
+      "demo": false,
+      "stats": {
+        "sources_ok": 181,
+        "sources_total": 185,
+        "total_items": 2945,
+        "clusters": 2886,
+        "selected": 40,
+        "published_items": 11,
+        "seven_element_pass": 11,
+        "seven_element_ratio": 1.0,
+        "items_with_numbers": 11,
+        "substantive_number_ratio": 1.0,
+        "rejected_no_number": 0,
+        "unique_reference_domains": 9
+      },
+      "section_count": 7,
+      "item_count": 11,
+      "ai_status": "ok",
+      "seven_element_ratio": 1.0,
+      "theme_count": 7,
+      "watch_signal_count": 5,
+      "reference_domains": 9
+    },
     {
       "date": "2026-11-18",
       "headline": "同日刷新价格、营收与内存上限读数，但融资买的是流程、漏洞卡在版本、治理只剩期次——能数清的多了，能直接复用的仍要逐项验",

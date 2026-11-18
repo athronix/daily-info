@@ -5,10 +5,30 @@
   <ns0:subtitle>挖掘 · 聚合 · 研判 · 订阅；每条附原文链接；内容仅供参考，不构成投资建议</ns0:subtitle>
   <ns0:link rel="self" type="application/atom+xml" href="https://daily-info.local/invest.atom" />
   <ns0:link rel="alternate" type="text/html" href="https://daily-info.local/index.html" />
-  <ns0:updated>2026-11-17T22:54:19.919515Z</ns0:updated>
+  <ns0:updated>2026-11-18T22:59:52.614033Z</ns0:updated>
   <ns0:author>
     <ns0:name>Personal Daily Info</ns0:name>
   </ns0:author>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-19:17ed1763602098a9</ns0:id>
+    <ns0:title>[产业与资本] Spend management platform Payhawk announces $280M raise, 2B valuation</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://techcrunch.com/2026/11/18/spend-management-platform-payhawk-announces-280m-raise-2b-valuation" />
+    <ns0:published>2026-11-18T19:29:41.525000Z</ns0:published>
+    <ns0:updated>2026-11-18T22:59:52.614033Z</ns0:updated>
+    <ns0:category term="industry-capital" label="产业与资本" />
+    <ns0:summary type="text">Founded in 2018, Payhawk is an enterprise financial management platform that helps companies track and manage expenses and procurement using… 〔Folo分类:美、中、港投融资市场〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;支出管理平台 Payhawk 宣布 $280M 融资、2B 估值，标题同时给出融资金额与估值两个读数。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：$280M / 2B · 相关方：Payhawk&lt;/p&gt;&lt;p&gt;Founded in 2018, Payhawk is an enterprise financial management platform that helps companies track and manage expenses and procurement using… 〔Folo分类:美、中、港投融资市场〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;融资额与估值是两种口径，并列出现容易被读成同一笔钱；估值不是到账现金，不能计入可用资金。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对金额类字段设计有借鉴：读数要标类型（融资/估值）与来源，避免汇总时把两种口径重复计入。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对公开公告是否同时说明 $280M 与 2B 的口径；若缺估值方法，则只保留融资额读数，估值降级为线索。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-18T19:29 UTC · 归类：industry-capital&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://techcrunch.com/2026/11/18/spend-management-platform-payhawk-announces-280m-raise-2b-valuation" rel="noopener noreferrer"&gt;https://techcrunch.com/2026/11/18/spend-management-platform-payhawk-announces-280m-raise-2b-valuation&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-19:ac306b6292cd127d</ns0:id>
+    <ns0:title>[市场与投资] Lilly Buying Spree Surpasses $32B</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.bloomberg.com/news/videos/2026-11-18/lilly-buying-spree-surpasses-32b-video" />
+    <ns0:published>2026-11-18T21:11:03Z</ns0:published>
+    <ns0:updated>2026-11-18T22:59:52.614033Z</ns0:updated>
+    <ns0:category term="market-invest" label="市场与投资" />
+    <ns0:summary type="text">Bloomberg’s Madison Muller joins Dani Burger on “Bloomberg Deals.” Eli Lilly agreed to buy closely held Calytrix Bio in a deal that could be worth up to $1.5 billion, the latest in the drugmaker’s $32 billion wave of acquisitions in 2026 as it builds out its cancer and immunology businesses. (Source</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Bloomberg 报道 Eli Lilly 同意收购 Calytrix Bio，单笔交易最高 $1.5 billion，属于其 $32B 并购潮中的最新一笔。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：$32B / $1.5 billion · 相关方：Eli Lilly / Calytrix Bio / Bloomberg&lt;/p&gt;&lt;p&gt;Bloomberg’s Madison Muller joins Dani Burger on “Bloomberg Deals.” Eli Lilly agreed to buy closely held Calytrix Bio in a deal that could be worth up to $1.5 billion, the latest in the drugmaker’s $32 billion wave of acquisitions in 2026 as it builds out its cancer and immunology businesses. (Source&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;金额是可核验的公开并购读数，但「最高可达」是上限口径，读成实际成交价就会高估单笔规模。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建是口径提醒：交易金额要分「上限/实际」字段并标注来源，避免与累计并购额混算成同一量级。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照官方公告核对单笔金额；若成交价低于 $1.5 billion 上限，则判定为区间报价，按实付口径改写条目。&lt;/p&gt;&lt;p&gt;来源：Bloomberg Markets · 发布于 2026-11-18T21:11 UTC · 归类：market-invest&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.bloomberg.com/news/videos/2026-11-18/lilly-buying-spree-surpasses-32b-video" rel="noopener noreferrer"&gt;https://www.bloomberg.com/news/videos/2026-11-18/lilly-buying-spree-surpasses-32b-video&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:daily-info.local,2026-11-18:8bdb69244f3ae25e</ns0:id>
     <ns0:title>[论文与学术] Records from 2,000 lakes reveal ecological changes moving increasingly in sync</ns0:title>

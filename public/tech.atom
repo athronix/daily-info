@@ -5,10 +5,90 @@
   <ns0:subtitle>挖掘 · 聚合 · 研判 · 订阅；每条附原文链接；内容仅供参考，不构成投资建议</ns0:subtitle>
   <ns0:link rel="self" type="application/atom+xml" href="https://daily-info.local/tech.atom" />
   <ns0:link rel="alternate" type="text/html" href="https://daily-info.local/index.html" />
-  <ns0:updated>2026-11-17T22:54:19.919515Z</ns0:updated>
+  <ns0:updated>2026-11-18T22:59:52.614033Z</ns0:updated>
   <ns0:author>
     <ns0:name>Personal Daily Info</ns0:name>
   </ns0:author>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-19:9ba121161ad4575b</ns0:id>
+    <ns0:title>[论文与学术] Scientists Find That Mice, Not Deer, Hold a Major Clue to Lyme Disease Risk</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://scitechdaily.com/scientists-find-that-mice-not-deer-hold-a-major-clue-to-lyme-disease-risk" />
+    <ns0:published>2026-11-18T20:06:03.521000Z</ns0:published>
+    <ns0:updated>2026-11-18T22:59:52.614033Z</ns0:updated>
+    <ns0:category term="research-papers" label="论文与学术" />
+    <ns0:summary type="text">A 35-year study reveals that mice, acorns, and unexpected environmental forces hold surprising clues to predicting Lyme disease risk. A… 〔Folo分类:重大学术科研突破〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;一项 35 年的研究指出，预测 Lyme disease 风险的关键线索在 mice、acorns 与环境因素，而非鹿。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：35-year · 相关方：Mice / Lyme Disease / acorns&lt;/p&gt;&lt;p&gt;A 35-year study reveals that mice, acorns, and unexpected environmental forces hold surprising clues to predicting Lyme disease risk. A… 〔Folo分类:重大学术科研突破〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把结论挂在 35 年的观测跨度上，比只说「长期研究」更可核验，也说明预测依赖长周期数据而非单点相关。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建的时序字段有借鉴：长跨度观测要显式记录时间范围，否则跨年结论与单年波动会被混为一谈。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对原文是否给出 35 年数据的逐年记录；若缺年份级明细，则判定跨度读数不可复核，只保留定性结论。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-18T20:06 UTC · 归类：research-papers&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://scitechdaily.com/scientists-find-that-mice-not-deer-hold-a-major-clue-to-lyme-disease-risk" rel="noopener noreferrer"&gt;https://scitechdaily.com/scientists-find-that-mice-not-deer-hold-a-major-clue-to-lyme-disease-risk&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-19:339399f3d4ceae77</ns0:id>
+    <ns0:title>[论文与学术] 论文里的SOTA，实验里的问号：AI抗体设计离临床前还有多远？</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://mp.weixin.qq.com/s?__biz=MzU2ODU3Mzc4Nw%3D%3D&amp;mid=2247514998&amp;idx=1&amp;sn=55d6287421a5c415af49d477372fee5f&amp;chksm=fdd1e6dfde63560ff9b8eff115c62fa5895416d2b2046892e4ee3514ad535456b5e32785426e&amp;scene=0&amp;xtrack=1" />
+    <ns0:published>2026-11-18T21:40:00Z</ns0:published>
+    <ns0:updated>2026-11-18T22:59:52.614033Z</ns0:updated>
+    <ns0:category term="research-papers" label="论文与学术" />
+    <ns0:summary type="text">计算机科学、强化学习、生成模型｜灵肽科技复测文献报道的107条AI设计抗体结合序列，仅不足30%通过实验验证；另用多种开源AI方法设计116万条纳米抗体序列，筛选300余条开展湿实验，其中221条靶向IL-7Rα。结果揭示当前AI抗体设计成功率被严重高估，第三方复现与统一实验条件下性能显著下降，既往报告的结合案例可靠性存疑，凸显AI模型泛化性、可重复性及实验验证闭环的迫切需求。（150字）</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;灵肽科技复测文献报道的 107 条 AI 设计抗体结合序列，仅不足 30% 通过实验验证；另设计 116 万条纳米抗体、筛 300 余条做湿实验，其中 221 条靶向 IL-7Rα。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：107条 / 30% / 116万条 / 300余条 / 221条 · 相关方：灵肽科技 / SOTA / IL-7Rα&lt;/p&gt;&lt;p&gt;计算机科学、强化学习、生成模型｜灵肽科技复测文献报道的107条AI设计抗体结合序列，仅不足30%通过实验验证；另用多种开源AI方法设计116万条纳米抗体序列，筛选300余条开展湿实验，其中221条靶向IL-7Rα。结果揭示当前AI抗体设计成功率被严重高估，第三方复现与统一实验条件下性能显著下降，既往报告的结合案例可靠性存疑，凸显AI模型泛化性、可重复性及实验验证闭环的迫切需求。（150字）&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;第三方复现把论文里的 SOTA 成功率压到不足 30%，说明缺口在实验验证闭环，而不是模型设计得不够好。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 skill 与自动化评估是硬输入：接入前应要求第三方复现率与统一实验条件，缺任一项只记线索、不进可用基线。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对 107 条复测序列的实验条件是否统一；若第三方通过率仍不足 30%，则判定既往结合案例可靠性存疑，不纳入评估口径。&lt;/p&gt;&lt;p&gt;来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-18T21:40 UTC · 归类：research-papers&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://mp.weixin.qq.com/s?__biz=MzU2ODU3Mzc4Nw%3D%3D&amp;amp;mid=2247514998&amp;amp;idx=1&amp;amp;sn=55d6287421a5c415af49d477372fee5f&amp;amp;chksm=fdd1e6dfde63560ff9b8eff115c62fa5895416d2b2046892e4ee3514ad535456b5e32785426e&amp;amp;scene=0&amp;amp;xtrack=1" rel="noopener noreferrer"&gt;https://mp.weixin.qq.com/s?__biz=MzU2ODU3Mzc4Nw%3D%3D&amp;amp;mid=2247514998&amp;amp;idx=1&amp;amp;sn=55d6287421a5c415af49d477372fee5f&amp;amp;chksm=fdd1e6dfde63560ff9b8eff115c62fa5895416d2b2046892e4ee3514ad535456b5e32785426e&amp;amp;scene=0&amp;amp;xtrack=1&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-19:70cc8a0a1d314807</ns0:id>
+    <ns0:title>[开发者工具与版本] DaisyRose-27B: 1,200-task RL took Qwen3.8 from 5.6% to 12% on Terminal-Bench 4.1</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.radixark.com/blog/daisyrose-27b" />
+    <ns0:published>2026-11-18T19:39:16.047000Z</ns0:published>
+    <ns0:updated>2026-11-18T22:59:52.614033Z</ns0:updated>
+    <ns0:category term="dev-tools" label="开发者工具与版本" />
+    <ns0:summary type="text">Comments 〔Folo分类:开源项目〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;标题称 DaisyRose-27B 用 1,200 项任务的强化学习，把 Qwen3.8 在 Terminal-Bench 4.1 上的成绩从 5.6% 提到 12%，正文摘要仅为评论占位。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：1,200 / 5.6% / 12% · 相关方：DaisyRose-27B / Qwen3.8 / Terminal-Bench 4.1&lt;/p&gt;&lt;p&gt;Comments 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;百分比翻倍看着亮眼，但读数是单一任务集上的结果、摘要又只有 Comments，提升幅度不能直接外推成通用能力。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 agent 评估条目是提醒：模型增益要连任务集、基线、实验条件一起记，否则 5.6% 到 12% 无法复现也无法横向比较。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;按 1,200 项任务在 Terminal-Bench 4.1 复跑一次；若绝对提升低于 6 个百分点，则判定标题读数为特定配置结果，不纳入基线。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-18T19:39 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;证据状态：未独立验证&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.radixark.com/blog/daisyrose-27b" rel="noopener noreferrer"&gt;https://www.radixark.com/blog/daisyrose-27b&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-19:8c8cbbc23a03039f</ns0:id>
+    <ns0:title>[开发者工具与版本] HomeView 27.2.1 Update Fixes Siri Bugs</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.macrumors.com/2026/11/18/homeview-27-2-1-update-fixes-siri-bugs" />
+    <ns0:published>2026-11-18T20:41:55.027000Z</ns0:published>
+    <ns0:updated>2026-11-18T22:59:52.614033Z</ns0:updated>
+    <ns0:category term="dev-tools" label="开发者工具与版本" />
+    <ns0:summary type="text">Apple has released HomeView software version 27.2.1, which resolves critical Siri-related bugs. Key fixes include restoring Siri functionality when paired with iOS 27.3 beta devices, ensuring Siri support downloads correctly during Shared Album setup, and preventing unexpected removal from home netw</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Apple 发布 HomeView 27.2.1，摘要列出恢复与 iOS 27.3 beta 配对时的 Siri 功能、修正 Siri 支持下载、避免新增 hub 时被移出家庭网络。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：27.2.1 / 27.3 · 相关方：Apple / HomeView / Siri&lt;/p&gt;&lt;p&gt;Apple has released HomeView software version 27.2.1, which resolves critical Siri-related bugs. Key fixes include restoring Siri functionality when paired with iOS 27.3 beta devices, ensuring Siri support downloads correctly during Shared Album setup, and preventing unexpected removal from home netw&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;同一版本号在另一条摘要里被写成「未公布细节」，这里却有三项可核对的修复，信息量取决于来源而非版本本身。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对变更门禁有直接用处：同一版本的多源摘要应分条存储并标注细节完整度，不能因一个来源说无细节就判定无改动。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;逐条核对 3 项修复在官方 release notes 中是否可查；若可查项少于 2 项，则判定细节来自二手转述，降级为线索。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-18T20:41 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.macrumors.com/2026/11/18/homeview-27-2-1-update-fixes-siri-bugs" rel="noopener noreferrer"&gt;https://www.macrumors.com/2026/11/18/homeview-27-2-1-update-fixes-siri-bugs&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-19:ed5f858793a7ebb2</ns0:id>
+    <ns0:title>[Agent 与工程] Submission 19 of 18 runs: the benchmark where Vow and TypeScript tied</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://dev.to/jakeburwick/submission-19-of-18-runs-the-benchmark-where-vow-and-typescript-tied-27ef" />
+    <ns0:published>2026-11-18T20:12:51.927000Z</ns0:published>
+    <ns0:updated>2026-11-18T22:59:52.614033Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="Agent 与工程" />
+    <ns0:summary type="text">The agent submitted. The judge said no. Then the agent submitted again. That was the one failed Vow submission in my November 2026 hard… 〔Folo分类:开源项目〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;一篇 benchmark 复盘记录了 18 次运行里出现第 19 次提交：agent 被判定否决后又提交一次，Vow 与 TypeScript 最终打平。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：19 / 18 · 相关方：Vow / TypeScript&lt;/p&gt;&lt;p&gt;The agent submitted. The judge said no. Then the agent submitted again. That was the one failed Vow submission in my November 2026 hard… 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;提交次数与运行次数对不上，说明判定器的拒绝与重跑口径比模型胜负更影响结果，平局结论因此带有前提。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 agent 部署的评估链是反面样本：应把提交次数、判定拒绝、重跑留痕分字段记录，否则打平结论无法复现。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;回放该 benchmark 的 18 次运行日志；若重跑后提交次数与运行次数仍不相等，则判定判定器状态未隔离，不接入自动评测。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-18T20:12 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://dev.to/jakeburwick/submission-19-of-18-runs-the-benchmark-where-vow-and-typescript-tied-27ef" rel="noopener noreferrer"&gt;https://dev.to/jakeburwick/submission-19-of-18-runs-the-benchmark-where-vow-and-typescript-tied-27ef&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-19:e645e5eedf596b39</ns0:id>
+    <ns0:title>[Agent 与工程] vLLM 0.34.0, Mistral Vibe Desktop, and early critiques of GPT-6.2 Astra</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://dev.to/githubopensource/vllm-0340-mistral-vibe-desktop-and-early-critiques-of-gpt-62-astra-kh1" />
+    <ns0:published>2026-11-18T19:53:51.259000Z</ns0:published>
+    <ns0:updated>2026-11-18T22:59:52.614033Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="Agent 与工程" />
+    <ns0:summary type="text">TL;DR vLLM 0.34.0 changes default GPU memory configurations and block sizes to optimize high-load throughput, Mistral Vibe Desktop… 〔Folo分类:开源项目〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;vLLM 0.34.0 改动默认 GPU 内存配置与 block size 以优化高负载吞吐，这份周报同时提到 Mistral Vibe Desktop 与对新模型的早期批评。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：0.34.0 · 相关方：vLLM / Mistral Vibe Desktop&lt;/p&gt;&lt;p&gt;TL;DR vLLM 0.34.0 changes default GPU memory configurations and block sizes to optimize high-load throughput, Mistral Vibe Desktop… 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;默认值的改动比新功能更影响现有部署：同一份代码换个版本就可能改变显存占用与吞吐，而用户未必主动改过配置。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 WinVM 自托管与 provider 队列是硬提醒：升级前先固定显存与 block size 做 A/B，别让默认值隐式改变资源基线。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;同一高负载用例在旧版与 0.34.0 各跑 3 次；若新版吞吐低于旧版达到 2 次，则判定新默认配置不适用，回退为显式配置。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-18T19:53 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://dev.to/githubopensource/vllm-0340-mistral-vibe-desktop-and-early-critiques-of-gpt-62-astra-kh1" rel="noopener noreferrer"&gt;https://dev.to/githubopensource/vllm-0340-mistral-vibe-desktop-and-early-critiques-of-gpt-62-astra-kh1&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-19:ad1343d090244892</ns0:id>
+    <ns0:title>[文档与变更] Bolivia's Madidi National Park shelters 99 bat species, including 7 new to the country</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://phys.org/news/2026-11-bolivia-madidi-national-species-country.html" />
+    <ns0:published>2026-11-18T18:00:15.029000Z</ns0:published>
+    <ns0:updated>2026-11-18T22:59:52.614033Z</ns0:updated>
+    <ns0:category term="docs-changelog" label="文档与变更" />
+    <ns0:summary type="text">A new study has confirmed 100 bat taxa in Madidi National Park, in northwestern Bolivia, including 99 recognized species and one that may be… 〔Folo分类:重大学术科研突破〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;一项研究确认玻利维亚 Madidi 国家公园有 100 个蝙蝠分类单元，其中 99 个已确认物种、7 个为该国新记录。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：99 / 7 / 100 · 相关方：Madidi National Park / Bolivia&lt;/p&gt;&lt;p&gt;A new study has confirmed 100 bat taxa in Madidi National Park, in northwestern Bolivia, including 99 recognized species and one that may be… 〔Folo分类:重大学术科研突破〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;同一段里 99、100、7 是三种计数口径，混读会把「已确认物种」「分类单元」「新记录」当成同一个数。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建的统计字段是直接提醒：样本量、分类单元数、新增记录数应分列，别在摘要里并成一个漂亮数字。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对原文是否列出 100 个分类单元明细；若无法逐项对应 99 与 7，则判定口径混用，只保留可复核的物种计数。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-18T18:00 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://phys.org/news/2026-11-bolivia-madidi-national-species-country.html" rel="noopener noreferrer"&gt;https://phys.org/news/2026-11-bolivia-madidi-national-species-country.html&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-19:5fc50a830e5a9eda</ns0:id>
+    <ns0:title>[文档与变更] Apple Releases 27.2.1 HomeView Software Update</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.macrumors.com/2026/11/18/homeview-27-2-1-software" />
+    <ns0:published>2026-11-18T18:53:53.965000Z</ns0:published>
+    <ns0:updated>2026-11-18T22:59:52.614033Z</ns0:updated>
+    <ns0:category term="docs-changelog" label="文档与变更" />
+    <ns0:summary type="text">Apple released software version 27.2.1 for the HomeView device, marking its first post-launch update. Apple has not published specific details regarding changes or security fixes, though similar updates on other platforms focused on security. This specific update contains no published CVE entries. U</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Apple 为 HomeView 设备发布 27.2.1 版软件更新，是上市后首次更新，摘要称未公布具体改动或安全修复细节、也未列出 CVE 条目。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：27.2.1 · 相关方：Apple / HomeView&lt;/p&gt;&lt;p&gt;Apple released software version 27.2.1 for the HomeView device, marking its first post-launch update. Apple has not published specific details regarding changes or security fixes, though similar updates on other platforms focused on security. This specific update contains no published CVE entries. U&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;只给版本号不给改动清单，读者无法判断风险面；「无 CVE 条目」不等于「无安全改动」，两者不能互推。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对变更门禁是反面样本：升级条目应把「版本号 + 改动清单 + CVE 明细」做成必填三元组，缺项就不自动放行。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对官方 release notes 是否列出改动项；若可逐条核对的修复项少于 2 条，则判定该版本缺可复现依据，不写入变更基线。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-18T18:53 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.macrumors.com/2026/11/18/homeview-27-2-1-software" rel="noopener noreferrer"&gt;https://www.macrumors.com/2026/11/18/homeview-27-2-1-software&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:daily-info.local,2026-11-18:f032f7d5e33c0841</ns0:id>
     <ns0:title>[市场与投资] Nvidia’s AI Money Machine Keeps Churning Without Jensen Huang</ns0:title>
@@ -928,85 +1008,5 @@
     <ns0:category term="dev-tools" label="开发者工具与版本" />
     <ns0:summary type="text">Comments 〔Folo分类:开源项目〕</ns0:summary>
     <ns0:content type="html">&lt;p&gt;&lt;strong&gt;作者公开其 $10 USD OpenStick homelab 上实际运行的服务清单&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：$10 · 相关方：OpenStick / USD&lt;/p&gt;&lt;p&gt;Comments 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;极低价硬件把自建门槛压到十美元级，但可执行的服务边界比价格更值得核对。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 WinVM 与边缘节点选型有参照意义：能否承载常驻 agent 取决于内存与重启恢复，而非单价。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;若要在同价位设备部署常驻 agent，先跑 1 轮断网重启恢复测试，状态丢失超过 0 项即判定不可用。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-07T18:12 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://blog.bosscher.ch/posts/openstick" rel="noopener noreferrer"&gt;https://blog.bosscher.ch/posts/openstick&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-08:5186d80b7eef5626</ns0:id>
-    <ns0:title>[开发者工具与版本] Claude Code's "Don't Ask Again" exposes passwords in 1,122 public GitHub files</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again" />
-    <ns0:published>2026-11-07T20:45:32.446000Z</ns0:published>
-    <ns0:updated>2026-11-07T22:57:49.350240Z</ns0:updated>
-    <ns0:category term="dev-tools" label="开发者工具与版本" />
-    <ns0:summary type="text">Comments 〔Folo分类:开源项目〕</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Claude Code 的 Don&amp;#x27;t Ask Again 选项被指与 1,122 个公开 GitHub 文件中的口令暴露相关&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：1,122 · 相关方：Claude Code / Don&amp;#x27;t Ask Again / GitHub&lt;/p&gt;&lt;p&gt;Comments 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;一次不再询问把交互式确认永久关掉，代价不是便利性而是凭据直接进公开仓库。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;WorkBuddy 的 skill 与 MCP 配置里凡有记住此授权类开关都应默认可撤销，凭据扫描须覆盖落地产物而非只扫源码。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在本仓库跑一次全量凭据扫描，若 public/ 与 data/ 中命中数大于 0 则整轮拒发并定位来源。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-07T20:45 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again" rel="noopener noreferrer"&gt;https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-08:4ec1ce6cb8ab80b8</ns0:id>
-    <ns0:title>[Agent 与工程] 课程 | 2026年斯坦福CS 329Z《Agent工程》| 第5讲：框架与编排</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://mp.weixin.qq.com/s?__biz=MzU4NTQyNjc5Mg%3D%3D&amp;mid=2247498982&amp;idx=1&amp;sn=86a752653dc86fce50a92954a15901c0&amp;chksm=fc03d4ca1ea4ce6341450c8d789fa104010f07eba83f7986b5d2a85342539124bb5a23e30f84&amp;scene=0&amp;xtrack=1" />
-    <ns0:published>2026-11-07T12:00:00Z</ns0:published>
-    <ns0:updated>2026-11-07T22:57:49.350240Z</ns0:updated>
-    <ns0:category term="agent-engineering" label="Agent 与工程" />
-    <ns0:summary type="text">多模态、Agent、生成模型｜2026年斯坦福CS 329Z《Agent工程》课程系统讲授智能体构建核心知识：第1讲介绍智能体系统基本概念与架构；第2讲面向开发者解析大语言模型（LLM）底层原理；第3讲深入检索增强生成（RAG）技术，提升模型知识时效性与准确性；第4讲聚焦工具调用机制，使智能体能动态集成外部API与功能模块。四讲内容层层递进，覆盖从基础理论到工程实践的关键环节，旨在培养构建可靠、可扩展、可交互智能体系统的能力。</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;斯坦福 CS 329Z《Agent工程》放出第5讲框架与编排，前四讲依次覆盖架构、LLM 原理、RAG 与工具调用&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：CS 329Z / 第5讲 · 相关方：斯坦福 / CS 329Z / Agent工程 / LLM / RAG / API&lt;/p&gt;&lt;p&gt;多模态、Agent、生成模型｜2026年斯坦福CS 329Z《Agent工程》课程系统讲授智能体构建核心知识：第1讲介绍智能体系统基本概念与架构；第2讲面向开发者解析大语言模型（LLM）底层原理；第3讲深入检索增强生成（RAG）技术，提升模型知识时效性与准确性；第4讲聚焦工具调用机制，使智能体能动态集成外部API与功能模块。四讲内容层层递进，覆盖从基础理论到工程实践的关键环节，旨在培养构建可靠、可扩展、可交互智能体系统的能力。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把工具调用排在 RAG 之后单独成讲，说明编排与权限边界已被当成独立工程层，而非模型附带能力。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;可与 WorkBuddy 的 skill / MCP / A2A 分层直接对照，用来检查当前插件是否把工具调用和编排混在同一层。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照第5讲目录逐项核对插件分层表，若工具注册与编排逻辑落在同一模块超过 1 处则拆层。&lt;/p&gt;&lt;p&gt;来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-07T12:00 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://mp.weixin.qq.com/s?__biz=MzU4NTQyNjc5Mg%3D%3D&amp;amp;mid=2247498982&amp;amp;idx=1&amp;amp;sn=86a752653dc86fce50a92954a15901c0&amp;amp;chksm=fc03d4ca1ea4ce6341450c8d789fa104010f07eba83f7986b5d2a85342539124bb5a23e30f84&amp;amp;scene=0&amp;amp;xtrack=1" rel="noopener noreferrer"&gt;https://mp.weixin.qq.com/s?__biz=MzU4NTQyNjc5Mg%3D%3D&amp;amp;mid=2247498982&amp;amp;idx=1&amp;amp;sn=86a752653dc86fce50a92954a15901c0&amp;amp;chksm=fc03d4ca1ea4ce6341450c8d789fa104010f07eba83f7986b5d2a85342539124bb5a23e30f84&amp;amp;scene=0&amp;amp;xtrack=1&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-08:0891e0b077814dfc</ns0:id>
-    <ns0:title>[Agent 与工程] Make the Checklist Exit Nonzero: Six Gates, One TOML File, No Skipped Rows</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://dev.to/rivera123/make-the-checklist-exit-nonzero-six-gates-one-toml-file-no-skipped-rows-568p" />
-    <ns0:published>2026-11-07T17:46:24.360000Z</ns0:published>
-    <ns0:updated>2026-11-07T22:57:49.350240Z</ns0:updated>
-    <ns0:category term="agent-engineering" label="Agent 与工程" />
-    <ns0:summary type="text">Last Friday I opened our launch checklist. Fourteen rows. Eleven checkmarks. Every checkmark was mine. I had ticked them from memory at 6pm… 〔Folo分类:开源项目〕</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;作者用单个 TOML 文件定义 Six Gates，让发布清单在跳过任一行时以非零码退出&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：6pm · 相关方：TOML / Checklist&lt;/p&gt;&lt;p&gt;Last Friday I opened our launch checklist. Fourteen rows. Eleven checkmarks. Every checkmark was mine. I had ticked them from memory at 6pm… 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把凭记忆打勾换成机器可判定的退出码，是自动化从看起来跑了变成真的验过的分界。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;直接对应本项目三关验证与 verify_digest 零 violations 的闸门设计：检查项必须能自己失败，而非靠人确认。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在本流水线补一条退出码断言：删掉任一检查项后若脚本仍返回 0，即判定闸门无效并回滚该改动。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-07T17:46 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://dev.to/rivera123/make-the-checklist-exit-nonzero-six-gates-one-toml-file-no-skipped-rows-568p" rel="noopener noreferrer"&gt;https://dev.to/rivera123/make-the-checklist-exit-nonzero-six-gates-one-toml-file-no-skipped-rows-568p&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-08:c9765977f8d4cb56</ns0:id>
-    <ns0:title>[Agent 与工程] Night shift without the night: AI agents that keep a SOC's watch, built on Switch</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://dev.to/manoj1698/night-shift-without-the-night-ai-agents-that-keep-a-socs-watch-built-on-switch-go" />
-    <ns0:published>2026-11-07T17:49:32.678000Z</ns0:published>
-    <ns0:updated>2026-11-07T22:57:49.350240Z</ns0:updated>
-    <ns0:category term="agent-engineering" label="Agent 与工程" />
-    <ns0:summary type="text">Built for Flip the Switch (WeMakeDevs, DevTools Academy, Switch AI), Track 01: Best Business Workflow. Code: github.com/manoj1698/soc-shift… 〔Folo分类:开源项目〕</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;开发者基于 Switch 搭建 SOC 值守 AI agents，投稿 Flip the Switch 黑客松 Track 01 最佳业务工作流赛道&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：Track 01 · 相关方：Switch / WeMakeDevs / DevTools Academy / Switch AI / SOC&lt;/p&gt;&lt;p&gt;Built for Flip the Switch (WeMakeDevs, DevTools Academy, Switch AI), Track 01: Best Business Workflow. Code: github.com/manoj1698/soc-shift… 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把安全运营值班拆给 agent，暴露的是权限与交接流程，而不是模型推理能力。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;与 WinVM Bridge 的 A2A streaming 委派路径同构：无人值守任务需要可回放进度与明确的越权边界。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照 github.com/manoj1698/soc-shift 仓库复现一次告警处置，若人工接管次数不为 0 就判定不可借鉴。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-07T17:49 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://dev.to/manoj1698/night-shift-without-the-night-ai-agents-that-keep-a-socs-watch-built-on-switch-go" rel="noopener noreferrer"&gt;https://dev.to/manoj1698/night-shift-without-the-night-ai-agents-that-keep-a-socs-watch-built-on-switch-go&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-08:8244490d1a90c673</ns0:id>
-    <ns0:title>[模型与研究] 2026-11-07日刊</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://hex2077.dev/docs/2026-11/2026-11-07" />
-    <ns0:published>2026-11-07T03:48:12.063000Z</ns0:published>
-    <ns0:updated>2026-11-07T22:57:49.350240Z</ns0:updated>
-    <ns0:category term="ai-models" label="模型与研究" />
-    <ns0:summary type="text">Ant Group released Ling-3.2-flash, a multimodal AI model supporting 1M token context. Research demonstrated that HEELO agents significantly improved task completion rates, while behavior frameworks quantified model misalignment risks. Audits revealed approximately 30% of Terminal-Bench 2.0 tasks wer</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Ant Group 发布 Ling-3.2-flash 多模态模型并支持 1M token 上下文，日刊同时记录 HEELO agents 的任务完成率改进&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：Ling-3.2-flash / 1M · 相关方：Ant Group / Ling-3.2-flash / HEELO / AI model&lt;/p&gt;&lt;p&gt;Ant Group released Ling-3.2-flash, a multimodal AI model supporting 1M token context. Research demonstrated that HEELO agents significantly improved task completion rates, while behavior frameworks quantified model misalignment risks. Audits revealed approximately 30% of Terminal-Bench 2.0 tasks wer&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把长上下文做成可核对的指标，比笼统宣称性能更强更可复现。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;1M token 上下文直接影响 WorkBuddy 长文档与多 skill 编排的上下文预算，需核对能否一次装下整轮流水线中间产物。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;跑一次长上下文对照：把当日 prompt-input.json 全文塞进单次调用，若关键 id 丢失数不为 0 即判定不可用。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-07T03:48 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://hex2077.dev/docs/2026-11/2026-11-07" rel="noopener noreferrer"&gt;https://hex2077.dev/docs/2026-11/2026-11-07&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-07:c1501b2a0fee78d0</ns0:id>
-    <ns0:title>[论文与学术] Could Type 2 Diabetes Be Reversed? 14-Year Study Reveals Remarkable Results</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://scitechdaily.com/could-type-2-diabetes-be-reversed-14-year-study-reveals-remarkable-results" />
-    <ns0:published>2026-11-06T18:51:14.052000Z</ns0:published>
-    <ns0:updated>2026-11-06T23:25:27.690104Z</ns0:updated>
-    <ns0:category term="research-papers" label="论文与学术" />
-    <ns0:summary type="text">In a long-term trial, weight-loss surgery led to more type 2 diabetes remissions than intensive medical and lifestyle management, while… 〔Folo分类:重大学术科研突破〕</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;一项 14-Year 随访研究显示减重手术带来的 Type 2 Diabetes 缓解多于强化内科管理&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：14-Year / 2 · 相关方：Type 2 Diabetes / weight-loss surgery&lt;/p&gt;&lt;p&gt;In a long-term trial, weight-loss surgery led to more type 2 diabetes remissions than intensive medical and lifestyle management, while… 〔Folo分类:重大学术科研突破〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;用十余年跨度而非短期指标下结论，正是长期随访与快照式观测的分界线&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建有间接参照：本流水线按固定窗口归一，长周期结论不能靠单日条目推出，需保留原始时间点&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对归一脚本的窗口字段，若窗口短于 14-Year 量级则判定该结论不属于日报可推断范围&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-06T18:51 UTC · 归类：research-papers&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://scitechdaily.com/could-type-2-diabetes-be-reversed-14-year-study-reveals-remarkable-results" rel="noopener noreferrer"&gt;https://scitechdaily.com/could-type-2-diabetes-be-reversed-14-year-study-reveals-remarkable-results&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-07:a4281c90cf6927ea-c</ns0:id>
-    <ns0:title>[安全与治理] Firecracker VM Escape: PwnEscape Part 2</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://pwn.ai/blog/firecracker-escape" />
-    <ns0:published>2026-11-06T19:33:38.271000Z</ns0:published>
-    <ns0:updated>2026-11-06T23:25:27.690104Z</ns0:updated>
-    <ns0:category term="dev-tools" label="安全与治理" />
-    <ns0:summary type="text">Comments 〔Folo分类:开源项目〕</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;PwnEscape 第 2 部分公开 Firecracker VM 逃逸路径&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2 · 相关方：Firecracker / PwnEscape&lt;/p&gt;&lt;p&gt;Comments 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;微 VM 常被当作 Agent 沙箱的默认隔离假设，逃逸复现会直接推翻这个假设&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;WinVM Bridge 的 VM 侧 Agent 与 A2A 委派路径依赖 VM 边界，逃逸一旦可复现就必须重审隔离层&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在受控 VM 尝试复现逃逸，若 1 次成功即判定隔离假设失效并暂停该 VM 的 A2A 委派&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-06T19:33 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://pwn.ai/blog/firecracker-escape" rel="noopener noreferrer"&gt;https://pwn.ai/blog/firecracker-escape&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-07:5e722243eff5bdd6</ns0:id>
-    <ns0:title>[开发者工具与版本] Control the Glowing Apple Logo on Your New MacBook Pro</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://www.macrumors.com/how-to/turn-glowing-apple-logo-macbook-pro" />
-    <ns0:published>2026-11-06T20:03:09.496000Z</ns0:published>
-    <ns0:updated>2026-11-06T23:25:27.690104Z</ns0:updated>
-    <ns0:category term="docs-changelog" label="开发者工具与版本" />
-    <ns0:summary type="text">New 14-inch and 16-inch MacBook Pro models reintroduce the illuminated Apple logo, which automatically adjusts to ambient light. To disable this feature, users must execute a specific command in the Terminal application, as it is not available in System Settings. This action turns off the light imme</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;14 与 16 英寸 MacBook Pro 的发光 Apple logo 需在 Terminal 用命令关闭&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：14 / 16 · 相关方：MacBook Pro / Apple / Terminal&lt;/p&gt;&lt;p&gt;New 14-inch and 16-inch MacBook Pro models reintroduce the illuminated Apple logo, which automatically adjusts to ambient light. To disable this feature, users must execute a specific command in the Terminal application, as it is not available in System Settings. This action turns off the light imme&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;开关不进系统设置而落到命令行，说明厂商把低频定制留给了可脚本化通道&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 automation 有借鉴：可脚本化的开关应配一份可回滚命令清单，本机设备配置才能进幂等流水线&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;把该命令纳入设备配置脚本并跑一次 dry-run，若 0 处副作用才允许在其它机器复用&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-06T20:03 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.macrumors.com/how-to/turn-glowing-apple-logo-macbook-pro" rel="noopener noreferrer"&gt;https://www.macrumors.com/how-to/turn-glowing-apple-logo-macbook-pro&lt;/a&gt;&lt;/p&gt;</ns0:content>
   </ns0:entry>
 </ns0:feed>

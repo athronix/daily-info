@@ -5,10 +5,30 @@
   <ns0:subtitle>挖掘 · 聚合 · 研判 · 订阅；每条附原文链接；内容仅供参考，不构成投资建议</ns0:subtitle>
   <ns0:link rel="self" type="application/atom+xml" href="https://daily-info.local/docs.atom" />
   <ns0:link rel="alternate" type="text/html" href="https://daily-info.local/index.html" />
-  <ns0:updated>2026-11-16T22:56:58.658200Z</ns0:updated>
+  <ns0:updated>2026-11-18T22:59:52.614033Z</ns0:updated>
   <ns0:author>
     <ns0:name>Personal Daily Info</ns0:name>
   </ns0:author>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-19:ad1343d090244892</ns0:id>
+    <ns0:title>[文档与变更] Bolivia's Madidi National Park shelters 99 bat species, including 7 new to the country</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://phys.org/news/2026-11-bolivia-madidi-national-species-country.html" />
+    <ns0:published>2026-11-18T18:00:15.029000Z</ns0:published>
+    <ns0:updated>2026-11-18T22:59:52.614033Z</ns0:updated>
+    <ns0:category term="docs-changelog" label="文档与变更" />
+    <ns0:summary type="text">A new study has confirmed 100 bat taxa in Madidi National Park, in northwestern Bolivia, including 99 recognized species and one that may be… 〔Folo分类:重大学术科研突破〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;一项研究确认玻利维亚 Madidi 国家公园有 100 个蝙蝠分类单元，其中 99 个已确认物种、7 个为该国新记录。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：99 / 7 / 100 · 相关方：Madidi National Park / Bolivia&lt;/p&gt;&lt;p&gt;A new study has confirmed 100 bat taxa in Madidi National Park, in northwestern Bolivia, including 99 recognized species and one that may be… 〔Folo分类:重大学术科研突破〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;同一段里 99、100、7 是三种计数口径，混读会把「已确认物种」「分类单元」「新记录」当成同一个数。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建的统计字段是直接提醒：样本量、分类单元数、新增记录数应分列，别在摘要里并成一个漂亮数字。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对原文是否列出 100 个分类单元明细；若无法逐项对应 99 与 7，则判定口径混用，只保留可复核的物种计数。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-18T18:00 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://phys.org/news/2026-11-bolivia-madidi-national-species-country.html" rel="noopener noreferrer"&gt;https://phys.org/news/2026-11-bolivia-madidi-national-species-country.html&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-19:5fc50a830e5a9eda</ns0:id>
+    <ns0:title>[文档与变更] Apple Releases 27.2.1 HomeView Software Update</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.macrumors.com/2026/11/18/homeview-27-2-1-software" />
+    <ns0:published>2026-11-18T18:53:53.965000Z</ns0:published>
+    <ns0:updated>2026-11-18T22:59:52.614033Z</ns0:updated>
+    <ns0:category term="docs-changelog" label="文档与变更" />
+    <ns0:summary type="text">Apple released software version 27.2.1 for the HomeView device, marking its first post-launch update. Apple has not published specific details regarding changes or security fixes, though similar updates on other platforms focused on security. This specific update contains no published CVE entries. U</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Apple 为 HomeView 设备发布 27.2.1 版软件更新，是上市后首次更新，摘要称未公布具体改动或安全修复细节、也未列出 CVE 条目。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：27.2.1 · 相关方：Apple / HomeView&lt;/p&gt;&lt;p&gt;Apple released software version 27.2.1 for the HomeView device, marking its first post-launch update. Apple has not published specific details regarding changes or security fixes, though similar updates on other platforms focused on security. This specific update contains no published CVE entries. U&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;只给版本号不给改动清单，读者无法判断风险面；「无 CVE 条目」不等于「无安全改动」，两者不能互推。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对变更门禁是反面样本：升级条目应把「版本号 + 改动清单 + CVE 明细」做成必填三元组，缺项就不自动放行。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对官方 release notes 是否列出改动项；若可逐条核对的修复项少于 2 条，则判定该版本缺可复现依据，不写入变更基线。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-18T18:53 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.macrumors.com/2026/11/18/homeview-27-2-1-software" rel="noopener noreferrer"&gt;https://www.macrumors.com/2026/11/18/homeview-27-2-1-software&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:daily-info.local,2026-11-17:edae3e542f5a2b98</ns0:id>
     <ns0:title>[文档与变更] Apple Celebrates Pokémon With iPhone Wallpapers and Special Gift Card</ns0:title>
