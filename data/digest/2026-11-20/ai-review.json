@@ -1,0 +1,469 @@
+{
+  "date": "2026-11-20",
+  "headline": "版本号、规则条数与融资金额都能逐字回查，型号数字与发布时间年份不算读数；真正决定能否接进门禁的是改动清单，不是漂亮断言",
+  "lead": "今日入报里，claude-code 2.1.329 列出 hooks 改动，app-store-compliance 收录 117 条拒收模式，PostgreSQL 19 新增 WAIT FOR LSN；Anthropic 报 $2T 估值与首日 17% 涨幅，Isomorphic Labs 洽谈约 400 亿美元融资。张力在于：编号可逐字回查，金额却分三种口径。",
+  "themes": [
+    {
+      "title": "精确标识能进门禁，型号数字不能",
+      "why": "claude-code 2.1.329、PostgreSQL 19、117 条拒收模式与 300ppi/16GB 规格都能逐字匹配并转成扫描规则；PS5、Quest 3、Ultra 4 的型号尾数与发布时间年份按 v1.1 一律不算读数。",
+      "cluster_ids": [
+        "9166064c2f31e744",
+        "4ba1303d2ee21d77",
+        "d664b5a459f3111e",
+        "e1761609bd5ff5d2"
+      ]
+    },
+    {
+      "title": "市值、涨幅与社区热度是三种口径",
+      "why": "Anthropic 的 $2T 是估值、17% 是首日相对涨幅、748 与 1377 是 HN 分数与评论数，Onlook 的 73 与 65 同属热度；四组数字分母各不同，不能互推也不能并成一句。",
+      "cluster_ids": [
+        "f0d0f469e0bfee91",
+        "89345bf95b724823",
+        "00ca2badf798b003"
+      ]
+    },
+    {
+      "title": "洽谈中、may cost、促销价都要带条件",
+      "why": "400 亿美元是洽谈中上限、$300 用了 may 且 Meta 未确认、$188 与 25 percent off 只在 November 30 前有效、$129.99 是单渠道降 $70 后的标价；缺条件的金额不能进事实层。",
+      "cluster_ids": [
+        "c667431aafb3afc9",
+        "e60f4e5e7cf4b021",
+        "e5c2d6b7d5cf9568",
+        "e1761609bd5ff5d2"
+      ]
+    },
+    {
+      "title": "计数必须带分母与范围",
+      "why": "5,000 头是历史种群低点、1,700 种限定「仅见于岛屿」、25,000 是支持者而 100+ 才是贡献者、1,500 stars 与 115 forks 是仓库热度；分母或限定词丢了，数字就换了一件事。",
+      "cluster_ids": [
+        "3bf51d45c08e3b71",
+        "0095ff7f6d07a207",
+        "00ca2badf798b003",
+        "d664b5a459f3111e"
+      ]
+    },
+    {
+      "title": "工具清单的规模是宣称，不是实测",
+      "why": "28 个免费层工具是清单作者自封的计数、over 150 部 3D 电影是下限口径、117 条模式才是可逐条回查的规则集；宣称规模不等于可用规模，也不等于覆盖率。",
+      "cluster_ids": [
+        "f82f652bb9cb949d",
+        "7a39639263596a9f",
+        "d664b5a459f3111e"
+      ]
+    },
+    {
+      "title": "版本要连着改动清单一起验",
+      "why": "v2.1.329 列了 hooks 信任弹窗与 /mcp 的 Server message 行，PostgreSQL 19 列了 WAIT FOR LSN 与漏洞潮延期，Quest 更新列了 Theater view；只有版本号没有清单，复现就无从下手。",
+      "cluster_ids": [
+        "9166064c2f31e744",
+        "4ba1303d2ee21d77",
+        "7a39639263596a9f",
+        "e1761609bd5ff5d2"
+      ]
+    },
+    {
+      "title": "门禁认编号与阈值，不认漂亮断言",
+      "why": "117 条模式配 95 个期限是可执行规则，2.1.329 是可匹配版本；反过来 $300 的 may cost 与 17% 的基准价都需补一手来源，缺独立证据的读数本期一律标 unverified。",
+      "cluster_ids": [
+        "d664b5a459f3111e",
+        "9166064c2f31e744",
+        "e60f4e5e7cf4b021",
+        "89345bf95b724823"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "agent-engineering",
+      "label": "Agent 与工程",
+      "items": [
+        {
+          "id": "f82f652bb9cb949d",
+          "fact_anchor": "一篇 dev.to 清单文把 n8n 与 Activepieces 并列，宣称覆盖 28 个免费层工具，摘要只截取了 n8n 的开源介绍。",
+          "numbers": [
+            "28"
+          ],
+          "entities": [
+            "n8n",
+            "Activepieces"
+          ],
+          "evidence_urls": [
+            "https://dev.to/rock_boy_c59c5ced86a77a4d/zero-cost-2026-stack-n8n-workflow-automation-vs-activepieces-28-free-tier-tools-2026-11-19-5bbe"
+          ],
+          "why_matters": "28 是作者自封的清单计数，不等于可用工具数，也不含各工具免费额度口径。",
+          "impact": "对 skill 选型是提醒：接入清单类工具前先核对免费层额度与自托管条件，别按标题数量估成本。",
+          "next_action": "逐个打开清单里 28 个工具的定价页；若可核验免费额度的少于 20 个，则判定该清单不可作为选型依据。",
+          "signal_type": "opinion",
+          "confidence": "unverified"
+        },
+        {
+          "id": "d664b5a459f3111e",
+          "fact_anchor": "开源仓库 app-store-compliance 提供合规预提交 guard，收录 117 条拒收模式、跟踪 95 个法律期限，并带一个给 AI coding agents 的 skill。",
+          "numbers": [
+            "117",
+            "95",
+            "1,500",
+            "115"
+          ],
+          "entities": [
+            "app-store-compliance",
+            "App Store",
+            "Google Play",
+            "EU AI Act",
+            "DSA",
+            "COPPA"
+          ],
+          "evidence_urls": [
+            "https://github.com/mjmirza/app-store-compliance"
+          ],
+          "why_matters": "把合规做成可执行规则集而非文档，117 条模式可逐条回查；但规则会随平台条款过期，星数不等于覆盖率。",
+          "impact": "对 skill 与 agent 部署最可直接借鉴：把规则条数、期限与修复建议做成门禁数据，过期规则要有淘汰阈值。",
+          "next_action": "抽样 10 条拒收模式对照官方条款；若逐条命中的少于 8 条，则判定规则集过期，不接入预提交 guard。",
+          "signal_type": "release",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "dev-tools",
+      "label": "开发者工具与版本",
+      "items": [
+        {
+          "id": "4ba1303d2ee21d77",
+          "fact_anchor": "Simon Willison 记录 PostgreSQL 19 因 AI 报告的漏洞潮比往年晚两个月发布，新增 WAIT FOR LSN 让 standby 查询读到主库刚写入的数据。",
+          "numbers": [
+            "19",
+            "0.1"
+          ],
+          "entities": [
+            "PostgreSQL",
+            "WAIT FOR LSN",
+            "WAL",
+            "standby"
+          ],
+          "evidence_urls": [
+            "https://simonwillison.net/2026/Nov/19/postgresql-19"
+          ],
+          "why_matters": "延迟两个月的原因是漏洞修复量而非功能排期；新命令把一致性从应用层下推到数据库，改的是调用契约。",
+          "impact": "对 WinVM 自托管与数据基建直接相关：standby 读路径可省掉应用层等回放逻辑，但要先确认 0.1s 超时与驱动兼容性。",
+          "next_action": "同一读写用例在 standby 连跑 3 次；若读到旧值次数大于 0，则判定 read-your-writes 未生效，回退主库读。",
+          "signal_type": "release",
+          "confidence": "fact"
+        },
+        {
+          "id": "e60f4e5e7cf4b021",
+          "fact_anchor": "TechCrunch 报道 Meta 新款 AI 可穿戴设备 Muse Charm 定价可能为 $300，Meta 只回应「很快会公布更多」未否认该数字。",
+          "numbers": [
+            "$300"
+          ],
+          "entities": [
+            "Meta",
+            "Muse Charm",
+            "The Information"
+          ],
+          "evidence_urls": [
+            "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300"
+          ],
+          "why_matters": "$300 是媒体援引的预估价且用了 may，Meta 未确认；把它写成正式定价会变成未证实断言。",
+          "impact": "对 skill 与 automation 的事实层是反面样本：未确认读数必须带来源等级，标 unverified 后才进候选。",
+          "next_action": "核对官方产品页是否给出价格；若 30 天内仍无官方数字，则判定 $300 仅为媒体预估，不写入规格基线。",
+          "signal_type": "product",
+          "confidence": "unverified"
+        },
+        {
+          "id": "7a39639263596a9f",
+          "fact_anchor": "Meta 在 Quest 3 与 3S 头显的 TV app 上架超过 150 部可购买或租借的 3D 电影，并随软件更新加入 Theater view 影院模式。",
+          "numbers": [
+            "150"
+          ],
+          "entities": [
+            "Meta",
+            "Quest 3",
+            "3S",
+            "Theater view",
+            "Avatar"
+          ],
+          "evidence_urls": [
+            "https://www.theverge.com/tech/1038157/meta-quest-vr-3d-movies-tv-app"
+          ],
+          "why_matters": "150 是 over 的下限口径且随片库变化；同时上线的 Theater view 属功能改动，两者维度不同不能互证。",
+          "impact": "对数据基建是分列样本：内容数量与功能变更应分字段记录，避免用片库规模推断版本改动范围。",
+          "next_action": "按周抓取 2 次片库目录；若两次数量相差超过 10%，则判定 150 为动态下限，改记快照日期与计数。",
+          "signal_type": "product",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "docs-changelog",
+      "label": "文档与变更",
+      "items": [
+        {
+          "id": "9166064c2f31e744",
+          "fact_anchor": "claude-code 发布 v2.1.329：新增 hooks 声明位置的信任弹窗、非交互宿主里 managed settings 钩子加载失败告警，并在 /mcp 页面显示远程 HTTP MCP 的 JSON-RPC 报错。",
+          "numbers": [
+            "2.1.329"
+          ],
+          "entities": [
+            "Claude Code",
+            "Claude Desktop",
+            "hooks",
+            "/mcp",
+            "OpenTelemetry",
+            "JSON-RPC"
+          ],
+          "evidence_urls": [
+            "https://github.com/anthropics/claude-code/releases/tag/v2.1.329"
+          ],
+          "why_matters": "改动集中在 hooks 与 MCP 的可观测性，说明非交互宿主下的失败路径比新功能更需要先暴露；版本号可逐字匹配成扫描规则。",
+          "impact": "对 automation 与 agent 部署最相关：定时任务属非交互宿主，托管 hooks 加载失败现在有显式告警，可纳入部署前 gate。",
+          "next_action": "在 2 个非交互宿主各触发 1 次托管 hooks 加载失败；若缺告警次数 ≥ 1，则判定该路径未覆盖，不纳入部署基线。",
+          "signal_type": "docs-change",
+          "confidence": "fact"
+        },
+        {
+          "id": "3bf51d45c08e3b71",
+          "fact_anchor": "一篇生态报道称南半球座头鲸在数百年捕鲸后一度只剩 5,000 头，今年迁徙中幼鲸与母鲸数量缺失。",
+          "numbers": [
+            "5,000"
+          ],
+          "entities": [
+            "humpback whales",
+            "Southern Hemisphere"
+          ],
+          "evidence_urls": [
+            "https://phys.org/news/2026-11-year-humpback-whale-migration-vital.html"
+          ],
+          "why_matters": "5,000 是历史种群低点的估计值，与今年幼鲸缺失是两个时间口径，合并读会误判为当前存量。",
+          "impact": "暂无直接影响：属生态种群观察，与 WorkBuddy / agent 部署 / 数据基建无交集；仅作计数口径分列样本。",
+          "next_action": "核对 5,000 是否对应具体统计年份与 1 份原始调查；若两者缺一，则判定为历史估计，只保留定性结论。",
+          "signal_type": "research",
+          "confidence": "fact"
+        },
+        {
+          "id": "0095ff7f6d07a207",
+          "fact_anchor": "phys.org 报道首份全球岛屿蜜蜂清单，称超过 1,700 个蜜蜂物种仅见于岛屿，标题与摘要各给出一次该计数。",
+          "numbers": [
+            "1,700"
+          ],
+          "entities": [
+            "island bees",
+            "bee species"
+          ],
+          "evidence_urls": [
+            "https://phys.org/news/2026-11-bee-species-unique-islands-global.html"
+          ],
+          "why_matters": "1,700 是 more than 的下限口径，且「仅见于岛屿」是分布限定，去掉限定就会变成全球物种总数。",
+          "impact": "暂无直接影响：属生物地理清单，与 WorkBuddy / agent 部署 / 数据基建无交集；仅作带限定词计数样本。",
+          "next_action": "核对清单是否公开物种级明细；若可逐项核对的条目少于 1,700，则判定该数为下限估计，不写入汇总统计。",
+          "signal_type": "research",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "community",
+      "label": "社区与观点",
+      "items": [
+        {
+          "id": "c667431aafb3afc9",
+          "fact_anchor": "一篇中文综述称 Google DeepMind 等巨头转向药物研发全流程，其中 DeepMind 孵化的 Isomorphic Labs 正洽谈约 400 亿美元融资。",
+          "numbers": [
+            "400亿"
+          ],
+          "entities": [
+            "Isomorphic Labs",
+            "Google DeepMind",
+            "DeepMind",
+            "Nat. Biotechnol."
+          ],
+          "evidence_urls": [
+            "https://mp.weixin.qq.com/s?__biz=MzU2ODU3Mzc4Nw%3D%3D&mid=2247514999&idx=2&sn=7edd18c7b795b9950bf87f67902f464d&chksm=fd3f440c405c4d2eacfb8748f430ac38cc15e3457b8f1252ebd73fef1b30ed821a841bf4a851&scene=0&xtrack=1"
+          ],
+          "why_matters": "400 亿是洽谈中的上限口径而非已到账金额；写成落地融资会高估 AI 制药的资本进度。",
+          "impact": "对数据基建的金额字段是样本：融资额要标「洽谈中/已交割」状态，别与估值、累计并购额混算。",
+          "next_action": "核对 30 天内是否有官方公告；若金额低于 400 亿或仍无公告，则判定为洽谈中线索，降为 unverified。",
+          "signal_type": "market-data",
+          "confidence": "unverified"
+        },
+        {
+          "id": "e5c2d6b7d5cf9568",
+          "fact_anchor": "Wired 的黑五促销条目给出 Hatch Sleep Clock 售价 $188、折扣 25 percent off，并标注优惠持续到 November 30。",
+          "numbers": [
+            "$188",
+            "25"
+          ],
+          "entities": [
+            "Hatch",
+            "Hatch Sleep Clock",
+            "Amazon"
+          ],
+          "evidence_urls": [
+            "https://www.wired.com/story/hatch-black-friday-deals-2026"
+          ],
+          "why_matters": "$188 是折后标价、25 percent 是相对折扣、November 30 是截止日，三种量纲并列最容易被读成同一个数。",
+          "impact": "对数据基建的金额字段是提醒：标价、折扣率、有效期要分列，促销条目不得并入长期价格序列。",
+          "next_action": "核对结账页实付是否等于 $188；若含税费后差额超过 5%，则判定标价为未含税口径，另记实付字段。",
+          "signal_type": "market-data",
+          "confidence": "fact"
+        },
+        {
+          "id": "00ca2badf798b003",
+          "fact_anchor": "Onlook 在 HN 发布帖里称其开源设计工具已有超 25,000 名支持者、100+ 贡献者，并把产品重建为 agentic design tool，改动以 PR 落到真实代码库。",
+          "numbers": [
+            "25,000",
+            "100",
+            "73",
+            "65"
+          ],
+          "entities": [
+            "Onlook",
+            "onlook-dev",
+            "worktrees",
+            "PR",
+            "agent"
+          ],
+          "evidence_urls": [
+            "https://github.com/onlook-dev/onlook"
+          ],
+          "why_matters": "支持者数与贡献者数是两个分母；把 25,000 说成开发者规模会夸大可维护人力，#1 trending 属排名修辞。",
+          "impact": "对 skill 与 agent 部署有直接借鉴：多 worktrees 加每改动落 PR 的设计，可复用到多 agent 并行改码的隔离与回滚。",
+          "next_action": "核对仓库 contributors 去重数；若与 100+ 相差超过 20%，则判定支持者与贡献者口径混用，拆成两字段。",
+          "signal_type": "release",
+          "confidence": "unverified"
+        }
+      ]
+    },
+    {
+      "key": "market-invest",
+      "label": "市场与投资",
+      "items": [
+        {
+          "id": "f0d0f469e0bfee91",
+          "fact_anchor": "HN 首页条目标题称 Anthropic 在 Nasdaq 上市首日市值达 $2T，条目带 748 分与 1377 条评论，正文摘要为空。",
+          "numbers": [
+            "$2T",
+            "748",
+            "1377"
+          ],
+          "entities": [
+            "Anthropic",
+            "Nasdaq"
+          ],
+          "evidence_urls": [
+            "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19"
+          ],
+          "why_matters": "市值是估值口径、分数与评论是社区热度，三者都不是成交量；摘要为空时尤其不能把标题当独立信源。",
+          "impact": "对数据基建是口径提醒：市值、热度、成交量要分字段，空摘要条目标 multi-source 前先补一手来源。",
+          "next_action": "找 2 家独立一手来源核对 $2T；若指向同一收盘口径的少于 2 家，则判定该数字不可与首日涨幅合并。",
+          "signal_type": "market-data",
+          "confidence": "unverified"
+        },
+        {
+          "id": "89345bf95b724823",
+          "fact_anchor": "Bloomberg 的收盘节目条目标题记录 Anthropic 创纪录 IPO 首日上涨 17%，同时提到大盘科技股走弱。",
+          "numbers": [
+            "17%"
+          ],
+          "entities": [
+            "Anthropic",
+            "Bloomberg",
+            "Closing Bell"
+          ],
+          "evidence_urls": [
+            "https://www.bloomberg.com/news/videos/2026-11-19/anthropic-jumps-17-in-record-ipo-closing-bell-video"
+          ],
+          "why_matters": "17% 是首日相对涨幅，$2T 是市值绝对值，两者分母不同；「大盘走弱」是背景，不能反推个股因果。",
+          "impact": "对数据基建是口径提醒：相对涨幅要带基准日与基准价，绝对值与百分比不得写进同一字段。",
+          "next_action": "核对 17% 的基准价是否为发行价；若基准日与 $2T 估值日不一致，则判定两数字不可合并展示。",
+          "signal_type": "market-data",
+          "confidence": "fact"
+        },
+        {
+          "id": "dec40ab23d7d7746",
+          "fact_anchor": "一项研究以底特律都市区为例讨论居民愿意为去公园走多远，摘要给出两英里约合 3.2 公里的换算口径。",
+          "numbers": [
+            "3.2"
+          ],
+          "entities": [
+            "metropolitan Detroit"
+          ],
+          "evidence_urls": [
+            "https://phys.org/news/2026-11-people-day.html"
+          ],
+          "why_matters": "3.2 是单位换算值而非观测结论，摘要没给出实际到访距离分布，不能据此判断出行意愿阈值。",
+          "impact": "暂无直接影响：属城市行为研究，与 WorkBuddy / MCP / agent 部署无交集；仅作量纲标注样本。",
+          "next_action": "核对原文是否给出到访距离的中位数与样本量；若缺其中 1 项，则判定 3.2 仅为换算示例，不进入统计口径。",
+          "signal_type": "research",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "research-papers",
+      "label": "论文与学术",
+      "items": [
+        {
+          "id": "e1761609bd5ff5d2",
+          "fact_anchor": "Verge 条目称亚马逊把上一代 Kindle Paperwhite 降到 $129.99，较原价降 $70，机型配 300ppi 屏、16GB 存储与 USB-C，缺无线充电。",
+          "numbers": [
+            "$129.99",
+            "$70",
+            "300ppi",
+            "16GB"
+          ],
+          "entities": [
+            "Amazon",
+            "Kindle Paperwhite",
+            "Best Buy",
+            "Target",
+            "Signature Edition",
+            "USB-C"
+          ],
+          "evidence_urls": [
+            "https://www.theverge.com/gadgets/1037635/amazon-kindle-paperwhite-black-friday-2026-deal-sale"
+          ],
+          "why_matters": "促销价、降幅、屏幕与存储规格是四类读数并列，容易被抄成一条；2024 是型号年份，按 v1.1 不算读数。",
+          "impact": "对数据基建的规格字段是样本：价格、降幅、硬件参数分列并标币种与单位，避免汇总时把 16GB 读成价格尾数。",
+          "next_action": "核对 3 家渠道标价是否都为 $129.99；若不一致渠道数 ≥ 1，则判定为单渠道促销价，另记渠道字段。",
+          "signal_type": "market-data",
+          "confidence": "fact"
+        }
+      ]
+    }
+  ],
+  "editor_note": "本期最该带走的判断是：能直接写进部署门禁的是精确标识与规则条数，不是型号数字，更不是采集时间戳里的年份。claude-code 发布 v2.1.329，改动集中在 hooks 声明位置的信任弹窗、非交互宿主里 managed settings 钩子加载失败告警、/mcp 页面新增 Server message 行显示远程 HTTP MCP 的 JSON-RPC 报错，以及 Code Mode 打开时每次工具调用都发 OpenTelemetry 事件。对 automation 与 agent 部署的含义很直接：定时任务本身就是非交互宿主，托管 hooks 加载失败过去是静默的，现在有显式告警，应把它纳入部署前 gate 的必查项；同时给依赖扫描补上 2.1.329 这类可逐字匹配的版本号，命中即比对改动清单。第二条是改动清单比版本号更决定能不能接。落到工程动作上，部署前 gate 先做三件事：用可逐字匹配的版本号锁定依赖，把改动清单逐条转成检查项，对 0 violations 的 smoke 结果留痕；三件缺一就拒绝自动放行，只记为待复核线索。对 skill 与 A2A 委派链路同理，评估条目必须写清复现条件与分母，跑不出「版本 + 改动清单 + 可复现步骤」三元组的结果只进线索池。",
+  "brief": "每日信息 · 2026-11-20\n\n今日入报里，claude-code 2.1.329 列出 hooks 改动，app-store-compliance 收录 117 条拒收模式，PostgreSQL 19 新增 WAIT FOR LSN；Anthropic 报 $2T 估值与首日 17% 涨幅，Isomorphic Labs 洽谈约 400 亿美元融资。张力在于：编号可逐字回查，金额却分三种口径。\n\n【Agent 与工程】\n- 一篇 dev.to 清单文把 n8n 与 Activepie…（28）\n- 开源仓库 app-store-compliance 提供合规…（117 / 95）\n\n【开发者工具与版本】\n- Simon Willison 记录 PostgreSQL 1…（19 / 0.1）\n- TechCrunch 报道 Meta 新款 AI 可穿戴设备…（$300）\n- Meta 在 Quest 3 与 3S 头显的 TV app…（150）\n\n【文档与变更】\n- claude-code 发布 v2.1.329：新增 hoo…（2.1.329）\n- 一篇生态报道称南半球座头鲸在数百年捕鲸后一度只剩 5,000…（5,000）\n- phys.org 报道首份全球岛屿蜜蜂清单，称超过 1,70…（1,700）\n\n【社区与观点】\n- 一篇中文综述称 Google DeepMind 等巨头转向药…（400亿）\n- Wired 的黑五促销条目给出 Hatch Sleep Cl…（$188 / 25）\n- Onlook 在 HN 发布帖里称其开源设计工具已有超 25…（25,000 / 100）\n\n【市场与投资】\n- HN 首页条目标题称 Anthropic 在 Nasdaq …（$2T / 748）\n- Bloomberg 的收盘节目条目标题记录 Anthropi…（17%）\n- 一项研究以底特律都市区为例讨论居民愿意为去公园走多远，摘要给…（3.2）\n\n【论文与学术】\n- Verge 条目称亚马逊把上一代 Kindle Paperw…（$129.99 / $70）\n\n【待验证信号】\n- PostgreSQL 19 的 WAIT FOR LSN…：若 同一读写用例在 standby 连跑 3 次，读到旧值次数大于 0，则判定 read-your-writes 一致性未生效，回退为主库读。\n- claude-code 2.1.329 的 hooks …：若 在 2 个非交互宿主各触发 1 次加载失败，缺告警次数 ≥ 1，则判定 trust dialog 未覆盖该路径，不纳入部署前 gate。\n- app-store-compliance 117 条模式…：若 抽样 10 条模式对照官方条款，逐条命中的少于 8 条，则判定规则集过期，不接入预提交 guard。\n- Anthropic 估值与首日涨幅是否同一口径：若 核对 $2T 与 17% 指向同一收盘口径的独立信源少于 2 家，则判定两个数字不可合并，分口径展示。\n- Isomorphic Labs 400 亿融资是否落地：若 30 天内无官方公告，或公告金额低于 400 亿美元，则判定为洽谈中线索，降级为 unverified。\n- Onlook 支持者与贡献者口径是否混用：若 仓库 contributors 去重数与 100+ 相差超过 20%，则判定 25,000 与 100 被混用，拆成两个字段。\n\n内容仅供参考，不构成投资建议；外部事实未独立验证；取不到可靠数据处标注「暂无可靠数据」。",
+  "watch_signals": [
+    {
+      "signal": "PostgreSQL 19 的 WAIT FOR LSN 是否覆盖 standby 读",
+      "threshold": "同一读写用例在 standby 连跑 3 次，读到旧值次数大于 0",
+      "judgement": "判定 read-your-writes 一致性未生效，回退为主库读"
+    },
+    {
+      "signal": "claude-code 2.1.329 的 hooks 加载失败告警覆盖",
+      "threshold": "在 2 个非交互宿主各触发 1 次加载失败，缺告警次数 ≥ 1",
+      "judgement": "判定 trust dialog 未覆盖该路径，不纳入部署前 gate"
+    },
+    {
+      "signal": "app-store-compliance 117 条模式的可复现率",
+      "threshold": "抽样 10 条模式对照官方条款，逐条命中的少于 8 条",
+      "judgement": "判定规则集过期，不接入预提交 guard"
+    },
+    {
+      "signal": "Anthropic 估值与首日涨幅是否同一口径",
+      "threshold": "核对 $2T 与 17% 指向同一收盘口径的独立信源少于 2 家",
+      "judgement": "判定两个数字不可合并，分口径展示"
+    },
+    {
+      "signal": "Isomorphic Labs 400 亿融资是否落地",
+      "threshold": "30 天内无官方公告，或公告金额低于 400 亿美元",
+      "judgement": "判定为洽谈中线索，降级为 unverified"
+    },
+    {
+      "signal": "Onlook 支持者与贡献者口径是否混用",
+      "threshold": "仓库 contributors 去重数与 100+ 相差超过 20%",
+      "judgement": "判定 25,000 与 100 被混用，拆成两个字段"
+    }
+  ]
+}

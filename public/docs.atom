@@ -5,10 +5,40 @@
   <ns0:subtitle>挖掘 · 聚合 · 研判 · 订阅；每条附原文链接；内容仅供参考，不构成投资建议</ns0:subtitle>
   <ns0:link rel="self" type="application/atom+xml" href="https://daily-info.local/docs.atom" />
   <ns0:link rel="alternate" type="text/html" href="https://daily-info.local/index.html" />
-  <ns0:updated>2026-11-18T22:59:52.614033Z</ns0:updated>
+  <ns0:updated>2026-11-19T23:02:04.805768Z</ns0:updated>
   <ns0:author>
     <ns0:name>Personal Daily Info</ns0:name>
   </ns0:author>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-20:0095ff7f6d07a207</ns0:id>
+    <ns0:title>[文档与变更] More than 1,700 bee species are unique to islands, first global assessment finds</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://phys.org/news/2026-11-bee-species-unique-islands-global.html" />
+    <ns0:published>2026-11-19T19:40:06.253000Z</ns0:published>
+    <ns0:updated>2026-11-19T23:02:04.805768Z</ns0:updated>
+    <ns0:category term="docs-changelog" label="文档与变更" />
+    <ns0:summary type="text">More than 1,700 bee species are found only on islands, the first global checklist of island bees shows. If you like bees and island… 〔Folo分类:重大学术科研突破〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;phys.org 报道首份全球岛屿蜜蜂清单，称超过 1,700 个蜜蜂物种仅见于岛屿，标题与摘要各给出一次该计数。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：1,700 · 相关方：island bees / bee species&lt;/p&gt;&lt;p&gt;More than 1,700 bee species are found only on islands, the first global checklist of island bees shows. If you like bees and island… 〔Folo分类:重大学术科研突破〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;1,700 是 more than 的下限口径，且「仅见于岛屿」是分布限定，去掉限定就会变成全球物种总数。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;暂无直接影响：属生物地理清单，与 WorkBuddy / agent 部署 / 数据基建无交集；仅作带限定词计数样本。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对清单是否公开物种级明细；若可逐项核对的条目少于 1,700，则判定该数为下限估计，不写入汇总统计。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-19T19:40 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://phys.org/news/2026-11-bee-species-unique-islands-global.html" rel="noopener noreferrer"&gt;https://phys.org/news/2026-11-bee-species-unique-islands-global.html&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-20:3bf51d45c08e3b71</ns0:id>
+    <ns0:title>[文档与变更] This year's humpback whale migration was missing something vital—the calves and their mothers</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://phys.org/news/2026-11-year-humpback-whale-migration-vital.html" />
+    <ns0:published>2026-11-19T19:20:25.106000Z</ns0:published>
+    <ns0:updated>2026-11-19T23:02:04.805768Z</ns0:updated>
+    <ns0:category term="docs-changelog" label="文档与变更" />
+    <ns0:summary type="text">After centuries of whaling, humpback whales of the Southern Hemisphere were close to extinction. As few as 5,000 animals were left in the… 〔Folo分类:重大学术科研突破〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;一篇生态报道称南半球座头鲸在数百年捕鲸后一度只剩 5,000 头，今年迁徙中幼鲸与母鲸数量缺失。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：5,000 · 相关方：humpback whales / Southern Hemisphere&lt;/p&gt;&lt;p&gt;After centuries of whaling, humpback whales of the Southern Hemisphere were close to extinction. As few as 5,000 animals were left in the… 〔Folo分类:重大学术科研突破〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;5,000 是历史种群低点的估计值，与今年幼鲸缺失是两个时间口径，合并读会误判为当前存量。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;暂无直接影响：属生态种群观察，与 WorkBuddy / agent 部署 / 数据基建无交集；仅作计数口径分列样本。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对 5,000 是否对应具体统计年份与 1 份原始调查；若两者缺一，则判定为历史估计，只保留定性结论。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-19T19:20 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://phys.org/news/2026-11-year-humpback-whale-migration-vital.html" rel="noopener noreferrer"&gt;https://phys.org/news/2026-11-year-humpback-whale-migration-vital.html&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-20:9166064c2f31e744</ns0:id>
+    <ns0:title>[文档与变更] v2.1.329</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://github.com/anthropics/claude-code/releases/tag/v2.1.329" />
+    <ns0:published>2026-11-19T22:14:41Z</ns0:published>
+    <ns0:updated>2026-11-19T23:02:04.805768Z</ns0:updated>
+    <ns0:category term="docs-changelog" label="文档与变更" />
+    <ns0:summary type="text">What's changed Added a trust dialog warning that says where a folder's hooks are declared Added a warning in the conversation, in Claude Desktop and other non-interactive hosts, when hooks in managed settings fail to load Added this session's scheduled tasks, /loop wakeups, the goal and this convers</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;claude-code 发布 v2.1.329：新增 hooks 声明位置的信任弹窗、非交互宿主里 managed settings 钩子加载失败告警，并在 /mcp 页面显示远程 HTTP MCP 的 JSON-RPC 报错。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2.1.329 · 相关方：Claude Code / Claude Desktop / hooks / /mcp / OpenTelemetry / JSON-RPC&lt;/p&gt;&lt;p&gt;What&amp;#x27;s changed Added a trust dialog warning that says where a folder&amp;#x27;s hooks are declared Added a warning in the conversation, in Claude Desktop and other non-interactive hosts, when hooks in managed settings fail to load Added this session&amp;#x27;s scheduled tasks, /loop wakeups, the goal and this convers&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;改动集中在 hooks 与 MCP 的可观测性，说明非交互宿主下的失败路径比新功能更需要先暴露；版本号可逐字匹配成扫描规则。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 automation 与 agent 部署最相关：定时任务属非交互宿主，托管 hooks 加载失败现在有显式告警，可纳入部署前 gate。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在 2 个非交互宿主各触发 1 次托管 hooks 加载失败；若缺告警次数 ≥ 1，则判定该路径未覆盖，不纳入部署基线。&lt;/p&gt;&lt;p&gt;来源：claude-code Releases · 发布于 2026-11-19T22:14 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.329" rel="noopener noreferrer"&gt;https://github.com/anthropics/claude-code/releases/tag/v2.1.329&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:daily-info.local,2026-11-19:ad1343d090244892</ns0:id>
     <ns0:title>[文档与变更] Bolivia's Madidi National Park shelters 99 bat species, including 7 new to the country</ns0:title>

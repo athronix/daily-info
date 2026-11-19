@@ -7,6 +7,291 @@
   "language": "zh-CN",
   "items": [
     {
+      "id": "tag:daily-info.local,2026-11-20:e1761609bd5ff5d2",
+      "url": "https://www.theverge.com/gadgets/1037635/amazon-kindle-paperwhite-black-friday-2026-deal-sale",
+      "title": "Amazon’s last-gen Kindle Paperwhite hasn’t been this cheap since June",
+      "summary": "Verge 条目称亚马逊把上一代 Kindle Paperwhite 降到 $129.99，较原价降 $70，机型配 300ppi 屏、16GB 存储与 USB-C，缺无线充电。 — 促销价、降幅、屏幕与存储规格是四类读数并列，容易被抄成一条；2024 是型号年份，按 v1.1 不算读数。",
+      "content_html": "<p><strong>Verge 条目称亚马逊把上一代 Kindle Paperwhite 降到 $129.99，较原价降 $70，机型配 300ppi 屏、16GB 存储与 USB-C，缺无线充电。</strong></p><p>关键数字：$129.99 / $70 / 300ppi / 16GB · 相关方：Amazon / Kindle Paperwhite / Best Buy / Target / Signature Edition / USB-C</p><p>Amazon is selling the last-generation Kindle Paperwhite (2024) for $129.99, marking a $70 reduction from its original price. This offer, available at Amazon, Best Buy, and Target, is near the e-reader&#x27;s all-time low. The discounted model features a 300ppi display, 16GB of storage, USB-C charging, an</p><p><strong>为什么值得看：</strong>促销价、降幅、屏幕与存储规格是四类读数并列，容易被抄成一条；2024 是型号年份，按 v1.1 不算读数。</p><p><strong>对我意味着什么：</strong>对数据基建的规格字段是样本：价格、降幅、硬件参数分列并标币种与单位，避免汇总时把 16GB 读成价格尾数。</p><p><strong>下一步：</strong>核对 3 家渠道标价是否都为 $129.99；若不一致渠道数 ≥ 1，则判定为单渠道促销价，另记渠道字段。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-19T17:15 UTC · 归类：research-papers</p><p>→ <a href=\"https://www.theverge.com/gadgets/1037635/amazon-kindle-paperwhite-black-friday-2026-deal-sale\" rel=\"noopener noreferrer\">https://www.theverge.com/gadgets/1037635/amazon-kindle-paperwhite-black-friday-2026-deal-sale</a></p>",
+      "date_published": "2026-11-19T17:15:00.107000Z",
+      "date_modified": "2026-11-19T23:02:04.805768Z",
+      "tags": [
+        "research-papers",
+        "论文与学术"
+      ],
+      "_daily_info": {
+        "score": 75.64,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "e1761609bd5ff5d2",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-20:dec40ab23d7d7746",
+      "url": "https://phys.org/news/2026-11-people-day.html",
+      "title": "New research explains how far people will go for a day at the park",
+      "summary": "一项研究以底特律都市区为例讨论居民愿意为去公园走多远，摘要给出两英里约合 3.2 公里的换算口径。 — 3.2 是单位换算值而非观测结论，摘要没给出实际到访距离分布，不能据此判断出行意愿阈值。",
+      "content_html": "<p><strong>一项研究以底特律都市区为例讨论居民愿意为去公园走多远，摘要给出两英里约合 3.2 公里的换算口径。</strong></p><p>关键数字：3.2 · 相关方：metropolitan Detroit</p><p>A park two miles (3.2 kilometers) from home might seem close enough for a Saturday outing. In metropolitan Detroit, though, park visits had… 〔Folo分类:重大学术科研突破〕</p><p><strong>为什么值得看：</strong>3.2 是单位换算值而非观测结论，摘要没给出实际到访距离分布，不能据此判断出行意愿阈值。</p><p><strong>对我意味着什么：</strong>暂无直接影响：属城市行为研究，与 WorkBuddy / MCP / agent 部署无交集；仅作量纲标注样本。</p><p><strong>下一步：</strong>核对原文是否给出到访距离的中位数与样本量；若缺其中 1 项，则判定 3.2 仅为换算示例，不进入统计口径。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-19T21:00 UTC · 归类：market-invest</p><p>→ <a href=\"https://phys.org/news/2026-11-people-day.html\" rel=\"noopener noreferrer\">https://phys.org/news/2026-11-people-day.html</a></p>",
+      "date_published": "2026-11-19T21:00:15.345000Z",
+      "date_modified": "2026-11-19T23:02:04.805768Z",
+      "tags": [
+        "market-invest",
+        "市场与投资"
+      ],
+      "_daily_info": {
+        "score": 76.55,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "dec40ab23d7d7746",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-20:89345bf95b724823",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-19/anthropic-jumps-17-in-record-ipo-closing-bell-video",
+      "title": "Anthropic Jumps 17% in Record IPO as Broader Tech Market Sells Off | Closing Bell",
+      "summary": "Bloomberg 的收盘节目条目标题记录 Anthropic 创纪录 IPO 首日上涨 17%，同时提到大盘科技股走弱。 — 17% 是首日相对涨幅，$2T 是市值绝对值，两者分母不同；「大盘走弱」是背景，不能反推个股因果。",
+      "content_html": "<p><strong>Bloomberg 的收盘节目条目标题记录 Anthropic 创纪录 IPO 首日上涨 17%，同时提到大盘科技股走弱。</strong></p><p>关键数字：17% · 相关方：Anthropic / Bloomberg / Closing Bell</p><p>Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Ed Ludlow, Carol Massar and Tim Stenovec. (Source: Bloomberg)</p><p><strong>为什么值得看：</strong>17% 是首日相对涨幅，$2T 是市值绝对值，两者分母不同；「大盘走弱」是背景，不能反推个股因果。</p><p><strong>对我意味着什么：</strong>对数据基建是口径提醒：相对涨幅要带基准日与基准价，绝对值与百分比不得写进同一字段。</p><p><strong>下一步：</strong>核对 17% 的基准价是否为发行价；若基准日与 $2T 估值日不一致，则判定两数字不可合并展示。</p><p>来源：Bloomberg Markets · 发布于 2026-11-19T21:24 UTC · 归类：market-invest</p><p>→ <a href=\"https://www.bloomberg.com/news/videos/2026-11-19/anthropic-jumps-17-in-record-ipo-closing-bell-video\" rel=\"noopener noreferrer\">https://www.bloomberg.com/news/videos/2026-11-19/anthropic-jumps-17-in-record-ipo-closing-bell-video</a></p>",
+      "date_published": "2026-11-19T21:24:51Z",
+      "date_modified": "2026-11-19T23:02:04.805768Z",
+      "tags": [
+        "market-invest",
+        "市场与投资"
+      ],
+      "_daily_info": {
+        "score": 75.74,
+        "source": "Bloomberg Markets",
+        "cluster_id": "89345bf95b724823",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-20:f0d0f469e0bfee91",
+      "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19",
+      "title": "Anthropic hits $2T in Nasdaq debut",
+      "summary": "HN 首页条目标题称 Anthropic 在 Nasdaq 上市首日市值达 $2T，条目带 748 分与 1377 条评论，正文摘要为空。 — 市值是估值口径、分数与评论是社区热度，三者都不是成交量；摘要为空时尤其不能把标题当独立信源。",
+      "content_html": "<p><strong>HN 首页条目标题称 Anthropic 在 Nasdaq 上市首日市值达 $2T，条目带 748 分与 1377 条评论，正文摘要为空。</strong></p><p>关键数字：$2T / 748 / 1377 · 相关方：Anthropic / Nasdaq</p><p><strong>为什么值得看：</strong>市值是估值口径、分数与评论是社区热度，三者都不是成交量；摘要为空时尤其不能把标题当独立信源。</p><p><strong>对我意味着什么：</strong>对数据基建是口径提醒：市值、热度、成交量要分字段，空摘要条目标 multi-source 前先补一手来源。</p><p><strong>下一步：</strong>找 2 家独立一手来源核对 $2T；若指向同一收盘口径的少于 2 家，则判定该数字不可与首日涨幅合并。</p><p>来源：HN Algolia front_page (points/comments) · 发布于 2026-11-19T17:02 UTC · 归类：market-invest</p><p>证据状态：未独立验证</p><p>→ <a href=\"https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19\" rel=\"noopener noreferrer\">https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19</a></p>",
+      "date_published": "2026-11-19T17:02:40Z",
+      "date_modified": "2026-11-19T23:02:04.805768Z",
+      "tags": [
+        "market-invest",
+        "市场与投资"
+      ],
+      "_daily_info": {
+        "score": 77.24,
+        "source": "HN Algolia front_page (points/comments)",
+        "cluster_id": "f0d0f469e0bfee91",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-20:00ca2badf798b003",
+      "url": "https://github.com/onlook-dev/onlook",
+      "title": "Launch HN: Onlook (YC W25) – An open-source developer tool for designers",
+      "summary": "Onlook 在 HN 发布帖里称其开源设计工具已有超 25,000 名支持者、100+ 贡献者，并把产品重建为 agentic design tool，改动以 PR 落到真实代码库。 — 支持者数与贡献者数是两个分母；把 25,000 说成开发者规模会夸大可维护人力，#1 trending 属排名修辞。",
+      "content_html": "<p><strong>Onlook 在 HN 发布帖里称其开源设计工具已有超 25,000 名支持者、100+ 贡献者，并把产品重建为 agentic design tool，改动以 PR 落到真实代码库。</strong></p><p>关键数字：25,000 / 100 / 73 / 65 · 相关方：Onlook / onlook-dev / worktrees / PR / agent</p><p>Hey HN, I&#x27;m Daniel, founder of Onlook (https://github.com/onlook-dev/onlook and onlook.com).Onlook is a desktop app that puts a canvas on top of your real codebase, letting you design directly in code with the agent you already use. Over 25,000 designers and developers have supported the project, 10</p><p><strong>为什么值得看：</strong>支持者数与贡献者数是两个分母；把 25,000 说成开发者规模会夸大可维护人力，#1 trending 属排名修辞。</p><p><strong>对我意味着什么：</strong>对 skill 与 agent 部署有直接借鉴：多 worktrees 加每改动落 PR 的设计，可复用到多 agent 并行改码的隔离与回滚。</p><p><strong>下一步：</strong>核对仓库 contributors 去重数；若与 100+ 相差超过 20%，则判定支持者与贡献者口径混用，拆成两字段。</p><p>来源：HN Algolia front_page (points/comments) · 发布于 2026-11-19T16:34 UTC · 归类：community</p><p>证据状态：未独立验证</p><p>→ <a href=\"https://github.com/onlook-dev/onlook\" rel=\"noopener noreferrer\">https://github.com/onlook-dev/onlook</a></p>",
+      "date_published": "2026-11-19T16:34:04Z",
+      "date_modified": "2026-11-19T23:02:04.805768Z",
+      "tags": [
+        "community",
+        "社区与观点"
+      ],
+      "_daily_info": {
+        "score": 76.17,
+        "source": "HN Algolia front_page (points/comments)",
+        "cluster_id": "00ca2badf798b003",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-20:e5c2d6b7d5cf9568",
+      "url": "https://www.wired.com/story/hatch-black-friday-deals-2026",
+      "title": "The Best Hatch Black Friday Deals (2026)",
+      "summary": "Wired 的黑五促销条目给出 Hatch Sleep Clock 售价 $188、折扣 25 percent off，并标注优惠持续到 November 30。 — $188 是折后标价、25 percent 是相对折扣、November 30 是截止日，三种量纲并列最容易被读成同一个数。",
+      "content_html": "<p><strong>Wired 的黑五促销条目给出 Hatch Sleep Clock 售价 $188、折扣 25 percent off，并标注优惠持续到 November 30。</strong></p><p>关键数字：$188 / 25 · 相关方：Hatch / Hatch Sleep Clock / Amazon</p><p>Grab the Hatch Sleep Clock for $188 (25 percent off) at Hatch or Amazon through November 30. 〔Folo分类:高新科技应用〕</p><p><strong>为什么值得看：</strong>$188 是折后标价、25 percent 是相对折扣、November 30 是截止日，三种量纲并列最容易被读成同一个数。</p><p><strong>对我意味着什么：</strong>对数据基建的金额字段是提醒：标价、折扣率、有效期要分列，促销条目不得并入长期价格序列。</p><p><strong>下一步：</strong>核对结账页实付是否等于 $188；若含税费后差额超过 5%，则判定标价为未含税口径，另记实付字段。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-19T20:44 UTC · 归类：community</p><p>→ <a href=\"https://www.wired.com/story/hatch-black-friday-deals-2026\" rel=\"noopener noreferrer\">https://www.wired.com/story/hatch-black-friday-deals-2026</a></p>",
+      "date_published": "2026-11-19T20:44:44.981000Z",
+      "date_modified": "2026-11-19T23:02:04.805768Z",
+      "tags": [
+        "community",
+        "社区与观点"
+      ],
+      "_daily_info": {
+        "score": 76.36,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "e5c2d6b7d5cf9568",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-20:c667431aafb3afc9",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU2ODU3Mzc4Nw%3D%3D&mid=2247514999&idx=2&sn=7edd18c7b795b9950bf87f67902f464d&chksm=fd3f440c405c4d2eacfb8748f430ac38cc15e3457b8f1252ebd73fef1b30ed821a841bf4a851&scene=0&xtrack=1",
+      "title": "Nat. Biotechnol. | AI科技巨头正在“接管”药物发现吗？",
+      "summary": "一篇中文综述称 Google DeepMind 等巨头转向药物研发全流程，其中 DeepMind 孵化的 Isomorphic Labs 正洽谈约 400 亿美元融资。 — 400 亿是洽谈中的上限口径而非已到账金额；写成落地融资会高估 AI 制药的资本进度。",
+      "content_html": "<p><strong>一篇中文综述称 Google DeepMind 等巨头转向药物研发全流程，其中 DeepMind 孵化的 Isomorphic Labs 正洽谈约 400 亿美元融资。</strong></p><p>关键数字：400亿 · 相关方：Isomorphic Labs / Google DeepMind / DeepMind / Nat. Biotechnol.</p><p>智慧医疗、生成模型、深度学习｜近年来，人工智能加速融入药物研发全流程，Google DeepMind、Anthropic、OpenAI、Microsoft和Amazon等科技巨头已从提供算法、算力与工具，转向深度参与靶点发现、分子设计、实验验证及药物开发。其中，DeepMind孵化的Isomorphic Labs于2026年10月正与投资者洽谈约400亿美元融资，凸显AI制药产业化加速与资本高度关注，标志着科技企业正成为新药研发的核心力量。</p><p><strong>为什么值得看：</strong>400 亿是洽谈中的上限口径而非已到账金额；写成落地融资会高估 AI 制药的资本进度。</p><p><strong>对我意味着什么：</strong>对数据基建的金额字段是样本：融资额要标「洽谈中/已交割」状态，别与估值、累计并购额混算。</p><p><strong>下一步：</strong>核对 30 天内是否有官方公告；若金额低于 400 亿或仍无公告，则判定为洽谈中线索，降为 unverified。</p><p>来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-19T18:30 UTC · 归类：community</p><p>证据状态：未独立验证</p><p>→ <a href=\"https://mp.weixin.qq.com/s?__biz=MzU2ODU3Mzc4Nw%3D%3D&amp;mid=2247514999&amp;idx=2&amp;sn=7edd18c7b795b9950bf87f67902f464d&amp;chksm=fd3f440c405c4d2eacfb8748f430ac38cc15e3457b8f1252ebd73fef1b30ed821a841bf4a851&amp;scene=0&amp;xtrack=1\" rel=\"noopener noreferrer\">https://mp.weixin.qq.com/s?__biz=MzU2ODU3Mzc4Nw%3D%3D&amp;mid=2247514999&amp;idx=2&amp;sn=7edd18c7b795b9950bf87f67902f464d&amp;chksm=fd3f440c405c4d2eacfb8748f430ac38cc15e3457b8f1252ebd73fef1b30ed821a841bf4a851&amp;scene=0&amp;xtrack=1</a></p>",
+      "date_published": "2026-11-19T18:30:00Z",
+      "date_modified": "2026-11-19T23:02:04.805768Z",
+      "tags": [
+        "community",
+        "社区与观点"
+      ],
+      "_daily_info": {
+        "score": 79.63,
+        "source": "智源社区 · 最新分享（匿名 API）",
+        "cluster_id": "c667431aafb3afc9",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-20:0095ff7f6d07a207",
+      "url": "https://phys.org/news/2026-11-bee-species-unique-islands-global.html",
+      "title": "More than 1,700 bee species are unique to islands, first global assessment finds",
+      "summary": "phys.org 报道首份全球岛屿蜜蜂清单，称超过 1,700 个蜜蜂物种仅见于岛屿，标题与摘要各给出一次该计数。 — 1,700 是 more than 的下限口径，且「仅见于岛屿」是分布限定，去掉限定就会变成全球物种总数。",
+      "content_html": "<p><strong>phys.org 报道首份全球岛屿蜜蜂清单，称超过 1,700 个蜜蜂物种仅见于岛屿，标题与摘要各给出一次该计数。</strong></p><p>关键数字：1,700 · 相关方：island bees / bee species</p><p>More than 1,700 bee species are found only on islands, the first global checklist of island bees shows. If you like bees and island… 〔Folo分类:重大学术科研突破〕</p><p><strong>为什么值得看：</strong>1,700 是 more than 的下限口径，且「仅见于岛屿」是分布限定，去掉限定就会变成全球物种总数。</p><p><strong>对我意味着什么：</strong>暂无直接影响：属生物地理清单，与 WorkBuddy / agent 部署 / 数据基建无交集；仅作带限定词计数样本。</p><p><strong>下一步：</strong>核对清单是否公开物种级明细；若可逐项核对的条目少于 1,700，则判定该数为下限估计，不写入汇总统计。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-19T19:40 UTC · 归类：docs-changelog</p><p>→ <a href=\"https://phys.org/news/2026-11-bee-species-unique-islands-global.html\" rel=\"noopener noreferrer\">https://phys.org/news/2026-11-bee-species-unique-islands-global.html</a></p>",
+      "date_published": "2026-11-19T19:40:06.253000Z",
+      "date_modified": "2026-11-19T23:02:04.805768Z",
+      "tags": [
+        "docs-changelog",
+        "文档与变更"
+      ],
+      "_daily_info": {
+        "score": 75.61,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "0095ff7f6d07a207",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-20:3bf51d45c08e3b71",
+      "url": "https://phys.org/news/2026-11-year-humpback-whale-migration-vital.html",
+      "title": "This year's humpback whale migration was missing something vital—the calves and their mothers",
+      "summary": "一篇生态报道称南半球座头鲸在数百年捕鲸后一度只剩 5,000 头，今年迁徙中幼鲸与母鲸数量缺失。 — 5,000 是历史种群低点的估计值，与今年幼鲸缺失是两个时间口径，合并读会误判为当前存量。",
+      "content_html": "<p><strong>一篇生态报道称南半球座头鲸在数百年捕鲸后一度只剩 5,000 头，今年迁徙中幼鲸与母鲸数量缺失。</strong></p><p>关键数字：5,000 · 相关方：humpback whales / Southern Hemisphere</p><p>After centuries of whaling, humpback whales of the Southern Hemisphere were close to extinction. As few as 5,000 animals were left in the… 〔Folo分类:重大学术科研突破〕</p><p><strong>为什么值得看：</strong>5,000 是历史种群低点的估计值，与今年幼鲸缺失是两个时间口径，合并读会误判为当前存量。</p><p><strong>对我意味着什么：</strong>暂无直接影响：属生态种群观察，与 WorkBuddy / agent 部署 / 数据基建无交集；仅作计数口径分列样本。</p><p><strong>下一步：</strong>核对 5,000 是否对应具体统计年份与 1 份原始调查；若两者缺一，则判定为历史估计，只保留定性结论。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-19T19:20 UTC · 归类：docs-changelog</p><p>→ <a href=\"https://phys.org/news/2026-11-year-humpback-whale-migration-vital.html\" rel=\"noopener noreferrer\">https://phys.org/news/2026-11-year-humpback-whale-migration-vital.html</a></p>",
+      "date_published": "2026-11-19T19:20:25.106000Z",
+      "date_modified": "2026-11-19T23:02:04.805768Z",
+      "tags": [
+        "docs-changelog",
+        "文档与变更"
+      ],
+      "_daily_info": {
+        "score": 76.99,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "3bf51d45c08e3b71",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-20:9166064c2f31e744",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.329",
+      "title": "v2.1.329",
+      "summary": "claude-code 发布 v2.1.329：新增 hooks 声明位置的信任弹窗、非交互宿主里 managed settings 钩子加载失败告警，并在 /mcp 页面显示远程 HTTP MCP 的 JSON-RPC 报错。 — 改动集中在 hooks 与 MCP 的可观测性，说明非交互宿主下的失败路径比新功能更需要先暴露；版本号可逐字匹配成扫描规则。",
+      "content_html": "<p><strong>claude-code 发布 v2.1.329：新增 hooks 声明位置的信任弹窗、非交互宿主里 managed settings 钩子加载失败告警，并在 /mcp 页面显示远程 HTTP MCP 的 JSON-RPC 报错。</strong></p><p>关键数字：2.1.329 · 相关方：Claude Code / Claude Desktop / hooks / /mcp / OpenTelemetry / JSON-RPC</p><p>What&#x27;s changed Added a trust dialog warning that says where a folder&#x27;s hooks are declared Added a warning in the conversation, in Claude Desktop and other non-interactive hosts, when hooks in managed settings fail to load Added this session&#x27;s scheduled tasks, /loop wakeups, the goal and this convers</p><p><strong>为什么值得看：</strong>改动集中在 hooks 与 MCP 的可观测性，说明非交互宿主下的失败路径比新功能更需要先暴露；版本号可逐字匹配成扫描规则。</p><p><strong>对我意味着什么：</strong>对 automation 与 agent 部署最相关：定时任务属非交互宿主，托管 hooks 加载失败现在有显式告警，可纳入部署前 gate。</p><p><strong>下一步：</strong>在 2 个非交互宿主各触发 1 次托管 hooks 加载失败；若缺告警次数 ≥ 1，则判定该路径未覆盖，不纳入部署基线。</p><p>来源：claude-code Releases · 发布于 2026-11-19T22:14 UTC · 归类：docs-changelog</p><p>→ <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.329\" rel=\"noopener noreferrer\">https://github.com/anthropics/claude-code/releases/tag/v2.1.329</a></p>",
+      "date_published": "2026-11-19T22:14:41Z",
+      "date_modified": "2026-11-19T23:02:04.805768Z",
+      "tags": [
+        "docs-changelog",
+        "文档与变更"
+      ],
+      "_daily_info": {
+        "score": 75.86,
+        "source": "claude-code Releases",
+        "cluster_id": "9166064c2f31e744",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-20:7a39639263596a9f",
+      "url": "https://www.theverge.com/tech/1038157/meta-quest-vr-3d-movies-tv-app",
+      "title": "Meta now sells 3D movies on Quest VR headsets",
+      "summary": "Meta 在 Quest 3 与 3S 头显的 TV app 上架超过 150 部可购买或租借的 3D 电影，并随软件更新加入 Theater view 影院模式。 — 150 是 over 的下限口径且随片库变化；同时上线的 Theater view 属功能改动，两者维度不同不能互证。",
+      "content_html": "<p><strong>Meta 在 Quest 3 与 3S 头显的 TV app 上架超过 150 部可购买或租借的 3D 电影，并随软件更新加入 Theater view 影院模式。</strong></p><p>关键数字：150 · 相关方：Meta / Quest 3 / 3S / Theater view / Avatar</p><p>Meta now provides access to over 150 purchasable and rentable 3D movies on its Quest 3 and 3S headsets through the TV app. The catalog features major releases such as Avatar and Spider-Man: Far From Home, alongside a Billie Eilish concert film. This expansion coincides with a software update introdu</p><p><strong>为什么值得看：</strong>150 是 over 的下限口径且随片库变化；同时上线的 Theater view 属功能改动，两者维度不同不能互证。</p><p><strong>对我意味着什么：</strong>对数据基建是分列样本：内容数量与功能变更应分字段记录，避免用片库规模推断版本改动范围。</p><p><strong>下一步：</strong>按周抓取 2 次片库目录；若两次数量相差超过 10%，则判定 150 为动态下限，改记快照日期与计数。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-19T21:12 UTC · 归类：dev-tools</p><p>→ <a href=\"https://www.theverge.com/tech/1038157/meta-quest-vr-3d-movies-tv-app\" rel=\"noopener noreferrer\">https://www.theverge.com/tech/1038157/meta-quest-vr-3d-movies-tv-app</a></p>",
+      "date_published": "2026-11-19T21:12:06.507000Z",
+      "date_modified": "2026-11-19T23:02:04.805768Z",
+      "tags": [
+        "dev-tools",
+        "开发者工具与版本"
+      ],
+      "_daily_info": {
+        "score": 76.69,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "7a39639263596a9f",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-20:e60f4e5e7cf4b021",
+      "url": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300",
+      "title": "Meta’s new Muse Charm device may cost $300",
+      "summary": "TechCrunch 报道 Meta 新款 AI 可穿戴设备 Muse Charm 定价可能为 $300，Meta 只回应「很快会公布更多」未否认该数字。 — $300 是媒体援引的预估价且用了 may，Meta 未确认；把它写成正式定价会变成未证实断言。",
+      "content_html": "<p><strong>TechCrunch 报道 Meta 新款 AI 可穿戴设备 Muse Charm 定价可能为 $300，Meta 只回应「很快会公布更多」未否认该数字。</strong></p><p>关键数字：$300 · 相关方：Meta / Muse Charm / The Information</p><p>Meta hasn&#x27;t denied the reporting from The Information, saying only that it will &quot;have more to share soon&quot; about its upcoming AI wearable. 〔Folo分类:AI技术与应用〕</p><p><strong>为什么值得看：</strong>$300 是媒体援引的预估价且用了 may，Meta 未确认；把它写成正式定价会变成未证实断言。</p><p><strong>对我意味着什么：</strong>对 skill 与 automation 的事实层是反面样本：未确认读数必须带来源等级，标 unverified 后才进候选。</p><p><strong>下一步：</strong>核对官方产品页是否给出价格；若 30 天内仍无官方数字，则判定 $300 仅为媒体预估，不写入规格基线。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-19T21:58 UTC · 归类：dev-tools</p><p>证据状态：未独立验证</p><p>→ <a href=\"https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300\" rel=\"noopener noreferrer\">https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300</a></p>",
+      "date_published": "2026-11-19T21:58:06.827000Z",
+      "date_modified": "2026-11-19T23:02:04.805768Z",
+      "tags": [
+        "dev-tools",
+        "开发者工具与版本"
+      ],
+      "_daily_info": {
+        "score": 77.25,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "e60f4e5e7cf4b021",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-20:4ba1303d2ee21d77",
+      "url": "https://simonwillison.net/2026/Nov/19/postgresql-19",
+      "title": "PostgreSQL 19 Released",
+      "summary": "Simon Willison 记录 PostgreSQL 19 因 AI 报告的漏洞潮比往年晚两个月发布，新增 WAIT FOR LSN 让 standby 查询读到主库刚写入的数据。 — 延迟两个月的原因是漏洞修复量而非功能排期；新命令把一致性从应用层下推到数据库，改的是调用契约。",
+      "content_html": "<p><strong>Simon Willison 记录 PostgreSQL 19 因 AI 报告的漏洞潮比往年晚两个月发布，新增 WAIT FOR LSN 让 standby 查询读到主库刚写入的数据。</strong></p><p>关键数字：19 / 0.1 · 相关方：PostgreSQL / WAIT FOR LSN / WAL / standby</p><p>PostgreSQL 19 Released Most years PostgreSQL ships a new release in September, but this year&#x27;s release came two months later thanks mainly to the flurry of issues that the PostgreSQL team needed to address as part of the ongoing AI-reported vulnerability apocalypse. This release was definitely worth</p><p><strong>为什么值得看：</strong>延迟两个月的原因是漏洞修复量而非功能排期；新命令把一致性从应用层下推到数据库，改的是调用契约。</p><p><strong>对我意味着什么：</strong>对 WinVM 自托管与数据基建直接相关：standby 读路径可省掉应用层等回放逻辑，但要先确认 0.1s 超时与驱动兼容性。</p><p><strong>下一步：</strong>同一读写用例在 standby 连跑 3 次；若读到旧值次数大于 0，则判定 read-your-writes 未生效，回退主库读。</p><p>来源：Simon Willison&#x27;s Weblog · 发布于 2026-11-19T20:43 UTC · 归类：dev-tools</p><p>→ <a href=\"https://simonwillison.net/2026/Nov/19/postgresql-19\" rel=\"noopener noreferrer\">https://simonwillison.net/2026/Nov/19/postgresql-19</a></p>",
+      "date_published": "2026-11-19T20:43:57Z",
+      "date_modified": "2026-11-19T23:02:04.805768Z",
+      "tags": [
+        "dev-tools",
+        "开发者工具与版本"
+      ],
+      "_daily_info": {
+        "score": 77.95,
+        "source": "Simon Willison's Weblog",
+        "cluster_id": "4ba1303d2ee21d77",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-20:d664b5a459f3111e",
+      "url": "https://github.com/mjmirza/app-store-compliance",
+      "title": "mjmirza/app-store-compliance",
+      "summary": "开源仓库 app-store-compliance 提供合规预提交 guard，收录 117 条拒收模式、跟踪 95 个法律期限，并带一个给 AI coding agents 的 skill。 — 把合规做成可执行规则集而非文档，117 条模式可逐条回查；但规则会随平台条款过期，星数不等于覆盖率。",
+      "content_html": "<p><strong>开源仓库 app-store-compliance 提供合规预提交 guard，收录 117 条拒收模式、跟踪 95 个法律期限，并带一个给 AI coding agents 的 skill。</strong></p><p>关键数字：117 / 95 / 1,500 / 115 · 相关方：app-store-compliance / App Store / Google Play / EU AI Act / DSA / COPPA</p><p>The &quot;app-store-compliance&quot; repository provides a tool for verifying application compliance with App Store and Google Play guidelines. It features a pre-submission guard containing 117 documented rejection patterns and fixes, privacy manifest and data safety checks, and tracking for 95 legal deadline</p><p><strong>为什么值得看：</strong>把合规做成可执行规则集而非文档，117 条模式可逐条回查；但规则会随平台条款过期，星数不等于覆盖率。</p><p><strong>对我意味着什么：</strong>对 skill 与 agent 部署最可直接借鉴：把规则条数、期限与修复建议做成门禁数据，过期规则要有淘汰阈值。</p><p><strong>下一步：</strong>抽样 10 条拒收模式对照官方条款；若逐条命中的少于 8 条，则判定规则集过期，不接入预提交 guard。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-19T11:53 UTC · 归类：agent-engineering</p><p>→ <a href=\"https://github.com/mjmirza/app-store-compliance\" rel=\"noopener noreferrer\">https://github.com/mjmirza/app-store-compliance</a></p>",
+      "date_published": "2026-11-19T11:53:01.890000Z",
+      "date_modified": "2026-11-19T23:02:04.805768Z",
+      "tags": [
+        "agent-engineering",
+        "Agent 与工程"
+      ],
+      "_daily_info": {
+        "score": 77.23,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "d664b5a459f3111e",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-20:f82f652bb9cb949d",
+      "url": "https://dev.to/rock_boy_c59c5ced86a77a4d/zero-cost-2026-stack-n8n-workflow-automation-vs-activepieces-28-free-tier-tools-2026-11-19-5bbe",
+      "title": "Zero-Cost 2026 Stack: n8n Workflow Automation vs Activepieces & 28 Free-Tier Tools (2026-11-19)",
+      "summary": "一篇 dev.to 清单文把 n8n 与 Activepieces 并列，宣称覆盖 28 个免费层工具，摘要只截取了 n8n 的开源介绍。 — 28 是作者自封的清单计数，不等于可用工具数，也不含各工具免费额度口径。",
+      "content_html": "<p><strong>一篇 dev.to 清单文把 n8n 与 Activepieces 并列，宣称覆盖 28 个免费层工具，摘要只截取了 n8n 的开源介绍。</strong></p><p>关键数字：28 · 相关方：n8n / Activepieces</p><p>This week&#x27;s strongest builder signal—&quot;n8n-io/n8n — Fair-code workflow automation platform with native AI capabilities. Combine visual… 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>28 是作者自封的清单计数，不等于可用工具数，也不含各工具免费额度口径。</p><p><strong>对我意味着什么：</strong>对 skill 选型是提醒：接入清单类工具前先核对免费层额度与自托管条件，别按标题数量估成本。</p><p><strong>下一步：</strong>逐个打开清单里 28 个工具的定价页；若可核验免费额度的少于 20 个，则判定该清单不可作为选型依据。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-19T20:08 UTC · 归类：agent-engineering</p><p>证据状态：未独立验证</p><p>→ <a href=\"https://dev.to/rock_boy_c59c5ced86a77a4d/zero-cost-2026-stack-n8n-workflow-automation-vs-activepieces-28-free-tier-tools-2026-11-19-5bbe\" rel=\"noopener noreferrer\">https://dev.to/rock_boy_c59c5ced86a77a4d/zero-cost-2026-stack-n8n-workflow-automation-vs-activepieces-28-free-tier-tools-2026-11-19-5bbe</a></p>",
+      "date_published": "2026-11-19T20:08:23.401000Z",
+      "date_modified": "2026-11-19T23:02:04.805768Z",
+      "tags": [
+        "agent-engineering",
+        "Agent 与工程"
+      ],
+      "_daily_info": {
+        "score": 80.54,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "f82f652bb9cb949d",
+        "ai_status": "ok"
+      }
+    },
+    {
       "id": "tag:daily-info.local,2026-11-19:17ed1763602098a9",
       "url": "https://techcrunch.com/2026/11/18/spend-management-platform-payhawk-announces-280m-raise-2b-valuation",
       "title": "Spend management platform Payhawk announces $280M raise, 2B valuation",
@@ -1618,291 +1903,6 @@
         "score": 75.86,
         "source": "HN Algolia front_page (points/comments)",
         "cluster_id": "8fdb0296ea11e78c",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-13:1704b1c03cb59add",
-      "url": "https://status.cloud.microsoft/",
-      "title": "Service degradation on Microsoft 365",
-      "summary": "Microsoft 365 服务降级事件在社区讨论中获得 357 分与 343 条评论并汇总多个状态页链接 — 单一厂商办公套件故障被 343 条评论快速放大，说明协作链路可用性依赖外部状态而非本地冗余",
-      "content_html": "<p><strong>Microsoft 365 服务降级事件在社区讨论中获得 357 分与 343 条评论并汇总多个状态页链接</strong></p><p>关键数字：357 / 343 · 相关方：Microsoft 365</p><p>https://www.abc.net.au/news/2026-11-13/microsoft-outage-affe...https://www.reddit.com/r/sysadmin/comments/1xuje83/microsoft...https://downdetector.com/status/microsoft-365/</p><p><strong>为什么值得看：</strong>单一厂商办公套件故障被 343 条评论快速放大，说明协作链路可用性依赖外部状态而非本地冗余</p><p><strong>对我意味着什么：</strong>automation 定时任务若依赖 Microsoft 365 侧通知或日历，缺少降级兜底会让分发链在故障日静默失败</p><p><strong>下一步：</strong>对照状态页复现一次：若降级持续超过 2 小时且告警未触达，则判定需为外部依赖加超时与本地留痕</p><p>来源：HN Algolia front_page (points/comments) · 发布于 2026-11-12T18:20 UTC · 归类：community</p><p>证据状态：未独立验证</p><p>→ <a href=\"https://status.cloud.microsoft/\" rel=\"noopener noreferrer\">https://status.cloud.microsoft/</a></p>",
-      "date_published": "2026-11-12T18:20:48Z",
-      "date_modified": "2026-11-12T23:18:18.237901Z",
-      "tags": [
-        "community",
-        "社区与观点"
-      ],
-      "_daily_info": {
-        "score": 77.96,
-        "source": "HN Algolia front_page (points/comments)",
-        "cluster_id": "1704b1c03cb59add",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-13:05a61ad7e4a9114b",
-      "url": "https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement",
-      "title": "Actions for ARM32 Linux & Windows retirement",
-      "summary": "GitHub Actions 托管 runner 将在 8th Dec 2026 前停止 Windows 与 Linux 上的 ARM32 作业，此前已结束 node20 支持 — CI 运行时的架构与 Node 版本被连续收窄，跨架构构建链需要提前改 runner 标签",
-      "content_html": "<p><strong>GitHub Actions 托管 runner 将在 8th Dec 2026 前停止 Windows 与 Linux 上的 ARM32 作业，此前已结束 node20 支持</strong></p><p>关键数字：ARM32 / node20 · 相关方：GitHub Actions / ARM32 / node20 / Linux / Windows</p><p>GitHub Actions hosted runners will be ending support for ARM32 job execution on Windows and Linux by 8th Dec 2026. This follows our end of support for node20 where Node… The post Actions for ARM32 Linux &amp; Windows retirement appeared first on The GitHub Blog.</p><p><strong>为什么值得看：</strong>CI 运行时的架构与 Node 版本被连续收窄，跨架构构建链需要提前改 runner 标签</p><p><strong>对我意味着什么：</strong>Pages workflow 与本地脚本若硬编码 ARM32 或 node20，下一次 runner 镜像更新会直接让构建失败</p><p><strong>下一步：</strong>跑一次 workflow 矩阵：若 arm32 与 node20 作业各出现 1 次以上失败，则判定必须迁移 runner 标签</p><p>来源：GitHub Changelog · 发布于 2026-11-12T20:59 UTC · 归类：docs-changelog</p><p>→ <a href=\"https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement\" rel=\"noopener noreferrer\">https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement</a></p>",
-      "date_published": "2026-11-12T20:59:36Z",
-      "date_modified": "2026-11-12T23:18:18.237901Z",
-      "tags": [
-        "docs-changelog",
-        "文档与变更"
-      ],
-      "_daily_info": {
-        "score": 74.82,
-        "source": "GitHub Changelog",
-        "cluster_id": "05a61ad7e4a9114b",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-13:1e1f91e95e92e49a",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.323",
-      "title": "v2.1.323",
-      "summary": "Claude Code v2.1.323 新增实验性 Code Mode，让 Claude 写 JavaScript 调用工具，并给 plugin.json 增加引擎版本约束 — 工具调用从固定 schema 变成生成代码，插件版本约束同步收紧，说明扩展点稳定性被当成发布闸门",
-      "content_html": "<p><strong>Claude Code v2.1.323 新增实验性 Code Mode，让 Claude 写 JavaScript 调用工具，并给 plugin.json 增加引擎版本约束</strong></p><p>关键数字：2.1.323 · 相关方：Code Mode / JavaScript / plugin.json / Claude</p><p>What&#x27;s changed Added Code Mode, an experimental opt-in in which Claude writes JavaScript to call its tools; see https://code.claude.com/docs/en/code-mode to turn it on, or to turn it off for an organization Added engines[&quot;claude-code&quot;] to plugin.json: plugins outside their stated Claude Code version</p><p><strong>为什么值得看：</strong>工具调用从固定 schema 变成生成代码，插件版本约束同步收紧，说明扩展点稳定性被当成发布闸门</p><p><strong>对我意味着什么：</strong>WorkBuddy 的 skill 与 MCP 扩展点若跟随动态调用，需在插件清单固化引擎版本范围，否则升级会出现不可加载</p><p><strong>下一步：</strong>跑一次隔离环境 smoke：启用 Code Mode 后若插件加载失败数为 0 且 engines 范围校验命中，才判定可接入</p><p>来源：claude-code Releases · 发布于 2026-11-12T22:12 UTC · 归类：docs-changelog</p><p>→ <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.323\" rel=\"noopener noreferrer\">https://github.com/anthropics/claude-code/releases/tag/v2.1.323</a></p>",
-      "date_published": "2026-11-12T22:12:13Z",
-      "date_modified": "2026-11-12T23:18:18.237901Z",
-      "tags": [
-        "docs-changelog",
-        "文档与变更"
-      ],
-      "_daily_info": {
-        "score": 78.9,
-        "source": "claude-code Releases",
-        "cluster_id": "1e1f91e95e92e49a",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-12:6f3c74a04fea158f",
-      "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips",
-      "title": "With $720M round, Britain’s Fractile gets a leg up in the race for AI chips",
-      "summary": "英国 Fractile 完成 $720M 融资，进入专用 AI 芯片赛道的头部融资行列 — 资本继续为推理侧专用芯片单独定价，说明通用算力之外的成本优化仍是独立赛道。",
-      "content_html": "<p><strong>英国 Fractile 完成 $720M 融资，进入专用 AI 芯片赛道的头部融资行列</strong></p><p>关键数字：$720M · 相关方：Fractile / AI chips</p><p>Fractile has now become one of the top-funded players in the race for purpose-built AI chips. 〔Folo分类:美、中、港投融资市场〕</p><p><strong>为什么值得看：</strong>资本继续为推理侧专用芯片单独定价，说明通用算力之外的成本优化仍是独立赛道。</p><p><strong>对我意味着什么：</strong>对数据基建预算暂无直接影响：无公开量产与单价数据，不能据此重算推理成本，仅记录供给侧资本动向。</p><p><strong>下一步：</strong>等其公布流片或量产节点，若给出每 TOPS 成本且低于现有云单价 20%，才纳入算力预算假设。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-11T19:34 UTC · 归类：industry-capital</p><p>→ <a href=\"https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips\" rel=\"noopener noreferrer\">https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips</a></p>",
-      "date_published": "2026-11-11T19:34:55.857000Z",
-      "date_modified": "2026-11-11T22:57:12.685301Z",
-      "tags": [
-        "industry-capital",
-        "产业与资本"
-      ],
-      "_daily_info": {
-        "score": 75.56,
-        "source": "Folo 订阅池基线（人工筛选信源）",
-        "cluster_id": "6f3c74a04fea158f",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-12:642481bfe9c3357a",
-      "url": "https://www.yankodesign.com/2026/11/11/knits-999-dolby-atmos-soundbar-comes-wrapped-in-a-woven-sweater",
-      "title": "Knit’s $999 Dolby Atmos soundbar comes wrapped in a woven sweater",
-      "summary": "Knit 推出标价 $999 的 Dolby Atmos 音箱，用针织外套替代常见黑色塑料外壳 — 把材料与外观写成主要差异点，$999 的定价说明设计溢价被单独计价，而非声道或解码规格。",
-      "content_html": "<p><strong>Knit 推出标价 $999 的 Dolby Atmos 音箱，用针织外套替代常见黑色塑料外壳</strong></p><p>关键数字：$999 · 相关方：Knit / Dolby Atmos</p><p>Look under your TV right now. There’s a good chance a black plastic rectangle is sitting there, wearing a fine layer of dust and a logo you… 〔Folo分类:新奇产品〕</p><p><strong>为什么值得看：</strong>把材料与外观写成主要差异点，$999 的定价说明设计溢价被单独计价，而非声道或解码规格。</p><p><strong>对我意味着什么：</strong>对 WinVM 与数据基建暂无直接影响；仅作为硬件消费品的定价参照，不改变现有采集与部署判断。</p><p><strong>下一步：</strong>核对该产品是否公开频响与声道实测，若 ≥2 项独立实测与宣传一致，才把 $999 记为可比规格档。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-11T22:30 UTC · 归类：community</p><p>→ <a href=\"https://www.yankodesign.com/2026/11/11/knits-999-dolby-atmos-soundbar-comes-wrapped-in-a-woven-sweater\" rel=\"noopener noreferrer\">https://www.yankodesign.com/2026/11/11/knits-999-dolby-atmos-soundbar-comes-wrapped-in-a-woven-sweater</a></p>",
-      "date_published": "2026-11-11T22:30:55.563000Z",
-      "date_modified": "2026-11-11T22:57:12.685301Z",
-      "tags": [
-        "community",
-        "社区与观点"
-      ],
-      "_daily_info": {
-        "score": 76.07,
-        "source": "Folo 订阅池基线（人工筛选信源）",
-        "cluster_id": "642481bfe9c3357a",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-12:71cb7085c6189427",
-      "url": "https://news.ycombinator.com/item?id=50455811",
-      "title": "Launch HN: Pomerado (YC F26) – Turn any website into an MCP for agents",
-      "summary": "Pomerado 以 YC F26 身份发布，把任意网站转成确定性、自愈的 API 供 agent 调用，强调瓶颈不在智能而在接入 — 把网站封装成确定性 API 直指 agent 接入的稳定性问题，与同日服务方封禁 agent 形成正反两面。",
-      "content_html": "<p><strong>Pomerado 以 YC F26 身份发布，把任意网站转成确定性、自愈的 API 供 agent 调用，强调瓶颈不在智能而在接入</strong></p><p>关键数字：F26 / 39 / 34 · 相关方：Pomerado / MCP / HN / Alan / Akshay</p><p>Hi HN, we’re Alan and Akshay from Pomerado (https://pomerado.ai/). We connect your agents to any website by turning sites into deterministic, self-healing APIs in minutes, fully self-serve.Agents are no longer limited by their intelligence, but rather by their ability to interact with systems. Airli</p><p><strong>为什么值得看：</strong>把网站封装成确定性 API 直指 agent 接入的稳定性问题，与同日服务方封禁 agent 形成正反两面。</p><p><strong>对我意味着什么：</strong>对 MCP 与 connector 落地有直接影响：自愈 API 的失败重试与版本漂移策略可对照现有 connector 契约逐条核对。</p><p><strong>下一步：</strong>选 3 个结构不同的站点跑封装，若 3/3 在页面改版后 24 小时内自愈成功，判定可进 connector 候选。</p><p>来源：HN Algolia front_page (points/comments) · 发布于 2026-11-11T17:11 UTC · 归类：community</p><p>→ <a href=\"https://news.ycombinator.com/item?id=50455811\" rel=\"noopener noreferrer\">https://news.ycombinator.com/item?id=50455811</a></p>",
-      "date_published": "2026-11-11T17:11:56Z",
-      "date_modified": "2026-11-11T22:57:12.685301Z",
-      "tags": [
-        "community",
-        "社区与观点"
-      ],
-      "_daily_info": {
-        "score": 76.29,
-        "source": "HN Algolia front_page (points/comments)",
-        "cluster_id": "71cb7085c6189427",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-12:1a98b3ef3c0bae51",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw%3D%3D&mid=2247942861&idx=2&sn=32ea257fcc98924cf226b76eb6251ce8&chksm=e9224e5423abd74c754752ada7eaae4f23634588f52ab0f8674bc084b2211f2f90c522245433&scene=0&xtrack=1",
-      "title": "无人拖拉机真正下地了！新疆大田深翻30+厘米，丘沃智能开物™系统首次完整曝光",
-      "summary": "丘沃智能开物™ L4 无人作业套件在新疆芳草湖农场让临工 3004 混动拖拉机完成无人深翻，耕深超 30 厘米、速度 11.8km/h — 少见地同时给出耕深与行进速度两项作业读数，把无人农机从演示视频推进到可核对的田间指标。",
-      "content_html": "<p><strong>丘沃智能开物™ L4 无人作业套件在新疆芳草湖农场让临工 3004 混动拖拉机完成无人深翻，耕深超 30 厘米、速度 11.8km/h</strong></p><p>关键数字：30厘米 / 11.8km/h / 3004 / L4 · 相关方：丘沃智能 / 开物 / 临工3004 / 卓品智能 / ISOBUS / 新疆芳草湖农场</p><p>机器人、AI驾驶、AI｜丘沃智能携开物™ L4无人作业套件，首次在新疆芳草湖农场实现临工3004混动拖拉机无人深翻作业，耕深超30厘米、速度达11.8km/h；11月2日与卓品智能启动农具控制器及边缘域控深度合作，聚焦ISOBUS标准，布局全球农具控制器矩阵；首家直营旗舰店将于11月底落地新疆芳草湖农场，加速无人农机商业化落地。</p><p><strong>为什么值得看：</strong>少见地同时给出耕深与行进速度两项作业读数，把无人农机从演示视频推进到可核对的田间指标。</p><p><strong>对我意味着什么：</strong>对 WinVM 与数据基建暂无直接影响；但 L4 套件加边缘域控的架构可对照本地无人值守任务的容错设计。</p><p><strong>下一步：</strong>核对该作业是否有第三方测产报告，若 30 厘米耕深与 11.8km/h 在同一地块连续 3 天复现，判定指标可引用。</p><p>来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-11T22:20 UTC · 归类：deep-read</p><p>→ <a href=\"https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw%3D%3D&amp;mid=2247942861&amp;idx=2&amp;sn=32ea257fcc98924cf226b76eb6251ce8&amp;chksm=e9224e5423abd74c754752ada7eaae4f23634588f52ab0f8674bc084b2211f2f90c522245433&amp;scene=0&amp;xtrack=1\" rel=\"noopener noreferrer\">https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw%3D%3D&amp;mid=2247942861&amp;idx=2&amp;sn=32ea257fcc98924cf226b76eb6251ce8&amp;chksm=e9224e5423abd74c754752ada7eaae4f23634588f52ab0f8674bc084b2211f2f90c522245433&amp;scene=0&amp;xtrack=1</a></p>",
-      "date_published": "2026-11-11T22:20:00Z",
-      "date_modified": "2026-11-11T22:57:12.685301Z",
-      "tags": [
-        "deep-read",
-        "深度长文"
-      ],
-      "_daily_info": {
-        "score": 79.13,
-        "source": "智源社区 · 最新分享（匿名 API）",
-        "cluster_id": "1a98b3ef3c0bae51",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-12:5457d31dcad4910e",
-      "url": "https://dev.to/yolow92/yolow64-02-a-new-decode-kernel-that-beats-turbo-base64-under-full-validation-55nn",
-      "title": "yolow64 0.2: a new decode kernel that beats Turbo-Base64 under full validation",
-      "summary": "yolow64 0.2 发布新解码内核，声称在完整校验下优于 Turbo-Base64，0.2.1 为仅改文档的版本 — 把 full validation 写进对比条件，说明性能结论依赖校验强度；只比吞吐不看校验会误判解码内核。",
-      "content_html": "<p><strong>yolow64 0.2 发布新解码内核，声称在完整校验下优于 Turbo-Base64，0.2.1 为仅改文档的版本</strong></p><p>关键数字：0.2 / 0.1 / 0.2.1 / Nov 9 · 相关方：yolow64 / Turbo-Base64 / PageSift / Base64</p><p>yolow64 is the Base64 codec extracted from PageSift, published as 0.1 on Nov 9. Version 0.2 (plus a docs-only 0.2.1) is out, and the… 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>把 full validation 写进对比条件，说明性能结论依赖校验强度；只比吞吐不看校验会误判解码内核。</p><p><strong>对我意味着什么：</strong>对数据基建与 automation 有间接影响：编解码是采集归一链路的底层依赖，升级前需回归校验路径而非只看基准数字。</p><p><strong>下一步：</strong>用同一份 10000 条样本跑 0.1 与 0.2，若开启完整校验后仍快 ≥10% 且解码结果全等，判定可升级。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-11T15:32 UTC · 归类：docs-changelog</p><p>→ <a href=\"https://dev.to/yolow92/yolow64-02-a-new-decode-kernel-that-beats-turbo-base64-under-full-validation-55nn\" rel=\"noopener noreferrer\">https://dev.to/yolow92/yolow64-02-a-new-decode-kernel-that-beats-turbo-base64-under-full-validation-55nn</a></p>",
-      "date_published": "2026-11-11T15:32:02.218000Z",
-      "date_modified": "2026-11-11T22:57:12.685301Z",
-      "tags": [
-        "docs-changelog",
-        "文档与变更"
-      ],
-      "_daily_info": {
-        "score": 76.21,
-        "source": "Folo 订阅池基线（人工筛选信源）",
-        "cluster_id": "5457d31dcad4910e",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-12:8e8c59556028c219",
-      "url": "https://www.reddit.com/r/opensource/comments/1xtsygi/no_ai_release_qol_improvements_fixes_refactors",
-      "title": "[no ai] Release QoL Improvements, Fixes & Refactors v1.4.0.9 · DCTS (decentralized chat platform)",
-      "summary": "DCTS 去中心化聊天平台发布 v1.4.0.9，标注为体验改进、修复与重构，并在标题显式打出 [no ai] 标签 — 显式声明无 AI 参与开发，把生成式工具的使用边界变成版本发布信息的一部分，是少见的可用来源标注。",
-      "content_html": "<p><strong>DCTS 去中心化聊天平台发布 v1.4.0.9，标注为体验改进、修复与重构，并在标题显式打出 [no ai] 标签</strong></p><p>关键数字：v1.4.0.9 · 相关方：DCTS / decentralized chat platform / HackTheDev</p><p>submitted by /u/HackTheDev [link] [comments] 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>显式声明无 AI 参与开发，把生成式工具的使用边界变成版本发布信息的一部分，是少见的可用来源标注。</p><p><strong>对我意味着什么：</strong>对 skill 与 automation 暂无直接影响；但把 AI 使用写进发布说明的做法可借鉴到产物溯源字段。</p><p><strong>下一步：</strong>对照其 changelog 逐条核对 10 项改动，若 ≥8 项能定位到具体提交，判定 [no ai] 标注可引用。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-11T20:38 UTC · 归类：dev-tools</p><p>→ <a href=\"https://www.reddit.com/r/opensource/comments/1xtsygi/no_ai_release_qol_improvements_fixes_refactors\" rel=\"noopener noreferrer\">https://www.reddit.com/r/opensource/comments/1xtsygi/no_ai_release_qol_improvements_fixes_refactors</a></p>",
-      "date_published": "2026-11-11T20:38:08.455000Z",
-      "date_modified": "2026-11-11T22:57:12.685301Z",
-      "tags": [
-        "dev-tools",
-        "开发者工具与版本"
-      ],
-      "_daily_info": {
-        "score": 77.89,
-        "source": "Folo 订阅池基线（人工筛选信源）",
-        "cluster_id": "8e8c59556028c219",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-12:4f325e87353de30b",
-      "url": "https://dev.to/ahmad_anas_0edb1a3236362e/how-i-built-an-arabic-first-shoplifting-detector-with-yolov8-and-qwen2-vl-on-8gb-ram-1i40",
-      "title": "How I Built an Arabic-First Shoplifting Detector with YOLOv8 and Qwen2-VL (on 8GB RAM)",
-      "summary": "作者用 YOLOv8 与 Qwen2-VL 在 8GB RAM 上搭阿拉伯语优先的盗窃检测，对标每月 $50-200 的商用方案 — 把 2-3% 的年营收损耗与每月 $50-200 的替代成本并排给出，量化了端侧自建方案的动机。",
-      "content_html": "<p><strong>作者用 YOLOv8 与 Qwen2-VL 在 8GB RAM 上搭阿拉伯语优先的盗窃检测，对标每月 $50-200 的商用方案</strong></p><p>关键数字：YOLOv8 / Qwen2-VL / 8GB / 2-3% / $50-200 · 相关方：YOLOv8 / Qwen2-VL / Everseen / Veesion</p><p>Retail theft costs small stores 2-3% of annual revenue. Existing AI solutions (Everseen, Veesion) cost $50-200/month and don&#x27;t support… 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>把 2-3% 的年营收损耗与每月 $50-200 的替代成本并排给出，量化了端侧自建方案的动机。</p><p><strong>对我意味着什么：</strong>对端侧 agent 部署有参考：8GB RAM 是明确的硬件门槛，可据此判断本地多模态推理是否值得替换现有云侧调用。</p><p><strong>下一步：</strong>在 8GB 机器上跑 100 帧回归，若误报率低于现有云侧方案且单帧耗时 &lt;200ms，判定可进本地候选。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-11T21:53 UTC · 归类：dev-tools</p><p>→ <a href=\"https://dev.to/ahmad_anas_0edb1a3236362e/how-i-built-an-arabic-first-shoplifting-detector-with-yolov8-and-qwen2-vl-on-8gb-ram-1i40\" rel=\"noopener noreferrer\">https://dev.to/ahmad_anas_0edb1a3236362e/how-i-built-an-arabic-first-shoplifting-detector-with-yolov8-and-qwen2-vl-on-8gb-ram-1i40</a></p>",
-      "date_published": "2026-11-11T21:53:14.752000Z",
-      "date_modified": "2026-11-11T22:57:12.685301Z",
-      "tags": [
-        "dev-tools",
-        "开发者工具与版本"
-      ],
-      "_daily_info": {
-        "score": 78.8,
-        "source": "Folo 订阅池基线（人工筛选信源）",
-        "cluster_id": "4f325e87353de30b",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-12:645f1651bd53c9c8",
-      "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights",
-      "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
-      "summary": "United Airlines 禁止 AI agent 代替旅客订票，HN 条目获 162 分与 150 条评论 — 服务方直接关闭代订入口，说明 agent 落地的阻力先出现在被调系统的准入侧，而不是模型能力侧。",
-      "content_html": "<p><strong>United Airlines 禁止 AI agent 代替旅客订票，HN 条目获 162 分与 150 条评论</strong></p><p>关键数字：162 / 150 · 相关方：United Airlines / AI agents</p><p><strong>为什么值得看：</strong>服务方直接关闭代订入口，说明 agent 落地的阻力先出现在被调系统的准入侧，而不是模型能力侧。</p><p><strong>对我意味着什么：</strong>对 MCP / A2A 与 connector 设计有直接影响：外部系统授权应写成显式失败分支，不能假设拿到凭证即可调用。</p><p><strong>下一步：</strong>在现有 connector 里模拟 403 / 需人工确认 / 限流 3 类拒绝响应，若 3/3 都落到可回滚状态，判定准入分支合格。</p><p>来源：HN Algolia front_page (points/comments) · 发布于 2026-11-11T21:24 UTC · 归类：agent-engineering</p><p>→ <a href=\"https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights\" rel=\"noopener noreferrer\">https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights</a></p>",
-      "date_published": "2026-11-11T21:24:35Z",
-      "date_modified": "2026-11-11T22:57:12.685301Z",
-      "tags": [
-        "agent-engineering",
-        "Agent 与工程"
-      ],
-      "_daily_info": {
-        "score": 78.37,
-        "source": "HN Algolia front_page (points/comments)",
-        "cluster_id": "645f1651bd53c9c8",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-12:53d5cdba12bea358",
-      "url": "https://simonwillison.net/2026/Nov/11/aws-emulator",
-      "title": "aws-emulator",
-      "summary": "AWS 推出官方 aws-emulator，可在本地克隆其多项服务跑测试而无需付费 API key，Rust 代码由 agent 群写出 29,684 次提交 — 官方模拟器把集成测试从付费凭据里解耦，29,684 次提交也把 agent 群写代码放到可审计的规模上。",
-      "content_html": "<p><strong>AWS 推出官方 aws-emulator，可在本地克隆其多项服务跑测试而无需付费 API key，Rust 代码由 agent 群写出 29,684 次提交</strong></p><p>关键数字：29,684 · 相关方：aws-emulator / AWS / Rust</p><p>aws-emulator Finally, an official emulator from AWS to run tests against a local clone of their many different services without having to provision a paid API key to do so. It&#x27;s written in Rust by a huge swarm of agents - 29,684 commits in the first three weeks of the project. Swaminathan (Swami) Si</p><p><strong>为什么值得看：</strong>官方模拟器把集成测试从付费凭据里解耦，29,684 次提交也把 agent 群写代码放到可审计的规模上。</p><p><strong>对我意味着什么：</strong>对 automation 与 agent 部署有直接影响：本地服务克隆可作为 CI 依赖替代项，减少无人值守链路对外部凭据的依赖。</p><p><strong>下一步：</strong>把 1 条现有 AWS 集成用例迁到本地克隆跑 10 次，若 10/10 通过且全程无需 API key，判定可替换云端联调。</p><p>来源：Simon Willison&#x27;s Weblog · 发布于 2026-11-11T21:18 UTC · 归类：agent-engineering</p><p>→ <a href=\"https://simonwillison.net/2026/Nov/11/aws-emulator\" rel=\"noopener noreferrer\">https://simonwillison.net/2026/Nov/11/aws-emulator</a></p>",
-      "date_published": "2026-11-11T21:18:30Z",
-      "date_modified": "2026-11-11T22:57:12.685301Z",
-      "tags": [
-        "agent-engineering",
-        "Agent 与工程"
-      ],
-      "_daily_info": {
-        "score": 78.37,
-        "source": "Simon Willison's Weblog",
-        "cluster_id": "53d5cdba12bea358",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-12:624a305adfa41ec6",
-      "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api",
-      "title": "Gemini Decisions API",
-      "summary": "Google 以 Gemini Decision 1 加入决策模型类别，支持与 Jev 相同的三类问题（yes/no、choice、rubric-scoring） — 把问答式模型收窄成三类固定输出，等于用输出契约换可判定性，比自由文本更适合写断言。",
-      "content_html": "<p><strong>Google 以 Gemini Decision 1 加入决策模型类别，支持与 Jev 相同的三类问题（yes/no、choice、rubric-scoring）</strong></p><p>关键数字：Gemini Decision 1 · 相关方：Gemini Decisions API / Google / Jev / OpenAI</p><p>Gemini Decisions API Google join Jev and OpenAI in the decision model category with &quot;Gemini Decision 1&quot;. This new model API is almost identical to Jev: it supports the same three types of questions (yes/no, choice, and rubric-scoring) and even reuses Jev&#x27;s term &quot;Noul&quot; for a yes/no question. It&#x27;s pri</p><p><strong>为什么值得看：</strong>把问答式模型收窄成三类固定输出，等于用输出契约换可判定性，比自由文本更适合写断言。</p><p><strong>对我意味着什么：</strong>对 WorkBuddy 的 automation 判定环节有直接参考：固定三类输出可对照现有核验闸门，减少解析歧义。</p><p><strong>下一步：</strong>用 20 条已知答案的判定题跑该 API，若三类输出格式 20/20 合法且结论与人工标注一致 ≥18 条，判定可进核验链路。</p><p>来源：Simon Willison&#x27;s Weblog · 发布于 2026-11-11T22:03 UTC · 归类：ai-models</p><p>→ <a href=\"https://simonwillison.net/2026/Nov/11/gemini-decisions-api\" rel=\"noopener noreferrer\">https://simonwillison.net/2026/Nov/11/gemini-decisions-api</a></p>",
-      "date_published": "2026-11-11T22:03:25Z",
-      "date_modified": "2026-11-11T22:57:12.685301Z",
-      "tags": [
-        "ai-models",
-        "模型与研究"
-      ],
-      "_daily_info": {
-        "score": 77.32,
-        "source": "Simon Willison's Weblog",
-        "cluster_id": "624a305adfa41ec6",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-12:88494da4c56beb64",
-      "url": "https://dev.to/resk/how-an-llm-benchmark-produces-comparable-numbers-inside-lforlas-llm-evaluation-47o5",
-      "title": "How an LLM Benchmark Produces Comparable Numbers: Inside LFORLA's LLM Evaluation",
-      "summary": "LFORLA 的 Capability Retention 基准用 20 个确定性任务、同一套提示词跑每个模型，讨论如何让评测数字可比 — 把确定性任务与统一提示词当成可比性前提，等于承认榜单差异多来自评测口径而非模型本身。",
-      "content_html": "<p><strong>LFORLA 的 Capability Retention 基准用 20 个确定性任务、同一套提示词跑每个模型，讨论如何让评测数字可比</strong></p><p>关键数字：20 · 相关方：LFORLA / Capability Retention / LLM</p><p>TL;DR: LFORLA&#x27;s Capability Retention benchmark runs 20 deterministic tasks through every model with identical prompts, scores them with… 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>把确定性任务与统一提示词当成可比性前提，等于承认榜单差异多来自评测口径而非模型本身。</p><p><strong>对我意味着什么：</strong>对 automation 与 skill 评测有直接影响：现有回归集应固化提示词版本与任务数，否则跨日结果不可比。</p><p><strong>下一步：</strong>固化同一组 20 条提示词跑 3 轮，若三轮得分极差 &lt;2 个百分点，判定该回归集可作为跨版本基线。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-11T10:00 UTC · 归类：ai-models</p><p>→ <a href=\"https://dev.to/resk/how-an-llm-benchmark-produces-comparable-numbers-inside-lforlas-llm-evaluation-47o5\" rel=\"noopener noreferrer\">https://dev.to/resk/how-an-llm-benchmark-produces-comparable-numbers-inside-lforlas-llm-evaluation-47o5</a></p>",
-      "date_published": "2026-11-11T10:00:42.952000Z",
-      "date_modified": "2026-11-11T22:57:12.685301Z",
-      "tags": [
-        "ai-models",
-        "模型与研究"
-      ],
-      "_daily_info": {
-        "score": 74.92,
-        "source": "Folo 订阅池基线（人工筛选信源）",
-        "cluster_id": "88494da4c56beb64",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-12:4ca7aee3cb7d2f9b",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw%3D%3D&mid=2247942861&idx=1&sn=41d0336965ce7b66565918f5d29e0dd8&chksm=e9f26d6615223de84b0445235e0ab28ed341a882ea76a8605119f697ddc73487dd4166ea0227&scene=0&xtrack=1",
-      "title": "Gemini 4 Carbon连夜上桌！力压Fable 5.2花费仅一半，还挖出了PHP同级漏洞…",
-      "summary": "谷歌上线 Gemini 4 Carbon 模型 API，向每月 100 美元 Ultra 订阅用户开放，摘要称其对标 Claude Opus 5.5 与 GPT-6 Astra — 定价以每月订阅档而非按量公开，说明旗舰能力先做可得性分层；对标对象写进摘要而非跑分，比较口径尚不可核验。",
-      "content_html": "<p><strong>谷歌上线 Gemini 4 Carbon 模型 API，向每月 100 美元 Ultra 订阅用户开放，摘要称其对标 Claude Opus 5.5 与 GPT-6 Astra</strong></p><p>关键数字：100美元 / 5.5 / 5.2 · 相关方：谷歌 / Gemini 4 Carbon / Claude Opus 5.5 / GPT-6 Astra / Ultra</p><p>安全、AI｜谷歌正式上线Gemini 4 Carbon模型API，并向每月100美元的Ultra订阅用户开放。该模型被定位为对标Claude Opus 5.5与GPT-6 Astra的旗舰级AI，旨在重夺大模型竞争主动权。目前可实际体验，谷歌已用其分析阿波罗登月舱案例，验证能力。</p><p><strong>为什么值得看：</strong>定价以每月订阅档而非按量公开，说明旗舰能力先做可得性分层；对标对象写进摘要而非跑分，比较口径尚不可核验。</p><p><strong>对我意味着什么：</strong>对 WorkBuddy 模型路由与 skill 调用暂无直接影响：单一匿名来源、无公开评测集，不能据此调整默认档，仅记录为供给侧可得性变化。</p><p><strong>下一步：</strong>等官方模型卡或 API 文档，若 100 美元档与 5.5 / 5.2 的对标结论同时被一手来源确认，才写入候选路由表。</p><p>来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-11T22:30 UTC · 归类：ai-models</p><p>证据状态：未独立验证</p><p>→ <a href=\"https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw%3D%3D&amp;mid=2247942861&amp;idx=1&amp;sn=41d0336965ce7b66565918f5d29e0dd8&amp;chksm=e9f26d6615223de84b0445235e0ab28ed341a882ea76a8605119f697ddc73487dd4166ea0227&amp;scene=0&amp;xtrack=1\" rel=\"noopener noreferrer\">https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw%3D%3D&amp;mid=2247942861&amp;idx=1&amp;sn=41d0336965ce7b66565918f5d29e0dd8&amp;chksm=e9f26d6615223de84b0445235e0ab28ed341a882ea76a8605119f697ddc73487dd4166ea0227&amp;scene=0&amp;xtrack=1</a></p>",
-      "date_published": "2026-11-11T22:30:00Z",
-      "date_modified": "2026-11-11T22:57:12.685301Z",
-      "tags": [
-        "ai-models",
-        "模型与研究"
-      ],
-      "_daily_info": {
-        "score": 80.86,
-        "source": "智源社区 · 最新分享（匿名 API）",
-        "cluster_id": "4ca7aee3cb7d2f9b",
         "ai_status": "ok"
       }
     }

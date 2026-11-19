@@ -5,8 +5,35 @@
     "timezone": "Asia/Shanghai",
     "version": "1.0.0"
   },
-  "generated_at": "2026-11-18T22:59:52.614033Z",
+  "generated_at": "2026-11-19T23:02:04.805768Z",
   "dates": [
+    {
+      "date": "2026-11-20",
+      "headline": "版本号、规则条数与融资金额都能逐字回查，型号数字与发布时间年份不算读数；真正决定能否接进门禁的是改动清单，不是漂亮断言",
+      "lead": "今日入报里，claude-code 2.1.329 列出 hooks 改动，app-store-compliance 收录 117 条拒收模式，PostgreSQL 19 新增 WAIT FOR LSN；Anthropic 报 $2T 估值与首日 17% 涨幅，Isomorphic Labs 洽谈约 400 亿美元融资。张力在于：编号可逐字回查，金额却分三种口径。",
+      "demo": false,
+      "stats": {
+        "sources_ok": 180,
+        "sources_total": 185,
+        "total_items": 3171,
+        "clusters": 3116,
+        "selected": 40,
+        "published_items": 15,
+        "seven_element_pass": 15,
+        "seven_element_ratio": 1.0,
+        "items_with_numbers": 15,
+        "substantive_number_ratio": 1.0,
+        "rejected_no_number": 0,
+        "unique_reference_domains": 10
+      },
+      "section_count": 6,
+      "item_count": 15,
+      "ai_status": "ok",
+      "seven_element_ratio": 1.0,
+      "theme_count": 7,
+      "watch_signal_count": 6,
+      "reference_domains": 10
+    },
     {
       "date": "2026-11-19",
       "headline": "同一天里，版本号与 CVE 编号能直接写进门禁，融资额与并购额只是绝对值，真正决定能不能接的是复现率与改动清单",

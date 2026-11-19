@@ -5,10 +5,40 @@
   <ns0:subtitle>挖掘 · 聚合 · 研判 · 订阅；每条附原文链接；内容仅供参考，不构成投资建议</ns0:subtitle>
   <ns0:link rel="self" type="application/atom+xml" href="https://daily-info.local/invest.atom" />
   <ns0:link rel="alternate" type="text/html" href="https://daily-info.local/index.html" />
-  <ns0:updated>2026-11-18T22:59:52.614033Z</ns0:updated>
+  <ns0:updated>2026-11-19T23:02:04.805768Z</ns0:updated>
   <ns0:author>
     <ns0:name>Personal Daily Info</ns0:name>
   </ns0:author>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-20:dec40ab23d7d7746</ns0:id>
+    <ns0:title>[市场与投资] New research explains how far people will go for a day at the park</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://phys.org/news/2026-11-people-day.html" />
+    <ns0:published>2026-11-19T21:00:15.345000Z</ns0:published>
+    <ns0:updated>2026-11-19T23:02:04.805768Z</ns0:updated>
+    <ns0:category term="market-invest" label="市场与投资" />
+    <ns0:summary type="text">A park two miles (3.2 kilometers) from home might seem close enough for a Saturday outing. In metropolitan Detroit, though, park visits had… 〔Folo分类:重大学术科研突破〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;一项研究以底特律都市区为例讨论居民愿意为去公园走多远，摘要给出两英里约合 3.2 公里的换算口径。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：3.2 · 相关方：metropolitan Detroit&lt;/p&gt;&lt;p&gt;A park two miles (3.2 kilometers) from home might seem close enough for a Saturday outing. In metropolitan Detroit, though, park visits had… 〔Folo分类:重大学术科研突破〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;3.2 是单位换算值而非观测结论，摘要没给出实际到访距离分布，不能据此判断出行意愿阈值。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;暂无直接影响：属城市行为研究，与 WorkBuddy / MCP / agent 部署无交集；仅作量纲标注样本。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对原文是否给出到访距离的中位数与样本量；若缺其中 1 项，则判定 3.2 仅为换算示例，不进入统计口径。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-19T21:00 UTC · 归类：market-invest&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://phys.org/news/2026-11-people-day.html" rel="noopener noreferrer"&gt;https://phys.org/news/2026-11-people-day.html&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-20:89345bf95b724823</ns0:id>
+    <ns0:title>[市场与投资] Anthropic Jumps 17% in Record IPO as Broader Tech Market Sells Off | Closing Bell</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.bloomberg.com/news/videos/2026-11-19/anthropic-jumps-17-in-record-ipo-closing-bell-video" />
+    <ns0:published>2026-11-19T21:24:51Z</ns0:published>
+    <ns0:updated>2026-11-19T23:02:04.805768Z</ns0:updated>
+    <ns0:category term="market-invest" label="市场与投资" />
+    <ns0:summary type="text">Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Ed Ludlow, Carol Massar and Tim Stenovec. (Source: Bloomberg)</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Bloomberg 的收盘节目条目标题记录 Anthropic 创纪录 IPO 首日上涨 17%，同时提到大盘科技股走弱。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：17% · 相关方：Anthropic / Bloomberg / Closing Bell&lt;/p&gt;&lt;p&gt;Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Ed Ludlow, Carol Massar and Tim Stenovec. (Source: Bloomberg)&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;17% 是首日相对涨幅，$2T 是市值绝对值，两者分母不同；「大盘走弱」是背景，不能反推个股因果。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建是口径提醒：相对涨幅要带基准日与基准价，绝对值与百分比不得写进同一字段。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对 17% 的基准价是否为发行价；若基准日与 $2T 估值日不一致，则判定两数字不可合并展示。&lt;/p&gt;&lt;p&gt;来源：Bloomberg Markets · 发布于 2026-11-19T21:24 UTC · 归类：market-invest&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.bloomberg.com/news/videos/2026-11-19/anthropic-jumps-17-in-record-ipo-closing-bell-video" rel="noopener noreferrer"&gt;https://www.bloomberg.com/news/videos/2026-11-19/anthropic-jumps-17-in-record-ipo-closing-bell-video&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-20:f0d0f469e0bfee91</ns0:id>
+    <ns0:title>[市场与投资] Anthropic hits $2T in Nasdaq debut</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19" />
+    <ns0:published>2026-11-19T17:02:40Z</ns0:published>
+    <ns0:updated>2026-11-19T23:02:04.805768Z</ns0:updated>
+    <ns0:category term="market-invest" label="市场与投资" />
+    <ns0:summary type="text">市值是估值口径、分数与评论是社区热度，三者都不是成交量；摘要为空时尤其不能把标题当独立信源。</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;HN 首页条目标题称 Anthropic 在 Nasdaq 上市首日市值达 $2T，条目带 748 分与 1377 条评论，正文摘要为空。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：$2T / 748 / 1377 · 相关方：Anthropic / Nasdaq&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;市值是估值口径、分数与评论是社区热度，三者都不是成交量；摘要为空时尤其不能把标题当独立信源。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建是口径提醒：市值、热度、成交量要分字段，空摘要条目标 multi-source 前先补一手来源。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;找 2 家独立一手来源核对 $2T；若指向同一收盘口径的少于 2 家，则判定该数字不可与首日涨幅合并。&lt;/p&gt;&lt;p&gt;来源：HN Algolia front_page (points/comments) · 发布于 2026-11-19T17:02 UTC · 归类：market-invest&lt;/p&gt;&lt;p&gt;证据状态：未独立验证&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19" rel="noopener noreferrer"&gt;https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:daily-info.local,2026-11-19:17ed1763602098a9</ns0:id>
     <ns0:title>[产业与资本] Spend management platform Payhawk announces $280M raise, 2B valuation</ns0:title>

@@ -1,0 +1,205 @@
+# 版本号、规则条数与融资金额都能逐字回查，型号数字与发布时间年份不算读数；真正决定能否接进门禁的是改动清单，不是漂亮断言
+
+> 今日入报里，claude-code 2.1.329 列出 hooks 改动，app-store-compliance 收录 117 条拒收模式，PostgreSQL 19 新增 WAIT FOR LSN；Anthropic 报 $2T 估值与首日 17% 涨幅，Isomorphic Labs 洽谈约 400 亿美元融资。张力在于：编号可逐字回查，金额却分三种口径。
+
+> 2026-11-20 · 北京时间 · 生成于 2026-11-19T23:02:04.805768Z
+
+## 📌 今日速览
+
+- **一篇 dev.to 清单文把 n8n 与 Activepieces 并列，宣称覆盖 28 个免费层工具，摘要只截取了 n8n 的开源介绍。**（28） — 28 是作者自封的清单计数，不等于可用工具数，也不含各工具免费额度口径。
+- **开源仓库 app-store-compliance 提供合规预提交 guard，收录 117 条拒收模式、跟踪 95 个法律期限，并带一个给 AI coding agents 的 skill。**（117, 95） — 把合规做成可执行规则集而非文档，117 条模式可逐条回查；但规则会随平台条款过期，星数不等于覆盖率。
+- **Simon Willison 记录 PostgreSQL 19 因 AI 报告的漏洞潮比往年晚两个月发布，新增 WAIT FOR LSN 让 standby 查询读到主库刚写入的数据。**（19, 0.1） — 延迟两个月的原因是漏洞修复量而非功能排期；新命令把一致性从应用层下推到数据库，改的是调用契约。
+- **TechCrunch 报道 Meta 新款 AI 可穿戴设备 Muse Charm 定价可能为 $300，Meta 只回应「很快会公布更多」未否认该数字。**（$300） — $300 是媒体援引的预估价且用了 may，Meta 未确认；把它写成正式定价会变成未证实断言。
+- **Meta 在 Quest 3 与 3S 头显的 TV app 上架超过 150 部可购买或租借的 3D 电影，并随软件更新加入 Theater view 影院模式。**（150） — 150 是 over 的下限口径且随片库变化；同时上线的 Theater view 属功能改动，两者维度不同不能互证。
+- **claude-code 发布 v2.1.329：新增 hooks 声明位置的信任弹窗、非交互宿主里 managed settings 钩子加载失败告警，并在 /mcp 页面显示远程 HTTP MCP 的 JSON-RPC 报错。**（2.1.329） — 改动集中在 hooks 与 MCP 的可观测性，说明非交互宿主下的失败路径比新功能更需要先暴露；版本号可逐字匹配成扫描规则。
+
+---
+
+## 🔥 今日主线
+
+### 一、精确标识能进门禁，型号数字不能
+claude-code 2.1.329、PostgreSQL 19、117 条拒收模式与 300ppi/16GB 规格都能逐字匹配并转成扫描规则；PS5、Quest 3、Ultra 4 的型号尾数与发布时间年份按 v1.1 一律不算读数。（4 条独立条目佐证）
+
+### 二、市值、涨幅与社区热度是三种口径
+Anthropic 的 $2T 是估值、17% 是首日相对涨幅、748 与 1377 是 HN 分数与评论数，Onlook 的 73 与 65 同属热度；四组数字分母各不同，不能互推也不能并成一句。（3 条独立条目佐证）
+
+### 三、洽谈中、may cost、促销价都要带条件
+400 亿美元是洽谈中上限、$300 用了 may 且 Meta 未确认、$188 与 25 percent off 只在 November 30 前有效、$129.99 是单渠道降 $70 后的标价；缺条件的金额不能进事实层。（4 条独立条目佐证）
+
+### 四、计数必须带分母与范围
+5,000 头是历史种群低点、1,700 种限定「仅见于岛屿」、25,000 是支持者而 100+ 才是贡献者、1,500 stars 与 115 forks 是仓库热度；分母或限定词丢了，数字就换了一件事。（4 条独立条目佐证）
+
+### 五、工具清单的规模是宣称，不是实测
+28 个免费层工具是清单作者自封的计数、over 150 部 3D 电影是下限口径、117 条模式才是可逐条回查的规则集；宣称规模不等于可用规模，也不等于覆盖率。（3 条独立条目佐证）
+
+### 六、版本要连着改动清单一起验
+v2.1.329 列了 hooks 信任弹窗与 /mcp 的 Server message 行，PostgreSQL 19 列了 WAIT FOR LSN 与漏洞潮延期，Quest 更新列了 Theater view；只有版本号没有清单，复现就无从下手。（4 条独立条目佐证）
+
+### 七、门禁认编号与阈值，不认漂亮断言
+117 条模式配 95 个期限是可执行规则，2.1.329 是可匹配版本；反过来 $300 的 may cost 与 17% 的基准价都需补一手来源，缺独立证据的读数本期一律标 unverified。（4 条独立条目佐证）
+
+---
+
+## 🗂 分类聚合
+
+### Agent 与工程（2 条）
+
+**一篇 dev.to 清单文把 n8n 与 Activepieces 并列，宣称覆盖 28 个免费层工具，摘要只截取了 n8n 的开源介绍。**
+- 关键数字：28 · 相关方：n8n / Activepieces · 来源：Folo 订阅池基线（人工筛选信源） · 2026-11-19 20:08 UTC · 80.54 分
+- 为什么值得看：28 是作者自封的清单计数，不等于可用工具数，也不含各工具免费额度口径。
+- 对我意味着什么：对 skill 选型是提醒：接入清单类工具前先核对免费层额度与自托管条件，别按标题数量估成本。
+- 下一步：逐个打开清单里 28 个工具的定价页；若可核验免费额度的少于 20 个，则判定该清单不可作为选型依据。
+- 证据状态：unverified（未独立验证）
+→ https://dev.to/rock_boy_c59c5ced86a77a4d/zero-cost-2026-stack-n8n-workflow-automation-vs-activepieces-28-free-tier-tools-2026-11-19-5bbe
+
+**开源仓库 app-store-compliance 提供合规预提交 guard，收录 117 条拒收模式、跟踪 95 个法律期限，并带一个给 AI coding agents 的 skill。**
+- 关键数字：117 / 95 / 1,500 / 115 · 相关方：app-store-compliance / App Store / Google Play / EU AI Act / DSA / COPPA · 来源：Folo 订阅池基线（人工筛选信源） · 2026-11-19 11:53 UTC · 77.23 分
+- 为什么值得看：把合规做成可执行规则集而非文档，117 条模式可逐条回查；但规则会随平台条款过期，星数不等于覆盖率。
+- 对我意味着什么：对 skill 与 agent 部署最可直接借鉴：把规则条数、期限与修复建议做成门禁数据，过期规则要有淘汰阈值。
+- 下一步：抽样 10 条拒收模式对照官方条款；若逐条命中的少于 8 条，则判定规则集过期，不接入预提交 guard。
+→ https://github.com/mjmirza/app-store-compliance
+
+### 开发者工具与版本（3 条）
+
+**Simon Willison 记录 PostgreSQL 19 因 AI 报告的漏洞潮比往年晚两个月发布，新增 WAIT FOR LSN 让 standby 查询读到主库刚写入的数据。**
+- 关键数字：19 / 0.1 · 相关方：PostgreSQL / WAIT FOR LSN / WAL / standby · 来源：Simon Willison's Weblog · 2026-11-19 20:43 UTC · 77.95 分
+- 为什么值得看：延迟两个月的原因是漏洞修复量而非功能排期；新命令把一致性从应用层下推到数据库，改的是调用契约。
+- 对我意味着什么：对 WinVM 自托管与数据基建直接相关：standby 读路径可省掉应用层等回放逻辑，但要先确认 0.1s 超时与驱动兼容性。
+- 下一步：同一读写用例在 standby 连跑 3 次；若读到旧值次数大于 0，则判定 read-your-writes 未生效，回退主库读。
+→ https://simonwillison.net/2026/Nov/19/postgresql-19
+
+**TechCrunch 报道 Meta 新款 AI 可穿戴设备 Muse Charm 定价可能为 $300，Meta 只回应「很快会公布更多」未否认该数字。**
+- 关键数字：$300 · 相关方：Meta / Muse Charm / The Information · 来源：Folo 订阅池基线（人工筛选信源） · 2026-11-19 21:58 UTC · 77.25 分
+- 为什么值得看：$300 是媒体援引的预估价且用了 may，Meta 未确认；把它写成正式定价会变成未证实断言。
+- 对我意味着什么：对 skill 与 automation 的事实层是反面样本：未确认读数必须带来源等级，标 unverified 后才进候选。
+- 下一步：核对官方产品页是否给出价格；若 30 天内仍无官方数字，则判定 $300 仅为媒体预估，不写入规格基线。
+- 证据状态：unverified（未独立验证）
+→ https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300
+
+**Meta 在 Quest 3 与 3S 头显的 TV app 上架超过 150 部可购买或租借的 3D 电影，并随软件更新加入 Theater view 影院模式。**
+- 关键数字：150 · 相关方：Meta / Quest 3 / 3S / Theater view / Avatar · 来源：Folo 订阅池基线（人工筛选信源） · 2026-11-19 21:12 UTC · 76.69 分
+- 为什么值得看：150 是 over 的下限口径且随片库变化；同时上线的 Theater view 属功能改动，两者维度不同不能互证。
+- 对我意味着什么：对数据基建是分列样本：内容数量与功能变更应分字段记录，避免用片库规模推断版本改动范围。
+- 下一步：按周抓取 2 次片库目录；若两次数量相差超过 10%，则判定 150 为动态下限，改记快照日期与计数。
+→ https://www.theverge.com/tech/1038157/meta-quest-vr-3d-movies-tv-app
+
+### 文档与变更（3 条）
+
+**claude-code 发布 v2.1.329：新增 hooks 声明位置的信任弹窗、非交互宿主里 managed settings 钩子加载失败告警，并在 /mcp 页面显示远程 HTTP MCP 的 JSON-RPC 报错。**
+- 关键数字：2.1.329 · 相关方：Claude Code / Claude Desktop / hooks / /mcp / OpenTelemetry / JSON-RPC · 来源：claude-code Releases · 2026-11-19 22:14 UTC · 75.86 分
+- 为什么值得看：改动集中在 hooks 与 MCP 的可观测性，说明非交互宿主下的失败路径比新功能更需要先暴露；版本号可逐字匹配成扫描规则。
+- 对我意味着什么：对 automation 与 agent 部署最相关：定时任务属非交互宿主，托管 hooks 加载失败现在有显式告警，可纳入部署前 gate。
+- 下一步：在 2 个非交互宿主各触发 1 次托管 hooks 加载失败；若缺告警次数 ≥ 1，则判定该路径未覆盖，不纳入部署基线。
+→ https://github.com/anthropics/claude-code/releases/tag/v2.1.329
+
+**一篇生态报道称南半球座头鲸在数百年捕鲸后一度只剩 5,000 头，今年迁徙中幼鲸与母鲸数量缺失。**
+- 关键数字：5,000 · 相关方：humpback whales / Southern Hemisphere · 来源：Folo 订阅池基线（人工筛选信源） · 2026-11-19 19:20 UTC · 76.99 分
+- 为什么值得看：5,000 是历史种群低点的估计值，与今年幼鲸缺失是两个时间口径，合并读会误判为当前存量。
+- 对我意味着什么：暂无直接影响：属生态种群观察，与 WorkBuddy / agent 部署 / 数据基建无交集；仅作计数口径分列样本。
+- 下一步：核对 5,000 是否对应具体统计年份与 1 份原始调查；若两者缺一，则判定为历史估计，只保留定性结论。
+→ https://phys.org/news/2026-11-year-humpback-whale-migration-vital.html
+
+**phys.org 报道首份全球岛屿蜜蜂清单，称超过 1,700 个蜜蜂物种仅见于岛屿，标题与摘要各给出一次该计数。**
+- 关键数字：1,700 · 相关方：island bees / bee species · 来源：Folo 订阅池基线（人工筛选信源） · 2026-11-19 19:40 UTC · 75.61 分
+- 为什么值得看：1,700 是 more than 的下限口径，且「仅见于岛屿」是分布限定，去掉限定就会变成全球物种总数。
+- 对我意味着什么：暂无直接影响：属生物地理清单，与 WorkBuddy / agent 部署 / 数据基建无交集；仅作带限定词计数样本。
+- 下一步：核对清单是否公开物种级明细；若可逐项核对的条目少于 1,700，则判定该数为下限估计，不写入汇总统计。
+→ https://phys.org/news/2026-11-bee-species-unique-islands-global.html
+
+### 社区与观点（3 条）
+
+**一篇中文综述称 Google DeepMind 等巨头转向药物研发全流程，其中 DeepMind 孵化的 Isomorphic Labs 正洽谈约 400 亿美元融资。**
+- 关键数字：400亿 · 相关方：Isomorphic Labs / Google DeepMind / DeepMind / Nat. Biotechnol. · 来源：智源社区 · 最新分享（匿名 API） · 2026-11-19 18:30 UTC · 79.63 分
+- 为什么值得看：400 亿是洽谈中的上限口径而非已到账金额；写成落地融资会高估 AI 制药的资本进度。
+- 对我意味着什么：对数据基建的金额字段是样本：融资额要标「洽谈中/已交割」状态，别与估值、累计并购额混算。
+- 下一步：核对 30 天内是否有官方公告；若金额低于 400 亿或仍无公告，则判定为洽谈中线索，降为 unverified。
+- 证据状态：unverified（未独立验证）
+→ https://mp.weixin.qq.com/s?__biz=MzU2ODU3Mzc4Nw%3D%3D&mid=2247514999&idx=2&sn=7edd18c7b795b9950bf87f67902f464d&chksm=fd3f440c405c4d2eacfb8748f430ac38cc15e3457b8f1252ebd73fef1b30ed821a841bf4a851&scene=0&xtrack=1
+
+**Wired 的黑五促销条目给出 Hatch Sleep Clock 售价 $188、折扣 25 percent off，并标注优惠持续到 November 30。**
+- 关键数字：$188 / 25 · 相关方：Hatch / Hatch Sleep Clock / Amazon · 来源：Folo 订阅池基线（人工筛选信源） · 2026-11-19 20:44 UTC · 76.36 分
+- 为什么值得看：$188 是折后标价、25 percent 是相对折扣、November 30 是截止日，三种量纲并列最容易被读成同一个数。
+- 对我意味着什么：对数据基建的金额字段是提醒：标价、折扣率、有效期要分列，促销条目不得并入长期价格序列。
+- 下一步：核对结账页实付是否等于 $188；若含税费后差额超过 5%，则判定标价为未含税口径，另记实付字段。
+→ https://www.wired.com/story/hatch-black-friday-deals-2026
+
+**Onlook 在 HN 发布帖里称其开源设计工具已有超 25,000 名支持者、100+ 贡献者，并把产品重建为 agentic design tool，改动以 PR 落到真实代码库。**
+- 关键数字：25,000 / 100 / 73 / 65 · 相关方：Onlook / onlook-dev / worktrees / PR / agent · 来源：HN Algolia front_page (points/comments) · 2026-11-19 16:34 UTC · 76.17 分
+- 为什么值得看：支持者数与贡献者数是两个分母；把 25,000 说成开发者规模会夸大可维护人力，#1 trending 属排名修辞。
+- 对我意味着什么：对 skill 与 agent 部署有直接借鉴：多 worktrees 加每改动落 PR 的设计，可复用到多 agent 并行改码的隔离与回滚。
+- 下一步：核对仓库 contributors 去重数；若与 100+ 相差超过 20%，则判定支持者与贡献者口径混用，拆成两字段。
+- 证据状态：unverified（未独立验证）
+→ https://github.com/onlook-dev/onlook
+
+### 市场与投资（3 条）
+
+**HN 首页条目标题称 Anthropic 在 Nasdaq 上市首日市值达 $2T，条目带 748 分与 1377 条评论，正文摘要为空。**
+- 关键数字：$2T / 748 / 1377 · 相关方：Anthropic / Nasdaq · 来源：HN Algolia front_page (points/comments) · 2026-11-19 17:02 UTC · 77.24 分
+- 为什么值得看：市值是估值口径、分数与评论是社区热度，三者都不是成交量；摘要为空时尤其不能把标题当独立信源。
+- 对我意味着什么：对数据基建是口径提醒：市值、热度、成交量要分字段，空摘要条目标 multi-source 前先补一手来源。
+- 下一步：找 2 家独立一手来源核对 $2T；若指向同一收盘口径的少于 2 家，则判定该数字不可与首日涨幅合并。
+- 证据状态：unverified（未独立验证）
+→ https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19
+
+**Bloomberg 的收盘节目条目标题记录 Anthropic 创纪录 IPO 首日上涨 17%，同时提到大盘科技股走弱。**
+- 关键数字：17% · 相关方：Anthropic / Bloomberg / Closing Bell · 来源：Bloomberg Markets · 2026-11-19 21:24 UTC · 75.74 分
+- 为什么值得看：17% 是首日相对涨幅，$2T 是市值绝对值，两者分母不同；「大盘走弱」是背景，不能反推个股因果。
+- 对我意味着什么：对数据基建是口径提醒：相对涨幅要带基准日与基准价，绝对值与百分比不得写进同一字段。
+- 下一步：核对 17% 的基准价是否为发行价；若基准日与 $2T 估值日不一致，则判定两数字不可合并展示。
+→ https://www.bloomberg.com/news/videos/2026-11-19/anthropic-jumps-17-in-record-ipo-closing-bell-video
+
+**一项研究以底特律都市区为例讨论居民愿意为去公园走多远，摘要给出两英里约合 3.2 公里的换算口径。**
+- 关键数字：3.2 · 相关方：metropolitan Detroit · 来源：Folo 订阅池基线（人工筛选信源） · 2026-11-19 21:00 UTC · 76.55 分
+- 为什么值得看：3.2 是单位换算值而非观测结论，摘要没给出实际到访距离分布，不能据此判断出行意愿阈值。
+- 对我意味着什么：暂无直接影响：属城市行为研究，与 WorkBuddy / MCP / agent 部署无交集；仅作量纲标注样本。
+- 下一步：核对原文是否给出到访距离的中位数与样本量；若缺其中 1 项，则判定 3.2 仅为换算示例，不进入统计口径。
+→ https://phys.org/news/2026-11-people-day.html
+
+### 论文与学术（1 条）
+
+**Verge 条目称亚马逊把上一代 Kindle Paperwhite 降到 $129.99，较原价降 $70，机型配 300ppi 屏、16GB 存储与 USB-C，缺无线充电。**
+- 关键数字：$129.99 / $70 / 300ppi / 16GB · 相关方：Amazon / Kindle Paperwhite / Best Buy / Target / Signature Edition / USB-C · 来源：Folo 订阅池基线（人工筛选信源） · 2026-11-19 17:15 UTC · 75.64 分
+- 为什么值得看：促销价、降幅、屏幕与存储规格是四类读数并列，容易被抄成一条；2024 是型号年份，按 v1.1 不算读数。
+- 对我意味着什么：对数据基建的规格字段是样本：价格、降幅、硬件参数分列并标币种与单位，避免汇总时把 16GB 读成价格尾数。
+- 下一步：核对 3 家渠道标价是否都为 $129.99；若不一致渠道数 ≥ 1，则判定为单渠道促销价，另记渠道字段。
+→ https://www.theverge.com/gadgets/1037635/amazon-kindle-paperwhite-black-friday-2026-deal-sale
+
+---
+
+## 📊 今日数据概览
+
+| 指标 | 数值 |
+| --- | ---: |
+| 信源可用 | 180 / 185 |
+| 原始条目 | 3171 |
+| 聚合簇 | 3116 |
+| 入选簇 | 40 |
+| 实际入报 | 15 |
+| 七要素达标 | 15 / 15（100.0%） |
+| 引用域名数 | 10 |
+
+高频来源：github.com(3)、phys.org(3)、theverge.com(2)、dev.to(1)、simonwillison.net(1)、techcrunch.com(1)、mp.weixin.qq.com(1)、wired.com(1)
+
+---
+
+## 🔭 待验证信号（可证伪）
+
+| 信号 | 判定阈值 | 达到后判定 |
+| --- | --- | --- |
+| PostgreSQL 19 的 WAIT FOR LSN 是否覆盖 standby 读 | 同一读写用例在 standby 连跑 3 次，读到旧值次数大于 0 | 判定 read-your-writes 一致性未生效，回退为主库读 |
+| claude-code 2.1.329 的 hooks 加载失败告警覆盖 | 在 2 个非交互宿主各触发 1 次加载失败，缺告警次数 ≥ 1 | 判定 trust dialog 未覆盖该路径，不纳入部署前 gate |
+| app-store-compliance 117 条模式的可复现率 | 抽样 10 条模式对照官方条款，逐条命中的少于 8 条 | 判定规则集过期，不接入预提交 guard |
+| Anthropic 估值与首日涨幅是否同一口径 | 核对 $2T 与 17% 指向同一收盘口径的独立信源少于 2 家 | 判定两个数字不可合并，分口径展示 |
+| Isomorphic Labs 400 亿融资是否落地 | 30 天内无官方公告，或公告金额低于 400 亿美元 | 判定为洽谈中线索，降级为 unverified |
+| Onlook 支持者与贡献者口径是否混用 | 仓库 contributors 去重数与 100+ 相差超过 20% | 判定 25,000 与 100 被混用，拆成两个字段 |
+
+---
+
+## 💡 编者观察
+
+本期最该带走的判断是：能直接写进部署门禁的是精确标识与规则条数，不是型号数字，更不是采集时间戳里的年份。claude-code 发布 v2.1.329，改动集中在 hooks 声明位置的信任弹窗、非交互宿主里 managed settings 钩子加载失败告警、/mcp 页面新增 Server message 行显示远程 HTTP MCP 的 JSON-RPC 报错，以及 Code Mode 打开时每次工具调用都发 OpenTelemetry 事件。对 automation 与 agent 部署的含义很直接：定时任务本身就是非交互宿主，托管 hooks 加载失败过去是静默的，现在有显式告警，应把它纳入部署前 gate 的必查项；同时给依赖扫描补上 2.1.329 这类可逐字匹配的版本号，命中即比对改动清单。第二条是改动清单比版本号更决定能不能接。落到工程动作上，部署前 gate 先做三件事：用可逐字匹配的版本号锁定依赖，把改动清单逐条转成检查项，对 0 violations 的 smoke 结果留痕；三件缺一就拒绝自动放行，只记为待复核线索。对 skill 与 A2A 委派链路同理，评估条目必须写清复现条件与分母，跑不出「版本 + 改动清单 + 可复现步骤」三元组的结果只进线索池。
+
+---
+
+*本日报由规则层采集/去重/打分 + AI 研判生成；每条附原文链接，关键数字须能在原文中找到。*
+*外部事实未独立验证，内容仅供参考，不构成投资建议；取不到可靠数据处标注「暂无可靠数据」。*

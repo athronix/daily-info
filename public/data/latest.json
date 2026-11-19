@@ -1,201 +1,150 @@
 {
-  "date": "2026-11-19",
-  "headline": "同一天里，版本号与 CVE 编号能直接写进门禁，融资额与并购额只是绝对值，真正决定能不能接的是复现率与改动清单",
-  "headline_short": "同一天里，版本号与 CVE 编号能直接写进门禁，融资额与",
-  "lead": "今日入报里，107 条 AI 设计抗体仅不足 30% 通过实验验证，1,200 项任务 RL 把 Terminal-Bench 4.1 从 5.6% 提到 12%；HomeView 27.2.1 与 vLLM 0.34.0 给出可匹配版本号，CVE-2026-99312 给出可扫描编号；Lilly 并购越过 $32B、Payhawk 融资 $280M。张力在于：编号、版本、复现率能逐字回查，金额与型号却推不出可用性。",
-  "generated_at": "2026-11-18T22:59:52.614033Z",
+  "date": "2026-11-20",
+  "headline": "版本号、规则条数与融资金额都能逐字回查，型号数字与发布时间年份不算读数；真正决定能否接进门禁的是改动清单，不是漂亮断言",
+  "headline_short": "版本号、规则条数与融资金额都能逐字回查，型号数字与发布时",
+  "lead": "今日入报里，claude-code 2.1.329 列出 hooks 改动，app-store-compliance 收录 117 条拒收模式，PostgreSQL 19 新增 WAIT FOR LSN；Anthropic 报 $2T 估值与首日 17% 涨幅，Isomorphic Labs 洽谈约 400 亿美元融资。张力在于：编号可逐字回查，金额却分三种口径。",
+  "generated_at": "2026-11-19T23:02:04.805768Z",
   "themes": [
     {
-      "title": "同一个 27.2.1，两种信息量",
-      "why": "一条摘要说 Apple 未公布改动细节、无 CVE 条目，另一条却列出 Siri 修复与家庭网络修复；同一版本号的可核对程度并不相同，决定它能否进变更门禁。",
+      "title": "精确标识能进门禁，型号数字不能",
+      "why": "claude-code 2.1.329、PostgreSQL 19、117 条拒收模式与 300ppi/16GB 规格都能逐字匹配并转成扫描规则；PS5、Quest 3、Ultra 4 的型号尾数与发布时间年份按 v1.1 一律不算读数。",
       "cluster_ids": [
-        "5fc50a830e5a9eda",
-        "8c8cbbc23a03039f",
-        "4bb3cf0840332f0b"
+        "9166064c2f31e744",
+        "4ba1303d2ee21d77",
+        "d664b5a459f3111e",
+        "e1761609bd5ff5d2"
+      ],
+      "verified_by": 4
+    },
+    {
+      "title": "市值、涨幅与社区热度是三种口径",
+      "why": "Anthropic 的 $2T 是估值、17% 是首日相对涨幅、748 与 1377 是 HN 分数与评论数，Onlook 的 73 与 65 同属热度；四组数字分母各不同，不能互推也不能并成一句。",
+      "cluster_ids": [
+        "f0d0f469e0bfee91",
+        "89345bf95b724823",
+        "00ca2badf798b003"
       ],
       "verified_by": 3
     },
     {
-      "title": "能写进规则的是编号与版本",
-      "why": "vLLM 0.34.0、HomeView 27.2.1、CVE-2026-99312 都能逐字匹配并转成扫描规则；产品命名里的数字与发布时间年份按 v1.1 一律不算读数。",
+      "title": "洽谈中、may cost、促销价都要带条件",
+      "why": "400 亿美元是洽谈中上限、$300 用了 may 且 Meta 未确认、$188 与 25 percent off 只在 November 30 前有效、$129.99 是单渠道降 $70 后的标价；缺条件的金额不能进事实层。",
       "cluster_ids": [
-        "e645e5eedf596b39",
-        "5fc50a830e5a9eda",
-        "4bb3cf0840332f0b"
+        "c667431aafb3afc9",
+        "e60f4e5e7cf4b021",
+        "e5c2d6b7d5cf9568",
+        "e1761609bd5ff5d2"
+      ],
+      "verified_by": 4
+    },
+    {
+      "title": "计数必须带分母与范围",
+      "why": "5,000 头是历史种群低点、1,700 种限定「仅见于岛屿」、25,000 是支持者而 100+ 才是贡献者、1,500 stars 与 115 forks 是仓库热度；分母或限定词丢了，数字就换了一件事。",
+      "cluster_ids": [
+        "3bf51d45c08e3b71",
+        "0095ff7f6d07a207",
+        "00ca2badf798b003",
+        "d664b5a459f3111e"
+      ],
+      "verified_by": 4
+    },
+    {
+      "title": "工具清单的规模是宣称，不是实测",
+      "why": "28 个免费层工具是清单作者自封的计数、over 150 部 3D 电影是下限口径、117 条模式才是可逐条回查的规则集；宣称规模不等于可用规模，也不等于覆盖率。",
+      "cluster_ids": [
+        "f82f652bb9cb949d",
+        "7a39639263596a9f",
+        "d664b5a459f3111e"
       ],
       "verified_by": 3
     },
     {
-      "title": "复现率比 SOTA 更能定能不能接",
-      "why": "107 条 AI 设计抗体仅不足 30% 通过实验验证，1,200 项任务 RL 把成绩从 5.6% 提到 12%，19 of 18 runs 里还有一次失败提交——三个读数都要求「跑过才算」。",
+      "title": "版本要连着改动清单一起验",
+      "why": "v2.1.329 列了 hooks 信任弹窗与 /mcp 的 Server message 行，PostgreSQL 19 列了 WAIT FOR LSN 与漏洞潮延期，Quest 更新列了 Theater view；只有版本号没有清单，复现就无从下手。",
       "cluster_ids": [
-        "339399f3d4ceae77",
-        "70cc8a0a1d314807",
-        "ed5f858793a7ebb2"
+        "9166064c2f31e744",
+        "4ba1303d2ee21d77",
+        "7a39639263596a9f",
+        "e1761609bd5ff5d2"
       ],
-      "verified_by": 3
+      "verified_by": 4
     },
     {
-      "title": "计数口径不同，并成一句就失真",
-      "why": "99 个已确认物种、100 个分类单元、7 个新记录是三种口径；116 万条设计、300 余条湿实验、221 条靶向是筛选漏斗；35-year 是观测跨度。",
+      "title": "门禁认编号与阈值，不认漂亮断言",
+      "why": "117 条模式配 95 个期限是可执行规则，2.1.329 是可匹配版本；反过来 $300 的 may cost 与 17% 的基准价都需补一手来源，缺独立证据的读数本期一律标 unverified。",
       "cluster_ids": [
-        "ad1343d090244892",
-        "339399f3d4ceae77",
-        "9ba121161ad4575b"
+        "d664b5a459f3111e",
+        "9166064c2f31e744",
+        "e60f4e5e7cf4b021",
+        "89345bf95b724823"
       ],
-      "verified_by": 3
-    },
-    {
-      "title": "金额是绝对值，推不出闭环",
-      "why": "$32B 并购潮与 $1.5 billion 单笔上限、$280M 融资与 2B 估值都是公开读数，但金额大小与流程能否复现无因果关系，不能并成结论。",
-      "cluster_ids": [
-        "ac306b6292cd127d",
-        "17ed1763602098a9",
-        "339399f3d4ceae77"
-      ],
-      "verified_by": 3
-    },
-    {
-      "title": "版本号要连着改动清单一起验",
-      "why": "vLLM 0.34.0 改的是默认 GPU 内存配置与 block size，HomeView 27.2.1 修的是 Siri 与家庭网络；只有版本号、没有改动清单，复现就无从下手。",
-      "cluster_ids": [
-        "e645e5eedf596b39",
-        "8c8cbbc23a03039f",
-        "5fc50a830e5a9eda"
-      ],
-      "verified_by": 3
-    },
-    {
-      "title": "门禁认编号，不认漂亮断言",
-      "why": "CVE-2026-99312 给出可精确匹配的编号，30% 复现率给出可证伪的比例；无独立证据的能力宣称本期一律标 unverified，不写进事实层。",
-      "cluster_ids": [
-        "4bb3cf0840332f0b",
-        "339399f3d4ceae77",
-        "ac306b6292cd127d"
-      ],
-      "verified_by": 3
+      "verified_by": 4
     }
   ],
   "sections": [
-    {
-      "key": "docs-changelog",
-      "label": "文档与变更",
-      "items": [
-        {
-          "id": "5fc50a830e5a9eda",
-          "title": "Apple Releases 27.2.1 HomeView Software Update",
-          "url": "https://www.macrumors.com/2026/11/18/homeview-27-2-1-software",
-          "source": "Folo 订阅池基线（人工筛选信源）",
-          "published_at": "2026-11-18T18:53:53.965000Z",
-          "score": 79.88,
-          "category": "docs-changelog",
-          "cluster_id": "5fc50a830e5a9eda",
-          "summary": "Apple released software version 27.2.1 for the HomeView device, marking its first post-launch update. Apple has not published specific details regarding changes or security fixes, though similar updates on other platforms focused on security. This specific update contains no published CVE entries. U",
-          "why_matters": "只给版本号不给改动清单，读者无法判断风险面；「无 CVE 条目」不等于「无安全改动」，两者不能互推。",
-          "fact_anchor": "Apple 为 HomeView 设备发布 27.2.1 版软件更新，是上市后首次更新，摘要称未公布具体改动或安全修复细节、也未列出 CVE 条目。",
-          "numbers": [
-            "27.2.1"
-          ],
-          "entities": [
-            "Apple",
-            "HomeView"
-          ],
-          "evidence_urls": [
-            "https://www.macrumors.com/2026/11/18/homeview-27-2-1-software"
-          ],
-          "impact": "对变更门禁是反面样本：升级条目应把「版本号 + 改动清单 + CVE 明细」做成必填三元组，缺项就不自动放行。",
-          "next_action": "核对官方 release notes 是否列出改动项；若可逐条核对的修复项少于 2 条，则判定该版本缺可复现依据，不写入变更基线。",
-          "signal_type": "docs-change",
-          "confidence": "fact"
-        },
-        {
-          "id": "ad1343d090244892",
-          "title": "Bolivia's Madidi National Park shelters 99 bat species, including 7 new to the country",
-          "url": "https://phys.org/news/2026-11-bolivia-madidi-national-species-country.html",
-          "source": "Folo 订阅池基线（人工筛选信源）",
-          "published_at": "2026-11-18T18:00:15.029000Z",
-          "score": 76.1,
-          "category": "docs-changelog",
-          "cluster_id": "ad1343d090244892",
-          "summary": "A new study has confirmed 100 bat taxa in Madidi National Park, in northwestern Bolivia, including 99 recognized species and one that may be… 〔Folo分类:重大学术科研突破〕",
-          "why_matters": "同一段里 99、100、7 是三种计数口径，混读会把「已确认物种」「分类单元」「新记录」当成同一个数。",
-          "fact_anchor": "一项研究确认玻利维亚 Madidi 国家公园有 100 个蝙蝠分类单元，其中 99 个已确认物种、7 个为该国新记录。",
-          "numbers": [
-            "99",
-            "7",
-            "100"
-          ],
-          "entities": [
-            "Madidi National Park",
-            "Bolivia"
-          ],
-          "evidence_urls": [
-            "https://phys.org/news/2026-11-bolivia-madidi-national-species-country.html"
-          ],
-          "impact": "对数据基建的统计字段是直接提醒：样本量、分类单元数、新增记录数应分列，别在摘要里并成一个漂亮数字。",
-          "next_action": "核对原文是否列出 100 个分类单元明细；若无法逐项对应 99 与 7，则判定口径混用，只保留可复核的物种计数。",
-          "signal_type": "research",
-          "confidence": "fact"
-        }
-      ]
-    },
     {
       "key": "agent-engineering",
       "label": "Agent 与工程",
       "items": [
         {
-          "id": "e645e5eedf596b39",
-          "title": "vLLM 0.34.0, Mistral Vibe Desktop, and early critiques of GPT-6.2 Astra",
-          "url": "https://dev.to/githubopensource/vllm-0340-mistral-vibe-desktop-and-early-critiques-of-gpt-62-astra-kh1",
+          "id": "f82f652bb9cb949d",
+          "title": "Zero-Cost 2026 Stack: n8n Workflow Automation vs Activepieces & 28 Free-Tier Tools (2026-11-19)",
+          "url": "https://dev.to/rock_boy_c59c5ced86a77a4d/zero-cost-2026-stack-n8n-workflow-automation-vs-activepieces-28-free-tier-tools-2026-11-19-5bbe",
           "source": "Folo 订阅池基线（人工筛选信源）",
-          "published_at": "2026-11-18T19:53:51.259000Z",
-          "score": 78.95,
+          "published_at": "2026-11-19T20:08:23.401000Z",
+          "score": 80.54,
           "category": "agent-engineering",
-          "cluster_id": "e645e5eedf596b39",
-          "summary": "TL;DR vLLM 0.34.0 changes default GPU memory configurations and block sizes to optimize high-load throughput, Mistral Vibe Desktop… 〔Folo分类:开源项目〕",
-          "why_matters": "默认值的改动比新功能更影响现有部署：同一份代码换个版本就可能改变显存占用与吞吐，而用户未必主动改过配置。",
-          "fact_anchor": "vLLM 0.34.0 改动默认 GPU 内存配置与 block size 以优化高负载吞吐，这份周报同时提到 Mistral Vibe Desktop 与对新模型的早期批评。",
+          "cluster_id": "f82f652bb9cb949d",
+          "summary": "This week's strongest builder signal—\"n8n-io/n8n — Fair-code workflow automation platform with native AI capabilities. Combine visual… 〔Folo分类:开源项目〕",
+          "why_matters": "28 是作者自封的清单计数，不等于可用工具数，也不含各工具免费额度口径。",
+          "fact_anchor": "一篇 dev.to 清单文把 n8n 与 Activepieces 并列，宣称覆盖 28 个免费层工具，摘要只截取了 n8n 的开源介绍。",
           "numbers": [
-            "0.34.0"
+            "28"
           ],
           "entities": [
-            "vLLM",
-            "Mistral Vibe Desktop"
+            "n8n",
+            "Activepieces"
           ],
           "evidence_urls": [
-            "https://dev.to/githubopensource/vllm-0340-mistral-vibe-desktop-and-early-critiques-of-gpt-62-astra-kh1"
+            "https://dev.to/rock_boy_c59c5ced86a77a4d/zero-cost-2026-stack-n8n-workflow-automation-vs-activepieces-28-free-tier-tools-2026-11-19-5bbe"
           ],
-          "impact": "对 WinVM 自托管与 provider 队列是硬提醒：升级前先固定显存与 block size 做 A/B，别让默认值隐式改变资源基线。",
-          "next_action": "同一高负载用例在旧版与 0.34.0 各跑 3 次；若新版吞吐低于旧版达到 2 次，则判定新默认配置不适用，回退为显式配置。",
-          "signal_type": "release",
-          "confidence": "fact"
+          "impact": "对 skill 选型是提醒：接入清单类工具前先核对免费层额度与自托管条件，别按标题数量估成本。",
+          "next_action": "逐个打开清单里 28 个工具的定价页；若可核验免费额度的少于 20 个，则判定该清单不可作为选型依据。",
+          "signal_type": "opinion",
+          "confidence": "unverified"
         },
         {
-          "id": "ed5f858793a7ebb2",
-          "title": "Submission 19 of 18 runs: the benchmark where Vow and TypeScript tied",
-          "url": "https://dev.to/jakeburwick/submission-19-of-18-runs-the-benchmark-where-vow-and-typescript-tied-27ef",
+          "id": "d664b5a459f3111e",
+          "title": "mjmirza/app-store-compliance",
+          "url": "https://github.com/mjmirza/app-store-compliance",
           "source": "Folo 订阅池基线（人工筛选信源）",
-          "published_at": "2026-11-18T20:12:51.927000Z",
-          "score": 79.17,
+          "published_at": "2026-11-19T11:53:01.890000Z",
+          "score": 77.23,
           "category": "agent-engineering",
-          "cluster_id": "ed5f858793a7ebb2",
-          "summary": "The agent submitted. The judge said no. Then the agent submitted again. That was the one failed Vow submission in my November 2026 hard… 〔Folo分类:开源项目〕",
-          "why_matters": "提交次数与运行次数对不上，说明判定器的拒绝与重跑口径比模型胜负更影响结果，平局结论因此带有前提。",
-          "fact_anchor": "一篇 benchmark 复盘记录了 18 次运行里出现第 19 次提交：agent 被判定否决后又提交一次，Vow 与 TypeScript 最终打平。",
+          "cluster_id": "d664b5a459f3111e",
+          "summary": "The \"app-store-compliance\" repository provides a tool for verifying application compliance with App Store and Google Play guidelines. It features a pre-submission guard containing 117 documented rejection patterns and fixes, privacy manifest and data safety checks, and tracking for 95 legal deadline",
+          "why_matters": "把合规做成可执行规则集而非文档，117 条模式可逐条回查；但规则会随平台条款过期，星数不等于覆盖率。",
+          "fact_anchor": "开源仓库 app-store-compliance 提供合规预提交 guard，收录 117 条拒收模式、跟踪 95 个法律期限，并带一个给 AI coding agents 的 skill。",
           "numbers": [
-            "19",
-            "18"
+            "117",
+            "95",
+            "1,500",
+            "115"
           ],
           "entities": [
-            "Vow",
-            "TypeScript"
+            "app-store-compliance",
+            "App Store",
+            "Google Play",
+            "EU AI Act",
+            "DSA",
+            "COPPA"
           ],
           "evidence_urls": [
-            "https://dev.to/jakeburwick/submission-19-of-18-runs-the-benchmark-where-vow-and-typescript-tied-27ef"
+            "https://github.com/mjmirza/app-store-compliance"
           ],
-          "impact": "对 agent 部署的评估链是反面样本：应把提交次数、判定拒绝、重跑留痕分字段记录，否则打平结论无法复现。",
-          "next_action": "回放该 benchmark 的 18 次运行日志；若重跑后提交次数与运行次数仍不相等，则判定判定器状态未隔离，不接入自动评测。",
-          "signal_type": "research",
+          "impact": "对 skill 与 agent 部署最可直接借鉴：把规则条数、期限与修复建议做成门禁数据，过期规则要有淘汰阈值。",
+          "next_action": "抽样 10 条拒收模式对照官方条款；若逐条命中的少于 8 条，则判定规则集过期，不接入预提交 guard。",
+          "signal_type": "release",
           "confidence": "fact"
         }
       ]
@@ -205,163 +154,279 @@
       "label": "开发者工具与版本",
       "items": [
         {
-          "id": "8c8cbbc23a03039f",
-          "title": "HomeView 27.2.1 Update Fixes Siri Bugs",
-          "url": "https://www.macrumors.com/2026/11/18/homeview-27-2-1-update-fixes-siri-bugs",
-          "source": "Folo 订阅池基线（人工筛选信源）",
-          "published_at": "2026-11-18T20:41:55.027000Z",
-          "score": 77.91,
+          "id": "4ba1303d2ee21d77",
+          "title": "PostgreSQL 19 Released",
+          "url": "https://simonwillison.net/2026/Nov/19/postgresql-19",
+          "source": "Simon Willison's Weblog",
+          "published_at": "2026-11-19T20:43:57Z",
+          "score": 77.95,
           "category": "dev-tools",
-          "cluster_id": "8c8cbbc23a03039f",
-          "summary": "Apple has released HomeView software version 27.2.1, which resolves critical Siri-related bugs. Key fixes include restoring Siri functionality when paired with iOS 27.3 beta devices, ensuring Siri support downloads correctly during Shared Album setup, and preventing unexpected removal from home netw",
-          "why_matters": "同一版本号在另一条摘要里被写成「未公布细节」，这里却有三项可核对的修复，信息量取决于来源而非版本本身。",
-          "fact_anchor": "Apple 发布 HomeView 27.2.1，摘要列出恢复与 iOS 27.3 beta 配对时的 Siri 功能、修正 Siri 支持下载、避免新增 hub 时被移出家庭网络。",
+          "cluster_id": "4ba1303d2ee21d77",
+          "summary": "PostgreSQL 19 Released Most years PostgreSQL ships a new release in September, but this year's release came two months later thanks mainly to the flurry of issues that the PostgreSQL team needed to address as part of the ongoing AI-reported vulnerability apocalypse. This release was definitely worth",
+          "why_matters": "延迟两个月的原因是漏洞修复量而非功能排期；新命令把一致性从应用层下推到数据库，改的是调用契约。",
+          "fact_anchor": "Simon Willison 记录 PostgreSQL 19 因 AI 报告的漏洞潮比往年晚两个月发布，新增 WAIT FOR LSN 让 standby 查询读到主库刚写入的数据。",
           "numbers": [
-            "27.2.1",
-            "27.3"
+            "19",
+            "0.1"
           ],
           "entities": [
-            "Apple",
-            "HomeView",
-            "Siri"
+            "PostgreSQL",
+            "WAIT FOR LSN",
+            "WAL",
+            "standby"
           ],
           "evidence_urls": [
-            "https://www.macrumors.com/2026/11/18/homeview-27-2-1-update-fixes-siri-bugs"
+            "https://simonwillison.net/2026/Nov/19/postgresql-19"
           ],
-          "impact": "对变更门禁有直接用处：同一版本的多源摘要应分条存储并标注细节完整度，不能因一个来源说无细节就判定无改动。",
-          "next_action": "逐条核对 3 项修复在官方 release notes 中是否可查；若可查项少于 2 项，则判定细节来自二手转述，降级为线索。",
+          "impact": "对 WinVM 自托管与数据基建直接相关：standby 读路径可省掉应用层等回放逻辑，但要先确认 0.1s 超时与驱动兼容性。",
+          "next_action": "同一读写用例在 standby 连跑 3 次；若读到旧值次数大于 0，则判定 read-your-writes 未生效，回退主库读。",
+          "signal_type": "release",
+          "confidence": "fact"
+        },
+        {
+          "id": "e60f4e5e7cf4b021",
+          "title": "Meta’s new Muse Charm device may cost $300",
+          "url": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-19T21:58:06.827000Z",
+          "score": 77.25,
+          "category": "dev-tools",
+          "cluster_id": "e60f4e5e7cf4b021",
+          "summary": "Meta hasn't denied the reporting from The Information, saying only that it will \"have more to share soon\" about its upcoming AI wearable. 〔Folo分类:AI技术与应用〕",
+          "why_matters": "$300 是媒体援引的预估价且用了 may，Meta 未确认；把它写成正式定价会变成未证实断言。",
+          "fact_anchor": "TechCrunch 报道 Meta 新款 AI 可穿戴设备 Muse Charm 定价可能为 $300，Meta 只回应「很快会公布更多」未否认该数字。",
+          "numbers": [
+            "$300"
+          ],
+          "entities": [
+            "Meta",
+            "Muse Charm",
+            "The Information"
+          ],
+          "evidence_urls": [
+            "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300"
+          ],
+          "impact": "对 skill 与 automation 的事实层是反面样本：未确认读数必须带来源等级，标 unverified 后才进候选。",
+          "next_action": "核对官方产品页是否给出价格；若 30 天内仍无官方数字，则判定 $300 仅为媒体预估，不写入规格基线。",
+          "signal_type": "product",
+          "confidence": "unverified"
+        },
+        {
+          "id": "7a39639263596a9f",
+          "title": "Meta now sells 3D movies on Quest VR headsets",
+          "url": "https://www.theverge.com/tech/1038157/meta-quest-vr-3d-movies-tv-app",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-19T21:12:06.507000Z",
+          "score": 76.69,
+          "category": "dev-tools",
+          "cluster_id": "7a39639263596a9f",
+          "summary": "Meta now provides access to over 150 purchasable and rentable 3D movies on its Quest 3 and 3S headsets through the TV app. The catalog features major releases such as Avatar and Spider-Man: Far From Home, alongside a Billie Eilish concert film. This expansion coincides with a software update introdu",
+          "why_matters": "150 是 over 的下限口径且随片库变化；同时上线的 Theater view 属功能改动，两者维度不同不能互证。",
+          "fact_anchor": "Meta 在 Quest 3 与 3S 头显的 TV app 上架超过 150 部可购买或租借的 3D 电影，并随软件更新加入 Theater view 影院模式。",
+          "numbers": [
+            "150"
+          ],
+          "entities": [
+            "Meta",
+            "Quest 3",
+            "3S",
+            "Theater view",
+            "Avatar"
+          ],
+          "evidence_urls": [
+            "https://www.theverge.com/tech/1038157/meta-quest-vr-3d-movies-tv-app"
+          ],
+          "impact": "对数据基建是分列样本：内容数量与功能变更应分字段记录，避免用片库规模推断版本改动范围。",
+          "next_action": "按周抓取 2 次片库目录；若两次数量相差超过 10%，则判定 150 为动态下限，改记快照日期与计数。",
+          "signal_type": "product",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "docs-changelog",
+      "label": "文档与变更",
+      "items": [
+        {
+          "id": "9166064c2f31e744",
+          "title": "v2.1.329",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.329",
+          "source": "claude-code Releases",
+          "published_at": "2026-11-19T22:14:41Z",
+          "score": 75.86,
+          "category": "docs-changelog",
+          "cluster_id": "9166064c2f31e744",
+          "summary": "What's changed Added a trust dialog warning that says where a folder's hooks are declared Added a warning in the conversation, in Claude Desktop and other non-interactive hosts, when hooks in managed settings fail to load Added this session's scheduled tasks, /loop wakeups, the goal and this convers",
+          "why_matters": "改动集中在 hooks 与 MCP 的可观测性，说明非交互宿主下的失败路径比新功能更需要先暴露；版本号可逐字匹配成扫描规则。",
+          "fact_anchor": "claude-code 发布 v2.1.329：新增 hooks 声明位置的信任弹窗、非交互宿主里 managed settings 钩子加载失败告警，并在 /mcp 页面显示远程 HTTP MCP 的 JSON-RPC 报错。",
+          "numbers": [
+            "2.1.329"
+          ],
+          "entities": [
+            "Claude Code",
+            "Claude Desktop",
+            "hooks",
+            "/mcp",
+            "OpenTelemetry",
+            "JSON-RPC"
+          ],
+          "evidence_urls": [
+            "https://github.com/anthropics/claude-code/releases/tag/v2.1.329"
+          ],
+          "impact": "对 automation 与 agent 部署最相关：定时任务属非交互宿主，托管 hooks 加载失败现在有显式告警，可纳入部署前 gate。",
+          "next_action": "在 2 个非交互宿主各触发 1 次托管 hooks 加载失败；若缺告警次数 ≥ 1，则判定该路径未覆盖，不纳入部署基线。",
           "signal_type": "docs-change",
           "confidence": "fact"
         },
         {
-          "id": "70cc8a0a1d314807",
-          "title": "DaisyRose-27B: 1,200-task RL took Qwen3.8 from 5.6% to 12% on Terminal-Bench 4.1",
-          "url": "https://www.radixark.com/blog/daisyrose-27b",
+          "id": "3bf51d45c08e3b71",
+          "title": "This year's humpback whale migration was missing something vital—the calves and their mothers",
+          "url": "https://phys.org/news/2026-11-year-humpback-whale-migration-vital.html",
           "source": "Folo 订阅池基线（人工筛选信源）",
-          "published_at": "2026-11-18T19:39:16.047000Z",
-          "score": 77.19,
-          "category": "dev-tools",
-          "cluster_id": "70cc8a0a1d314807",
-          "summary": "Comments 〔Folo分类:开源项目〕",
-          "why_matters": "百分比翻倍看着亮眼，但读数是单一任务集上的结果、摘要又只有 Comments，提升幅度不能直接外推成通用能力。",
-          "fact_anchor": "标题称 DaisyRose-27B 用 1,200 项任务的强化学习，把 Qwen3.8 在 Terminal-Bench 4.1 上的成绩从 5.6% 提到 12%，正文摘要仅为评论占位。",
+          "published_at": "2026-11-19T19:20:25.106000Z",
+          "score": 76.99,
+          "category": "docs-changelog",
+          "cluster_id": "3bf51d45c08e3b71",
+          "summary": "After centuries of whaling, humpback whales of the Southern Hemisphere were close to extinction. As few as 5,000 animals were left in the… 〔Folo分类:重大学术科研突破〕",
+          "why_matters": "5,000 是历史种群低点的估计值，与今年幼鲸缺失是两个时间口径，合并读会误判为当前存量。",
+          "fact_anchor": "一篇生态报道称南半球座头鲸在数百年捕鲸后一度只剩 5,000 头，今年迁徙中幼鲸与母鲸数量缺失。",
           "numbers": [
-            "1,200",
-            "5.6%",
-            "12%"
+            "5,000"
           ],
           "entities": [
-            "DaisyRose-27B",
-            "Qwen3.8",
-            "Terminal-Bench 4.1"
+            "humpback whales",
+            "Southern Hemisphere"
           ],
           "evidence_urls": [
-            "https://www.radixark.com/blog/daisyrose-27b"
+            "https://phys.org/news/2026-11-year-humpback-whale-migration-vital.html"
           ],
-          "impact": "对 agent 评估条目是提醒：模型增益要连任务集、基线、实验条件一起记，否则 5.6% 到 12% 无法复现也无法横向比较。",
-          "next_action": "按 1,200 项任务在 Terminal-Bench 4.1 复跑一次；若绝对提升低于 6 个百分点，则判定标题读数为特定配置结果，不纳入基线。",
-          "signal_type": "research",
-          "confidence": "unverified"
-        }
-      ]
-    },
-    {
-      "key": "research-papers",
-      "label": "论文与学术",
-      "items": [
-        {
-          "id": "339399f3d4ceae77",
-          "title": "论文里的SOTA，实验里的问号：AI抗体设计离临床前还有多远？",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzU2ODU3Mzc4Nw%3D%3D&mid=2247514998&idx=1&sn=55d6287421a5c415af49d477372fee5f&chksm=fdd1e6dfde63560ff9b8eff115c62fa5895416d2b2046892e4ee3514ad535456b5e32785426e&scene=0&xtrack=1",
-          "source": "智源社区 · 最新分享（匿名 API）",
-          "published_at": "2026-11-18T21:40:00Z",
-          "score": 77.01,
-          "category": "research-papers",
-          "cluster_id": "339399f3d4ceae77",
-          "summary": "计算机科学、强化学习、生成模型｜灵肽科技复测文献报道的107条AI设计抗体结合序列，仅不足30%通过实验验证；另用多种开源AI方法设计116万条纳米抗体序列，筛选300余条开展湿实验，其中221条靶向IL-7Rα。结果揭示当前AI抗体设计成功率被严重高估，第三方复现与统一实验条件下性能显著下降，既往报告的结合案例可靠性存疑，凸显AI模型泛化性、可重复性及实验验证闭环的迫切需求。（150字）",
-          "why_matters": "第三方复现把论文里的 SOTA 成功率压到不足 30%，说明缺口在实验验证闭环，而不是模型设计得不够好。",
-          "fact_anchor": "灵肽科技复测文献报道的 107 条 AI 设计抗体结合序列，仅不足 30% 通过实验验证；另设计 116 万条纳米抗体、筛 300 余条做湿实验，其中 221 条靶向 IL-7Rα。",
-          "numbers": [
-            "107条",
-            "30%",
-            "116万条",
-            "300余条",
-            "221条"
-          ],
-          "entities": [
-            "灵肽科技",
-            "SOTA",
-            "IL-7Rα"
-          ],
-          "evidence_urls": [
-            "https://mp.weixin.qq.com/s?__biz=MzU2ODU3Mzc4Nw%3D%3D&mid=2247514998&idx=1&sn=55d6287421a5c415af49d477372fee5f&chksm=fdd1e6dfde63560ff9b8eff115c62fa5895416d2b2046892e4ee3514ad535456b5e32785426e&scene=0&xtrack=1"
-          ],
-          "impact": "对 skill 与自动化评估是硬输入：接入前应要求第三方复现率与统一实验条件，缺任一项只记线索、不进可用基线。",
-          "next_action": "核对 107 条复测序列的实验条件是否统一；若第三方通过率仍不足 30%，则判定既往结合案例可靠性存疑，不纳入评估口径。",
+          "impact": "暂无直接影响：属生态种群观察，与 WorkBuddy / agent 部署 / 数据基建无交集；仅作计数口径分列样本。",
+          "next_action": "核对 5,000 是否对应具体统计年份与 1 份原始调查；若两者缺一，则判定为历史估计，只保留定性结论。",
           "signal_type": "research",
           "confidence": "fact"
         },
         {
-          "id": "9ba121161ad4575b",
-          "title": "Scientists Find That Mice, Not Deer, Hold a Major Clue to Lyme Disease Risk",
-          "url": "https://scitechdaily.com/scientists-find-that-mice-not-deer-hold-a-major-clue-to-lyme-disease-risk",
+          "id": "0095ff7f6d07a207",
+          "title": "More than 1,700 bee species are unique to islands, first global assessment finds",
+          "url": "https://phys.org/news/2026-11-bee-species-unique-islands-global.html",
           "source": "Folo 订阅池基线（人工筛选信源）",
-          "published_at": "2026-11-18T20:06:03.521000Z",
-          "score": 75.89,
-          "category": "research-papers",
-          "cluster_id": "9ba121161ad4575b",
-          "summary": "A 35-year study reveals that mice, acorns, and unexpected environmental forces hold surprising clues to predicting Lyme disease risk. A… 〔Folo分类:重大学术科研突破〕",
-          "why_matters": "把结论挂在 35 年的观测跨度上，比只说「长期研究」更可核验，也说明预测依赖长周期数据而非单点相关。",
-          "fact_anchor": "一项 35 年的研究指出，预测 Lyme disease 风险的关键线索在 mice、acorns 与环境因素，而非鹿。",
+          "published_at": "2026-11-19T19:40:06.253000Z",
+          "score": 75.61,
+          "category": "docs-changelog",
+          "cluster_id": "0095ff7f6d07a207",
+          "summary": "More than 1,700 bee species are found only on islands, the first global checklist of island bees shows. If you like bees and island… 〔Folo分类:重大学术科研突破〕",
+          "why_matters": "1,700 是 more than 的下限口径，且「仅见于岛屿」是分布限定，去掉限定就会变成全球物种总数。",
+          "fact_anchor": "phys.org 报道首份全球岛屿蜜蜂清单，称超过 1,700 个蜜蜂物种仅见于岛屿，标题与摘要各给出一次该计数。",
           "numbers": [
-            "35-year"
+            "1,700"
           ],
           "entities": [
-            "Mice",
-            "Lyme Disease",
-            "acorns"
+            "island bees",
+            "bee species"
           ],
           "evidence_urls": [
-            "https://scitechdaily.com/scientists-find-that-mice-not-deer-hold-a-major-clue-to-lyme-disease-risk"
+            "https://phys.org/news/2026-11-bee-species-unique-islands-global.html"
           ],
-          "impact": "对数据基建的时序字段有借鉴：长跨度观测要显式记录时间范围，否则跨年结论与单年波动会被混为一谈。",
-          "next_action": "核对原文是否给出 35 年数据的逐年记录；若缺年份级明细，则判定跨度读数不可复核，只保留定性结论。",
+          "impact": "暂无直接影响：属生物地理清单，与 WorkBuddy / agent 部署 / 数据基建无交集；仅作带限定词计数样本。",
+          "next_action": "核对清单是否公开物种级明细；若可逐项核对的条目少于 1,700，则判定该数为下限估计，不写入汇总统计。",
           "signal_type": "research",
           "confidence": "fact"
         }
       ]
     },
     {
-      "key": "security-governance",
-      "label": "安全与治理",
+      "key": "community",
+      "label": "社区与观点",
       "items": [
         {
-          "id": "4bb3cf0840332f0b",
-          "title": "KVM: x86: Unconditionally reset MMU context when emulating INIT (CVE-2026-99312)",
-          "url": "https://www.cve.org/CVERecord?id=CVE-2026-99312",
-          "source": "Folo 订阅池基线（人工筛选信源）",
-          "published_at": "2026-11-18T16:06:21.643000Z",
-          "score": 76.53,
-          "category": "security-governance",
-          "cluster_id": "4bb3cf0840332f0b",
-          "summary": "Comments 〔Folo分类:开源项目〕",
-          "why_matters": "带 CVE 编号与受影响子系统的补丁可直接转成依赖扫描的精确匹配规则，而不是笼统提示「内核有风险」。",
-          "fact_anchor": "一条内核补丁标题记录 KVM 在 x86 上模拟 INIT 时无条件重置 MMU 上下文，并标注编号 CVE-2026-99312。",
+          "id": "c667431aafb3afc9",
+          "title": "Nat. Biotechnol. | AI科技巨头正在“接管”药物发现吗？",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzU2ODU3Mzc4Nw%3D%3D&mid=2247514999&idx=2&sn=7edd18c7b795b9950bf87f67902f464d&chksm=fd3f440c405c4d2eacfb8748f430ac38cc15e3457b8f1252ebd73fef1b30ed821a841bf4a851&scene=0&xtrack=1",
+          "source": "智源社区 · 最新分享（匿名 API）",
+          "published_at": "2026-11-19T18:30:00Z",
+          "score": 79.63,
+          "category": "community",
+          "cluster_id": "c667431aafb3afc9",
+          "summary": "智慧医疗、生成模型、深度学习｜近年来，人工智能加速融入药物研发全流程，Google DeepMind、Anthropic、OpenAI、Microsoft和Amazon等科技巨头已从提供算法、算力与工具，转向深度参与靶点发现、分子设计、实验验证及药物开发。其中，DeepMind孵化的Isomorphic Labs于2026年10月正与投资者洽谈约400亿美元融资，凸显AI制药产业化加速与资本高度关注，标志着科技企业正成为新药研发的核心力量。",
+          "why_matters": "400 亿是洽谈中的上限口径而非已到账金额；写成落地融资会高估 AI 制药的资本进度。",
+          "fact_anchor": "一篇中文综述称 Google DeepMind 等巨头转向药物研发全流程，其中 DeepMind 孵化的 Isomorphic Labs 正洽谈约 400 亿美元融资。",
           "numbers": [
-            "CVE-2026-99312"
+            "400亿"
           ],
           "entities": [
-            "KVM",
-            "x86",
-            "MMU",
-            "CVE-2026-99312"
+            "Isomorphic Labs",
+            "Google DeepMind",
+            "DeepMind",
+            "Nat. Biotechnol."
           ],
           "evidence_urls": [
-            "https://www.cve.org/CVERecord?id=CVE-2026-99312"
+            "https://mp.weixin.qq.com/s?__biz=MzU2ODU3Mzc4Nw%3D%3D&mid=2247514999&idx=2&sn=7edd18c7b795b9950bf87f67902f464d&chksm=fd3f440c405c4d2eacfb8748f430ac38cc15e3457b8f1252ebd73fef1b30ed821a841bf4a851&scene=0&xtrack=1"
           ],
-          "impact": "对 agent 部署前检查与 WinVM 宿主依赖最可直接落地：把该编号写进扫描规则，命中即阻断启动并留痕。",
-          "next_action": "扫描 3 台测试机内核是否包含该补丁；若未应用实例数大于 0，则判定补丁未闭环并暂停相关 VM 暴露服务。",
-          "signal_type": "incident",
+          "impact": "对数据基建的金额字段是样本：融资额要标「洽谈中/已交割」状态，别与估值、累计并购额混算。",
+          "next_action": "核对 30 天内是否有官方公告；若金额低于 400 亿或仍无公告，则判定为洽谈中线索，降为 unverified。",
+          "signal_type": "market-data",
+          "confidence": "unverified"
+        },
+        {
+          "id": "e5c2d6b7d5cf9568",
+          "title": "The Best Hatch Black Friday Deals (2026)",
+          "url": "https://www.wired.com/story/hatch-black-friday-deals-2026",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-19T20:44:44.981000Z",
+          "score": 76.36,
+          "category": "community",
+          "cluster_id": "e5c2d6b7d5cf9568",
+          "summary": "Grab the Hatch Sleep Clock for $188 (25 percent off) at Hatch or Amazon through November 30. 〔Folo分类:高新科技应用〕",
+          "why_matters": "$188 是折后标价、25 percent 是相对折扣、November 30 是截止日，三种量纲并列最容易被读成同一个数。",
+          "fact_anchor": "Wired 的黑五促销条目给出 Hatch Sleep Clock 售价 $188、折扣 25 percent off，并标注优惠持续到 November 30。",
+          "numbers": [
+            "$188",
+            "25"
+          ],
+          "entities": [
+            "Hatch",
+            "Hatch Sleep Clock",
+            "Amazon"
+          ],
+          "evidence_urls": [
+            "https://www.wired.com/story/hatch-black-friday-deals-2026"
+          ],
+          "impact": "对数据基建的金额字段是提醒：标价、折扣率、有效期要分列，促销条目不得并入长期价格序列。",
+          "next_action": "核对结账页实付是否等于 $188；若含税费后差额超过 5%，则判定标价为未含税口径，另记实付字段。",
+          "signal_type": "market-data",
+          "confidence": "fact"
+        },
+        {
+          "id": "00ca2badf798b003",
+          "title": "Launch HN: Onlook (YC W25) – An open-source developer tool for designers",
+          "url": "https://github.com/onlook-dev/onlook",
+          "source": "HN Algolia front_page (points/comments)",
+          "published_at": "2026-11-19T16:34:04Z",
+          "score": 76.17,
+          "category": "community",
+          "cluster_id": "00ca2badf798b003",
+          "summary": "Hey HN, I'm Daniel, founder of Onlook (https://github.com/onlook-dev/onlook and onlook.com).Onlook is a desktop app that puts a canvas on top of your real codebase, letting you design directly in code with the agent you already use. Over 25,000 designers and developers have supported the project, 10",
+          "why_matters": "支持者数与贡献者数是两个分母；把 25,000 说成开发者规模会夸大可维护人力，#1 trending 属排名修辞。",
+          "fact_anchor": "Onlook 在 HN 发布帖里称其开源设计工具已有超 25,000 名支持者、100+ 贡献者，并把产品重建为 agentic design tool，改动以 PR 落到真实代码库。",
+          "numbers": [
+            "25,000",
+            "100",
+            "73",
+            "65"
+          ],
+          "entities": [
+            "Onlook",
+            "onlook-dev",
+            "worktrees",
+            "PR",
+            "agent"
+          ],
+          "evidence_urls": [
+            "https://github.com/onlook-dev/onlook"
+          ],
+          "impact": "对 skill 与 agent 部署有直接借鉴：多 worktrees 加每改动落 PR 的设计，可复用到多 agent 并行改码的隔离与回滚。",
+          "next_action": "核对仓库 contributors 去重数；若与 100+ 相差超过 20%，则判定支持者与贡献者口径混用，拆成两字段。",
+          "signal_type": "release",
           "confidence": "unverified"
         }
       ]
@@ -371,114 +436,188 @@
       "label": "市场与投资",
       "items": [
         {
-          "id": "ac306b6292cd127d",
-          "title": "Lilly Buying Spree Surpasses $32B",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-18/lilly-buying-spree-surpasses-32b-video",
-          "source": "Bloomberg Markets",
-          "published_at": "2026-11-18T21:11:03Z",
-          "score": 75.55,
+          "id": "f0d0f469e0bfee91",
+          "title": "Anthropic hits $2T in Nasdaq debut",
+          "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19",
+          "source": "HN Algolia front_page (points/comments)",
+          "published_at": "2026-11-19T17:02:40Z",
+          "score": 77.24,
           "category": "market-invest",
-          "cluster_id": "ac306b6292cd127d",
-          "summary": "Bloomberg’s Madison Muller joins Dani Burger on “Bloomberg Deals.” Eli Lilly agreed to buy closely held Calytrix Bio in a deal that could be worth up to $1.5 billion, the latest in the drugmaker’s $32 billion wave of acquisitions in 2026 as it builds out its cancer and immunology businesses. (Source",
-          "why_matters": "金额是可核验的公开并购读数，但「最高可达」是上限口径，读成实际成交价就会高估单笔规模。",
-          "fact_anchor": "Bloomberg 报道 Eli Lilly 同意收购 Calytrix Bio，单笔交易最高 $1.5 billion，属于其 $32B 并购潮中的最新一笔。",
+          "cluster_id": "f0d0f469e0bfee91",
+          "summary": "",
+          "why_matters": "市值是估值口径、分数与评论是社区热度，三者都不是成交量；摘要为空时尤其不能把标题当独立信源。",
+          "fact_anchor": "HN 首页条目标题称 Anthropic 在 Nasdaq 上市首日市值达 $2T，条目带 748 分与 1377 条评论，正文摘要为空。",
           "numbers": [
-            "$32B",
-            "$1.5 billion"
+            "$2T",
+            "748",
+            "1377"
           ],
           "entities": [
-            "Eli Lilly",
-            "Calytrix Bio",
-            "Bloomberg"
+            "Anthropic",
+            "Nasdaq"
           ],
           "evidence_urls": [
-            "https://www.bloomberg.com/news/videos/2026-11-18/lilly-buying-spree-surpasses-32b-video"
+            "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19"
           ],
-          "impact": "对数据基建是口径提醒：交易金额要分「上限/实际」字段并标注来源，避免与累计并购额混算成同一量级。",
-          "next_action": "对照官方公告核对单笔金额；若成交价低于 $1.5 billion 上限，则判定为区间报价，按实付口径改写条目。",
+          "impact": "对数据基建是口径提醒：市值、热度、成交量要分字段，空摘要条目标 multi-source 前先补一手来源。",
+          "next_action": "找 2 家独立一手来源核对 $2T；若指向同一收盘口径的少于 2 家，则判定该数字不可与首日涨幅合并。",
+          "signal_type": "market-data",
+          "confidence": "unverified"
+        },
+        {
+          "id": "89345bf95b724823",
+          "title": "Anthropic Jumps 17% in Record IPO as Broader Tech Market Sells Off | Closing Bell",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-19/anthropic-jumps-17-in-record-ipo-closing-bell-video",
+          "source": "Bloomberg Markets",
+          "published_at": "2026-11-19T21:24:51Z",
+          "score": 75.74,
+          "category": "market-invest",
+          "cluster_id": "89345bf95b724823",
+          "summary": "Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Ed Ludlow, Carol Massar and Tim Stenovec. (Source: Bloomberg)",
+          "why_matters": "17% 是首日相对涨幅，$2T 是市值绝对值，两者分母不同；「大盘走弱」是背景，不能反推个股因果。",
+          "fact_anchor": "Bloomberg 的收盘节目条目标题记录 Anthropic 创纪录 IPO 首日上涨 17%，同时提到大盘科技股走弱。",
+          "numbers": [
+            "17%"
+          ],
+          "entities": [
+            "Anthropic",
+            "Bloomberg",
+            "Closing Bell"
+          ],
+          "evidence_urls": [
+            "https://www.bloomberg.com/news/videos/2026-11-19/anthropic-jumps-17-in-record-ipo-closing-bell-video"
+          ],
+          "impact": "对数据基建是口径提醒：相对涨幅要带基准日与基准价，绝对值与百分比不得写进同一字段。",
+          "next_action": "核对 17% 的基准价是否为发行价；若基准日与 $2T 估值日不一致，则判定两数字不可合并展示。",
+          "signal_type": "market-data",
+          "confidence": "fact"
+        },
+        {
+          "id": "dec40ab23d7d7746",
+          "title": "New research explains how far people will go for a day at the park",
+          "url": "https://phys.org/news/2026-11-people-day.html",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-19T21:00:15.345000Z",
+          "score": 76.55,
+          "category": "market-invest",
+          "cluster_id": "dec40ab23d7d7746",
+          "summary": "A park two miles (3.2 kilometers) from home might seem close enough for a Saturday outing. In metropolitan Detroit, though, park visits had… 〔Folo分类:重大学术科研突破〕",
+          "why_matters": "3.2 是单位换算值而非观测结论，摘要没给出实际到访距离分布，不能据此判断出行意愿阈值。",
+          "fact_anchor": "一项研究以底特律都市区为例讨论居民愿意为去公园走多远，摘要给出两英里约合 3.2 公里的换算口径。",
+          "numbers": [
+            "3.2"
+          ],
+          "entities": [
+            "metropolitan Detroit"
+          ],
+          "evidence_urls": [
+            "https://phys.org/news/2026-11-people-day.html"
+          ],
+          "impact": "暂无直接影响：属城市行为研究，与 WorkBuddy / MCP / agent 部署无交集；仅作量纲标注样本。",
+          "next_action": "核对原文是否给出到访距离的中位数与样本量；若缺其中 1 项，则判定 3.2 仅为换算示例，不进入统计口径。",
+          "signal_type": "research",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "research-papers",
+      "label": "论文与学术",
+      "items": [
+        {
+          "id": "e1761609bd5ff5d2",
+          "title": "Amazon’s last-gen Kindle Paperwhite hasn’t been this cheap since June",
+          "url": "https://www.theverge.com/gadgets/1037635/amazon-kindle-paperwhite-black-friday-2026-deal-sale",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-19T17:15:00.107000Z",
+          "score": 75.64,
+          "category": "research-papers",
+          "cluster_id": "e1761609bd5ff5d2",
+          "summary": "Amazon is selling the last-generation Kindle Paperwhite (2024) for $129.99, marking a $70 reduction from its original price. This offer, available at Amazon, Best Buy, and Target, is near the e-reader's all-time low. The discounted model features a 300ppi display, 16GB of storage, USB-C charging, an",
+          "why_matters": "促销价、降幅、屏幕与存储规格是四类读数并列，容易被抄成一条；2024 是型号年份，按 v1.1 不算读数。",
+          "fact_anchor": "Verge 条目称亚马逊把上一代 Kindle Paperwhite 降到 $129.99，较原价降 $70，机型配 300ppi 屏、16GB 存储与 USB-C，缺无线充电。",
+          "numbers": [
+            "$129.99",
+            "$70",
+            "300ppi",
+            "16GB"
+          ],
+          "entities": [
+            "Amazon",
+            "Kindle Paperwhite",
+            "Best Buy",
+            "Target",
+            "Signature Edition",
+            "USB-C"
+          ],
+          "evidence_urls": [
+            "https://www.theverge.com/gadgets/1037635/amazon-kindle-paperwhite-black-friday-2026-deal-sale"
+          ],
+          "impact": "对数据基建的规格字段是样本：价格、降幅、硬件参数分列并标币种与单位，避免汇总时把 16GB 读成价格尾数。",
+          "next_action": "核对 3 家渠道标价是否都为 $129.99；若不一致渠道数 ≥ 1，则判定为单渠道促销价，另记渠道字段。",
           "signal_type": "market-data",
           "confidence": "fact"
         }
       ]
-    },
-    {
-      "key": "industry-capital",
-      "label": "产业与资本",
-      "items": [
-        {
-          "id": "17ed1763602098a9",
-          "title": "Spend management platform Payhawk announces $280M raise, 2B valuation",
-          "url": "https://techcrunch.com/2026/11/18/spend-management-platform-payhawk-announces-280m-raise-2b-valuation",
-          "source": "Folo 订阅池基线（人工筛选信源）",
-          "published_at": "2026-11-18T19:29:41.525000Z",
-          "score": 75.48,
-          "category": "industry-capital",
-          "cluster_id": "17ed1763602098a9",
-          "summary": "Founded in 2018, Payhawk is an enterprise financial management platform that helps companies track and manage expenses and procurement using… 〔Folo分类:美、中、港投融资市场〕",
-          "why_matters": "融资额与估值是两种口径，并列出现容易被读成同一笔钱；估值不是到账现金，不能计入可用资金。",
-          "fact_anchor": "支出管理平台 Payhawk 宣布 $280M 融资、2B 估值，标题同时给出融资金额与估值两个读数。",
-          "numbers": [
-            "$280M",
-            "2B"
-          ],
-          "entities": [
-            "Payhawk"
-          ],
-          "evidence_urls": [
-            "https://techcrunch.com/2026/11/18/spend-management-platform-payhawk-announces-280m-raise-2b-valuation"
-          ],
-          "impact": "对金额类字段设计有借鉴：读数要标类型（融资/估值）与来源，避免汇总时把两种口径重复计入。",
-          "next_action": "核对公开公告是否同时说明 $280M 与 2B 的口径；若缺估值方法，则只保留融资额读数，估值降级为线索。",
-          "signal_type": "funding",
-          "confidence": "fact"
-        }
-      ]
     }
   ],
-  "editor_note": "本期最该带走的判断是：能直接写进门禁的是编号与版本，不是型号和金额。一条把多个服务以 GitHub 验证过的 MCP servers 接进 Copilot 的更新，原文里一个阿拉伯数字都没有，按 v1.1 口径本期没有入报；反过来，vLLM 0.34.0 改默认 GPU 内存配置与 block size、HomeView 27.2.1 修 Siri 与家庭网络、KVM 标注 CVE-2026-99312 重置 MMU 上下文，三者都给了可逐字匹配的标识。对 automation 与 agent 部署的含义很直接：依赖扫描与变更门禁应只认版本号、CVE 编号、配置项名这类精确标识符，产品命名里的数字不算读数，更不能拿发布时间里的年份充数。部署前 gate 应把「版本 + 改动清单」做成一对必填字段，缺任一项就拒绝自动放行。第二条是复现率与量纲。灵肽科技复测 107 条文献报道的 AI 设计抗体结合序列，只有不足 30% 通过实验验证；另用开源方法设计 116 万条纳米抗体、筛 300 余条做湿实验、其中 221 条靶向 IL-7Rα。DaisyRose-27B 用 1,200 项任务 RL 把 Qwen3.8 在 Terminal-Bench 4.1 上从 5.6% 提到 12%。",
-  "brief": "每日信息 · 2026-11-19\n\n今日入报里，107 条 AI 设计抗体仅不足 30% 通过实验验证，1,200 项任务 RL 把 Terminal-Bench 4.1 从 5.6% 提到 12%；HomeView 27.2.1 与 vLLM 0.34.0 给出可匹配版本号，CVE-2026-99312 给出可扫描编号；Lilly 并购越过 $32B、Payhawk 融资 $280M。张力在于：编号、版本、复现率能逐字回查，金额与型号却推不出可用性。\n\n【文档与变更】\n- Apple 为 HomeView 设备发布 27.2.1 版软件更新，是上市后首次更新，摘要称未公布…（27.2.1）\n- 一项研究确认玻利维亚 Madidi 国家公园有 100 个蝙蝠分类单元，其中 99 个已确认物种、7…（99 / 7）\n\n【Agent 与工程】\n- vLLM 0.34.0 改动默认 GPU 内存配置与 block size 以优化高负载吞吐，这份周…（0.34.0）\n- 一篇 benchmark 复盘记录了 18 次运行里出现第 19 次提交：agent 被判定否决后又…（19 / 18）\n\n【开发者工具与版本】\n- Apple 发布 HomeView 27.2.1，摘要列出恢复与 iOS 27.3 beta 配对时…（27.2.1 / 27.3）\n- 标题称 DaisyRose-27B 用 1,200 项任务的强化学习，把 Qwen3.8 在 Ter…（1,200 / 5.6%）\n\n【论文与学术】\n- 灵肽科技复测文献报道的 107 条 AI 设计抗体结合序列，仅不足 30% 通过实验验证；另设计 1…（107条 / 30%）\n- 一项 35 年的研究指出，预测 Lyme disease 风险的关键线索在 mice、acorns …（35-year）\n\n【安全与治理】\n- 一条内核补丁标题记录 KVM 在 x86 上模拟 INIT 时无条件重置 MMU 上下文，并标注编号…（CVE-2026-99312）\n\n【市场与投资】\n- Bloomberg 报道 Eli Lilly 同意收购 Calytrix Bio，单笔交易最高 $1…（$32B / $1.5 billion）\n\n【产业与资本】\n- 支出管理平台 Payhawk 宣布 $280M 融资、2B 估值，标题同时给出融资金额与估值两个读数…（$280M / 2B）\n\n【待验证信号】\n- HomeView 27.2.1 的改动清单是…：若 官方 release notes 中可逐条核对的修复项少于 2 条，则判定该版本只有版本号、缺可复现依据，不写入变更基线。\n- vLLM 0.34.0 默认内存配置变更的回…：若 同一高负载用例连跑 3 次，新版吞吐低于旧版达到 2 次，则判定新默认配置不适用本机负载，回退为显式配置。\n- AI 抗体设计第三方复现率是否稳定：若 107 条复测序列的通过率仍不足 30%，则判定论文 SOTA 成功率被高估，不纳入可复用评估口径。\n- 5.6% 到 12% 的增益能否复跑：若 Terminal-Bench 4.1 按 1,200 任务复跑，绝对提升低于 6 个百分点，则判定标题读数为特定配置结果，不作为通用能力增益。\n- CVE-2026-99312 的补丁覆盖：若 扫描 3 台测试机，未应用该 KVM 补丁的实例数大于 0，则判定补丁未闭环，暂停相关 VM 对外暴露服务。\n\n内容仅供参考，不构成投资建议；外部事实未独立验证；取不到可靠数据处标注「暂无可靠数据」。",
+  "editor_note": "本期最该带走的判断是：能直接写进部署门禁的是精确标识与规则条数，不是型号数字，更不是采集时间戳里的年份。claude-code 发布 v2.1.329，改动集中在 hooks 声明位置的信任弹窗、非交互宿主里 managed settings 钩子加载失败告警、/mcp 页面新增 Server message 行显示远程 HTTP MCP 的 JSON-RPC 报错，以及 Code Mode 打开时每次工具调用都发 OpenTelemetry 事件。对 automation 与 agent 部署的含义很直接：定时任务本身就是非交互宿主，托管 hooks 加载失败过去是静默的，现在有显式告警，应把它纳入部署前 gate 的必查项；同时给依赖扫描补上 2.1.329 这类可逐字匹配的版本号，命中即比对改动清单。第二条是改动清单比版本号更决定能不能接。落到工程动作上，部署前 gate 先做三件事：用可逐字匹配的版本号锁定依赖，把改动清单逐条转成检查项，对 0 violations 的 smoke 结果留痕；三件缺一就拒绝自动放行，只记为待复核线索。对 skill 与 A2A 委派链路同理，评估条目必须写清复现条件与分母，跑不出「版本 + 改动清单 + 可复现步骤」三元组的结果只进线索池。",
+  "brief": "每日信息 · 2026-11-20\n\n今日入报里，claude-code 2.1.329 列出 hooks 改动，app-store-compliance 收录 117 条拒收模式，PostgreSQL 19 新增 WAIT FOR LSN；Anthropic 报 $2T 估值与首日 17% 涨幅，Isomorphic Labs 洽谈约 400 亿美元融资。张力在于：编号可逐字回查，金额却分三种口径。\n\n【Agent 与工程】\n- 一篇 dev.to 清单文把 n8n 与 Activepie…（28）\n- 开源仓库 app-store-compliance 提供合规…（117 / 95）\n\n【开发者工具与版本】\n- Simon Willison 记录 PostgreSQL 1…（19 / 0.1）\n- TechCrunch 报道 Meta 新款 AI 可穿戴设备…（$300）\n- Meta 在 Quest 3 与 3S 头显的 TV app…（150）\n\n【文档与变更】\n- claude-code 发布 v2.1.329：新增 hoo…（2.1.329）\n- 一篇生态报道称南半球座头鲸在数百年捕鲸后一度只剩 5,000…（5,000）\n- phys.org 报道首份全球岛屿蜜蜂清单，称超过 1,70…（1,700）\n\n【社区与观点】\n- 一篇中文综述称 Google DeepMind 等巨头转向药…（400亿）\n- Wired 的黑五促销条目给出 Hatch Sleep Cl…（$188 / 25）\n- Onlook 在 HN 发布帖里称其开源设计工具已有超 25…（25,000 / 100）\n\n【市场与投资】\n- HN 首页条目标题称 Anthropic 在 Nasdaq …（$2T / 748）\n- Bloomberg 的收盘节目条目标题记录 Anthropi…（17%）\n- 一项研究以底特律都市区为例讨论居民愿意为去公园走多远，摘要给…（3.2）\n\n【论文与学术】\n- Verge 条目称亚马逊把上一代 Kindle Paperw…（$129.99 / $70）\n\n【待验证信号】\n- PostgreSQL 19 的 WAIT FOR LSN…：若 同一读写用例在 standby 连跑 3 次，读到旧值次数大于 0，则判定 read-your-writes 一致性未生效，回退为主库读。\n- claude-code 2.1.329 的 hooks …：若 在 2 个非交互宿主各触发 1 次加载失败，缺告警次数 ≥ 1，则判定 trust dialog 未覆盖该路径，不纳入部署前 gate。\n- app-store-compliance 117 条模式…：若 抽样 10 条模式对照官方条款，逐条命中的少于 8 条，则判定规则集过期，不接入预提交 guard。\n- Anthropic 估值与首日涨幅是否同一口径：若 核对 $2T 与 17% 指向同一收盘口径的独立信源少于 2 家，则判定两个数字不可合并，分口径展示。\n- Isomorphic Labs 400 亿融资是否落地：若 30 天内无官方公告，或公告金额低于 400 亿美元，则判定为洽谈中线索，降级为 unverified。\n- Onlook 支持者与贡献者口径是否混用：若 仓库 contributors 去重数与 100+ 相差超过 20%，则判定 25,000 与 100 被混用，拆成两个字段。\n\n内容仅供参考，不构成投资建议；外部事实未独立验证；取不到可靠数据处标注「暂无可靠数据」。",
   "watch_signals": [
     {
-      "signal": "HomeView 27.2.1 的改动清单是否公开",
-      "threshold": "官方 release notes 中可逐条核对的修复项少于 2 条",
-      "judgement": "判定该版本只有版本号、缺可复现依据，不写入变更基线"
+      "signal": "PostgreSQL 19 的 WAIT FOR LSN 是否覆盖 standby 读",
+      "threshold": "同一读写用例在 standby 连跑 3 次，读到旧值次数大于 0",
+      "judgement": "判定 read-your-writes 一致性未生效，回退为主库读"
     },
     {
-      "signal": "vLLM 0.34.0 默认内存配置变更的回归",
-      "threshold": "同一高负载用例连跑 3 次，新版吞吐低于旧版达到 2 次",
-      "judgement": "判定新默认配置不适用本机负载，回退为显式配置"
+      "signal": "claude-code 2.1.329 的 hooks 加载失败告警覆盖",
+      "threshold": "在 2 个非交互宿主各触发 1 次加载失败，缺告警次数 ≥ 1",
+      "judgement": "判定 trust dialog 未覆盖该路径，不纳入部署前 gate"
     },
     {
-      "signal": "AI 抗体设计第三方复现率是否稳定",
-      "threshold": "107 条复测序列的通过率仍不足 30%",
-      "judgement": "判定论文 SOTA 成功率被高估，不纳入可复用评估口径"
+      "signal": "app-store-compliance 117 条模式的可复现率",
+      "threshold": "抽样 10 条模式对照官方条款，逐条命中的少于 8 条",
+      "judgement": "判定规则集过期，不接入预提交 guard"
     },
     {
-      "signal": "5.6% 到 12% 的增益能否复跑",
-      "threshold": "Terminal-Bench 4.1 按 1,200 任务复跑，绝对提升低于 6 个百分点",
-      "judgement": "判定标题读数为特定配置结果，不作为通用能力增益"
+      "signal": "Anthropic 估值与首日涨幅是否同一口径",
+      "threshold": "核对 $2T 与 17% 指向同一收盘口径的独立信源少于 2 家",
+      "judgement": "判定两个数字不可合并，分口径展示"
     },
     {
-      "signal": "CVE-2026-99312 的补丁覆盖",
-      "threshold": "扫描 3 台测试机，未应用该 KVM 补丁的实例数大于 0",
-      "judgement": "判定补丁未闭环，暂停相关 VM 对外暴露服务"
+      "signal": "Isomorphic Labs 400 亿融资是否落地",
+      "threshold": "30 天内无官方公告，或公告金额低于 400 亿美元",
+      "judgement": "判定为洽谈中线索，降级为 unverified"
+    },
+    {
+      "signal": "Onlook 支持者与贡献者口径是否混用",
+      "threshold": "仓库 contributors 去重数与 100+ 相差超过 20%",
+      "judgement": "判定 25,000 与 100 被混用，拆成两个字段"
     }
   ],
   "reference_summary": [
     {
-      "domain": "macrumors.com",
+      "domain": "github.com",
+      "count": 3
+    },
+    {
+      "domain": "phys.org",
+      "count": 3
+    },
+    {
+      "domain": "theverge.com",
       "count": 2
     },
     {
       "domain": "dev.to",
-      "count": 2
-    },
-    {
-      "domain": "phys.org",
       "count": 1
     },
     {
-      "domain": "radixark.com",
+      "domain": "simonwillison.net",
+      "count": 1
+    },
+    {
+      "domain": "techcrunch.com",
       "count": 1
     },
     {
@@ -486,35 +625,31 @@
       "count": 1
     },
     {
-      "domain": "scitechdaily.com",
+      "domain": "wired.com",
       "count": 1
     },
     {
-      "domain": "cve.org",
+      "domain": "reuters.com",
       "count": 1
     },
     {
       "domain": "bloomberg.com",
       "count": 1
-    },
-    {
-      "domain": "techcrunch.com",
-      "count": 1
     }
   ],
   "stats": {
-    "sources_ok": 181,
+    "sources_ok": 180,
     "sources_total": 185,
-    "total_items": 2945,
-    "clusters": 2886,
+    "total_items": 3171,
+    "clusters": 3116,
     "selected": 40,
-    "published_items": 11,
-    "seven_element_pass": 11,
+    "published_items": 15,
+    "seven_element_pass": 15,
     "seven_element_ratio": 1.0,
-    "items_with_numbers": 11,
+    "items_with_numbers": 15,
     "substantive_number_ratio": 1.0,
     "rejected_no_number": 0,
-    "unique_reference_domains": 9
+    "unique_reference_domains": 10
   },
   "quality": {
     "ai_status": "ok",

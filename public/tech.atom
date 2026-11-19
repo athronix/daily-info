@@ -5,10 +5,100 @@
   <ns0:subtitle>挖掘 · 聚合 · 研判 · 订阅；每条附原文链接；内容仅供参考，不构成投资建议</ns0:subtitle>
   <ns0:link rel="self" type="application/atom+xml" href="https://daily-info.local/tech.atom" />
   <ns0:link rel="alternate" type="text/html" href="https://daily-info.local/index.html" />
-  <ns0:updated>2026-11-18T22:59:52.614033Z</ns0:updated>
+  <ns0:updated>2026-11-19T23:02:04.805768Z</ns0:updated>
   <ns0:author>
     <ns0:name>Personal Daily Info</ns0:name>
   </ns0:author>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-20:e1761609bd5ff5d2</ns0:id>
+    <ns0:title>[论文与学术] Amazon’s last-gen Kindle Paperwhite hasn’t been this cheap since June</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.theverge.com/gadgets/1037635/amazon-kindle-paperwhite-black-friday-2026-deal-sale" />
+    <ns0:published>2026-11-19T17:15:00.107000Z</ns0:published>
+    <ns0:updated>2026-11-19T23:02:04.805768Z</ns0:updated>
+    <ns0:category term="research-papers" label="论文与学术" />
+    <ns0:summary type="text">Amazon is selling the last-generation Kindle Paperwhite (2024) for $129.99, marking a $70 reduction from its original price. This offer, available at Amazon, Best Buy, and Target, is near the e-reader's all-time low. The discounted model features a 300ppi display, 16GB of storage, USB-C charging, an</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Verge 条目称亚马逊把上一代 Kindle Paperwhite 降到 $129.99，较原价降 $70，机型配 300ppi 屏、16GB 存储与 USB-C，缺无线充电。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：$129.99 / $70 / 300ppi / 16GB · 相关方：Amazon / Kindle Paperwhite / Best Buy / Target / Signature Edition / USB-C&lt;/p&gt;&lt;p&gt;Amazon is selling the last-generation Kindle Paperwhite (2024) for $129.99, marking a $70 reduction from its original price. This offer, available at Amazon, Best Buy, and Target, is near the e-reader&amp;#x27;s all-time low. The discounted model features a 300ppi display, 16GB of storage, USB-C charging, an&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;促销价、降幅、屏幕与存储规格是四类读数并列，容易被抄成一条；2024 是型号年份，按 v1.1 不算读数。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建的规格字段是样本：价格、降幅、硬件参数分列并标币种与单位，避免汇总时把 16GB 读成价格尾数。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对 3 家渠道标价是否都为 $129.99；若不一致渠道数 ≥ 1，则判定为单渠道促销价，另记渠道字段。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-19T17:15 UTC · 归类：research-papers&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.theverge.com/gadgets/1037635/amazon-kindle-paperwhite-black-friday-2026-deal-sale" rel="noopener noreferrer"&gt;https://www.theverge.com/gadgets/1037635/amazon-kindle-paperwhite-black-friday-2026-deal-sale&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-20:0095ff7f6d07a207</ns0:id>
+    <ns0:title>[文档与变更] More than 1,700 bee species are unique to islands, first global assessment finds</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://phys.org/news/2026-11-bee-species-unique-islands-global.html" />
+    <ns0:published>2026-11-19T19:40:06.253000Z</ns0:published>
+    <ns0:updated>2026-11-19T23:02:04.805768Z</ns0:updated>
+    <ns0:category term="docs-changelog" label="文档与变更" />
+    <ns0:summary type="text">More than 1,700 bee species are found only on islands, the first global checklist of island bees shows. If you like bees and island… 〔Folo分类:重大学术科研突破〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;phys.org 报道首份全球岛屿蜜蜂清单，称超过 1,700 个蜜蜂物种仅见于岛屿，标题与摘要各给出一次该计数。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：1,700 · 相关方：island bees / bee species&lt;/p&gt;&lt;p&gt;More than 1,700 bee species are found only on islands, the first global checklist of island bees shows. If you like bees and island… 〔Folo分类:重大学术科研突破〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;1,700 是 more than 的下限口径，且「仅见于岛屿」是分布限定，去掉限定就会变成全球物种总数。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;暂无直接影响：属生物地理清单，与 WorkBuddy / agent 部署 / 数据基建无交集；仅作带限定词计数样本。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对清单是否公开物种级明细；若可逐项核对的条目少于 1,700，则判定该数为下限估计，不写入汇总统计。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-19T19:40 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://phys.org/news/2026-11-bee-species-unique-islands-global.html" rel="noopener noreferrer"&gt;https://phys.org/news/2026-11-bee-species-unique-islands-global.html&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-20:3bf51d45c08e3b71</ns0:id>
+    <ns0:title>[文档与变更] This year's humpback whale migration was missing something vital—the calves and their mothers</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://phys.org/news/2026-11-year-humpback-whale-migration-vital.html" />
+    <ns0:published>2026-11-19T19:20:25.106000Z</ns0:published>
+    <ns0:updated>2026-11-19T23:02:04.805768Z</ns0:updated>
+    <ns0:category term="docs-changelog" label="文档与变更" />
+    <ns0:summary type="text">After centuries of whaling, humpback whales of the Southern Hemisphere were close to extinction. As few as 5,000 animals were left in the… 〔Folo分类:重大学术科研突破〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;一篇生态报道称南半球座头鲸在数百年捕鲸后一度只剩 5,000 头，今年迁徙中幼鲸与母鲸数量缺失。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：5,000 · 相关方：humpback whales / Southern Hemisphere&lt;/p&gt;&lt;p&gt;After centuries of whaling, humpback whales of the Southern Hemisphere were close to extinction. As few as 5,000 animals were left in the… 〔Folo分类:重大学术科研突破〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;5,000 是历史种群低点的估计值，与今年幼鲸缺失是两个时间口径，合并读会误判为当前存量。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;暂无直接影响：属生态种群观察，与 WorkBuddy / agent 部署 / 数据基建无交集；仅作计数口径分列样本。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对 5,000 是否对应具体统计年份与 1 份原始调查；若两者缺一，则判定为历史估计，只保留定性结论。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-19T19:20 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://phys.org/news/2026-11-year-humpback-whale-migration-vital.html" rel="noopener noreferrer"&gt;https://phys.org/news/2026-11-year-humpback-whale-migration-vital.html&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-20:9166064c2f31e744</ns0:id>
+    <ns0:title>[文档与变更] v2.1.329</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://github.com/anthropics/claude-code/releases/tag/v2.1.329" />
+    <ns0:published>2026-11-19T22:14:41Z</ns0:published>
+    <ns0:updated>2026-11-19T23:02:04.805768Z</ns0:updated>
+    <ns0:category term="docs-changelog" label="文档与变更" />
+    <ns0:summary type="text">What's changed Added a trust dialog warning that says where a folder's hooks are declared Added a warning in the conversation, in Claude Desktop and other non-interactive hosts, when hooks in managed settings fail to load Added this session's scheduled tasks, /loop wakeups, the goal and this convers</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;claude-code 发布 v2.1.329：新增 hooks 声明位置的信任弹窗、非交互宿主里 managed settings 钩子加载失败告警，并在 /mcp 页面显示远程 HTTP MCP 的 JSON-RPC 报错。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2.1.329 · 相关方：Claude Code / Claude Desktop / hooks / /mcp / OpenTelemetry / JSON-RPC&lt;/p&gt;&lt;p&gt;What&amp;#x27;s changed Added a trust dialog warning that says where a folder&amp;#x27;s hooks are declared Added a warning in the conversation, in Claude Desktop and other non-interactive hosts, when hooks in managed settings fail to load Added this session&amp;#x27;s scheduled tasks, /loop wakeups, the goal and this convers&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;改动集中在 hooks 与 MCP 的可观测性，说明非交互宿主下的失败路径比新功能更需要先暴露；版本号可逐字匹配成扫描规则。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 automation 与 agent 部署最相关：定时任务属非交互宿主，托管 hooks 加载失败现在有显式告警，可纳入部署前 gate。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在 2 个非交互宿主各触发 1 次托管 hooks 加载失败；若缺告警次数 ≥ 1，则判定该路径未覆盖，不纳入部署基线。&lt;/p&gt;&lt;p&gt;来源：claude-code Releases · 发布于 2026-11-19T22:14 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.329" rel="noopener noreferrer"&gt;https://github.com/anthropics/claude-code/releases/tag/v2.1.329&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-20:7a39639263596a9f</ns0:id>
+    <ns0:title>[开发者工具与版本] Meta now sells 3D movies on Quest VR headsets</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.theverge.com/tech/1038157/meta-quest-vr-3d-movies-tv-app" />
+    <ns0:published>2026-11-19T21:12:06.507000Z</ns0:published>
+    <ns0:updated>2026-11-19T23:02:04.805768Z</ns0:updated>
+    <ns0:category term="dev-tools" label="开发者工具与版本" />
+    <ns0:summary type="text">Meta now provides access to over 150 purchasable and rentable 3D movies on its Quest 3 and 3S headsets through the TV app. The catalog features major releases such as Avatar and Spider-Man: Far From Home, alongside a Billie Eilish concert film. This expansion coincides with a software update introdu</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Meta 在 Quest 3 与 3S 头显的 TV app 上架超过 150 部可购买或租借的 3D 电影，并随软件更新加入 Theater view 影院模式。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：150 · 相关方：Meta / Quest 3 / 3S / Theater view / Avatar&lt;/p&gt;&lt;p&gt;Meta now provides access to over 150 purchasable and rentable 3D movies on its Quest 3 and 3S headsets through the TV app. The catalog features major releases such as Avatar and Spider-Man: Far From Home, alongside a Billie Eilish concert film. This expansion coincides with a software update introdu&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;150 是 over 的下限口径且随片库变化；同时上线的 Theater view 属功能改动，两者维度不同不能互证。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建是分列样本：内容数量与功能变更应分字段记录，避免用片库规模推断版本改动范围。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;按周抓取 2 次片库目录；若两次数量相差超过 10%，则判定 150 为动态下限，改记快照日期与计数。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-19T21:12 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.theverge.com/tech/1038157/meta-quest-vr-3d-movies-tv-app" rel="noopener noreferrer"&gt;https://www.theverge.com/tech/1038157/meta-quest-vr-3d-movies-tv-app&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-20:e60f4e5e7cf4b021</ns0:id>
+    <ns0:title>[开发者工具与版本] Meta’s new Muse Charm device may cost $300</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300" />
+    <ns0:published>2026-11-19T21:58:06.827000Z</ns0:published>
+    <ns0:updated>2026-11-19T23:02:04.805768Z</ns0:updated>
+    <ns0:category term="dev-tools" label="开发者工具与版本" />
+    <ns0:summary type="text">Meta hasn't denied the reporting from The Information, saying only that it will "have more to share soon" about its upcoming AI wearable. 〔Folo分类:AI技术与应用〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;TechCrunch 报道 Meta 新款 AI 可穿戴设备 Muse Charm 定价可能为 $300，Meta 只回应「很快会公布更多」未否认该数字。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：$300 · 相关方：Meta / Muse Charm / The Information&lt;/p&gt;&lt;p&gt;Meta hasn&amp;#x27;t denied the reporting from The Information, saying only that it will &amp;quot;have more to share soon&amp;quot; about its upcoming AI wearable. 〔Folo分类:AI技术与应用〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;$300 是媒体援引的预估价且用了 may，Meta 未确认；把它写成正式定价会变成未证实断言。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 skill 与 automation 的事实层是反面样本：未确认读数必须带来源等级，标 unverified 后才进候选。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对官方产品页是否给出价格；若 30 天内仍无官方数字，则判定 $300 仅为媒体预估，不写入规格基线。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-19T21:58 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;证据状态：未独立验证&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300" rel="noopener noreferrer"&gt;https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-20:4ba1303d2ee21d77</ns0:id>
+    <ns0:title>[开发者工具与版本] PostgreSQL 19 Released</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://simonwillison.net/2026/Nov/19/postgresql-19" />
+    <ns0:published>2026-11-19T20:43:57Z</ns0:published>
+    <ns0:updated>2026-11-19T23:02:04.805768Z</ns0:updated>
+    <ns0:category term="dev-tools" label="开发者工具与版本" />
+    <ns0:summary type="text">PostgreSQL 19 Released Most years PostgreSQL ships a new release in September, but this year's release came two months later thanks mainly to the flurry of issues that the PostgreSQL team needed to address as part of the ongoing AI-reported vulnerability apocalypse. This release was definitely worth</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Simon Willison 记录 PostgreSQL 19 因 AI 报告的漏洞潮比往年晚两个月发布，新增 WAIT FOR LSN 让 standby 查询读到主库刚写入的数据。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：19 / 0.1 · 相关方：PostgreSQL / WAIT FOR LSN / WAL / standby&lt;/p&gt;&lt;p&gt;PostgreSQL 19 Released Most years PostgreSQL ships a new release in September, but this year&amp;#x27;s release came two months later thanks mainly to the flurry of issues that the PostgreSQL team needed to address as part of the ongoing AI-reported vulnerability apocalypse. This release was definitely worth&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;延迟两个月的原因是漏洞修复量而非功能排期；新命令把一致性从应用层下推到数据库，改的是调用契约。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 WinVM 自托管与数据基建直接相关：standby 读路径可省掉应用层等回放逻辑，但要先确认 0.1s 超时与驱动兼容性。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;同一读写用例在 standby 连跑 3 次；若读到旧值次数大于 0，则判定 read-your-writes 未生效，回退主库读。&lt;/p&gt;&lt;p&gt;来源：Simon Willison&amp;#x27;s Weblog · 发布于 2026-11-19T20:43 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://simonwillison.net/2026/Nov/19/postgresql-19" rel="noopener noreferrer"&gt;https://simonwillison.net/2026/Nov/19/postgresql-19&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-20:d664b5a459f3111e</ns0:id>
+    <ns0:title>[Agent 与工程] mjmirza/app-store-compliance</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://github.com/mjmirza/app-store-compliance" />
+    <ns0:published>2026-11-19T11:53:01.890000Z</ns0:published>
+    <ns0:updated>2026-11-19T23:02:04.805768Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="Agent 与工程" />
+    <ns0:summary type="text">The "app-store-compliance" repository provides a tool for verifying application compliance with App Store and Google Play guidelines. It features a pre-submission guard containing 117 documented rejection patterns and fixes, privacy manifest and data safety checks, and tracking for 95 legal deadline</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;开源仓库 app-store-compliance 提供合规预提交 guard，收录 117 条拒收模式、跟踪 95 个法律期限，并带一个给 AI coding agents 的 skill。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：117 / 95 / 1,500 / 115 · 相关方：app-store-compliance / App Store / Google Play / EU AI Act / DSA / COPPA&lt;/p&gt;&lt;p&gt;The &amp;quot;app-store-compliance&amp;quot; repository provides a tool for verifying application compliance with App Store and Google Play guidelines. It features a pre-submission guard containing 117 documented rejection patterns and fixes, privacy manifest and data safety checks, and tracking for 95 legal deadline&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把合规做成可执行规则集而非文档，117 条模式可逐条回查；但规则会随平台条款过期，星数不等于覆盖率。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 skill 与 agent 部署最可直接借鉴：把规则条数、期限与修复建议做成门禁数据，过期规则要有淘汰阈值。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;抽样 10 条拒收模式对照官方条款；若逐条命中的少于 8 条，则判定规则集过期，不接入预提交 guard。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-19T11:53 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/mjmirza/app-store-compliance" rel="noopener noreferrer"&gt;https://github.com/mjmirza/app-store-compliance&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-20:f82f652bb9cb949d</ns0:id>
+    <ns0:title>[Agent 与工程] Zero-Cost 2026 Stack: n8n Workflow Automation vs Activepieces &amp; 28 Free-Tier Tools (2026-11-19)</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://dev.to/rock_boy_c59c5ced86a77a4d/zero-cost-2026-stack-n8n-workflow-automation-vs-activepieces-28-free-tier-tools-2026-11-19-5bbe" />
+    <ns0:published>2026-11-19T20:08:23.401000Z</ns0:published>
+    <ns0:updated>2026-11-19T23:02:04.805768Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="Agent 与工程" />
+    <ns0:summary type="text">This week's strongest builder signal—"n8n-io/n8n — Fair-code workflow automation platform with native AI capabilities. Combine visual… 〔Folo分类:开源项目〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;一篇 dev.to 清单文把 n8n 与 Activepieces 并列，宣称覆盖 28 个免费层工具，摘要只截取了 n8n 的开源介绍。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：28 · 相关方：n8n / Activepieces&lt;/p&gt;&lt;p&gt;This week&amp;#x27;s strongest builder signal—&amp;quot;n8n-io/n8n — Fair-code workflow automation platform with native AI capabilities. Combine visual… 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;28 是作者自封的清单计数，不等于可用工具数，也不含各工具免费额度口径。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 skill 选型是提醒：接入清单类工具前先核对免费层额度与自托管条件，别按标题数量估成本。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;逐个打开清单里 28 个工具的定价页；若可核验免费额度的少于 20 个，则判定该清单不可作为选型依据。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-19T20:08 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;证据状态：未独立验证&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://dev.to/rock_boy_c59c5ced86a77a4d/zero-cost-2026-stack-n8n-workflow-automation-vs-activepieces-28-free-tier-tools-2026-11-19-5bbe" rel="noopener noreferrer"&gt;https://dev.to/rock_boy_c59c5ced86a77a4d/zero-cost-2026-stack-n8n-workflow-automation-vs-activepieces-28-free-tier-tools-2026-11-19-5bbe&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:daily-info.local,2026-11-19:9ba121161ad4575b</ns0:id>
     <ns0:title>[论文与学术] Scientists Find That Mice, Not Deer, Hold a Major Clue to Lyme Disease Risk</ns0:title>
@@ -918,95 +1008,5 @@
     <ns0:category term="ai-models" label="模型与研究" />
     <ns0:summary type="text">资讯｜北京时间 11 月 8 日 18:07，自述“追踪 AI 前沿：模型、智能体、研究、泄露与发布前信号”的 X 账号 Token Gremlin 发帖称，尚未发布的“GPT-6.2 Sol”已经对部分 ChatGPT 用户灰度现身（即分批、未经宣布地出现），并附上一段 5 秒视频和两张截图：画面中的体素风格 3D 场景由单个 prompt（提示词）生成，全部内…</ns0:summary>
     <ns0:content type="html">&lt;p&gt;&lt;strong&gt;X 账号 Token Gremlin 称 GPT-6.2 Sol 已对部分 ChatGPT 用户灰度现身，约半小时后 Harshith 以截图反驳称实为 GPT-6.1 Sol&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：GPT-6.2 Sol / GPT-6.1 Sol / 5 秒 / 18:07 · 相关方：Token Gremlin / Harshith / ChatGPT / GPT-6.2 Sol / GPT-6.1 Sol&lt;/p&gt;&lt;p&gt;资讯｜北京时间 11 月 8 日 18:07，自述“追踪 AI 前沿：模型、智能体、研究、泄露与发布前信号”的 X 账号 Token Gremlin 发帖称，尚未发布的“GPT-6.2 Sol”已经对部分 ChatGPT 用户灰度现身（即分批、未经宣布地出现），并附上一段 5 秒视频和两张截图：画面中的体素风格 3D 场景由单个 prompt（提示词）生成，全部内…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;首发说法在半小时内被截图级别的复现反驳，说明灰度爆料必须先有可比对证据。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建的直接映射：候选集里的单源爆料应有独立佐证字段，否则不该进入 AI 研判的入选簇。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对该模型是否有官方发布页或版本号记录，若 2 个独立来源都查不到则判定为未证实爆料并降级处理。&lt;/p&gt;&lt;p&gt;来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-08T18:58 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;证据状态：未独立验证&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://arex-research.com/feeds/a367dcbd-c32f-422a-8a99-1e2d3b063b59" rel="noopener noreferrer"&gt;https://arex-research.com/feeds/a367dcbd-c32f-422a-8a99-1e2d3b063b59&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-09:0cfbdaa8bb33ae59</ns0:id>
-    <ns0:title>[模型与研究] XBOW 实测 GPT-6 Cyber：比 GPT-6.1 Sol 快约 2 倍，但少解出 5 个目标</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://arex-research.com/feeds/884a76f5-674f-43e2-9860-4f8569171d6b" />
-    <ns0:published>2026-11-08T18:44:00Z</ns0:published>
-    <ns0:updated>2026-11-09T01:51:44.934256Z</ns0:updated>
-    <ns0:category term="ai-models" label="模型与研究" />
-    <ns0:summary type="text">资讯｜GPT-6 Cyber 发布两天后，一组来自 OpenAI 之外的量化对比数据出现了。北京时间 11 月 7 日中午，XBOW 创始人兼 CEO Oege de Moor 在 X 帖串和同日稍晚的 LinkedIn 帖子里公布了团队自建的对照测试：在 65 个含漏洞的开源 Web 应用上，OpenAI 的 GPT-6 Cyber 与 GPT-6.1 Sol…</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;XBOW 创始人 Oege de Moor 公布自建对照测试：在 65 个含漏洞的开源 Web 应用上对比 GPT-6 Cyber 与 GPT-6.1 Sol&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2 倍 / 5 个 / 65 个 · 相关方：XBOW / Oege de Moor / GPT-6 Cyber / GPT-6.1 Sol / OpenAI / LinkedIn&lt;/p&gt;&lt;p&gt;资讯｜GPT-6 Cyber 发布两天后，一组来自 OpenAI 之外的量化对比数据出现了。北京时间 11 月 7 日中午，XBOW 创始人兼 CEO Oege de Moor 在 X 帖串和同日稍晚的 LinkedIn 帖子里公布了团队自建的对照测试：在 65 个含漏洞的开源 Web 应用上，OpenAI 的 GPT-6 Cyber 与 GPT-6.1 Sol…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;同一组测试给出快约 2 倍与少解出 5 个目标两个反向读数，速度结论无法单独成立。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 automation 评估的提醒：agent 或模型的耗时指标必须与完成数一起看，否则会把漏做当成变快。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在同类任务复跑一次并同时记录耗时与解出数，若解出数仍少 5 个则判定快 2 倍不构成整体优势。&lt;/p&gt;&lt;p&gt;来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-08T18:44 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://arex-research.com/feeds/884a76f5-674f-43e2-9860-4f8569171d6b" rel="noopener noreferrer"&gt;https://arex-research.com/feeds/884a76f5-674f-43e2-9860-4f8569171d6b&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-09:59248c45e5bcf4d6</ns0:id>
-    <ns0:title>[模型与研究] DeepSeek Harness 筹建官方插件市场与作者扶持计划，披露 154 万日活、约 3.5 万第三方插件</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://arex-research.com/feeds/f054ae8c-c573-4940-bf3e-59bfbe0bb67f" />
-    <ns0:published>2026-11-08T18:47:00Z</ns0:published>
-    <ns0:updated>2026-11-09T01:51:44.934256Z</ns0:updated>
-    <ns0:category term="ai-models" label="模型与研究" />
-    <ns0:summary type="text">资讯｜11 月 8 日，DeepSeek Harness 官方 X 账号发布文章《Growing Together with Our Plugin Community》，宣布将建设官方插件市场，改进插件 API（应用程序接口）的稳定性与兼容性、强化插件安全，并筹备一项插件作者扶持计划：向作者提供 token（模型调用的计量单位）赠助、技术讨论支持和作品推广。</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;DeepSeek Harness 官方宣布筹建官方插件市场与作者扶持计划，并披露 154 万日活与约 3.5 万第三方插件&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：154 万 / 3.5 万 · 相关方：DeepSeek Harness / Growing Together with Our Plugin Communi / 插件 API / token&lt;/p&gt;&lt;p&gt;资讯｜11 月 8 日，DeepSeek Harness 官方 X 账号发布文章《Growing Together with Our Plugin Community》，宣布将建设官方插件市场，改进插件 API（应用程序接口）的稳定性与兼容性、强化插件安全，并筹备一项插件作者扶持计划：向作者提供 token（模型调用的计量单位）赠助、技术讨论支持和作品推广。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;规模数字与补接口稳定性、强化插件安全写在同一份公告里，说明生态瓶颈已从数量转到契约。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;直接对应 WorkBuddy 的 skill 与 MCP 生态：当第三方插件达到 3.5 万量级，先塌的会是接口契约与权限边界，而不是模型能力。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;逐项跑本仓库已装 skill 的接口声明，若任一 skill 在缺字段时静默降级次数大于 0，即判定契约层需收紧。&lt;/p&gt;&lt;p&gt;来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-08T18:47 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://arex-research.com/feeds/f054ae8c-c573-4940-bf3e-59bfbe0bb67f" rel="noopener noreferrer"&gt;https://arex-research.com/feeds/f054ae8c-c573-4940-bf3e-59bfbe0bb67f&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-08:d44c0918c58155ba</ns0:id>
-    <ns0:title>[论文与学术] Deep-Sea Scientists Capture Extraordinary 4K Footage of a Fish With a See-Through Head</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://scitechdaily.com/deep-sea-scientists-capture-extraordinary-4k-footage-of-a-fish-with-a-see-through-head" />
-    <ns0:published>2026-11-07T16:24:00.882000Z</ns0:published>
-    <ns0:updated>2026-11-07T22:57:49.350240Z</ns0:updated>
-    <ns0:category term="research-papers" label="论文与学术" />
-    <ns0:summary type="text">MBARI’s first 4K footage of a barreleye fish offers a rare chance to study how its unusual eyes work in the ocean’s dim twilight zone. The… 〔Folo分类:重大学术科研突破〕</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;MBARI 首次拍到 barreleye fish 的 4K 影像，为研究其透明头部内的眼睛提供素材&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：4K · 相关方：MBARI / barreleye fish&lt;/p&gt;&lt;p&gt;MBARI’s first 4K footage of a barreleye fish offers a rare chance to study how its unusual eyes work in the ocean’s dim twilight zone. The… 〔Folo分类:重大学术科研突破〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把首次 4K 影像当作研究入口而非观赏素材，价值在于可测量的视觉结构而非清晰度本身。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;暂无直接影响：属深海观测成果，与当前 agent 与数据基建无交集，仅作首次高分辨率数据表述参照。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对影像是否公开可下载，若 4K 原始素材缺帧或不可获取则判定只能引用文字描述。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-07T16:24 UTC · 归类：research-papers&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://scitechdaily.com/deep-sea-scientists-capture-extraordinary-4k-footage-of-a-fish-with-a-see-through-head" rel="noopener noreferrer"&gt;https://scitechdaily.com/deep-sea-scientists-capture-extraordinary-4k-footage-of-a-fish-with-a-see-through-head&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-08:d01e0c53e04de942</ns0:id>
-    <ns0:title>[论文与学术] A Healthier Form of Salt Could Prevent Nearly 3 Million Deaths Every Year, Scientists Say</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://scitechdaily.com/a-healthier-form-of-salt-could-prevent-nearly-3-million-deaths-every-year-scientists-say" />
-    <ns0:published>2026-11-07T21:41:32.549000Z</ns0:published>
-    <ns0:updated>2026-11-07T22:57:49.350240Z</ns0:updated>
-    <ns0:category term="research-papers" label="论文与学术" />
-    <ns0:summary type="text">A global study spanning 193 countries suggests that a simple change to everyday salt could prevent millions of deaths and cases of… 〔Folo分类:重大学术科研突破〕</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;一项覆盖 193 countries 的全球研究称，改用更健康的盐每年可避免近 3 Million 例死亡&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：3 Million / 193 · 相关方：193 countries / everyday salt&lt;/p&gt;&lt;p&gt;A global study spanning 193 countries suggests that a simple change to everyday salt could prevent millions of deaths and cases of… 〔Folo分类:重大学术科研突破〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把每年可避免死亡挂到 193 国的样本上，量级结论的说服力取决于分母口径而非标题里的数字。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;暂无直接影响：属公共卫生建模结论，与 WorkBuddy、MCP 及数据基建无工程交集，可作为大样本量级声明的核验样例。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照论文方法部分核对 193 国的纳入标准，若剔除国家数超过 10 个仍得出同量级结论才算稳健。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-07T21:41 UTC · 归类：research-papers&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://scitechdaily.com/a-healthier-form-of-salt-could-prevent-nearly-3-million-deaths-every-year-scientists-say" rel="noopener noreferrer"&gt;https://scitechdaily.com/a-healthier-form-of-salt-could-prevent-nearly-3-million-deaths-every-year-scientists-say&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-08:131c7319af2c42f1</ns0:id>
-    <ns0:title>[文档与变更] Costco members can get $5 off the reimagined Ocarina of Time</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://www.theverge.com/gadgets/1028917/legend-of-zelda-ocarina-of-time-remake-switch-2-costco-deal-sale" />
-    <ns0:published>2026-11-07T16:00:00.730000Z</ns0:published>
-    <ns0:updated>2026-11-07T22:57:49.350240Z</ns0:updated>
-    <ns0:category term="docs-changelog" label="文档与变更" />
-    <ns0:summary type="text">Costco members can purchase the digital remake of The Legend of Zelda: Ocarina of Time for $54.99, a $5 discount from the standard price. This Switch 2 exclusive features updated graphics and quality-of-life improvements, including the ability for the protagonist to jump freely at any time rather th</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Costco 会员可以 $54.99 购买 Switch 2 独占的 Ocarina of Time 数字重制版，较标准价低 $5&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：$5 / $54.99 · 相关方：Costco / Ocarina of Time / The Legend of Zelda / Switch 2&lt;/p&gt;&lt;p&gt;Costco members can purchase the digital remake of The Legend of Zelda: Ocarina of Time for $54.99, a $5 discount from the standard price. This Switch 2 exclusive features updated graphics and quality-of-life improvements, including the ability for the protagonist to jump freely at any time rather th&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;重制版定价与渠道折扣同框出现，说明老 IP 的价值兑现越来越依赖分发端而非内容端。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;暂无直接影响：属消费电子定价信息，与当前 agent 部署与数据基建无工程交集，仅作渠道定价样本。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对 $54.99 与 $5 折扣是否在结账页一致，若实付差额不等于 $5 则判定该优惠描述不可引用。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-07T16:00 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.theverge.com/gadgets/1028917/legend-of-zelda-ocarina-of-time-remake-switch-2-costco-deal-sale" rel="noopener noreferrer"&gt;https://www.theverge.com/gadgets/1028917/legend-of-zelda-ocarina-of-time-remake-switch-2-costco-deal-sale&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-08:808e191374b6618e</ns0:id>
-    <ns0:title>[文档与变更] The hidden ways insects support animal life—from habitat to health—go way beyond being food</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://phys.org/news/2026-11-hidden-ways-insects-animal-life.html" />
-    <ns0:published>2026-11-07T21:00:01.598000Z</ns0:published>
-    <ns0:updated>2026-11-07T22:57:49.350240Z</ns0:updated>
-    <ns0:category term="docs-changelog" label="文档与变更" />
-    <ns0:summary type="text">There are at least 14 million insect species on Earth, and they play highly diverse roles in sustaining the natural world. Insects provide… 〔Folo分类:重大学术科研突破〕</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;文章指出地球上至少有 14 million 种昆虫，其维系生态的作用远超出作为食物&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：14 million · 相关方：insect species / Earth&lt;/p&gt;&lt;p&gt;There are at least 14 million insect species on Earth, and they play highly diverse roles in sustaining the natural world. Insects provide… 〔Folo分类:重大学术科研突破〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;用至少标出的数量级，说明分类学本身仍是未闭合的数据集，而非已完成的清单。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;暂无直接影响：属生态分类学数据，与 WorkBuddy、MCP、agent 部署及数据基建无工程交集，仅作带不确定性量级表述的参照。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照原文给出的 14 million 与后续修订值，若差异超过 1 个数量级则判定该量级不可直接引用。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-07T21:00 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://phys.org/news/2026-11-hidden-ways-insects-animal-life.html" rel="noopener noreferrer"&gt;https://phys.org/news/2026-11-hidden-ways-insects-animal-life.html&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-08:ae73b82022ff0ff9-c</ns0:id>
-    <ns0:title>[开发者工具与版本] The $8 Linux Computer (2022)</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="http://thelittleengineerthatcould.blogspot.com/2022/12/the-8-linux-computer.html" />
-    <ns0:published>2026-11-07T14:00:20.348000Z</ns0:published>
-    <ns0:updated>2026-11-07T22:57:49.350240Z</ns0:updated>
-    <ns0:category term="dev-tools" label="开发者工具与版本" />
-    <ns0:summary type="text">Comments 〔Folo分类:开源项目〕</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Folo 基线收录 2022 年的 $8 Linux Computer 低成本计算方案&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：$8 / 2022 · 相关方：Linux&lt;/p&gt;&lt;p&gt;Comments 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把计算成本压到八美元级，讨论重点就从性能转到跑什么才值。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;与同日入选的 OpenStick homelab 条目构成对照：数据基建的瓶颈是常驻状态与恢复，而非硬件单价。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;若评估超低价设备做离线快照节点，先验证连续 1 次冷启动后快照可完整读回，缺 1 个文件即判定不合格。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-07T14:00 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;→ &lt;a href="http://thelittleengineerthatcould.blogspot.com/2022/12/the-8-linux-computer.html" rel="noopener noreferrer"&gt;http://thelittleengineerthatcould.blogspot.com/2022/12/the-8-linux-computer.html&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-08:c38557adbea19537</ns0:id>
-    <ns0:title>[开发者工具与版本] GeoWorks, Microsoft Windows' Upstart '90s Competitor (2016)</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://www.atlasobscura.com/articles/the-history-of-geoworks-microsoft-windows-upstart-90s-competitor" />
-    <ns0:published>2026-11-07T17:54:56.024000Z</ns0:published>
-    <ns0:updated>2026-11-07T22:57:49.350240Z</ns0:updated>
-    <ns0:category term="dev-tools" label="开发者工具与版本" />
-    <ns0:summary type="text">Comments 〔Folo分类:开源项目〕</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;文章复盘 &amp;#x27;90s 年代与 Microsoft Windows 竞争的 GeoWorks，原报道发表于 2016 年&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2016 · 相关方：GeoWorks / Microsoft Windows&lt;/p&gt;&lt;p&gt;Comments 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;当年被系统层绑定的生态位，换到今天就是 agent 与桌面入口的绑定关系。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 WorkBuddy 桌面端与插件分层的启示：入口级集成的护城河来自默认位置，而非单点功能优势。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照现有插件入口清单，若默认入口可被 1 次配置切换替换则判定绑定强度不足。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-07T17:54 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.atlasobscura.com/articles/the-history-of-geoworks-microsoft-windows-upstart-90s-competitor" rel="noopener noreferrer"&gt;https://www.atlasobscura.com/articles/the-history-of-geoworks-microsoft-windows-upstart-90s-competitor&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-08:e4da1fc3654cef88</ns0:id>
-    <ns0:title>[开发者工具与版本] What I run on my $10 USD OpenStick homelab</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://blog.bosscher.ch/posts/openstick" />
-    <ns0:published>2026-11-07T18:12:12.257000Z</ns0:published>
-    <ns0:updated>2026-11-07T22:57:49.350240Z</ns0:updated>
-    <ns0:category term="dev-tools" label="开发者工具与版本" />
-    <ns0:summary type="text">Comments 〔Folo分类:开源项目〕</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;作者公开其 $10 USD OpenStick homelab 上实际运行的服务清单&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：$10 · 相关方：OpenStick / USD&lt;/p&gt;&lt;p&gt;Comments 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;极低价硬件把自建门槛压到十美元级，但可执行的服务边界比价格更值得核对。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 WinVM 与边缘节点选型有参照意义：能否承载常驻 agent 取决于内存与重启恢复，而非单价。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;若要在同价位设备部署常驻 agent，先跑 1 轮断网重启恢复测试，状态丢失超过 0 项即判定不可用。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-07T18:12 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://blog.bosscher.ch/posts/openstick" rel="noopener noreferrer"&gt;https://blog.bosscher.ch/posts/openstick&lt;/a&gt;&lt;/p&gt;</ns0:content>
   </ns0:entry>
 </ns0:feed>
