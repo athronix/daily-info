@@ -5,10 +5,40 @@
   <ns0:subtitle>挖掘 · 聚合 · 研判 · 订阅；每条附原文链接；内容仅供参考，不构成投资建议</ns0:subtitle>
   <ns0:link rel="self" type="application/atom+xml" href="https://daily-info.local/invest.atom" />
   <ns0:link rel="alternate" type="text/html" href="https://daily-info.local/index.html" />
-  <ns0:updated>2026-11-19T23:02:04.805768Z</ns0:updated>
+  <ns0:updated>2026-11-21T01:46:30.047892Z</ns0:updated>
   <ns0:author>
     <ns0:name>Personal Daily Info</ns0:name>
   </ns0:author>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-21:d4c16ece0dea90cd</ns0:id>
+    <ns0:title>[论文与学术] Does the Sun Have a Secret Companion? A Controversial Theory Could Explain Earth’s Mass Extinctions</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://scitechdaily.com/does-the-sun-have-a-secret-companion-a-controversial-theory-could-explain-earths-mass-extinctions" />
+    <ns0:published>2026-11-20T23:52:25.627000Z</ns0:published>
+    <ns0:updated>2026-11-21T01:46:30.047892Z</ns0:updated>
+    <ns0:category term="market-invest" label="论文与学术" />
+    <ns0:summary type="text">A mysterious 26-million-year pattern in Earth’s extinction history has fueled a controversial theory involving an unseen stellar companion… 〔Folo分类:重大学术科研突破〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;scitechdaily 报道称地球灭绝史里存在约 26-million-year 的周期模式，被用作「太阳存在 unseen stellar companion」这一争议理论的依据。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：26 · 相关方：Sun / stellar companion / extinction history&lt;/p&gt;&lt;p&gt;A mysterious 26-million-year pattern in Earth’s extinction history has fueled a controversial theory involving an unseen stellar companion… 〔Folo分类:重大学术科研突破〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;26 是周期长度而非观测次数，且原文明确标 controversial；把周期当已证实的伴星证据会越过证据等级。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;暂无直接影响：属天文假说讨论，与 WorkBuddy / agent 部署 / 数据基建无交集；仅作「带争议标注的读数」样本。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对是否给出 2 个以上独立数据集支持该周期；若支持数据集少于 2 个，则判定 26 仍属待验证相关而非结论。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-20T23:52 UTC · 归类：market-invest&lt;/p&gt;&lt;p&gt;证据状态：未独立验证&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://scitechdaily.com/does-the-sun-have-a-secret-companion-a-controversial-theory-could-explain-earths-mass-extinctions" rel="noopener noreferrer"&gt;https://scitechdaily.com/does-the-sun-have-a-secret-companion-a-controversial-theory-could-explain-earths-mass-extinctions&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-21:b984156a905a672d</ns0:id>
+    <ns0:title>[市场与投资] J&amp;J Snack Foods CEO on 4Q Results and Consumer Sentiment</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.bloomberg.com/news/videos/2026-11-20/j-j-snack-foods-ceo-on-4q-results-and-consumer-sentiment-video" />
+    <ns0:published>2026-11-20T23:22:36Z</ns0:published>
+    <ns0:updated>2026-11-21T01:46:30.047892Z</ns0:updated>
+    <ns0:category term="market-invest" label="市场与投资" />
+    <ns0:summary type="text">J&amp;J Snack Foods CEO Dan Fachner said the company’s turnaround is on track after a strong year, citing Project Apollo’s more than $25 million in durable savings. A second phase, Apollo 2, is expected to generate another $5 million by 2027 through distribution and manufacturing improvements. Fachner s</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Bloomberg 访谈里，J&amp;amp;J Snack Foods CEO 称 Project Apollo 已省下 more than $25 million，Apollo 2 预计到 2027 年再带来 $5 million。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：$25 / $5 · 相关方：J&amp;amp;J Snack Foods / Dan Fachner / Project Apollo / Apollo 2 / Bloomberg&lt;/p&gt;&lt;p&gt;J&amp;amp;J Snack Foods CEO Dan Fachner said the company’s turnaround is on track after a strong year, citing Project Apollo’s more than $25 million in durable savings. A second phase, Apollo 2, is expected to generate another $5 million by 2027 through distribution and manufacturing improvements. Fachner s&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;$25 是已实现节约、$5 是到 2027 年的预期值，状态不同；完成时与 forecast 并列会高估当期收益。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建的金额字段是提醒：已实现与预期必须分状态列，预期值要带目标年，别并入当期汇总。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照下一季财报核对节约额；若 $5 仍标注为 expected 且无实际入账，则判定它属预测，不进已实现口径。&lt;/p&gt;&lt;p&gt;来源：Bloomberg Markets · 发布于 2026-11-20T23:22 UTC · 归类：market-invest&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.bloomberg.com/news/videos/2026-11-20/j-j-snack-foods-ceo-on-4q-results-and-consumer-sentiment-video" rel="noopener noreferrer"&gt;https://www.bloomberg.com/news/videos/2026-11-20/j-j-snack-foods-ceo-on-4q-results-and-consumer-sentiment-video&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-21:d57ebd575b4a65e3</ns0:id>
+    <ns0:title>[产业与资本] Anthropic上市冲破2万亿美元！超级智能第一股开盘暴涨</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&amp;mid=2652744224&amp;idx=1&amp;sn=df776340bd6a965e812fef4b10026880&amp;chksm=f023a5d902cf596f25eb872d00e7e4dbbdb8c178ea8b891aa8d44bbad68824ec7ac033592ba3&amp;scene=0&amp;xtrack=1" />
+    <ns0:published>2026-11-20T23:50:00Z</ns0:published>
+    <ns0:updated>2026-11-21T01:46:30.047892Z</ns0:updated>
+    <ns0:category term="industry-capital" label="产业与资本" />
+    <ns0:summary type="text">强化学习、AI系统、AI｜Anthropic于11月20日零时48分在纳斯达克上市，代码ANT，开盘价111.50美元，较83美元发行价暴涨34.3%，较路演区间下限70美元高出59.3%；首笔交易即吸引1.4亿股买单，市值迅速突破2万亿美元，创史上最大IPO纪录。</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;一篇中文报道称 Anthropic 于 11 月 20 日在纳斯达克上市，代码 ANT，开盘 111.50 美元、较 83 美元发行价涨 34.3%，较路演下限 70 美元高 59.3%，市值突破 2 万亿美元。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：111.50 / 83 / 34.3% / 70 / 59.3% · 相关方：Anthropic / 纳斯达克 / ANT / IPO&lt;/p&gt;&lt;p&gt;强化学习、AI系统、AI｜Anthropic于11月20日零时48分在纳斯达克上市，代码ANT，开盘价111.50美元，较83美元发行价暴涨34.3%，较路演区间下限70美元高出59.3%；首笔交易即吸引1.4亿股买单，市值迅速突破2万亿美元，创史上最大IPO纪录。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;发行价、开盘价、路演下限是三个不同基准，34.3% 与 59.3% 分母不同；单一中文二手源未给一手交易所数据。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建的金额字段是样本：绝对价、相对涨幅、估值要分列并标基准，市值与成交额口径不得混算；无独立证据只进线索池。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;找 2 家独立一手来源核对开盘价与涨幅；若一致家数少于 2，则判定该组数字不进事实层，降为 unverified 线索。&lt;/p&gt;&lt;p&gt;来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-20T23:50 UTC · 归类：industry-capital&lt;/p&gt;&lt;p&gt;证据状态：未独立验证&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&amp;amp;mid=2652744224&amp;amp;idx=1&amp;amp;sn=df776340bd6a965e812fef4b10026880&amp;amp;chksm=f023a5d902cf596f25eb872d00e7e4dbbdb8c178ea8b891aa8d44bbad68824ec7ac033592ba3&amp;amp;scene=0&amp;amp;xtrack=1" rel="noopener noreferrer"&gt;https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&amp;amp;mid=2652744224&amp;amp;idx=1&amp;amp;sn=df776340bd6a965e812fef4b10026880&amp;amp;chksm=f023a5d902cf596f25eb872d00e7e4dbbdb8c178ea8b891aa8d44bbad68824ec7ac033592ba3&amp;amp;scene=0&amp;amp;xtrack=1&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:daily-info.local,2026-11-20:dec40ab23d7d7746</ns0:id>
     <ns0:title>[市场与投资] New research explains how far people will go for a day at the park</ns0:title>

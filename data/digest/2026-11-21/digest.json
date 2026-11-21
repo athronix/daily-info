@@ -1,0 +1,618 @@
+{
+  "date": "2026-11-21",
+  "headline": "版本号、百分比与规格能逐字回查并进门禁，型号尾数、发布日期与自写状态码只是声明；可接的是改动清单与可复现阈值，不是漂亮断言",
+  "headline_short": "版本号、百分比与规格能逐字回查并进门禁，型号尾数、发布日",
+  "lead": "今日入报里，claude-code v2.1.330 补上自托管 runner 的插件失败 notice，ollama v0.40.17 给出 26B 参数、20GB 内存与 79.2% 的 SWE-Bench 成绩，AWS 分布式 KV 缓存称推理成本最多降 40%、首字延迟最多降 80%；Anthropic IPO 报开盘 111.50 美元、较 83 美元发行价涨 34.3%。",
+  "generated_at": "2026-11-21T01:46:30.047892Z",
+  "themes": [
+    {
+      "title": "版本号与百分比能进门禁，型号不能",
+      "why": "claude-code 2.1.330、ollama 0.40.17 是可逐字匹配的版本号，40% / 80% / 68% / 79.2% 是可复算的比率；GPT-5 里的 5、B2B 里的 2、Inkling 2 Mini 的 2 只是型号或命名，按 v1.1 一律不算读数。",
+      "cluster_ids": [
+        "7ce40af71312dcfa",
+        "bc12da4238be9769",
+        "e1b0c4ede4d1eb3f",
+        "3509aafdae34029f"
+      ],
+      "verified_by": 4
+    },
+    {
+      "title": "上限与预期值都要带条件",
+      "why": "AWS 的 40% 与 80% 是 up to 上限，J&J 的 $5 是到 2027 年的预期值，Anthropic 的「迅速突破」是即时口径，Claude 的 12 秒到 0.5 秒是平均等待对比；缺条件就进事实层会把上限当实测。",
+      "cluster_ids": [
+        "e1b0c4ede4d1eb3f",
+        "b984156a905a672d",
+        "d57ebd575b4a65e3",
+        "97ce90530fe6f553"
+      ],
+      "verified_by": 4
+    },
+    {
+      "title": "性能、成本与规格是三种量纲",
+      "why": "OpenComputer 的 24、53、72 是秒级延迟，640 是月 session-hours 拐点，4 是 vCPU 数；ollama 的 26B / 5.4B / 20GB / 79.2% 分别是参数、激活、内存与基准得分；并成一句就会失真。",
+      "cluster_ids": [
+        "00dcab6deae05afa",
+        "bc12da4238be9769",
+        "e1b0c4ede4d1eb3f"
+      ],
+      "verified_by": 3
+    },
+    {
+      "title": "校验要从读日志改成重算回执",
+      "why": "dev.to 文章指出 200 status 与 log line 都是 agent 自写的声明；claude-code 2.1.330 补了插件拉取失败的 notice 与 commandFailed；OpenComputer 每轮把会话备份到 repo 以便跨 VM 恢复，三者都指向可复算的产物。",
+      "cluster_ids": [
+        "668d191bb3336e01",
+        "7ce40af71312dcfa",
+        "00dcab6deae05afa",
+        "983236c0117f7575"
+      ],
+      "verified_by": 4
+    },
+    {
+      "title": "计数必须带分母与限定词",
+      "why": "blue sucker 的 100 是 over 的下限、太阳伴星的 26 是 26-million-year 周期且标 controversial、小刀的 1.4 带 ounces、204 是语言覆盖数；丢了限定词或单位，数字就换了一件事。",
+      "cluster_ids": [
+        "d098fa9800a7f8a2",
+        "d4c16ece0dea90cd",
+        "6b69e281acd21dc4",
+        "3509aafdae34029f"
+      ],
+      "verified_by": 4
+    },
+    {
+      "title": "门禁认编号加改动清单，不认断言",
+      "why": "2.1.330 与 0.40.17 都配了 What's changed 清单，能逐条转成检查项；反过来 Anthropic 的 111.50 / 34.3% 与 Claude 的 0.5 秒都缺一手佐证，标 unverified 后才进线索池。",
+      "cluster_ids": [
+        "7ce40af71312dcfa",
+        "bc12da4238be9769",
+        "d57ebd575b4a65e3",
+        "97ce90530fe6f553"
+      ],
+      "verified_by": 4
+    },
+    {
+      "title": "轻量路径省资源要配成功率阈值",
+      "why": "100MB 的 MCP 抓取路径与 AWS 的 KV 缓存 skill 都在压成本，但前者没给并发数、后者给的是 up to；两者都要用解析成功率或降幅中位数这类可复现阈值才敢接进采集与自托管链路。",
+      "cluster_ids": [
+        "983236c0117f7575",
+        "e1b0c4ede4d1eb3f",
+        "00dcab6deae05afa"
+      ],
+      "verified_by": 3
+    }
+  ],
+  "sections": [
+    {
+      "key": "agent-engineering",
+      "label": "Agent 与工程",
+      "items": [
+        {
+          "id": "7ce40af71312dcfa",
+          "title": "v2.1.330",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.330",
+          "source": "claude-code Releases",
+          "published_at": "2026-11-20T22:32:56Z",
+          "score": 78.71,
+          "category": "agent-engineering",
+          "cluster_id": "7ce40af71312dcfa",
+          "summary": "What's changed Added sign-in to organizations managed in Anthropic's Enterprise Admin Console: after claude auth login, Claude Code applies the organization's settings and uses its cloud provider or gateway Added easel, a built-in mod that draws charts when asked and under MCP metrics results, on Pr",
+          "why_matters": "改动集中在自托管 runner 与插件安装的失败可观测性，说明非交互宿主下暴露失败路径比新增功能更优先；版本号可逐字匹配成扫描规则。",
+          "fact_anchor": "claude-code v2.1.330 加入企业控制台组织登录、easel 图表与自托管 runner 的 --start-dir，并为插件市场拉取失败、安装失败补上 notice 与 commandFailed 字段。",
+          "numbers": [
+            "2.1.330"
+          ],
+          "entities": [
+            "Claude Code",
+            "Anthropic",
+            "MCP",
+            "hooks",
+            "Self-hosted runner"
+          ],
+          "evidence_urls": [
+            "https://github.com/anthropics/claude-code/releases/tag/v2.1.330"
+          ],
+          "impact": "对 automation 与 agent 部署最直接：定时任务属非交互宿主，插件市场拉取失败现在有显式 notice，可纳入部署前 gate；commandFailed 可当工具安装失败的判定字段。",
+          "next_action": "在 2 个非交互宿主各触发 1 次插件市场拉取失败；若缺 notice 次数 ≥ 1，则判定该路径未覆盖，不纳入部署基线。",
+          "signal_type": "release",
+          "confidence": "fact"
+        },
+        {
+          "id": "668d191bb3336e01",
+          "title": "How do I check an AI agent's tool execution? Recompute the receipt, not the log",
+          "url": "https://dev.to/rambozambo/how-do-i-check-an-ai-agents-tool-execution-recompute-the-receipt-not-the-log-2e4e",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-20T19:27:23.454000Z",
+          "score": 75.31,
+          "category": "agent-engineering",
+          "cluster_id": "668d191bb3336e01",
+          "summary": "Your agent says the tool ran. It shows you a log line it wrote itself and a 200 status. Neither of those is a check. A log line is a claim… 〔Folo分类:开源项目〕",
+          "why_matters": "200 只是工具自己声明的状态，日志行也是自证；把声明当校验会让失败路径静默通过。",
+          "fact_anchor": "一篇 dev.to 文章指出 agent 自写的日志行与 200 status 都不算执行校验，主张重算 receipt 而不是读 log。",
+          "numbers": [
+            "200"
+          ],
+          "entities": [
+            "AI agent",
+            "log line",
+            "receipt"
+          ],
+          "evidence_urls": [
+            "https://dev.to/rambozambo/how-do-i-check-an-ai-agents-tool-execution-recompute-the-receipt-not-the-log-2e4e"
+          ],
+          "impact": "对本任务的核验闸门是同构提醒：verify_digest.py 重算产物字节与 violations，而不是读构建日志；A2A 委派的回执也应重算而非信任对端 status。",
+          "next_action": "抽 3 次工具调用，若仅凭 log 与 200 判成功而 receipt 重算不一致次数 ≥ 1，则判定该链路不可用作验收依据。",
+          "signal_type": "opinion",
+          "confidence": "fact"
+        },
+        {
+          "id": "e1b0c4ede4d1eb3f",
+          "title": "Cut self-hosted LLM cost and latency with the distributed KV caching agent skill",
+          "url": "https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill",
+          "source": "AWS ML Blog",
+          "published_at": "2026-11-21T00:14:26Z",
+          "score": 74.99,
+          "category": "agent-engineering",
+          "cluster_id": "e1b0c4ede4d1eb3f",
+          "summary": "Self-hosting LLMs on GPUs means paying to recompute the same context on every turn. Distributed KV caching with Amazon ElastiCache can cut inference cost by up to 40% and time to first token by up to 80%. This post walks through the distributed KV caching skill in the Agent Toolkit for AWS, which ev",
+          "why_matters": "两个数字都是 up to 的上限口径，不是实测中位数；成本与首字延迟也分属不同量纲，不能合并成一句效果。",
+          "fact_anchor": "AWS ML Blog 介绍 Agent Toolkit for AWS 的分布式 KV 缓存 skill，称借 Amazon ElastiCache 可把自托管 LLM 推理成本最多降 40%、首字延迟最多降 80%。",
+          "numbers": [
+            "40%",
+            "80%"
+          ],
+          "entities": [
+            "Amazon ElastiCache",
+            "Agent Toolkit for AWS",
+            "LLMs",
+            "GPUs",
+            "KV caching"
+          ],
+          "evidence_urls": [
+            "https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill"
+          ],
+          "impact": "对 skill 与自托管 LLM 直接相关：缓存 skill 由 coding agent 自行评估并配置，可复用到 WinVM 侧长上下文会话，但要先跑基线对照。",
+          "next_action": "同一上下文连跑 10 轮；若成本降幅中位数低于 40% 或 TTFT 降幅低于 80% 的轮次超过 5 轮，则判定上限口径不可复用。",
+          "signal_type": "tutorial",
+          "confidence": "fact"
+        },
+        {
+          "id": "983236c0117f7575",
+          "title": "Extracting B2B Churn & Regulatory Leads Without Headless Browsers (~100MB RAM + MCP)",
+          "url": "https://dev.to/signalgridhq/extracting-b2b-churn-regulatory-leads-without-headless-browsers-100mb-ram-mcp-28d4",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-20T07:55:17.154000Z",
+          "score": 74.24,
+          "category": "agent-engineering",
+          "cluster_id": "983236c0117f7575",
+          "summary": "Spinning up Playwright or Puppeteer for every scraping pipeline gets expensive fast, especially when running usage-based jobs for Clay, n8n,… 〔Folo分类:开源项目〕",
+          "why_matters": "100MB 是作者给出的内存占用，未说明并发数与页面复杂度；省资源的前提是放弃浏览器渲染，边界条件缺失。",
+          "fact_anchor": "一篇 dev.to 文章主张用约 100MB RAM 加 MCP 抓取 B2B 客户流失与监管线索，替掉每条流水线都起 Playwright 或 Puppeteer 的做法。",
+          "numbers": [
+            "100MB"
+          ],
+          "entities": [
+            "Playwright",
+            "Puppeteer",
+            "Clay",
+            "n8n",
+            "MCP"
+          ],
+          "evidence_urls": [
+            "https://dev.to/signalgridhq/extracting-b2b-churn-regulatory-leads-without-headless-browsers-100mb-ram-mcp-28d4"
+          ],
+          "impact": "对 MCP 与数据基建有借鉴：轻量抓取路径能降低采集侧成本，但本任务 fetch 仍要保留逐源超时与失败跳过，不能照搬无头浏览器默认配置。",
+          "next_action": "按 5 个站点各跑 1 次抓取；若峰值内存超过 100MB 或解析成功率低于 4/5，则判定该路径不适用于当前信源集。",
+          "signal_type": "tutorial",
+          "confidence": "unverified"
+        }
+      ]
+    },
+    {
+      "key": "ai-models",
+      "label": "模型与研究",
+      "items": [
+        {
+          "id": "97ce90530fe6f553",
+          "title": "Claude自写推理引擎！等AI回第一个字，12秒砍到半秒",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&mid=2652744186&idx=2&sn=e971240579573375d9d13105f1750d6f&chksm=f032e663b31b569c7561afe738fbda59b192b86e0fbadb17685fecb2949a2b95442f50ce62bf&scene=0&xtrack=1",
+          "source": "智源社区 · 最新分享（匿名 API）",
+          "published_at": "2026-11-20T17:00:00Z",
+          "score": 77.09,
+          "category": "ai-models",
+          "cluster_id": "97ce90530fe6f553",
+          "summary": "强化学习、生成模型、深度学习｜近期研究显示，AI编程助手响应速度显著提升：Claude将调试时的平均等待时间从约12秒缩短至0.5秒。该结果基于真实编程会话测试，由卡内基梅隆大学于11月12日公布。快速响应大幅优化开发者调试体验，减少重复提交与等待，提升问题定位与修复效率，对迭代式AI辅助编程具有重要实践价值。",
+          "why_matters": "12 秒到 0.5 秒是平均等待的对比值，未给样本量与方差；标题的「自写推理引擎」在摘要里没有机制证据。",
+          "fact_anchor": "一篇中文报道称 AI 编程助手把调试时的平均等待从约 12 秒缩短到 0.5 秒，结果基于真实编程会话测试，由卡内基梅隆大学于 11 月 12 日公布。",
+          "numbers": [
+            "12秒",
+            "0.5秒"
+          ],
+          "entities": [
+            "Claude",
+            "AI编程助手",
+            "卡内基梅隆大学"
+          ],
+          "evidence_urls": [
+            "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&mid=2652744186&idx=2&sn=e971240579573375d9d13105f1750d6f&chksm=f032e663b31b569c7561afe738fbda59b192b86e0fbadb17685fecb2949a2b95442f50ce62bf&scene=0&xtrack=1"
+          ],
+          "impact": "对 automation 的迭代体验有参考：调试等待每降一个量级，重跑全链路的成本结构就变一次；但单一二手源不能直接进规格基线。",
+          "next_action": "找 2 份独立一手材料核对样本量与测量口径；若一致的少于 2 份，则判定 12 秒与 0.5 秒仅为宣传对比值。",
+          "signal_type": "research",
+          "confidence": "unverified"
+        },
+        {
+          "id": "3509aafdae34029f",
+          "title": "Slovak costs 68% more than English in GPT-5. I tokenized 204 languages to find out why",
+          "url": "https://dev.to/ltchurik/slovak-costs-68-more-than-english-in-gpt-5-i-tokenized-204-languages-to-find-out-why-2lbn",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-20T19:39:05.201000Z",
+          "score": 75.43,
+          "category": "ai-models",
+          "cluster_id": "3509aafdae34029f",
+          "summary": "Originally published on devbyte.space. Every time someone in Slovakia sends a prompt to GPT-5, they pay about 68% more than someone in the… 〔Folo分类:开源项目〕",
+          "why_matters": "68% 是单语对英语的相对差，204 是覆盖语言数；分母不同，不能推出「非英语整体贵 68%」。",
+          "fact_anchor": "一篇 dev.to 文章称在 GPT-5 里斯洛伐克语的 prompt 成本比英语高约 68%，作者 tokenizer 化 204 种语言解释差异。",
+          "numbers": [
+            "68%",
+            "204"
+          ],
+          "entities": [
+            "GPT-5",
+            "Slovak",
+            "English",
+            "devbyte.space"
+          ],
+          "evidence_urls": [
+            "https://dev.to/ltchurik/slovak-costs-68-more-than-english-in-gpt-5-i-tokenized-204-languages-to-find-out-why-2lbn"
+          ],
+          "impact": "对数据基建与多语言 skill 是成本口径提醒：token 成本要按语言分列并标基准语言，别把相对差写进统一费率。",
+          "next_action": "抽 10 种语言复算同一 prompt 的 token 数；若与 68% 偏差超过 10 个百分点的语言 ≥ 3 种，则判定该值不可外推。",
+          "signal_type": "research",
+          "confidence": "unverified"
+        },
+        {
+          "id": "bc12da4238be9769",
+          "title": "v0.40.17",
+          "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc4",
+          "source": "ollama Releases",
+          "published_at": "2026-11-20T23:39:14Z",
+          "score": 75.38,
+          "category": "ai-models",
+          "cluster_id": "bc12da4238be9769",
+          "summary": "Inkling 2 Mini Inkling 2 Mini from Thinking Machines is a 26B parameter model with 5.4B active. Its looped layers give it more computation per token than its size suggests, and it still fits on a Mac at about 20GB. It handles text and images, tool calls, and thinking, and scores 79.2% on SWE-Bench V",
+          "why_matters": "参数是总量、激活是单次计算量、20GB 是内存占用、79.2% 是基准得分，四个维度不同；按需加载 MCP 工具改的是启动开销。",
+          "fact_anchor": "ollama v0.40.17 上线 Inkling 2 Mini：26B 参数、5.4B 激活、约 20GB 可装进 Mac，SWE-Bench Verified 79.2%，并支持 Claude Code 的 MCP 工具按需加载。",
+          "numbers": [
+            "0.40.17",
+            "26B",
+            "5.4B",
+            "20GB",
+            "79.2%"
+          ],
+          "entities": [
+            "ollama",
+            "Inkling 2 Mini",
+            "Thinking Machines",
+            "SWE-Bench Verified",
+            "MCP",
+            "Claude Code"
+          ],
+          "evidence_urls": [
+            "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc4"
+          ],
+          "impact": "对 agent 部署与 MCP 最相关：deferred tool loading 可缩短非交互宿主启动时的工具枚举成本，20GB 也给出本地可跑的硬门槛。",
+          "next_action": "在 1 台 Mac 加载该模型；若峰值内存超过 20GB 或 3 次抽样任务得分低于 79.2% 的次数 ≥ 2，则判定规格与评分不可直接照搬。",
+          "signal_type": "release",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "industry-capital",
+      "label": "产业与资本",
+      "items": [
+        {
+          "id": "d57ebd575b4a65e3",
+          "title": "Anthropic上市冲破2万亿美元！超级智能第一股开盘暴涨",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&mid=2652744224&idx=1&sn=df776340bd6a965e812fef4b10026880&chksm=f023a5d902cf596f25eb872d00e7e4dbbdb8c178ea8b891aa8d44bbad68824ec7ac033592ba3&scene=0&xtrack=1",
+          "source": "智源社区 · 最新分享（匿名 API）",
+          "published_at": "2026-11-20T23:50:00Z",
+          "score": 76.62,
+          "category": "industry-capital",
+          "cluster_id": "d57ebd575b4a65e3",
+          "summary": "强化学习、AI系统、AI｜Anthropic于11月20日零时48分在纳斯达克上市，代码ANT，开盘价111.50美元，较83美元发行价暴涨34.3%，较路演区间下限70美元高出59.3%；首笔交易即吸引1.4亿股买单，市值迅速突破2万亿美元，创史上最大IPO纪录。",
+          "why_matters": "发行价、开盘价、路演下限是三个不同基准，34.3% 与 59.3% 分母不同；单一中文二手源未给一手交易所数据。",
+          "fact_anchor": "一篇中文报道称 Anthropic 于 11 月 20 日在纳斯达克上市，代码 ANT，开盘 111.50 美元、较 83 美元发行价涨 34.3%，较路演下限 70 美元高 59.3%，市值突破 2 万亿美元。",
+          "numbers": [
+            "111.50",
+            "83",
+            "34.3%",
+            "70",
+            "59.3%"
+          ],
+          "entities": [
+            "Anthropic",
+            "纳斯达克",
+            "ANT",
+            "IPO"
+          ],
+          "evidence_urls": [
+            "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&mid=2652744224&idx=1&sn=df776340bd6a965e812fef4b10026880&chksm=f023a5d902cf596f25eb872d00e7e4dbbdb8c178ea8b891aa8d44bbad68824ec7ac033592ba3&scene=0&xtrack=1"
+          ],
+          "impact": "对数据基建的金额字段是样本：绝对价、相对涨幅、估值要分列并标基准，市值与成交额口径不得混算；无独立证据只进线索池。",
+          "next_action": "找 2 家独立一手来源核对开盘价与涨幅；若一致家数少于 2，则判定该组数字不进事实层，降为 unverified 线索。",
+          "signal_type": "market-data",
+          "confidence": "unverified"
+        }
+      ]
+    },
+    {
+      "key": "market-invest",
+      "label": "市场与投资",
+      "items": [
+        {
+          "id": "b984156a905a672d",
+          "title": "J&J Snack Foods CEO on 4Q Results and Consumer Sentiment",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-20/j-j-snack-foods-ceo-on-4q-results-and-consumer-sentiment-video",
+          "source": "Bloomberg Markets",
+          "published_at": "2026-11-20T23:22:36Z",
+          "score": 75.18,
+          "category": "market-invest",
+          "cluster_id": "b984156a905a672d",
+          "summary": "J&J Snack Foods CEO Dan Fachner said the company’s turnaround is on track after a strong year, citing Project Apollo’s more than $25 million in durable savings. A second phase, Apollo 2, is expected to generate another $5 million by 2027 through distribution and manufacturing improvements. Fachner s",
+          "why_matters": "$25 是已实现节约、$5 是到 2027 年的预期值，状态不同；完成时与 forecast 并列会高估当期收益。",
+          "fact_anchor": "Bloomberg 访谈里，J&J Snack Foods CEO 称 Project Apollo 已省下 more than $25 million，Apollo 2 预计到 2027 年再带来 $5 million。",
+          "numbers": [
+            "$25",
+            "$5"
+          ],
+          "entities": [
+            "J&J Snack Foods",
+            "Dan Fachner",
+            "Project Apollo",
+            "Apollo 2",
+            "Bloomberg"
+          ],
+          "evidence_urls": [
+            "https://www.bloomberg.com/news/videos/2026-11-20/j-j-snack-foods-ceo-on-4q-results-and-consumer-sentiment-video"
+          ],
+          "impact": "对数据基建的金额字段是提醒：已实现与预期必须分状态列，预期值要带目标年，别并入当期汇总。",
+          "next_action": "对照下一季财报核对节约额；若 $5 仍标注为 expected 且无实际入账，则判定它属预测，不进已实现口径。",
+          "signal_type": "market-data",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "research-papers",
+      "label": "论文与学术",
+      "items": [
+        {
+          "id": "d4c16ece0dea90cd",
+          "title": "Does the Sun Have a Secret Companion? A Controversial Theory Could Explain Earth’s Mass Extinctions",
+          "url": "https://scitechdaily.com/does-the-sun-have-a-secret-companion-a-controversial-theory-could-explain-earths-mass-extinctions",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-20T23:52:25.627000Z",
+          "score": 76.65,
+          "category": "market-invest",
+          "cluster_id": "d4c16ece0dea90cd",
+          "summary": "A mysterious 26-million-year pattern in Earth’s extinction history has fueled a controversial theory involving an unseen stellar companion… 〔Folo分类:重大学术科研突破〕",
+          "why_matters": "26 是周期长度而非观测次数，且原文明确标 controversial；把周期当已证实的伴星证据会越过证据等级。",
+          "fact_anchor": "scitechdaily 报道称地球灭绝史里存在约 26-million-year 的周期模式，被用作「太阳存在 unseen stellar companion」这一争议理论的依据。",
+          "numbers": [
+            "26"
+          ],
+          "entities": [
+            "Sun",
+            "stellar companion",
+            "extinction history"
+          ],
+          "evidence_urls": [
+            "https://scitechdaily.com/does-the-sun-have-a-secret-companion-a-controversial-theory-could-explain-earths-mass-extinctions"
+          ],
+          "impact": "暂无直接影响：属天文假说讨论，与 WorkBuddy / agent 部署 / 数据基建无交集；仅作「带争议标注的读数」样本。",
+          "next_action": "核对是否给出 2 个以上独立数据集支持该周期；若支持数据集少于 2 个，则判定 26 仍属待验证相关而非结论。",
+          "signal_type": "research",
+          "confidence": "unverified"
+        },
+        {
+          "id": "d098fa9800a7f8a2",
+          "title": "A fish as old as Montana—the blue sucker discovered to live well over 100 years",
+          "url": "https://phys.org/news/2026-11-fish-montana-blue-sucker-years.html",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-20T22:20:06.624000Z",
+          "score": 75.57,
+          "category": "docs-changelog",
+          "cluster_id": "d098fa9800a7f8a2",
+          "summary": "Using bomb radiocarbon dating on microscopic otoliths (earstones), researchers have found that a native species of fish in the Upper… 〔Folo分类:重大学术科研突破〕",
+          "why_matters": "100 是 over 的下限口径、不是平均寿命；测年方法给的是个体年龄估计，不能写成种群均值。",
+          "fact_anchor": "phys.org 报道用 bomb radiocarbon dating 测 otoliths，发现 Montana 的 blue sucker 寿命 well over 100 years。",
+          "numbers": [
+            "100"
+          ],
+          "entities": [
+            "blue sucker",
+            "Montana",
+            "otoliths",
+            "bomb radiocarbon dating"
+          ],
+          "evidence_urls": [
+            "https://phys.org/news/2026-11-fish-montana-blue-sucker-years.html"
+          ],
+          "impact": "暂无直接影响：属鱼类年龄研究，与 WorkBuddy / MCP / 数据基建无交集；仅作带限定词计数样本。",
+          "next_action": "核对原文是否给出样本量与最大观测年龄；若两者缺 1 项，则判定 100 为下限表述，不写入统计汇总。",
+          "signal_type": "research",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "community",
+      "label": "社区与观点",
+      "items": [
+        {
+          "id": "00dcab6deae05afa",
+          "title": "Show HN: OpenComputer – an open source alternative to Devin",
+          "url": "https://github.com/diggerhq/opencomputer",
+          "source": "HN Algolia front_page (points/comments)",
+          "published_at": "2026-11-20T20:19:56Z",
+          "score": 77.35,
+          "category": "community",
+          "cluster_id": "00dcab6deae05afa",
+          "summary": "Hi HN!Utpal here, I'm one of the founders of OpenComputer.OpenComputer is an open source cloud coding agent for teams that can run in your own cloud account (AWS, GCP, Azure).We run the agent harness and the sandbox on the same durable VM (architecture in the docs [1]). First commit lands in 24s; th",
+          "why_matters": "24 与 53、72 是首次提交延迟对比，640 是月 session-hours 的成本拐点，4 是 vCPU 规格；三个量纲不能互推。",
+          "fact_anchor": "Show HN 帖介绍开源 coding agent OpenComputer：harness 与 sandbox 同跑一台常驻 VM，首次提交 24s，对照方案要 53-72s，会话用 git worktrees 隔离。",
+          "numbers": [
+            "24",
+            "53",
+            "72",
+            "640",
+            "4"
+          ],
+          "entities": [
+            "OpenComputer",
+            "Devin",
+            "AWS",
+            "GCP",
+            "Azure",
+            "E2B"
+          ],
+          "evidence_urls": [
+            "https://github.com/diggerhq/opencomputer"
+          ],
+          "impact": "对 agent 部署与 WinVM 有借鉴：每会话落 git worktrees、每轮备份到 repo 以跨 VM 恢复，正是多 agent 并行改码需要的隔离与断点续跑。",
+          "next_action": "复跑 5 次首次提交；若中位数超过 24s 或超过 53s 的次数 ≥ 2，则判定 24s 基准不可复现，不写进选型对比。",
+          "signal_type": "release",
+          "confidence": "unverified"
+        },
+        {
+          "id": "6b69e281acd21dc4",
+          "title": "This tiny Damascus steel knife is the size of a car key and weighs 1.4 ounces",
+          "url": "https://www.yankodesign.com/2026/11/20/this-tiny-damascus-steel-knife-is-the-size-of-a-car-key-and-weighs-1-4-ounces",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-20T21:30:24.940000Z",
+          "score": 75.01,
+          "category": "community",
+          "cluster_id": "6b69e281acd21dc4",
+          "summary": "For most of my life, I only ever looked at Damascus steel through glass. It sat in display cases next to price tags with too many digits… 〔Folo分类:新奇产品〕",
+          "why_matters": "1.4 是英制重量且带 ounces 单位，摘要没有给公制换算；去掉单位就会变成无量纲数字。",
+          "fact_anchor": "yankodesign 的一则产品条目称一把 Damascus steel 小刀只有 car key 大小、重 1.4 ounces。",
+          "numbers": [
+            "1.4"
+          ],
+          "entities": [
+            "Damascus steel",
+            "car key",
+            "price tags"
+          ],
+          "evidence_urls": [
+            "https://www.yankodesign.com/2026/11/20/this-tiny-damascus-steel-knife-is-the-size-of-a-car-key-and-weighs-1-4-ounces"
+          ],
+          "impact": "暂无直接影响：属消费产品条目，与 WorkBuddy / skill / 数据基建无交集；仅作单位标注样本。",
+          "next_action": "核对是否给出公制克重；若全文只有 ounces 一种单位，则判定 1.4 需带单位存储，不并入数值序列。",
+          "signal_type": "product",
+          "confidence": "fact"
+        }
+      ]
+    }
+  ],
+  "editor_note": "本期最该带走的判断是：能直接写进部署门禁的是精确版本号、可复算比率与明确单位，不是型号尾数，更不是采集时间戳里的年份。claude-code 发布 v2.1.330，改动集中在企业控制台组织登录、easel 图表、自托管 runner 的 --start-dir，以及插件市场拉取失败与插件安装失败时的 notice 和 commandFailed 字段。对 automation 与 agent 部署的含义很直接：定时任务本身就是非交互宿主，过去插件源拉不到是静默失败，现在有显式 notice，应纳入部署前 gate 的必查项。同时给依赖扫描补上 2.1.330 这类可逐字匹配的版本号，命中即比对 What's changed 清单。第二条是重算比读日志更可信。dev.to 那篇讲 agent 工具校验的文章把 200 status 与自写 log line 都归为声明，主张重算 receipt。这与本任务的核验闸门同构：verify_digest.py 比对的是产物字节与 violations，不是构建日志；A2A 委派回执也应重算，不能信任对端返回码。落到工程动作上，部署前 gate 先做三件事：用可逐字匹配的版本号锁定依赖，把改动清单逐条转成检查项，对 0 violations 的 smoke 结果留痕。",
+  "brief": "每日信息 · 2026-11-21\n\n今日入报里，claude-code v2.1.330 补上自托管 runner 的插件失败 notice，ollama v0.40.17 给出 26B 参数、20GB 内存与 79.2% 的 SWE-Bench 成绩，AWS 分布式 KV 缓存称推理成本最多降 40%、首字延迟最多降 80%；Anthropic IPO 报开盘 111.50 美元、较 83 美元发行价涨 34.3%。\n\n【Agent 与工程】\n- claude-code v2.1.330 加入企业控制台组织登录…（2.1.330）\n- 一篇 dev.to 文章指出 agent 自写的日志行与 200…（200）\n- AWS ML Blog 介绍 Agent Toolkit for…（40% / 80%）\n- 一篇 dev.to 文章主张用约 100MB RAM 加 MCP…（100MB）\n\n【模型与研究】\n- 一篇中文报道称 AI 编程助手把调试时的平均等待从约 12 秒缩…（12秒 / 0.5秒）\n- 一篇 dev.to 文章称在 GPT-5 里斯洛伐克语的 pro…（68% / 204）\n- ollama v0.40.17 上线 Inkling 2 Min…（0.40.17 / 26B）\n\n【产业与资本】\n- 一篇中文报道称 Anthropic 于 11 月 20 日在纳斯…（111.50 / 83）\n\n【市场与投资】\n- Bloomberg 访谈里，J&J Snack Foods CE…（$25 / $5）\n\n【论文与学术】\n- scitechdaily 报道称地球灭绝史里存在约 26-mil…（26）\n- phys.org 报道用 bomb radiocarbon da…（100）\n\n【社区与观点】\n- Show HN 帖介绍开源 coding agent OpenC…（24 / 53）\n- yankodesign 的一则产品条目称一把 Damascus …（1.4）\n\n【待验证信号】\n- claude-code 2.1.330 的插…：若 在 2 个非交互宿主各触发 1 次插件市场拉取失败，缺 notice 次数 ≥ 1，则判定该路径未覆盖，不纳入部署前 gate。\n- AWS KV 缓存 40% / 80% 是否…：若 同一上下文连跑 10 轮，成本降幅中位数低于 40% 或 TTFT 降幅不达 80% 的轮次超过 5 轮，则判定 up to 上限口径不可复用，另记实测中位数。\n- ollama Inkling 2 Mini …：若 1 台 Mac 加载，峰值内存超过 20GB 或 3 次抽样得分低于 79.2% 的次数 ≥ 2，则判定规格与基准得分不可直接照搬，回退到实测值。\n- OpenComputer 24s 首次提交基…：若 复跑 5 次首次提交，中位数超过 24s 或超过 53s 的次数 ≥ 2，则判定 24s 不可复现，不写进选型对比。\n- Anthropic IPO 开盘价与涨幅的一…：若 找 2 家独立一手来源核对 111.50 与 34.3%，一致家数少于 2，则判定该组数字只作 unverified 线索，不进事实层。\n- GPT-5 的 68% 是否可外推：若 抽 10 种语言复算 token 成本，与 68% 偏差超过 10 个百分点的语言 ≥ 3 种，则判定 68% 为单语对比值，按语言分列费率。\n\n内容仅供参考，不构成投资建议；外部事实未独立验证；取不到可靠数据处标注「暂无可靠数据」。",
+  "watch_signals": [
+    {
+      "signal": "claude-code 2.1.330 的插件失败 notice 覆盖",
+      "threshold": "在 2 个非交互宿主各触发 1 次插件市场拉取失败，缺 notice 次数 ≥ 1",
+      "judgement": "判定该路径未覆盖，不纳入部署前 gate"
+    },
+    {
+      "signal": "AWS KV 缓存 40% / 80% 是否可复现",
+      "threshold": "同一上下文连跑 10 轮，成本降幅中位数低于 40% 或 TTFT 降幅不达 80% 的轮次超过 5 轮",
+      "judgement": "判定 up to 上限口径不可复用，另记实测中位数"
+    },
+    {
+      "signal": "ollama Inkling 2 Mini 的 20GB 与 79.2%",
+      "threshold": "1 台 Mac 加载，峰值内存超过 20GB 或 3 次抽样得分低于 79.2% 的次数 ≥ 2",
+      "judgement": "判定规格与基准得分不可直接照搬，回退到实测值"
+    },
+    {
+      "signal": "OpenComputer 24s 首次提交基准",
+      "threshold": "复跑 5 次首次提交，中位数超过 24s 或超过 53s 的次数 ≥ 2",
+      "judgement": "判定 24s 不可复现，不写进选型对比"
+    },
+    {
+      "signal": "Anthropic IPO 开盘价与涨幅的一手佐证",
+      "threshold": "找 2 家独立一手来源核对 111.50 与 34.3%，一致家数少于 2",
+      "judgement": "判定该组数字只作 unverified 线索，不进事实层"
+    },
+    {
+      "signal": "GPT-5 的 68% 是否可外推",
+      "threshold": "抽 10 种语言复算 token 成本，与 68% 偏差超过 10 个百分点的语言 ≥ 3 种",
+      "judgement": "判定 68% 为单语对比值，按语言分列费率"
+    }
+  ],
+  "reference_summary": [
+    {
+      "domain": "github.com",
+      "count": 3
+    },
+    {
+      "domain": "dev.to",
+      "count": 3
+    },
+    {
+      "domain": "mp.weixin.qq.com",
+      "count": 2
+    },
+    {
+      "domain": "aws.amazon.com",
+      "count": 1
+    },
+    {
+      "domain": "bloomberg.com",
+      "count": 1
+    },
+    {
+      "domain": "scitechdaily.com",
+      "count": 1
+    },
+    {
+      "domain": "phys.org",
+      "count": 1
+    },
+    {
+      "domain": "yankodesign.com",
+      "count": 1
+    }
+  ],
+  "stats": {
+    "sources_ok": 181,
+    "sources_total": 185,
+    "total_items": 2908,
+    "clusters": 2827,
+    "selected": 40,
+    "published_items": 13,
+    "seven_element_pass": 13,
+    "seven_element_ratio": 1.0,
+    "items_with_numbers": 13,
+    "substantive_number_ratio": 1.0,
+    "rejected_no_number": 0,
+    "unique_reference_domains": 8
+  },
+  "quality": {
+    "ai_status": "ok",
+    "missing_data_marker": "暂无可靠数据",
+    "warnings": [],
+    "id_whitelist": true,
+    "url_whitelist": true,
+    "number_whitelist": true,
+    "number_whitelist_scope": "title+summary_raw+metrics",
+    "number_whitelist_excludes": [
+      "published_at",
+      "fetched_at"
+    ],
+    "entity_whitelist": true,
+    "credential_scan": "clean",
+    "content_spec_version": "1.1.0"
+  },
+  "demo": false
+}

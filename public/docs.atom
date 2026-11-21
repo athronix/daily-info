@@ -5,10 +5,20 @@
   <ns0:subtitle>挖掘 · 聚合 · 研判 · 订阅；每条附原文链接；内容仅供参考，不构成投资建议</ns0:subtitle>
   <ns0:link rel="self" type="application/atom+xml" href="https://daily-info.local/docs.atom" />
   <ns0:link rel="alternate" type="text/html" href="https://daily-info.local/index.html" />
-  <ns0:updated>2026-11-19T23:02:04.805768Z</ns0:updated>
+  <ns0:updated>2026-11-21T01:46:30.047892Z</ns0:updated>
   <ns0:author>
     <ns0:name>Personal Daily Info</ns0:name>
   </ns0:author>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-21:d098fa9800a7f8a2</ns0:id>
+    <ns0:title>[论文与学术] A fish as old as Montana—the blue sucker discovered to live well over 100 years</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://phys.org/news/2026-11-fish-montana-blue-sucker-years.html" />
+    <ns0:published>2026-11-20T22:20:06.624000Z</ns0:published>
+    <ns0:updated>2026-11-21T01:46:30.047892Z</ns0:updated>
+    <ns0:category term="docs-changelog" label="论文与学术" />
+    <ns0:summary type="text">Using bomb radiocarbon dating on microscopic otoliths (earstones), researchers have found that a native species of fish in the Upper… 〔Folo分类:重大学术科研突破〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;phys.org 报道用 bomb radiocarbon dating 测 otoliths，发现 Montana 的 blue sucker 寿命 well over 100 years。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：100 · 相关方：blue sucker / Montana / otoliths / bomb radiocarbon dating&lt;/p&gt;&lt;p&gt;Using bomb radiocarbon dating on microscopic otoliths (earstones), researchers have found that a native species of fish in the Upper… 〔Folo分类:重大学术科研突破〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;100 是 over 的下限口径、不是平均寿命；测年方法给的是个体年龄估计，不能写成种群均值。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;暂无直接影响：属鱼类年龄研究，与 WorkBuddy / MCP / 数据基建无交集；仅作带限定词计数样本。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对原文是否给出样本量与最大观测年龄；若两者缺 1 项，则判定 100 为下限表述，不写入统计汇总。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-20T22:20 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://phys.org/news/2026-11-fish-montana-blue-sucker-years.html" rel="noopener noreferrer"&gt;https://phys.org/news/2026-11-fish-montana-blue-sucker-years.html&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:daily-info.local,2026-11-20:0095ff7f6d07a207</ns0:id>
     <ns0:title>[文档与变更] More than 1,700 bee species are unique to islands, first global assessment finds</ns0:title>

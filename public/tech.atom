@@ -5,10 +5,90 @@
   <ns0:subtitle>挖掘 · 聚合 · 研判 · 订阅；每条附原文链接；内容仅供参考，不构成投资建议</ns0:subtitle>
   <ns0:link rel="self" type="application/atom+xml" href="https://daily-info.local/tech.atom" />
   <ns0:link rel="alternate" type="text/html" href="https://daily-info.local/index.html" />
-  <ns0:updated>2026-11-19T23:02:04.805768Z</ns0:updated>
+  <ns0:updated>2026-11-21T01:46:30.047892Z</ns0:updated>
   <ns0:author>
     <ns0:name>Personal Daily Info</ns0:name>
   </ns0:author>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-21:d098fa9800a7f8a2</ns0:id>
+    <ns0:title>[论文与学术] A fish as old as Montana—the blue sucker discovered to live well over 100 years</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://phys.org/news/2026-11-fish-montana-blue-sucker-years.html" />
+    <ns0:published>2026-11-20T22:20:06.624000Z</ns0:published>
+    <ns0:updated>2026-11-21T01:46:30.047892Z</ns0:updated>
+    <ns0:category term="docs-changelog" label="论文与学术" />
+    <ns0:summary type="text">Using bomb radiocarbon dating on microscopic otoliths (earstones), researchers have found that a native species of fish in the Upper… 〔Folo分类:重大学术科研突破〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;phys.org 报道用 bomb radiocarbon dating 测 otoliths，发现 Montana 的 blue sucker 寿命 well over 100 years。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：100 · 相关方：blue sucker / Montana / otoliths / bomb radiocarbon dating&lt;/p&gt;&lt;p&gt;Using bomb radiocarbon dating on microscopic otoliths (earstones), researchers have found that a native species of fish in the Upper… 〔Folo分类:重大学术科研突破〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;100 是 over 的下限口径、不是平均寿命；测年方法给的是个体年龄估计，不能写成种群均值。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;暂无直接影响：属鱼类年龄研究，与 WorkBuddy / MCP / 数据基建无交集；仅作带限定词计数样本。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对原文是否给出样本量与最大观测年龄；若两者缺 1 项，则判定 100 为下限表述，不写入统计汇总。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-20T22:20 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://phys.org/news/2026-11-fish-montana-blue-sucker-years.html" rel="noopener noreferrer"&gt;https://phys.org/news/2026-11-fish-montana-blue-sucker-years.html&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-21:bc12da4238be9769</ns0:id>
+    <ns0:title>[模型与研究] v0.40.17</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://github.com/ollama/ollama/releases/tag/v0.40.17-rc4" />
+    <ns0:published>2026-11-20T23:39:14Z</ns0:published>
+    <ns0:updated>2026-11-21T01:46:30.047892Z</ns0:updated>
+    <ns0:category term="ai-models" label="模型与研究" />
+    <ns0:summary type="text">Inkling 2 Mini Inkling 2 Mini from Thinking Machines is a 26B parameter model with 5.4B active. Its looped layers give it more computation per token than its size suggests, and it still fits on a Mac at about 20GB. It handles text and images, tool calls, and thinking, and scores 79.2% on SWE-Bench V</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;ollama v0.40.17 上线 Inkling 2 Mini：26B 参数、5.4B 激活、约 20GB 可装进 Mac，SWE-Bench Verified 79.2%，并支持 Claude Code 的 MCP 工具按需加载。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：0.40.17 / 26B / 5.4B / 20GB / 79.2% · 相关方：ollama / Inkling 2 Mini / Thinking Machines / SWE-Bench Verified / MCP / Claude Code&lt;/p&gt;&lt;p&gt;Inkling 2 Mini Inkling 2 Mini from Thinking Machines is a 26B parameter model with 5.4B active. Its looped layers give it more computation per token than its size suggests, and it still fits on a Mac at about 20GB. It handles text and images, tool calls, and thinking, and scores 79.2% on SWE-Bench V&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;参数是总量、激活是单次计算量、20GB 是内存占用、79.2% 是基准得分，四个维度不同；按需加载 MCP 工具改的是启动开销。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 agent 部署与 MCP 最相关：deferred tool loading 可缩短非交互宿主启动时的工具枚举成本，20GB 也给出本地可跑的硬门槛。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在 1 台 Mac 加载该模型；若峰值内存超过 20GB 或 3 次抽样任务得分低于 79.2% 的次数 ≥ 2，则判定规格与评分不可直接照搬。&lt;/p&gt;&lt;p&gt;来源：ollama Releases · 发布于 2026-11-20T23:39 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/ollama/ollama/releases/tag/v0.40.17-rc4" rel="noopener noreferrer"&gt;https://github.com/ollama/ollama/releases/tag/v0.40.17-rc4&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-21:3509aafdae34029f</ns0:id>
+    <ns0:title>[模型与研究] Slovak costs 68% more than English in GPT-5. I tokenized 204 languages to find out why</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://dev.to/ltchurik/slovak-costs-68-more-than-english-in-gpt-5-i-tokenized-204-languages-to-find-out-why-2lbn" />
+    <ns0:published>2026-11-20T19:39:05.201000Z</ns0:published>
+    <ns0:updated>2026-11-21T01:46:30.047892Z</ns0:updated>
+    <ns0:category term="ai-models" label="模型与研究" />
+    <ns0:summary type="text">Originally published on devbyte.space. Every time someone in Slovakia sends a prompt to GPT-5, they pay about 68% more than someone in the… 〔Folo分类:开源项目〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;一篇 dev.to 文章称在 GPT-5 里斯洛伐克语的 prompt 成本比英语高约 68%，作者 tokenizer 化 204 种语言解释差异。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：68% / 204 · 相关方：GPT-5 / Slovak / English / devbyte.space&lt;/p&gt;&lt;p&gt;Originally published on devbyte.space. Every time someone in Slovakia sends a prompt to GPT-5, they pay about 68% more than someone in the… 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;68% 是单语对英语的相对差，204 是覆盖语言数；分母不同，不能推出「非英语整体贵 68%」。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建与多语言 skill 是成本口径提醒：token 成本要按语言分列并标基准语言，别把相对差写进统一费率。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;抽 10 种语言复算同一 prompt 的 token 数；若与 68% 偏差超过 10 个百分点的语言 ≥ 3 种，则判定该值不可外推。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-20T19:39 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;证据状态：未独立验证&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://dev.to/ltchurik/slovak-costs-68-more-than-english-in-gpt-5-i-tokenized-204-languages-to-find-out-why-2lbn" rel="noopener noreferrer"&gt;https://dev.to/ltchurik/slovak-costs-68-more-than-english-in-gpt-5-i-tokenized-204-languages-to-find-out-why-2lbn&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-21:97ce90530fe6f553</ns0:id>
+    <ns0:title>[模型与研究] Claude自写推理引擎！等AI回第一个字，12秒砍到半秒</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&amp;mid=2652744186&amp;idx=2&amp;sn=e971240579573375d9d13105f1750d6f&amp;chksm=f032e663b31b569c7561afe738fbda59b192b86e0fbadb17685fecb2949a2b95442f50ce62bf&amp;scene=0&amp;xtrack=1" />
+    <ns0:published>2026-11-20T17:00:00Z</ns0:published>
+    <ns0:updated>2026-11-21T01:46:30.047892Z</ns0:updated>
+    <ns0:category term="ai-models" label="模型与研究" />
+    <ns0:summary type="text">强化学习、生成模型、深度学习｜近期研究显示，AI编程助手响应速度显著提升：Claude将调试时的平均等待时间从约12秒缩短至0.5秒。该结果基于真实编程会话测试，由卡内基梅隆大学于11月12日公布。快速响应大幅优化开发者调试体验，减少重复提交与等待，提升问题定位与修复效率，对迭代式AI辅助编程具有重要实践价值。</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;一篇中文报道称 AI 编程助手把调试时的平均等待从约 12 秒缩短到 0.5 秒，结果基于真实编程会话测试，由卡内基梅隆大学于 11 月 12 日公布。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：12秒 / 0.5秒 · 相关方：Claude / AI编程助手 / 卡内基梅隆大学&lt;/p&gt;&lt;p&gt;强化学习、生成模型、深度学习｜近期研究显示，AI编程助手响应速度显著提升：Claude将调试时的平均等待时间从约12秒缩短至0.5秒。该结果基于真实编程会话测试，由卡内基梅隆大学于11月12日公布。快速响应大幅优化开发者调试体验，减少重复提交与等待，提升问题定位与修复效率，对迭代式AI辅助编程具有重要实践价值。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;12 秒到 0.5 秒是平均等待的对比值，未给样本量与方差；标题的「自写推理引擎」在摘要里没有机制证据。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 automation 的迭代体验有参考：调试等待每降一个量级，重跑全链路的成本结构就变一次；但单一二手源不能直接进规格基线。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;找 2 份独立一手材料核对样本量与测量口径；若一致的少于 2 份，则判定 12 秒与 0.5 秒仅为宣传对比值。&lt;/p&gt;&lt;p&gt;来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-20T17:00 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;证据状态：未独立验证&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&amp;amp;mid=2652744186&amp;amp;idx=2&amp;amp;sn=e971240579573375d9d13105f1750d6f&amp;amp;chksm=f032e663b31b569c7561afe738fbda59b192b86e0fbadb17685fecb2949a2b95442f50ce62bf&amp;amp;scene=0&amp;amp;xtrack=1" rel="noopener noreferrer"&gt;https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&amp;amp;mid=2652744186&amp;amp;idx=2&amp;amp;sn=e971240579573375d9d13105f1750d6f&amp;amp;chksm=f032e663b31b569c7561afe738fbda59b192b86e0fbadb17685fecb2949a2b95442f50ce62bf&amp;amp;scene=0&amp;amp;xtrack=1&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-21:983236c0117f7575</ns0:id>
+    <ns0:title>[Agent 与工程] Extracting B2B Churn &amp; Regulatory Leads Without Headless Browsers (~100MB RAM + MCP)</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://dev.to/signalgridhq/extracting-b2b-churn-regulatory-leads-without-headless-browsers-100mb-ram-mcp-28d4" />
+    <ns0:published>2026-11-20T07:55:17.154000Z</ns0:published>
+    <ns0:updated>2026-11-21T01:46:30.047892Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="Agent 与工程" />
+    <ns0:summary type="text">Spinning up Playwright or Puppeteer for every scraping pipeline gets expensive fast, especially when running usage-based jobs for Clay, n8n,… 〔Folo分类:开源项目〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;一篇 dev.to 文章主张用约 100MB RAM 加 MCP 抓取 B2B 客户流失与监管线索，替掉每条流水线都起 Playwright 或 Puppeteer 的做法。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：100MB · 相关方：Playwright / Puppeteer / Clay / n8n / MCP&lt;/p&gt;&lt;p&gt;Spinning up Playwright or Puppeteer for every scraping pipeline gets expensive fast, especially when running usage-based jobs for Clay, n8n,… 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;100MB 是作者给出的内存占用，未说明并发数与页面复杂度；省资源的前提是放弃浏览器渲染，边界条件缺失。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 MCP 与数据基建有借鉴：轻量抓取路径能降低采集侧成本，但本任务 fetch 仍要保留逐源超时与失败跳过，不能照搬无头浏览器默认配置。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;按 5 个站点各跑 1 次抓取；若峰值内存超过 100MB 或解析成功率低于 4/5，则判定该路径不适用于当前信源集。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-20T07:55 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;证据状态：未独立验证&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://dev.to/signalgridhq/extracting-b2b-churn-regulatory-leads-without-headless-browsers-100mb-ram-mcp-28d4" rel="noopener noreferrer"&gt;https://dev.to/signalgridhq/extracting-b2b-churn-regulatory-leads-without-headless-browsers-100mb-ram-mcp-28d4&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-21:e1b0c4ede4d1eb3f</ns0:id>
+    <ns0:title>[Agent 与工程] Cut self-hosted LLM cost and latency with the distributed KV caching agent skill</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill" />
+    <ns0:published>2026-11-21T00:14:26Z</ns0:published>
+    <ns0:updated>2026-11-21T01:46:30.047892Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="Agent 与工程" />
+    <ns0:summary type="text">Self-hosting LLMs on GPUs means paying to recompute the same context on every turn. Distributed KV caching with Amazon ElastiCache can cut inference cost by up to 40% and time to first token by up to 80%. This post walks through the distributed KV caching skill in the Agent Toolkit for AWS, which ev</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;AWS ML Blog 介绍 Agent Toolkit for AWS 的分布式 KV 缓存 skill，称借 Amazon ElastiCache 可把自托管 LLM 推理成本最多降 40%、首字延迟最多降 80%。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：40% / 80% · 相关方：Amazon ElastiCache / Agent Toolkit for AWS / LLMs / GPUs / KV caching&lt;/p&gt;&lt;p&gt;Self-hosting LLMs on GPUs means paying to recompute the same context on every turn. Distributed KV caching with Amazon ElastiCache can cut inference cost by up to 40% and time to first token by up to 80%. This post walks through the distributed KV caching skill in the Agent Toolkit for AWS, which ev&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;两个数字都是 up to 的上限口径，不是实测中位数；成本与首字延迟也分属不同量纲，不能合并成一句效果。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 skill 与自托管 LLM 直接相关：缓存 skill 由 coding agent 自行评估并配置，可复用到 WinVM 侧长上下文会话，但要先跑基线对照。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;同一上下文连跑 10 轮；若成本降幅中位数低于 40% 或 TTFT 降幅低于 80% 的轮次超过 5 轮，则判定上限口径不可复用。&lt;/p&gt;&lt;p&gt;来源：AWS ML Blog · 发布于 2026-11-21T00:14 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill" rel="noopener noreferrer"&gt;https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-21:668d191bb3336e01</ns0:id>
+    <ns0:title>[Agent 与工程] How do I check an AI agent's tool execution? Recompute the receipt, not the log</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://dev.to/rambozambo/how-do-i-check-an-ai-agents-tool-execution-recompute-the-receipt-not-the-log-2e4e" />
+    <ns0:published>2026-11-20T19:27:23.454000Z</ns0:published>
+    <ns0:updated>2026-11-21T01:46:30.047892Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="Agent 与工程" />
+    <ns0:summary type="text">Your agent says the tool ran. It shows you a log line it wrote itself and a 200 status. Neither of those is a check. A log line is a claim… 〔Folo分类:开源项目〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;一篇 dev.to 文章指出 agent 自写的日志行与 200 status 都不算执行校验，主张重算 receipt 而不是读 log。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：200 · 相关方：AI agent / log line / receipt&lt;/p&gt;&lt;p&gt;Your agent says the tool ran. It shows you a log line it wrote itself and a 200 status. Neither of those is a check. A log line is a claim… 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;200 只是工具自己声明的状态，日志行也是自证；把声明当校验会让失败路径静默通过。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对本任务的核验闸门是同构提醒：verify_digest.py 重算产物字节与 violations，而不是读构建日志；A2A 委派的回执也应重算而非信任对端 status。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;抽 3 次工具调用，若仅凭 log 与 200 判成功而 receipt 重算不一致次数 ≥ 1，则判定该链路不可用作验收依据。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-20T19:27 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://dev.to/rambozambo/how-do-i-check-an-ai-agents-tool-execution-recompute-the-receipt-not-the-log-2e4e" rel="noopener noreferrer"&gt;https://dev.to/rambozambo/how-do-i-check-an-ai-agents-tool-execution-recompute-the-receipt-not-the-log-2e4e&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-21:7ce40af71312dcfa</ns0:id>
+    <ns0:title>[Agent 与工程] v2.1.330</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://github.com/anthropics/claude-code/releases/tag/v2.1.330" />
+    <ns0:published>2026-11-20T22:32:56Z</ns0:published>
+    <ns0:updated>2026-11-21T01:46:30.047892Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="Agent 与工程" />
+    <ns0:summary type="text">What's changed Added sign-in to organizations managed in Anthropic's Enterprise Admin Console: after claude auth login, Claude Code applies the organization's settings and uses its cloud provider or gateway Added easel, a built-in mod that draws charts when asked and under MCP metrics results, on Pr</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;claude-code v2.1.330 加入企业控制台组织登录、easel 图表与自托管 runner 的 --start-dir，并为插件市场拉取失败、安装失败补上 notice 与 commandFailed 字段。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2.1.330 · 相关方：Claude Code / Anthropic / MCP / hooks / Self-hosted runner&lt;/p&gt;&lt;p&gt;What&amp;#x27;s changed Added sign-in to organizations managed in Anthropic&amp;#x27;s Enterprise Admin Console: after claude auth login, Claude Code applies the organization&amp;#x27;s settings and uses its cloud provider or gateway Added easel, a built-in mod that draws charts when asked and under MCP metrics results, on Pr&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;改动集中在自托管 runner 与插件安装的失败可观测性，说明非交互宿主下暴露失败路径比新增功能更优先；版本号可逐字匹配成扫描规则。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 automation 与 agent 部署最直接：定时任务属非交互宿主，插件市场拉取失败现在有显式 notice，可纳入部署前 gate；commandFailed 可当工具安装失败的判定字段。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在 2 个非交互宿主各触发 1 次插件市场拉取失败；若缺 notice 次数 ≥ 1，则判定该路径未覆盖，不纳入部署基线。&lt;/p&gt;&lt;p&gt;来源：claude-code Releases · 发布于 2026-11-20T22:32 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.330" rel="noopener noreferrer"&gt;https://github.com/anthropics/claude-code/releases/tag/v2.1.330&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:daily-info.local,2026-11-20:e1761609bd5ff5d2</ns0:id>
     <ns0:title>[论文与学术] Amazon’s last-gen Kindle Paperwhite hasn’t been this cheap since June</ns0:title>
@@ -928,85 +1008,5 @@
     <ns0:category term="docs-changelog" label="文档与变更" />
     <ns0:summary type="text">The PlayStation App offers its users certain features that will make their lives easier, especially if they really love playing on their… 〔Folo分类:新奇产品〕</ns0:summary>
     <ns0:content type="html">&lt;p&gt;&lt;strong&gt;一篇清单文章列出 5 个被低估的 PlayStation App 功能，称可让用户使用更省事&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：5 · 相关方：PlayStation App&lt;/p&gt;&lt;p&gt;The PlayStation App offers its users certain features that will make their lives easier, especially if they really love playing on their… 〔Folo分类:新奇产品〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;用固定条数组织功能清单，读者可逐项核对是否真的被低估，而非接受一个整体评价。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;暂无直接影响：属消费应用功能清单，与 agent 部署及数据基建无工程交集，仅作清单式条目样本。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;逐项核对 5 个功能在当前客户端是否仍存在，若缺失超过 1 项则判定该清单已过期。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-08T19:00 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.engadget.com/2309256/underrated-playstation-app-features" rel="noopener noreferrer"&gt;https://www.engadget.com/2309256/underrated-playstation-app-features&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-09:83254f823c84d293</ns0:id>
-    <ns0:title>[开发者工具与版本] 7 multistream chat tools compared, every cell sourced to their own docs</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://dev.to/randynorthrup/7-multistream-chat-tools-compared-every-cell-sourced-to-their-own-docs-239c" />
-    <ns0:published>2026-11-08T17:17:14.644000Z</ns0:published>
-    <ns0:updated>2026-11-09T01:51:44.934256Z</ns0:updated>
-    <ns0:category term="docs-changelog" label="开发者工具与版本" />
-    <ns0:summary type="text">If you stream to more than one platform, your chat lives in several places at once. I made CrossChat, a free, open-source companion for OBS… 〔Folo分类:开源项目〕</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;作者对比 7 个 multistream chat 工具，声称表格每个单元格都溯源到各家自己的文档，并开源了配套工具 CrossChat&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：7 · 相关方：CrossChat / OBS / multistream chat tools&lt;/p&gt;&lt;p&gt;If you stream to more than one platform, your chat lives in several places at once. I made CrossChat, a free, open-source companion for OBS… 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把每个比较单元格都挂回一手文档，是对照表能否被复核的分界线。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;直接呼应本项目数字白名单闸门：结论只有能逐项回原文才准进报，跨源拼凑的值一律丢弃。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;抽查表中任意 7 个单元格的出处链接，若有 1 个打不到对应文档则判定该对比不可引用。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-08T17:17 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://dev.to/randynorthrup/7-multistream-chat-tools-compared-every-cell-sourced-to-their-own-docs-239c" rel="noopener noreferrer"&gt;https://dev.to/randynorthrup/7-multistream-chat-tools-compared-every-cell-sourced-to-their-own-docs-239c&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-09:282cc56cf39d2406</ns0:id>
-    <ns0:title>[开发者工具与版本] The official RKLLM vision demo doesn't run on the transformers it targets — a five-version bisection</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://dev.to/anguoyang/the-official-rkllm-vision-demo-doesnt-run-on-the-transformers-it-targets-a-five-version-bisection-4a7i" />
-    <ns0:published>2026-11-08T22:11:01.693000Z</ns0:published>
-    <ns0:updated>2026-11-09T01:51:44.934256Z</ns0:updated>
-    <ns0:category term="ai-models" label="开发者工具与版本" />
-    <ns0:summary type="text">I'm converting Qwen2-VL-2B-Instruct to run on a Rockchip board with Rockchip's official rknn-llm toolkit. Step one is exporting the vision… 〔Folo分类:开源项目〕</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;开发者转换 Qwen2-VL-2B-Instruct 到 Rockchip 板，发现官方 RKLLM vision demo 在目标 transformers 上跑不起来，用五个版本二分定位&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：Qwen2-VL-2B-Instruct / 2B · 相关方：Qwen2-VL-2B-Instruct / Rockchip / rknn-llm / transformers / RKLLM&lt;/p&gt;&lt;p&gt;I&amp;#x27;m converting Qwen2-VL-2B-Instruct to run on a Rockchip board with Rockchip&amp;#x27;s official rknn-llm toolkit. Step one is exporting the vision… 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;官方 demo 与目标版本不兼容这件事靠逐版本回退定位，比换更大模型更贴近真实工程成本。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 WinVM 与桌面端插件的启示：宿主依赖版本变更后应跑一次最小复现，而不是只看安装是否成功。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在目标环境复现一次版本二分，若 5 个候选版本中定位不到首个可用版本则判定该依赖组合不可用。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-08T22:11 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://dev.to/anguoyang/the-official-rkllm-vision-demo-doesnt-run-on-the-transformers-it-targets-a-five-version-bisection-4a7i" rel="noopener noreferrer"&gt;https://dev.to/anguoyang/the-official-rkllm-vision-demo-doesnt-run-on-the-transformers-it-targets-a-five-version-bisection-4a7i&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-09:6346806ff2c40fcb</ns0:id>
-    <ns0:title>[Agent 与工程] Week 7 of an LLM trying to earn money on its own: I posted a wrong measurement, corrected it, and the correction got merged. Still $0</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://dev.to/vellumkasane/week-7-of-an-llm-trying-to-earn-money-on-its-own-i-posted-a-wrong-measurement-corrected-it-and-558j" />
-    <ns0:published>2026-11-08T23:02:46.848000Z</ns0:published>
-    <ns0:updated>2026-11-09T01:51:44.934256Z</ns0:updated>
-    <ns0:category term="agent-engineering" label="Agent 与工程" />
-    <ns0:summary type="text">Disclosure: this post was written by an LLM agent (Claude Code) that operates the Vellum Labs account. Every number below comes from an API… 〔Folo分类:开源项目〕</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;一个由 LLM agent（Claude Code）运营的账户自述第 7 周更正了一处错误测量并被合并，收入仍为 $0&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：Week 7 / $0 · 相关方：Claude Code / Vellum Labs / LLM agent / API&lt;/p&gt;&lt;p&gt;Disclosure: this post was written by an LLM agent (Claude Code) that operates the Vellum Labs account. Every number below comes from an API… 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把错误测量公开更正并合并进流程，比宣称自主赚钱更接近可复盘的 agent 运行记录。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 automation 的直接提醒：无人值守任务的价值是可回放的状态与更正记录，而非单轮结果。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在本流水线补一条更正留痕字段，若 1 条被更正读数无法追溯到原条目则判定回放链不完整。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-08T23:02 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;证据状态：未独立验证&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://dev.to/vellumkasane/week-7-of-an-llm-trying-to-earn-money-on-its-own-i-posted-a-wrong-measurement-corrected-it-and-558j" rel="noopener noreferrer"&gt;https://dev.to/vellumkasane/week-7-of-an-llm-trying-to-earn-money-on-its-own-i-posted-a-wrong-measurement-corrected-it-and-558j&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-09:1876b9abaa20b9f0</ns0:id>
-    <ns0:title>[Agent 与工程] SWE-agent/mini-swe-agent</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://github.com/SWE-agent/mini-swe-agent" />
-    <ns0:published>2026-11-09T00:03:43.949000Z</ns0:published>
-    <ns0:updated>2026-11-09T01:51:44.934256Z</ns0:updated>
-    <ns0:category term="agent-engineering" label="Agent 与工程" />
-    <ns0:summary type="text">The 100 line AI agent that solves GitHub issues or helps you in your command line. Radically simple, no huge configs, no giant… 〔Folo分类:开源项目〕</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;SWE-agent 发布 mini-swe-agent，自称用 100 行实现的 AI agent 可解 GitHub issue 或在命令行协助&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：100 · 相关方：SWE-agent / mini-swe-agent / GitHub&lt;/p&gt;&lt;p&gt;The 100 line AI agent that solves GitHub issues or helps you in your command line. Radically simple, no huge configs, no giant… 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;用 100 行把 agent 骨架收敛到可读规模，暴露的是编排逻辑而非框架体积。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 WinVM Bridge 的直接参照：直接 MCP 工具调用这条简单路径应能收敛成一个可读的最小实现。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照其 100 行骨架复现一次最小 agent 循环，若本仓库 simple 路径代码超过其 3 倍则判定需拆分。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-09T00:03 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/SWE-agent/mini-swe-agent" rel="noopener noreferrer"&gt;https://github.com/SWE-agent/mini-swe-agent&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-09:66d41b8aa3e54926</ns0:id>
-    <ns0:title>[Agent 与工程] humanlayer/12-factor-agents</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://github.com/humanlayer/12-factor-agents" />
-    <ns0:published>2026-11-09T00:03:54.698000Z</ns0:published>
-    <ns0:updated>2026-11-09T01:51:44.934256Z</ns0:updated>
-    <ns0:category term="agent-engineering" label="Agent 与工程" />
-    <ns0:summary type="text">What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production… 〔Folo分类:开源项目〕</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;humanlayer 开源 12-factor-agents，归纳构建可投入生产的 LLM 驱动软件所用原则&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：12-factor-agents · 相关方：humanlayer / 12-factor-agents / LLM&lt;/p&gt;&lt;p&gt;What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production… 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把生产可用性拆成可逐条核对的原则清单，比宣称某个框架更好用更可迁移。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;可直接对照 WorkBuddy 的 skill、MCP 与 A2A 分层，检查工具注册、状态与权限是否各自有明确归属。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;把现有插件按 12 条原则逐项打勾，若超过 2 条无对应实现则判定分层需重排。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-09T00:03 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/humanlayer/12-factor-agents" rel="noopener noreferrer"&gt;https://github.com/humanlayer/12-factor-agents&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-09:5d76954b868314f1</ns0:id>
-    <ns0:title>[模型与研究] DIY Guide: D3 Decision Models: Build Fast, Multimodal AI Applications Locally with vLLM</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://dev.to/sharathjapa/diy-guide-d3-decision-models-build-fast-multimodal-ai-applications-locally-with-vllm-2822" />
-    <ns0:published>2026-11-08T11:00:01.948000Z</ns0:published>
-    <ns0:updated>2026-11-09T01:51:44.934256Z</ns0:updated>
-    <ns0:category term="ai-models" label="模型与研究" />
-    <ns0:summary type="text">Executive Summary The continuous evolution of modern AI infrastructure demands systematic evaluation of recent community… 〔Folo分类:开源项目〕</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;一篇 DIY 指南介绍用 vLLM 在本地构建 D3 Decision Models 多模态 AI 应用&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：D3 · 相关方：D3 Decision Models / vLLM / AI infrastructure&lt;/p&gt;&lt;p&gt;Executive Summary The continuous evolution of modern AI infrastructure demands systematic evaluation of recent community… 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把多模态应用压回本地推理栈，讨论重点从模型选型转向部署与评估方法。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建的参照：本地 vLLM 路线可评估离线快照节点的推理可行性，但摘要未给出吞吐读数。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在同一台机器上跑一次本地推理基准，若单请求延迟高于云端基线 2 倍则判定不适合承载常驻任务。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-08T11:00 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://dev.to/sharathjapa/diy-guide-d3-decision-models-build-fast-multimodal-ai-applications-locally-with-vllm-2822" rel="noopener noreferrer"&gt;https://dev.to/sharathjapa/diy-guide-d3-decision-models-build-fast-multimodal-ai-applications-locally-with-vllm-2822&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-09:c46b25d79acf061b</ns0:id>
-    <ns0:title>[模型与研究] 不用机器人录数据：日本 AIRoA 开放双臂操作基础模型 AIRoA-0，十类任务自报成功率 78%</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://arex-research.com/feeds/e45443e5-b169-42f0-8229-eec29f656a24" />
-    <ns0:published>2026-11-08T18:36:00Z</ns0:published>
-    <ns0:updated>2026-11-09T01:51:44.934256Z</ns0:updated>
-    <ns0:category term="ai-models" label="模型与研究" />
-    <ns0:summary type="text">资讯｜11 月 6 日，日本的 AI Robot Association（AIRoA）发布公告，正式公开面向双臂操作（bimanual manipulation）的机器人基础模型 AIRoA-0（A-0）：预训练与后训练权重已放上 Hugging Face，数据采集、后训练、推理三套代码放上 GitHub，技术报告（arXiv:2611.03815）则在本周早些时…</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;日本 AI Robot Association（AIRoA）公开双臂操作基础模型 AIRoA-0，权重放上 Hugging Face、三套代码放上 GitHub，自报十类任务成功率 78%&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：78% / AIRoA-0 / arXiv:2611.03815 · 相关方：AIRoA / AI Robot Association / AIRoA-0 / Hugging Face / GitHub / bimanual manipulation&lt;/p&gt;&lt;p&gt;资讯｜11 月 6 日，日本的 AI Robot Association（AIRoA）发布公告，正式公开面向双臂操作（bimanual manipulation）的机器人基础模型 AIRoA-0（A-0）：预训练与后训练权重已放上 Hugging Face，数据采集、后训练、推理三套代码放上 GitHub，技术报告（arXiv:2611.03815）则在本周早些时…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把权重、代码与技术报告一并放出，使 78% 从宣传值变成可被第三方复测的读数。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对本项目确定性脚本做索引、AI 只做研判的印证：底层产物可下载，AI 层才不必替上游补洞。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在同类十类任务上复测一次，若成功率与 78% 偏差超过 10 个百分点则判定该值仅为自报口径。&lt;/p&gt;&lt;p&gt;来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-08T18:36 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://arex-research.com/feeds/e45443e5-b169-42f0-8229-eec29f656a24" rel="noopener noreferrer"&gt;https://arex-research.com/feeds/e45443e5-b169-42f0-8229-eec29f656a24&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-09:ae2f80dd374e58bb</ns0:id>
-    <ns0:title>[模型与研究] Token Gremlin 称“GPT-6.2 Sol”已灰度现身 ChatGPT，约半小时后 Harshith 以截图反驳称实为 GPT-6.1 Sol</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://arex-research.com/feeds/a367dcbd-c32f-422a-8a99-1e2d3b063b59" />
-    <ns0:published>2026-11-08T18:58:00Z</ns0:published>
-    <ns0:updated>2026-11-09T01:51:44.934256Z</ns0:updated>
-    <ns0:category term="ai-models" label="模型与研究" />
-    <ns0:summary type="text">资讯｜北京时间 11 月 8 日 18:07，自述“追踪 AI 前沿：模型、智能体、研究、泄露与发布前信号”的 X 账号 Token Gremlin 发帖称，尚未发布的“GPT-6.2 Sol”已经对部分 ChatGPT 用户灰度现身（即分批、未经宣布地出现），并附上一段 5 秒视频和两张截图：画面中的体素风格 3D 场景由单个 prompt（提示词）生成，全部内…</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;X 账号 Token Gremlin 称 GPT-6.2 Sol 已对部分 ChatGPT 用户灰度现身，约半小时后 Harshith 以截图反驳称实为 GPT-6.1 Sol&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：GPT-6.2 Sol / GPT-6.1 Sol / 5 秒 / 18:07 · 相关方：Token Gremlin / Harshith / ChatGPT / GPT-6.2 Sol / GPT-6.1 Sol&lt;/p&gt;&lt;p&gt;资讯｜北京时间 11 月 8 日 18:07，自述“追踪 AI 前沿：模型、智能体、研究、泄露与发布前信号”的 X 账号 Token Gremlin 发帖称，尚未发布的“GPT-6.2 Sol”已经对部分 ChatGPT 用户灰度现身（即分批、未经宣布地出现），并附上一段 5 秒视频和两张截图：画面中的体素风格 3D 场景由单个 prompt（提示词）生成，全部内…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;首发说法在半小时内被截图级别的复现反驳，说明灰度爆料必须先有可比对证据。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建的直接映射：候选集里的单源爆料应有独立佐证字段，否则不该进入 AI 研判的入选簇。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对该模型是否有官方发布页或版本号记录，若 2 个独立来源都查不到则判定为未证实爆料并降级处理。&lt;/p&gt;&lt;p&gt;来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-08T18:58 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;证据状态：未独立验证&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://arex-research.com/feeds/a367dcbd-c32f-422a-8a99-1e2d3b063b59" rel="noopener noreferrer"&gt;https://arex-research.com/feeds/a367dcbd-c32f-422a-8a99-1e2d3b063b59&lt;/a&gt;&lt;/p&gt;</ns0:content>
   </ns0:entry>
 </ns0:feed>

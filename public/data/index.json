@@ -5,8 +5,35 @@
     "timezone": "Asia/Shanghai",
     "version": "1.0.0"
   },
-  "generated_at": "2026-11-19T23:02:04.805768Z",
+  "generated_at": "2026-11-21T01:46:30.047892Z",
   "dates": [
+    {
+      "date": "2026-11-21",
+      "headline": "版本号、百分比与规格能逐字回查并进门禁，型号尾数、发布日期与自写状态码只是声明；可接的是改动清单与可复现阈值，不是漂亮断言",
+      "lead": "今日入报里，claude-code v2.1.330 补上自托管 runner 的插件失败 notice，ollama v0.40.17 给出 26B 参数、20GB 内存与 79.2% 的 SWE-Bench 成绩，AWS 分布式 KV 缓存称推理成本最多降 40%、首字延迟最多降 80%；Anthropic IPO 报开盘 111.50 美元、较 83 美元发行价涨 34.3%。",
+      "demo": false,
+      "stats": {
+        "sources_ok": 181,
+        "sources_total": 185,
+        "total_items": 2908,
+        "clusters": 2827,
+        "selected": 40,
+        "published_items": 13,
+        "seven_element_pass": 13,
+        "seven_element_ratio": 1.0,
+        "items_with_numbers": 13,
+        "substantive_number_ratio": 1.0,
+        "rejected_no_number": 0,
+        "unique_reference_domains": 8
+      },
+      "section_count": 6,
+      "item_count": 13,
+      "ai_status": "ok",
+      "seven_element_ratio": 1.0,
+      "theme_count": 7,
+      "watch_signal_count": 6,
+      "reference_domains": 8
+    },
     {
       "date": "2026-11-20",
       "headline": "版本号、规则条数与融资金额都能逐字回查，型号数字与发布时间年份不算读数；真正决定能否接进门禁的是改动清单，不是漂亮断言",
