@@ -7,6 +7,253 @@
   "language": "zh-CN",
   "items": [
     {
+      "id": "tag:daily-info.local,2026-11-25:55c02fddf78cda05",
+      "url": "https://gizmodo.com/waymo-recalls-vehicles-after-11-robotaxis-entered-closed-freeway-lanes-2000844815",
+      "title": "Waymo Recalls Vehicles After 11 Robotaxis Entered Closed Freeway Lanes",
+      "summary": "Gizmodo 报道 Waymo 在 11 辆 robotaxi 驶入封闭高速车道后召回车辆，公司声明称使命是成为最值得信任的驾驶员。 — 11 是触发召回的事件车辆数，不是车队规模或故障率；声明只给使命表述，没有披露触发条件与修复方式。",
+      "content_html": "<p><strong>Gizmodo 报道 Waymo 在 11 辆 robotaxi 驶入封闭高速车道后召回车辆，公司声明称使命是成为最值得信任的驾驶员。</strong></p><p>关键数字：11 · 相关方：Waymo / Robotaxis</p><p>&quot;Waymo’s mission is to be the world’s most trusted driver,&quot; the company said in a statement. 〔Folo分类:新奇产品〕</p><p><strong>为什么值得看：</strong>11 是触发召回的事件车辆数，不是车队规模或故障率；声明只给使命表述，没有披露触发条件与修复方式。</p><p><strong>对我意味着什么：</strong>对 agent 部署的可靠性门禁是同构提醒：异常进入受限区域必须可计数、可回放，不能只靠值得信任这类定性表述。</p><p><strong>下一步：</strong>核对召回公告是否列出 11 辆与触发条件；若缺任一，则判定事件规模不可复算，只留事实层不进可靠性指标。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-24T21:20 UTC · 归类：market-invest</p><p>→ <a href=\"https://gizmodo.com/waymo-recalls-vehicles-after-11-robotaxis-entered-closed-freeway-lanes-2000844815\" rel=\"noopener noreferrer\">https://gizmodo.com/waymo-recalls-vehicles-after-11-robotaxis-entered-closed-freeway-lanes-2000844815</a></p>",
+      "date_published": "2026-11-24T21:20:40.753000Z",
+      "date_modified": "2026-11-24T22:53:10.321591Z",
+      "tags": [
+        "market-invest",
+        "安全与治理"
+      ],
+      "_daily_info": {
+        "score": 76.79,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "55c02fddf78cda05",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-25:fe3401e2cda5055a",
+      "url": "https://www.theverge.com/gadgets/1040046/apple-tv-subscription-streaming-sale-deal-black-friday",
+      "title": "Amazon is knocking almost $50 off six months of Apple TV",
+      "summary": "The Verge 报道 Amazon 给美国用户前六个月的 Apple TV+ 订阅折扣：月费 $6.99，半年总价从 $90 降到 $42。 — $90 与 $42 是半年总价的原价与折后价，$6.99 是月费；三个数字量纲不同，且原文写明促销无明确截止日。",
+      "content_html": "<p><strong>The Verge 报道 Amazon 给美国用户前六个月的 Apple TV+ 订阅折扣：月费 $6.99，半年总价从 $90 降到 $42。</strong></p><p>关键数字：$6.99 / $90 / $42 · 相关方：Amazon / Apple TV+ / Formula 1 / Severance</p><p>Amazon offers US customers a discounted Apple TV+ subscription rate of $6.99 monthly for the first six months, reducing the total cost from $90 to $42. This limited-time promotion is currently without a specified expiration date. The service provides access to exclusive Formula 1 and Major League So</p><p><strong>为什么值得看：</strong>$90 与 $42 是半年总价的原价与折后价，$6.99 是月费；三个数字量纲不同，且原文写明促销无明确截止日。</p><p><strong>对我意味着什么：</strong>对数据基建是口径样本：折扣类读数要标原价、折后价、适用期三列，规格与促销状态分存，不进长期成本基线。</p><p><strong>下一步：</strong>核对订阅页 2 次确认 $6.99 与 $42；若任一不符或未标生效期，则判定该价格仅为促销口径，不进成本表。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-24T19:00 UTC · 归类：docs-changelog</p><p>→ <a href=\"https://www.theverge.com/gadgets/1040046/apple-tv-subscription-streaming-sale-deal-black-friday\" rel=\"noopener noreferrer\">https://www.theverge.com/gadgets/1040046/apple-tv-subscription-streaming-sale-deal-black-friday</a></p>",
+      "date_published": "2026-11-24T19:00:00.331000Z",
+      "date_modified": "2026-11-24T22:53:10.321591Z",
+      "tags": [
+        "docs-changelog",
+        "市场与投资"
+      ],
+      "_daily_info": {
+        "score": 78.36,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "fe3401e2cda5055a",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-25:ac9f934991bf2618",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-24/dell-raises-ai-server-outlook-closing-bell-video",
+      "title": "Dell Raises AI Server Outlook as Backlog Hits Record $132 Billion | Closing Bell",
+      "summary": "Bloomberg 报道 Dell 上调 AI 服务器展望，积压订单创 $132 Billion 纪录，Closing Bell 节目覆盖当日美股收盘。 — $132 Billion 是积压订单金额，不是当期营收；摘要只是节目通用描述，没有给出订单口径与交付节奏。",
+      "content_html": "<p><strong>Bloomberg 报道 Dell 上调 AI 服务器展望，积压订单创 $132 Billion 纪录，Closing Bell 节目覆盖当日美股收盘。</strong></p><p>关键数字：$132 Billion · 相关方：Dell / Bloomberg / Closing Bell</p><p>Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Carol Massar and Tim Stenovec. (Source: Bloomberg)</p><p><strong>为什么值得看：</strong>$132 Billion 是积压订单金额，不是当期营收；摘要只是节目通用描述，没有给出订单口径与交付节奏。</p><p><strong>对我意味着什么：</strong>对数据基建的算力供给是上游指标：backlog 属未来交付，规格与状态要分列，不作为当期可用容量。</p><p><strong>下一步：</strong>核对财报是否给出 $132 Billion 的统计口径与截止日；若缺任一，则判定该数字仅为标题口径，不进容量表。</p><p>来源：Bloomberg Markets · 发布于 2026-11-24T21:21 UTC · 归类：market-invest</p><p>→ <a href=\"https://www.bloomberg.com/news/videos/2026-11-24/dell-raises-ai-server-outlook-closing-bell-video\" rel=\"noopener noreferrer\">https://www.bloomberg.com/news/videos/2026-11-24/dell-raises-ai-server-outlook-closing-bell-video</a></p>",
+      "date_published": "2026-11-24T21:21:25Z",
+      "date_modified": "2026-11-24T22:53:10.321591Z",
+      "tags": [
+        "market-invest",
+        "市场与投资"
+      ],
+      "_daily_info": {
+        "score": 75.69,
+        "source": "Bloomberg Markets",
+        "cluster_id": "ac9f934991bf2618",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-25:20465184da5d8abd",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-24/icahn-s-fortune-sinks-to-1-3b-as-debt-pressures-rise-video",
+      "title": "Icahn’s Fortune Sinks to $1.3b as Debt Pressures Rise",
+      "summary": "Bloomberg 报道 Carl Icahn 财富缩至约 $1.3b，Icahn Enterprises 警告 $1.4 billion 债券再融资无保证，CVR Energy 股价跌约 40%。 — $1.3b 是财富估算、$1.4 是债券规模、40% 是持股跌幅，三者口径不同；原文只陈述财务压力，未给结论。",
+      "content_html": "<p><strong>Bloomberg 报道 Carl Icahn 财富缩至约 $1.3b，Icahn Enterprises 警告 $1.4 billion 债券再融资无保证，CVR Energy 股价跌约 40%。</strong></p><p>关键数字：$1.3b / $1.4 / 40% · 相关方：Icahn Enterprises / CVR Energy / IEP</p><p>Carl Icahn’s fortune has dwindled to about $1.3 billion as mounting debt squeezes his business empire, leaving the longtime corporate raider and activist investor facing one of the toughest stretches of his career. When Icahn Enterprises reported third-quarter earnings this month, it warned there wa</p><p><strong>为什么值得看：</strong>$1.3b 是财富估算、$1.4 是债券规模、40% 是持股跌幅，三者口径不同；原文只陈述财务压力，未给结论。</p><p><strong>对我意味着什么：</strong>对数据基建只作事实层样本：公开财务数字进索引须带来源与状态列，机构观点与偿付推测另列，不构成投资判断。</p><p><strong>下一步：</strong>核对 2 份一手披露是否都给出 $1.4 billion 到期规模；若不一致或未标到期日，则判定该数字标 unverified 留线索池。</p><p>来源：Bloomberg Markets · 发布于 2026-11-24T22:29 UTC · 归类：market-invest</p><p>→ <a href=\"https://www.bloomberg.com/news/videos/2026-11-24/icahn-s-fortune-sinks-to-1-3b-as-debt-pressures-rise-video\" rel=\"noopener noreferrer\">https://www.bloomberg.com/news/videos/2026-11-24/icahn-s-fortune-sinks-to-1-3b-as-debt-pressures-rise-video</a></p>",
+      "date_published": "2026-11-24T22:29:33Z",
+      "date_modified": "2026-11-24T22:53:10.321591Z",
+      "tags": [
+        "market-invest",
+        "市场与投资"
+      ],
+      "_daily_info": {
+        "score": 78.14,
+        "source": "Bloomberg Markets",
+        "cluster_id": "20465184da5d8abd",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-25:5845ed4863b49265",
+      "url": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race",
+      "title": "Amazon’s Decart acquisition is a bet on using software to narrow the silicon gap with Nvidia",
+      "summary": "TechCrunch 报道 Amazon 以据报道 $7.5 billion 收购 Decart，意图用软件提升 Trainium 芯片效率、缩小与 Nvidia 差距。 — $7.5 billion 带 reported 前缀，是媒体口径而非已确认对价；缩小硅差距是分析判断，不是可测结果。",
+      "content_html": "<p><strong>TechCrunch 报道 Amazon 以据报道 $7.5 billion 收购 Decart，意图用软件提升 Trainium 芯片效率、缩小与 Nvidia 差距。</strong></p><p>关键数字：$7.5 billion · 相关方：Amazon / Decart / Trainium / Nvidia</p><p>Amazon’s decision to acquire Decart for a reported $7.5 billion is part of its efforts to improve the efficiency of its Trainium chips. 〔Folo分类:AI技术与应用〕</p><p><strong>为什么值得看：</strong>$7.5 billion 带 reported 前缀，是媒体口径而非已确认对价；缩小硅差距是分析判断，不是可测结果。</p><p><strong>对我意味着什么：</strong>对数据基建的算力供给是上游线索：收购意图与芯片效率收益要分列，金额标 unverified，不进落地清单。</p><p><strong>下一步：</strong>找 2 份一手公告核对 $7.5 billion；若一致家数少于 2，则判定该金额仅为媒体口径，留线索池。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-24T15:51 UTC · 归类：dev-tools</p><p>证据状态：未独立验证</p><p>→ <a href=\"https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race\" rel=\"noopener noreferrer\">https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race</a></p>",
+      "date_published": "2026-11-24T15:51:07.639000Z",
+      "date_modified": "2026-11-24T22:53:10.321591Z",
+      "tags": [
+        "dev-tools",
+        "产业与资本"
+      ],
+      "_daily_info": {
+        "score": 76.39,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "5845ed4863b49265",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-25:4d83f53e63e2d3da",
+      "url": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself",
+      "title": "Maple raises $5.3M to build AI products that protect your data, even from itself",
+      "summary": "TechCrunch 报道初创公司 Maple 融资 $5.3M，其加密 AI 架构旨在连公司自己都无法访问用户私有数据。 — $5.3M 是融资额，不是产品部署量；连自身也无法访问是架构宣称，原文没有给出审计或第三方验证。",
+      "content_html": "<p><strong>TechCrunch 报道初创公司 Maple 融资 $5.3M，其加密 AI 架构旨在连公司自己都无法访问用户私有数据。</strong></p><p>关键数字：$5.3M · 相关方：Maple / AI</p><p>The startup&#x27;s encrypted AI architecture is designed to prevent even the company itself from accessing users&#x27; private data. 〔Folo分类:美、中、港投融资市场〕</p><p><strong>为什么值得看：</strong>$5.3M 是融资额，不是产品部署量；连自身也无法访问是架构宣称，原文没有给出审计或第三方验证。</p><p><strong>对我意味着什么：</strong>对数据基建是线索：把服务端不可见写进索引时要标为厂商口径，等独立审计出现后再决定是否纳入选型。</p><p><strong>下一步：</strong>核对 2 份一手融资公告是否确认 $5.3M；若仅媒体单方报道，则判定金额标 unverified，架构宣称不进基线。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-24T21:19 UTC · 归类：industry-capital</p><p>→ <a href=\"https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself\" rel=\"noopener noreferrer\">https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself</a></p>",
+      "date_published": "2026-11-24T21:19:52.628000Z",
+      "date_modified": "2026-11-24T22:53:10.321591Z",
+      "tags": [
+        "industry-capital",
+        "产业与资本"
+      ],
+      "_daily_info": {
+        "score": 76.78,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "4d83f53e63e2d3da",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-25:c8dda13ed9e17d8e",
+      "url": "https://phys.org/news/2026-11-decades-citizen-science-reveal-widespread.html",
+      "title": "Four decades of citizen science reveal widespread declines in native plant distributions in Japan",
+      "summary": "phys.org 报道九州大学牵头的公民科学研究：调查的神奈川原生植物物种中，近 45% 分布出现下滑，样本共 1,864 种。 — 45% 必须绑定 1,864 这个分母才有意义；标题的四十年是观测跨度，不能与下滑比例混成一个结论。",
+      "content_html": "<p><strong>phys.org 报道九州大学牵头的公民科学研究：调查的神奈川原生植物物种中，近 45% 分布出现下滑，样本共 1,864 种。</strong></p><p>关键数字：45% / 1,864 · 相关方：Kyushu University / Kanagawa</p><p>A new study led by researchers at Kyushu University has found that nearly 45% of 1,864 native plant species surveyed across Kanagawa… 〔Folo分类:重大学术科研突破〕</p><p><strong>为什么值得看：</strong>45% 必须绑定 1,864 这个分母才有意义；标题的四十年是观测跨度，不能与下滑比例混成一个结论。</p><p><strong>对我意味着什么：</strong>暂无直接影响：属生态调查，与 automation / MCP / 数据基建无交集；仅作比例读数需带分母与窗口的字段样本。</p><p><strong>下一步：</strong>核对论文是否给出 1,864 的物种清单与 45% 判定阈值；若缺任一，则判定该比例不可复算，只留线索。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-24T17:00 UTC · 归类：dev-tools</p><p>→ <a href=\"https://phys.org/news/2026-11-decades-citizen-science-reveal-widespread.html\" rel=\"noopener noreferrer\">https://phys.org/news/2026-11-decades-citizen-science-reveal-widespread.html</a></p>",
+      "date_published": "2026-11-24T17:00:09.953000Z",
+      "date_modified": "2026-11-24T22:53:10.321591Z",
+      "tags": [
+        "dev-tools",
+        "论文与学术"
+      ],
+      "_daily_info": {
+        "score": 78.69,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "c8dda13ed9e17d8e",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-25:83b7d0d15eb92c92",
+      "url": "https://www.theverge.com/tech/1041474/firefox-161-vpn-rules-fire-button",
+      "title": "Now Firefox can select which sites use its VPN, and clear your browsing history with one click",
+      "summary": "The Verge 报道 Mozilla 发布 Firefox 161：可按站点自动开关 VPN，并新增一键清除浏览历史等数据的 Fire 按钮。 — 161 是可逐字锁定的版本号，站点规则与一键清除是两项行为变更；版本能进兼容性矩阵，功能描述不能。",
+      "content_html": "<p><strong>The Verge 报道 Mozilla 发布 Firefox 161：可按站点自动开关 VPN，并新增一键清除浏览历史等数据的 Fire 按钮。</strong></p><p>关键数字：161 · 相关方：Mozilla / Firefox 161 / VPN / Fire</p><p>Mozilla released Firefox 161, introducing settings to automatically enable or disable the browser&#x27;s VPN for specific sites. This feature eliminates the need to manually toggle the VPN on each visit. Additionally, Firefox 161 adds a &quot;Fire&quot; button to the toolbar, allowing users to clear browsing histo</p><p><strong>为什么值得看：</strong>161 是可逐字锁定的版本号，站点规则与一键清除是两项行为变更；版本能进兼容性矩阵，功能描述不能。</p><p><strong>对我意味着什么：</strong>对 WinVM 与自动化宿主是配置样本：按站点切换 VPN 属可编程策略，但升级前要核对 161 是否改动现有 profile 字段。</p><p><strong>下一步：</strong>在 2 台宿主各配 1 组站点规则并跑 1 次清除；若任一未生效或 profile 字段变更，则判定暂缓升级到 161。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-24T18:44 UTC · 归类：dev-tools</p><p>→ <a href=\"https://www.theverge.com/tech/1041474/firefox-161-vpn-rules-fire-button\" rel=\"noopener noreferrer\">https://www.theverge.com/tech/1041474/firefox-161-vpn-rules-fire-button</a></p>",
+      "date_published": "2026-11-24T18:44:57.541000Z",
+      "date_modified": "2026-11-24T22:53:10.321591Z",
+      "tags": [
+        "dev-tools",
+        "开发者工具与版本"
+      ],
+      "_daily_info": {
+        "score": 76.6,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "83b7d0d15eb92c92",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-25:84fb3fd4bc17b8ea",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam",
+      "title": "We’re launching Humanity’s First Exam and a Kaggle hackathon to test LLM reliability.",
+      "summary": "Google DeepMind 宣布推出 Humanity's First Exam 与 Kaggle hackathon，用 544 prompts 测试 LLM 可靠性。 — 544 是题量，不是可靠性得分；测试集规模可清点，但可靠性如何判定、阈值多少，摘要没有给出。",
+      "content_html": "<p><strong>Google DeepMind 宣布推出 Humanity&#x27;s First Exam 与 Kaggle hackathon，用 544 prompts 测试 LLM 可靠性。</strong></p><p>关键数字：544 · 相关方：Google / Kaggle / LLM</p><p>Google launches Humanity’s First Exam to test LLM reliability across 544 prompts.</p><p><strong>为什么值得看：</strong>544 是题量，不是可靠性得分；测试集规模可清点，但可靠性如何判定、阈值多少，摘要没有给出。</p><p><strong>对我意味着什么：</strong>对 agent 部署的评测是线索：可复现的题量能进对照表，但要先拿到评分口径，否则不能换算成部署门槛。</p><p><strong>下一步：</strong>对照官方题面核对 544 prompts 与评分规则；若题量不符或评分口径未披露，则判定仅作规模记录。</p><p>来源：Google DeepMind Blog · 发布于 2026-11-24T19:30 UTC · 归类：ai-models</p><p>→ <a href=\"https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam\" rel=\"noopener noreferrer\">https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam</a></p>",
+      "date_published": "2026-11-24T19:30:00Z",
+      "date_modified": "2026-11-24T22:53:10.321591Z",
+      "tags": [
+        "ai-models",
+        "模型与研究"
+      ],
+      "_daily_info": {
+        "score": 75.5,
+        "source": "Google DeepMind Blog",
+        "cluster_id": "84fb3fd4bc17b8ea",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-25:8f35fe33f1ce09cb",
+      "url": "https://dev.to/santoshkumarradha/which-coding-agent-solves-the-harder-deepswe-tasks-16g0",
+      "title": "Which coding agent solves the harder DeepSWE tasks?",
+      "summary": "dev.to 文章比较不同 coding agent 在 76 个较难 DeepSWE 任务上的表现，作者声明自己参与 codeaf 开发。 — 76 是任务集规模，作者与被测 harness 有利益关系；样本量可数，但结论独立性需要单独标注。",
+      "content_html": "<p><strong>dev.to 文章比较不同 coding agent 在 76 个较难 DeepSWE 任务上的表现，作者声明自己参与 codeaf 开发。</strong></p><p>关键数字：76 · 相关方：DeepSWE / codeaf / AgentField</p><p>I work on codeaf at AgentField, one of the harnesses compared here. This post first appeared on agentfield.ai. On the 76 DeepSWE tasks… 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>76 是任务集规模，作者与被测 harness 有利益关系；样本量可数，但结论独立性需要单独标注。</p><p><strong>对我意味着什么：</strong>对 agent 部署的选型最相关：benchmark 数字要连任务集版本与作者关系一起记，否则通过率不可比。</p><p><strong>下一步：</strong>同一 harness 跑 76 个任务 2 次并核对任务集版本；若通过率差 &gt; 10%，则判定结果不稳定，不进选型矩阵。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-24T18:12 UTC · 归类：agent-engineering</p><p>→ <a href=\"https://dev.to/santoshkumarradha/which-coding-agent-solves-the-harder-deepswe-tasks-16g0\" rel=\"noopener noreferrer\">https://dev.to/santoshkumarradha/which-coding-agent-solves-the-harder-deepswe-tasks-16g0</a></p>",
+      "date_published": "2026-11-24T18:12:45.932000Z",
+      "date_modified": "2026-11-24T22:53:10.321591Z",
+      "tags": [
+        "agent-engineering",
+        "Agent 与工程"
+      ],
+      "_daily_info": {
+        "score": 76.25,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "8f35fe33f1ce09cb",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-25:a7c2f9b16470aace",
+      "url": "https://dev.to/avivgerzhue/what-we-found-scanning-160-npm-mcp-and-agent-skill-packages-the-bug-classes-worth-gating-on-4d74",
+      "title": "What We Found Scanning 160 npm MCP and Agent Skill Packages: The Bug Classes Worth Gating On",
+      "summary": "dev.to 文章记录扫描 160 个已发布 npm 包（MCP server、agent skills 与插件）后归纳出值得设门禁的 bug 类别。 — 160 是扫描规模，结论落在哪几类 bug 值得 gating；规模数字本身不说明检出率，也不等于修复进度。",
+      "content_html": "<p><strong>dev.to 文章记录扫描 160 个已发布 npm 包（MCP server、agent skills 与插件）后归纳出值得设门禁的 bug 类别。</strong></p><p>关键数字：160 · 相关方：npm / MCP / Next.js / Supabase / Stripe</p><p>We pulled 160 published npm packages from the AI tooling ecosystem (MCP servers, agent skills and plugins, Next.js/Supabase/Stripe AI… 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>160 是扫描规模，结论落在哪几类 bug 值得 gating；规模数字本身不说明检出率，也不等于修复进度。</p><p><strong>对我意味着什么：</strong>对 skill 与 agent 部署是门禁依据：namespace skills 大量来自 npm 生态，应把可复现的 bug 类写成安装前扫描规则。</p><p><strong>下一步：</strong>在自有 skill 基线复扫 160 个同类包；若同类 bug 命中 ≥ 2 类，则判定安装前必须加 gating 扫描，不直接引入。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-24T18:14 UTC · 归类：agent-engineering</p><p>→ <a href=\"https://dev.to/avivgerzhue/what-we-found-scanning-160-npm-mcp-and-agent-skill-packages-the-bug-classes-worth-gating-on-4d74\" rel=\"noopener noreferrer\">https://dev.to/avivgerzhue/what-we-found-scanning-160-npm-mcp-and-agent-skill-packages-the-bug-classes-worth-gating-on-4d74</a></p>",
+      "date_published": "2026-11-24T18:14:58.872000Z",
+      "date_modified": "2026-11-24T22:53:10.321591Z",
+      "tags": [
+        "agent-engineering",
+        "Agent 与工程"
+      ],
+      "_daily_info": {
+        "score": 79.27,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "a7c2f9b16470aace",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-25:36e9e8a53c31d6d6",
+      "url": "https://dev.to/suncly/ai-agents-trust-your-mcp-servers-tool-list-blindly-we-read-100-of-them-45j5",
+      "title": "AI agents trust your MCP server's tool list blindly. We read 100 of them",
+      "summary": "dev.to 文章称 AI agent 会盲目信任 MCP server 返回的工具列表，作者逐个读了 100 份工具清单。 — 100 是可清点的样本量，但文章核心是工具描述可写成与真实行为不符；样本多不等于每个 server 都验过调用结果。",
+      "content_html": "<p><strong>dev.to 文章称 AI agent 会盲目信任 MCP server 返回的工具列表，作者逐个读了 100 份工具清单。</strong></p><p>关键数字：100 · 相关方：MCP / get_orders</p><p>Imagine you shipped an MCP server last month. One of your tools is called get_orders. Its description says: &quot;Returns the customer&#x27;s recent… 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>100 是可清点的样本量，但文章核心是工具描述可写成与真实行为不符；样本多不等于每个 server 都验过调用结果。</p><p><strong>对我意味着什么：</strong>对 MCP 与 agent 部署最直接：工具描述属于不可信输入，接入前应把描述与实际返回做一次对照，不能把清单当契约。</p><p><strong>下一步：</strong>抽取 100 份工具清单中的 10 份做调用复现；若描述与实际返回不一致 ≥ 2 份，则判定需加描述校验层再接入。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-24T18:19 UTC · 归类：agent-engineering</p><p>→ <a href=\"https://dev.to/suncly/ai-agents-trust-your-mcp-servers-tool-list-blindly-we-read-100-of-them-45j5\" rel=\"noopener noreferrer\">https://dev.to/suncly/ai-agents-trust-your-mcp-servers-tool-list-blindly-we-read-100-of-them-45j5</a></p>",
+      "date_published": "2026-11-24T18:19:15.191000Z",
+      "date_modified": "2026-11-24T22:53:10.321591Z",
+      "tags": [
+        "agent-engineering",
+        "Agent 与工程"
+      ],
+      "_daily_info": {
+        "score": 79.32,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "36e9e8a53c31d6d6",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-25:6014a04f08fa1462",
+      "url": "https://news.ycombinator.com/item?id=50634426",
+      "title": "Launch HN: Versine (YC F26) – MCP to send and receive money",
+      "summary": "Launch HN 发布 Versine：一个坐在钱包前面的 MCP，让 AI 代用户收发款项，单次最多面向 100 人。 — 100 人与 2 分钟是产品自述的能力上限与到账时间，不是可用性证明；passkey 审批设计才是权限边界所在。",
+      "content_html": "<p><strong>Launch HN 发布 Versine：一个坐在钱包前面的 MCP，让 AI 代用户收发款项，单次最多面向 100 人。</strong></p><p>关键数字：100 / 2 mins · 相关方：Versine / MCP / Stripe / Databricks / Amazon</p><p>Hey HN, we’re Harshith, Param, and Vishnu and we&#x27;re building Versine (https://versine.com). Versine lets you send and request money just by talking or texting with your AI (think Venmo with an MCP). We’re software engineers who have worked on distributed systems at Stripe, Databricks, and Amazon.Ver</p><p><strong>为什么值得看：</strong>100 人与 2 分钟是产品自述的能力上限与到账时间，不是可用性证明；passkey 审批设计才是权限边界所在。</p><p><strong>对我意味着什么：</strong>与 MCP 关注面直接相关：把资金动作交给 agent 必须先有显式审批与额度上限，WinVM 侧自动化基线不应纳入任何无人工确认的支付调用。</p><p><strong>下一步：</strong>对照官方说明复现 2 次「单次 100 人」与「2 分钟到账」；若任一次未达或缺少 passkey 审批步骤，则判定该 MCP 不进自动化基线。</p><p>来源：HN Algolia front_page (points/comments) · 发布于 2026-11-24T20:44 UTC · 归类：community</p><p>→ <a href=\"https://news.ycombinator.com/item?id=50634426\" rel=\"noopener noreferrer\">https://news.ycombinator.com/item?id=50634426</a></p>",
+      "date_published": "2026-11-24T20:44:15Z",
+      "date_modified": "2026-11-24T22:53:10.321591Z",
+      "tags": [
+        "community",
+        "Agent 与工程"
+      ],
+      "_daily_info": {
+        "score": 79.91,
+        "source": "HN Algolia front_page (points/comments)",
+        "cluster_id": "6014a04f08fa1462",
+        "ai_status": "ok"
+      }
+    },
+    {
       "id": "tag:daily-info.local,2026-11-24:37e360be5390856b",
       "url": "https://phys.org/news/2026-11-south-africa-small-cattle-farmers.html",
       "title": "South Africa's small cattle farmers need help before super El Niño hits: How to set up shade, water and feed",
@@ -1656,253 +1903,6 @@
         "score": 73.9,
         "source": "LangChain Releases",
         "cluster_id": "2cff81e9a05646a1",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-16:505dd0d701f36e99",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-mistralai%3D%3D1.2.0",
-      "title": "langchain-mistralai==1.2.0",
-      "summary": "LangChain 发布 langchain-mistralai 1.2.0，相对 1.1.6 修复推理模型流式行为，并把 ChatMistralAI 改走 LangSmith gateway。 — 把 partner 模型统一路由到自家 gateway，是工具链收口而非功能新增，升级时需留意调用链被改写。",
-      "content_html": "<p><strong>LangChain 发布 langchain-mistralai 1.2.0，相对 1.1.6 修复推理模型流式行为，并把 ChatMistralAI 改走 LangSmith gateway。</strong></p><p>关键数字：1.2.0 / 1.1.6 · 相关方：langchain-mistralai / LangSmith / ChatMistralAI</p><p>Changes since langchain-mistralai==1.1.6 fix(mistralai): fix streaming behavior for reasoning models (#41887) fix(groq,mistralai,xai): bump deps (#41884) chore(model-profiles): refresh model profile data (#41861) release(mistralai): 1.2.0 (#41859) feat(mistralai): route ChatMistralAI through LangSmi</p><p><strong>为什么值得看：</strong>把 partner 模型统一路由到自家 gateway，是工具链收口而非功能新增，升级时需留意调用链被改写。</p><p><strong>对我意味着什么：</strong>我们的 MCP/A2A 链路里若有走 LangChain 的适配层，1.2.0 的 gateway 变更会影响可观测与代理配置，升级前应做回归。</p><p><strong>下一步：</strong>在测试环境把依赖升到 1.2.0 跑一遍流式推理 smoke，若出现调用链中断或流式分片异常，则判定不兼容并锁定 1.1.6。</p><p>来源：LangChain Releases · 发布于 2026-11-15T22:38 UTC · 归类：ai-models</p><p>→ <a href=\"https://github.com/langchain-ai/langchain/releases/tag/langchain-mistralai%3D%3D1.2.0\" rel=\"noopener noreferrer\">https://github.com/langchain-ai/langchain/releases/tag/langchain-mistralai%3D%3D1.2.0</a></p>",
-      "date_published": "2026-11-15T22:38:06Z",
-      "date_modified": "2026-11-16T02:01:41.758063Z",
-      "tags": [
-        "ai-models",
-        "模型与研究"
-      ],
-      "_daily_info": {
-        "score": 74.45,
-        "source": "LangChain Releases",
-        "cluster_id": "505dd0d701f36e99",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-16:3c784896e5d8dae1",
-      "url": "https://arex-research.com/feeds/a655c45f-f32c-4e74-8be0-e69ed2489277",
-      "title": "美团开源 LongCat-2.5 权重：1.6 万亿参数 MoE Agent 模型，自托管指南未提供 Nvidia GPU 路径",
-      "summary": "美团 LongCat 团队开源 LongCat-2.5 权重，采用 MIT 许可证，总参数 1.6 万亿的 MoE 模型每 token 约激活 480 亿参数，定位长程多步 agent 任务。 — 万亿级总参数与 480 亿激活量的稀疏结构把推理门槛压低，但报道明确指出自托管指南未给 Nvidia GPU 路径，开放权重不等于可落地。",
-      "content_html": "<p><strong>美团 LongCat 团队开源 LongCat-2.5 权重，采用 MIT 许可证，总参数 1.6 万亿的 MoE 模型每 token 约激活 480 亿参数，定位长程多步 agent 任务。</strong></p><p>关键数字：2.5 / 1.6 万亿 / 480 亿 · 相关方：美团 / LongCat-2.5 / MoE / MIT / Nvidia</p><p>资讯｜据 The Decoder 2026 年 11 月 15 日的详细报道，美团 LongCat 团队已发布 LongCat-2.5 的开源权重，采用 MIT 许可证，允许商用、修改与再分发。这是一个总参数 1.6 万亿的 MoE（混合专家）模型，每个 token（词元）约激活 480 亿参数，原生处理多模态输入，定位是执行长程多步任务的自主 agent（智能体…</p><p><strong>为什么值得看：</strong>万亿级总参数与 480 亿激活量的稀疏结构把推理门槛压低，但报道明确指出自托管指南未给 Nvidia GPU 路径，开放权重不等于可落地。</p><p><strong>对我意味着什么：</strong>影响本地模型选型与 WinVM 侧自托管评估：在拿到可复现的 GPU 部署步骤前，不把该权重列入可用 provider，只作架构参考。</p><p><strong>下一步：</strong>查找官方自托管文档，若仍无 Nvidia GPU 路径或最小显存配置，则判定为权重开放、部署路径未开放，暂缓纳入自托管测试队列。</p><p>来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-15T18:56 UTC · 归类：ai-models</p><p>→ <a href=\"https://arex-research.com/feeds/a655c45f-f32c-4e74-8be0-e69ed2489277\" rel=\"noopener noreferrer\">https://arex-research.com/feeds/a655c45f-f32c-4e74-8be0-e69ed2489277</a></p>",
-      "date_published": "2026-11-15T18:56:00Z",
-      "date_modified": "2026-11-16T02:01:41.758063Z",
-      "tags": [
-        "ai-models",
-        "模型与研究"
-      ],
-      "_daily_info": {
-        "score": 74.81,
-        "source": "智源社区 · 最新分享（匿名 API）",
-        "cluster_id": "3c784896e5d8dae1",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-16:bbd5c593a5dbb4b3",
-      "url": "https://dev.to/10xgraph/10xgraph-10-the-backend-your-ai-agent-needs-before-it-ships-to-customers-1loa",
-      "title": "10xGraph 1.0: the backend your AI agent needs before it ships to customers",
-      "summary": "10xGraph 发布 1.0，定位为 AI agent 交付客户前所需的后端层，主张 demo 与可上线系统之间差的是后端能力而非模型。 — 把 agent 落地缺口从模型能不能跑重新定义成持久化、权限与可观测后端，是工程侧的清醒判断。",
-      "content_html": "<p><strong>10xGraph 发布 1.0，定位为 AI agent 交付客户前所需的后端层，主张 demo 与可上线系统之间差的是后端能力而非模型。</strong></p><p>关键数字：1.0 · 相关方：10xGraph / AI agent</p><p>Getting an AI agent to work is the easy part now. A model, a few tools and a loop, and you have a demo in an afternoon. Then someone asks… 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>把 agent 落地缺口从模型能不能跑重新定义成持久化、权限与可观测后端，是工程侧的清醒判断。</p><p><strong>对我意味着什么：</strong>对应我们 agent 部署与数据基建的分层：可对照其后端清单检查 WinVM/A2A 链路里是否缺持久化与审计两类能力。</p><p><strong>下一步：</strong>列出其宣称的后端能力清单并与本地 agent 栈逐项对照，若缺失项 ≥2 个且影响审计或回滚，则先把缺口补进部署清单再评估接入。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-15T20:13 UTC · 归类：agent-engineering</p><p>→ <a href=\"https://dev.to/10xgraph/10xgraph-10-the-backend-your-ai-agent-needs-before-it-ships-to-customers-1loa\" rel=\"noopener noreferrer\">https://dev.to/10xgraph/10xgraph-10-the-backend-your-ai-agent-needs-before-it-ships-to-customers-1loa</a></p>",
-      "date_published": "2026-11-15T20:13:30.740000Z",
-      "date_modified": "2026-11-16T02:01:41.758063Z",
-      "tags": [
-        "agent-engineering",
-        "Agent 与工程"
-      ],
-      "_daily_info": {
-        "score": 75.59,
-        "source": "Folo 订阅池基线（人工筛选信源）",
-        "cluster_id": "bbd5c593a5dbb4b3",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-16:9555a9e6eb0016f5",
-      "url": "https://arex-research.com/feeds/a4499309-898b-478d-a4ab-a7db99057011",
-      "title": "Anthropic 公开 Claude Code 团队 AI 代码评审流程：人工审批按风险分级，自报合并 PR 翻倍以上、回退占比降超 40%",
-      "summary": "Anthropic 公开 Claude Code 团队的 AI 代码评审流程，按风险分级做人工审批，自报合并 PR 翻倍以上、回退占比降超 40%。 — 把 AI 写代码的瓶颈定位在人工审批分层而非生成能力，是流程工程而非模型能力提升带来的收益。",
-      "content_html": "<p><strong>Anthropic 公开 Claude Code 团队的 AI 代码评审流程，按风险分级做人工审批，自报合并 PR 翻倍以上、回退占比降超 40%。</strong></p><p>关键数字：40% · 相关方：Anthropic / Claude Code / InfoQ</p><p>资讯｜据 InfoQ 11 月 15 日报道，Anthropic 在其 claude.dev 博客发表题为《How the Claude Code team does code review》的文章，署名为 Addy Osmani、Morgan Westlee Lunt 与 Qing Wang，公开了团队在“Claude 编写了 Claude Code 自身约 9…</p><p><strong>为什么值得看：</strong>把 AI 写代码的瓶颈定位在人工审批分层而非生成能力，是流程工程而非模型能力提升带来的收益。</p><p><strong>对我意味着什么：</strong>可迁移到我们的自动化流水线：按风险分级决定哪些改动自动合并、哪些必须人工复核，比一刀切 gate 更能兼顾吞吐与可回滚性。</p><p><strong>下一步：</strong>先统计自身仓库回退占比基线，若引入风险分级后 2 个迭代内降幅未达 40%，则判定分级规则过松，收紧高风险变更的人工审批条件。</p><p>来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-15T18:56 UTC · 归类：market-invest</p><p>→ <a href=\"https://arex-research.com/feeds/a4499309-898b-478d-a4ab-a7db99057011\" rel=\"noopener noreferrer\">https://arex-research.com/feeds/a4499309-898b-478d-a4ab-a7db99057011</a></p>",
-      "date_published": "2026-11-15T18:56:00Z",
-      "date_modified": "2026-11-16T02:01:41.758063Z",
-      "tags": [
-        "market-invest",
-        "Agent 与工程"
-      ],
-      "_daily_info": {
-        "score": 73.21,
-        "source": "智源社区 · 最新分享（匿名 API）",
-        "cluster_id": "9555a9e6eb0016f5",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-16:16b2dbffe2c452b4",
-      "url": "https://dev.to/githubopensource/claude-fable-52-code-execution-updates-and-local-agent-workflows-10o3",
-      "title": "Claude Fable 5.2, Code Execution Updates, and Local Agent Workflows",
-      "summary": "一篇 dev.to 帖称 Anthropic 发布 Claude Fable 5.2，同时给出 API 降价 20 percent 与提速 30 percent 的说法，并附带本地 agent 工作流更新。 — 降价与提速同时出现，反映推理成本的竞争焦点，但单一社区源、产品命名与官方命名不一致，读数需一手 changelog 复核。",
-      "content_html": "<p><strong>一篇 dev.to 帖称 Anthropic 发布 Claude Fable 5.2，同时给出 API 降价 20 percent 与提速 30 percent 的说法，并附带本地 agent 工作流更新。</strong></p><p>关键数字：5.2 / 20 / 30 · 相关方：Anthropic / Claude Fable 5.2 / API</p><p>TL;DR Anthropic released Claude Fable 5.2 alongside a 20 percent API price cut and a 30 percent speed boost, while introducing an… 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>降价与提速同时出现，反映推理成本的竞争焦点，但单一社区源、产品命名与官方命名不一致，读数需一手 changelog 复核。</p><p><strong>对我意味着什么：</strong>若属实会影响模型调用成本估算与 WinVM 侧 provider 选型；在官方确认前不写进成本基线，避免把 unverified 读数当预算输入。</p><p><strong>下一步：</strong>对照 Anthropic 官方 changelog 核验 5.2 与 20 percent/30 percent；若 48 小时内无官方条目，则判定为未证实社区传闻并从成本模型剔除。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-15T19:53 UTC · 归类：agent-engineering</p><p>证据状态：未独立验证</p><p>→ <a href=\"https://dev.to/githubopensource/claude-fable-52-code-execution-updates-and-local-agent-workflows-10o3\" rel=\"noopener noreferrer\">https://dev.to/githubopensource/claude-fable-52-code-execution-updates-and-local-agent-workflows-10o3</a></p>",
-      "date_published": "2026-11-15T19:53:52.316000Z",
-      "date_modified": "2026-11-16T02:01:41.758063Z",
-      "tags": [
-        "agent-engineering",
-        "Agent 与工程"
-      ],
-      "_daily_info": {
-        "score": 75.39,
-        "source": "Folo 订阅池基线（人工筛选信源）",
-        "cluster_id": "16b2dbffe2c452b4",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-16:3781448153b0315f",
-      "url": "https://github.com/NVIDIA/SkillEvaluator",
-      "title": "NVIDIA/SkillEvaluator",
-      "summary": "NVIDIA 开源基于 Python 的 SkillEvaluator 框架，用质量闸门与语义重叠检测评估 agent skill，仓库已积累 1,308 星、154 次 fork。 — 评测从看效果转向可量化闸门，说明 skill 的准入正被当成工程依赖对待，而不是提示词草稿。",
-      "content_html": "<p><strong>NVIDIA 开源基于 Python 的 SkillEvaluator 框架，用质量闸门与语义重叠检测评估 agent skill，仓库已积累 1,308 星、154 次 fork。</strong></p><p>关键数字：1,308 / 154 · 相关方：SkillEvaluator / NVIDIA / Python / GitHub</p><p>The SkillEvaluator project is a Python-based framework for assessing AI agent capabilities. It features a multi-tier evaluation structure incorporating quality gates and semantic overlap detection to analyze agent skills. The tool generates synthetic datasets and performs live agent evaluations to m</p><p><strong>为什么值得看：</strong>评测从看效果转向可量化闸门，说明 skill 的准入正被当成工程依赖对待，而不是提示词草稿。</p><p><strong>对我意味着什么：</strong>与我们的 agent 部署评测链直接相关：其语义重叠检测可迁移为 skill 去重与冲突检测的一道 gate，减少自动化链路里的隐性覆盖。</p><p><strong>下一步：</strong>在本地 skill 集上跑一次评测，若语义重叠检出数 &gt;0 且人工确认存在真冲突，则把该检测加进部署前 gate；0 检出则暂不接入以免徒增开销。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-15T13:21 UTC · 归类：agent-engineering</p><p>→ <a href=\"https://github.com/NVIDIA/SkillEvaluator\" rel=\"noopener noreferrer\">https://github.com/NVIDIA/SkillEvaluator</a></p>",
-      "date_published": "2026-11-15T13:21:08.007000Z",
-      "date_modified": "2026-11-16T02:01:41.758063Z",
-      "tags": [
-        "agent-engineering",
-        "Agent 与工程"
-      ],
-      "_daily_info": {
-        "score": 78.05,
-        "source": "Folo 订阅池基线（人工筛选信源）",
-        "cluster_id": "3781448153b0315f",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-16:c6524b3bb676a860",
-      "url": "https://github.com/elementalsouls/Claude-BugHunter",
-      "title": "elementalsouls/Claude-BugHunter",
-      "summary": "elementalsouls 把 82 个专用 skill、15 条 slash command 与 681 条已披露报告模式打包成 Claude-BugHunter 开源 Python skill 集。 — 把红队经验固化成可复用 skill 包，规模数字首次让 skill 资产可被清点，也给 skill 供应链的审计面立了参照。",
-      "content_html": "<p><strong>elementalsouls 把 82 个专用 skill、15 条 slash command 与 681 条已披露报告模式打包成 Claude-BugHunter 开源 Python skill 集。</strong></p><p>关键数字：82 / 15 / 681 / 24 / 5,895 · 相关方：Claude-BugHunter / Python</p><p>Claude-BugHunter is an open-source Python skill bundle designed for bug hunting and external red-team operations. The collection comprises 82 specialized skills, 15 slash commands, and 681 disclosed-report patterns covering 24 core vulnerability classes. It also includes enterprise identity and infr</p><p><strong>为什么值得看：</strong>把红队经验固化成可复用 skill 包，规模数字首次让 skill 资产可被清点，也给 skill 供应链的审计面立了参照。</p><p><strong>对我意味着什么：</strong>直接对应我们的 skill 版本化与部署治理：82 个 skill 与 681 条模式的组织方式，可作为 WorkBuddy/MCP skill 包分层与准入清单的对照样本。</p><p><strong>下一步：</strong>拉取仓库逐一核对 skill 目录数与 82 是否一致；若偏差超过 10% 或缺版本锁定文件，则判定不可直接接入，先补 manifest 再评估。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-15T13:21 UTC · 归类：agent-engineering</p><p>→ <a href=\"https://github.com/elementalsouls/Claude-BugHunter\" rel=\"noopener noreferrer\">https://github.com/elementalsouls/Claude-BugHunter</a></p>",
-      "date_published": "2026-11-15T13:21:08.010000Z",
-      "date_modified": "2026-11-16T02:01:41.758063Z",
-      "tags": [
-        "agent-engineering",
-        "Agent 与工程"
-      ],
-      "_daily_info": {
-        "score": 79.65,
-        "source": "Folo 订阅池基线（人工筛选信源）",
-        "cluster_id": "c6524b3bb676a860",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-15:6626aeba79c7bc1a",
-      "url": "https://www.slashgear.com/2314503/most-affordable-solar-powered-gadgets-use-at-home-yard",
-      "title": "11 Of The Most Affordable Solar-Powered Gadgets You Can Use In Your Yard",
-      "summary": "一篇庭院太阳能设备清单列出 11 款平价小工具，覆盖照明、喷泉、安防摄像头与灭虫灯 — 清单类内容靠「11 款」这种可核验计数撑起信息量，也暴露订阅池里大量条目只有数量、没有规格与价格",
-      "content_html": "<p><strong>一篇庭院太阳能设备清单列出 11 款平价小工具，覆盖照明、喷泉、安防摄像头与灭虫灯</strong></p><p>关键数字：11 · 相关方：Solar-Powered Gadgets / solar-powered lights / security cameras</p><p>From solar-powered lights and fountains to security cameras and bug zappers, these affordable gadgets can make your yard smarter and more… 〔Folo分类:新奇产品〕</p><p><strong>为什么值得看：</strong>清单类内容靠「11 款」这种可核验计数撑起信息量，也暴露订阅池里大量条目只有数量、没有规格与价格</p><p><strong>对我意味着什么：</strong>对数据基建的意义在于给「实质数字」划线：计数型数字可入报，但摘要为空或只有分类标签的条目应进补摘要待办</p><p><strong>下一步：</strong>抽 3 条同批清单文核对标题计数与正文条目数，若不一致则把该类信源降权并记入 no-number 诊断</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-14T21:30 UTC · 归类：community</p><p>→ <a href=\"https://www.slashgear.com/2314503/most-affordable-solar-powered-gadgets-use-at-home-yard\" rel=\"noopener noreferrer\">https://www.slashgear.com/2314503/most-affordable-solar-powered-gadgets-use-at-home-yard</a></p>",
-      "date_published": "2026-11-14T21:30:00.439000Z",
-      "date_modified": "2026-11-14T22:53:41.482428Z",
-      "tags": [
-        "community",
-        "社区与观点"
-      ],
-      "_daily_info": {
-        "score": 75.33,
-        "source": "Folo 订阅池基线（人工筛选信源）",
-        "cluster_id": "6626aeba79c7bc1a",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-15:7e59a67d8036bc32",
-      "url": "https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch",
-      "title": "Watch SpaceX successfully execute the first ‘chopstick’ catch of Starship",
-      "summary": "SpaceX 在放弃 Flight 15 助推器回收后，用 Mechazilla 发射塔完成对 Starship 的首次「筷子」捕获 — 助推器捕获中止与上面级捕获成功同属一次任务，单看任一标题都会得出片面结论",
-      "content_html": "<p><strong>SpaceX 在放弃 Flight 15 助推器回收后，用 Mechazilla 发射塔完成对 Starship 的首次「筷子」捕获</strong></p><p>关键数字：15 · 相关方：SpaceX / Starship / Mechazilla</p><p>After aborting a planned catch of Starship Flight 15&#x27;s booster, SpaceX successfully captured Starship with its &quot;Mechazilla&quot; launch… 〔Folo分类:Recommended〕</p><p><strong>为什么值得看：</strong>助推器捕获中止与上面级捕获成功同属一次任务，单看任一标题都会得出片面结论</p><p><strong>对我意味着什么：</strong>对数据基建的启发是同一事件要保留多源条目而非合并成一条结论，去重簇里应能回溯到各自原文</p><p><strong>下一步：</strong>在同一去重簇内比对两条 SpaceX 条目的 title 与 summary，若动作主体或捕获对象不一致则保留双条并标 multi-source</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-14T21:44 UTC · 归类：community</p><p>→ <a href=\"https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch\" rel=\"noopener noreferrer\">https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch</a></p>",
-      "date_published": "2026-11-14T21:44:44.783000Z",
-      "date_modified": "2026-11-14T22:53:41.482428Z",
-      "tags": [
-        "community",
-        "社区与观点"
-      ],
-      "_daily_info": {
-        "score": 75.51,
-        "source": "Folo 订阅池基线（人工筛选信源）",
-        "cluster_id": "7e59a67d8036bc32",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-15:bc4bfd8f951086cc",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMjQyNzQ5MA%3D%3D&mid=2247738293&idx=4&sn=17fd70752888ccf2dc1b0a5d18dc9d44&chksm=e984a0a0e1dfc1ad0a4119e4acc62cf083dcfbff73581514aee18c84367e324015cb46ceb712&scene=0&xtrack=1",
-      "title": "标准经济学的局限性｜《理解混沌》读书会第 3 期",
-      "summary": "集智俱乐部《理解混沌》新书共读第 3 期讨论标准经济学的局限，活动自 10 月 31 日起每周六线上举行约 10 周 — 把「标准经济学的界定是否多余」作为共读主题，呼应了数据驱动研究里模型边界先于模型性能的问题",
-      "content_html": "<p><strong>集智俱乐部《理解混沌》新书共读第 3 期讨论标准经济学的局限，活动自 10 月 31 日起每周六线上举行约 10 周</strong></p><p>关键数字：3 / 10 · 相关方：集智俱乐部 / 《理解混沌》 / 北师大 / 澳科大</p><p>金融、神经与进化计算、博弈论｜在数据驱动研究时代，标准经济学的界定日益显得多余，本次讨论聚焦其发展脉络与内在局限。《理解混沌》由集智俱乐部组织翻译，新书共读活动由三位译者——北师大博士生陶如意、澳科大博士生孙璐及北师大硕士生方逸雯联合发起。活动将于2026年10月31日起每周六19:30–21:30线上举行，持续约10周，形式包括主讲分享与互动讨论。</p><p><strong>为什么值得看：</strong>把「标准经济学的界定是否多余」作为共读主题，呼应了数据驱动研究里模型边界先于模型性能的问题</p><p><strong>对我意味着什么：</strong>对 skill 与 automation 的方法论有间接影响：规则层与研判层的职责边界应先定义清楚，再谈打分调优</p><p><strong>下一步：</strong>对照活动页核对「约 10 周」与每周六时段是否一致，若两处时段冲突则只保留可核验的期数 3</p><p>来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-14T15:40 UTC · 归类：research-papers</p><p>→ <a href=\"https://mp.weixin.qq.com/s?__biz=MzIzMjQyNzQ5MA%3D%3D&amp;mid=2247738293&amp;idx=4&amp;sn=17fd70752888ccf2dc1b0a5d18dc9d44&amp;chksm=e984a0a0e1dfc1ad0a4119e4acc62cf083dcfbff73581514aee18c84367e324015cb46ceb712&amp;scene=0&amp;xtrack=1\" rel=\"noopener noreferrer\">https://mp.weixin.qq.com/s?__biz=MzIzMjQyNzQ5MA%3D%3D&amp;mid=2247738293&amp;idx=4&amp;sn=17fd70752888ccf2dc1b0a5d18dc9d44&amp;chksm=e984a0a0e1dfc1ad0a4119e4acc62cf083dcfbff73581514aee18c84367e324015cb46ceb712&amp;scene=0&amp;xtrack=1</a></p>",
-      "date_published": "2026-11-14T15:40:00Z",
-      "date_modified": "2026-11-14T22:53:41.482428Z",
-      "tags": [
-        "research-papers",
-        "论文与学术"
-      ],
-      "_daily_info": {
-        "score": 74.7,
-        "source": "智源社区 · 最新分享（匿名 API）",
-        "cluster_id": "bc4bfd8f951086cc",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-15:99892725955d150f",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-14/juicy-6-yields-gain-appeal-after-nvidia-drama-credit-weekly",
-      "title": "Juicy 6% Yields Gain Appeal After Nvidia Drama: Credit Weekly",
-      "summary": "一篇信用市场周报指出，Nvidia 相关波动后 6% 收益率的美国公司债更受资金青睐 — 股债之间的避险迁移给出的是公开市场读数而非配置结论，把它写成方向判断就越过了数据边界",
-      "content_html": "<p><strong>一篇信用市场周报指出，Nvidia 相关波动后 6% 收益率的美国公司债更受资金青睐</strong></p><p>关键数字：6% · 相关方：Nvidia / US corporate bonds</p><p>US corporate bonds have been rallying in recent weeks, drawing the attention of money managers seeking shelter from turbulence in stocks.</p><p><strong>为什么值得看：</strong>股债之间的避险迁移给出的是公开市场读数而非配置结论，把它写成方向判断就越过了数据边界</p><p><strong>对我意味着什么：</strong>对 automation 报表有直接影响：市场板块只陈述公开数据与风险提示，模板应硬编码禁止仓位与买卖表述</p><p><strong>下一步：</strong>检查本期市场板块是否出现买入、仓位或目标价字样，若命中 1 处即判定越界并回退该段</p><p>来源：Bloomberg Markets · 发布于 2026-11-14T20:00 UTC · 归类：market-invest</p><p>→ <a href=\"https://www.bloomberg.com/news/articles/2026-11-14/juicy-6-yields-gain-appeal-after-nvidia-drama-credit-weekly\" rel=\"noopener noreferrer\">https://www.bloomberg.com/news/articles/2026-11-14/juicy-6-yields-gain-appeal-after-nvidia-drama-credit-weekly</a></p>",
-      "date_published": "2026-11-14T20:00:00Z",
-      "date_modified": "2026-11-14T22:53:41.482428Z",
-      "tags": [
-        "market-invest",
-        "市场与投资"
-      ],
-      "_daily_info": {
-        "score": 74.75,
-        "source": "Bloomberg Markets",
-        "cluster_id": "99892725955d150f",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-15:d39f1081244a9510",
-      "url": "https://github.com/martin-olivier/airgorah",
-      "title": "martin-olivier/airgorah",
-      "summary": "开源 WiFi 安全审计工具 Airgorah 用 Rust 实现无线漏洞识别与渗透测试，GitHub 上约 5,473 stars、919 forks — 安全工具的星数常被当作可信度代理，但审计类工具的真实门槛在规则覆盖与误报率，星数无法替代",
-      "content_html": "<p><strong>开源 WiFi 安全审计工具 Airgorah 用 Rust 实现无线漏洞识别与渗透测试，GitHub 上约 5,473 stars、919 forks</strong></p><p>关键数字：5,473 / 919 · 相关方：Airgorah / Rust / GitHub / WiFi</p><p>Airgorah is an open-source WiFi security auditing tool written in Rust. It is designed to identify vulnerabilities in wireless networks and perform penetration testing. The project is hosted on GitHub, where it has garnered approximately 5,473 stars and 919 forks, indicating significant community ad</p><p><strong>为什么值得看：</strong>安全工具的星数常被当作可信度代理，但审计类工具的真实门槛在规则覆盖与误报率，星数无法替代</p><p><strong>对我意味着什么：</strong>对 WinVM Bridge 的系统与网络管理面有可参考性：若引入无线审计能力，应把误报率与权限范围列为验收项</p><p><strong>下一步：</strong>在隔离网络跑一次扫描并统计误报数，若误报数超过真阳性数的 2 倍则判定不适用于自动化巡检</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-14T13:04 UTC · 归类：security-governance</p><p>→ <a href=\"https://github.com/martin-olivier/airgorah\" rel=\"noopener noreferrer\">https://github.com/martin-olivier/airgorah</a></p>",
-      "date_published": "2026-11-14T13:04:48.043000Z",
-      "date_modified": "2026-11-14T22:53:41.482428Z",
-      "tags": [
-        "security-governance",
-        "安全与治理"
-      ],
-      "_daily_info": {
-        "score": 73.26,
-        "source": "Folo 订阅池基线（人工筛选信源）",
-        "cluster_id": "d39f1081244a9510",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-15:94d5fd03df4fff4e",
-      "url": "https://dev.to/devkursat/15t-valuation-zero-gitignore-how-claude-code-leaked-2539-live-secrets-to-github-4ndb",
-      "title": "$1.5T Valuation, Zero .gitignore: How Claude Code Leaked 2,539 Live Secrets to GitHub",
-      "summary": "报道称 Anthropic 筹备 1.5T 估值 IPO 之际，Claude Code 把 2,539 个有效开发者密钥推上了 GitHub — 估值叙事与最基础的 .gitignore 缺失同框，说明 coding agent 的默认写入路径缺少凭据边界检查",
-      "content_html": "<p><strong>报道称 Anthropic 筹备 1.5T 估值 IPO 之际，Claude Code 把 2,539 个有效开发者密钥推上了 GitHub</strong></p><p>关键数字：1.5 / 2,539 · 相关方：Anthropic / Claude Code / GitHub</p><p>Anthropic is preparing for a $1.5T IPO while its flagship coding agent, Claude Code, casually dumped 2,539 live developer secrets across 1… 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>估值叙事与最基础的 .gitignore 缺失同框，说明 coding agent 的默认写入路径缺少凭据边界检查</p><p><strong>对我意味着什么：</strong>直接命中 automation 与 skill 落盘环节：本项目的凭据扫描与 redact_credentials 属同类防线，应确认覆盖 agent 自动生成的临时文件</p><p><strong>下一步：</strong>对 agent 产出目录跑一次凭据正则扫描，若命中数 &gt;0 则阻断发布并定位写入点，不能只依赖提交前人工检查</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-14T14:51 UTC · 归类：industry-capital</p><p>证据状态：未独立验证</p><p>→ <a href=\"https://dev.to/devkursat/15t-valuation-zero-gitignore-how-claude-code-leaked-2539-live-secrets-to-github-4ndb\" rel=\"noopener noreferrer\">https://dev.to/devkursat/15t-valuation-zero-gitignore-how-claude-code-leaked-2539-live-secrets-to-github-4ndb</a></p>",
-      "date_published": "2026-11-14T14:51:56.772000Z",
-      "date_modified": "2026-11-14T22:53:41.482428Z",
-      "tags": [
-        "industry-capital",
-        "产业与资本"
-      ],
-      "_daily_info": {
-        "score": 75.84,
-        "source": "Folo 订阅池基线（人工筛选信源）",
-        "cluster_id": "94d5fd03df4fff4e",
         "ai_status": "ok"
       }
     }

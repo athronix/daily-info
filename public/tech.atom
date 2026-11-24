@@ -5,10 +5,90 @@
   <ns0:subtitle>挖掘 · 聚合 · 研判 · 订阅；每条附原文链接；内容仅供参考，不构成投资建议</ns0:subtitle>
   <ns0:link rel="self" type="application/atom+xml" href="https://daily-info.local/tech.atom" />
   <ns0:link rel="alternate" type="text/html" href="https://daily-info.local/index.html" />
-  <ns0:updated>2026-11-24T01:58:57.872346Z</ns0:updated>
+  <ns0:updated>2026-11-24T22:53:10.321591Z</ns0:updated>
   <ns0:author>
     <ns0:name>Personal Daily Info</ns0:name>
   </ns0:author>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-25:fe3401e2cda5055a</ns0:id>
+    <ns0:title>[市场与投资] Amazon is knocking almost $50 off six months of Apple TV</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.theverge.com/gadgets/1040046/apple-tv-subscription-streaming-sale-deal-black-friday" />
+    <ns0:published>2026-11-24T19:00:00.331000Z</ns0:published>
+    <ns0:updated>2026-11-24T22:53:10.321591Z</ns0:updated>
+    <ns0:category term="docs-changelog" label="市场与投资" />
+    <ns0:summary type="text">Amazon offers US customers a discounted Apple TV+ subscription rate of $6.99 monthly for the first six months, reducing the total cost from $90 to $42. This limited-time promotion is currently without a specified expiration date. The service provides access to exclusive Formula 1 and Major League So</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;The Verge 报道 Amazon 给美国用户前六个月的 Apple TV+ 订阅折扣：月费 $6.99，半年总价从 $90 降到 $42。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：$6.99 / $90 / $42 · 相关方：Amazon / Apple TV+ / Formula 1 / Severance&lt;/p&gt;&lt;p&gt;Amazon offers US customers a discounted Apple TV+ subscription rate of $6.99 monthly for the first six months, reducing the total cost from $90 to $42. This limited-time promotion is currently without a specified expiration date. The service provides access to exclusive Formula 1 and Major League So&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;$90 与 $42 是半年总价的原价与折后价，$6.99 是月费；三个数字量纲不同，且原文写明促销无明确截止日。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建是口径样本：折扣类读数要标原价、折后价、适用期三列，规格与促销状态分存，不进长期成本基线。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对订阅页 2 次确认 $6.99 与 $42；若任一不符或未标生效期，则判定该价格仅为促销口径，不进成本表。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-24T19:00 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.theverge.com/gadgets/1040046/apple-tv-subscription-streaming-sale-deal-black-friday" rel="noopener noreferrer"&gt;https://www.theverge.com/gadgets/1040046/apple-tv-subscription-streaming-sale-deal-black-friday&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-25:5845ed4863b49265</ns0:id>
+    <ns0:title>[产业与资本] Amazon’s Decart acquisition is a bet on using software to narrow the silicon gap with Nvidia</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race" />
+    <ns0:published>2026-11-24T15:51:07.639000Z</ns0:published>
+    <ns0:updated>2026-11-24T22:53:10.321591Z</ns0:updated>
+    <ns0:category term="dev-tools" label="产业与资本" />
+    <ns0:summary type="text">Amazon’s decision to acquire Decart for a reported $7.5 billion is part of its efforts to improve the efficiency of its Trainium chips. 〔Folo分类:AI技术与应用〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;TechCrunch 报道 Amazon 以据报道 $7.5 billion 收购 Decart，意图用软件提升 Trainium 芯片效率、缩小与 Nvidia 差距。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：$7.5 billion · 相关方：Amazon / Decart / Trainium / Nvidia&lt;/p&gt;&lt;p&gt;Amazon’s decision to acquire Decart for a reported $7.5 billion is part of its efforts to improve the efficiency of its Trainium chips. 〔Folo分类:AI技术与应用〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;$7.5 billion 带 reported 前缀，是媒体口径而非已确认对价；缩小硅差距是分析判断，不是可测结果。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建的算力供给是上游线索：收购意图与芯片效率收益要分列，金额标 unverified，不进落地清单。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;找 2 份一手公告核对 $7.5 billion；若一致家数少于 2，则判定该金额仅为媒体口径，留线索池。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-24T15:51 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;证据状态：未独立验证&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race" rel="noopener noreferrer"&gt;https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-25:c8dda13ed9e17d8e</ns0:id>
+    <ns0:title>[论文与学术] Four decades of citizen science reveal widespread declines in native plant distributions in Japan</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://phys.org/news/2026-11-decades-citizen-science-reveal-widespread.html" />
+    <ns0:published>2026-11-24T17:00:09.953000Z</ns0:published>
+    <ns0:updated>2026-11-24T22:53:10.321591Z</ns0:updated>
+    <ns0:category term="dev-tools" label="论文与学术" />
+    <ns0:summary type="text">A new study led by researchers at Kyushu University has found that nearly 45% of 1,864 native plant species surveyed across Kanagawa… 〔Folo分类:重大学术科研突破〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;phys.org 报道九州大学牵头的公民科学研究：调查的神奈川原生植物物种中，近 45% 分布出现下滑，样本共 1,864 种。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：45% / 1,864 · 相关方：Kyushu University / Kanagawa&lt;/p&gt;&lt;p&gt;A new study led by researchers at Kyushu University has found that nearly 45% of 1,864 native plant species surveyed across Kanagawa… 〔Folo分类:重大学术科研突破〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;45% 必须绑定 1,864 这个分母才有意义；标题的四十年是观测跨度，不能与下滑比例混成一个结论。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;暂无直接影响：属生态调查，与 automation / MCP / 数据基建无交集；仅作比例读数需带分母与窗口的字段样本。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对论文是否给出 1,864 的物种清单与 45% 判定阈值；若缺任一，则判定该比例不可复算，只留线索。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-24T17:00 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://phys.org/news/2026-11-decades-citizen-science-reveal-widespread.html" rel="noopener noreferrer"&gt;https://phys.org/news/2026-11-decades-citizen-science-reveal-widespread.html&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-25:83b7d0d15eb92c92</ns0:id>
+    <ns0:title>[开发者工具与版本] Now Firefox can select which sites use its VPN, and clear your browsing history with one click</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.theverge.com/tech/1041474/firefox-161-vpn-rules-fire-button" />
+    <ns0:published>2026-11-24T18:44:57.541000Z</ns0:published>
+    <ns0:updated>2026-11-24T22:53:10.321591Z</ns0:updated>
+    <ns0:category term="dev-tools" label="开发者工具与版本" />
+    <ns0:summary type="text">Mozilla released Firefox 161, introducing settings to automatically enable or disable the browser's VPN for specific sites. This feature eliminates the need to manually toggle the VPN on each visit. Additionally, Firefox 161 adds a "Fire" button to the toolbar, allowing users to clear browsing histo</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;The Verge 报道 Mozilla 发布 Firefox 161：可按站点自动开关 VPN，并新增一键清除浏览历史等数据的 Fire 按钮。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：161 · 相关方：Mozilla / Firefox 161 / VPN / Fire&lt;/p&gt;&lt;p&gt;Mozilla released Firefox 161, introducing settings to automatically enable or disable the browser&amp;#x27;s VPN for specific sites. This feature eliminates the need to manually toggle the VPN on each visit. Additionally, Firefox 161 adds a &amp;quot;Fire&amp;quot; button to the toolbar, allowing users to clear browsing histo&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;161 是可逐字锁定的版本号，站点规则与一键清除是两项行为变更；版本能进兼容性矩阵，功能描述不能。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 WinVM 与自动化宿主是配置样本：按站点切换 VPN 属可编程策略，但升级前要核对 161 是否改动现有 profile 字段。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在 2 台宿主各配 1 组站点规则并跑 1 次清除；若任一未生效或 profile 字段变更，则判定暂缓升级到 161。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-24T18:44 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.theverge.com/tech/1041474/firefox-161-vpn-rules-fire-button" rel="noopener noreferrer"&gt;https://www.theverge.com/tech/1041474/firefox-161-vpn-rules-fire-button&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-25:84fb3fd4bc17b8ea</ns0:id>
+    <ns0:title>[模型与研究] We’re launching Humanity’s First Exam and a Kaggle hackathon to test LLM reliability.</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam" />
+    <ns0:published>2026-11-24T19:30:00Z</ns0:published>
+    <ns0:updated>2026-11-24T22:53:10.321591Z</ns0:updated>
+    <ns0:category term="ai-models" label="模型与研究" />
+    <ns0:summary type="text">Google launches Humanity’s First Exam to test LLM reliability across 544 prompts.</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Google DeepMind 宣布推出 Humanity&amp;#x27;s First Exam 与 Kaggle hackathon，用 544 prompts 测试 LLM 可靠性。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：544 · 相关方：Google / Kaggle / LLM&lt;/p&gt;&lt;p&gt;Google launches Humanity’s First Exam to test LLM reliability across 544 prompts.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;544 是题量，不是可靠性得分；测试集规模可清点，但可靠性如何判定、阈值多少，摘要没有给出。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 agent 部署的评测是线索：可复现的题量能进对照表，但要先拿到评分口径，否则不能换算成部署门槛。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照官方题面核对 544 prompts 与评分规则；若题量不符或评分口径未披露，则判定仅作规模记录。&lt;/p&gt;&lt;p&gt;来源：Google DeepMind Blog · 发布于 2026-11-24T19:30 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam" rel="noopener noreferrer"&gt;https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-25:8f35fe33f1ce09cb</ns0:id>
+    <ns0:title>[Agent 与工程] Which coding agent solves the harder DeepSWE tasks?</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://dev.to/santoshkumarradha/which-coding-agent-solves-the-harder-deepswe-tasks-16g0" />
+    <ns0:published>2026-11-24T18:12:45.932000Z</ns0:published>
+    <ns0:updated>2026-11-24T22:53:10.321591Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="Agent 与工程" />
+    <ns0:summary type="text">I work on codeaf at AgentField, one of the harnesses compared here. This post first appeared on agentfield.ai. On the 76 DeepSWE tasks… 〔Folo分类:开源项目〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;dev.to 文章比较不同 coding agent 在 76 个较难 DeepSWE 任务上的表现，作者声明自己参与 codeaf 开发。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：76 · 相关方：DeepSWE / codeaf / AgentField&lt;/p&gt;&lt;p&gt;I work on codeaf at AgentField, one of the harnesses compared here. This post first appeared on agentfield.ai. On the 76 DeepSWE tasks… 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;76 是任务集规模，作者与被测 harness 有利益关系；样本量可数，但结论独立性需要单独标注。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 agent 部署的选型最相关：benchmark 数字要连任务集版本与作者关系一起记，否则通过率不可比。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;同一 harness 跑 76 个任务 2 次并核对任务集版本；若通过率差 &amp;gt; 10%，则判定结果不稳定，不进选型矩阵。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-24T18:12 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://dev.to/santoshkumarradha/which-coding-agent-solves-the-harder-deepswe-tasks-16g0" rel="noopener noreferrer"&gt;https://dev.to/santoshkumarradha/which-coding-agent-solves-the-harder-deepswe-tasks-16g0&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-25:a7c2f9b16470aace</ns0:id>
+    <ns0:title>[Agent 与工程] What We Found Scanning 160 npm MCP and Agent Skill Packages: The Bug Classes Worth Gating On</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://dev.to/avivgerzhue/what-we-found-scanning-160-npm-mcp-and-agent-skill-packages-the-bug-classes-worth-gating-on-4d74" />
+    <ns0:published>2026-11-24T18:14:58.872000Z</ns0:published>
+    <ns0:updated>2026-11-24T22:53:10.321591Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="Agent 与工程" />
+    <ns0:summary type="text">We pulled 160 published npm packages from the AI tooling ecosystem (MCP servers, agent skills and plugins, Next.js/Supabase/Stripe AI… 〔Folo分类:开源项目〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;dev.to 文章记录扫描 160 个已发布 npm 包（MCP server、agent skills 与插件）后归纳出值得设门禁的 bug 类别。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：160 · 相关方：npm / MCP / Next.js / Supabase / Stripe&lt;/p&gt;&lt;p&gt;We pulled 160 published npm packages from the AI tooling ecosystem (MCP servers, agent skills and plugins, Next.js/Supabase/Stripe AI… 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;160 是扫描规模，结论落在哪几类 bug 值得 gating；规模数字本身不说明检出率，也不等于修复进度。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 skill 与 agent 部署是门禁依据：namespace skills 大量来自 npm 生态，应把可复现的 bug 类写成安装前扫描规则。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在自有 skill 基线复扫 160 个同类包；若同类 bug 命中 ≥ 2 类，则判定安装前必须加 gating 扫描，不直接引入。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-24T18:14 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://dev.to/avivgerzhue/what-we-found-scanning-160-npm-mcp-and-agent-skill-packages-the-bug-classes-worth-gating-on-4d74" rel="noopener noreferrer"&gt;https://dev.to/avivgerzhue/what-we-found-scanning-160-npm-mcp-and-agent-skill-packages-the-bug-classes-worth-gating-on-4d74&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-25:36e9e8a53c31d6d6</ns0:id>
+    <ns0:title>[Agent 与工程] AI agents trust your MCP server's tool list blindly. We read 100 of them</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://dev.to/suncly/ai-agents-trust-your-mcp-servers-tool-list-blindly-we-read-100-of-them-45j5" />
+    <ns0:published>2026-11-24T18:19:15.191000Z</ns0:published>
+    <ns0:updated>2026-11-24T22:53:10.321591Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="Agent 与工程" />
+    <ns0:summary type="text">Imagine you shipped an MCP server last month. One of your tools is called get_orders. Its description says: "Returns the customer's recent… 〔Folo分类:开源项目〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;dev.to 文章称 AI agent 会盲目信任 MCP server 返回的工具列表，作者逐个读了 100 份工具清单。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：100 · 相关方：MCP / get_orders&lt;/p&gt;&lt;p&gt;Imagine you shipped an MCP server last month. One of your tools is called get_orders. Its description says: &amp;quot;Returns the customer&amp;#x27;s recent… 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;100 是可清点的样本量，但文章核心是工具描述可写成与真实行为不符；样本多不等于每个 server 都验过调用结果。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 MCP 与 agent 部署最直接：工具描述属于不可信输入，接入前应把描述与实际返回做一次对照，不能把清单当契约。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;抽取 100 份工具清单中的 10 份做调用复现；若描述与实际返回不一致 ≥ 2 份，则判定需加描述校验层再接入。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-24T18:19 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://dev.to/suncly/ai-agents-trust-your-mcp-servers-tool-list-blindly-we-read-100-of-them-45j5" rel="noopener noreferrer"&gt;https://dev.to/suncly/ai-agents-trust-your-mcp-servers-tool-list-blindly-we-read-100-of-them-45j5&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:daily-info.local,2026-11-24:c23c3c476d7f7950</ns0:id>
     <ns0:title>[论文与学术] NASA spacecraft data reveal how solar system's tail shifts over 14 years</ns0:title>
@@ -928,85 +1008,5 @@
     <ns0:category term="dev-tools" label="开发者工具与版本" />
     <ns0:summary type="text">Starting December 8, 2026, GitHub will turn off Dependabot alerts on most repositories with no activity in the past year. Their existing alerts are archived, not deleted, and you can… The post Dependabot alerts will pause on inactive repositories appeared first on The GitHub Blog.</ns0:summary>
     <ns0:content type="html">&lt;p&gt;&lt;strong&gt;GitHub 宣布自 December 8, 2026 起对过去一年无活动的大多数仓库关闭 Dependabot 告警，既有告警归档不删除&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：December 8, 2026 · 相关方：Dependabot / GitHub&lt;/p&gt;&lt;p&gt;Starting December 8, 2026, GitHub will turn off Dependabot alerts on most repositories with no activity in the past year. Their existing alerts are archived, not deleted, and you can… The post Dependabot alerts will pause on inactive repositories appeared first on The GitHub Blog.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;告警从持续在线变成按活跃度开关，归档仓库的安全债会被静默隐藏而不是被修复。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 automation 与仓库数据基建有直接影响：无人值守的依赖巡检不能把 Dependabot 告警当唯一信号。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在 December 8, 2026 前导出归档仓库清单，若无活动但仍在部署的仓库 ≥1 个，则补独立扫描任务。&lt;/p&gt;&lt;p&gt;来源：GitHub Changelog · 发布于 2026-11-10T14:20 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.blog/changelog/2026-11-10-dependabot-alerts-will-pause-on-inactive-repositories" rel="noopener noreferrer"&gt;https://github.blog/changelog/2026-11-10-dependabot-alerts-will-pause-on-inactive-repositories&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-11:92b8883870aedc23</ns0:id>
-    <ns0:title>[开发者工具与版本] Blender 5.3 released with Gaussian Splat support</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://www.blender.org/download/releases/5-3" />
-    <ns0:published>2026-11-10T16:15:43Z</ns0:published>
-    <ns0:updated>2026-11-10T23:04:57.316406Z</ns0:updated>
-    <ns0:category term="dev-tools" label="开发者工具与版本" />
-    <ns0:summary type="text">Gaussian Splat 进入主流 DCC 工具，意味着 3D 资产管线从网格扩展到辐射场表示，导出与版本管理都要跟着改。</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Blender 5.3 发布并加入 Gaussian Splat 支持，HN 条目获 385 分&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：5.3 / 385 · 相关方：Blender / Gaussian Splat&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;Gaussian Splat 进入主流 DCC 工具，意味着 3D 资产管线从网格扩展到辐射场表示，导出与版本管理都要跟着改。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 3D 资产生成链路有直接影响：需确认生成的 Splat 数据能否在 5.3 里直接导入并转存。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;导入 1 个 Splat 场景做往返测试，若 5.3 能无损导出且渲染无报错，判定可纳入资产流程。&lt;/p&gt;&lt;p&gt;来源：HN Algolia front_page (points/comments) · 发布于 2026-11-10T16:15 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.blender.org/download/releases/5-3" rel="noopener noreferrer"&gt;https://www.blender.org/download/releases/5-3&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-11:e9d10d6fe9a8158c</ns0:id>
-    <ns0:title>[开发者工具与版本] v0.40.17</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://github.com/ollama/ollama/releases/tag/v0.40.17-rc0" />
-    <ns0:published>2026-11-10T22:25:00Z</ns0:published>
-    <ns0:updated>2026-11-10T23:04:57.316406Z</ns0:updated>
-    <ns0:category term="dev-tools" label="开发者工具与版本" />
-    <ns0:summary type="text">What's Changed Improve ChatGPT CLI restore and graceful restart by @hoyyeva in #19583 cmd/launch: use thinking metadata for OpenCode settings by @hoyyeva in #19409 llm: use mmap for Vulkan integrated GPUs by @dhiltgen in #19640 rpreslar4765/Ollama by @rpreslar4765 in #17163 mlx: support concurrent g</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Ollama v0.40.17 预发布合入 ChatGPT CLI 恢复与优雅重启、OpenCode thinking metadata 与 Vulkan 集显 mmap 改动&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：v0.40.17 / #19583 / #19409 / #19640 · 相关方：ChatGPT CLI / OpenCode / Vulkan / Ollama&lt;/p&gt;&lt;p&gt;What&amp;#x27;s Changed Improve ChatGPT CLI restore and graceful restart by @hoyyeva in #19583 cmd/launch: use thinking metadata for OpenCode settings by @hoyyeva in #19409 llm: use mmap for Vulkan integrated GPUs by @dhiltgen in #19640 rpreslar4765/Ollama by @rpreslar4765 in #17163 mlx: support concurrent g&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;三个改动都落在启动与推理路径而非新模型，CLI 优雅重启与集显 mmap 直接决定本地服务能否无人值守常驻。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 automation 与本地 agent 运行时有直接影响：常驻推理服务升级前需回归 CLI 重启与 GPU 内存映射路径。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;升级后跑 10 次 CLI 中断重启，若 ≥9 次恢复会话且集显显存占用不升，判定可替换现有版本。&lt;/p&gt;&lt;p&gt;来源：ollama Releases · 发布于 2026-11-10T22:25 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/ollama/ollama/releases/tag/v0.40.17-rc0" rel="noopener noreferrer"&gt;https://github.com/ollama/ollama/releases/tag/v0.40.17-rc0&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-11:40bd82e68c624de0</ns0:id>
-    <ns0:title>[Agent 与工程] My AI is lazier than me</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://www.reddit.com/r/LocalLLaMA/comments/1xsytlk/my_ai_is_lazier_than_me" />
-    <ns0:published>2026-11-10T21:11:05Z</ns0:published>
-    <ns0:updated>2026-11-10T23:04:57.316406Z</ns0:updated>
-    <ns0:category term="agent-engineering" label="Agent 与工程" />
-    <ns0:summary type="text">Let's start with my setup: I have 2 Sparks running glm 5.3 flash, and the harness is hermes agent running on a MacBook Air. While trying to justify all the money I spent (around 6500 euro for both machines, a long time ago when prices were just high instead of outrageous), I decided to hop on the de</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;一位 LocalLLaMA 用户用 2 台 Sparks 跑 glm 5.3 flash、以 hermes agent 作 harness，吐槽约 6500 euro 双机投入&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2 / 5.3 / 6500 · 相关方：glm 5.3 flash / hermes agent / MacBook Air / Sparks&lt;/p&gt;&lt;p&gt;Let&amp;#x27;s start with my setup: I have 2 Sparks running glm 5.3 flash, and the harness is hermes agent running on a MacBook Air. While trying to justify all the money I spent (around 6500 euro for both machines, a long time ago when prices were just high instead of outrageous), I decided to hop on the de&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;这是少见的把 hermes agent 作为本地编排 harness 的一手配置记录，硬件成本与模型体感被同时量化。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 hermes-agent 部署有直接参考：多机加 MacBook 的编排需验证任务分发是否真的落到两台机器。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在同一 harness 跑 20 次并发任务，若两台 Sparks 负载差 &amp;lt;20% 且无排队超时，判定分发有效。&lt;/p&gt;&lt;p&gt;来源：r/LocalLLaMA · 发布于 2026-11-10T21:11 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;证据状态：未独立验证&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.reddit.com/r/LocalLLaMA/comments/1xsytlk/my_ai_is_lazier_than_me" rel="noopener noreferrer"&gt;https://www.reddit.com/r/LocalLLaMA/comments/1xsytlk/my_ai_is_lazier_than_me&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-11:7c2ab083f460ca73</ns0:id>
-    <ns0:title>[Agent 与工程] Graphon, which wants to resolve AI agent memory limitations by mapping connections across docs, videos, and images, raised a $35M Series A led by RRE Ventures (Shubhangi Goel/Business Insi</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://www.techmeme.com/261110/p49" />
-    <ns0:published>2026-11-10T20:25:16Z</ns0:published>
-    <ns0:updated>2026-11-10T23:04:57.316406Z</ns0:updated>
-    <ns0:category term="agent-engineering" label="Agent 与工程" />
-    <ns0:summary type="text">Shubhangi Goel / Business Insider: Graphon, which wants to resolve AI agent memory limitations by mapping connections across docs, videos, and images, raised a $35M Series A led by RRE Ventures — AI agents can write code, search databases, and carry out multistep tasks. But they can still lose track</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Graphon 以跨 docs、videos、images 建立连接来补 AI agent 记忆短板，获 RRE Ventures 领投的 $35M Series A&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：$35M · 相关方：Graphon / RRE Ventures / Business Insider&lt;/p&gt;&lt;p&gt;Shubhangi Goel / Business Insider: Graphon, which wants to resolve AI agent memory limitations by mapping connections across docs, videos, and images, raised a $35M Series A led by RRE Ventures — AI agents can write code, search databases, and carry out multistep tasks. But they can still lose track&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;资本把记忆当作独立基础设施层定价而非模型附带能力，说明跨模态索引已是 agent 落地的显性瓶颈。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 agent 部署与数据基建有直接影响：多模态记忆需要可回溯引用链，现有 skill 上下文管理应补来源字段。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;给现有记忆表加来源与时间戳两项，若跨 3 类素材检索命中率 ≥80%，才判定可替换现有上下文拼接。&lt;/p&gt;&lt;p&gt;来源：Techmeme · 发布于 2026-11-10T20:25 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.techmeme.com/261110/p49" rel="noopener noreferrer"&gt;https://www.techmeme.com/261110/p49&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-11:faef9281aef0f1c0</ns0:id>
-    <ns0:title>[模型与研究] Claude Fable 5.2 can do "weight-space-programming" about as well as GPT-6 Astra</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://www.lesswrong.com/posts/wg3K6xFFTdM6RmRgn/claude-fable-5-2-can-do-weight-space-programming-about-as" />
-    <ns0:published>2026-11-10T18:06:06Z</ns0:published>
-    <ns0:updated>2026-11-10T23:04:57.316406Z</ns0:updated>
-    <ns0:category term="agent-engineering" label="模型与研究" />
-    <ns0:summary type="text">Recently this paper demonstrated that GPT-6 Astra was capable of a bunch of low-level operations on neural networks, including improving Qwen3-0.6B's ability on some math benchmarks and writing some networks to play 9x9 Go from scratch. Since the authors released nearly all of their prompts, the net</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;论文演示 GPT-6 Astra 对神经网络做底层操作，讨论称 Claude Fable 5.2 具备相近的 weight-space-programming 能力&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：5.2 / 9x9 / 0.6B · 相关方：Claude Fable 5.2 / GPT-6 Astra / Qwen3-0.6B / weight-space-programming&lt;/p&gt;&lt;p&gt;Recently this paper demonstrated that GPT-6 Astra was capable of a bunch of low-level operations on neural networks, including improving Qwen3-0.6B&amp;#x27;s ability on some math benchmarks and writing some networks to play 9x9 Go from scratch. Since the authors released nearly all of their prompts, the net&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;能力比较落在直接改权重而非提示词；若可复现，模型定制的成本结构会从训练数据转向权重编辑。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 skill 与 agent 部署暂无直接影响：权重级改动需要可复现的评测集，当前只有单篇讨论，不构成接入依据。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在同一数学基准复跑 3 组权重编辑，若 Qwen3-0.6B 提升可重复且无回归，才判定该路径值得评估。&lt;/p&gt;&lt;p&gt;来源：LessWrong · 发布于 2026-11-10T18:06 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;证据状态：未独立验证&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.lesswrong.com/posts/wg3K6xFFTdM6RmRgn/claude-fable-5-2-can-do-weight-space-programming-about-as" rel="noopener noreferrer"&gt;https://www.lesswrong.com/posts/wg3K6xFFTdM6RmRgn/claude-fable-5-2-can-do-weight-space-programming-about-as&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-11:e8c5a09b311ad300</ns0:id>
-    <ns0:title>[模型与研究] 课程 | 2026年斯坦福CS 329Z《Agent工程》| 第6讲：Agent 设计模式与脚手架</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://mp.weixin.qq.com/s?__biz=MzU4NTQyNjc5Mg%3D%3D&amp;mid=2247499027&amp;idx=1&amp;sn=f2db4105ce173f26380aa00320a4fc51&amp;chksm=fc521d0df4c7db69372ce4e073ca3c75a3079b78cca2e13c063e3f5cf3997a432220ad81f078&amp;scene=0&amp;xtrack=1" />
-    <ns0:published>2026-11-10T12:10:00Z</ns0:published>
-    <ns0:updated>2026-11-10T23:04:57.316406Z</ns0:updated>
-    <ns0:category term="ai-models" label="模型与研究" />
-    <ns0:summary type="text">多模态、Agent、生成模型｜2026年斯坦福CS 329Z《Agent工程》系列课程涵盖Agent开发核心内容：第2讲讲解面向开发者的LLM基础原理；第3讲聚焦检索增强生成（RAG）技术，提升模型知识时效性与准确性；第4讲深入工具调用机制，实现Agent与外部系统交互；第5讲探讨框架选型与任务编排策略，支撑复杂多步推理与协作。课程体系强调工程实践与前沿方法结合，旨在培养构建可靠、可扩展智能体系统的能力。</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;斯坦福 CS 329Z《Agent工程》放出第6讲 Agent 设计模式与脚手架，前几讲依次覆盖 LLM 基础、RAG 与工具调用&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：CS 329Z / 第6讲 / 第2讲 / 第3讲 · 相关方：斯坦福 / Agent工程 / RAG / LLM&lt;/p&gt;&lt;p&gt;多模态、Agent、生成模型｜2026年斯坦福CS 329Z《Agent工程》系列课程涵盖Agent开发核心内容：第2讲讲解面向开发者的LLM基础原理；第3讲聚焦检索增强生成（RAG）技术，提升模型知识时效性与准确性；第4讲深入工具调用机制，实现Agent与外部系统交互；第5讲探讨框架选型与任务编排策略，支撑复杂多步推理与协作。课程体系强调工程实践与前沿方法结合，旨在培养构建可靠、可扩展智能体系统的能力。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;课程把工具调用与任务编排独立成讲，说明 Agent 工程的难点已从模型能力转到与外部系统的交互契约。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 MCP / A2A 与 skill 设计有直接参考价值：第4讲的工具调用边界可对照当前 connector 契约逐条核对。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照第4讲与第5讲清单逐项自查，若工具描述、错误回退、编排幂等三项均覆盖，判定现有契约合格。&lt;/p&gt;&lt;p&gt;来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-10T12:10 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://mp.weixin.qq.com/s?__biz=MzU4NTQyNjc5Mg%3D%3D&amp;amp;mid=2247499027&amp;amp;idx=1&amp;amp;sn=f2db4105ce173f26380aa00320a4fc51&amp;amp;chksm=fc521d0df4c7db69372ce4e073ca3c75a3079b78cca2e13c063e3f5cf3997a432220ad81f078&amp;amp;scene=0&amp;amp;xtrack=1" rel="noopener noreferrer"&gt;https://mp.weixin.qq.com/s?__biz=MzU4NTQyNjc5Mg%3D%3D&amp;amp;mid=2247499027&amp;amp;idx=1&amp;amp;sn=f2db4105ce173f26380aa00320a4fc51&amp;amp;chksm=fc521d0df4c7db69372ce4e073ca3c75a3079b78cca2e13c063e3f5cf3997a432220ad81f078&amp;amp;scene=0&amp;amp;xtrack=1&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-11:096f075e11080075</ns0:id>
-    <ns0:title>[模型与研究] llm-gemini 0.36</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://simonwillison.net/2026/Nov/10/llm-gemini" />
-    <ns0:published>2026-11-10T20:09:44Z</ns0:published>
-    <ns0:updated>2026-11-10T23:04:57.316406Z</ns0:updated>
-    <ns0:category term="ai-models" label="模型与研究" />
-    <ns0:summary type="text">Release: llm-gemini 0.36 Gemini 4 Carbon was announced two weeks ago for "a subset of cyber defenders", but today it's available to everyone else. This is Google's best ever Gemini, priced at $2/million input and $10/million output at launch (that's GPT-6.1 Sol / Claude Sonnet 5.5 prices) but schedu</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;llm-gemini 0.36 发布，Gemini 4 Carbon 从限定人群开放至所有人，输入 $2、输出 $10 每百万 token&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：0.36 / $2 / $10 · 相关方：llm-gemini / Gemini 4 Carbon / Google / GPT-6.1&lt;/p&gt;&lt;p&gt;Release: llm-gemini 0.36 Gemini 4 Carbon was announced two weeks ago for &amp;quot;a subset of cyber defenders&amp;quot;, but today it&amp;#x27;s available to everyone else. This is Google&amp;#x27;s best ever Gemini, priced at $2/million input and $10/million output at launch (that&amp;#x27;s GPT-6.1 Sol / Claude Sonnet 5.5 prices) but schedu&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;两周前只给 cyber defenders 子集，如今开放且可被命令行调用；可用性的变化比模型评分更影响接入决策。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 WorkBuddy 模型路由与 skill 调用有直接影响：可把联网推理档纳入候选，但需按 $2/$10 单价核算长任务预算。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;用同一 10 条提示词跑 llm-gemini 0.36，若返回完整率 ≥9/10 且单价核算不超预算，才纳入默认路由。&lt;/p&gt;&lt;p&gt;来源：Simon Willison&amp;#x27;s Weblog · 发布于 2026-11-10T20:09 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://simonwillison.net/2026/Nov/10/llm-gemini" rel="noopener noreferrer"&gt;https://simonwillison.net/2026/Nov/10/llm-gemini&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-10:69e806cfbc9de11b</ns0:id>
-    <ns0:title>[开发者工具与版本] Technical Teardown: Geometry Survivor Mod APK (v1.0) Architecture &amp; Safe Mirrors</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://dev.to/tanvir1704/technical-teardown-geometry-survivor-mod-apk-v10-architecture-safe-mirrors-2ce2" />
-    <ns0:published>2026-11-09T21:50:23.848000Z</ns0:published>
-    <ns0:updated>2026-11-10T02:09:37.536152Z</ns0:updated>
-    <ns0:category term="dev-tools" label="开发者工具与版本" />
-    <ns0:summary type="text">When evaluating mobile Android modifications, stability, package signature integrity, and runtime behavior are critical. In this teardown,… 〔Folo分类:开源项目〕</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;一篇技术拆解以 Geometry Survivor Mod APK v1.0 为例，讨论稳定性、包签名完整性与运行时行为&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：1.0 · 相关方：Geometry Survivor / APK / Android&lt;/p&gt;&lt;p&gt;When evaluating mobile Android modifications, stability, package signature integrity, and runtime behavior are critical. In this teardown,… 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把包签名完整性当作判定第三方修改版可信度的首要字段，比「安全镜像」这类名号更可核验，可作为准入清单的反例教材。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 agent 部署有间接参照：第三方 APK 的验签逻辑同样适用于 WinVM 侧安装包准入判定的字段设计。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;抽取该 APK 两个镜像验签，若签名哈希一致率 100% 且运行时无额外联网，判定可作为 WinVM 安装包准入样本。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-09T21:50 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://dev.to/tanvir1704/technical-teardown-geometry-survivor-mod-apk-v10-architecture-safe-mirrors-2ce2" rel="noopener noreferrer"&gt;https://dev.to/tanvir1704/technical-teardown-geometry-survivor-mod-apk-v10-architecture-safe-mirrors-2ce2&lt;/a&gt;&lt;/p&gt;</ns0:content>
   </ns0:entry>
 </ns0:feed>

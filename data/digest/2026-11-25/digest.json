@@ -1,0 +1,599 @@
+{
+  "date": "2026-11-25",
+  "headline": "样本量、版本号与金额能逐字复核，型号尾数与社区热度不能：今天进门禁的是 100、160、76 与 544 这些可清点数",
+  "headline_short": "样本量、版本号与金额能逐字复核，型号尾数与社区热度不能：",
+  "lead": "今日能进门禁的四个样本量都带得住复核：有人逐个读了 100 份 MCP server 的工具清单，有人扫描 160 个 npm 包归纳 bug 类别；还有 76 个 DeepSWE 任务与 544 条 prompts 把做对了变成可数判定。张力在于同一批素材里，Firefox 161 的版本号与 $5.3M 的融资额可以逐字锁定，而 YC F26 的批次号、GTA VI 的型号、Section 702 的法条编号只是标识符；",
+  "generated_at": "2026-11-24T22:53:10.321591Z",
+  "themes": [
+    {
+      "title": "样本量才是门禁的下限",
+      "why": "100 份 MCP 工具清单、160 个 npm 包、76 个 DeepSWE 任务、544 条 prompts，四个可清点的样本量决定结论能覆盖多大范围；没有样本量的判断不能进门禁。",
+      "cluster_ids": [
+        "36e9e8a53c31d6d6",
+        "a7c2f9b16470aace",
+        "8f35fe33f1ce09cb",
+        "84fb3fd4bc17b8ea"
+      ],
+      "verified_by": 4
+    },
+    {
+      "title": "版本号与金额能逐字锁定",
+      "why": "Firefox 161 是发布号，$5.3M、$7.5 billion、$132 Billion 是可回一手公告核对的金额；它们能写成扫描规则，标识符与形容词不行。",
+      "cluster_ids": [
+        "83b7d0d15eb92c92",
+        "4d83f53e63e2d3da",
+        "5845ed4863b49265",
+        "ac9f934991bf2618"
+      ],
+      "verified_by": 4
+    },
+    {
+      "title": "比例读数必须带分母",
+      "why": "45% 绑定 1,864 个物种才有意义，$90 与 $42 是原价与折后价，40% 是持股跌幅；缺分母、原价或时间窗口，同一个数字就读成另一件事。",
+      "cluster_ids": [
+        "c8dda13ed9e17d8e",
+        "fe3401e2cda5055a",
+        "20465184da5d8abd"
+      ],
+      "verified_by": 3
+    },
+    {
+      "title": "MCP 的能力边界写在数字里",
+      "why": "Versine 一次最多 100 人、2 分钟到账是能力上限；100 份工具清单被盲目信任、160 个包扫出 bug 类是信任成本，上限与成本要一起记。",
+      "cluster_ids": [
+        "6014a04f08fa1462",
+        "36e9e8a53c31d6d6",
+        "a7c2f9b16470aace"
+      ],
+      "verified_by": 3
+    },
+    {
+      "title": "召回与评测都在量化失败",
+      "why": "11 辆 robotaxi 误入封闭车道触发召回，76 个任务与 544 条 prompts 把做对了变成可数判定；失败可计数，才谈得上设阈值。",
+      "cluster_ids": [
+        "55c02fddf78cda05",
+        "8f35fe33f1ce09cb",
+        "84fb3fd4bc17b8ea"
+      ],
+      "verified_by": 3
+    },
+    {
+      "title": "钱与规格只进事实层",
+      "why": "$1.3b、$1.4、40%、$132 Billion、$6.99 全是公开数据，只陈述来源与状态，不推资金流向、不给仓位或买卖判断，不构成投资建议。",
+      "cluster_ids": [
+        "20465184da5d8abd",
+        "ac9f934991bf2618",
+        "fe3401e2cda5055a",
+        "4d83f53e63e2d3da"
+      ],
+      "verified_by": 4
+    },
+    {
+      "title": "白名单挡住的是虚高统计",
+      "why": "本期 40 簇剔除 27 簇：YC F26 批次、GTA VI 型号、Section 702 法条号、arXiv 论文号、HN 847 与 352 热度、EAH-A1000 型号尾数都不算原文读数。",
+      "cluster_ids": [
+        "36e9e8a53c31d6d6",
+        "a7c2f9b16470aace",
+        "8f35fe33f1ce09cb",
+        "84fb3fd4bc17b8ea"
+      ],
+      "verified_by": 4
+    }
+  ],
+  "sections": [
+    {
+      "key": "agent-engineering",
+      "label": "Agent 与工程",
+      "items": [
+        {
+          "id": "6014a04f08fa1462",
+          "title": "Launch HN: Versine (YC F26) – MCP to send and receive money",
+          "url": "https://news.ycombinator.com/item?id=50634426",
+          "source": "HN Algolia front_page (points/comments)",
+          "published_at": "2026-11-24T20:44:15Z",
+          "score": 79.91,
+          "category": "community",
+          "cluster_id": "6014a04f08fa1462",
+          "summary": "Hey HN, we’re Harshith, Param, and Vishnu and we're building Versine (https://versine.com). Versine lets you send and request money just by talking or texting with your AI (think Venmo with an MCP). We’re software engineers who have worked on distributed systems at Stripe, Databricks, and Amazon.Ver",
+          "why_matters": "100 人与 2 分钟是产品自述的能力上限与到账时间，不是可用性证明；passkey 审批设计才是权限边界所在。",
+          "fact_anchor": "Launch HN 发布 Versine：一个坐在钱包前面的 MCP，让 AI 代用户收发款项，单次最多面向 100 人。",
+          "numbers": [
+            "100",
+            "2 mins"
+          ],
+          "entities": [
+            "Versine",
+            "MCP",
+            "Stripe",
+            "Databricks",
+            "Amazon"
+          ],
+          "evidence_urls": [
+            "https://news.ycombinator.com/item?id=50634426"
+          ],
+          "impact": "与 MCP 关注面直接相关：把资金动作交给 agent 必须先有显式审批与额度上限，WinVM 侧自动化基线不应纳入任何无人工确认的支付调用。",
+          "next_action": "对照官方说明复现 2 次「单次 100 人」与「2 分钟到账」；若任一次未达或缺少 passkey 审批步骤，则判定该 MCP 不进自动化基线。",
+          "signal_type": "product",
+          "confidence": "fact"
+        },
+        {
+          "id": "36e9e8a53c31d6d6",
+          "title": "AI agents trust your MCP server's tool list blindly. We read 100 of them",
+          "url": "https://dev.to/suncly/ai-agents-trust-your-mcp-servers-tool-list-blindly-we-read-100-of-them-45j5",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-24T18:19:15.191000Z",
+          "score": 79.32,
+          "category": "agent-engineering",
+          "cluster_id": "36e9e8a53c31d6d6",
+          "summary": "Imagine you shipped an MCP server last month. One of your tools is called get_orders. Its description says: \"Returns the customer's recent… 〔Folo分类:开源项目〕",
+          "why_matters": "100 是可清点的样本量，但文章核心是工具描述可写成与真实行为不符；样本多不等于每个 server 都验过调用结果。",
+          "fact_anchor": "dev.to 文章称 AI agent 会盲目信任 MCP server 返回的工具列表，作者逐个读了 100 份工具清单。",
+          "numbers": [
+            "100"
+          ],
+          "entities": [
+            "MCP",
+            "get_orders"
+          ],
+          "evidence_urls": [
+            "https://dev.to/suncly/ai-agents-trust-your-mcp-servers-tool-list-blindly-we-read-100-of-them-45j5"
+          ],
+          "impact": "对 MCP 与 agent 部署最直接：工具描述属于不可信输入，接入前应把描述与实际返回做一次对照，不能把清单当契约。",
+          "next_action": "抽取 100 份工具清单中的 10 份做调用复现；若描述与实际返回不一致 ≥ 2 份，则判定需加描述校验层再接入。",
+          "signal_type": "research",
+          "confidence": "fact"
+        },
+        {
+          "id": "a7c2f9b16470aace",
+          "title": "What We Found Scanning 160 npm MCP and Agent Skill Packages: The Bug Classes Worth Gating On",
+          "url": "https://dev.to/avivgerzhue/what-we-found-scanning-160-npm-mcp-and-agent-skill-packages-the-bug-classes-worth-gating-on-4d74",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-24T18:14:58.872000Z",
+          "score": 79.27,
+          "category": "agent-engineering",
+          "cluster_id": "a7c2f9b16470aace",
+          "summary": "We pulled 160 published npm packages from the AI tooling ecosystem (MCP servers, agent skills and plugins, Next.js/Supabase/Stripe AI… 〔Folo分类:开源项目〕",
+          "why_matters": "160 是扫描规模，结论落在哪几类 bug 值得 gating；规模数字本身不说明检出率，也不等于修复进度。",
+          "fact_anchor": "dev.to 文章记录扫描 160 个已发布 npm 包（MCP server、agent skills 与插件）后归纳出值得设门禁的 bug 类别。",
+          "numbers": [
+            "160"
+          ],
+          "entities": [
+            "npm",
+            "MCP",
+            "Next.js",
+            "Supabase",
+            "Stripe"
+          ],
+          "evidence_urls": [
+            "https://dev.to/avivgerzhue/what-we-found-scanning-160-npm-mcp-and-agent-skill-packages-the-bug-classes-worth-gating-on-4d74"
+          ],
+          "impact": "对 skill 与 agent 部署是门禁依据：namespace skills 大量来自 npm 生态，应把可复现的 bug 类写成安装前扫描规则。",
+          "next_action": "在自有 skill 基线复扫 160 个同类包；若同类 bug 命中 ≥ 2 类，则判定安装前必须加 gating 扫描，不直接引入。",
+          "signal_type": "research",
+          "confidence": "fact"
+        },
+        {
+          "id": "8f35fe33f1ce09cb",
+          "title": "Which coding agent solves the harder DeepSWE tasks?",
+          "url": "https://dev.to/santoshkumarradha/which-coding-agent-solves-the-harder-deepswe-tasks-16g0",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-24T18:12:45.932000Z",
+          "score": 76.25,
+          "category": "agent-engineering",
+          "cluster_id": "8f35fe33f1ce09cb",
+          "summary": "I work on codeaf at AgentField, one of the harnesses compared here. This post first appeared on agentfield.ai. On the 76 DeepSWE tasks… 〔Folo分类:开源项目〕",
+          "why_matters": "76 是任务集规模，作者与被测 harness 有利益关系；样本量可数，但结论独立性需要单独标注。",
+          "fact_anchor": "dev.to 文章比较不同 coding agent 在 76 个较难 DeepSWE 任务上的表现，作者声明自己参与 codeaf 开发。",
+          "numbers": [
+            "76"
+          ],
+          "entities": [
+            "DeepSWE",
+            "codeaf",
+            "AgentField"
+          ],
+          "evidence_urls": [
+            "https://dev.to/santoshkumarradha/which-coding-agent-solves-the-harder-deepswe-tasks-16g0"
+          ],
+          "impact": "对 agent 部署的选型最相关：benchmark 数字要连任务集版本与作者关系一起记，否则通过率不可比。",
+          "next_action": "同一 harness 跑 76 个任务 2 次并核对任务集版本；若通过率差 > 10%，则判定结果不稳定，不进选型矩阵。",
+          "signal_type": "research",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "ai-models",
+      "label": "模型与研究",
+      "items": [
+        {
+          "id": "84fb3fd4bc17b8ea",
+          "title": "We’re launching Humanity’s First Exam and a Kaggle hackathon to test LLM reliability.",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam",
+          "source": "Google DeepMind Blog",
+          "published_at": "2026-11-24T19:30:00Z",
+          "score": 75.5,
+          "category": "ai-models",
+          "cluster_id": "84fb3fd4bc17b8ea",
+          "summary": "Google launches Humanity’s First Exam to test LLM reliability across 544 prompts.",
+          "why_matters": "544 是题量，不是可靠性得分；测试集规模可清点，但可靠性如何判定、阈值多少，摘要没有给出。",
+          "fact_anchor": "Google DeepMind 宣布推出 Humanity's First Exam 与 Kaggle hackathon，用 544 prompts 测试 LLM 可靠性。",
+          "numbers": [
+            "544"
+          ],
+          "entities": [
+            "Google",
+            "Kaggle",
+            "LLM"
+          ],
+          "evidence_urls": [
+            "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam"
+          ],
+          "impact": "对 agent 部署的评测是线索：可复现的题量能进对照表，但要先拿到评分口径，否则不能换算成部署门槛。",
+          "next_action": "对照官方题面核对 544 prompts 与评分规则；若题量不符或评分口径未披露，则判定仅作规模记录。",
+          "signal_type": "research",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "dev-tools",
+      "label": "开发者工具与版本",
+      "items": [
+        {
+          "id": "83b7d0d15eb92c92",
+          "title": "Now Firefox can select which sites use its VPN, and clear your browsing history with one click",
+          "url": "https://www.theverge.com/tech/1041474/firefox-161-vpn-rules-fire-button",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-24T18:44:57.541000Z",
+          "score": 76.6,
+          "category": "dev-tools",
+          "cluster_id": "83b7d0d15eb92c92",
+          "summary": "Mozilla released Firefox 161, introducing settings to automatically enable or disable the browser's VPN for specific sites. This feature eliminates the need to manually toggle the VPN on each visit. Additionally, Firefox 161 adds a \"Fire\" button to the toolbar, allowing users to clear browsing histo",
+          "why_matters": "161 是可逐字锁定的版本号，站点规则与一键清除是两项行为变更；版本能进兼容性矩阵，功能描述不能。",
+          "fact_anchor": "The Verge 报道 Mozilla 发布 Firefox 161：可按站点自动开关 VPN，并新增一键清除浏览历史等数据的 Fire 按钮。",
+          "numbers": [
+            "161"
+          ],
+          "entities": [
+            "Mozilla",
+            "Firefox 161",
+            "VPN",
+            "Fire"
+          ],
+          "evidence_urls": [
+            "https://www.theverge.com/tech/1041474/firefox-161-vpn-rules-fire-button"
+          ],
+          "impact": "对 WinVM 与自动化宿主是配置样本：按站点切换 VPN 属可编程策略，但升级前要核对 161 是否改动现有 profile 字段。",
+          "next_action": "在 2 台宿主各配 1 组站点规则并跑 1 次清除；若任一未生效或 profile 字段变更，则判定暂缓升级到 161。",
+          "signal_type": "release",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "research-papers",
+      "label": "论文与学术",
+      "items": [
+        {
+          "id": "c8dda13ed9e17d8e",
+          "title": "Four decades of citizen science reveal widespread declines in native plant distributions in Japan",
+          "url": "https://phys.org/news/2026-11-decades-citizen-science-reveal-widespread.html",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-24T17:00:09.953000Z",
+          "score": 78.69,
+          "category": "dev-tools",
+          "cluster_id": "c8dda13ed9e17d8e",
+          "summary": "A new study led by researchers at Kyushu University has found that nearly 45% of 1,864 native plant species surveyed across Kanagawa… 〔Folo分类:重大学术科研突破〕",
+          "why_matters": "45% 必须绑定 1,864 这个分母才有意义；标题的四十年是观测跨度，不能与下滑比例混成一个结论。",
+          "fact_anchor": "phys.org 报道九州大学牵头的公民科学研究：调查的神奈川原生植物物种中，近 45% 分布出现下滑，样本共 1,864 种。",
+          "numbers": [
+            "45%",
+            "1,864"
+          ],
+          "entities": [
+            "Kyushu University",
+            "Kanagawa"
+          ],
+          "evidence_urls": [
+            "https://phys.org/news/2026-11-decades-citizen-science-reveal-widespread.html"
+          ],
+          "impact": "暂无直接影响：属生态调查，与 automation / MCP / 数据基建无交集；仅作比例读数需带分母与窗口的字段样本。",
+          "next_action": "核对论文是否给出 1,864 的物种清单与 45% 判定阈值；若缺任一，则判定该比例不可复算，只留线索。",
+          "signal_type": "research",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "industry-capital",
+      "label": "产业与资本",
+      "items": [
+        {
+          "id": "4d83f53e63e2d3da",
+          "title": "Maple raises $5.3M to build AI products that protect your data, even from itself",
+          "url": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-24T21:19:52.628000Z",
+          "score": 76.78,
+          "category": "industry-capital",
+          "cluster_id": "4d83f53e63e2d3da",
+          "summary": "The startup's encrypted AI architecture is designed to prevent even the company itself from accessing users' private data. 〔Folo分类:美、中、港投融资市场〕",
+          "why_matters": "$5.3M 是融资额，不是产品部署量；连自身也无法访问是架构宣称，原文没有给出审计或第三方验证。",
+          "fact_anchor": "TechCrunch 报道初创公司 Maple 融资 $5.3M，其加密 AI 架构旨在连公司自己都无法访问用户私有数据。",
+          "numbers": [
+            "$5.3M"
+          ],
+          "entities": [
+            "Maple",
+            "AI"
+          ],
+          "evidence_urls": [
+            "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself"
+          ],
+          "impact": "对数据基建是线索：把服务端不可见写进索引时要标为厂商口径，等独立审计出现后再决定是否纳入选型。",
+          "next_action": "核对 2 份一手融资公告是否确认 $5.3M；若仅媒体单方报道，则判定金额标 unverified，架构宣称不进基线。",
+          "signal_type": "funding",
+          "confidence": "fact"
+        },
+        {
+          "id": "5845ed4863b49265",
+          "title": "Amazon’s Decart acquisition is a bet on using software to narrow the silicon gap with Nvidia",
+          "url": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-24T15:51:07.639000Z",
+          "score": 76.39,
+          "category": "dev-tools",
+          "cluster_id": "5845ed4863b49265",
+          "summary": "Amazon’s decision to acquire Decart for a reported $7.5 billion is part of its efforts to improve the efficiency of its Trainium chips. 〔Folo分类:AI技术与应用〕",
+          "why_matters": "$7.5 billion 带 reported 前缀，是媒体口径而非已确认对价；缩小硅差距是分析判断，不是可测结果。",
+          "fact_anchor": "TechCrunch 报道 Amazon 以据报道 $7.5 billion 收购 Decart，意图用软件提升 Trainium 芯片效率、缩小与 Nvidia 差距。",
+          "numbers": [
+            "$7.5 billion"
+          ],
+          "entities": [
+            "Amazon",
+            "Decart",
+            "Trainium",
+            "Nvidia"
+          ],
+          "evidence_urls": [
+            "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race"
+          ],
+          "impact": "对数据基建的算力供给是上游线索：收购意图与芯片效率收益要分列，金额标 unverified，不进落地清单。",
+          "next_action": "找 2 份一手公告核对 $7.5 billion；若一致家数少于 2，则判定该金额仅为媒体口径，留线索池。",
+          "signal_type": "funding",
+          "confidence": "unverified"
+        }
+      ]
+    },
+    {
+      "key": "market-invest",
+      "label": "市场与投资",
+      "items": [
+        {
+          "id": "20465184da5d8abd",
+          "title": "Icahn’s Fortune Sinks to $1.3b as Debt Pressures Rise",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-24/icahn-s-fortune-sinks-to-1-3b-as-debt-pressures-rise-video",
+          "source": "Bloomberg Markets",
+          "published_at": "2026-11-24T22:29:33Z",
+          "score": 78.14,
+          "category": "market-invest",
+          "cluster_id": "20465184da5d8abd",
+          "summary": "Carl Icahn’s fortune has dwindled to about $1.3 billion as mounting debt squeezes his business empire, leaving the longtime corporate raider and activist investor facing one of the toughest stretches of his career. When Icahn Enterprises reported third-quarter earnings this month, it warned there wa",
+          "why_matters": "$1.3b 是财富估算、$1.4 是债券规模、40% 是持股跌幅，三者口径不同；原文只陈述财务压力，未给结论。",
+          "fact_anchor": "Bloomberg 报道 Carl Icahn 财富缩至约 $1.3b，Icahn Enterprises 警告 $1.4 billion 债券再融资无保证，CVR Energy 股价跌约 40%。",
+          "numbers": [
+            "$1.3b",
+            "$1.4",
+            "40%"
+          ],
+          "entities": [
+            "Icahn Enterprises",
+            "CVR Energy",
+            "IEP"
+          ],
+          "evidence_urls": [
+            "https://www.bloomberg.com/news/videos/2026-11-24/icahn-s-fortune-sinks-to-1-3b-as-debt-pressures-rise-video"
+          ],
+          "impact": "对数据基建只作事实层样本：公开财务数字进索引须带来源与状态列，机构观点与偿付推测另列，不构成投资判断。",
+          "next_action": "核对 2 份一手披露是否都给出 $1.4 billion 到期规模；若不一致或未标到期日，则判定该数字标 unverified 留线索池。",
+          "signal_type": "market-data",
+          "confidence": "fact"
+        },
+        {
+          "id": "ac9f934991bf2618",
+          "title": "Dell Raises AI Server Outlook as Backlog Hits Record $132 Billion | Closing Bell",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-24/dell-raises-ai-server-outlook-closing-bell-video",
+          "source": "Bloomberg Markets",
+          "published_at": "2026-11-24T21:21:25Z",
+          "score": 75.69,
+          "category": "market-invest",
+          "cluster_id": "ac9f934991bf2618",
+          "summary": "Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Carol Massar and Tim Stenovec. (Source: Bloomberg)",
+          "why_matters": "$132 Billion 是积压订单金额，不是当期营收；摘要只是节目通用描述，没有给出订单口径与交付节奏。",
+          "fact_anchor": "Bloomberg 报道 Dell 上调 AI 服务器展望，积压订单创 $132 Billion 纪录，Closing Bell 节目覆盖当日美股收盘。",
+          "numbers": [
+            "$132 Billion"
+          ],
+          "entities": [
+            "Dell",
+            "Bloomberg",
+            "Closing Bell"
+          ],
+          "evidence_urls": [
+            "https://www.bloomberg.com/news/videos/2026-11-24/dell-raises-ai-server-outlook-closing-bell-video"
+          ],
+          "impact": "对数据基建的算力供给是上游指标：backlog 属未来交付，规格与状态要分列，不作为当期可用容量。",
+          "next_action": "核对财报是否给出 $132 Billion 的统计口径与截止日；若缺任一，则判定该数字仅为标题口径，不进容量表。",
+          "signal_type": "market-data",
+          "confidence": "fact"
+        },
+        {
+          "id": "fe3401e2cda5055a",
+          "title": "Amazon is knocking almost $50 off six months of Apple TV",
+          "url": "https://www.theverge.com/gadgets/1040046/apple-tv-subscription-streaming-sale-deal-black-friday",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-24T19:00:00.331000Z",
+          "score": 78.36,
+          "category": "docs-changelog",
+          "cluster_id": "fe3401e2cda5055a",
+          "summary": "Amazon offers US customers a discounted Apple TV+ subscription rate of $6.99 monthly for the first six months, reducing the total cost from $90 to $42. This limited-time promotion is currently without a specified expiration date. The service provides access to exclusive Formula 1 and Major League So",
+          "why_matters": "$90 与 $42 是半年总价的原价与折后价，$6.99 是月费；三个数字量纲不同，且原文写明促销无明确截止日。",
+          "fact_anchor": "The Verge 报道 Amazon 给美国用户前六个月的 Apple TV+ 订阅折扣：月费 $6.99，半年总价从 $90 降到 $42。",
+          "numbers": [
+            "$6.99",
+            "$90",
+            "$42"
+          ],
+          "entities": [
+            "Amazon",
+            "Apple TV+",
+            "Formula 1",
+            "Severance"
+          ],
+          "evidence_urls": [
+            "https://www.theverge.com/gadgets/1040046/apple-tv-subscription-streaming-sale-deal-black-friday"
+          ],
+          "impact": "对数据基建是口径样本：折扣类读数要标原价、折后价、适用期三列，规格与促销状态分存，不进长期成本基线。",
+          "next_action": "核对订阅页 2 次确认 $6.99 与 $42；若任一不符或未标生效期，则判定该价格仅为促销口径，不进成本表。",
+          "signal_type": "product",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "security-governance",
+      "label": "安全与治理",
+      "items": [
+        {
+          "id": "55c02fddf78cda05",
+          "title": "Waymo Recalls Vehicles After 11 Robotaxis Entered Closed Freeway Lanes",
+          "url": "https://gizmodo.com/waymo-recalls-vehicles-after-11-robotaxis-entered-closed-freeway-lanes-2000844815",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-24T21:20:40.753000Z",
+          "score": 76.79,
+          "category": "market-invest",
+          "cluster_id": "55c02fddf78cda05",
+          "summary": "\"Waymo’s mission is to be the world’s most trusted driver,\" the company said in a statement. 〔Folo分类:新奇产品〕",
+          "why_matters": "11 是触发召回的事件车辆数，不是车队规模或故障率；声明只给使命表述，没有披露触发条件与修复方式。",
+          "fact_anchor": "Gizmodo 报道 Waymo 在 11 辆 robotaxi 驶入封闭高速车道后召回车辆，公司声明称使命是成为最值得信任的驾驶员。",
+          "numbers": [
+            "11"
+          ],
+          "entities": [
+            "Waymo",
+            "Robotaxis"
+          ],
+          "evidence_urls": [
+            "https://gizmodo.com/waymo-recalls-vehicles-after-11-robotaxis-entered-closed-freeway-lanes-2000844815"
+          ],
+          "impact": "对 agent 部署的可靠性门禁是同构提醒：异常进入受限区域必须可计数、可回放，不能只靠值得信任这类定性表述。",
+          "next_action": "核对召回公告是否列出 11 辆与触发条件；若缺任一，则判定事件规模不可复算，只留事实层不进可靠性指标。",
+          "signal_type": "incident",
+          "confidence": "fact"
+        }
+      ]
+    }
+  ],
+  "editor_note": "本期最该带走的判断是：能进部署门禁的读数，必须是可逐字锁定且带齐条件的那一个，而不是标题里最醒目的数字。今天留下的 13 条里，最硬的一组是四个样本量：100 份 MCP 工具清单、160 个 npm 包、76 个 DeepSWE 任务、544 条 prompts，它们都说明结论能覆盖多大范围；范围之外的判断，写得再漂亮也不能进门禁。对 MCP 与 agent 部署的含义很直接：dev.to 那篇把工具描述定性为不可信输入，另一篇扫描 160 个包归纳出值得设门禁的 bug 类别，两件事合起来就是一条规则，接入前把工具描述与实际返回做对照，并把可复现的 bug 类写成安装前扫描。第二条是版本号与金额能逐字复核，型号与编号不能。Firefox 161 是能写进兼容性矩阵的发布号，$5.3M、$7.5 billion、$132 Billion 是能回一手公告核对的金额；反过来，YC F26 的批次号、GTA VI 的罗马数字、Section 702 的法条编号、arXiv 论文号、EAH-A1000 的型号尾数、Blade Runner 2099 与 2026 的年份，都只是标识符或日期，不是新闻读数。第三条是比例与价格必须带分母、原价与状态。",
+  "brief": "每日信息 · 2026-11-25\n\n今日能进门禁的四个样本量都带得住复核：有人逐个读了 100 份 MCP server 的工具清单，有人扫描 160 个 npm 包归纳 bug 类别；还有 76 个 DeepSWE 任务与 544 条 prompts 把做对了变成可数判定。张力在于同一批素材里，Firefox 161 的版本号与 $5.3M 的融资额可以逐字锁定，而 YC F26 的批次号、GTA VI 的型号、Section 702 的法条编号只是标识符；\n\n【Agent 与工程】\n- Launch HN 发布 Versine：一个坐在钱包前面的 MCP…（100 / 2 mins）\n- dev.to 文章称 AI agent 会盲目信任 MCP serv…（100）\n- dev.to 文章记录扫描 160 个已发布 npm 包（MCP s…（160）\n- dev.to 文章比较不同 coding agent 在 76 个较…（76）\n\n【模型与研究】\n- Google DeepMind 宣布推出 Humanity's Fi…（544）\n\n【开发者工具与版本】\n- The Verge 报道 Mozilla 发布 Firefox 16…（161）\n\n【论文与学术】\n- phys.org 报道九州大学牵头的公民科学研究：调查的神奈川原生植…（45% / 1,864）\n\n【产业与资本】\n- TechCrunch 报道初创公司 Maple 融资 $5.3M，其…（$5.3M）\n- TechCrunch 报道 Amazon 以据报道 $7.5 bil…（$7.5 billion）\n\n【市场与投资】\n- Bloomberg 报道 Carl Icahn 财富缩至约 $1.3…（$1.3b / $1.4）\n- Bloomberg 报道 Dell 上调 AI 服务器展望，积压订单…（$132 Billion）\n- The Verge 报道 Amazon 给美国用户前六个月的 App…（$6.99 / $90）\n\n【安全与治理】\n- Gizmodo 报道 Waymo 在 11 辆 robotaxi 驶…（11）\n\n【待验证信号】\n- 100 份 MCP 工具清单的描述可信度：若 重放 100 个 server 工具清单，若描述与实际调用不一致 ≥ 3 个，则判定工具列表不可盲信，接入前必须加二次校验层。\n- 160 个 npm 包的 bug 类可复现性：若 在自有 skill 基线复扫 160 个包，若同类 bug 命中 ≥ 2 类，则判定安装前需加 gating 扫描，不直接引入基线。\n- 76 个 DeepSWE 任务的通过率稳定性：若 同一 harness 跑 76 个任务 2 次，若通过率差 > 10%，则判定结果不可复现，不进 agent 选型矩阵。\n- 544 prompts 的题量与评分口径：若 对照官方题面核对 544 prompts，若题量不符或评分规则未披露，则判定仅作规模记录，不换算成可靠性得分。\n- $7.5 billion 收购金额的一手佐证：若 找 2 份一手公告核对 $7.5 billion，若一致家数少于 2，则判定金额仅为媒体口径，标 unverified 留线索池。\n- Firefox 161 站点级 VPN 规则生效：若 在 2 台宿主各配 1 组站点规则，若任一未生效或 profile 字段变更，则判定该能力暂不进自动化升级基线。\n\n内容仅供参考，不构成投资建议；外部事实未独立验证；取不到可靠数据处标注「暂无可靠数据」。",
+  "watch_signals": [
+    {
+      "signal": "100 份 MCP 工具清单的描述可信度",
+      "threshold": "重放 100 个 server 工具清单，若描述与实际调用不一致 ≥ 3 个",
+      "judgement": "判定工具列表不可盲信，接入前必须加二次校验层"
+    },
+    {
+      "signal": "160 个 npm 包的 bug 类可复现性",
+      "threshold": "在自有 skill 基线复扫 160 个包，若同类 bug 命中 ≥ 2 类",
+      "judgement": "判定安装前需加 gating 扫描，不直接引入基线"
+    },
+    {
+      "signal": "76 个 DeepSWE 任务的通过率稳定性",
+      "threshold": "同一 harness 跑 76 个任务 2 次，若通过率差 > 10%",
+      "judgement": "判定结果不可复现，不进 agent 选型矩阵"
+    },
+    {
+      "signal": "544 prompts 的题量与评分口径",
+      "threshold": "对照官方题面核对 544 prompts，若题量不符或评分规则未披露",
+      "judgement": "判定仅作规模记录，不换算成可靠性得分"
+    },
+    {
+      "signal": "$7.5 billion 收购金额的一手佐证",
+      "threshold": "找 2 份一手公告核对 $7.5 billion，若一致家数少于 2",
+      "judgement": "判定金额仅为媒体口径，标 unverified 留线索池"
+    },
+    {
+      "signal": "Firefox 161 站点级 VPN 规则生效",
+      "threshold": "在 2 台宿主各配 1 组站点规则，若任一未生效或 profile 字段变更",
+      "judgement": "判定该能力暂不进自动化升级基线"
+    }
+  ],
+  "reference_summary": [
+    {
+      "domain": "dev.to",
+      "count": 3
+    },
+    {
+      "domain": "theverge.com",
+      "count": 2
+    },
+    {
+      "domain": "techcrunch.com",
+      "count": 2
+    },
+    {
+      "domain": "bloomberg.com",
+      "count": 2
+    },
+    {
+      "domain": "news.ycombinator.com",
+      "count": 1
+    },
+    {
+      "domain": "blog.google",
+      "count": 1
+    },
+    {
+      "domain": "phys.org",
+      "count": 1
+    },
+    {
+      "domain": "gizmodo.com",
+      "count": 1
+    }
+  ],
+  "stats": {
+    "sources_ok": 182,
+    "sources_total": 185,
+    "total_items": 3358,
+    "clusters": 3251,
+    "selected": 40,
+    "published_items": 13,
+    "seven_element_pass": 13,
+    "seven_element_ratio": 1.0,
+    "items_with_numbers": 13,
+    "substantive_number_ratio": 1.0,
+    "rejected_no_number": 0,
+    "unique_reference_domains": 8
+  },
+  "quality": {
+    "ai_status": "ok",
+    "missing_data_marker": "暂无可靠数据",
+    "warnings": [],
+    "id_whitelist": true,
+    "url_whitelist": true,
+    "number_whitelist": true,
+    "number_whitelist_scope": "title+summary_raw+metrics",
+    "number_whitelist_excludes": [
+      "published_at",
+      "fetched_at"
+    ],
+    "entity_whitelist": true,
+    "credential_scan": "clean",
+    "content_spec_version": "1.1.0"
+  },
+  "demo": false
+}

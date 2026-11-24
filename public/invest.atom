@@ -5,10 +5,50 @@
   <ns0:subtitle>挖掘 · 聚合 · 研判 · 订阅；每条附原文链接；内容仅供参考，不构成投资建议</ns0:subtitle>
   <ns0:link rel="self" type="application/atom+xml" href="https://daily-info.local/invest.atom" />
   <ns0:link rel="alternate" type="text/html" href="https://daily-info.local/index.html" />
-  <ns0:updated>2026-11-24T01:58:57.872346Z</ns0:updated>
+  <ns0:updated>2026-11-24T22:53:10.321591Z</ns0:updated>
   <ns0:author>
     <ns0:name>Personal Daily Info</ns0:name>
   </ns0:author>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-25:55c02fddf78cda05</ns0:id>
+    <ns0:title>[安全与治理] Waymo Recalls Vehicles After 11 Robotaxis Entered Closed Freeway Lanes</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://gizmodo.com/waymo-recalls-vehicles-after-11-robotaxis-entered-closed-freeway-lanes-2000844815" />
+    <ns0:published>2026-11-24T21:20:40.753000Z</ns0:published>
+    <ns0:updated>2026-11-24T22:53:10.321591Z</ns0:updated>
+    <ns0:category term="market-invest" label="安全与治理" />
+    <ns0:summary type="text">"Waymo’s mission is to be the world’s most trusted driver," the company said in a statement. 〔Folo分类:新奇产品〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Gizmodo 报道 Waymo 在 11 辆 robotaxi 驶入封闭高速车道后召回车辆，公司声明称使命是成为最值得信任的驾驶员。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：11 · 相关方：Waymo / Robotaxis&lt;/p&gt;&lt;p&gt;&amp;quot;Waymo’s mission is to be the world’s most trusted driver,&amp;quot; the company said in a statement. 〔Folo分类:新奇产品〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;11 是触发召回的事件车辆数，不是车队规模或故障率；声明只给使命表述，没有披露触发条件与修复方式。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 agent 部署的可靠性门禁是同构提醒：异常进入受限区域必须可计数、可回放，不能只靠值得信任这类定性表述。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对召回公告是否列出 11 辆与触发条件；若缺任一，则判定事件规模不可复算，只留事实层不进可靠性指标。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-24T21:20 UTC · 归类：market-invest&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://gizmodo.com/waymo-recalls-vehicles-after-11-robotaxis-entered-closed-freeway-lanes-2000844815" rel="noopener noreferrer"&gt;https://gizmodo.com/waymo-recalls-vehicles-after-11-robotaxis-entered-closed-freeway-lanes-2000844815&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-25:ac9f934991bf2618</ns0:id>
+    <ns0:title>[市场与投资] Dell Raises AI Server Outlook as Backlog Hits Record $132 Billion | Closing Bell</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.bloomberg.com/news/videos/2026-11-24/dell-raises-ai-server-outlook-closing-bell-video" />
+    <ns0:published>2026-11-24T21:21:25Z</ns0:published>
+    <ns0:updated>2026-11-24T22:53:10.321591Z</ns0:updated>
+    <ns0:category term="market-invest" label="市场与投资" />
+    <ns0:summary type="text">Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Carol Massar and Tim Stenovec. (Source: Bloomberg)</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Bloomberg 报道 Dell 上调 AI 服务器展望，积压订单创 $132 Billion 纪录，Closing Bell 节目覆盖当日美股收盘。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：$132 Billion · 相关方：Dell / Bloomberg / Closing Bell&lt;/p&gt;&lt;p&gt;Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Carol Massar and Tim Stenovec. (Source: Bloomberg)&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;$132 Billion 是积压订单金额，不是当期营收；摘要只是节目通用描述，没有给出订单口径与交付节奏。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建的算力供给是上游指标：backlog 属未来交付，规格与状态要分列，不作为当期可用容量。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对财报是否给出 $132 Billion 的统计口径与截止日；若缺任一，则判定该数字仅为标题口径，不进容量表。&lt;/p&gt;&lt;p&gt;来源：Bloomberg Markets · 发布于 2026-11-24T21:21 UTC · 归类：market-invest&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.bloomberg.com/news/videos/2026-11-24/dell-raises-ai-server-outlook-closing-bell-video" rel="noopener noreferrer"&gt;https://www.bloomberg.com/news/videos/2026-11-24/dell-raises-ai-server-outlook-closing-bell-video&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-25:20465184da5d8abd</ns0:id>
+    <ns0:title>[市场与投资] Icahn’s Fortune Sinks to $1.3b as Debt Pressures Rise</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.bloomberg.com/news/videos/2026-11-24/icahn-s-fortune-sinks-to-1-3b-as-debt-pressures-rise-video" />
+    <ns0:published>2026-11-24T22:29:33Z</ns0:published>
+    <ns0:updated>2026-11-24T22:53:10.321591Z</ns0:updated>
+    <ns0:category term="market-invest" label="市场与投资" />
+    <ns0:summary type="text">Carl Icahn’s fortune has dwindled to about $1.3 billion as mounting debt squeezes his business empire, leaving the longtime corporate raider and activist investor facing one of the toughest stretches of his career. When Icahn Enterprises reported third-quarter earnings this month, it warned there wa</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Bloomberg 报道 Carl Icahn 财富缩至约 $1.3b，Icahn Enterprises 警告 $1.4 billion 债券再融资无保证，CVR Energy 股价跌约 40%。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：$1.3b / $1.4 / 40% · 相关方：Icahn Enterprises / CVR Energy / IEP&lt;/p&gt;&lt;p&gt;Carl Icahn’s fortune has dwindled to about $1.3 billion as mounting debt squeezes his business empire, leaving the longtime corporate raider and activist investor facing one of the toughest stretches of his career. When Icahn Enterprises reported third-quarter earnings this month, it warned there wa&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;$1.3b 是财富估算、$1.4 是债券规模、40% 是持股跌幅，三者口径不同；原文只陈述财务压力，未给结论。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建只作事实层样本：公开财务数字进索引须带来源与状态列，机构观点与偿付推测另列，不构成投资判断。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对 2 份一手披露是否都给出 $1.4 billion 到期规模；若不一致或未标到期日，则判定该数字标 unverified 留线索池。&lt;/p&gt;&lt;p&gt;来源：Bloomberg Markets · 发布于 2026-11-24T22:29 UTC · 归类：market-invest&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.bloomberg.com/news/videos/2026-11-24/icahn-s-fortune-sinks-to-1-3b-as-debt-pressures-rise-video" rel="noopener noreferrer"&gt;https://www.bloomberg.com/news/videos/2026-11-24/icahn-s-fortune-sinks-to-1-3b-as-debt-pressures-rise-video&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-25:4d83f53e63e2d3da</ns0:id>
+    <ns0:title>[产业与资本] Maple raises $5.3M to build AI products that protect your data, even from itself</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself" />
+    <ns0:published>2026-11-24T21:19:52.628000Z</ns0:published>
+    <ns0:updated>2026-11-24T22:53:10.321591Z</ns0:updated>
+    <ns0:category term="industry-capital" label="产业与资本" />
+    <ns0:summary type="text">The startup's encrypted AI architecture is designed to prevent even the company itself from accessing users' private data. 〔Folo分类:美、中、港投融资市场〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;TechCrunch 报道初创公司 Maple 融资 $5.3M，其加密 AI 架构旨在连公司自己都无法访问用户私有数据。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：$5.3M · 相关方：Maple / AI&lt;/p&gt;&lt;p&gt;The startup&amp;#x27;s encrypted AI architecture is designed to prevent even the company itself from accessing users&amp;#x27; private data. 〔Folo分类:美、中、港投融资市场〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;$5.3M 是融资额，不是产品部署量；连自身也无法访问是架构宣称，原文没有给出审计或第三方验证。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建是线索：把服务端不可见写进索引时要标为厂商口径，等独立审计出现后再决定是否纳入选型。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对 2 份一手融资公告是否确认 $5.3M；若仅媒体单方报道，则判定金额标 unverified，架构宣称不进基线。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-24T21:19 UTC · 归类：industry-capital&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself" rel="noopener noreferrer"&gt;https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:daily-info.local,2026-11-24:37e360be5390856b</ns0:id>
     <ns0:title>[论文与学术] South Africa's small cattle farmers need help before super El Niño hits: How to set up shade, water and feed</ns0:title>

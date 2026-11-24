@@ -5,8 +5,35 @@
     "timezone": "Asia/Shanghai",
     "version": "1.0.0"
   },
-  "generated_at": "2026-11-24T01:58:57.872346Z",
+  "generated_at": "2026-11-24T22:53:10.321591Z",
   "dates": [
+    {
+      "date": "2026-11-25",
+      "headline": "样本量、版本号与金额能逐字复核，型号尾数与社区热度不能：今天进门禁的是 100、160、76 与 544 这些可清点数",
+      "lead": "今日能进门禁的四个样本量都带得住复核：有人逐个读了 100 份 MCP server 的工具清单，有人扫描 160 个 npm 包归纳 bug 类别；还有 76 个 DeepSWE 任务与 544 条 prompts 把做对了变成可数判定。张力在于同一批素材里，Firefox 161 的版本号与 $5.3M 的融资额可以逐字锁定，而 YC F26 的批次号、GTA VI 的型号、Section 702 的法条编号只是标识符；",
+      "demo": false,
+      "stats": {
+        "sources_ok": 182,
+        "sources_total": 185,
+        "total_items": 3358,
+        "clusters": 3251,
+        "selected": 40,
+        "published_items": 13,
+        "seven_element_pass": 13,
+        "seven_element_ratio": 1.0,
+        "items_with_numbers": 13,
+        "substantive_number_ratio": 1.0,
+        "rejected_no_number": 0,
+        "unique_reference_domains": 8
+      },
+      "section_count": 7,
+      "item_count": 13,
+      "ai_status": "ok",
+      "seven_element_ratio": 1.0,
+      "theme_count": 7,
+      "watch_signal_count": 6,
+      "reference_domains": 8
+    },
     {
       "date": "2026-11-24",
       "headline": "省 37% token 不等于更快，89.1 分不等于可用：今天能进部署门禁的是版本号、组件数与带条件的规格，不是漂亮的百分比",

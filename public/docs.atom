@@ -5,10 +5,20 @@
   <ns0:subtitle>挖掘 · 聚合 · 研判 · 订阅；每条附原文链接；内容仅供参考，不构成投资建议</ns0:subtitle>
   <ns0:link rel="self" type="application/atom+xml" href="https://daily-info.local/docs.atom" />
   <ns0:link rel="alternate" type="text/html" href="https://daily-info.local/index.html" />
-  <ns0:updated>2026-11-24T01:58:57.872346Z</ns0:updated>
+  <ns0:updated>2026-11-24T22:53:10.321591Z</ns0:updated>
   <ns0:author>
     <ns0:name>Personal Daily Info</ns0:name>
   </ns0:author>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-25:fe3401e2cda5055a</ns0:id>
+    <ns0:title>[市场与投资] Amazon is knocking almost $50 off six months of Apple TV</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.theverge.com/gadgets/1040046/apple-tv-subscription-streaming-sale-deal-black-friday" />
+    <ns0:published>2026-11-24T19:00:00.331000Z</ns0:published>
+    <ns0:updated>2026-11-24T22:53:10.321591Z</ns0:updated>
+    <ns0:category term="docs-changelog" label="市场与投资" />
+    <ns0:summary type="text">Amazon offers US customers a discounted Apple TV+ subscription rate of $6.99 monthly for the first six months, reducing the total cost from $90 to $42. This limited-time promotion is currently without a specified expiration date. The service provides access to exclusive Formula 1 and Major League So</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;The Verge 报道 Amazon 给美国用户前六个月的 Apple TV+ 订阅折扣：月费 $6.99，半年总价从 $90 降到 $42。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：$6.99 / $90 / $42 · 相关方：Amazon / Apple TV+ / Formula 1 / Severance&lt;/p&gt;&lt;p&gt;Amazon offers US customers a discounted Apple TV+ subscription rate of $6.99 monthly for the first six months, reducing the total cost from $90 to $42. This limited-time promotion is currently without a specified expiration date. The service provides access to exclusive Formula 1 and Major League So&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;$90 与 $42 是半年总价的原价与折后价，$6.99 是月费；三个数字量纲不同，且原文写明促销无明确截止日。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建是口径样本：折扣类读数要标原价、折后价、适用期三列，规格与促销状态分存，不进长期成本基线。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对订阅页 2 次确认 $6.99 与 $42；若任一不符或未标生效期，则判定该价格仅为促销口径，不进成本表。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-24T19:00 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.theverge.com/gadgets/1040046/apple-tv-subscription-streaming-sale-deal-black-friday" rel="noopener noreferrer"&gt;https://www.theverge.com/gadgets/1040046/apple-tv-subscription-streaming-sale-deal-black-friday&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:daily-info.local,2026-11-24:800aeca2d3157fbc</ns0:id>
     <ns0:title>[开发者工具与版本] v2.1.331</ns0:title>
