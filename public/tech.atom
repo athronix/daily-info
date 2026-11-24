@@ -5,10 +5,90 @@
   <ns0:subtitle>挖掘 · 聚合 · 研判 · 订阅；每条附原文链接；内容仅供参考，不构成投资建议</ns0:subtitle>
   <ns0:link rel="self" type="application/atom+xml" href="https://daily-info.local/tech.atom" />
   <ns0:link rel="alternate" type="text/html" href="https://daily-info.local/index.html" />
-  <ns0:updated>2026-11-21T01:46:30.047892Z</ns0:updated>
+  <ns0:updated>2026-11-24T01:58:57.872346Z</ns0:updated>
   <ns0:author>
     <ns0:name>Personal Daily Info</ns0:name>
   </ns0:author>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-24:c23c3c476d7f7950</ns0:id>
+    <ns0:title>[论文与学术] NASA spacecraft data reveal how solar system's tail shifts over 14 years</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://phys.org/news/2026-11-nasa-spacecraft-reveal-solar-tail.html" />
+    <ns0:published>2026-11-23T23:20:08.154000Z</ns0:published>
+    <ns0:updated>2026-11-24T01:58:57.872346Z</ns0:updated>
+    <ns0:category term="research-papers" label="论文与学术" />
+    <ns0:summary type="text">A Southwest Research Institute-led study is the first to map out the distinct motion paths of the heliotail lobes across a 14-year period… 〔Folo分类:重大学术科研突破〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;phys.org 报道 Southwest Research Institute 主导的研究首次绘出日球尾瓣在 14 年周期里的运动路径，数据来自 NASA 航天器。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：14 · 相关方：NASA / Southwest Research Institute / heliotail&lt;/p&gt;&lt;p&gt;A Southwest Research Institute-led study is the first to map out the distinct motion paths of the heliotail lobes across a 14-year period… 〔Folo分类:重大学术科研突破〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;14 是观测窗口长度而非变化幅度；「首次绘出」说明结论受限于该窗口内的航天器覆盖，不能外推到更长周期。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;暂无直接影响：属空间物理科研，与 WorkBuddy / agent 部署 / 数据基建无交集；仅作「观测窗口需显式标注」的字段样本。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对论文是否给出 14 年窗口的起止与数据 gaps；若缺口超过 1 年未标注，则判定该窗口不可复算，只留作线索。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-23T23:20 UTC · 归类：research-papers&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://phys.org/news/2026-11-nasa-spacecraft-reveal-solar-tail.html" rel="noopener noreferrer"&gt;https://phys.org/news/2026-11-nasa-spacecraft-reveal-solar-tail.html&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-24:388f4aa5f277fc66</ns0:id>
+    <ns0:title>[产业与资本] Supertake raises $20M to let AI agents turn your market predictions into stock portfolios</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios" />
+    <ns0:published>2026-11-23T22:02:05.639000Z</ns0:published>
+    <ns0:updated>2026-11-24T01:58:57.872346Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="产业与资本" />
+    <ns0:summary type="text">Think you know where the market is headed? A startup called Supertake lets you put money behind your ideas without having to pick the stocks… 〔Folo分类:AI技术与应用〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;TechCrunch 报道初创公司 Supertake 融资 $20M，产品让 AI agents 把用户的市场判断转成股票组合，用户无需自己挑个股。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：$20M · 相关方：Supertake / AI agents / stock portfolios&lt;/p&gt;&lt;p&gt;Think you know where the market is headed? A startup called Supertake lets you put money behind your ideas without having to pick the stocks… 〔Folo分类:AI技术与应用〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;$20M 是融资额，不是管理规模或收益；「把预测转成组合」是产品描述，原文没有给出任何回测或合规口径。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 automation 是边界提醒：涉及持仓与组合生成的能力不纳入本任务评估范围，只记录融资金额这一公开事实，不构成任何投资建议。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对 2 份一手融资公告是否确认 $20M；若仅媒体单方报道且无轮次信息，则判定金额标 unverified，只留线索池。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-23T22:02 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios" rel="noopener noreferrer"&gt;https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-24:b01e5b086eae0d49</ns0:id>
+    <ns0:title>[开发者工具与版本] Replying to Codex desktop 26.11 sessions from your phone: what Kiteline 3.49.52 can and can't do</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://dev.to/hon6/replying-to-codex-desktop-2611-sessions-from-your-phone-what-kiteline-34952-can-and-cant-do-2ja7" />
+    <ns0:published>2026-11-24T00:10:13.037000Z</ns0:published>
+    <ns0:updated>2026-11-24T01:58:57.872346Z</ns0:updated>
+    <ns0:category term="dev-tools" label="开发者工具与版本" />
+    <ns0:summary type="text">Codex desktop 26.11 stopped exposing session control to other apps. Any tool that followed Codex sessions through that interface dropped to… 〔Folo分类:开源项目〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;dev.to 文章称 Codex desktop 26.11 停止向其它应用暴露会话控制，跟随该接口的第三方工具掉线，作者评估 Kiteline 3.49.52 的手机回复能力。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：26.11 / 3.49.52 · 相关方：Codex desktop / Kiteline / Codex&lt;/p&gt;&lt;p&gt;Codex desktop 26.11 stopped exposing session control to other apps. Any tool that followed Codex sessions through that interface dropped to… 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;26.11 与 3.49.52 是两端版本号；接口一变第三方就掉线，说明跨应用会话控制是未承诺的私有面，不是稳定契约。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 agent 部署与 WinVM 桥接是同构风险：依赖宿主私有接口的自动化要有降级路径，不能把「能连上」当成长期保证。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在 2 台宿主各验证 1 次手机回复；若任一因 26.11 接口变更失败且无降级通道，则判定该链路不进自动化基线。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-24T00:10 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://dev.to/hon6/replying-to-codex-desktop-2611-sessions-from-your-phone-what-kiteline-34952-can-and-cant-do-2ja7" rel="noopener noreferrer"&gt;https://dev.to/hon6/replying-to-codex-desktop-2611-sessions-from-your-phone-what-kiteline-34952-can-and-cant-do-2ja7&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-24:800aeca2d3157fbc</ns0:id>
+    <ns0:title>[开发者工具与版本] v2.1.331</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://github.com/anthropics/claude-code/releases/tag/v2.1.331" />
+    <ns0:published>2026-11-23T21:34:41Z</ns0:published>
+    <ns0:updated>2026-11-24T01:58:57.872346Z</ns0:updated>
+    <ns0:category term="docs-changelog" label="开发者工具与版本" />
+    <ns0:summary type="text">What's changed Added Code Mode support in terminal sessions on Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry and Claude Platform on AWS Added oidc.groups_jsonpath to the Claude apps gateway, to read groups from the matching entries of a list of objects with a small subset of JSONP</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;claude-code 发布 v2.1.331：终端会话在 Bedrock、Microsoft Foundry 等平台加入 Code Mode 支持，并新增 oidc.groups_jsonpath 网关配置。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2.1.331 / 15 · 相关方：Code Mode / Amazon Bedrock / Microsoft Foundry / oidc.groups_jsonpath / claude doctor&lt;/p&gt;&lt;p&gt;What&amp;#x27;s changed Added Code Mode support in terminal sessions on Amazon Bedrock, Google Cloud&amp;#x27;s Agent Platform, Microsoft Foundry and Claude Platform on AWS Added oidc.groups_jsonpath to the Claude apps gateway, to read groups from the matching entries of a list of objects with a small subset of JSONP&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;2.1.331 是可逐字锁定的版本号，oidc.groups_jsonpath 改变网关取组方式；15 秒无语音自动停录是行为阈值，三者量纲不同。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 automation 与 MCP 网关最相关：升级前要核对 oidc.groups_jsonpath 的 JSONPath 子集是否覆盖现有 group 字段，否则定时任务权限会错配。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在 2 个非交互宿主各跑 1 次 claude doctor；若 API 连通段缺失或 groups 解析失败 ≥ 1 次，则判定暂缓升级到 2.1.331。&lt;/p&gt;&lt;p&gt;来源：claude-code Releases · 发布于 2026-11-23T21:34 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.331" rel="noopener noreferrer"&gt;https://github.com/anthropics/claude-code/releases/tag/v2.1.331&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-24:ec4ffddf57c2d97d</ns0:id>
+    <ns0:title>[Agent 与工程] Anthropic 在 Claude Code 新增实验性 Code Mode：模型写 JavaScript 编排工具调用，社区实测大任务省 37% token 但不更快</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://arex-research.com/feeds/d9ff3c57-fe11-446f-bc28-9af3ff4a5351" />
+    <ns0:published>2026-11-23T19:26:00Z</ns0:published>
+    <ns0:updated>2026-11-24T01:58:57.872346Z</ns0:updated>
+    <ns0:category term="ai-models" label="Agent 与工程" />
+    <ns0:summary type="text">资讯｜Anthropic 在 Claude Code v2.1.323 及以上版本中加入了实验性功能 Code Mode：模型不再逐个请求 Bash、Read 或 Edit 这类工具调用，而是写一段 JavaScript 来编排它们——一段代码可以并行执行多条命令，把上一步的结果传给下一步，并只把模型需要读的那部分输出送回上下文。该功能默认关闭，要设置环境变量 C…</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;智源社区快讯：Anthropic 在 Claude Code v2.1.323 及以上加入实验性 Code Mode，模型写 JavaScript 编排工具调用，社区实测大任务省 37% token 但不更快。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：37% / 2.1.323 · 相关方：Anthropic / Claude Code / Code Mode / JavaScript / Bash&lt;/p&gt;&lt;p&gt;资讯｜Anthropic 在 Claude Code v2.1.323 及以上版本中加入了实验性功能 Code Mode：模型不再逐个请求 Bash、Read 或 Edit 这类工具调用，而是写一段 JavaScript 来编排它们——一段代码可以并行执行多条命令，把上一步的结果传给下一步，并只把模型需要读的那部分输出送回上下文。该功能默认关闭，要设置环境变量 C…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;37% 是 token 降幅而「不更快」是耗时结论；同一实测给出方向相反的两个判断，正说明成本口径与体验口径不能合并。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 MCP 与 agent 部署最关键：工具编排方式直接影响子 agent 的上下文用量，但功能默认关闭、需设环境变量，接入前必须跑 smoke 对照。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;同一批大任务在 2 个宿主各跑 3 次；若 token 降幅达 37% 而墙钟耗时未下降的次数 ≥ 2，则判定只算省成本、不写提速结论。&lt;/p&gt;&lt;p&gt;来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-23T19:26 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://arex-research.com/feeds/d9ff3c57-fe11-446f-bc28-9af3ff4a5351" rel="noopener noreferrer"&gt;https://arex-research.com/feeds/d9ff3c57-fe11-446f-bc28-9af3ff4a5351&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-24:dd8bbb5035543189</ns0:id>
+    <ns0:title>[Agent 与工程] Phonic 发布 Phonic-1.1，以 89.1 分登顶 Artificial Analysis 语音对语音指数，不到一个月就取代自家 Phonic 1</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://arex-research.com/feeds/94fd0677-b44b-4434-80be-6d0d5fc6bc32" />
+    <ns0:published>2026-11-23T19:36:00Z</ns0:published>
+    <ns0:updated>2026-11-24T01:58:57.872346Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="Agent 与工程" />
+    <ns0:summary type="text">资讯｜北京时间 11 月 24 日凌晨（美国太平洋时间 23 日上午），旧金山语音模型公司 Phonic 在 X 上发布新一代 speech-to-speech（语音对语音）模型 Phonic-1.1，官方帖文写道：“三周前，我们发布了 Phonic-1。今天，我们推出 Phonic-1.1。Phonic-1.1 依然是面向 agentic（智能体式）任务最先进的…</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;智源社区快讯：旧金山公司 Phonic 发布 Phonic-1.1，称以 89.1 分登顶 Artificial Analysis 语音对语音指数，距 Phonic 1 不到一个月。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：89.1 / 1.1 · 相关方：Phonic / Phonic-1.1 / Artificial Analysis / speech-to-speech / agentic&lt;/p&gt;&lt;p&gt;资讯｜北京时间 11 月 24 日凌晨（美国太平洋时间 23 日上午），旧金山语音模型公司 Phonic 在 X 上发布新一代 speech-to-speech（语音对语音）模型 Phonic-1.1，官方帖文写道：“三周前，我们发布了 Phonic-1。今天，我们推出 Phonic-1.1。Phonic-1.1 依然是面向 agentic（智能体式）任务最先进的…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;89.1 是榜单分数，1.1 是版本号，不到一个月是迭代间隔；分数不带测试集与并发条件，不能直接换算成部署收益。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 agent 部署的语音链路是选型线索：面向 agentic 任务的 speech-to-speech 模型要按榜单口径、延迟、并发分列评估，先入线索池不进基线。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照 Artificial Analysis 榜单 2 个版本核对 89.1；若测试集或评分版本未披露，则判定该分数仅作位次，不进选型矩阵。&lt;/p&gt;&lt;p&gt;来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-23T19:36 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;证据状态：未独立验证&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://arex-research.com/feeds/94fd0677-b44b-4434-80be-6d0d5fc6bc32" rel="noopener noreferrer"&gt;https://arex-research.com/feeds/94fd0677-b44b-4434-80be-6d0d5fc6bc32&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-24:7038b6b26a31768f</ns0:id>
+    <ns0:title>[Agent 与工程] Should You Install Everything Claude Code, the All-in-One Kit Gone Viral?</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://dev.to/dimsbuild/should-you-install-everything-claude-code-the-all-in-one-kit-gone-viral-2lme" />
+    <ns0:published>2026-11-23T23:45:09.312000Z</ns0:published>
+    <ns0:updated>2026-11-24T01:58:57.872346Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="Agent 与工程" />
+    <ns0:summary type="text">TL;DR ECC, Everything Claude Code, bundles 67 agents, 281 skills, 94 commands, and a homegrown security scanner, AgentShield, for… 〔Folo分类:开源项目〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;dev.to 文章盘点走红的一体化套件 Everything Claude Code，摘要称打包 67 个 agents、281 个 skills、94 条 commands 与扫描器 AgentShield。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：67 / 281 / 94 · 相关方：Everything Claude Code / ECC / AgentShield / Claude Code&lt;/p&gt;&lt;p&gt;TL;DR ECC, Everything Claude Code, bundles 67 agents, 281 skills, 94 commands, and a homegrown security scanner, AgentShield, for… 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;67/281/94 是可清点的组件数，但文章标题本身在问「该不该全装」；数量多与适配当前 workflow 是两件事。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 skill 与 agent 部署最相关：这类 all-in-one kit 若整体装入，会与现有 namespace skills 冲突，应逐项比对再决定取用。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;清点仓库 2 次核对 281 skills 与 94 commands；若任一数字与清单不符或重复 skill 名 ≥ 3 个，则判定不整体接入。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-23T23:45 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://dev.to/dimsbuild/should-you-install-everything-claude-code-the-all-in-one-kit-gone-viral-2lme" rel="noopener noreferrer"&gt;https://dev.to/dimsbuild/should-you-install-everything-claude-code-the-all-in-one-kit-gone-viral-2lme&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-24:73bb01d572da73a2</ns0:id>
+    <ns0:title>[Agent 与工程] samuelgursky/davinci-resolve-mcp</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://github.com/samuelgursky/davinci-resolve-mcp" />
+    <ns0:published>2026-11-24T00:03:16.532000Z</ns0:published>
+    <ns0:updated>2026-11-24T01:58:57.872346Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="Agent 与工程" />
+    <ns0:summary type="text">MCP server integration for DaVinci Resolve Studio Language: Python Stars: 4,313 Forks: 493… 〔Folo分类:开源项目〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;GitHub 项目 davinci-resolve-mcp 提供 DaVinci Resolve Studio 的 MCP server 集成，摘要列出 Stars 4,313、Forks 493。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：4,313 / 493 · 相关方：davinci-resolve-mcp / MCP / DaVinci Resolve Studio / Python&lt;/p&gt;&lt;p&gt;MCP server integration for DaVinci Resolve Studio Language: Python Stars: 4,313 Forks: 493… 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;4,313 与 493 是仓库热度，不是功能完成度；MCP server 能否稳定驱动剪辑工程，摘要没有给出任何调用成功率或延迟。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;与 MCP 关注面直接相关：接入前要按工具清单逐个验证，Stars 只能当线索，不能当 WinVM 侧部署门禁的通过依据。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照仓库 README 清点 2 次暴露的工具列表；若工具数与文档不一致或 smoke 调用失败 ≥ 1 次，则判定暂不接入 MCP 基线。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-24T00:03 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/samuelgursky/davinci-resolve-mcp" rel="noopener noreferrer"&gt;https://github.com/samuelgursky/davinci-resolve-mcp&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:daily-info.local,2026-11-21:d098fa9800a7f8a2</ns0:id>
     <ns0:title>[论文与学术] A fish as old as Montana—the blue sucker discovered to live well over 100 years</ns0:title>
@@ -928,85 +1008,5 @@
     <ns0:category term="dev-tools" label="开发者工具与版本" />
     <ns0:summary type="text">When evaluating mobile Android modifications, stability, package signature integrity, and runtime behavior are critical. In this teardown,… 〔Folo分类:开源项目〕</ns0:summary>
     <ns0:content type="html">&lt;p&gt;&lt;strong&gt;一篇技术拆解以 Geometry Survivor Mod APK v1.0 为例，讨论稳定性、包签名完整性与运行时行为&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：1.0 · 相关方：Geometry Survivor / APK / Android&lt;/p&gt;&lt;p&gt;When evaluating mobile Android modifications, stability, package signature integrity, and runtime behavior are critical. In this teardown,… 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把包签名完整性当作判定第三方修改版可信度的首要字段，比「安全镜像」这类名号更可核验，可作为准入清单的反例教材。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 agent 部署有间接参照：第三方 APK 的验签逻辑同样适用于 WinVM 侧安装包准入判定的字段设计。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;抽取该 APK 两个镜像验签，若签名哈希一致率 100% 且运行时无额外联网，判定可作为 WinVM 安装包准入样本。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-09T21:50 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://dev.to/tanvir1704/technical-teardown-geometry-survivor-mod-apk-v10-architecture-safe-mirrors-2ce2" rel="noopener noreferrer"&gt;https://dev.to/tanvir1704/technical-teardown-geometry-survivor-mod-apk-v10-architecture-safe-mirrors-2ce2&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-10:e01056c942e15d49</ns0:id>
-    <ns0:title>[文档与变更] v0.40.16</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://github.com/ollama/ollama/releases/tag/v0.40.16" />
-    <ns0:published>2026-11-09T23:45:36Z</ns0:published>
-    <ns0:updated>2026-11-10T02:09:37.536152Z</ns0:updated>
-    <ns0:category term="docs-changelog" label="文档与变更" />
-    <ns0:summary type="text">Ripple Preview Ripple Preview from Ricursive Intelligence is a 65B dense model built for agentic coding. ollama run ripple-preview What's Changed Qwen3.8 Flash Next uses about 27 GiB less memory on Apple silicon ollama launch claude always routes Claude Code to the selected model ollama launch expla</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;ollama v0.40.16 收录 65B 的 Ripple Preview 编码模型，并让 Qwen3.8 Flash Next 在 Apple silicon 上少用 27 GiB 内存&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：0.40.16 / 65B / 27 GiB / 13.5 / 3.8 · 相关方：ollama / Ripple Preview / Ricursive Intelligence / Qwen3.8 / Claude Code / CUDA&lt;/p&gt;&lt;p&gt;Ripple Preview Ripple Preview from Ricursive Intelligence is a 65B dense model built for agentic coding. ollama run ripple-preview What&amp;#x27;s Changed Qwen3.8 Flash Next uses about 27 GiB less memory on Apple silicon ollama launch claude always routes Claude Code to the selected model ollama launch expla&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;除显存收益外还改了 /v1/responses 默认截断与 /v1/models 空返回值，属调用约定变化；只记版本号会漏掉必须回归的接口行为。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;直接关系 WorkBuddy LLM provider V1 的本地候选：27 GiB 内存下降决定模型能否常驻，长输出处理需按新默认行为回归。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在 Apple silicon 上对比 v0.40.15 与 v0.40.16 峰值内存，若下降 ≥ 27 GiB 且长输出 0 截断，判定可纳入本地常驻候选。&lt;/p&gt;&lt;p&gt;来源：ollama Releases · 发布于 2026-11-09T23:45 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/ollama/ollama/releases/tag/v0.40.16" rel="noopener noreferrer"&gt;https://github.com/ollama/ollama/releases/tag/v0.40.16&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-10:3bb5b3b2d995dfa0</ns0:id>
-    <ns0:title>[Agent 与工程] opensandbox-group/OpenSandbox</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://github.com/opensandbox-group/OpenSandbox" />
-    <ns0:published>2026-11-10T00:03:38.916000Z</ns0:published>
-    <ns0:updated>2026-11-10T02:09:37.536152Z</ns0:updated>
-    <ns0:category term="agent-engineering" label="Agent 与工程" />
-    <ns0:summary type="text">Secure, Fast, and Extensible Sandbox runtime for AI agents. Language: Python Stars: 16,914… 〔Folo分类:开源项目〕</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;opensandbox-group 开源 OpenSandbox，定位为面向 AI agents 的 Python 沙箱运行时，仓库标注 16,914 星&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：16,914 · 相关方：OpenSandbox / Python / AI agents&lt;/p&gt;&lt;p&gt;Secure, Fast, and Extensible Sandbox runtime for AI agents. Language: Python Stars: 16,914… 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把沙箱做成独立运行时而非宿主进程内的权限判断，与同日 claude-code 修复的 Bash 越沙箱问题形成呼应：隔离层正在外移。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;直接对应 WinVM Bridge 的沙箱层：独立 Python 运行时可降低 direct MCP-tools 调用越权的风险面。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;用 OpenSandbox 跑一次越权写入 smoke，若 0 violations 且隔离进程与宿主无共享句柄，判定可进入 WinVM 沙箱 PoC。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-10T00:03 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/opensandbox-group/OpenSandbox" rel="noopener noreferrer"&gt;https://github.com/opensandbox-group/OpenSandbox&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-10:318e4c96184b9fdb</ns0:id>
-    <ns0:title>[Agent 与工程] virattt/dexter</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://github.com/virattt/dexter" />
-    <ns0:published>2026-11-10T00:03:50.751000Z</ns0:published>
-    <ns0:updated>2026-11-10T02:09:37.536152Z</ns0:updated>
-    <ns0:category term="agent-engineering" label="Agent 与工程" />
-    <ns0:summary type="text">An autonomous agent for deep financial research Language: TypeScript Stars: 27,804 Forks: 3… 〔Folo分类:开源项目〕</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;GitHub 项目 virattt/dexter 以 TypeScript 实现面向深度金融研究的自主 agent，仓库标注 27,804 星&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：27,804 · 相关方：virattt/dexter / TypeScript&lt;/p&gt;&lt;p&gt;An autonomous agent for deep financial research Language: TypeScript Stars: 27,804 Forks: 3… 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;星数只说明关注度，摘要未给任务成功率或 handoff 契约；把它当架构样本前需先确认它返回的是结构化结果还是一段消息。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;A2A 委派路径的参照实现：可作为复杂任务委派的对比样本，但不能凭星数推断其多 agent 交接质量。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;给 dexter 派 3 个固定研究任务，若结构化结果返回率 ≥ 2/3，判定其 handoff 契约值得对照 A2A 实现。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-10T00:03 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/virattt/dexter" rel="noopener noreferrer"&gt;https://github.com/virattt/dexter&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-10:2f3c8b6e4ca8bc73</ns0:id>
-    <ns0:title>[Agent 与工程] Here's What Apple Fixed in iOS 27.2.1 and macOS 27.2.1</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://www.macrumors.com/2026/11/09/ios-27-2-1-security-fixes" />
-    <ns0:published>2026-11-09T23:07:16.442000Z</ns0:published>
-    <ns0:updated>2026-11-10T02:09:37.536152Z</ns0:updated>
-    <ns0:category term="agent-engineering" label="Agent 与工程" />
-    <ns0:summary type="text">Apple released iOS, iPadOS, and macOS 27.2.1 updates to fix multiple security vulnerabilities. These patches address issues in iMessage that permitted unauthorized access to group chat history, as well as AirPlay and Bluetooth flaws allowing malicious pairing and memory corruption. Additionally, the</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Apple 为 iOS、iPadOS 与 macOS 27.2.1 发布安全更新，修复 iMessage 群聊历史越权访问与 AirPlay、Bluetooth 恶意配对缺陷&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：27.2.1 · 相关方：Apple / iOS / iPadOS / macOS / iMessage / eMudhra&lt;/p&gt;&lt;p&gt;Apple released iOS, iPadOS, and macOS 27.2.1 updates to fix multiple security vulnerabilities. These patches address issues in iMessage that permitted unauthorized access to group chat history, as well as AirPlay and Bluetooth flaws allowing malicious pairing and memory corruption. Additionally, the&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;更新同时为命令行工具补上 eMudhra 证书防护，影响的不是功能而是本地脚本的信任链，公开细节后未升级设备的利用风险上升。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;本机 macOS 侧与 WinVM 命令行工具共享证书链，防护变更后需回归自动化脚本的签名校验，避免无人值守任务被静默拦截。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在 macOS 27.2.1 上跑一次签名脚本回归，若 eMudhra 相关校验失败次数为 0 且自动化任务全通过，判定升级不影响工具链。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-09T23:07 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.macrumors.com/2026/11/09/ios-27-2-1-security-fixes" rel="noopener noreferrer"&gt;https://www.macrumors.com/2026/11/09/ios-27-2-1-security-fixes&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-10:13932435604d30aa</ns0:id>
-    <ns0:title>[Agent 与工程] v2.1.321</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://github.com/anthropics/claude-code/releases/tag/v2.1.321" />
-    <ns0:published>2026-11-09T19:22:30Z</ns0:published>
-    <ns0:updated>2026-11-10T02:09:37.536152Z</ns0:updated>
-    <ns0:category term="agent-engineering" label="Agent 与工程" />
-    <ns0:summary type="text">What's changed Added Claude Fable 5.2 (claude-fable-5-2), now the default Fable model — 1M context, $8/$40 per Mtok with $0.20/Mtok cache reads Added --settings to claude remote-control, which applies a settings file to every session it starts; if the file changes, no new session starts until you re</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;claude-code v2.1.321 将 Claude Fable 5.2 设为默认模型，给出 1M 上下文定价，并修复 MCP OAuth 重定向泄露凭据等缺陷&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2.1.321 / 1M / $8/$40 / $0.20 / 5.2 · 相关方：Claude Fable 5.2 / MCP OAuth / claude remote-control / Claude Code / SEP-2352 / Bash&lt;/p&gt;&lt;p&gt;What&amp;#x27;s changed Added Claude Fable 5.2 (claude-fable-5-2), now the default Fable model — 1M context, $8/$40 per Mtok with $0.20/Mtok cache reads Added --settings to claude remote-control, which applies a settings file to every session it starts; if the file changes, no new session starts until you re&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;这次修复集中在信任边界：OAuth 重定向把 refresh token 发往另一主机、只读 Bash 越出沙箱、cp 与 mv 写入绕过 deny 规则，比模型升级更值得先回归。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;与 MCP、agent 部署强相关：三项缺陷要补进双端 setup 的回归断言集，否则 direct MCP-tools 调用链路存在凭据外发风险。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;构造一次 MCP OAuth 302 重定向并抓包，若非注册主机收到 refresh token 次数为 0，判定 v2.1.321 可纳入 agent 部署基线。&lt;/p&gt;&lt;p&gt;来源：claude-code Releases · 发布于 2026-11-09T19:22 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.321" rel="noopener noreferrer"&gt;https://github.com/anthropics/claude-code/releases/tag/v2.1.321&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-10:def0cbfaae458dc9</ns0:id>
-    <ns0:title>[模型与研究] Anthropic Launches Claude Fable 5.2 and Mythos 5.2</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://www.macrumors.com/2026/11/09/anthropic-launches-claude-fable-5-2" />
-    <ns0:published>2026-11-09T19:38:47.013000Z</ns0:published>
-    <ns0:updated>2026-11-10T02:09:37.536152Z</ns0:updated>
-    <ns0:category term="ai-models" label="模型与研究" />
-    <ns0:summary type="text">Anthropic has launched Claude Fable 5.2 and Mythos 5.2, featuring improved coding, reasoning, and vision capabilities. These models generate outputs up to 30 percent faster than previous versions, with Fable 5.2 also using fewer tokens on challenging tasks. While both models share the same underlyin</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2，称输出速度最高快 30 percent 且在技术科学基准上超过 Opus 5.5&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：5.2 / 30 / 5.5 · 相关方：Anthropic / Claude Fable 5.2 / Mythos 5.2 / Opus 5.5&lt;/p&gt;&lt;p&gt;Anthropic has launched Claude Fable 5.2 and Mythos 5.2, featuring improved coding, reasoning, and vision capabilities. These models generate outputs up to 30 percent faster than previous versions, with Fable 5.2 also using fewer tokens on challenging tasks. While both models share the same underlyin&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;两款模型同架构但 Fable 5.2 多了网络安全与生物护栏，说明差异已落在策略层而非能力层；30 percent 是厂商口径，缺独立复测。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 WorkBuddy 模型路由有影响：应按任务类型分流而非按速度单一指标选模型，护栏差异会改变敏感任务的可用集。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;分别跑 Fable 5.2 与 Mythos 5.2 各 10 次编码任务，若前者护栏拦截率更高且 30 percent 提速可复现，判定按任务分流。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-09T19:38 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.macrumors.com/2026/11/09/anthropic-launches-claude-fable-5-2" rel="noopener noreferrer"&gt;https://www.macrumors.com/2026/11/09/anthropic-launches-claude-fable-5-2&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-10:ac841c16ab1a0f7b</ns0:id>
-    <ns0:title>[模型与研究] llm-anthropic 0.31</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://simonwillison.net/2026/Nov/9/llm-anthropic" />
-    <ns0:published>2026-11-09T23:58:46Z</ns0:published>
-    <ns0:updated>2026-11-10T02:09:37.536152Z</ns0:updated>
-    <ns0:category term="ai-models" label="模型与研究" />
-    <ns0:summary type="text">Release: llm-anthropic 0.31 Anthropic released Fable 5.2 and Mythos 5.2 today. I've added them to llm-anthropic, so you can now run prompts through Fable 5.2 like this: uv tool install llm llm install llm-anthropic llm keys set anthropic # paste key here llm -m claude-fable-5.2 "Generate an SVG of a</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Simon Willison 发布 llm-anthropic 0.31 适配 Fable 5.2 与 Mythos 5.2，并实测五档推理档生成 SVG 的表现&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：0.31 / 5.2 / 128,000 / 5.5 · 相关方：llm-anthropic / Anthropic / Fable 5.2 / Mythos 5.2 / Opus 5.5&lt;/p&gt;&lt;p&gt;Release: llm-anthropic 0.31 Anthropic released Fable 5.2 and Mythos 5.2 today. I&amp;#x27;ve added them to llm-anthropic, so you can now run prompts through Fable 5.2 like this: uv tool install llm llm install llm-anthropic llm keys set anthropic # paste key here llm -m claude-fable-5.2 &amp;quot;Generate an SVG of a&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;适配速度虽快，但 max 档耗尽 128,000 token 后连图都返回不出，且这是 Fable 系列新出现、Opus 5.5 时代已有的同类故障，说明新模型的极限档不能默认信任。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 skill 与 automation 的模型调用有直接影响：长任务必须设 token 上限与超时回退，不能把单一推理档当作可靠执行路径。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;用同一提示词跑 max 档 10 次，若完整返回 ≥ 9 次且 token 消耗上限可控，判定可启用该推理档。&lt;/p&gt;&lt;p&gt;来源：Simon Willison&amp;#x27;s Weblog · 发布于 2026-11-09T23:58 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://simonwillison.net/2026/Nov/9/llm-anthropic" rel="noopener noreferrer"&gt;https://simonwillison.net/2026/Nov/9/llm-anthropic&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-09:991d00f8bf0c1caa</ns0:id>
-    <ns0:title>[文档与变更] 5 underrated PlayStation App features</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://www.engadget.com/2309256/underrated-playstation-app-features" />
-    <ns0:published>2026-11-08T19:00:00.559000Z</ns0:published>
-    <ns0:updated>2026-11-09T01:51:44.934256Z</ns0:updated>
-    <ns0:category term="docs-changelog" label="文档与变更" />
-    <ns0:summary type="text">The PlayStation App offers its users certain features that will make their lives easier, especially if they really love playing on their… 〔Folo分类:新奇产品〕</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;一篇清单文章列出 5 个被低估的 PlayStation App 功能，称可让用户使用更省事&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：5 · 相关方：PlayStation App&lt;/p&gt;&lt;p&gt;The PlayStation App offers its users certain features that will make their lives easier, especially if they really love playing on their… 〔Folo分类:新奇产品〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;用固定条数组织功能清单，读者可逐项核对是否真的被低估，而非接受一个整体评价。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;暂无直接影响：属消费应用功能清单，与 agent 部署及数据基建无工程交集，仅作清单式条目样本。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;逐项核对 5 个功能在当前客户端是否仍存在，若缺失超过 1 项则判定该清单已过期。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-08T19:00 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.engadget.com/2309256/underrated-playstation-app-features" rel="noopener noreferrer"&gt;https://www.engadget.com/2309256/underrated-playstation-app-features&lt;/a&gt;&lt;/p&gt;</ns0:content>
   </ns0:entry>
 </ns0:feed>

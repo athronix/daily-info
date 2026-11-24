@@ -5,10 +5,20 @@
   <ns0:subtitle>挖掘 · 聚合 · 研判 · 订阅；每条附原文链接；内容仅供参考，不构成投资建议</ns0:subtitle>
   <ns0:link rel="self" type="application/atom+xml" href="https://daily-info.local/docs.atom" />
   <ns0:link rel="alternate" type="text/html" href="https://daily-info.local/index.html" />
-  <ns0:updated>2026-11-21T01:46:30.047892Z</ns0:updated>
+  <ns0:updated>2026-11-24T01:58:57.872346Z</ns0:updated>
   <ns0:author>
     <ns0:name>Personal Daily Info</ns0:name>
   </ns0:author>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-24:800aeca2d3157fbc</ns0:id>
+    <ns0:title>[开发者工具与版本] v2.1.331</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://github.com/anthropics/claude-code/releases/tag/v2.1.331" />
+    <ns0:published>2026-11-23T21:34:41Z</ns0:published>
+    <ns0:updated>2026-11-24T01:58:57.872346Z</ns0:updated>
+    <ns0:category term="docs-changelog" label="开发者工具与版本" />
+    <ns0:summary type="text">What's changed Added Code Mode support in terminal sessions on Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry and Claude Platform on AWS Added oidc.groups_jsonpath to the Claude apps gateway, to read groups from the matching entries of a list of objects with a small subset of JSONP</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;claude-code 发布 v2.1.331：终端会话在 Bedrock、Microsoft Foundry 等平台加入 Code Mode 支持，并新增 oidc.groups_jsonpath 网关配置。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2.1.331 / 15 · 相关方：Code Mode / Amazon Bedrock / Microsoft Foundry / oidc.groups_jsonpath / claude doctor&lt;/p&gt;&lt;p&gt;What&amp;#x27;s changed Added Code Mode support in terminal sessions on Amazon Bedrock, Google Cloud&amp;#x27;s Agent Platform, Microsoft Foundry and Claude Platform on AWS Added oidc.groups_jsonpath to the Claude apps gateway, to read groups from the matching entries of a list of objects with a small subset of JSONP&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;2.1.331 是可逐字锁定的版本号，oidc.groups_jsonpath 改变网关取组方式；15 秒无语音自动停录是行为阈值，三者量纲不同。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 automation 与 MCP 网关最相关：升级前要核对 oidc.groups_jsonpath 的 JSONPath 子集是否覆盖现有 group 字段，否则定时任务权限会错配。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在 2 个非交互宿主各跑 1 次 claude doctor；若 API 连通段缺失或 groups 解析失败 ≥ 1 次，则判定暂缓升级到 2.1.331。&lt;/p&gt;&lt;p&gt;来源：claude-code Releases · 发布于 2026-11-23T21:34 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.331" rel="noopener noreferrer"&gt;https://github.com/anthropics/claude-code/releases/tag/v2.1.331&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:daily-info.local,2026-11-21:d098fa9800a7f8a2</ns0:id>
     <ns0:title>[论文与学术] A fish as old as Montana—the blue sucker discovered to live well over 100 years</ns0:title>

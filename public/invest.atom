@@ -5,10 +5,30 @@
   <ns0:subtitle>挖掘 · 聚合 · 研判 · 订阅；每条附原文链接；内容仅供参考，不构成投资建议</ns0:subtitle>
   <ns0:link rel="self" type="application/atom+xml" href="https://daily-info.local/invest.atom" />
   <ns0:link rel="alternate" type="text/html" href="https://daily-info.local/index.html" />
-  <ns0:updated>2026-11-21T01:46:30.047892Z</ns0:updated>
+  <ns0:updated>2026-11-24T01:58:57.872346Z</ns0:updated>
   <ns0:author>
     <ns0:name>Personal Daily Info</ns0:name>
   </ns0:author>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-24:37e360be5390856b</ns0:id>
+    <ns0:title>[论文与学术] South Africa's small cattle farmers need help before super El Niño hits: How to set up shade, water and feed</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://phys.org/news/2026-11-south-africa-small-cattle-farmers.html" />
+    <ns0:published>2026-11-23T22:30:04.504000Z</ns0:published>
+    <ns0:updated>2026-11-24T01:58:57.872346Z</ns0:updated>
+    <ns0:category term="market-invest" label="论文与学术" />
+    <ns0:summary type="text">In South Africa, more than 2 million smallholder households make a living through agriculture. Within this small-scale farming sector… 〔Folo分类:重大学术科研突破〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;phys.org 文章提示南非超过 2 million 小农户在超级 El Niño 来临前需要遮阴、供水与饲料支持，并给出可操作设置建议。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2 million · 相关方：South Africa / smallholder households / super El Niño&lt;/p&gt;&lt;p&gt;In South Africa, more than 2 million smallholder households make a living through agriculture. Within this small-scale farming sector… 〔Folo分类:重大学术科研突破〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;2 million 是受影响前的农户基数，不是已受助户数；标题里的 need help 是建议，原文没有给出覆盖率或损失估计。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;暂无直接影响：属农业气候适应建议，与自动化 / MCP / 数据基建无交集；仅作「基数与覆盖数分列」的口径样本。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对 2 份官方统计是否都给出 2 million 口径；若统计年份或农户定义不一致，则判定该基数不可比，不进汇总表。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-23T22:30 UTC · 归类：market-invest&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://phys.org/news/2026-11-south-africa-small-cattle-farmers.html" rel="noopener noreferrer"&gt;https://phys.org/news/2026-11-south-africa-small-cattle-farmers.html&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-24:4e6f333e31b9bdd5</ns0:id>
+    <ns0:title>[市场与投资] Malaysia Index Rejig Puts Tech, Power Stocks in Focus for 2027</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.bloomberg.com/news/articles/2026-11-24/malaysia-index-rejig-puts-tech-power-stocks-in-focus-for-2027" />
+    <ns0:published>2026-11-24T01:12:37Z</ns0:published>
+    <ns0:updated>2026-11-24T01:58:57.872346Z</ns0:updated>
+    <ns0:category term="market-invest" label="市场与投资" />
+    <ns0:summary type="text">Malaysia is gearing up for the first major overhaul of its equity benchmark in 17 years, a shake-up that may channel more investor money into technology and energy companies just as traders rethink the profitability of the AI trade.</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Bloomberg 报道马来西亚将对股票基准指数做 17 年来首次重大调整，可能把更多资金引向科技与能源公司。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：17 · 相关方：Malaysia / equity benchmark / AI trade&lt;/p&gt;&lt;p&gt;Malaysia is gearing up for the first major overhaul of its equity benchmark in 17 years, a shake-up that may channel more investor money into technology and energy companies just as traders rethink the profitability of the AI trade.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;17 是「距上次大改的年数」，不是调整幅度；报道只说 may channel，属可能性表述，不能读成资金流入结论。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建是状态标注样本：指数调整这类公开事实只进事实层并标来源，机构观点与资金流向推测另列，不构成投资判断。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对 2 份一手公告是否给出调整清单与生效日；若均无，则判定 17 年仅为背景描述，不进当期事件表。&lt;/p&gt;&lt;p&gt;来源：Bloomberg Markets · 发布于 2026-11-24T01:12 UTC · 归类：market-invest&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.bloomberg.com/news/articles/2026-11-24/malaysia-index-rejig-puts-tech-power-stocks-in-focus-for-2027" rel="noopener noreferrer"&gt;https://www.bloomberg.com/news/articles/2026-11-24/malaysia-index-rejig-puts-tech-power-stocks-in-focus-for-2027&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:daily-info.local,2026-11-21:d4c16ece0dea90cd</ns0:id>
     <ns0:title>[论文与学术] Does the Sun Have a Secret Companion? A Controversial Theory Could Explain Earth’s Mass Extinctions</ns0:title>

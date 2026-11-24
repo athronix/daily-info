@@ -5,8 +5,35 @@
     "timezone": "Asia/Shanghai",
     "version": "1.0.0"
   },
-  "generated_at": "2026-11-21T01:46:30.047892Z",
+  "generated_at": "2026-11-24T01:58:57.872346Z",
   "dates": [
+    {
+      "date": "2026-11-24",
+      "headline": "省 37% token 不等于更快，89.1 分不等于可用：今天能进部署门禁的是版本号、组件数与带条件的规格，不是漂亮的百分比",
+      "lead": "今日最硬的两个读数都带条件：Claude Code 的 Code Mode 社区实测大任务省 37% token 却不更快，v2.1.331 才把它落到 Bedrock 与 Foundry 的终端会话；Phonic-1.1 以 89.1 分登顶 Artificial Analysis 语音指数，Everything Claude Code 则打包 67 个 agents、281 个 skills、94 条 commands。",
+      "demo": false,
+      "stats": {
+        "sources_ok": 182,
+        "sources_total": 185,
+        "total_items": 2575,
+        "clusters": 2542,
+        "selected": 40,
+        "published_items": 13,
+        "seven_element_pass": 13,
+        "seven_element_ratio": 1.0,
+        "items_with_numbers": 13,
+        "substantive_number_ratio": 1.0,
+        "rejected_no_number": 0,
+        "unique_reference_domains": 8
+      },
+      "section_count": 7,
+      "item_count": 13,
+      "ai_status": "ok",
+      "seven_element_ratio": 1.0,
+      "theme_count": 7,
+      "watch_signal_count": 6,
+      "reference_domains": 8
+    },
     {
       "date": "2026-11-21",
       "headline": "版本号、百分比与规格能逐字回查并进门禁，型号尾数、发布日期与自写状态码只是声明；可接的是改动清单与可复现阈值，不是漂亮断言",

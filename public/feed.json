@@ -7,6 +7,253 @@
   "language": "zh-CN",
   "items": [
     {
+      "id": "tag:daily-info.local,2026-11-24:37e360be5390856b",
+      "url": "https://phys.org/news/2026-11-south-africa-small-cattle-farmers.html",
+      "title": "South Africa's small cattle farmers need help before super El Niño hits: How to set up shade, water and feed",
+      "summary": "phys.org 文章提示南非超过 2 million 小农户在超级 El Niño 来临前需要遮阴、供水与饲料支持，并给出可操作设置建议。 — 2 million 是受影响前的农户基数，不是已受助户数；标题里的 need help 是建议，原文没有给出覆盖率或损失估计。",
+      "content_html": "<p><strong>phys.org 文章提示南非超过 2 million 小农户在超级 El Niño 来临前需要遮阴、供水与饲料支持，并给出可操作设置建议。</strong></p><p>关键数字：2 million · 相关方：South Africa / smallholder households / super El Niño</p><p>In South Africa, more than 2 million smallholder households make a living through agriculture. Within this small-scale farming sector… 〔Folo分类:重大学术科研突破〕</p><p><strong>为什么值得看：</strong>2 million 是受影响前的农户基数，不是已受助户数；标题里的 need help 是建议，原文没有给出覆盖率或损失估计。</p><p><strong>对我意味着什么：</strong>暂无直接影响：属农业气候适应建议，与自动化 / MCP / 数据基建无交集；仅作「基数与覆盖数分列」的口径样本。</p><p><strong>下一步：</strong>核对 2 份官方统计是否都给出 2 million 口径；若统计年份或农户定义不一致，则判定该基数不可比，不进汇总表。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-23T22:30 UTC · 归类：market-invest</p><p>→ <a href=\"https://phys.org/news/2026-11-south-africa-small-cattle-farmers.html\" rel=\"noopener noreferrer\">https://phys.org/news/2026-11-south-africa-small-cattle-farmers.html</a></p>",
+      "date_published": "2026-11-23T22:30:04.504000Z",
+      "date_modified": "2026-11-24T01:58:57.872346Z",
+      "tags": [
+        "market-invest",
+        "论文与学术"
+      ],
+      "_daily_info": {
+        "score": 75.57,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "37e360be5390856b",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-24:c23c3c476d7f7950",
+      "url": "https://phys.org/news/2026-11-nasa-spacecraft-reveal-solar-tail.html",
+      "title": "NASA spacecraft data reveal how solar system's tail shifts over 14 years",
+      "summary": "phys.org 报道 Southwest Research Institute 主导的研究首次绘出日球尾瓣在 14 年周期里的运动路径，数据来自 NASA 航天器。 — 14 是观测窗口长度而非变化幅度；「首次绘出」说明结论受限于该窗口内的航天器覆盖，不能外推到更长周期。",
+      "content_html": "<p><strong>phys.org 报道 Southwest Research Institute 主导的研究首次绘出日球尾瓣在 14 年周期里的运动路径，数据来自 NASA 航天器。</strong></p><p>关键数字：14 · 相关方：NASA / Southwest Research Institute / heliotail</p><p>A Southwest Research Institute-led study is the first to map out the distinct motion paths of the heliotail lobes across a 14-year period… 〔Folo分类:重大学术科研突破〕</p><p><strong>为什么值得看：</strong>14 是观测窗口长度而非变化幅度；「首次绘出」说明结论受限于该窗口内的航天器覆盖，不能外推到更长周期。</p><p><strong>对我意味着什么：</strong>暂无直接影响：属空间物理科研，与 WorkBuddy / agent 部署 / 数据基建无交集；仅作「观测窗口需显式标注」的字段样本。</p><p><strong>下一步：</strong>核对论文是否给出 14 年窗口的起止与数据 gaps；若缺口超过 1 年未标注，则判定该窗口不可复算，只留作线索。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-23T23:20 UTC · 归类：research-papers</p><p>→ <a href=\"https://phys.org/news/2026-11-nasa-spacecraft-reveal-solar-tail.html\" rel=\"noopener noreferrer\">https://phys.org/news/2026-11-nasa-spacecraft-reveal-solar-tail.html</a></p>",
+      "date_published": "2026-11-23T23:20:08.154000Z",
+      "date_modified": "2026-11-24T01:58:57.872346Z",
+      "tags": [
+        "research-papers",
+        "论文与学术"
+      ],
+      "_daily_info": {
+        "score": 76.15,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "c23c3c476d7f7950",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-24:485decdaf4812bd7",
+      "url": "https://www.theverge.com/tech/1041000/kagi-mail-email-google-gmail-alternative",
+      "title": "Google alternative Kagi launches an email service",
+      "summary": "The Verge 报道 Kagi 推出 Kagi Mail 公测：无广告、走开放标准，提供 50GB 存储、内置日历与不限量别名，默认 @kagimail.com 地址。 — 50GB 是公测规格，contacts 与原生 App 分别排在 2027 年初与三季度；把规划功能当成已上线会高估当前完成度。",
+      "content_html": "<p><strong>The Verge 报道 Kagi 推出 Kagi Mail 公测：无广告、走开放标准，提供 50GB 存储、内置日历与不限量别名，默认 @kagimail.com 地址。</strong></p><p>关键数字：50GB · 相关方：Kagi / Kagi Mail / Gmail / @kagimail.com</p><p>Kagi has launched a public beta for Kagi Mail, a privacy-focused email service positioned as an alternative to Gmail. The service features no ads or surveillance, utilizes open standards, and provides 50GB of storage, a built-in calendar, and support for unlimited email aliases and domains. Users re</p><p><strong>为什么值得看：</strong>50GB 是公测规格，contacts 与原生 App 分别排在 2027 年初与三季度；把规划功能当成已上线会高估当前完成度。</p><p><strong>对我意味着什么：</strong>对数据基建与邮件通道是规格样本：容量、别名数、路线图要分列并标状态；本任务邮件仍走既有 agent-mail 通道，不据此切换。</p><p><strong>下一步：</strong>核对公测页 50GB 与 2027 路线状态；若 contacts 未在 early 2027 上线，则判定路线图需带状态列，规格与计划分存。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-24T00:02 UTC · 归类：security-governance</p><p>→ <a href=\"https://www.theverge.com/tech/1041000/kagi-mail-email-google-gmail-alternative\" rel=\"noopener noreferrer\">https://www.theverge.com/tech/1041000/kagi-mail-email-google-gmail-alternative</a></p>",
+      "date_published": "2026-11-24T00:02:52.788000Z",
+      "date_modified": "2026-11-24T01:58:57.872346Z",
+      "tags": [
+        "security-governance",
+        "安全与治理"
+      ],
+      "_daily_info": {
+        "score": 76.66,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "485decdaf4812bd7",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-24:4e6f333e31b9bdd5",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/malaysia-index-rejig-puts-tech-power-stocks-in-focus-for-2027",
+      "title": "Malaysia Index Rejig Puts Tech, Power Stocks in Focus for 2027",
+      "summary": "Bloomberg 报道马来西亚将对股票基准指数做 17 年来首次重大调整，可能把更多资金引向科技与能源公司。 — 17 是「距上次大改的年数」，不是调整幅度；报道只说 may channel，属可能性表述，不能读成资金流入结论。",
+      "content_html": "<p><strong>Bloomberg 报道马来西亚将对股票基准指数做 17 年来首次重大调整，可能把更多资金引向科技与能源公司。</strong></p><p>关键数字：17 · 相关方：Malaysia / equity benchmark / AI trade</p><p>Malaysia is gearing up for the first major overhaul of its equity benchmark in 17 years, a shake-up that may channel more investor money into technology and energy companies just as traders rethink the profitability of the AI trade.</p><p><strong>为什么值得看：</strong>17 是「距上次大改的年数」，不是调整幅度；报道只说 may channel，属可能性表述，不能读成资金流入结论。</p><p><strong>对我意味着什么：</strong>对数据基建是状态标注样本：指数调整这类公开事实只进事实层并标来源，机构观点与资金流向推测另列，不构成投资判断。</p><p><strong>下一步：</strong>核对 2 份一手公告是否给出调整清单与生效日；若均无，则判定 17 年仅为背景描述，不进当期事件表。</p><p>来源：Bloomberg Markets · 发布于 2026-11-24T01:12 UTC · 归类：market-invest</p><p>→ <a href=\"https://www.bloomberg.com/news/articles/2026-11-24/malaysia-index-rejig-puts-tech-power-stocks-in-focus-for-2027\" rel=\"noopener noreferrer\">https://www.bloomberg.com/news/articles/2026-11-24/malaysia-index-rejig-puts-tech-power-stocks-in-focus-for-2027</a></p>",
+      "date_published": "2026-11-24T01:12:37Z",
+      "date_modified": "2026-11-24T01:58:57.872346Z",
+      "tags": [
+        "market-invest",
+        "市场与投资"
+      ],
+      "_daily_info": {
+        "score": 78.01,
+        "source": "Bloomberg Markets",
+        "cluster_id": "4e6f333e31b9bdd5",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-24:92046e2a724c0237",
+      "url": "https://arex-research.com/feeds/5e6fb281-553a-4746-ac24-ac8d6da28f2d",
+      "title": "英伟达扩展 AI 供应链多年承诺：Kinsus 桃园专供 ABF 载板产能将提高逾 3.5 倍，Vera Rubin NVL72 已于三季度批量出货",
+      "summary": "智源社区快讯：英伟达宣布与 Amkor、Foxconn、Kinsus、TSMC 等扩大多年供应链承诺，标题称 Kinsus 桃园 ABF 载板产能将提高逾 3.5 倍。 — 3.5 倍是产能提升宣称、NVL72 是产品型号、三季度是时间标记；三者量纲不同，合起来读会高估已落地产能。",
+      "content_html": "<p><strong>智源社区快讯：英伟达宣布与 Amkor、Foxconn、Kinsus、TSMC 等扩大多年供应链承诺，标题称 Kinsus 桃园 ABF 载板产能将提高逾 3.5 倍。</strong></p><p>关键数字：3.5 · 相关方：英伟达 / Kinsus / ABF 载板 / Vera Rubin NVL72 / Amkor Technology / TSMC</p><p>资讯｜英伟达于 11 月 17 日在官网宣布，与 Amkor Technology、Foxconn、Kinsus Interconnect Technology、Samsung Electro-Mechanics、SPIL（Siliconware Precision Industries，矽品精密）和 TSMC 等供应链伙伴扩大多年承诺，在载板、先进封装、晶圆与代…</p><p><strong>为什么值得看：</strong>3.5 倍是产能提升宣称、NVL72 是产品型号、三季度是时间标记；三者量纲不同，合起来读会高估已落地产能。</p><p><strong>对我意味着什么：</strong>对数据基建的算力供给是上游线索：产能承诺属多年框架，不等于当期出货；规格与协议状态要分列，不进落地清单。</p><p><strong>下一步：</strong>找 2 份供应链一手公告核对 3.5 倍；若一致家数少于 2 或无交付节点，则判定仅为厂商口径，标 unverified 留线索池。</p><p>来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-23T19:32 UTC · 归类：security-governance</p><p>证据状态：未独立验证</p><p>→ <a href=\"https://arex-research.com/feeds/5e6fb281-553a-4746-ac24-ac8d6da28f2d\" rel=\"noopener noreferrer\">https://arex-research.com/feeds/5e6fb281-553a-4746-ac24-ac8d6da28f2d</a></p>",
+      "date_published": "2026-11-23T19:32:00Z",
+      "date_modified": "2026-11-24T01:58:57.872346Z",
+      "tags": [
+        "security-governance",
+        "产业与资本"
+      ],
+      "_daily_info": {
+        "score": 75.26,
+        "source": "智源社区 · 最新分享（匿名 API）",
+        "cluster_id": "92046e2a724c0237",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-24:388f4aa5f277fc66",
+      "url": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios",
+      "title": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
+      "summary": "TechCrunch 报道初创公司 Supertake 融资 $20M，产品让 AI agents 把用户的市场判断转成股票组合，用户无需自己挑个股。 — $20M 是融资额，不是管理规模或收益；「把预测转成组合」是产品描述，原文没有给出任何回测或合规口径。",
+      "content_html": "<p><strong>TechCrunch 报道初创公司 Supertake 融资 $20M，产品让 AI agents 把用户的市场判断转成股票组合，用户无需自己挑个股。</strong></p><p>关键数字：$20M · 相关方：Supertake / AI agents / stock portfolios</p><p>Think you know where the market is headed? A startup called Supertake lets you put money behind your ideas without having to pick the stocks… 〔Folo分类:AI技术与应用〕</p><p><strong>为什么值得看：</strong>$20M 是融资额，不是管理规模或收益；「把预测转成组合」是产品描述，原文没有给出任何回测或合规口径。</p><p><strong>对我意味着什么：</strong>对 automation 是边界提醒：涉及持仓与组合生成的能力不纳入本任务评估范围，只记录融资金额这一公开事实，不构成任何投资建议。</p><p><strong>下一步：</strong>核对 2 份一手融资公告是否确认 $20M；若仅媒体单方报道且无轮次信息，则判定金额标 unverified，只留线索池。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-23T22:02 UTC · 归类：agent-engineering</p><p>→ <a href=\"https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios\" rel=\"noopener noreferrer\">https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios</a></p>",
+      "date_published": "2026-11-23T22:02:05.639000Z",
+      "date_modified": "2026-11-24T01:58:57.872346Z",
+      "tags": [
+        "agent-engineering",
+        "产业与资本"
+      ],
+      "_daily_info": {
+        "score": 76.86,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "388f4aa5f277fc66",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-24:b01e5b086eae0d49",
+      "url": "https://dev.to/hon6/replying-to-codex-desktop-2611-sessions-from-your-phone-what-kiteline-34952-can-and-cant-do-2ja7",
+      "title": "Replying to Codex desktop 26.11 sessions from your phone: what Kiteline 3.49.52 can and can't do",
+      "summary": "dev.to 文章称 Codex desktop 26.11 停止向其它应用暴露会话控制，跟随该接口的第三方工具掉线，作者评估 Kiteline 3.49.52 的手机回复能力。 — 26.11 与 3.49.52 是两端版本号；接口一变第三方就掉线，说明跨应用会话控制是未承诺的私有面，不是稳定契约。",
+      "content_html": "<p><strong>dev.to 文章称 Codex desktop 26.11 停止向其它应用暴露会话控制，跟随该接口的第三方工具掉线，作者评估 Kiteline 3.49.52 的手机回复能力。</strong></p><p>关键数字：26.11 / 3.49.52 · 相关方：Codex desktop / Kiteline / Codex</p><p>Codex desktop 26.11 stopped exposing session control to other apps. Any tool that followed Codex sessions through that interface dropped to… 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>26.11 与 3.49.52 是两端版本号；接口一变第三方就掉线，说明跨应用会话控制是未承诺的私有面，不是稳定契约。</p><p><strong>对我意味着什么：</strong>对 agent 部署与 WinVM 桥接是同构风险：依赖宿主私有接口的自动化要有降级路径，不能把「能连上」当成长期保证。</p><p><strong>下一步：</strong>在 2 台宿主各验证 1 次手机回复；若任一因 26.11 接口变更失败且无降级通道，则判定该链路不进自动化基线。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-24T00:10 UTC · 归类：dev-tools</p><p>→ <a href=\"https://dev.to/hon6/replying-to-codex-desktop-2611-sessions-from-your-phone-what-kiteline-34952-can-and-cant-do-2ja7\" rel=\"noopener noreferrer\">https://dev.to/hon6/replying-to-codex-desktop-2611-sessions-from-your-phone-what-kiteline-34952-can-and-cant-do-2ja7</a></p>",
+      "date_published": "2026-11-24T00:10:13.037000Z",
+      "date_modified": "2026-11-24T01:58:57.872346Z",
+      "tags": [
+        "dev-tools",
+        "开发者工具与版本"
+      ],
+      "_daily_info": {
+        "score": 76.75,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "b01e5b086eae0d49",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-24:800aeca2d3157fbc",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.331",
+      "title": "v2.1.331",
+      "summary": "claude-code 发布 v2.1.331：终端会话在 Bedrock、Microsoft Foundry 等平台加入 Code Mode 支持，并新增 oidc.groups_jsonpath 网关配置。 — 2.1.331 是可逐字锁定的版本号，oidc.groups_jsonpath 改变网关取组方式；15 秒无语音自动停录是行为阈值，三者量纲不同。",
+      "content_html": "<p><strong>claude-code 发布 v2.1.331：终端会话在 Bedrock、Microsoft Foundry 等平台加入 Code Mode 支持，并新增 oidc.groups_jsonpath 网关配置。</strong></p><p>关键数字：2.1.331 / 15 · 相关方：Code Mode / Amazon Bedrock / Microsoft Foundry / oidc.groups_jsonpath / claude doctor</p><p>What&#x27;s changed Added Code Mode support in terminal sessions on Amazon Bedrock, Google Cloud&#x27;s Agent Platform, Microsoft Foundry and Claude Platform on AWS Added oidc.groups_jsonpath to the Claude apps gateway, to read groups from the matching entries of a list of objects with a small subset of JSONP</p><p><strong>为什么值得看：</strong>2.1.331 是可逐字锁定的版本号，oidc.groups_jsonpath 改变网关取组方式；15 秒无语音自动停录是行为阈值，三者量纲不同。</p><p><strong>对我意味着什么：</strong>对 automation 与 MCP 网关最相关：升级前要核对 oidc.groups_jsonpath 的 JSONPath 子集是否覆盖现有 group 字段，否则定时任务权限会错配。</p><p><strong>下一步：</strong>在 2 个非交互宿主各跑 1 次 claude doctor；若 API 连通段缺失或 groups 解析失败 ≥ 1 次，则判定暂缓升级到 2.1.331。</p><p>来源：claude-code Releases · 发布于 2026-11-23T21:34 UTC · 归类：docs-changelog</p><p>→ <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.331\" rel=\"noopener noreferrer\">https://github.com/anthropics/claude-code/releases/tag/v2.1.331</a></p>",
+      "date_published": "2026-11-23T21:34:41Z",
+      "date_modified": "2026-11-24T01:58:57.872346Z",
+      "tags": [
+        "docs-changelog",
+        "开发者工具与版本"
+      ],
+      "_daily_info": {
+        "score": 79.76,
+        "source": "claude-code Releases",
+        "cluster_id": "800aeca2d3157fbc",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-24:256f6e833ab051d4",
+      "url": "https://www.macrumors.com/2026/11/23/openai-gpt-6-2-sol-chatgpt",
+      "title": "OpenAI Brings GPT-6.2 Sol to ChatGPT's Chat Tab",
+      "summary": "MacRumors 报道 OpenAI 把 GPT-6.2 Sol 部署到 ChatGPT 的 Chat 标签页，面向 Plus、Pro 等付费档，称策略遵循率达 91–94 percent。 — 91–94 percent 是策略遵循率区间，不是能力总分；报道写明 Free 与 Go 套餐不在本次覆盖内，结论只对付费档成立。",
+      "content_html": "<p><strong>MacRumors 报道 OpenAI 把 GPT-6.2 Sol 部署到 ChatGPT 的 Chat 标签页，面向 Plus、Pro 等付费档，称策略遵循率达 91–94 percent。</strong></p><p>关键数字：91 / 94 · 相关方：OpenAI / GPT-6.2 Sol / ChatGPT / Codex / Plus</p><p>OpenAI has deployed GPT-6.2 Sol to ChatGPT’s Chat tab for Plus, Pro, Business, and Enterprise users. This specialized model offers enhanced capabilities for detailed conversation, complex requests, and image analysis, such as recognizing fine visual details. It also improves online decision-making a</p><p><strong>为什么值得看：</strong>91–94 percent 是策略遵循率区间，不是能力总分；报道写明 Free 与 Go 套餐不在本次覆盖内，结论只对付费档成立。</p><p><strong>对我意味着什么：</strong>对 agent 部署是分层提醒：模型可用范围与订阅档位绑定，选型表要标「可用档位」字段，不能把付费档读数当成全局基线。</p><p><strong>下一步：</strong>核对 2 份官方安全评测是否给出 91 与 94 的测试集；若两值来自不同测试集，则判定区间不可合并，按测试集分列。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-23T23:52 UTC · 归类：deep-read</p><p>→ <a href=\"https://www.macrumors.com/2026/11/23/openai-gpt-6-2-sol-chatgpt\" rel=\"noopener noreferrer\">https://www.macrumors.com/2026/11/23/openai-gpt-6-2-sol-chatgpt</a></p>",
+      "date_published": "2026-11-23T23:52:41.343000Z",
+      "date_modified": "2026-11-24T01:58:57.872346Z",
+      "tags": [
+        "deep-read",
+        "模型与研究"
+      ],
+      "_daily_info": {
+        "score": 78.13,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "256f6e833ab051d4",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-24:ec4ffddf57c2d97d",
+      "url": "https://arex-research.com/feeds/d9ff3c57-fe11-446f-bc28-9af3ff4a5351",
+      "title": "Anthropic 在 Claude Code 新增实验性 Code Mode：模型写 JavaScript 编排工具调用，社区实测大任务省 37% token 但不更快",
+      "summary": "智源社区快讯：Anthropic 在 Claude Code v2.1.323 及以上加入实验性 Code Mode，模型写 JavaScript 编排工具调用，社区实测大任务省 37% token 但不更快。 — 37% 是 token 降幅而「不更快」是耗时结论；同一实测给出方向相反的两个判断，正说明成本口径与体验口径不能合并。",
+      "content_html": "<p><strong>智源社区快讯：Anthropic 在 Claude Code v2.1.323 及以上加入实验性 Code Mode，模型写 JavaScript 编排工具调用，社区实测大任务省 37% token 但不更快。</strong></p><p>关键数字：37% / 2.1.323 · 相关方：Anthropic / Claude Code / Code Mode / JavaScript / Bash</p><p>资讯｜Anthropic 在 Claude Code v2.1.323 及以上版本中加入了实验性功能 Code Mode：模型不再逐个请求 Bash、Read 或 Edit 这类工具调用，而是写一段 JavaScript 来编排它们——一段代码可以并行执行多条命令，把上一步的结果传给下一步，并只把模型需要读的那部分输出送回上下文。该功能默认关闭，要设置环境变量 C…</p><p><strong>为什么值得看：</strong>37% 是 token 降幅而「不更快」是耗时结论；同一实测给出方向相反的两个判断，正说明成本口径与体验口径不能合并。</p><p><strong>对我意味着什么：</strong>对 MCP 与 agent 部署最关键：工具编排方式直接影响子 agent 的上下文用量，但功能默认关闭、需设环境变量，接入前必须跑 smoke 对照。</p><p><strong>下一步：</strong>同一批大任务在 2 个宿主各跑 3 次；若 token 降幅达 37% 而墙钟耗时未下降的次数 ≥ 2，则判定只算省成本、不写提速结论。</p><p>来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-23T19:26 UTC · 归类：ai-models</p><p>→ <a href=\"https://arex-research.com/feeds/d9ff3c57-fe11-446f-bc28-9af3ff4a5351\" rel=\"noopener noreferrer\">https://arex-research.com/feeds/d9ff3c57-fe11-446f-bc28-9af3ff4a5351</a></p>",
+      "date_published": "2026-11-23T19:26:00Z",
+      "date_modified": "2026-11-24T01:58:57.872346Z",
+      "tags": [
+        "ai-models",
+        "Agent 与工程"
+      ],
+      "_daily_info": {
+        "score": 76.8,
+        "source": "智源社区 · 最新分享（匿名 API）",
+        "cluster_id": "ec4ffddf57c2d97d",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-24:dd8bbb5035543189",
+      "url": "https://arex-research.com/feeds/94fd0677-b44b-4434-80be-6d0d5fc6bc32",
+      "title": "Phonic 发布 Phonic-1.1，以 89.1 分登顶 Artificial Analysis 语音对语音指数，不到一个月就取代自家 Phonic 1",
+      "summary": "智源社区快讯：旧金山公司 Phonic 发布 Phonic-1.1，称以 89.1 分登顶 Artificial Analysis 语音对语音指数，距 Phonic 1 不到一个月。 — 89.1 是榜单分数，1.1 是版本号，不到一个月是迭代间隔；分数不带测试集与并发条件，不能直接换算成部署收益。",
+      "content_html": "<p><strong>智源社区快讯：旧金山公司 Phonic 发布 Phonic-1.1，称以 89.1 分登顶 Artificial Analysis 语音对语音指数，距 Phonic 1 不到一个月。</strong></p><p>关键数字：89.1 / 1.1 · 相关方：Phonic / Phonic-1.1 / Artificial Analysis / speech-to-speech / agentic</p><p>资讯｜北京时间 11 月 24 日凌晨（美国太平洋时间 23 日上午），旧金山语音模型公司 Phonic 在 X 上发布新一代 speech-to-speech（语音对语音）模型 Phonic-1.1，官方帖文写道：“三周前，我们发布了 Phonic-1。今天，我们推出 Phonic-1.1。Phonic-1.1 依然是面向 agentic（智能体式）任务最先进的…</p><p><strong>为什么值得看：</strong>89.1 是榜单分数，1.1 是版本号，不到一个月是迭代间隔；分数不带测试集与并发条件，不能直接换算成部署收益。</p><p><strong>对我意味着什么：</strong>对 agent 部署的语音链路是选型线索：面向 agentic 任务的 speech-to-speech 模型要按榜单口径、延迟、并发分列评估，先入线索池不进基线。</p><p><strong>下一步：</strong>对照 Artificial Analysis 榜单 2 个版本核对 89.1；若测试集或评分版本未披露，则判定该分数仅作位次，不进选型矩阵。</p><p>来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-23T19:36 UTC · 归类：agent-engineering</p><p>证据状态：未独立验证</p><p>→ <a href=\"https://arex-research.com/feeds/94fd0677-b44b-4434-80be-6d0d5fc6bc32\" rel=\"noopener noreferrer\">https://arex-research.com/feeds/94fd0677-b44b-4434-80be-6d0d5fc6bc32</a></p>",
+      "date_published": "2026-11-23T19:36:00Z",
+      "date_modified": "2026-11-24T01:58:57.872346Z",
+      "tags": [
+        "agent-engineering",
+        "Agent 与工程"
+      ],
+      "_daily_info": {
+        "score": 76.9,
+        "source": "智源社区 · 最新分享（匿名 API）",
+        "cluster_id": "dd8bbb5035543189",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-24:7038b6b26a31768f",
+      "url": "https://dev.to/dimsbuild/should-you-install-everything-claude-code-the-all-in-one-kit-gone-viral-2lme",
+      "title": "Should You Install Everything Claude Code, the All-in-One Kit Gone Viral?",
+      "summary": "dev.to 文章盘点走红的一体化套件 Everything Claude Code，摘要称打包 67 个 agents、281 个 skills、94 条 commands 与扫描器 AgentShield。 — 67/281/94 是可清点的组件数，但文章标题本身在问「该不该全装」；数量多与适配当前 workflow 是两件事。",
+      "content_html": "<p><strong>dev.to 文章盘点走红的一体化套件 Everything Claude Code，摘要称打包 67 个 agents、281 个 skills、94 条 commands 与扫描器 AgentShield。</strong></p><p>关键数字：67 / 281 / 94 · 相关方：Everything Claude Code / ECC / AgentShield / Claude Code</p><p>TL;DR ECC, Everything Claude Code, bundles 67 agents, 281 skills, 94 commands, and a homegrown security scanner, AgentShield, for… 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>67/281/94 是可清点的组件数，但文章标题本身在问「该不该全装」；数量多与适配当前 workflow 是两件事。</p><p><strong>对我意味着什么：</strong>对 skill 与 agent 部署最相关：这类 all-in-one kit 若整体装入，会与现有 namespace skills 冲突，应逐项比对再决定取用。</p><p><strong>下一步：</strong>清点仓库 2 次核对 281 skills 与 94 commands；若任一数字与清单不符或重复 skill 名 ≥ 3 个，则判定不整体接入。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-23T23:45 UTC · 归类：agent-engineering</p><p>→ <a href=\"https://dev.to/dimsbuild/should-you-install-everything-claude-code-the-all-in-one-kit-gone-viral-2lme\" rel=\"noopener noreferrer\">https://dev.to/dimsbuild/should-you-install-everything-claude-code-the-all-in-one-kit-gone-viral-2lme</a></p>",
+      "date_published": "2026-11-23T23:45:09.312000Z",
+      "date_modified": "2026-11-24T01:58:57.872346Z",
+      "tags": [
+        "agent-engineering",
+        "Agent 与工程"
+      ],
+      "_daily_info": {
+        "score": 81.05,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "7038b6b26a31768f",
+        "ai_status": "ok"
+      }
+    },
+    {
+      "id": "tag:daily-info.local,2026-11-24:73bb01d572da73a2",
+      "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
+      "title": "samuelgursky/davinci-resolve-mcp",
+      "summary": "GitHub 项目 davinci-resolve-mcp 提供 DaVinci Resolve Studio 的 MCP server 集成，摘要列出 Stars 4,313、Forks 493。 — 4,313 与 493 是仓库热度，不是功能完成度；MCP server 能否稳定驱动剪辑工程，摘要没有给出任何调用成功率或延迟。",
+      "content_html": "<p><strong>GitHub 项目 davinci-resolve-mcp 提供 DaVinci Resolve Studio 的 MCP server 集成，摘要列出 Stars 4,313、Forks 493。</strong></p><p>关键数字：4,313 / 493 · 相关方：davinci-resolve-mcp / MCP / DaVinci Resolve Studio / Python</p><p>MCP server integration for DaVinci Resolve Studio Language: Python Stars: 4,313 Forks: 493… 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>4,313 与 493 是仓库热度，不是功能完成度；MCP server 能否稳定驱动剪辑工程，摘要没有给出任何调用成功率或延迟。</p><p><strong>对我意味着什么：</strong>与 MCP 关注面直接相关：接入前要按工具清单逐个验证，Stars 只能当线索，不能当 WinVM 侧部署门禁的通过依据。</p><p><strong>下一步：</strong>对照仓库 README 清点 2 次暴露的工具列表；若工具数与文档不一致或 smoke 调用失败 ≥ 1 次，则判定暂不接入 MCP 基线。</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-24T00:03 UTC · 归类：agent-engineering</p><p>→ <a href=\"https://github.com/samuelgursky/davinci-resolve-mcp\" rel=\"noopener noreferrer\">https://github.com/samuelgursky/davinci-resolve-mcp</a></p>",
+      "date_published": "2026-11-24T00:03:16.532000Z",
+      "date_modified": "2026-11-24T01:58:57.872346Z",
+      "tags": [
+        "agent-engineering",
+        "Agent 与工程"
+      ],
+      "_daily_info": {
+        "score": 81.26,
+        "source": "Folo 订阅池基线（人工筛选信源）",
+        "cluster_id": "73bb01d572da73a2",
+        "ai_status": "ok"
+      }
+    },
+    {
       "id": "tag:daily-info.local,2026-11-21:6b69e281acd21dc4",
       "url": "https://www.yankodesign.com/2026/11/20/this-tiny-damascus-steel-knife-is-the-size-of-a-car-key-and-weighs-1-4-ounces",
       "title": "This tiny Damascus steel knife is the size of a car key and weighs 1.4 ounces",
@@ -1656,253 +1903,6 @@
         "score": 75.84,
         "source": "Folo 订阅池基线（人工筛选信源）",
         "cluster_id": "94d5fd03df4fff4e",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-15:8a958749f044f5b6",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMjQyNzQ5MA%3D%3D&mid=2247738293&idx=3&sn=93f89308215629600324e4e8dfc78413&chksm=e9bfd73c417eb8115fd1b632654d40ab68b89b54b194fc37d201e3d80efe209d8e2a7ac78b27&scene=0&xtrack=1",
-      "title": "见证未来：AI加速中的人类科技演化｜未来学读书会第九期",
-      "summary": "OpenAI 公开 700 余份 AI 数学手稿后，未来学读书会第 9 期把「AI 生成成果如何转为可靠知识」设为主题 — 答案供给暴增而验证能力滞后，瓶颈从生成侧移到核验侧；数学家呼吁暂停用封闭模型测高等数学难题即这一失衡的回声",
-      "content_html": "<p><strong>OpenAI 公开 700 余份 AI 数学手稿后，未来学读书会第 9 期把「AI 生成成果如何转为可靠知识」设为主题</strong></p><p>关键数字：700 / 9 · 相关方：OpenAI / 陶哲轩 / 上海人工智能实验室 / 徐兴成</p><p>AI、生成模型、深度学习｜今年10月，OpenAI公开700余份AI数学手稿，引发学界对AI批量解题的反思。陶哲轩等数学家警示：过度依赖AI恐削弱深层数学理解；独立顾问组呼吁暂停用封闭模型测试高等数学难题。在答案“潮水般涌现”的背景下，验证滞后成为关键瓶颈。上海人工智能实验室徐兴成博士将在未来学读书会第9期，以《见证未来：AI加速中的人类科技演化》为题，聚焦核心问题——AI生成成果如何转化为可靠的科学知识。</p><p><strong>为什么值得看：</strong>答案供给暴增而验证能力滞后，瓶颈从生成侧移到核验侧；数学家呼吁暂停用封闭模型测高等数学难题即这一失衡的回声</p><p><strong>对我意味着什么：</strong>对每日信息流水线的白名单溯源闸门是正面印证：确定性脚本做索引、AI 只做研判，正是把核验成本固化进流程</p><p><strong>下一步：</strong>统计本轮入报条目的白名单丢弃数，若 invented_numbers_dropped 或 rejected_no_substantive_number 不为 0 则先修素材再发报</p><p>来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-14T15:20 UTC · 归类：deep-read</p><p>→ <a href=\"https://mp.weixin.qq.com/s?__biz=MzIzMjQyNzQ5MA%3D%3D&amp;mid=2247738293&amp;idx=3&amp;sn=93f89308215629600324e4e8dfc78413&amp;chksm=e9bfd73c417eb8115fd1b632654d40ab68b89b54b194fc37d201e3d80efe209d8e2a7ac78b27&amp;scene=0&amp;xtrack=1\" rel=\"noopener noreferrer\">https://mp.weixin.qq.com/s?__biz=MzIzMjQyNzQ5MA%3D%3D&amp;mid=2247738293&amp;idx=3&amp;sn=93f89308215629600324e4e8dfc78413&amp;chksm=e9bfd73c417eb8115fd1b632654d40ab68b89b54b194fc37d201e3d80efe209d8e2a7ac78b27&amp;scene=0&amp;xtrack=1</a></p>",
-      "date_published": "2026-11-14T15:20:00Z",
-      "date_modified": "2026-11-14T22:53:41.482428Z",
-      "tags": [
-        "deep-read",
-        "深度长文"
-      ],
-      "_daily_info": {
-        "score": 76.11,
-        "source": "智源社区 · 最新分享（匿名 API）",
-        "cluster_id": "8a958749f044f5b6",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-15:15b6fbabb889152f",
-      "url": "https://www.cbc.ca/news/canada/linkedin-monster-take-down-over-1-000-fake-job-postings-after-cbc-investigation-9.7415379",
-      "title": "LinkedIn, Monster take down over 1000 fake job postings after CBC investigation",
-      "summary": "LinkedIn 与 Monster 在 CBC 调查后下架超过 1000 条虚假招聘信息 — 平台在媒体调查后才批量清理，说明内容审核是被动触发而非默认门禁，成本被外部化给了求职者",
-      "content_html": "<p><strong>LinkedIn 与 Monster 在 CBC 调查后下架超过 1000 条虚假招聘信息</strong></p><p>关键数字：1000 · 相关方：LinkedIn / Monster / CBC</p><p>Comments 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>平台在媒体调查后才批量清理，说明内容审核是被动触发而非默认门禁，成本被外部化给了求职者</p><p><strong>对我意味着什么：</strong>对 automation 与 agent 部署有直接影响：任何自动发布通道都应把「发布前校验」做成硬闸门，而不是事后回删</p><p><strong>下一步：</strong>在自家发布链路跑一次发布前校验并统计被拦条数，若拦截数为 0 且人工抽检仍发现占位内容则判定门禁失效</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-14T18:56 UTC · 归类：dev-tools</p><p>→ <a href=\"https://www.cbc.ca/news/canada/linkedin-monster-take-down-over-1-000-fake-job-postings-after-cbc-investigation-9.7415379\" rel=\"noopener noreferrer\">https://www.cbc.ca/news/canada/linkedin-monster-take-down-over-1-000-fake-job-postings-after-cbc-investigation-9.7415379</a></p>",
-      "date_published": "2026-11-14T18:56:47.413000Z",
-      "date_modified": "2026-11-14T22:53:41.482428Z",
-      "tags": [
-        "dev-tools",
-        "开发者工具与版本"
-      ],
-      "_daily_info": {
-        "score": 76.75,
-        "source": "Folo 订阅池基线（人工筛选信源）",
-        "cluster_id": "15b6fbabb889152f",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-15:73d9d5b1e9033a86",
-      "url": "https://x.com/i/broadcasts/2brajgZlOKRMka",
-      "title": "SpaceX Catches the Starship to end Flight 15",
-      "summary": "SpaceX 以「筷子」方式回收 Starship，为 Flight 15 收尾 — 同一事件在 Folo 基线里以极短文本出现，说明订阅池能提供事实骨架，却给不出可核验的技术细节",
-      "content_html": "<p><strong>SpaceX 以「筷子」方式回收 Starship，为 Flight 15 收尾</strong></p><p>关键数字：15 · 相关方：SpaceX / Starship</p><p>Comments 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>同一事件在 Folo 基线里以极短文本出现，说明订阅池能提供事实骨架，却给不出可核验的技术细节</p><p><strong>对我意味着什么：</strong>对数据基建有直接影响：摘要只有 Comments 的条目应进补摘要待办清单，不能靠标题里的序号充当完整事实</p><p><strong>下一步：</strong>对照同事件独立源的 Flight 15 表述逐字段比对，若 2 个以上来源对「哪一级被捕获」说法冲突则标记为口径不一致</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-14T21:22 UTC · 归类：dev-tools</p><p>→ <a href=\"https://x.com/i/broadcasts/2brajgZlOKRMka\" rel=\"noopener noreferrer\">https://x.com/i/broadcasts/2brajgZlOKRMka</a></p>",
-      "date_published": "2026-11-14T21:22:24.127000Z",
-      "date_modified": "2026-11-14T22:53:41.482428Z",
-      "tags": [
-        "dev-tools",
-        "开发者工具与版本"
-      ],
-      "_daily_info": {
-        "score": 78.44,
-        "source": "Folo 订阅池基线（人工筛选信源）",
-        "cluster_id": "73d9d5b1e9033a86",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-15:8f2daa11c5051ada",
-      "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm",
-      "title": "Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM",
-      "summary": "Nvidia 开发者博客记录用 vLLM 在两台 DGX 上把 GLM-5.3 跑到 607.8 tok/s — 摘要明确只给出吞吐数字、没有并发数或序列长度，单看 607.8 tok/s 无法判断是单请求还是聚合吞吐",
-      "content_html": "<p><strong>Nvidia 开发者博客记录用 vLLM 在两台 DGX 上把 GLM-5.3 跑到 607.8 tok/s</strong></p><p>关键数字：5.3 / 607.8 · 相关方：GLM-5.3 / Nvidia DGX / vLLM</p><p>The text states that the GLM-5.3 model was served at a speed of 607.8 tokens per second. This performance was achieved using two Nvidia DGX stations with the vLLM inference framework. No further details are provided in the source material. 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>摘要明确只给出吞吐数字、没有并发数或序列长度，单看 607.8 tok/s 无法判断是单请求还是聚合吞吐</p><p><strong>对我意味着什么：</strong>对本地推理选型是反向参照：缺上下文的吞吐读数不能直接与单机 209 tok/s 对比，需先对齐批次与序列长度</p><p><strong>下一步：</strong>查该博客是否给出并发数与序列长度，若两项任一缺失则把 607.8 tok/s 标为不可比读数、不入基准表</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-14T14:09 UTC · 归类：ai-models</p><p>证据状态：未独立验证</p><p>→ <a href=\"https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm\" rel=\"noopener noreferrer\">https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm</a></p>",
-      "date_published": "2026-11-14T14:09:25.786000Z",
-      "date_modified": "2026-11-14T22:53:41.482428Z",
-      "tags": [
-        "ai-models",
-        "模型与研究"
-      ],
-      "_daily_info": {
-        "score": 73.84,
-        "source": "Folo 订阅池基线（人工筛选信源）",
-        "cluster_id": "8f2daa11c5051ada",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-15:423d06e41442f92b",
-      "url": "https://dev.to/delimitter/edge0-ai-open-sources-edge0-145b-a-145-billion-parameter-latent-moe-model-that-runs-ai-on-your-own-1i4f",
-      "title": "Edge0 AI open-sources Edge0-145B: a 145-billion-parameter latent-MoE model that runs AI on your own computer",
-      "summary": "Edge0 AI 开源 Edge0-145B 与 Edge0-120B 两款 latent-MoE 模型及统一推理栈，宣称可在个人电脑本地运行 — 145B 参数与「跑在自己电脑上」并列，意味着稀疏激活与推理栈优化正替代单纯堆参数成为卖点",
-      "content_html": "<p><strong>Edge0 AI 开源 Edge0-145B 与 Edge0-120B 两款 latent-MoE 模型及统一推理栈，宣称可在个人电脑本地运行</strong></p><p>关键数字：145B / 120B / 145 · 相关方：Edge0 AI / Edge0-145B / Edge0-120B / latent-MoE</p><p>📅 November 14, 2026 • Edge0 AI Edge0 AI has open-sourced Edge0-145B and Edge0-120B together with the company&#x27;s unified inference… 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>145B 参数与「跑在自己电脑上」并列，意味着稀疏激活与推理栈优化正替代单纯堆参数成为卖点</p><p><strong>对我意味着什么：</strong>对 WinVM Bridge 与本地 agent 部署是候选底座：若真能在消费级显存跑通，可把 VM 侧推理从云端回迁</p><p><strong>下一步：</strong>对照同批 209 tok/s 的本地基线跑一次对比，若 145B 在目标机器上 60 秒内出不来首 token 或需联网拉取未公开权重则判定不可本地部署</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-14T15:00 UTC · 归类：ai-models</p><p>→ <a href=\"https://dev.to/delimitter/edge0-ai-open-sources-edge0-145b-a-145-billion-parameter-latent-moe-model-that-runs-ai-on-your-own-1i4f\" rel=\"noopener noreferrer\">https://dev.to/delimitter/edge0-ai-open-sources-edge0-145b-a-145-billion-parameter-latent-moe-model-that-runs-ai-on-your-own-1i4f</a></p>",
-      "date_published": "2026-11-14T15:00:18.238000Z",
-      "date_modified": "2026-11-14T22:53:41.482428Z",
-      "tags": [
-        "ai-models",
-        "模型与研究"
-      ],
-      "_daily_info": {
-        "score": 74.32,
-        "source": "Folo 订阅池基线（人工筛选信源）",
-        "cluster_id": "423d06e41442f92b",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-15:54e91b9d8fad12a0",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw%3D%3D&mid=2247943908&idx=2&sn=79813e5c6542b53a1ac694e4b426ecf5&chksm=e95bad77f195631f5594129ced0192b85a793ea656b1d06ee8c6004f45f4bbb5686bf6696091&scene=0&xtrack=1",
-      "title": "姚期智杨植麟首次联手发论文！30道数学世界难题无一AI独立攻破",
-      "summary": "姚期智与 Kimi 创始人杨植麟首次联合署名 arXiv 论文，标题称 30 道数学世界难题无一被 AI 独立攻破 — 理论计算机与大模型的两代作者联手，把议题落在「AI 尚未独立攻破的难题」而非刷榜分数，是评测口径转向开放问题的信号",
-      "content_html": "<p><strong>姚期智与 Kimi 创始人杨植麟首次联合署名 arXiv 论文，标题称 30 道数学世界难题无一被 AI 独立攻破</strong></p><p>关键数字：30 · 相关方：姚期智 / 杨植麟 / Kimi / arXiv</p><p>扩散模型、生成模型、深度学习｜图灵奖得主姚期智与Kimi创始人杨植麟首次联合发表arXiv论文，系两人迄今首度共同署名的研究。姚期智为理论计算机科学泰斗，杨植麟是国内大模型创业代表人物。本次合作聚焦当前顶尖人工智能领域的核心难题，体现学术界与产业界在前沿AI基础研究上的深度交汇，引发学界广泛关注。论文尚未正式刊发，但已凸显跨代际、跨领域协同攻关的创新趋势。（150字）</p><p><strong>为什么值得看：</strong>理论计算机与大模型的两代作者联手，把议题落在「AI 尚未独立攻破的难题」而非刷榜分数，是评测口径转向开放问题的信号</p><p><strong>对我意味着什么：</strong>对 WinVM Bridge 与 agent 自动化的评测设计有直接影响：应把「能否独立闭环」而非「单步命中率」列为验收指标</p><p><strong>下一步：</strong>取该 arXiv 预印本核对题目是否确为 30 道并抽查 3 道题的判定规则，若题目数与 30 不符则判定标题口径夸大</p><p>来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-14T18:10 UTC · 归类：ai-models</p><p>证据状态：未独立验证</p><p>→ <a href=\"https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw%3D%3D&amp;mid=2247943908&amp;idx=2&amp;sn=79813e5c6542b53a1ac694e4b426ecf5&amp;chksm=e95bad77f195631f5594129ced0192b85a793ea656b1d06ee8c6004f45f4bbb5686bf6696091&amp;scene=0&amp;xtrack=1\" rel=\"noopener noreferrer\">https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw%3D%3D&amp;mid=2247943908&amp;idx=2&amp;sn=79813e5c6542b53a1ac694e4b426ecf5&amp;chksm=e95bad77f195631f5594129ced0192b85a793ea656b1d06ee8c6004f45f4bbb5686bf6696091&amp;scene=0&amp;xtrack=1</a></p>",
-      "date_published": "2026-11-14T18:10:00Z",
-      "date_modified": "2026-11-14T22:53:41.482428Z",
-      "tags": [
-        "ai-models",
-        "模型与研究"
-      ],
-      "_daily_info": {
-        "score": 79.44,
-        "source": "智源社区 · 最新分享（匿名 API）",
-        "cluster_id": "54e91b9d8fad12a0",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-15:ecefef97db2b0a08",
-      "url": "https://dev.to/rom_matetzky_436dce893285/running-coding-agents-on-a-task-graph-instead-of-one-long-chat-1lcf",
-      "title": "Running coding agents on a task graph instead of one long chat",
-      "summary": "一篇工程文提出用 task graph 承接 coding agent，把功能拆成 T1 数据模型、T2 API 端点等节点替代一条长对话 — 把依赖顺序显式画成 T1→T2/T3 的图，等于承认长对话里的上下文漂移才是编排失败的主因",
-      "content_html": "<p><strong>一篇工程文提出用 task graph 承接 coding agent，把功能拆成 T1 数据模型、T2 API 端点等节点替代一条长对话</strong></p><p>关键数字：T1 / T2 / T3 · 相关方：coding agents / task graph / Data model / API endpoint</p><p>The idea A feature usually breaks down into slices like this: graph LR T1[1. Data model] --&gt; T2[2. API endpoint] T1 --&gt; T3… 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>把依赖顺序显式画成 T1→T2/T3 的图，等于承认长对话里的上下文漂移才是编排失败的主因</p><p><strong>对我意味着什么：</strong>与 WinVM Bridge 的 plan-first + DDD skills workflow 同构：可对照把复杂任务从单轮委派改为带依赖关系的图式委派</p><p><strong>下一步：</strong>把现有 A2A 委派链路改写成 3 节点任务图跑一次 smoke，若节点依赖冲突数 &gt;0 或最终产物字节不一致则判定拆分失败</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-14T14:31 UTC · 归类：agent-engineering</p><p>→ <a href=\"https://dev.to/rom_matetzky_436dce893285/running-coding-agents-on-a-task-graph-instead-of-one-long-chat-1lcf\" rel=\"noopener noreferrer\">https://dev.to/rom_matetzky_436dce893285/running-coding-agents-on-a-task-graph-instead-of-one-long-chat-1lcf</a></p>",
-      "date_published": "2026-11-14T14:31:41.276000Z",
-      "date_modified": "2026-11-14T22:53:41.482428Z",
-      "tags": [
-        "agent-engineering",
-        "Agent 与工程"
-      ],
-      "_daily_info": {
-        "score": 74.05,
-        "source": "Folo 订阅池基线（人工筛选信源）",
-        "cluster_id": "ecefef97db2b0a08",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-15:797e41c445a6a3ee",
-      "url": "https://dev.to/paramveer_singh_53163a04c/swizzle-runtime-v010-how-we-reached-209-toks-and-43ms-ttft-on-a-4gb-laptop-gpu-in-pure-rust-4l7l",
-      "title": "Swizzle Runtime v0.1.0: How We Reached 209 tok/s and 43ms TTFT on a 4GB Laptop GPU in Pure Rust",
-      "summary": "Swizzle Runtime v0.1.0 用纯 Rust 在 4GB 笔记本 GPU 上跑到 209 tok/s、43ms TTFT，瞄准本地 coding agent 的推理瓶颈 — 把优化目标定为首 token 延迟与单卡吞吐而非峰值算力，说明本地 agent 的体验瓶颈在首响应与内存占用",
-      "content_html": "<p><strong>Swizzle Runtime v0.1.0 用纯 Rust 在 4GB 笔记本 GPU 上跑到 209 tok/s、43ms TTFT，瞄准本地 coding agent 的推理瓶颈</strong></p><p>关键数字：0.1.0 / 209 / 43 / 4 · 相关方：Swizzle Runtime / Rust / TTFT / Python/PyTorch</p><p>Autonomous coding agents, local developer tools, and edge robotics are bottlenecked by the traditional Python/PyTorch serving stack. On… 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>把优化目标定为首 token 延迟与单卡吞吐而非峰值算力，说明本地 agent 的体验瓶颈在首响应与内存占用</p><p><strong>对我意味着什么：</strong>对 WinVM Bridge 的 VM 侧推理与本地 agent 部署直接相关：可作为「是否绕开 Python/PyTorch 服务栈」的对照实现</p><p><strong>下一步：</strong>在同一 4GB GPU 上复现 209 tok/s 与 43ms TTFT，若两项实测偏差任一超过 20% 则判定读数依赖特定环境、不纳入本地基准</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-14T14:55 UTC · 归类：agent-engineering</p><p>→ <a href=\"https://dev.to/paramveer_singh_53163a04c/swizzle-runtime-v010-how-we-reached-209-toks-and-43ms-ttft-on-a-4gb-laptop-gpu-in-pure-rust-4l7l\" rel=\"noopener noreferrer\">https://dev.to/paramveer_singh_53163a04c/swizzle-runtime-v010-how-we-reached-209-toks-and-43ms-ttft-on-a-4gb-laptop-gpu-in-pure-rust-4l7l</a></p>",
-      "date_published": "2026-11-14T14:55:59.913000Z",
-      "date_modified": "2026-11-14T22:53:41.482428Z",
-      "tags": [
-        "agent-engineering",
-        "Agent 与工程"
-      ],
-      "_daily_info": {
-        "score": 74.28,
-        "source": "Folo 订阅池基线（人工筛选信源）",
-        "cluster_id": "797e41c445a6a3ee",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-15:6a36938791d14140",
-      "url": "https://github.com/Tencent/LoopForge",
-      "title": "Tencent/LoopForge",
-      "summary": "腾讯开源自托管 Go 仓库 LoopForge，用脚本编排 CodeBuddy、Codex、Claude Code 并保留人工审批门 — 把多家厂商的 coding agent 收进同一编排层且显式要求人工审批，说明多 agent 协作的难点在权限与流程而非模型选择",
-      "content_html": "<p><strong>腾讯开源自托管 Go 仓库 LoopForge，用脚本编排 CodeBuddy、Codex、Claude Code 并保留人工审批门</strong></p><p>关键数字：694 / 114 · 相关方：Tencent / LoopForge / CodeBuddy / Codex / Claude Code / Go</p><p>LoopForge is a self-hosted Go repository from Tencent that orchestrates coding agents such as CodeBuddy, Codex, and Claude Code. It delivers workflows through scripts and requires human approval gates. The project maintains 694 stars and 114 forks on its platform. 〔Folo分类:开源项目〕</p><p><strong>为什么值得看：</strong>把多家厂商的 coding agent 收进同一编排层且显式要求人工审批，说明多 agent 协作的难点在权限与流程而非模型选择</p><p><strong>对我意味着什么：</strong>与 WorkBuddy / CodeBuddy 的 skill 编排、A2A 委派路径高度同构，可直接对照其审批门设计校准 WinVM Bridge 的 plan-first + DDD 流程</p><p><strong>下一步：</strong>读其 workflow 脚本复现一次「提交→审批→执行」链路，若审批门可被脚本绕过或在 694 stars 的 issue 里有未修复绕过记录则判定不可直接借鉴</p><p>来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-14T13:04 UTC · 归类：agent-engineering</p><p>→ <a href=\"https://github.com/Tencent/LoopForge\" rel=\"noopener noreferrer\">https://github.com/Tencent/LoopForge</a></p>",
-      "date_published": "2026-11-14T13:04:48.045000Z",
-      "date_modified": "2026-11-14T22:53:41.482428Z",
-      "tags": [
-        "agent-engineering",
-        "Agent 与工程"
-      ],
-      "_daily_info": {
-        "score": 76.26,
-        "source": "Folo 订阅池基线（人工筛选信源）",
-        "cluster_id": "6a36938791d14140",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-15:6c5cb0ab506c03c4",
-      "url": "https://github.com/NBV-AppFactory/transformer-mcp",
-      "title": "NBV-AppFactory/transformer-mcp · ★0",
-      "summary": "NBV-AppFactory 发布 transformer-mcp，把 transformer.gg 的 MCP server、CLI 与 agent skills 文档打包开源 — 把 MCP server、CLI 与 agent skills 放进同一仓库，说明能力交付正从单点接口转向可整套搬走的技能包，但零星标意味着尚无社区验证",
-      "content_html": "<p><strong>NBV-AppFactory 发布 transformer-mcp，把 transformer.gg 的 MCP server、CLI 与 agent skills 文档打包开源</strong></p><p>关键数字：★0 · 相关方：transformer-mcp / MCP / CLI / agent skills</p><p>Transformer (transformer.gg) MCP server, CLI, agent skills and docs: paid X creator partnerships for brands and AI agents</p><p><strong>为什么值得看：</strong>把 MCP server、CLI 与 agent skills 放进同一仓库，说明能力交付正从单点接口转向可整套搬走的技能包，但零星标意味着尚无社区验证</p><p><strong>对我意味着什么：</strong>对 WorkBuddy / CodeBuddy 的 MCP 与 skill 部署有直接参考价值：可对照其目录结构判断「server + CLI + skills + docs」是否值得作为自建技能包的骨架</p><p><strong>下一步：</strong>克隆仓库逐一核对 server、CLI、skills、docs 四个目录是否齐全，若任一缺失或 ★0 在 7 天后仍为 0 则判定为占位仓库、不纳入选型</p><p>来源：GitHub 搜索 · topic:mcp · 发布于 2026-11-14T22:42 UTC · 归类：agent-engineering</p><p>→ <a href=\"https://github.com/NBV-AppFactory/transformer-mcp\" rel=\"noopener noreferrer\">https://github.com/NBV-AppFactory/transformer-mcp</a></p>",
-      "date_published": "2026-11-14T22:42:49Z",
-      "date_modified": "2026-11-14T22:53:41.482428Z",
-      "tags": [
-        "agent-engineering",
-        "Agent 与工程"
-      ],
-      "_daily_info": {
-        "score": 80.22,
-        "source": "GitHub 搜索 · topic:mcp",
-        "cluster_id": "6c5cb0ab506c03c4",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-13:73fef9673ed486b3",
-      "url": "https://github.com/Yuri-Fernando/AWS-Project",
-      "title": "Yuri-Fernando/AWS-Project · ★0",
-      "summary": "AWS-Project 用同一套 IaC 在本地模拟器与真实 AWS Free Plan 两端部署，端到端 13/13，成本 US$ 0,86 — 把本地仿真与真实云端收敛到同一份 IaC 并给出 13/13 通过率，可复现性比口头承诺更实",
-      "content_html": "<p><strong>AWS-Project 用同一套 IaC 在本地模拟器与真实 AWS Free Plan 两端部署，端到端 13/13，成本 US$ 0,86</strong></p><p>关键数字：13/13 / 0,86 / 0 · 相关方：AWS / EKS / ECR / ArgoCD / Kustomize / MCP</p><p>Plataforma AWS de ponta a ponta com a MESMA IaC em dois alvos: emulador floci (R$ 0) e conta AWS real Free Plan — EKS, ECR, GitOps (ArgoCD/Kustomize), Pod Identity, Prometheus/Grafana, serverless e MCP. Sessão real: e2e 13/13, US$ 0,86 em créditos, tudo desmontado.</p><p><strong>为什么值得看：</strong>把本地仿真与真实云端收敛到同一份 IaC 并给出 13/13 通过率，可复现性比口头承诺更实</p><p><strong>对我意味着什么：</strong>对数据基建与 smoke 规范有用：应要求每个部署目标给出端到端通过数与成本读数，而非只报成功</p><p><strong>下一步：</strong>照其清单复现：若本地与云端各 13/13 通过且成本差额在 1 个数量级内，才判定 IaC 双目标成立</p><p>来源：GitHub 搜索 · topic:mcp · 发布于 2026-11-12T17:55 UTC · 归类：agent-engineering</p><p>→ <a href=\"https://github.com/Yuri-Fernando/AWS-Project\" rel=\"noopener noreferrer\">https://github.com/Yuri-Fernando/AWS-Project</a></p>",
-      "date_published": "2026-11-12T17:55:13Z",
-      "date_modified": "2026-11-12T23:18:18.237901Z",
-      "tags": [
-        "agent-engineering",
-        "Agent 与工程"
-      ],
-      "_daily_info": {
-        "score": 71.94,
-        "source": "GitHub 搜索 · topic:mcp",
-        "cluster_id": "73fef9673ed486b3",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-13:3d7d027034d3d63b",
-      "url": "https://github.com/ALENOC/tandem-mcp",
-      "title": "ALENOC/tandem-mcp · ★0",
-      "summary": "tandem-mcp 是一个把云端编排模型与 LM Studio 本地执行模型配对的 MCP server，当前 0 star — 云编排加本地执行的分工被写进 MCP server，正是权限与数据边界最容易被模糊的地方",
-      "content_html": "<p><strong>tandem-mcp 是一个把云端编排模型与 LM Studio 本地执行模型配对的 MCP server，当前 0 star</strong></p><p>关键数字：0 · 相关方：tandem-mcp / MCP server / LM Studio / ALENOC</p><p>MCP server pairing a cloud orchestrator model with a local executor model in LM Studio</p><p><strong>为什么值得看：</strong>云编排加本地执行的分工被写进 MCP server，正是权限与数据边界最容易被模糊的地方</p><p><strong>对我意味着什么：</strong>与我的 A2A 双路径委派同构：可对照其任务切分，检查 WinVM 侧 direct MCP 与 A2A 边界是否重复</p><p><strong>下一步：</strong>读其 README 复现一次配对：若云端编排能调用本地工具且 0 次越权，才判定该分工模式可借鉴</p><p>来源：GitHub 搜索 · topic:mcp · 发布于 2026-11-12T18:22 UTC · 归类：agent-engineering</p><p>→ <a href=\"https://github.com/ALENOC/tandem-mcp\" rel=\"noopener noreferrer\">https://github.com/ALENOC/tandem-mcp</a></p>",
-      "date_published": "2026-11-12T18:22:59Z",
-      "date_modified": "2026-11-12T23:18:18.237901Z",
-      "tags": [
-        "agent-engineering",
-        "Agent 与工程"
-      ],
-      "_daily_info": {
-        "score": 72.23,
-        "source": "GitHub 搜索 · topic:mcp",
-        "cluster_id": "3d7d027034d3d63b",
-        "ai_status": "ok"
-      }
-    },
-    {
-      "id": "tag:daily-info.local,2026-11-13:1a84fda568160878",
-      "url": "https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-98",
-      "title": "Microsoft Research Focus – Edition #98",
-      "summary": "Microsoft Research Focus 第 98 期汇总通用翻译、31 年数学难题突破与让 AI coding agents 更高效的进展 — 把 coding agent 的效率与研究级突破并列，说明工程侧优化已被当作正式研究产出",
-      "content_html": "<p><strong>Microsoft Research Focus 第 98 期汇总通用翻译、31 年数学难题突破与让 AI coding agents 更高效的进展</strong></p><p>关键数字：98 / 31 · 相关方：Microsoft Research / Anson Ho / AI coding agents / Microsoft</p><p>What&#x27;s new in research at Microsoft? Host Anson Ho explores the latest, including AI-powered universal translation, a breakthrough in a 31-year-old mathematics challenge, and advances making AI coding agents faster and more efficient. The post Microsoft Research Focus – Edition #98 appeared first on</p><p><strong>为什么值得看：</strong>把 coding agent 的效率与研究级突破并列，说明工程侧优化已被当作正式研究产出</p><p><strong>对我意味着什么：</strong>agent 部署成本可借鉴其效率结论，但需要可复现的基准数字才值得改架构</p><p><strong>下一步：</strong>若该期给出 coding agent 的具体提速百分比且达到 20% 以上，才纳入 WinVM 委派路径的优化评估</p><p>来源：Microsoft Research · 发布于 2026-11-12T21:31 UTC · 归类：agent-engineering</p><p>→ <a href=\"https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-98\" rel=\"noopener noreferrer\">https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-98</a></p>",
-      "date_published": "2026-11-12T21:31:57Z",
-      "date_modified": "2026-11-12T23:18:18.237901Z",
-      "tags": [
-        "agent-engineering",
-        "Agent 与工程"
-      ],
-      "_daily_info": {
-        "score": 72.99,
-        "source": "Microsoft Research",
-        "cluster_id": "1a84fda568160878",
         "ai_status": "ok"
       }
     }

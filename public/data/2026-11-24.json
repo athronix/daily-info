@@ -1,0 +1,612 @@
+{
+  "date": "2026-11-24",
+  "headline": "省 37% token 不等于更快，89.1 分不等于可用：今天能进部署门禁的是版本号、组件数与带条件的规格，不是漂亮的百分比",
+  "headline_short": "省 37% token 不等于更快，89.1 分不等于可",
+  "lead": "今日最硬的两个读数都带条件：Claude Code 的 Code Mode 社区实测大任务省 37% token 却不更快，v2.1.331 才把它落到 Bedrock 与 Foundry 的终端会话；Phonic-1.1 以 89.1 分登顶 Artificial Analysis 语音指数，Everything Claude Code 则打包 67 个 agents、281 个 skills、94 条 commands。",
+  "generated_at": "2026-11-24T01:58:57.872346Z",
+  "themes": [
+    {
+      "title": "省 token 与提速是两本账",
+      "why": "Code Mode 社区实测大任务省 37% token 却不更快，同一天 v2.1.331 把它落到 Bedrock 与 Foundry；Codex 26.11 又改了会话接口。成本口径、体验口径、版本兼容性必须分开记。",
+      "cluster_ids": [
+        "ec4ffddf57c2d97d",
+        "800aeca2d3157fbc",
+        "b01e5b086eae0d49"
+      ],
+      "verified_by": 3
+    },
+    {
+      "title": "可数清单比形容词可信",
+      "why": "ECC 打包 67 agents、281 skills、94 commands，davinci-resolve-mcp 给出 4,313 stars 与 493 forks，Kiteline 3.49.52 是明确版本；能清点的数字才进门禁，走红与否不是依据。",
+      "cluster_ids": [
+        "7038b6b26a31768f",
+        "73bb01d572da73a2",
+        "b01e5b086eae0d49"
+      ],
+      "verified_by": 3
+    },
+    {
+      "title": "版本号才进得了门禁",
+      "why": "2.1.323 是 Code Mode 起效下限、2.1.331 是本次 release、3.49.52 与 26.11 是两端版本、Phonic-1.1 是迭代号；这些能逐字锁定的编号可写成扫描规则，分数与宣称不行。",
+      "cluster_ids": [
+        "800aeca2d3157fbc",
+        "ec4ffddf57c2d97d",
+        "b01e5b086eae0d49",
+        "dd8bbb5035543189"
+      ],
+      "verified_by": 4
+    },
+    {
+      "title": "分数和倍数都要带口径",
+      "why": "Phonic-1.1 的 89.1 是榜单分数、GPT-6.2 Sol 的 91 与 94 是遵循率区间、英伟达 3.5 倍是产能宣称、Kagi 50GB 是公测规格；四种量纲，缺测试集或状态就不可比。",
+      "cluster_ids": [
+        "dd8bbb5035543189",
+        "256f6e833ab051d4",
+        "92046e2a724c0237",
+        "485decdaf4812bd7"
+      ],
+      "verified_by": 4
+    },
+    {
+      "title": "规格读数决定部署门槛",
+      "why": "50GB 是存储上限、91–94 percent 只在付费档成立、14 年是观测窗口、2 million 是农户基数；读数都要绑定适用范围，越界使用就成了另一件事。",
+      "cluster_ids": [
+        "485decdaf4812bd7",
+        "256f6e833ab051d4",
+        "c23c3c476d7f7950",
+        "37e360be5390856b"
+      ],
+      "verified_by": 4
+    },
+    {
+      "title": "钱与指数是事实不是判断",
+      "why": "Supertake 的 $20M 是融资额、马来西亚 17 年是距上次调整的年数、3.5 倍是厂商宣称；都只陈述公开数据与来源状态，不推资金流向，也不构成投资建议。",
+      "cluster_ids": [
+        "388f4aa5f277fc66",
+        "4e6f333e31b9bdd5",
+        "92046e2a724c0237"
+      ],
+      "verified_by": 3
+    },
+    {
+      "title": "数字白名单挡住虚高统计",
+      "why": "本期 40 簇主动剔除 27 簇：型号尾数、日期年份、listicle 计数、commit hash、HN 热度都不算原文读数；v1.1 把 published_at 排除后，留下的 13 条才经得起逐字复核。",
+      "cluster_ids": [
+        "ec4ffddf57c2d97d",
+        "7038b6b26a31768f",
+        "73bb01d572da73a2",
+        "c23c3c476d7f7950"
+      ],
+      "verified_by": 4
+    }
+  ],
+  "sections": [
+    {
+      "key": "agent-engineering",
+      "label": "Agent 与工程",
+      "items": [
+        {
+          "id": "73bb01d572da73a2",
+          "title": "samuelgursky/davinci-resolve-mcp",
+          "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-24T00:03:16.532000Z",
+          "score": 81.26,
+          "category": "agent-engineering",
+          "cluster_id": "73bb01d572da73a2",
+          "summary": "MCP server integration for DaVinci Resolve Studio Language: Python Stars: 4,313 Forks: 493… 〔Folo分类:开源项目〕",
+          "why_matters": "4,313 与 493 是仓库热度，不是功能完成度；MCP server 能否稳定驱动剪辑工程，摘要没有给出任何调用成功率或延迟。",
+          "fact_anchor": "GitHub 项目 davinci-resolve-mcp 提供 DaVinci Resolve Studio 的 MCP server 集成，摘要列出 Stars 4,313、Forks 493。",
+          "numbers": [
+            "4,313",
+            "493"
+          ],
+          "entities": [
+            "davinci-resolve-mcp",
+            "MCP",
+            "DaVinci Resolve Studio",
+            "Python"
+          ],
+          "evidence_urls": [
+            "https://github.com/samuelgursky/davinci-resolve-mcp"
+          ],
+          "impact": "与 MCP 关注面直接相关：接入前要按工具清单逐个验证，Stars 只能当线索，不能当 WinVM 侧部署门禁的通过依据。",
+          "next_action": "对照仓库 README 清点 2 次暴露的工具列表；若工具数与文档不一致或 smoke 调用失败 ≥ 1 次，则判定暂不接入 MCP 基线。",
+          "signal_type": "release",
+          "confidence": "fact"
+        },
+        {
+          "id": "7038b6b26a31768f",
+          "title": "Should You Install Everything Claude Code, the All-in-One Kit Gone Viral?",
+          "url": "https://dev.to/dimsbuild/should-you-install-everything-claude-code-the-all-in-one-kit-gone-viral-2lme",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-23T23:45:09.312000Z",
+          "score": 81.05,
+          "category": "agent-engineering",
+          "cluster_id": "7038b6b26a31768f",
+          "summary": "TL;DR ECC, Everything Claude Code, bundles 67 agents, 281 skills, 94 commands, and a homegrown security scanner, AgentShield, for… 〔Folo分类:开源项目〕",
+          "why_matters": "67/281/94 是可清点的组件数，但文章标题本身在问「该不该全装」；数量多与适配当前 workflow 是两件事。",
+          "fact_anchor": "dev.to 文章盘点走红的一体化套件 Everything Claude Code，摘要称打包 67 个 agents、281 个 skills、94 条 commands 与扫描器 AgentShield。",
+          "numbers": [
+            "67",
+            "281",
+            "94"
+          ],
+          "entities": [
+            "Everything Claude Code",
+            "ECC",
+            "AgentShield",
+            "Claude Code"
+          ],
+          "evidence_urls": [
+            "https://dev.to/dimsbuild/should-you-install-everything-claude-code-the-all-in-one-kit-gone-viral-2lme"
+          ],
+          "impact": "对 skill 与 agent 部署最相关：这类 all-in-one kit 若整体装入，会与现有 namespace skills 冲突，应逐项比对再决定取用。",
+          "next_action": "清点仓库 2 次核对 281 skills 与 94 commands；若任一数字与清单不符或重复 skill 名 ≥ 3 个，则判定不整体接入。",
+          "signal_type": "opinion",
+          "confidence": "fact"
+        },
+        {
+          "id": "dd8bbb5035543189",
+          "title": "Phonic 发布 Phonic-1.1，以 89.1 分登顶 Artificial Analysis 语音对语音指数，不到一个月就取代自家 Phonic 1",
+          "url": "https://arex-research.com/feeds/94fd0677-b44b-4434-80be-6d0d5fc6bc32",
+          "source": "智源社区 · 最新分享（匿名 API）",
+          "published_at": "2026-11-23T19:36:00Z",
+          "score": 76.9,
+          "category": "agent-engineering",
+          "cluster_id": "dd8bbb5035543189",
+          "summary": "资讯｜北京时间 11 月 24 日凌晨（美国太平洋时间 23 日上午），旧金山语音模型公司 Phonic 在 X 上发布新一代 speech-to-speech（语音对语音）模型 Phonic-1.1，官方帖文写道：“三周前，我们发布了 Phonic-1。今天，我们推出 Phonic-1.1。Phonic-1.1 依然是面向 agentic（智能体式）任务最先进的…",
+          "why_matters": "89.1 是榜单分数，1.1 是版本号，不到一个月是迭代间隔；分数不带测试集与并发条件，不能直接换算成部署收益。",
+          "fact_anchor": "智源社区快讯：旧金山公司 Phonic 发布 Phonic-1.1，称以 89.1 分登顶 Artificial Analysis 语音对语音指数，距 Phonic 1 不到一个月。",
+          "numbers": [
+            "89.1",
+            "1.1"
+          ],
+          "entities": [
+            "Phonic",
+            "Phonic-1.1",
+            "Artificial Analysis",
+            "speech-to-speech",
+            "agentic"
+          ],
+          "evidence_urls": [
+            "https://arex-research.com/feeds/94fd0677-b44b-4434-80be-6d0d5fc6bc32"
+          ],
+          "impact": "对 agent 部署的语音链路是选型线索：面向 agentic 任务的 speech-to-speech 模型要按榜单口径、延迟、并发分列评估，先入线索池不进基线。",
+          "next_action": "对照 Artificial Analysis 榜单 2 个版本核对 89.1；若测试集或评分版本未披露，则判定该分数仅作位次，不进选型矩阵。",
+          "signal_type": "release",
+          "confidence": "unverified"
+        },
+        {
+          "id": "ec4ffddf57c2d97d",
+          "title": "Anthropic 在 Claude Code 新增实验性 Code Mode：模型写 JavaScript 编排工具调用，社区实测大任务省 37% token 但不更快",
+          "url": "https://arex-research.com/feeds/d9ff3c57-fe11-446f-bc28-9af3ff4a5351",
+          "source": "智源社区 · 最新分享（匿名 API）",
+          "published_at": "2026-11-23T19:26:00Z",
+          "score": 76.8,
+          "category": "ai-models",
+          "cluster_id": "ec4ffddf57c2d97d",
+          "summary": "资讯｜Anthropic 在 Claude Code v2.1.323 及以上版本中加入了实验性功能 Code Mode：模型不再逐个请求 Bash、Read 或 Edit 这类工具调用，而是写一段 JavaScript 来编排它们——一段代码可以并行执行多条命令，把上一步的结果传给下一步，并只把模型需要读的那部分输出送回上下文。该功能默认关闭，要设置环境变量 C…",
+          "why_matters": "37% 是 token 降幅而「不更快」是耗时结论；同一实测给出方向相反的两个判断，正说明成本口径与体验口径不能合并。",
+          "fact_anchor": "智源社区快讯：Anthropic 在 Claude Code v2.1.323 及以上加入实验性 Code Mode，模型写 JavaScript 编排工具调用，社区实测大任务省 37% token 但不更快。",
+          "numbers": [
+            "37%",
+            "2.1.323"
+          ],
+          "entities": [
+            "Anthropic",
+            "Claude Code",
+            "Code Mode",
+            "JavaScript",
+            "Bash"
+          ],
+          "evidence_urls": [
+            "https://arex-research.com/feeds/d9ff3c57-fe11-446f-bc28-9af3ff4a5351"
+          ],
+          "impact": "对 MCP 与 agent 部署最关键：工具编排方式直接影响子 agent 的上下文用量，但功能默认关闭、需设环境变量，接入前必须跑 smoke 对照。",
+          "next_action": "同一批大任务在 2 个宿主各跑 3 次；若 token 降幅达 37% 而墙钟耗时未下降的次数 ≥ 2，则判定只算省成本、不写提速结论。",
+          "signal_type": "release",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "ai-models",
+      "label": "模型与研究",
+      "items": [
+        {
+          "id": "256f6e833ab051d4",
+          "title": "OpenAI Brings GPT-6.2 Sol to ChatGPT's Chat Tab",
+          "url": "https://www.macrumors.com/2026/11/23/openai-gpt-6-2-sol-chatgpt",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-23T23:52:41.343000Z",
+          "score": 78.13,
+          "category": "deep-read",
+          "cluster_id": "256f6e833ab051d4",
+          "summary": "OpenAI has deployed GPT-6.2 Sol to ChatGPT’s Chat tab for Plus, Pro, Business, and Enterprise users. This specialized model offers enhanced capabilities for detailed conversation, complex requests, and image analysis, such as recognizing fine visual details. It also improves online decision-making a",
+          "why_matters": "91–94 percent 是策略遵循率区间，不是能力总分；报道写明 Free 与 Go 套餐不在本次覆盖内，结论只对付费档成立。",
+          "fact_anchor": "MacRumors 报道 OpenAI 把 GPT-6.2 Sol 部署到 ChatGPT 的 Chat 标签页，面向 Plus、Pro 等付费档，称策略遵循率达 91–94 percent。",
+          "numbers": [
+            "91",
+            "94"
+          ],
+          "entities": [
+            "OpenAI",
+            "GPT-6.2 Sol",
+            "ChatGPT",
+            "Codex",
+            "Plus"
+          ],
+          "evidence_urls": [
+            "https://www.macrumors.com/2026/11/23/openai-gpt-6-2-sol-chatgpt"
+          ],
+          "impact": "对 agent 部署是分层提醒：模型可用范围与订阅档位绑定，选型表要标「可用档位」字段，不能把付费档读数当成全局基线。",
+          "next_action": "核对 2 份官方安全评测是否给出 91 与 94 的测试集；若两值来自不同测试集，则判定区间不可合并，按测试集分列。",
+          "signal_type": "release",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "dev-tools",
+      "label": "开发者工具与版本",
+      "items": [
+        {
+          "id": "800aeca2d3157fbc",
+          "title": "v2.1.331",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.331",
+          "source": "claude-code Releases",
+          "published_at": "2026-11-23T21:34:41Z",
+          "score": 79.76,
+          "category": "docs-changelog",
+          "cluster_id": "800aeca2d3157fbc",
+          "summary": "What's changed Added Code Mode support in terminal sessions on Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry and Claude Platform on AWS Added oidc.groups_jsonpath to the Claude apps gateway, to read groups from the matching entries of a list of objects with a small subset of JSONP",
+          "why_matters": "2.1.331 是可逐字锁定的版本号，oidc.groups_jsonpath 改变网关取组方式；15 秒无语音自动停录是行为阈值，三者量纲不同。",
+          "fact_anchor": "claude-code 发布 v2.1.331：终端会话在 Bedrock、Microsoft Foundry 等平台加入 Code Mode 支持，并新增 oidc.groups_jsonpath 网关配置。",
+          "numbers": [
+            "2.1.331",
+            "15"
+          ],
+          "entities": [
+            "Code Mode",
+            "Amazon Bedrock",
+            "Microsoft Foundry",
+            "oidc.groups_jsonpath",
+            "claude doctor"
+          ],
+          "evidence_urls": [
+            "https://github.com/anthropics/claude-code/releases/tag/v2.1.331"
+          ],
+          "impact": "对 automation 与 MCP 网关最相关：升级前要核对 oidc.groups_jsonpath 的 JSONPath 子集是否覆盖现有 group 字段，否则定时任务权限会错配。",
+          "next_action": "在 2 个非交互宿主各跑 1 次 claude doctor；若 API 连通段缺失或 groups 解析失败 ≥ 1 次，则判定暂缓升级到 2.1.331。",
+          "signal_type": "docs-change",
+          "confidence": "fact"
+        },
+        {
+          "id": "b01e5b086eae0d49",
+          "title": "Replying to Codex desktop 26.11 sessions from your phone: what Kiteline 3.49.52 can and can't do",
+          "url": "https://dev.to/hon6/replying-to-codex-desktop-2611-sessions-from-your-phone-what-kiteline-34952-can-and-cant-do-2ja7",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-24T00:10:13.037000Z",
+          "score": 76.75,
+          "category": "dev-tools",
+          "cluster_id": "b01e5b086eae0d49",
+          "summary": "Codex desktop 26.11 stopped exposing session control to other apps. Any tool that followed Codex sessions through that interface dropped to… 〔Folo分类:开源项目〕",
+          "why_matters": "26.11 与 3.49.52 是两端版本号；接口一变第三方就掉线，说明跨应用会话控制是未承诺的私有面，不是稳定契约。",
+          "fact_anchor": "dev.to 文章称 Codex desktop 26.11 停止向其它应用暴露会话控制，跟随该接口的第三方工具掉线，作者评估 Kiteline 3.49.52 的手机回复能力。",
+          "numbers": [
+            "26.11",
+            "3.49.52"
+          ],
+          "entities": [
+            "Codex desktop",
+            "Kiteline",
+            "Codex"
+          ],
+          "evidence_urls": [
+            "https://dev.to/hon6/replying-to-codex-desktop-2611-sessions-from-your-phone-what-kiteline-34952-can-and-cant-do-2ja7"
+          ],
+          "impact": "对 agent 部署与 WinVM 桥接是同构风险：依赖宿主私有接口的自动化要有降级路径，不能把「能连上」当成长期保证。",
+          "next_action": "在 2 台宿主各验证 1 次手机回复；若任一因 26.11 接口变更失败且无降级通道，则判定该链路不进自动化基线。",
+          "signal_type": "docs-change",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "industry-capital",
+      "label": "产业与资本",
+      "items": [
+        {
+          "id": "388f4aa5f277fc66",
+          "title": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
+          "url": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-23T22:02:05.639000Z",
+          "score": 76.86,
+          "category": "agent-engineering",
+          "cluster_id": "388f4aa5f277fc66",
+          "summary": "Think you know where the market is headed? A startup called Supertake lets you put money behind your ideas without having to pick the stocks… 〔Folo分类:AI技术与应用〕",
+          "why_matters": "$20M 是融资额，不是管理规模或收益；「把预测转成组合」是产品描述，原文没有给出任何回测或合规口径。",
+          "fact_anchor": "TechCrunch 报道初创公司 Supertake 融资 $20M，产品让 AI agents 把用户的市场判断转成股票组合，用户无需自己挑个股。",
+          "numbers": [
+            "$20M"
+          ],
+          "entities": [
+            "Supertake",
+            "AI agents",
+            "stock portfolios"
+          ],
+          "evidence_urls": [
+            "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios"
+          ],
+          "impact": "对 automation 是边界提醒：涉及持仓与组合生成的能力不纳入本任务评估范围，只记录融资金额这一公开事实，不构成任何投资建议。",
+          "next_action": "核对 2 份一手融资公告是否确认 $20M；若仅媒体单方报道且无轮次信息，则判定金额标 unverified，只留线索池。",
+          "signal_type": "funding",
+          "confidence": "fact"
+        },
+        {
+          "id": "92046e2a724c0237",
+          "title": "英伟达扩展 AI 供应链多年承诺：Kinsus 桃园专供 ABF 载板产能将提高逾 3.5 倍，Vera Rubin NVL72 已于三季度批量出货",
+          "url": "https://arex-research.com/feeds/5e6fb281-553a-4746-ac24-ac8d6da28f2d",
+          "source": "智源社区 · 最新分享（匿名 API）",
+          "published_at": "2026-11-23T19:32:00Z",
+          "score": 75.26,
+          "category": "security-governance",
+          "cluster_id": "92046e2a724c0237",
+          "summary": "资讯｜英伟达于 11 月 17 日在官网宣布，与 Amkor Technology、Foxconn、Kinsus Interconnect Technology、Samsung Electro-Mechanics、SPIL（Siliconware Precision Industries，矽品精密）和 TSMC 等供应链伙伴扩大多年承诺，在载板、先进封装、晶圆与代…",
+          "why_matters": "3.5 倍是产能提升宣称、NVL72 是产品型号、三季度是时间标记；三者量纲不同，合起来读会高估已落地产能。",
+          "fact_anchor": "智源社区快讯：英伟达宣布与 Amkor、Foxconn、Kinsus、TSMC 等扩大多年供应链承诺，标题称 Kinsus 桃园 ABF 载板产能将提高逾 3.5 倍。",
+          "numbers": [
+            "3.5"
+          ],
+          "entities": [
+            "英伟达",
+            "Kinsus",
+            "ABF 载板",
+            "Vera Rubin NVL72",
+            "Amkor Technology",
+            "TSMC"
+          ],
+          "evidence_urls": [
+            "https://arex-research.com/feeds/5e6fb281-553a-4746-ac24-ac8d6da28f2d"
+          ],
+          "impact": "对数据基建的算力供给是上游线索：产能承诺属多年框架，不等于当期出货；规格与协议状态要分列，不进落地清单。",
+          "next_action": "找 2 份供应链一手公告核对 3.5 倍；若一致家数少于 2 或无交付节点，则判定仅为厂商口径，标 unverified 留线索池。",
+          "signal_type": "product",
+          "confidence": "unverified"
+        }
+      ]
+    },
+    {
+      "key": "market-invest",
+      "label": "市场与投资",
+      "items": [
+        {
+          "id": "4e6f333e31b9bdd5",
+          "title": "Malaysia Index Rejig Puts Tech, Power Stocks in Focus for 2027",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-24/malaysia-index-rejig-puts-tech-power-stocks-in-focus-for-2027",
+          "source": "Bloomberg Markets",
+          "published_at": "2026-11-24T01:12:37Z",
+          "score": 78.01,
+          "category": "market-invest",
+          "cluster_id": "4e6f333e31b9bdd5",
+          "summary": "Malaysia is gearing up for the first major overhaul of its equity benchmark in 17 years, a shake-up that may channel more investor money into technology and energy companies just as traders rethink the profitability of the AI trade.",
+          "why_matters": "17 是「距上次大改的年数」，不是调整幅度；报道只说 may channel，属可能性表述，不能读成资金流入结论。",
+          "fact_anchor": "Bloomberg 报道马来西亚将对股票基准指数做 17 年来首次重大调整，可能把更多资金引向科技与能源公司。",
+          "numbers": [
+            "17"
+          ],
+          "entities": [
+            "Malaysia",
+            "equity benchmark",
+            "AI trade"
+          ],
+          "evidence_urls": [
+            "https://www.bloomberg.com/news/articles/2026-11-24/malaysia-index-rejig-puts-tech-power-stocks-in-focus-for-2027"
+          ],
+          "impact": "对数据基建是状态标注样本：指数调整这类公开事实只进事实层并标来源，机构观点与资金流向推测另列，不构成投资判断。",
+          "next_action": "核对 2 份一手公告是否给出调整清单与生效日；若均无，则判定 17 年仅为背景描述，不进当期事件表。",
+          "signal_type": "market-data",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "security-governance",
+      "label": "安全与治理",
+      "items": [
+        {
+          "id": "485decdaf4812bd7",
+          "title": "Google alternative Kagi launches an email service",
+          "url": "https://www.theverge.com/tech/1041000/kagi-mail-email-google-gmail-alternative",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-24T00:02:52.788000Z",
+          "score": 76.66,
+          "category": "security-governance",
+          "cluster_id": "485decdaf4812bd7",
+          "summary": "Kagi has launched a public beta for Kagi Mail, a privacy-focused email service positioned as an alternative to Gmail. The service features no ads or surveillance, utilizes open standards, and provides 50GB of storage, a built-in calendar, and support for unlimited email aliases and domains. Users re",
+          "why_matters": "50GB 是公测规格，contacts 与原生 App 分别排在 2027 年初与三季度；把规划功能当成已上线会高估当前完成度。",
+          "fact_anchor": "The Verge 报道 Kagi 推出 Kagi Mail 公测：无广告、走开放标准，提供 50GB 存储、内置日历与不限量别名，默认 @kagimail.com 地址。",
+          "numbers": [
+            "50GB"
+          ],
+          "entities": [
+            "Kagi",
+            "Kagi Mail",
+            "Gmail",
+            "@kagimail.com"
+          ],
+          "evidence_urls": [
+            "https://www.theverge.com/tech/1041000/kagi-mail-email-google-gmail-alternative"
+          ],
+          "impact": "对数据基建与邮件通道是规格样本：容量、别名数、路线图要分列并标状态；本任务邮件仍走既有 agent-mail 通道，不据此切换。",
+          "next_action": "核对公测页 50GB 与 2027 路线状态；若 contacts 未在 early 2027 上线，则判定路线图需带状态列，规格与计划分存。",
+          "signal_type": "product",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "research-papers",
+      "label": "论文与学术",
+      "items": [
+        {
+          "id": "c23c3c476d7f7950",
+          "title": "NASA spacecraft data reveal how solar system's tail shifts over 14 years",
+          "url": "https://phys.org/news/2026-11-nasa-spacecraft-reveal-solar-tail.html",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-23T23:20:08.154000Z",
+          "score": 76.15,
+          "category": "research-papers",
+          "cluster_id": "c23c3c476d7f7950",
+          "summary": "A Southwest Research Institute-led study is the first to map out the distinct motion paths of the heliotail lobes across a 14-year period… 〔Folo分类:重大学术科研突破〕",
+          "why_matters": "14 是观测窗口长度而非变化幅度；「首次绘出」说明结论受限于该窗口内的航天器覆盖，不能外推到更长周期。",
+          "fact_anchor": "phys.org 报道 Southwest Research Institute 主导的研究首次绘出日球尾瓣在 14 年周期里的运动路径，数据来自 NASA 航天器。",
+          "numbers": [
+            "14"
+          ],
+          "entities": [
+            "NASA",
+            "Southwest Research Institute",
+            "heliotail"
+          ],
+          "evidence_urls": [
+            "https://phys.org/news/2026-11-nasa-spacecraft-reveal-solar-tail.html"
+          ],
+          "impact": "暂无直接影响：属空间物理科研，与 WorkBuddy / agent 部署 / 数据基建无交集；仅作「观测窗口需显式标注」的字段样本。",
+          "next_action": "核对论文是否给出 14 年窗口的起止与数据 gaps；若缺口超过 1 年未标注，则判定该窗口不可复算，只留作线索。",
+          "signal_type": "research",
+          "confidence": "fact"
+        },
+        {
+          "id": "37e360be5390856b",
+          "title": "South Africa's small cattle farmers need help before super El Niño hits: How to set up shade, water and feed",
+          "url": "https://phys.org/news/2026-11-south-africa-small-cattle-farmers.html",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-23T22:30:04.504000Z",
+          "score": 75.57,
+          "category": "market-invest",
+          "cluster_id": "37e360be5390856b",
+          "summary": "In South Africa, more than 2 million smallholder households make a living through agriculture. Within this small-scale farming sector… 〔Folo分类:重大学术科研突破〕",
+          "why_matters": "2 million 是受影响前的农户基数，不是已受助户数；标题里的 need help 是建议，原文没有给出覆盖率或损失估计。",
+          "fact_anchor": "phys.org 文章提示南非超过 2 million 小农户在超级 El Niño 来临前需要遮阴、供水与饲料支持，并给出可操作设置建议。",
+          "numbers": [
+            "2 million"
+          ],
+          "entities": [
+            "South Africa",
+            "smallholder households",
+            "super El Niño"
+          ],
+          "evidence_urls": [
+            "https://phys.org/news/2026-11-south-africa-small-cattle-farmers.html"
+          ],
+          "impact": "暂无直接影响：属农业气候适应建议，与自动化 / MCP / 数据基建无交集；仅作「基数与覆盖数分列」的口径样本。",
+          "next_action": "核对 2 份官方统计是否都给出 2 million 口径；若统计年份或农户定义不一致，则判定该基数不可比，不进汇总表。",
+          "signal_type": "research",
+          "confidence": "fact"
+        }
+      ]
+    }
+  ],
+  "editor_note": "本期最该带走的判断是：能进部署门禁的读数，必须是可逐字锁定且带齐条件的那一个，而不是标题里最醒目的数字。Claude Code 的 Code Mode 用一段 JavaScript 编排工具调用，社区实测大任务省 37% token 却并不更快；同一天的 v2.1.331 把 Code Mode 落到终端会话的 Bedrock、Foundry 等平台，两个版本号 2.1.323 与 2.1.331 才是能写进兼容性矩阵的硬读数。对 automation 与 agent 部署的含义很直接：省 token 属于成本口径，耗时属于体验口径，两者要分列评估，不能因为一个百分比就把实验功能默认打开，原文写明它默认关闭、需设环境变量。第二条是可数的清单比形容词更可信。Everything Claude Code 把 67 个 agents、281 个 skills、94 条 commands 和 AgentShield 打包成一个 kit，davinci-resolve-mcp 则给出 Stars 4,313、Forks 493 的仓库热度。对 skill 与 WinVM 侧基线来说，组件数量、版本号、仓库指标都能逐字复核，可直接做成门禁规则；但大而全不等于适配，接入前应先跑一次清点，核对 281 skills 与 94 commands 是否与仓库清单一致。",
+  "brief": "每日信息 · 2026-11-24\n\n今日最硬的两个读数都带条件：Claude Code 的 Code Mode 社区实测大任务省 37% token 却不更快，v2.1.331 才把它落到 Bedrock 与 Foundry 的终端会话；Phonic-1.1 以 89.1 分登顶 Artificial Analysis 语音指数，Everything Claude Code 则打包 67 个 agents、281 个 skills、94 条 commands。\n\n【Agent 与工程】\n- GitHub 项目 davinci-resolve-mcp 提供…（4,313 / 493）\n- dev.to 文章盘点走红的一体化套件 Everything C…（67 / 281）\n- 智源社区快讯：旧金山公司 Phonic 发布 Phonic-1.…（89.1 / 1.1）\n- 智源社区快讯：Anthropic 在 Claude Code v…（37% / 2.1.323）\n\n【模型与研究】\n- MacRumors 报道 OpenAI 把 GPT-6.2 So…（91 / 94）\n\n【开发者工具与版本】\n- claude-code 发布 v2.1.331：终端会话在 Be…（2.1.331 / 15）\n- dev.to 文章称 Codex desktop 26.11 停…（26.11 / 3.49.52）\n\n【产业与资本】\n- TechCrunch 报道初创公司 Supertake 融资 $…（$20M）\n- 智源社区快讯：英伟达宣布与 Amkor、Foxconn、Kins…（3.5）\n\n【市场与投资】\n- Bloomberg 报道马来西亚将对股票基准指数做 17 年来首…（17）\n\n【安全与治理】\n- The Verge 报道 Kagi 推出 Kagi Mail 公…（50GB）\n\n【论文与学术】\n- phys.org 报道 Southwest Research I…（14）\n- phys.org 文章提示南非超过 2 million 小农户在…（2 million）\n\n【待验证信号】\n- Code Mode 的 37% token …：若 同一批大任务跑 3 次，若耗时未下降而 token 降幅达 37% 的次数 ≥ 2，则判定省 token 属成本口径而非性能收益，不写进提速结论。\n- ECC 组件清单是否与仓库一致：若 清点仓库 2 次，若 281 skills 或 94 commands 任一不一致，则判定组件数为宣传口径，不进 skill 基线。\n- Phonic-1.1 的 89.1 分口径：若 对照 Artificial Analysis 榜单 2 个版本，若 89.1 分对应测试集未披露，则判定该分数仅作榜单位次，不进模型选型矩阵。\n- GPT-6.2 Sol 的 91 与 94 …：若 核对 2 份官方安全评测，若 91 与 94 来自不同测试集，则判定区间不可合并，按测试集分列并标档位。\n- Kagi Mail 50GB 与 2027 …：若 核对公测页 50GB 与路线图，若 contacts 晚于 early 2027 上线，则判定路线图需带状态列，规格与计划分存。\n- 英伟达 3.5 倍产能宣称的一手佐证：若 找 2 份供应链公告核对 3.5 倍，若一致家数少于 2，则判定该倍数仅为厂商口径，标 unverified 留线索池。\n\n内容仅供参考，不构成投资建议；外部事实未独立验证；取不到可靠数据处标注「暂无可靠数据」。",
+  "watch_signals": [
+    {
+      "signal": "Code Mode 的 37% token 节省是否换来提速",
+      "threshold": "同一批大任务跑 3 次，若耗时未下降而 token 降幅达 37% 的次数 ≥ 2",
+      "judgement": "判定省 token 属成本口径而非性能收益，不写进提速结论"
+    },
+    {
+      "signal": "ECC 组件清单是否与仓库一致",
+      "threshold": "清点仓库 2 次，若 281 skills 或 94 commands 任一不一致",
+      "judgement": "判定组件数为宣传口径，不进 skill 基线"
+    },
+    {
+      "signal": "Phonic-1.1 的 89.1 分口径",
+      "threshold": "对照 Artificial Analysis 榜单 2 个版本，若 89.1 分对应测试集未披露",
+      "judgement": "判定该分数仅作榜单位次，不进模型选型矩阵"
+    },
+    {
+      "signal": "GPT-6.2 Sol 的 91 与 94 遵循率",
+      "threshold": "核对 2 份官方安全评测，若 91 与 94 来自不同测试集",
+      "judgement": "判定区间不可合并，按测试集分列并标档位"
+    },
+    {
+      "signal": "Kagi Mail 50GB 与 2027 路线状态",
+      "threshold": "核对公测页 50GB 与路线图，若 contacts 晚于 early 2027 上线",
+      "judgement": "判定路线图需带状态列，规格与计划分存"
+    },
+    {
+      "signal": "英伟达 3.5 倍产能宣称的一手佐证",
+      "threshold": "找 2 份供应链公告核对 3.5 倍，若一致家数少于 2",
+      "judgement": "判定该倍数仅为厂商口径，标 unverified 留线索池"
+    }
+  ],
+  "reference_summary": [
+    {
+      "domain": "arex-research.com",
+      "count": 3
+    },
+    {
+      "domain": "github.com",
+      "count": 2
+    },
+    {
+      "domain": "dev.to",
+      "count": 2
+    },
+    {
+      "domain": "phys.org",
+      "count": 2
+    },
+    {
+      "domain": "macrumors.com",
+      "count": 1
+    },
+    {
+      "domain": "techcrunch.com",
+      "count": 1
+    },
+    {
+      "domain": "bloomberg.com",
+      "count": 1
+    },
+    {
+      "domain": "theverge.com",
+      "count": 1
+    }
+  ],
+  "stats": {
+    "sources_ok": 182,
+    "sources_total": 185,
+    "total_items": 2575,
+    "clusters": 2542,
+    "selected": 40,
+    "published_items": 13,
+    "seven_element_pass": 13,
+    "seven_element_ratio": 1.0,
+    "items_with_numbers": 13,
+    "substantive_number_ratio": 1.0,
+    "rejected_no_number": 0,
+    "unique_reference_domains": 8
+  },
+  "quality": {
+    "ai_status": "ok",
+    "missing_data_marker": "暂无可靠数据",
+    "warnings": [],
+    "id_whitelist": true,
+    "url_whitelist": true,
+    "number_whitelist": true,
+    "number_whitelist_scope": "title+summary_raw+metrics",
+    "number_whitelist_excludes": [
+      "published_at",
+      "fetched_at"
+    ],
+    "entity_whitelist": true,
+    "credential_scan": "clean",
+    "content_spec_version": "1.1.0"
+  },
+  "demo": false
+}
