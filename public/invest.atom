@@ -5,10 +5,60 @@
   <ns0:subtitle>挖掘 · 聚合 · 研判 · 订阅；每条附原文链接；内容仅供参考，不构成投资建议</ns0:subtitle>
   <ns0:link rel="self" type="application/atom+xml" href="https://daily-info.local/invest.atom" />
   <ns0:link rel="alternate" type="text/html" href="https://daily-info.local/index.html" />
-  <ns0:updated>2026-11-24T22:53:10.321591Z</ns0:updated>
+  <ns0:updated>2026-11-25T23:10:15.000385Z</ns0:updated>
   <ns0:author>
     <ns0:name>Personal Daily Info</ns0:name>
   </ns0:author>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-26:8c857557e3aa7d69</ns0:id>
+    <ns0:title>[市场与投资] Next 20 Days Is ‘Mission Critical’ for Retailers: Yih</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.bloomberg.com/news/videos/2026-11-25/next-20-days-is-mission-critical-for-retailers-yih-video" />
+    <ns0:published>2026-11-25T22:31:57Z</ns0:published>
+    <ns0:updated>2026-11-25T23:10:15.000385Z</ns0:updated>
+    <ns0:category term="market-invest" label="市场与投资" />
+    <ns0:summary type="text">Adrienne Yih, Barclays Managing Director and Senior Retail Analyst, says consumer spending is holding up despite shoppers’ concerns about high prices. She argues that household income and purchasing power have adjusted alongside inflation and wage growth, helping explain continued spending. She spea</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Bloomberg 访谈标题称未来 20 天对零售商至关重要，Barclays 分析师 Yih 表示消费支出仍具韧性。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：20 · 相关方：Adrienne Yih / Barclays / Bloomberg / Romaine Bostick&lt;/p&gt;&lt;p&gt;Adrienne Yih, Barclays Managing Director and Senior Retail Analyst, says consumer spending is holding up despite shoppers’ concerns about high prices. She argues that household income and purchasing power have adjusted alongside inflation and wage growth, helping explain continued spending. She spea&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;20 是嘉宾给出的时间窗口而非销售数据，摘要只陈述购买力已随通胀调整的判断，未提供销量或客单价。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;暂无直接影响：属零售宏观观点，与 WinVM / agent 部署无交集；仅作窗口数字必须绑定口径的反例样本。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照 20 天窗口内的同店销售与客单价披露；若缺任一口径或窗口定义，则判定该判断不可证伪，不进观察表。&lt;/p&gt;&lt;p&gt;来源：Bloomberg Markets · 发布于 2026-11-25T22:31 UTC · 归类：market-invest&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.bloomberg.com/news/videos/2026-11-25/next-20-days-is-mission-critical-for-retailers-yih-video" rel="noopener noreferrer"&gt;https://www.bloomberg.com/news/videos/2026-11-25/next-20-days-is-mission-critical-for-retailers-yih-video&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-26:fa26aeaff4e90fed</ns0:id>
+    <ns0:title>[市场与投资] Anthropic Rebounds From 10% Drop as Markets Stage Dramatic Recovery | Closing Bell</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.bloomberg.com/news/videos/2026-11-25/anthropic-rebounds-from-selloff-closing-bell-video" />
+    <ns0:published>2026-11-25T21:38:39Z</ns0:published>
+    <ns0:updated>2026-11-25T23:10:15.000385Z</ns0:updated>
+    <ns0:category term="market-invest" label="市场与投资" />
+    <ns0:summary type="text">Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Carol Massar and Lisa Mateo. (Source: Bloomberg)</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Bloomberg 节目标题称 Anthropic 从 10% 跌幅反弹，节目内容为当日美股收盘的跨平台综述。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：10% · 相关方：Anthropic / Closing Bell / Bloomberg / YouTube&lt;/p&gt;&lt;p&gt;Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Carol Massar and Lisa Mateo. (Source: Bloomberg)&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;10% 只出现在标题，摘要未给跌幅区间、计算窗口或反弹幅度；一个百分比撑不起对反弹的结论。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建是口径提醒：标题数字与正文描述要分列，缺窗口的百分比标 unverified，不进指标表。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对 2 个独立来源是否给出 10% 的起止时点；若缺任一时点或仅标题单方口径，则判定标 unverified 留线索池。&lt;/p&gt;&lt;p&gt;来源：Bloomberg Markets · 发布于 2026-11-25T21:38 UTC · 归类：market-invest&lt;/p&gt;&lt;p&gt;证据状态：未独立验证&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.bloomberg.com/news/videos/2026-11-25/anthropic-rebounds-from-selloff-closing-bell-video" rel="noopener noreferrer"&gt;https://www.bloomberg.com/news/videos/2026-11-25/anthropic-rebounds-from-selloff-closing-bell-video&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-26:f41751b650177eee</ns0:id>
+    <ns0:title>[市场与投资] Stocks Pare AI-Driven Losses as Dip Buyers Emerge</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.bloomberg.com/news/videos/2026-11-25/stocks-pare-ai-driven-losses-as-dip-buyers-emerge-video" />
+    <ns0:published>2026-11-25T22:21:45Z</ns0:published>
+    <ns0:updated>2026-11-25T23:10:15.000385Z</ns0:updated>
+    <ns0:category term="market-invest" label="市场与投资" />
+    <ns0:summary type="text">Wild swings lashed Wall Street again, with dip buyers fading a stock selloff that had briefly sent the Nasdaq 100 to the brink of a bear market. The tech-heavy gauge fell 1%, trimming most of plunge that was driven by worries over the outlook for the artificial-intelligence trade. Eric Weiner, Bloom</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Bloomberg 报道科技股回落，Nasdaq 100 一度逼近熊市边缘，该科技股指标当日跌 1%，逢低买盘收复部分跌幅。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：1% · 相关方：Nasdaq 100 / Bloomberg / Eric Weiner / Wall Street&lt;/p&gt;&lt;p&gt;Wild swings lashed Wall Street again, with dip buyers fading a stock selloff that had briefly sent the Nasdaq 100 to the brink of a bear market. The tech-heavy gauge fell 1%, trimming most of plunge that was driven by worries over the outlook for the artificial-intelligence trade. Eric Weiner, Bloom&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;1% 是盘中快照跌幅，Nasdaq 100 名称里的 100 是指数标识不是读数；摘要把 AI 前景担忧与通胀并列，未给归因权重。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建只作事实层样本：市场数字进索引须带统计窗口、来源与状态列，不构成投资判断。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照 2 个行情源核对 1% 的统计窗口与收盘点位；若窗口不一致或缺收盘价，则判定该跌幅不可复算，只留线索。&lt;/p&gt;&lt;p&gt;来源：Bloomberg Markets · 发布于 2026-11-25T22:21 UTC · 归类：market-invest&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.bloomberg.com/news/videos/2026-11-25/stocks-pare-ai-driven-losses-as-dip-buyers-emerge-video" rel="noopener noreferrer"&gt;https://www.bloomberg.com/news/videos/2026-11-25/stocks-pare-ai-driven-losses-as-dip-buyers-emerge-video&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-26:ca7cf797fb0254bd</ns0:id>
+    <ns0:title>[市场与投资] Netflix Buys Seinfeld Studio Lot After Goldman Forecloses</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.bloomberg.com/news/videos/2026-11-25/netflix-buys-la-studio-lot-after-goldman-forecloses-video" />
+    <ns0:published>2026-11-25T20:32:55Z</ns0:published>
+    <ns0:updated>2026-11-25T23:10:15.000385Z</ns0:updated>
+    <ns0:category term="market-invest" label="市场与投资" />
+    <ns0:summary type="text">Bloomberg's John Gittelsohn joins Scarlet Fu on "Bloomberg Deals." Netflix announced it’s buying Radford Studio Center, the historic Los Angeles lot where Seinfeld was filmed, for $380 million after Goldman Sachs Group took control of the property. (Source: Bloomberg)</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Bloomberg 报道 Netflix 宣布以 $380 million 收购 Radford Studio Center，此前 Goldman Sachs Group 已接管该地产。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：$380 million · 相关方：Netflix / Radford Studio Center / Goldman Sachs Group / Bloomberg&lt;/p&gt;&lt;p&gt;Bloomberg&amp;#x27;s John Gittelsohn joins Scarlet Fu on &amp;quot;Bloomberg Deals.&amp;quot; Netflix announced it’s buying Radford Studio Center, the historic Los Angeles lot where Seinfeld was filmed, for $380 million after Goldman Sachs Group took control of the property. (Source: Bloomberg)&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;$380 million 是宣布的收购价，不是成交价；原文未给交割时间、面积或估值依据，金额只是单方公告口径。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;暂无直接影响：属传媒地产交易，与 automation / MCP / 数据基建无交集；仅作金额需带交易状态列的字段样本。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对 2 份一手披露是否都给出 $380 million 与交割状态；若仅媒体单方报道，则判定金额标 unverified，不进成本表。&lt;/p&gt;&lt;p&gt;来源：Bloomberg Markets · 发布于 2026-11-25T20:32 UTC · 归类：market-invest&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.bloomberg.com/news/videos/2026-11-25/netflix-buys-la-studio-lot-after-goldman-forecloses-video" rel="noopener noreferrer"&gt;https://www.bloomberg.com/news/videos/2026-11-25/netflix-buys-la-studio-lot-after-goldman-forecloses-video&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-26:c54244a7d9398b99</ns0:id>
+    <ns0:title>[产业与资本] Sources: ElevenLabs is in early talks for a 2027 funding round at a $33B target valuation, up from $22B in September; its annual recurring revenue is now $700M (Bloomberg)</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.techmeme.com/261125/p30" />
+    <ns0:published>2026-11-25T19:00:46Z</ns0:published>
+    <ns0:updated>2026-11-25T23:10:15.000385Z</ns0:updated>
+    <ns0:category term="industry-capital" label="产业与资本" />
+    <ns0:summary type="text">Bloomberg: Sources: ElevenLabs is in early talks for a 2027 funding round at a $33B target valuation, up from $22B in September; its annual recurring revenue is now $700M — ElevenLabs, a company building artificial intelligence voice models and agents, is in early discussions for a funding round …</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Techmeme 转述 Bloomberg 消息人士称 ElevenLabs 就新一轮融资初步接洽，目标估值 $33B，高于此前 $22B，年度经常性收入 $700M。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：$33B / $22B / $700M · 相关方：ElevenLabs / Bloomberg / voice models / agents&lt;/p&gt;&lt;p&gt;Bloomberg: Sources: ElevenLabs is in early talks for a 2027 funding round at a $33B target valuation, up from $22B in September; its annual recurring revenue is now $700M — ElevenLabs, a company building artificial intelligence voice models and agents, is in early discussions for a funding round …&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;$33B 是目标估值、$22B 是上一轮参照、$700M 是 ARR，三者口径不同；early talks 与 Sources 前缀说明尚未落定。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建只作事实层：语音模型与 agents 的估值/收入进索引须带轮次状态列，宣称类标 unverified，不进选型依据。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;找 2 份一手公告核对 $33B 与 $700M；若一致家数少于 2 或未标轮次状态，则判定金额仅为媒体口径，留线索池。&lt;/p&gt;&lt;p&gt;来源：Techmeme · 发布于 2026-11-25T19:00 UTC · 归类：industry-capital&lt;/p&gt;&lt;p&gt;证据状态：未独立验证&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.techmeme.com/261125/p30" rel="noopener noreferrer"&gt;https://www.techmeme.com/261125/p30&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:daily-info.local,2026-11-25:55c02fddf78cda05</ns0:id>
     <ns0:title>[安全与治理] Waymo Recalls Vehicles After 11 Robotaxis Entered Closed Freeway Lanes</ns0:title>

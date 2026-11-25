@@ -5,8 +5,35 @@
     "timezone": "Asia/Shanghai",
     "version": "1.0.0"
   },
-  "generated_at": "2026-11-24T22:53:10.321591Z",
+  "generated_at": "2026-11-25T23:10:15.000385Z",
   "dates": [
+    {
+      "date": "2026-11-26",
+      "headline": "版本号与金额能逐字复核，日期年份与社区热度不能：今天进门禁的是 1.8.5、$33B 与 1% 这些带单位或口径的读数",
+      "lead": "今日能逐字锁定的读数集中在版本号与金额：langchain-core 发布 1.8.5、langchain-anthropic 发布 1.7.13，ElevenLabs 目标估值 $33B 与年度经常性收入 $700M，Netflix 宣布 $380 million 收购；而 Nasdaq 100 当日跌 1%、Bloomberg 标题里的 10% 只剩一个百分比。",
+      "demo": false,
+      "stats": {
+        "sources_ok": 181,
+        "sources_total": 185,
+        "total_items": 2530,
+        "clusters": 2477,
+        "selected": 40,
+        "published_items": 8,
+        "seven_element_pass": 8,
+        "seven_element_ratio": 1.0,
+        "items_with_numbers": 8,
+        "substantive_number_ratio": 1.0,
+        "rejected_no_number": 0,
+        "unique_reference_domains": 4
+      },
+      "section_count": 5,
+      "item_count": 8,
+      "ai_status": "ok",
+      "seven_element_ratio": 1.0,
+      "theme_count": 7,
+      "watch_signal_count": 6,
+      "reference_domains": 4
+    },
     {
       "date": "2026-11-25",
       "headline": "样本量、版本号与金额能逐字复核，型号尾数与社区热度不能：今天进门禁的是 100、160、76 与 544 这些可清点数",

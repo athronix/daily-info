@@ -5,10 +5,40 @@
   <ns0:subtitle>挖掘 · 聚合 · 研判 · 订阅；每条附原文链接；内容仅供参考，不构成投资建议</ns0:subtitle>
   <ns0:link rel="self" type="application/atom+xml" href="https://daily-info.local/tech.atom" />
   <ns0:link rel="alternate" type="text/html" href="https://daily-info.local/index.html" />
-  <ns0:updated>2026-11-24T22:53:10.321591Z</ns0:updated>
+  <ns0:updated>2026-11-25T23:10:15.000385Z</ns0:updated>
   <ns0:author>
     <ns0:name>Personal Daily Info</ns0:name>
   </ns0:author>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-26:8e3231b53ff57e93</ns0:id>
+    <ns0:title>[模型与研究] 物理AI｜智源REAL物理AI开放日，构建适合真实世界的物理AI</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://mp.weixin.qq.com/s?__biz=MzI2MDcxMzQzOA%3D%3D&amp;mid=2247551620&amp;idx=1&amp;sn=eaa4b2b4d19e5c62c304b2ffa6970f75&amp;chksm=eb5467279af72de6d30a7c7e49df62c47010b1d6b7535876dc89f02202cdd44a832868b29fd5&amp;scene=0&amp;xtrack=1" />
+    <ns0:published>2026-11-25T15:10:00Z</ns0:published>
+    <ns0:updated>2026-11-25T23:10:15.000385Z</ns0:updated>
+    <ns0:category term="ai-models" label="模型与研究" />
+    <ns0:summary type="text">机器人、多模态、具身智能｜2026年11月24日，北京智源人工智能研究院在中关村举办“以真实，丈量智能”物理AI开放日，汇聚60余家头部企业、高校及科研机构，聚焦物理AI在真实世界的关键技术突破、评测标准建设与规模化应用。活动强调以真实需求引领发展、系统性评测衡量能力、应用场景验证有效性。智源正式发布REAL开放创新平台，集中推出RE系列成果，推动物理AI从实验室走向产业落地。（150字）</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;智源社区报道北京智源人工智能研究院举办物理AI开放日，汇聚60余家机构并发布 REAL 开放创新平台与 RE 系列成果。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：60 · 相关方：REAL / 智源 / 物理AI&lt;/p&gt;&lt;p&gt;机器人、多模态、具身智能｜2026年11月24日，北京智源人工智能研究院在中关村举办“以真实，丈量智能”物理AI开放日，汇聚60余家头部企业、高校及科研机构，聚焦物理AI在真实世界的关键技术突破、评测标准建设与规模化应用。活动强调以真实需求引领发展、系统性评测衡量能力、应用场景验证有效性。智源正式发布REAL开放创新平台，集中推出RE系列成果，推动物理AI从实验室走向产业落地。（150字）&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;60 是参会机构规模，不是评测分数；原文强调系统性评测衡量能力，却没给出任何指标或基线数值。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 agent 评测是方法论线索：物理AI 的真实场景验证提法可借鉴，但缺可复现指标前不进自托管测试队列。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对开放日材料是否给出 60 家参会清单与评测指标定义；若缺任一项，则判定该规模数字不可复算，仅留事实层。&lt;/p&gt;&lt;p&gt;来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-25T15:10 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://mp.weixin.qq.com/s?__biz=MzI2MDcxMzQzOA%3D%3D&amp;amp;mid=2247551620&amp;amp;idx=1&amp;amp;sn=eaa4b2b4d19e5c62c304b2ffa6970f75&amp;amp;chksm=eb5467279af72de6d30a7c7e49df62c47010b1d6b7535876dc89f02202cdd44a832868b29fd5&amp;amp;scene=0&amp;amp;xtrack=1" rel="noopener noreferrer"&gt;https://mp.weixin.qq.com/s?__biz=MzI2MDcxMzQzOA%3D%3D&amp;amp;mid=2247551620&amp;amp;idx=1&amp;amp;sn=eaa4b2b4d19e5c62c304b2ffa6970f75&amp;amp;chksm=eb5467279af72de6d30a7c7e49df62c47010b1d6b7535876dc89f02202cdd44a832868b29fd5&amp;amp;scene=0&amp;amp;xtrack=1&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-26:f44868345781a4d0</ns0:id>
+    <ns0:title>[开发者工具与版本] langchain-anthropic==1.7.13</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.13" />
+    <ns0:published>2026-11-25T21:42:01Z</ns0:published>
+    <ns0:updated>2026-11-25T23:10:15.000385Z</ns0:updated>
+    <ns0:category term="dev-tools" label="开发者工具与版本" />
+    <ns0:summary type="text">Changes since langchain-anthropic==1.7.12 release(anthropic): 1.7.13 (#42102) feat(anthropic): accept custom HTTP and SDK clients (#42101) chore(model-profiles): refresh model profile data (#42085) chore(model-profiles): refresh model profile data (#42062) release(standard-tests): 1.2.0 (#41996)</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;LangChain 发布 langchain-anthropic 1.7.13，新增接受自定义 HTTP 与 SDK clients，并刷新 model profile 数据。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：1.7.13 / 1.7.12 / 1.2.0 · 相关方：langchain-anthropic / HTTP / SDK clients / model-profiles&lt;/p&gt;&lt;p&gt;Changes since langchain-anthropic==1.7.12 release(anthropic): 1.7.13 (#42102) feat(anthropic): accept custom HTTP and SDK clients (#42101) chore(model-profiles): refresh model profile data (#42085) chore(model-profiles): refresh model profile data (#42062) release(standard-tests): 1.2.0 (#41996)&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;1.7.13 允许注入自定义 HTTP/SDK 客户端，是代理与超时策略的入口；摘要没给兼容性与默认行为差异。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 agent 部署的网关配置有直接用处：自定义 client 意味着可把请求接到统一代理层，需先确认默认超时未被覆盖。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;注入 1 个自定义 HTTP client 跑 2 次调用，若 1.7.13 与 1.7.12 的超时默认值不一致 ≥ 1 处，则判定需在配置层显式固定。&lt;/p&gt;&lt;p&gt;来源：LangChain Releases · 发布于 2026-11-25T21:42 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.13" rel="noopener noreferrer"&gt;https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.13&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-26:f8ccc02d19c8c13d</ns0:id>
+    <ns0:title>[文档与变更] langchain-core==1.8.5</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.5" />
+    <ns0:published>2026-11-25T21:52:41Z</ns0:published>
+    <ns0:updated>2026-11-25T23:10:15.000385Z</ns0:updated>
+    <ns0:category term="docs-changelog" label="文档与变更" />
+    <ns0:summary type="text">Changes since langchain-core==1.8.4 release(core): 1.8.5 (#42103) fix(core): reuse provider message id on later stream chunks (#42050) docs(core): clarify v3 runtime warning behavior (#42040) docs(core): clarify supported streaming event APIs (#42038) release(standard-tests): 1.2.0 (#41996) release(</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;LangChain 发布 langchain-core 1.8.5，复用 provider message id 并澄清 v3 runtime 警告与流式事件 API 说明。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：1.8.5 / 1.8.4 / 1.2.0 · 相关方：langchain-core / mistune / standard-tests&lt;/p&gt;&lt;p&gt;Changes since langchain-core==1.8.4 release(core): 1.8.5 (#42103) fix(core): reuse provider message id on later stream chunks (#42050) docs(core): clarify v3 runtime warning behavior (#42040) docs(core): clarify supported streaming event APIs (#42038) release(standard-tests): 1.2.0 (#41996) release(&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;1.8.5 与 1.8.4 是能逐字锁定的发布号，但变更清单只列 fix/docs 条目，没有给出回归测试结果。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 skill 与 agent 部署最相关：langchain-core 是流式输出底座，升级前要核对 provider message id 是否改变现有 stream chunk 解析。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在 2 个环境各跑 1 次流式复现，若 provider message id 复用失败 ≥ 1 次或 1.8.4→1.8.5 后 chunk 结构变化，则判定暂缓升级。&lt;/p&gt;&lt;p&gt;来源：LangChain Releases · 发布于 2026-11-25T21:52 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.5" rel="noopener noreferrer"&gt;https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.5&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:daily-info.local,2026-11-25:fe3401e2cda5055a</ns0:id>
     <ns0:title>[市场与投资] Amazon is knocking almost $50 off six months of Apple TV</ns0:title>
@@ -978,35 +1008,5 @@
     <ns0:category term="dev-tools" label="市场与投资" />
     <ns0:summary type="text">Jordan Novet / CNBC: CoreWeave reports Q3 revenue up 168% YoY to $3.66B, vs. $3.55B est., a net loss of $709M, and a $132.5B revenue backlog, up from $104B as of June — CoreWeave reported better-than-expected quarterly revenue and lifted its 2026 guidance on Tuesday, showing that demand for artifici</ns0:summary>
     <ns0:content type="html">&lt;p&gt;&lt;strong&gt;CNBC 报道 CoreWeave Q3 营收同比增 168% 至 $3.66B（预期 $3.55B），净亏损 $709M，订单积压 $132.5B&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：168% / $3.66B / $3.55B / $709M / $132.5B · 相关方：CoreWeave / CNBC / Jordan Novet&lt;/p&gt;&lt;p&gt;Jordan Novet / CNBC: CoreWeave reports Q3 revenue up 168% YoY to $3.66B, vs. $3.55B est., a net loss of $709M, and a $132.5B revenue backlog, up from $104B as of June — CoreWeave reported better-than-expected quarterly revenue and lifted its 2026 guidance on Tuesday, showing that demand for artifici&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;营收超预期与净亏损同时扩大，$132.5B 积压说明算力需求真实，但转化为利润仍需资本开支周期。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建与成本核算有间接影响：算力供给紧俏时，无人值守任务的预算阈值要按峰值单价重算。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照下一季财报，若净亏损收窄至 $500M 以下且积压仍 ≥$100B，判定规模效应开始兑现。&lt;/p&gt;&lt;p&gt;来源：Techmeme · 发布于 2026-11-10T21:40 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.techmeme.com/261110/p53" rel="noopener noreferrer"&gt;https://www.techmeme.com/261110/p53&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-11:4f689bfc393cdb60</ns0:id>
-    <ns0:title>[论文与学术] 基于9种药物/2.18亿白细胞，斯坦福医学院发布单细胞级数字孪生系统SIMCO，助力早产预防药物开发</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://mp.weixin.qq.com/s?__biz=MzU3NTQ2NDIyOQ%3D%3D&amp;mid=2247531296&amp;idx=1&amp;sn=93d9fcad3fd222953256c04854baec9a&amp;chksm=fc42a1c45186425bbb8868ba7b72482d197ec949756406624b8ff7c93fd77bd8598ea0a7fb4a&amp;scene=0&amp;xtrack=1" />
-    <ns0:published>2026-11-10T12:20:00Z</ns0:published>
-    <ns0:updated>2026-11-10T23:04:57.316406Z</ns0:updated>
-    <ns0:category term="research-papers" label="论文与学术" />
-    <ns0:summary type="text">智慧医疗、AI、数据库｜斯坦福医学院团队开发出AI驱动的单细胞级数字孪生系统SIMCO，可精准模拟母体免疫系统，用于测试预防早产的药物。该系统有望在临床试验中实现个性化治疗方案指导，提升早产干预的精准性与有效性。早产（妊娠＜37周）风险高、危害大，但目前缺乏针对性强、个体化程度高的预测与干预手段。SIMCO通过数字化重建患者特异性免疫微环境，为早产机制研究和药物筛选提供新范式。（150字）</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;斯坦福医学院发布单细胞级数字孪生系统 SIMCO，基于 9 种药物与 2.18 亿白细胞重建母体免疫微环境&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：9种药物 / 2.18亿 / 37周 · 相关方：SIMCO / 斯坦福医学院 / 数字孪生&lt;/p&gt;&lt;p&gt;智慧医疗、AI、数据库｜斯坦福医学院团队开发出AI驱动的单细胞级数字孪生系统SIMCO，可精准模拟母体免疫系统，用于测试预防早产的药物。该系统有望在临床试验中实现个性化治疗方案指导，提升早产干预的精准性与有效性。早产（妊娠＜37周）风险高、危害大，但目前缺乏针对性强、个体化程度高的预测与干预手段。SIMCO通过数字化重建患者特异性免疫微环境，为早产机制研究和药物筛选提供新范式。（150字）&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;数字孪生把药物筛选从真实试验前移到仿真层，2.18 亿白细胞是少数给出明确样本量级的公开读数。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建有间接影响：单细胞级仿真说明高基数结构化数据的版本与溯源设计仍是瓶颈。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对样本量与评测口径是否公开，若 9 种药物的仿真排序与实验一致 ≥7 种，判定结果可引用。&lt;/p&gt;&lt;p&gt;来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-10T12:20 UTC · 归类：research-papers&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://mp.weixin.qq.com/s?__biz=MzU3NTQ2NDIyOQ%3D%3D&amp;amp;mid=2247531296&amp;amp;idx=1&amp;amp;sn=93d9fcad3fd222953256c04854baec9a&amp;amp;chksm=fc42a1c45186425bbb8868ba7b72482d197ec949756406624b8ff7c93fd77bd8598ea0a7fb4a&amp;amp;scene=0&amp;amp;xtrack=1" rel="noopener noreferrer"&gt;https://mp.weixin.qq.com/s?__biz=MzU3NTQ2NDIyOQ%3D%3D&amp;amp;mid=2247531296&amp;amp;idx=1&amp;amp;sn=93d9fcad3fd222953256c04854baec9a&amp;amp;chksm=fc42a1c45186425bbb8868ba7b72482d197ec949756406624b8ff7c93fd77bd8598ea0a7fb4a&amp;amp;scene=0&amp;amp;xtrack=1&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-11:7bcb98eb0c6b42b7-c</ns0:id>
-    <ns0:title>[论文与学术] The Surprising Effectiveness of Deleting Weights in LLM Post-Training</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://www.reddit.com/r/LocalLLaMA/comments/1xswmb7/the_surprising_effectiveness_of_deleting_weights" />
-    <ns0:published>2026-11-10T19:44:57Z</ns0:published>
-    <ns0:updated>2026-11-10T23:04:57.316406Z</ns0:updated>
-    <ns0:category term="ai-models" label="论文与学术" />
-    <ns0:summary type="text">How little of a pretrained large language model (LLM) has to change for it to acquire new capabilities? We find that zeroing fewer than 0.05% of its weights, with no other modification, matches full fine-tuning (FFT) at scale across three LLM post-training regimes: reinforcement learning with verifi</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;arXiv 论文《The Surprising Effectiveness of Deleting Weights in LLM Post-Training》称零化少于 0.05% 权重即可匹配全量微调&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：0.05% · 相关方：LLM / FFT&lt;/p&gt;&lt;p&gt;How little of a pretrained large language model (LLM) has to change for it to acquire new capabilities? We find that zeroing fewer than 0.05% of its weights, with no other modification, matches full fine-tuning (FFT) at scale across three LLM post-training regimes: reinforcement learning with verifi&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;若结论可复现，后训练的资源门槛会从全量微调降到极小权重子集，改变模型定制的成本模型。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 skill 与 agent 部署暂无直接影响：结论只在三类后训练场景给出，未覆盖工具调用类任务。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在自有评测集复现 3 次 0.05% 权重零化，若与 FFT 差距 &amp;lt;2 个百分点，才判定可用于轻量定制。&lt;/p&gt;&lt;p&gt;来源：r/LocalLLaMA · 发布于 2026-11-10T19:44 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.reddit.com/r/LocalLLaMA/comments/1xswmb7/the_surprising_effectiveness_of_deleting_weights" rel="noopener noreferrer"&gt;https://www.reddit.com/r/LocalLLaMA/comments/1xswmb7/the_surprising_effectiveness_of_deleting_weights&lt;/a&gt;&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://arxiv.org/abs/2611.10866" rel="noopener noreferrer"&gt;https://arxiv.org/abs/2611.10866&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-11:b7cb9f6e519263ef</ns0:id>
-    <ns0:title>[开发者工具与版本] Dependabot alerts will pause on inactive repositories</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://github.blog/changelog/2026-11-10-dependabot-alerts-will-pause-on-inactive-repositories" />
-    <ns0:published>2026-11-10T14:20:05Z</ns0:published>
-    <ns0:updated>2026-11-10T23:04:57.316406Z</ns0:updated>
-    <ns0:category term="dev-tools" label="开发者工具与版本" />
-    <ns0:summary type="text">Starting December 8, 2026, GitHub will turn off Dependabot alerts on most repositories with no activity in the past year. Their existing alerts are archived, not deleted, and you can… The post Dependabot alerts will pause on inactive repositories appeared first on The GitHub Blog.</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;GitHub 宣布自 December 8, 2026 起对过去一年无活动的大多数仓库关闭 Dependabot 告警，既有告警归档不删除&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：December 8, 2026 · 相关方：Dependabot / GitHub&lt;/p&gt;&lt;p&gt;Starting December 8, 2026, GitHub will turn off Dependabot alerts on most repositories with no activity in the past year. Their existing alerts are archived, not deleted, and you can… The post Dependabot alerts will pause on inactive repositories appeared first on The GitHub Blog.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;告警从持续在线变成按活跃度开关，归档仓库的安全债会被静默隐藏而不是被修复。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 automation 与仓库数据基建有直接影响：无人值守的依赖巡检不能把 Dependabot 告警当唯一信号。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在 December 8, 2026 前导出归档仓库清单，若无活动但仍在部署的仓库 ≥1 个，则补独立扫描任务。&lt;/p&gt;&lt;p&gt;来源：GitHub Changelog · 发布于 2026-11-10T14:20 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.blog/changelog/2026-11-10-dependabot-alerts-will-pause-on-inactive-repositories" rel="noopener noreferrer"&gt;https://github.blog/changelog/2026-11-10-dependabot-alerts-will-pause-on-inactive-repositories&lt;/a&gt;&lt;/p&gt;</ns0:content>
   </ns0:entry>
 </ns0:feed>

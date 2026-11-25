@@ -1,0 +1,306 @@
+{
+  "date": "2026-11-26",
+  "headline": "版本号与金额能逐字复核，日期年份与社区热度不能：今天进门禁的是 1.8.5、$33B 与 1% 这些带单位或口径的读数",
+  "lead": "今日能逐字锁定的读数集中在版本号与金额：langchain-core 发布 1.8.5、langchain-anthropic 发布 1.7.13，ElevenLabs 目标估值 $33B 与年度经常性收入 $700M，Netflix 宣布 $380 million 收购；而 Nasdaq 100 当日跌 1%、Bloomberg 标题里的 10% 只剩一个百分比。",
+  "themes": [
+    {
+      "title": "版本号能锁，PR 编号不能",
+      "why": "langchain-core 1.8.5 与 1.8.4、langchain-anthropic 1.7.13 与 1.7.12 是能写进兼容性矩阵的发布号；同一份变更清单里的 #42103 等只是工单编号，不能当读数。",
+      "cluster_ids": [
+        "f8ccc02d19c8c13d",
+        "f44868345781a4d0"
+      ]
+    },
+    {
+      "title": "金额带单位才叫读数",
+      "why": "$33B 与 $22B 是估值、$700M 是 ARR、$380 million 是收购价，量纲与轮次状态都不同；把它们并排时必须各自带单位和状态列。",
+      "cluster_ids": [
+        "c54244a7d9398b99",
+        "ca7cf797fb0254bd"
+      ]
+    },
+    {
+      "title": "百分比要绑定统计窗口",
+      "why": "Nasdaq 100 跌 1% 是盘中快照，Bloomberg 标题里的 10% 缺起止时点；两者都只有一个数，缺窗口就无法复算，也不能换算成结论。",
+      "cluster_ids": [
+        "f41751b650177eee",
+        "fa26aeaff4e90fed",
+        "8c857557e3aa7d69"
+      ]
+    },
+    {
+      "title": "同一批市场数据，两种读法",
+      "why": "Netflix 的 $380 million 是确定报价，$1% 与 10% 是波动快照，20 天是嘉宾窗口；确定值与瞬时值混排，会把公告读成行情。",
+      "cluster_ids": [
+        "ca7cf797fb0254bd",
+        "f41751b650177eee",
+        "fa26aeaff4e90fed"
+      ]
+    },
+    {
+      "title": "规模数字不等于能力证明",
+      "why": "60 余家机构参会与 $700M ARR 都是规模，不是评测分数或可用性证明；原文强调系统性评测，却没给指标与基线数值。",
+      "cluster_ids": [
+        "8e3231b53ff57e93",
+        "c54244a7d9398b99"
+      ]
+    },
+    {
+      "title": "依赖升级要连变更清单一起记",
+      "why": "1.8.5 改了 provider message id 复用，1.7.13 开放自定义 HTTP/SDK clients；只记发布号不记行为变更，升级后无法定位回归来源。",
+      "cluster_ids": [
+        "f8ccc02d19c8c13d",
+        "f44868345781a4d0",
+        "8e3231b53ff57e93"
+      ]
+    },
+    {
+      "title": "白名单挡住的是日期与热度",
+      "why": "活动日期里的年份、HN 分数与评论数、摘要末尾的「（150字）」标注、Nasdaq 100 与 3D NAND 的型号数字，都是标识符或元数据，不是新闻读数。",
+      "cluster_ids": [
+        "f8ccc02d19c8c13d",
+        "f44868345781a4d0",
+        "c54244a7d9398b99",
+        "f41751b650177eee"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "key": "docs-changelog",
+      "label": "文档与变更",
+      "items": [
+        {
+          "id": "f8ccc02d19c8c13d",
+          "fact_anchor": "LangChain 发布 langchain-core 1.8.5，复用 provider message id 并澄清 v3 runtime 警告与流式事件 API 说明。",
+          "numbers": [
+            "1.8.5",
+            "1.8.4",
+            "1.2.0"
+          ],
+          "entities": [
+            "langchain-core",
+            "mistune",
+            "standard-tests"
+          ],
+          "evidence_urls": [
+            "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.5"
+          ],
+          "why_matters": "1.8.5 与 1.8.4 是能逐字锁定的发布号，但变更清单只列 fix/docs 条目，没有给出回归测试结果。",
+          "impact": "对 skill 与 agent 部署最相关：langchain-core 是流式输出底座，升级前要核对 provider message id 是否改变现有 stream chunk 解析。",
+          "next_action": "在 2 个环境各跑 1 次流式复现，若 provider message id 复用失败 ≥ 1 次或 1.8.4→1.8.5 后 chunk 结构变化，则判定暂缓升级。",
+          "signal_type": "release",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "dev-tools",
+      "label": "开发者工具与版本",
+      "items": [
+        {
+          "id": "f44868345781a4d0",
+          "fact_anchor": "LangChain 发布 langchain-anthropic 1.7.13，新增接受自定义 HTTP 与 SDK clients，并刷新 model profile 数据。",
+          "numbers": [
+            "1.7.13",
+            "1.7.12",
+            "1.2.0"
+          ],
+          "entities": [
+            "langchain-anthropic",
+            "HTTP",
+            "SDK clients",
+            "model-profiles"
+          ],
+          "evidence_urls": [
+            "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.13"
+          ],
+          "why_matters": "1.7.13 允许注入自定义 HTTP/SDK 客户端，是代理与超时策略的入口；摘要没给兼容性与默认行为差异。",
+          "impact": "对 agent 部署的网关配置有直接用处：自定义 client 意味着可把请求接到统一代理层，需先确认默认超时未被覆盖。",
+          "next_action": "注入 1 个自定义 HTTP client 跑 2 次调用，若 1.7.13 与 1.7.12 的超时默认值不一致 ≥ 1 处，则判定需在配置层显式固定。",
+          "signal_type": "release",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "ai-models",
+      "label": "模型与研究",
+      "items": [
+        {
+          "id": "8e3231b53ff57e93",
+          "fact_anchor": "智源社区报道北京智源人工智能研究院举办物理AI开放日，汇聚60余家机构并发布 REAL 开放创新平台与 RE 系列成果。",
+          "numbers": [
+            "60"
+          ],
+          "entities": [
+            "REAL",
+            "智源",
+            "物理AI"
+          ],
+          "evidence_urls": [
+            "https://mp.weixin.qq.com/s?__biz=MzI2MDcxMzQzOA%3D%3D&mid=2247551620&idx=1&sn=eaa4b2b4d19e5c62c304b2ffa6970f75&chksm=eb5467279af72de6d30a7c7e49df62c47010b1d6b7535876dc89f02202cdd44a832868b29fd5&scene=0&xtrack=1"
+          ],
+          "why_matters": "60 是参会机构规模，不是评测分数；原文强调系统性评测衡量能力，却没给出任何指标或基线数值。",
+          "impact": "对 agent 评测是方法论线索：物理AI 的真实场景验证提法可借鉴，但缺可复现指标前不进自托管测试队列。",
+          "next_action": "核对开放日材料是否给出 60 家参会清单与评测指标定义；若缺任一项，则判定该规模数字不可复算，仅留事实层。",
+          "signal_type": "product",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "industry-capital",
+      "label": "产业与资本",
+      "items": [
+        {
+          "id": "c54244a7d9398b99",
+          "fact_anchor": "Techmeme 转述 Bloomberg 消息人士称 ElevenLabs 就新一轮融资初步接洽，目标估值 $33B，高于此前 $22B，年度经常性收入 $700M。",
+          "numbers": [
+            "$33B",
+            "$22B",
+            "$700M"
+          ],
+          "entities": [
+            "ElevenLabs",
+            "Bloomberg",
+            "voice models",
+            "agents"
+          ],
+          "evidence_urls": [
+            "https://www.techmeme.com/261125/p30"
+          ],
+          "why_matters": "$33B 是目标估值、$22B 是上一轮参照、$700M 是 ARR，三者口径不同；early talks 与 Sources 前缀说明尚未落定。",
+          "impact": "对数据基建只作事实层：语音模型与 agents 的估值/收入进索引须带轮次状态列，宣称类标 unverified，不进选型依据。",
+          "next_action": "找 2 份一手公告核对 $33B 与 $700M；若一致家数少于 2 或未标轮次状态，则判定金额仅为媒体口径，留线索池。",
+          "signal_type": "funding",
+          "confidence": "unverified"
+        }
+      ]
+    },
+    {
+      "key": "market-invest",
+      "label": "市场与投资",
+      "items": [
+        {
+          "id": "ca7cf797fb0254bd",
+          "fact_anchor": "Bloomberg 报道 Netflix 宣布以 $380 million 收购 Radford Studio Center，此前 Goldman Sachs Group 已接管该地产。",
+          "numbers": [
+            "$380 million"
+          ],
+          "entities": [
+            "Netflix",
+            "Radford Studio Center",
+            "Goldman Sachs Group",
+            "Bloomberg"
+          ],
+          "evidence_urls": [
+            "https://www.bloomberg.com/news/videos/2026-11-25/netflix-buys-la-studio-lot-after-goldman-forecloses-video"
+          ],
+          "why_matters": "$380 million 是宣布的收购价，不是成交价；原文未给交割时间、面积或估值依据，金额只是单方公告口径。",
+          "impact": "暂无直接影响：属传媒地产交易，与 automation / MCP / 数据基建无交集；仅作金额需带交易状态列的字段样本。",
+          "next_action": "核对 2 份一手披露是否都给出 $380 million 与交割状态；若仅媒体单方报道，则判定金额标 unverified，不进成本表。",
+          "signal_type": "market-data",
+          "confidence": "fact"
+        },
+        {
+          "id": "f41751b650177eee",
+          "fact_anchor": "Bloomberg 报道科技股回落，Nasdaq 100 一度逼近熊市边缘，该科技股指标当日跌 1%，逢低买盘收复部分跌幅。",
+          "numbers": [
+            "1%"
+          ],
+          "entities": [
+            "Nasdaq 100",
+            "Bloomberg",
+            "Eric Weiner",
+            "Wall Street"
+          ],
+          "evidence_urls": [
+            "https://www.bloomberg.com/news/videos/2026-11-25/stocks-pare-ai-driven-losses-as-dip-buyers-emerge-video"
+          ],
+          "why_matters": "1% 是盘中快照跌幅，Nasdaq 100 名称里的 100 是指数标识不是读数；摘要把 AI 前景担忧与通胀并列，未给归因权重。",
+          "impact": "对数据基建只作事实层样本：市场数字进索引须带统计窗口、来源与状态列，不构成投资判断。",
+          "next_action": "对照 2 个行情源核对 1% 的统计窗口与收盘点位；若窗口不一致或缺收盘价，则判定该跌幅不可复算，只留线索。",
+          "signal_type": "market-data",
+          "confidence": "fact"
+        },
+        {
+          "id": "fa26aeaff4e90fed",
+          "fact_anchor": "Bloomberg 节目标题称 Anthropic 从 10% 跌幅反弹，节目内容为当日美股收盘的跨平台综述。",
+          "numbers": [
+            "10%"
+          ],
+          "entities": [
+            "Anthropic",
+            "Closing Bell",
+            "Bloomberg",
+            "YouTube"
+          ],
+          "evidence_urls": [
+            "https://www.bloomberg.com/news/videos/2026-11-25/anthropic-rebounds-from-selloff-closing-bell-video"
+          ],
+          "why_matters": "10% 只出现在标题，摘要未给跌幅区间、计算窗口或反弹幅度；一个百分比撑不起对反弹的结论。",
+          "impact": "对数据基建是口径提醒：标题数字与正文描述要分列，缺窗口的百分比标 unverified，不进指标表。",
+          "next_action": "核对 2 个独立来源是否给出 10% 的起止时点；若缺任一时点或仅标题单方口径，则判定标 unverified 留线索池。",
+          "signal_type": "market-data",
+          "confidence": "unverified"
+        },
+        {
+          "id": "8c857557e3aa7d69",
+          "fact_anchor": "Bloomberg 访谈标题称未来 20 天对零售商至关重要，Barclays 分析师 Yih 表示消费支出仍具韧性。",
+          "numbers": [
+            "20"
+          ],
+          "entities": [
+            "Adrienne Yih",
+            "Barclays",
+            "Bloomberg",
+            "Romaine Bostick"
+          ],
+          "evidence_urls": [
+            "https://www.bloomberg.com/news/videos/2026-11-25/next-20-days-is-mission-critical-for-retailers-yih-video"
+          ],
+          "why_matters": "20 是嘉宾给出的时间窗口而非销售数据，摘要只陈述购买力已随通胀调整的判断，未提供销量或客单价。",
+          "impact": "暂无直接影响：属零售宏观观点，与 WinVM / agent 部署无交集；仅作窗口数字必须绑定口径的反例样本。",
+          "next_action": "对照 20 天窗口内的同店销售与客单价披露；若缺任一口径或窗口定义，则判定该判断不可证伪，不进观察表。",
+          "signal_type": "opinion",
+          "confidence": "fact"
+        }
+      ]
+    }
+  ],
+  "editor_note": "本期最该带走的判断是：能进部署门禁的读数，必须是带单位、带口径、可回一手来源逐字核对的那一个，而不是标题里最醒目的数字。今天留下的条目里，最硬的一组是版本号与金额：langchain-core 1.8.5 与 langchain-anthropic 1.7.13 是能写进兼容性矩阵的发布号，ElevenLabs 的 $33B、$22B、$700M 与 Netflix 的 $380 million 是能回公告核对的金额；反过来，活动日期里的年份、HN 的分数与评论数、变更清单里的 PR 编号、摘要末尾的「（150字）」长度标注、Nasdaq 100 名称里的 100、3D NAND 的 3，都只是标识符或元数据，不是新闻读数。对 skill 与 agent 部署的含义很直接：langchain-core 1.8.5 改了流式 chunk 的 provider message id 复用，langchain-anthropic 1.7.13 开放了自定义 HTTP 与 SDK clients，这两条合起来就是一条升级规则，先把版本号与变更清单一并记进依赖台账，在自有环境复现流式解析通过后才允许升级，不能只看发布号就拉最新。第二条是百分比与窗口必须带统计口径。",
+  "brief": "每日信息 · 2026-11-26\n\n今日能逐字锁定的读数集中在版本号与金额：langchain-core 发布 1.8.5、langchain-anthropic 发布 1.7.13，ElevenLabs 目标估值 $33B 与年度经常性收入 $700M，Netflix 宣布 $380 million 收购；而 Nasdaq 100 当日跌 1%、Bloomberg 标题里的 10% 只剩一个百分比。\n\n【文档与变更】\n- LangChain 发布 langchain-core 1.8.5，复用 provider messag…（1.8.5 / 1.8.4）\n\n【开发者工具与版本】\n- LangChain 发布 langchain-anthropic 1.7.13，新增接受自定义 HTTP…（1.7.13 / 1.7.12）\n\n【模型与研究】\n- 智源社区报道北京智源人工智能研究院举办物理AI开放日，汇聚60余家机构并发布 REAL 开放创新平台与 …（60）\n\n【产业与资本】\n- Techmeme 转述 Bloomberg 消息人士称 ElevenLabs 就新一轮融资初步接洽，目标…（$33B / $22B）\n\n【市场与投资】\n- Bloomberg 报道 Netflix 宣布以 $380 million 收购 Radford Stu…（$380 million）\n- Bloomberg 报道科技股回落，Nasdaq 100 一度逼近熊市边缘，该科技股指标当日跌 1%，逢…（1%）\n- Bloomberg 节目标题称 Anthropic 从 10% 跌幅反弹，节目内容为当日美股收盘的跨平台…（10%）\n- Bloomberg 访谈标题称未来 20 天对零售商至关重要，Barclays 分析师 Yih 表示消费…（20）\n\n【待验证信号】\n- langchain-core 1.8.5 流式行为回归：若 在 2 个环境各跑 1 次流式复现，若 provider message id 复用失败 ≥ 1 次，则判定暂缓升级，先把变更清单写进依赖台账后再评估。\n- ElevenLabs $33B 估值与 $700M ARR 的一手佐…：若 找 2 份一手公告核对 $33B 与 $700M，若一致家数少于 2，则判定金额仅为媒体口径，标 unverified 留线索池不进选型。\n- Netflix $380 million 收购价与交割状态：若 核对 2 份一手披露，若仅 1 家给出 $380 million 或未标交割状态，则判定金额标 unverified，不进成本基线表。\n- 1% 与 10% 跌幅的统计窗口：若 对照 2 个行情源，若窗口定义不一致或缺收盘点位/起止时点，则判定该百分比不可复算，只留事实层不进指标表。\n- 未来 20 天零售窗口的可证伪性：若 对照 20 天窗口内同店销售与客单价，若缺任一口径或窗口定义，则判定该判断不可证伪，不进观察表。\n- REAL 开放日 60 家参会与评测指标：若 核对材料是否给出 60 家清单与评测指标定义，若缺任一项，则判定规模数字不可复算，平台成果仅留事实层。\n\n内容仅供参考，不构成投资建议；外部事实未独立验证；取不到可靠数据处标注「暂无可靠数据」。",
+  "watch_signals": [
+    {
+      "signal": "langchain-core 1.8.5 流式行为回归",
+      "threshold": "在 2 个环境各跑 1 次流式复现，若 provider message id 复用失败 ≥ 1 次",
+      "judgement": "判定暂缓升级，先把变更清单写进依赖台账后再评估"
+    },
+    {
+      "signal": "ElevenLabs $33B 估值与 $700M ARR 的一手佐证",
+      "threshold": "找 2 份一手公告核对 $33B 与 $700M，若一致家数少于 2",
+      "judgement": "判定金额仅为媒体口径，标 unverified 留线索池不进选型"
+    },
+    {
+      "signal": "Netflix $380 million 收购价与交割状态",
+      "threshold": "核对 2 份一手披露，若仅 1 家给出 $380 million 或未标交割状态",
+      "judgement": "判定金额标 unverified，不进成本基线表"
+    },
+    {
+      "signal": "1% 与 10% 跌幅的统计窗口",
+      "threshold": "对照 2 个行情源，若窗口定义不一致或缺收盘点位/起止时点",
+      "judgement": "判定该百分比不可复算，只留事实层不进指标表"
+    },
+    {
+      "signal": "未来 20 天零售窗口的可证伪性",
+      "threshold": "对照 20 天窗口内同店销售与客单价，若缺任一口径或窗口定义",
+      "judgement": "判定该判断不可证伪，不进观察表"
+    },
+    {
+      "signal": "REAL 开放日 60 家参会与评测指标",
+      "threshold": "核对材料是否给出 60 家清单与评测指标定义，若缺任一项",
+      "judgement": "判定规模数字不可复算，平台成果仅留事实层"
+    }
+  ]
+}

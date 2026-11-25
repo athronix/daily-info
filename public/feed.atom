@@ -5,10 +5,90 @@
   <ns0:subtitle>挖掘 · 聚合 · 研判 · 订阅；每条附原文链接；内容仅供参考，不构成投资建议</ns0:subtitle>
   <ns0:link rel="self" type="application/atom+xml" href="https://daily-info.local/all.atom" />
   <ns0:link rel="alternate" type="text/html" href="https://daily-info.local/index.html" />
-  <ns0:updated>2026-11-24T22:53:10.321591Z</ns0:updated>
+  <ns0:updated>2026-11-25T23:10:15.000385Z</ns0:updated>
   <ns0:author>
     <ns0:name>Personal Daily Info</ns0:name>
   </ns0:author>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-26:8c857557e3aa7d69</ns0:id>
+    <ns0:title>[市场与投资] Next 20 Days Is ‘Mission Critical’ for Retailers: Yih</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.bloomberg.com/news/videos/2026-11-25/next-20-days-is-mission-critical-for-retailers-yih-video" />
+    <ns0:published>2026-11-25T22:31:57Z</ns0:published>
+    <ns0:updated>2026-11-25T23:10:15.000385Z</ns0:updated>
+    <ns0:category term="market-invest" label="市场与投资" />
+    <ns0:summary type="text">Adrienne Yih, Barclays Managing Director and Senior Retail Analyst, says consumer spending is holding up despite shoppers’ concerns about high prices. She argues that household income and purchasing power have adjusted alongside inflation and wage growth, helping explain continued spending. She spea</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Bloomberg 访谈标题称未来 20 天对零售商至关重要，Barclays 分析师 Yih 表示消费支出仍具韧性。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：20 · 相关方：Adrienne Yih / Barclays / Bloomberg / Romaine Bostick&lt;/p&gt;&lt;p&gt;Adrienne Yih, Barclays Managing Director and Senior Retail Analyst, says consumer spending is holding up despite shoppers’ concerns about high prices. She argues that household income and purchasing power have adjusted alongside inflation and wage growth, helping explain continued spending. She spea&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;20 是嘉宾给出的时间窗口而非销售数据，摘要只陈述购买力已随通胀调整的判断，未提供销量或客单价。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;暂无直接影响：属零售宏观观点，与 WinVM / agent 部署无交集；仅作窗口数字必须绑定口径的反例样本。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照 20 天窗口内的同店销售与客单价披露；若缺任一口径或窗口定义，则判定该判断不可证伪，不进观察表。&lt;/p&gt;&lt;p&gt;来源：Bloomberg Markets · 发布于 2026-11-25T22:31 UTC · 归类：market-invest&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.bloomberg.com/news/videos/2026-11-25/next-20-days-is-mission-critical-for-retailers-yih-video" rel="noopener noreferrer"&gt;https://www.bloomberg.com/news/videos/2026-11-25/next-20-days-is-mission-critical-for-retailers-yih-video&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-26:fa26aeaff4e90fed</ns0:id>
+    <ns0:title>[市场与投资] Anthropic Rebounds From 10% Drop as Markets Stage Dramatic Recovery | Closing Bell</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.bloomberg.com/news/videos/2026-11-25/anthropic-rebounds-from-selloff-closing-bell-video" />
+    <ns0:published>2026-11-25T21:38:39Z</ns0:published>
+    <ns0:updated>2026-11-25T23:10:15.000385Z</ns0:updated>
+    <ns0:category term="market-invest" label="市场与投资" />
+    <ns0:summary type="text">Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Carol Massar and Lisa Mateo. (Source: Bloomberg)</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Bloomberg 节目标题称 Anthropic 从 10% 跌幅反弹，节目内容为当日美股收盘的跨平台综述。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：10% · 相关方：Anthropic / Closing Bell / Bloomberg / YouTube&lt;/p&gt;&lt;p&gt;Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Carol Massar and Lisa Mateo. (Source: Bloomberg)&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;10% 只出现在标题，摘要未给跌幅区间、计算窗口或反弹幅度；一个百分比撑不起对反弹的结论。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建是口径提醒：标题数字与正文描述要分列，缺窗口的百分比标 unverified，不进指标表。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对 2 个独立来源是否给出 10% 的起止时点；若缺任一时点或仅标题单方口径，则判定标 unverified 留线索池。&lt;/p&gt;&lt;p&gt;来源：Bloomberg Markets · 发布于 2026-11-25T21:38 UTC · 归类：market-invest&lt;/p&gt;&lt;p&gt;证据状态：未独立验证&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.bloomberg.com/news/videos/2026-11-25/anthropic-rebounds-from-selloff-closing-bell-video" rel="noopener noreferrer"&gt;https://www.bloomberg.com/news/videos/2026-11-25/anthropic-rebounds-from-selloff-closing-bell-video&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-26:f41751b650177eee</ns0:id>
+    <ns0:title>[市场与投资] Stocks Pare AI-Driven Losses as Dip Buyers Emerge</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.bloomberg.com/news/videos/2026-11-25/stocks-pare-ai-driven-losses-as-dip-buyers-emerge-video" />
+    <ns0:published>2026-11-25T22:21:45Z</ns0:published>
+    <ns0:updated>2026-11-25T23:10:15.000385Z</ns0:updated>
+    <ns0:category term="market-invest" label="市场与投资" />
+    <ns0:summary type="text">Wild swings lashed Wall Street again, with dip buyers fading a stock selloff that had briefly sent the Nasdaq 100 to the brink of a bear market. The tech-heavy gauge fell 1%, trimming most of plunge that was driven by worries over the outlook for the artificial-intelligence trade. Eric Weiner, Bloom</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Bloomberg 报道科技股回落，Nasdaq 100 一度逼近熊市边缘，该科技股指标当日跌 1%，逢低买盘收复部分跌幅。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：1% · 相关方：Nasdaq 100 / Bloomberg / Eric Weiner / Wall Street&lt;/p&gt;&lt;p&gt;Wild swings lashed Wall Street again, with dip buyers fading a stock selloff that had briefly sent the Nasdaq 100 to the brink of a bear market. The tech-heavy gauge fell 1%, trimming most of plunge that was driven by worries over the outlook for the artificial-intelligence trade. Eric Weiner, Bloom&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;1% 是盘中快照跌幅，Nasdaq 100 名称里的 100 是指数标识不是读数；摘要把 AI 前景担忧与通胀并列，未给归因权重。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建只作事实层样本：市场数字进索引须带统计窗口、来源与状态列，不构成投资判断。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照 2 个行情源核对 1% 的统计窗口与收盘点位；若窗口不一致或缺收盘价，则判定该跌幅不可复算，只留线索。&lt;/p&gt;&lt;p&gt;来源：Bloomberg Markets · 发布于 2026-11-25T22:21 UTC · 归类：market-invest&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.bloomberg.com/news/videos/2026-11-25/stocks-pare-ai-driven-losses-as-dip-buyers-emerge-video" rel="noopener noreferrer"&gt;https://www.bloomberg.com/news/videos/2026-11-25/stocks-pare-ai-driven-losses-as-dip-buyers-emerge-video&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-26:ca7cf797fb0254bd</ns0:id>
+    <ns0:title>[市场与投资] Netflix Buys Seinfeld Studio Lot After Goldman Forecloses</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.bloomberg.com/news/videos/2026-11-25/netflix-buys-la-studio-lot-after-goldman-forecloses-video" />
+    <ns0:published>2026-11-25T20:32:55Z</ns0:published>
+    <ns0:updated>2026-11-25T23:10:15.000385Z</ns0:updated>
+    <ns0:category term="market-invest" label="市场与投资" />
+    <ns0:summary type="text">Bloomberg's John Gittelsohn joins Scarlet Fu on "Bloomberg Deals." Netflix announced it’s buying Radford Studio Center, the historic Los Angeles lot where Seinfeld was filmed, for $380 million after Goldman Sachs Group took control of the property. (Source: Bloomberg)</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Bloomberg 报道 Netflix 宣布以 $380 million 收购 Radford Studio Center，此前 Goldman Sachs Group 已接管该地产。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：$380 million · 相关方：Netflix / Radford Studio Center / Goldman Sachs Group / Bloomberg&lt;/p&gt;&lt;p&gt;Bloomberg&amp;#x27;s John Gittelsohn joins Scarlet Fu on &amp;quot;Bloomberg Deals.&amp;quot; Netflix announced it’s buying Radford Studio Center, the historic Los Angeles lot where Seinfeld was filmed, for $380 million after Goldman Sachs Group took control of the property. (Source: Bloomberg)&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;$380 million 是宣布的收购价，不是成交价；原文未给交割时间、面积或估值依据，金额只是单方公告口径。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;暂无直接影响：属传媒地产交易，与 automation / MCP / 数据基建无交集；仅作金额需带交易状态列的字段样本。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对 2 份一手披露是否都给出 $380 million 与交割状态；若仅媒体单方报道，则判定金额标 unverified，不进成本表。&lt;/p&gt;&lt;p&gt;来源：Bloomberg Markets · 发布于 2026-11-25T20:32 UTC · 归类：market-invest&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.bloomberg.com/news/videos/2026-11-25/netflix-buys-la-studio-lot-after-goldman-forecloses-video" rel="noopener noreferrer"&gt;https://www.bloomberg.com/news/videos/2026-11-25/netflix-buys-la-studio-lot-after-goldman-forecloses-video&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-26:c54244a7d9398b99</ns0:id>
+    <ns0:title>[产业与资本] Sources: ElevenLabs is in early talks for a 2027 funding round at a $33B target valuation, up from $22B in September; its annual recurring revenue is now $700M (Bloomberg)</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.techmeme.com/261125/p30" />
+    <ns0:published>2026-11-25T19:00:46Z</ns0:published>
+    <ns0:updated>2026-11-25T23:10:15.000385Z</ns0:updated>
+    <ns0:category term="industry-capital" label="产业与资本" />
+    <ns0:summary type="text">Bloomberg: Sources: ElevenLabs is in early talks for a 2027 funding round at a $33B target valuation, up from $22B in September; its annual recurring revenue is now $700M — ElevenLabs, a company building artificial intelligence voice models and agents, is in early discussions for a funding round …</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Techmeme 转述 Bloomberg 消息人士称 ElevenLabs 就新一轮融资初步接洽，目标估值 $33B，高于此前 $22B，年度经常性收入 $700M。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：$33B / $22B / $700M · 相关方：ElevenLabs / Bloomberg / voice models / agents&lt;/p&gt;&lt;p&gt;Bloomberg: Sources: ElevenLabs is in early talks for a 2027 funding round at a $33B target valuation, up from $22B in September; its annual recurring revenue is now $700M — ElevenLabs, a company building artificial intelligence voice models and agents, is in early discussions for a funding round …&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;$33B 是目标估值、$22B 是上一轮参照、$700M 是 ARR，三者口径不同；early talks 与 Sources 前缀说明尚未落定。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建只作事实层：语音模型与 agents 的估值/收入进索引须带轮次状态列，宣称类标 unverified，不进选型依据。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;找 2 份一手公告核对 $33B 与 $700M；若一致家数少于 2 或未标轮次状态，则判定金额仅为媒体口径，留线索池。&lt;/p&gt;&lt;p&gt;来源：Techmeme · 发布于 2026-11-25T19:00 UTC · 归类：industry-capital&lt;/p&gt;&lt;p&gt;证据状态：未独立验证&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.techmeme.com/261125/p30" rel="noopener noreferrer"&gt;https://www.techmeme.com/261125/p30&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-26:8e3231b53ff57e93</ns0:id>
+    <ns0:title>[模型与研究] 物理AI｜智源REAL物理AI开放日，构建适合真实世界的物理AI</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://mp.weixin.qq.com/s?__biz=MzI2MDcxMzQzOA%3D%3D&amp;mid=2247551620&amp;idx=1&amp;sn=eaa4b2b4d19e5c62c304b2ffa6970f75&amp;chksm=eb5467279af72de6d30a7c7e49df62c47010b1d6b7535876dc89f02202cdd44a832868b29fd5&amp;scene=0&amp;xtrack=1" />
+    <ns0:published>2026-11-25T15:10:00Z</ns0:published>
+    <ns0:updated>2026-11-25T23:10:15.000385Z</ns0:updated>
+    <ns0:category term="ai-models" label="模型与研究" />
+    <ns0:summary type="text">机器人、多模态、具身智能｜2026年11月24日，北京智源人工智能研究院在中关村举办“以真实，丈量智能”物理AI开放日，汇聚60余家头部企业、高校及科研机构，聚焦物理AI在真实世界的关键技术突破、评测标准建设与规模化应用。活动强调以真实需求引领发展、系统性评测衡量能力、应用场景验证有效性。智源正式发布REAL开放创新平台，集中推出RE系列成果，推动物理AI从实验室走向产业落地。（150字）</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;智源社区报道北京智源人工智能研究院举办物理AI开放日，汇聚60余家机构并发布 REAL 开放创新平台与 RE 系列成果。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：60 · 相关方：REAL / 智源 / 物理AI&lt;/p&gt;&lt;p&gt;机器人、多模态、具身智能｜2026年11月24日，北京智源人工智能研究院在中关村举办“以真实，丈量智能”物理AI开放日，汇聚60余家头部企业、高校及科研机构，聚焦物理AI在真实世界的关键技术突破、评测标准建设与规模化应用。活动强调以真实需求引领发展、系统性评测衡量能力、应用场景验证有效性。智源正式发布REAL开放创新平台，集中推出RE系列成果，推动物理AI从实验室走向产业落地。（150字）&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;60 是参会机构规模，不是评测分数；原文强调系统性评测衡量能力，却没给出任何指标或基线数值。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 agent 评测是方法论线索：物理AI 的真实场景验证提法可借鉴，但缺可复现指标前不进自托管测试队列。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对开放日材料是否给出 60 家参会清单与评测指标定义；若缺任一项，则判定该规模数字不可复算，仅留事实层。&lt;/p&gt;&lt;p&gt;来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-25T15:10 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://mp.weixin.qq.com/s?__biz=MzI2MDcxMzQzOA%3D%3D&amp;amp;mid=2247551620&amp;amp;idx=1&amp;amp;sn=eaa4b2b4d19e5c62c304b2ffa6970f75&amp;amp;chksm=eb5467279af72de6d30a7c7e49df62c47010b1d6b7535876dc89f02202cdd44a832868b29fd5&amp;amp;scene=0&amp;amp;xtrack=1" rel="noopener noreferrer"&gt;https://mp.weixin.qq.com/s?__biz=MzI2MDcxMzQzOA%3D%3D&amp;amp;mid=2247551620&amp;amp;idx=1&amp;amp;sn=eaa4b2b4d19e5c62c304b2ffa6970f75&amp;amp;chksm=eb5467279af72de6d30a7c7e49df62c47010b1d6b7535876dc89f02202cdd44a832868b29fd5&amp;amp;scene=0&amp;amp;xtrack=1&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-26:f44868345781a4d0</ns0:id>
+    <ns0:title>[开发者工具与版本] langchain-anthropic==1.7.13</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.13" />
+    <ns0:published>2026-11-25T21:42:01Z</ns0:published>
+    <ns0:updated>2026-11-25T23:10:15.000385Z</ns0:updated>
+    <ns0:category term="dev-tools" label="开发者工具与版本" />
+    <ns0:summary type="text">Changes since langchain-anthropic==1.7.12 release(anthropic): 1.7.13 (#42102) feat(anthropic): accept custom HTTP and SDK clients (#42101) chore(model-profiles): refresh model profile data (#42085) chore(model-profiles): refresh model profile data (#42062) release(standard-tests): 1.2.0 (#41996)</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;LangChain 发布 langchain-anthropic 1.7.13，新增接受自定义 HTTP 与 SDK clients，并刷新 model profile 数据。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：1.7.13 / 1.7.12 / 1.2.0 · 相关方：langchain-anthropic / HTTP / SDK clients / model-profiles&lt;/p&gt;&lt;p&gt;Changes since langchain-anthropic==1.7.12 release(anthropic): 1.7.13 (#42102) feat(anthropic): accept custom HTTP and SDK clients (#42101) chore(model-profiles): refresh model profile data (#42085) chore(model-profiles): refresh model profile data (#42062) release(standard-tests): 1.2.0 (#41996)&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;1.7.13 允许注入自定义 HTTP/SDK 客户端，是代理与超时策略的入口；摘要没给兼容性与默认行为差异。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 agent 部署的网关配置有直接用处：自定义 client 意味着可把请求接到统一代理层，需先确认默认超时未被覆盖。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;注入 1 个自定义 HTTP client 跑 2 次调用，若 1.7.13 与 1.7.12 的超时默认值不一致 ≥ 1 处，则判定需在配置层显式固定。&lt;/p&gt;&lt;p&gt;来源：LangChain Releases · 发布于 2026-11-25T21:42 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.13" rel="noopener noreferrer"&gt;https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.13&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-26:f8ccc02d19c8c13d</ns0:id>
+    <ns0:title>[文档与变更] langchain-core==1.8.5</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.5" />
+    <ns0:published>2026-11-25T21:52:41Z</ns0:published>
+    <ns0:updated>2026-11-25T23:10:15.000385Z</ns0:updated>
+    <ns0:category term="docs-changelog" label="文档与变更" />
+    <ns0:summary type="text">Changes since langchain-core==1.8.4 release(core): 1.8.5 (#42103) fix(core): reuse provider message id on later stream chunks (#42050) docs(core): clarify v3 runtime warning behavior (#42040) docs(core): clarify supported streaming event APIs (#42038) release(standard-tests): 1.2.0 (#41996) release(</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;LangChain 发布 langchain-core 1.8.5，复用 provider message id 并澄清 v3 runtime 警告与流式事件 API 说明。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：1.8.5 / 1.8.4 / 1.2.0 · 相关方：langchain-core / mistune / standard-tests&lt;/p&gt;&lt;p&gt;Changes since langchain-core==1.8.4 release(core): 1.8.5 (#42103) fix(core): reuse provider message id on later stream chunks (#42050) docs(core): clarify v3 runtime warning behavior (#42040) docs(core): clarify supported streaming event APIs (#42038) release(standard-tests): 1.2.0 (#41996) release(&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;1.8.5 与 1.8.4 是能逐字锁定的发布号，但变更清单只列 fix/docs 条目，没有给出回归测试结果。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 skill 与 agent 部署最相关：langchain-core 是流式输出底座，升级前要核对 provider message id 是否改变现有 stream chunk 解析。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在 2 个环境各跑 1 次流式复现，若 provider message id 复用失败 ≥ 1 次或 1.8.4→1.8.5 后 chunk 结构变化，则判定暂缓升级。&lt;/p&gt;&lt;p&gt;来源：LangChain Releases · 发布于 2026-11-25T21:52 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.5" rel="noopener noreferrer"&gt;https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.5&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:daily-info.local,2026-11-25:55c02fddf78cda05</ns0:id>
     <ns0:title>[安全与治理] Waymo Recalls Vehicles After 11 Robotaxis Entered Closed Freeway Lanes</ns0:title>
@@ -928,85 +1008,5 @@
     <ns0:category term="community" label="社区与观点" />
     <ns0:summary type="text">Comments 〔Folo分类:开源项目〕</ns0:summary>
     <ns0:content type="html">&lt;p&gt;&lt;strong&gt;一位商户在 Ask HN 发帖称 Stripe 在一张 $1,500 发票后关闭其账户且从未索取凭证。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：1,500 · 相关方：Stripe&lt;/p&gt;&lt;p&gt;Comments 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;金额很小却触发关停，指向风控自动化里的申诉缺口，读数与后果之间的不匹配才是重点。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对应我们的自动化流水线设计：自动处置动作需保留人工申诉通道与可回滚记录，避免小额异常被不可逆处理。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对自家自动化里是否存在无凭证即终态的处置规则；若存在 ≥1 条且不可回滚，则补人工复核环节后再上线。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-15T19:49 UTC · 归类：community&lt;/p&gt;&lt;p&gt;证据状态：未独立验证&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://news.ycombinator.com/item?id=50510042" rel="noopener noreferrer"&gt;https://news.ycombinator.com/item?id=50510042&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-16:fb60cc1ec1fcdcf5</ns0:id>
-    <ns0:title>[市场与投资] Johnson &amp; Johnson looking to buy eye disease biotech for up to $3.4bn</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://www.ft.com/content/450100ba-074c-46a6-b962-89dbef146135?syn-25a6b1a6=1" />
-    <ns0:published>2026-11-15T23:54:31Z</ns0:published>
-    <ns0:updated>2026-11-16T02:01:41.758063Z</ns0:updated>
-    <ns0:category term="market-invest" label="市场与投资" />
-    <ns0:summary type="text">Drugmaker’s potential acquisition of Ollin Biosciences is latest in glut of deals in biotechnology sector</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;强生拟以最高 $3.4bn 收购眼病生物技术公司 Ollin Biosciences，被报道为生物技术板块密集交易中的最新一笔。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：3.4 · 相关方：Johnson &amp;amp; Johnson / Ollin Biosciences&lt;/p&gt;&lt;p&gt;Drugmaker’s potential acquisition of Ollin Biosciences is latest in glut of deals in biotechnology sector&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;给出的是收购金额上限而非成交价，读这类读数要区分至多与已付，否则会高估交易规模。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;暂无直接影响：医药并购与我们的 agent/数据基建关注面无关，仅作为上限型读数的辨析样本，不构成投资建议。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;跟踪是否披露最终成交价；若最终价低于 $3.4bn 超过 20%，则把该条改标为上限报价并修正引用口径。&lt;/p&gt;&lt;p&gt;来源：Financial Times · 发布于 2026-11-15T23:54 UTC · 归类：market-invest&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.ft.com/content/450100ba-074c-46a6-b962-89dbef146135?syn-25a6b1a6=1" rel="noopener noreferrer"&gt;https://www.ft.com/content/450100ba-074c-46a6-b962-89dbef146135?syn-25a6b1a6=1&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-16:ff37d90f9a8644db</ns0:id>
-    <ns0:title>[产业与资本] 摩根士丹利预计标普500指数将升至8700点，看好2027年的德国国债和英国国债</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://www.36kr.com/newsflashes/4071714541769865" />
-    <ns0:published>2026-11-16T00:42:13Z</ns0:published>
-    <ns0:updated>2026-11-16T02:01:41.758063Z</ns0:updated>
-    <ns0:category term="industry-capital" label="产业与资本" />
-    <ns0:summary type="text">摩根士丹利在2027年市场展望中看好美国股票和部分G10国家债券。包括Marina Zavolock在内的策略师在11月15日的报告中写道，该行已将标普500指数的目标价上调至8700点，这意味着约有15%的上涨空间。“健康的盈利增长、趋稳的利率和油价、持续的人工智能投资与应用，以及低于公允价值的估值，支撑了我们对2027年的展望。”（新浪财经）</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;摩根士丹利在市场展望中把标普500 目标价上调至 8700 点，称隐含约 15% 上涨空间，并看好部分 G10 国家债券。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：8700 / 15% · 相关方：摩根士丹利 / 标普500 / Marina Zavolock&lt;/p&gt;&lt;p&gt;摩根士丹利在2027年市场展望中看好美国股票和部分G10国家债券。包括Marina Zavolock在内的策略师在11月15日的报告中写道，该行已将标普500指数的目标价上调至8700点，这意味着约有15%的上涨空间。“健康的盈利增长、趋稳的利率和油价、持续的人工智能投资与应用，以及低于公允价值的估值，支撑了我们对2027年的展望。”（新浪财经）&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;点位目标与隐含涨幅是可证伪的量化预测，适合作为事后校准卖方预期的样本，而非操作依据。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;暂无直接影响：属公开市场展望，与我们的工程关注面无关；此处只保留其可核验读数，不构成投资建议。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;把 8700 点与 15% 记为待验证预测，若对应周期结束时指数偏离目标超过 15%，则判定该展望失效并归档为校准样本。&lt;/p&gt;&lt;p&gt;来源：36氪快讯（RSSHub 镜像路由） · 发布于 2026-11-16T00:42 UTC · 归类：industry-capital&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.36kr.com/newsflashes/4071714541769865" rel="noopener noreferrer"&gt;https://www.36kr.com/newsflashes/4071714541769865&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-16:fc91828979fbf24c</ns0:id>
-    <ns0:title>[产业与资本] Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market" />
-    <ns0:published>2026-11-15T23:30:00.555000Z</ns0:published>
-    <ns0:updated>2026-11-16T02:01:41.758063Z</ns0:updated>
-    <ns0:category term="community" label="产业与资本" />
-    <ns0:summary type="text">Bharat Semi says it has secured design wins for its AI-enabled sensor technology with companies including General Atomics. 〔Folo分类:AI技术与应用〕</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;印度芯片初创 Bharat Semi 拿到 $24M 种子轮，称其 AI 传感器技术已拿下包括 General Atomics 在内的设计订单。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：24M · 相关方：Bharat Semi / General Atomics&lt;/p&gt;&lt;p&gt;Bharat Semi says it has secured design wins for its AI-enabled sensor technology with companies including General Atomics. 〔Folo分类:AI技术与应用〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;种子轮金额与设计订单同时披露，给出资金与客户双读数，比单看融资额更能判断早期项目的落地程度。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 AI 传感器供应链是可用线索，但与当前 WorkBuddy/MCP/agent 部署关注面无直接交集，暂不纳入技术选型输入。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对 General Atomics 设计订单是否有第二来源；若 30 天内仍只有公司自述，则把该条标注为单一来源并降低可信等级。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-15T23:30 UTC · 归类：community&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market" rel="noopener noreferrer"&gt;https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-16:9781145a655dc727</ns0:id>
-    <ns0:title>[文档与变更] Early Apple Watch Black Friday Deals Arrive With Series 12 Hitting New Record Lows</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://www.macrumors.com/2026/11/15/early-apple-watch-black-friday-deals" />
-    <ns0:published>2026-11-15T17:59:53.286000Z</ns0:published>
-    <ns0:updated>2026-11-16T02:01:41.758063Z</ns0:updated>
-    <ns0:category term="docs-changelog" label="文档与变更" />
-    <ns0:summary type="text">Amazon and Best Buy are offering early Black Friday discounts on Apple Watch Series 12, reducing prices by $70 across Aluminum, Titanium, and Ceramic models. These new low prices apply to both 42mm and 46mm sizes in GPS and Cellular variations. Retailers like Amazon and Best Buy are currently sellin</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Amazon 与 Best Buy 提前给出 Apple Watch Series 12 的黑五折扣，降价 $70，覆盖 42mm 与 46mm 尺寸。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：70 / 42mm / 46mm · 相关方：Apple Watch Series 12 / Amazon / Best Buy&lt;/p&gt;&lt;p&gt;Amazon and Best Buy are offering early Black Friday discounts on Apple Watch Series 12, reducing prices by $70 across Aluminum, Titanium, and Ceramic models. These new low prices apply to both 42mm and 46mm sizes in GPS and Cellular variations. Retailers like Amazon and Best Buy are currently sellin&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;同一折扣同时给出金额与尺寸覆盖，是少数把促销口径写全的读数，便于判断适用范围而非只看标题价。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;暂无直接影响：消费电子促销与我们的 agent/数据基建关注面无关，此处仅作为可核验读数完整性的对照样本。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;若后续出现同型号更高折扣，比较 $70 是否被突破；差额超过 $70 时判定 record low 表述失效，不再引用该条作为极值。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-15T17:59 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.macrumors.com/2026/11/15/early-apple-watch-black-friday-deals" rel="noopener noreferrer"&gt;https://www.macrumors.com/2026/11/15/early-apple-watch-black-friday-deals&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-16:042b8471176f671c</ns0:id>
-    <ns0:title>[文档与变更] Italy orders Meta to pay $887M for not obtaining specific consent over user photos</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://www.engadget.com/2317185/italy-orders-meta-to-pay-887m-for-not-obtaining-specific-consent-over-user-photos" />
-    <ns0:published>2026-11-15T17:44:06.463000Z</ns0:published>
-    <ns0:updated>2026-11-16T02:01:41.758063Z</ns0:updated>
-    <ns0:category term="docs-changelog" label="文档与变更" />
-    <ns0:summary type="text">Meta is reportedly planning to appeal the fine. 〔Folo分类:新奇产品〕</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;意大利监管机构就未取得用户照片的特定同意，要求 Meta 支付 $887M，Meta 计划提起上诉。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：887 · 相关方：Meta / Italy&lt;/p&gt;&lt;p&gt;Meta is reportedly planning to appeal the fine. 〔Folo分类:新奇产品〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把同意这一细粒度合规要求直接折算成可计量罚款，说明数据采集的授权粒度有明确的财务后果。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对应我们的数据基建与凭据治理：采集或留存涉及用户内容时，同意范围与用途需可追溯，否则口径风险会外溢到产物。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对本地采集是否留存用户照片类字段，若存在且无逐项同意记录，则在下一次产物落盘前移除该字段并记为整改项。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-15T17:44 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.engadget.com/2317185/italy-orders-meta-to-pay-887m-for-not-obtaining-specific-consent-over-user-photos" rel="noopener noreferrer"&gt;https://www.engadget.com/2317185/italy-orders-meta-to-pay-887m-for-not-obtaining-specific-consent-over-user-photos&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-16:1a391f32e27ef31a</ns0:id>
-    <ns0:title>[文档与变更] 派早报：Microsoft 365 服务在 19 小时全球宕机后恢复</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://sspai.com/post/119119" />
-    <ns0:published>2026-11-15T23:24:34.371000Z</ns0:published>
-    <ns0:updated>2026-11-16T02:01:41.758063Z</ns0:updated>
-    <ns0:category term="docs-changelog" label="文档与变更" />
-    <ns0:summary type="text">Microsoft 365 services resumed after a 19-hour global outage. The briefing also covers several other topics: domestic frontier AI models exhibiting Blackwell GPU features, a US-wide aviation halt caused by cable replacement, a petition with over 100,000 signatures demanding Jensen Huang's reinstatem</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;派早报汇总 Microsoft 365 在 19 小时全球宕机后恢复，并提到超 100,000 签名的请愿与 Blackwell GPU 特征等数条动态。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：19 / 100,000 · 相关方：Microsoft 365 / Blackwell / Tesla Cybercab&lt;/p&gt;&lt;p&gt;Microsoft 365 services resumed after a 19-hour global outage. The briefing also covers several other topics: domestic frontier AI models exhibiting Blackwell GPU features, a US-wide aviation halt caused by cable replacement, a petition with over 100,000 signatures demanding Jensen Huang&amp;#x27;s reinstatem&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;一次长时宕机与多条产业动态被压进同一条早报，暴露聚合源把不同证据等级的读数并列的问题。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对我们的采集链是反面参照：多话题聚合条目不宜作为单一事实源，入库前需按事件拆分与标注，避免数字串台。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;把该条按事件拆成独立记录，若 19 小时与 100,000 两个读数无法各自找到一手来源，则判定为聚合噪声并降级为线索。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-15T23:24 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://sspai.com/post/119119" rel="noopener noreferrer"&gt;https://sspai.com/post/119119&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-16:28b10992cceb6449</ns0:id>
-    <ns0:title>[开发者工具与版本] Preserving 30 Years of Salon Journalism</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://blog.archive.org/2026/11/12/preserving-30-years-of-salon-journalism" />
-    <ns0:published>2026-11-15T23:00:11.491000Z</ns0:published>
-    <ns0:updated>2026-11-16T02:01:41.758063Z</ns0:updated>
-    <ns0:category term="dev-tools" label="开发者工具与版本" />
-    <ns0:summary type="text">Comments 〔Folo分类:开源项目〕</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;一篇存档主题文章以 30 Years 为题记录对 Salon 新闻的保存跨度，摘要区仅留 Comments 未给更多细节。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：30 · 相关方：Salon&lt;/p&gt;&lt;p&gt;Comments 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;长周期网页存档是可核验的时间跨度数字，提醒数据基建里保留多久本身是一项需要明示的口径。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对应我们的归档与去重策略：30 年跨度提示长期留存不能只靠摘要，需保留原始快照与可追溯时间戳。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照本地归档保留窗口，若窗口明显短于该量级且无原始快照，则补一份不可变快照清单后再谈长期可用。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-15T23:00 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://blog.archive.org/2026/11/12/preserving-30-years-of-salon-journalism" rel="noopener noreferrer"&gt;https://blog.archive.org/2026/11/12/preserving-30-years-of-salon-journalism&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-16:2cff81e9a05646a1</ns0:id>
-    <ns0:title>[开发者工具与版本] langchain-groq==1.2.0</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://github.com/langchain-ai/langchain/releases/tag/langchain-groq%3D%3D1.2.0" />
-    <ns0:published>2026-11-15T21:49:10Z</ns0:published>
-    <ns0:updated>2026-11-16T02:01:41.758063Z</ns0:updated>
-    <ns0:category term="docs-changelog" label="开发者工具与版本" />
-    <ns0:summary type="text">Changes since langchain-groq==1.1.3 fix(groq): specify reasoning_effort in integration tests (#41886) fix(groq,mistralai,xai): bump deps (#41884) release(groq): 1.2.0 (#41856) feat(groq): route ChatGroq through LangSmith gateway (#41837) feat(partners): Remove EOL'd Python 3.10 from partner packages</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;LangChain 发布 langchain-groq 1.2.0，相对 1.1.3 在集成测试中显式指定 reasoning_effort，并把 ChatGroq 改走 LangSmith gateway。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：1.2.0 / 1.1.3 · 相关方：langchain-groq / LangSmith / ChatGroq&lt;/p&gt;&lt;p&gt;Changes since langchain-groq==1.1.3 fix(groq): specify reasoning_effort in integration tests (#41886) fix(groq,mistralai,xai): bump deps (#41884) release(groq): 1.2.0 (#41856) feat(groq): route ChatGroq through LangSmith gateway (#41837) feat(partners): Remove EOL&amp;#x27;d Python 3.10 from partner packages&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;与 mistralai 包同批改走 gateway，说明这是平台级路由调整而非单个 provider 的修复，跨包一致性需一起验证。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 automation 链路里经 LangChain 调用 Groq 的部分是一次隐性依赖变更，升级会影响网关鉴权与超时配置。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;把 groq 与 mistralai 两个包同时升级后跑统一回归；若任一包出现 reasoning_effort 被忽略或超时错误，则整批回滚到 1.1.3/1.1.6。&lt;/p&gt;&lt;p&gt;来源：LangChain Releases · 发布于 2026-11-15T21:49 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/langchain-ai/langchain/releases/tag/langchain-groq%3D%3D1.2.0" rel="noopener noreferrer"&gt;https://github.com/langchain-ai/langchain/releases/tag/langchain-groq%3D%3D1.2.0&lt;/a&gt;&lt;/p&gt;</ns0:content>
   </ns0:entry>
 </ns0:feed>
