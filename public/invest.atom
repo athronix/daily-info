@@ -5,10 +5,40 @@
   <ns0:subtitle>挖掘 · 聚合 · 研判 · 订阅；每条附原文链接；内容仅供参考，不构成投资建议</ns0:subtitle>
   <ns0:link rel="self" type="application/atom+xml" href="https://daily-info.local/invest.atom" />
   <ns0:link rel="alternate" type="text/html" href="https://daily-info.local/index.html" />
-  <ns0:updated>2026-11-25T23:10:15.000385Z</ns0:updated>
+  <ns0:updated>2026-11-27T01:58:17.875356Z</ns0:updated>
   <ns0:author>
     <ns0:name>Personal Daily Info</ns0:name>
   </ns0:author>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-27:102960ba67d82f48</ns0:id>
+    <ns0:title>[市场与投资] 两市融资余额减少156.93亿元</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.36kr.com/newsflashes/4087290979383682" />
+    <ns0:published>2026-11-27T00:47:23Z</ns0:published>
+    <ns0:updated>2026-11-27T01:58:17.875356Z</ns0:updated>
+    <ns0:category term="industry-capital" label="市场与投资" />
+    <ns0:summary type="text">36氪获悉，截至11月26日，上交所融资余额报11010.7亿元，较前一交易日减少79.43亿元；深交所融资余额报9975.21亿元，较前一交易日减少77.5亿元；两市合计20985.91亿元，较前一交易日减少156.93亿元。</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;36氪披露截至 11 月 26 日两市融资余额：上交所报 11010.7亿元、深交所报 9975.21亿元、合计 20985.91亿元，较前一交易日减少 156.93亿元。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：156.93亿元 / 11010.7亿元 / 9975.21亿元 / 20985.91亿元 / 79.43亿元 · 相关方：36氪 / 上交所 / 深交所 / 融资余额&lt;/p&gt;&lt;p&gt;36氪获悉，截至11月26日，上交所融资余额报11010.7亿元，较前一交易日减少79.43亿元；深交所融资余额报9975.21亿元，较前一交易日减少77.5亿元；两市合计20985.91亿元，较前一交易日减少156.93亿元。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;五个读数都带单位且能逐字复核，但摘要只给单日变动，没有成交额或余额占比，无法判断这是趋势拐点还是日常噪声。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对唯一事实源的数值自洽检查有用：同一指标在标题、分市场与合计三处重复出现，正好可验证 digest 投影有没有把 156.93亿元 重复计数。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;用当日 items.csv 核对 11010.7亿元 加 9975.21亿元 是否等于 20985.91亿元、79.43亿元 加 77.5亿元 是否等于 156.93亿元，任一偏差 &amp;gt; 0.01亿元 则判定上游字段错位。&lt;/p&gt;&lt;p&gt;来源：36氪快讯（RSSHub 镜像路由） · 发布于 2026-11-27T00:47 UTC · 归类：industry-capital&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.36kr.com/newsflashes/4087290979383682" rel="noopener noreferrer"&gt;https://www.36kr.com/newsflashes/4087290979383682&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-27:5234682e5c298bc1</ns0:id>
+    <ns0:title>[产业与资本] 英国央行下调银行资本要求</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.36kr.com/newsflashes/4087235380902533" />
+    <ns0:published>2026-11-27T00:40:38Z</ns0:published>
+    <ns0:updated>2026-11-27T01:58:17.875356Z</ns0:updated>
+    <ns0:category term="industry-capital" label="产业与资本" />
+    <ns0:summary type="text">英国央行周四表示，在完成一项审查后，决定下调规模最大的本土业务型银行的资本要求。审查发现，英国本土业务占比较高的银行受到现行资本监管规则的影响尤为明显，承受的监管负担不成比例。这项改革获得英国央行金融政策委员会的支持。根据调整方案，规模最大的英国本土业务型银行的资本要求将下调60个基点，英国主要银行整体的资本要求则将下调30个基点。 （新华财经）</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;英国央行完成审查后下调银行资本要求：规模最大的本土业务型银行下调 60个基点，英国主要银行整体下调 30个基点，改革获金融政策委员会支持。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：60个基点 / 30个基点 · 相关方：英国央行 / 金融政策委员会 / 新华财经&lt;/p&gt;&lt;p&gt;英国央行周四表示，在完成一项审查后，决定下调规模最大的本土业务型银行的资本要求。审查发现，英国本土业务占比较高的银行受到现行资本监管规则的影响尤为明显，承受的监管负担不成比例。这项改革获得英国央行金融政策委员会的支持。根据调整方案，规模最大的英国本土业务型银行的资本要求将下调60个基点，英国主要银行整体的资本要求则将下调30个基点。 （新华财经）&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;60个基点 与 30个基点 是带量纲的监管调整，但摘要没给生效日、覆盖银行名单与资本充足率基线，无法复算释放规模。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 agent 部署与自动化暂无直接影响：属境外银行监管口径变更，不涉及 MCP、A2A、skill 或 WinVM 接口；只作为带单位读数的白名单正例保留。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照 2 份披露核对 60个基点 与 30个基点 分别对应的银行范围，若定义不一致 ≥ 1 处，则判定该读数只留事实层、不进结论。&lt;/p&gt;&lt;p&gt;来源：36氪快讯（RSSHub 镜像路由） · 发布于 2026-11-27T00:40 UTC · 归类：industry-capital&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.36kr.com/newsflashes/4087235380902533" rel="noopener noreferrer"&gt;https://www.36kr.com/newsflashes/4087235380902533&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-27:443eeaddf9df4cb9</ns0:id>
+    <ns0:title>[产业与资本] 新一代通信网建设“施工图”出炉，三大细分产业驶入发展“快车道”</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.36kr.com/newsflashes/4087243556665737" />
+    <ns0:published>2026-11-27T00:58:49Z</ns0:published>
+    <ns0:updated>2026-11-27T01:58:17.875356Z</ns0:updated>
+    <ns0:category term="industry-capital" label="产业与资本" />
+    <ns0:summary type="text">11月26日，工业和信息化部、国家网信办、国家发展改革委联合印发《新一代通信网建设实施方案》，以“432”框架布局四张网、三项能力、两大支撑，明确提出以5G-A/6G、万兆光网、卫星互联网为核心支撑，将新一代通信网重新定义为经济社会运行的“神经系统”。据测算，未来五年新一代通信网建设将撬动约7万亿元市场规模，成为扩大有效投资、稳定经济大盘的重要抓手。据了解，6G、低空经济、卫星直连手机等赛道被提及，有望为产业链发展打开新增长空间。（上证报）</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;工业和信息化部、国家网信办、国家发展改革委联合印发《新一代通信网建设实施方案》，以「432」框架布局四张网、三项能力、两大支撑，测算未来五年撬动约 7万亿元市场规模。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：7万亿元 · 相关方：工业和信息化部 / 国家网信办 / 国家发展改革委 / 新一代通信网建设实施方案 / 卫星互联网&lt;/p&gt;&lt;p&gt;11月26日，工业和信息化部、国家网信办、国家发展改革委联合印发《新一代通信网建设实施方案》，以“432”框架布局四张网、三项能力、两大支撑，明确提出以5G-A/6G、万兆光网、卫星互联网为核心支撑，将新一代通信网重新定义为经济社会运行的“神经系统”。据测算，未来五年新一代通信网建设将撬动约7万亿元市场规模，成为扩大有效投资、稳定经济大盘的重要抓手。据了解，6G、低空经济、卫星直连手机等赛道被提及，有望为产业链发展打开新增长空间。（上证报）&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;7万亿元 是带「据测算」前缀的规模预测，不是已发生投资额；摘要没给测算方法、分年拆解与投资主体，规模数字无法复算。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建的网络假设有间接意义：万兆光网与卫星互联网是跨机同步与远程 VM 的底层承载，但方案未给企业侧接入时点，暂不调整 WinVM Bridge 的链路预算。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照方案原文核对 7万亿元 的测算口径，若缺测算方法或分年拆解 ≥ 1 项，则判定只记录规划事实、不据此改容量规划。&lt;/p&gt;&lt;p&gt;来源：36氪快讯（RSSHub 镜像路由） · 发布于 2026-11-27T00:58 UTC · 归类：industry-capital&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.36kr.com/newsflashes/4087243556665737" rel="noopener noreferrer"&gt;https://www.36kr.com/newsflashes/4087243556665737&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:daily-info.local,2026-11-26:8c857557e3aa7d69</ns0:id>
     <ns0:title>[市场与投资] Next 20 Days Is ‘Mission Critical’ for Retailers: Yih</ns0:title>

@@ -5,10 +5,80 @@
   <ns0:subtitle>挖掘 · 聚合 · 研判 · 订阅；每条附原文链接；内容仅供参考，不构成投资建议</ns0:subtitle>
   <ns0:link rel="self" type="application/atom+xml" href="https://daily-info.local/all.atom" />
   <ns0:link rel="alternate" type="text/html" href="https://daily-info.local/index.html" />
-  <ns0:updated>2026-11-25T23:10:15.000385Z</ns0:updated>
+  <ns0:updated>2026-11-27T01:58:17.875356Z</ns0:updated>
   <ns0:author>
     <ns0:name>Personal Daily Info</ns0:name>
   </ns0:author>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-27:102960ba67d82f48</ns0:id>
+    <ns0:title>[市场与投资] 两市融资余额减少156.93亿元</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.36kr.com/newsflashes/4087290979383682" />
+    <ns0:published>2026-11-27T00:47:23Z</ns0:published>
+    <ns0:updated>2026-11-27T01:58:17.875356Z</ns0:updated>
+    <ns0:category term="industry-capital" label="市场与投资" />
+    <ns0:summary type="text">36氪获悉，截至11月26日，上交所融资余额报11010.7亿元，较前一交易日减少79.43亿元；深交所融资余额报9975.21亿元，较前一交易日减少77.5亿元；两市合计20985.91亿元，较前一交易日减少156.93亿元。</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;36氪披露截至 11 月 26 日两市融资余额：上交所报 11010.7亿元、深交所报 9975.21亿元、合计 20985.91亿元，较前一交易日减少 156.93亿元。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：156.93亿元 / 11010.7亿元 / 9975.21亿元 / 20985.91亿元 / 79.43亿元 · 相关方：36氪 / 上交所 / 深交所 / 融资余额&lt;/p&gt;&lt;p&gt;36氪获悉，截至11月26日，上交所融资余额报11010.7亿元，较前一交易日减少79.43亿元；深交所融资余额报9975.21亿元，较前一交易日减少77.5亿元；两市合计20985.91亿元，较前一交易日减少156.93亿元。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;五个读数都带单位且能逐字复核，但摘要只给单日变动，没有成交额或余额占比，无法判断这是趋势拐点还是日常噪声。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对唯一事实源的数值自洽检查有用：同一指标在标题、分市场与合计三处重复出现，正好可验证 digest 投影有没有把 156.93亿元 重复计数。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;用当日 items.csv 核对 11010.7亿元 加 9975.21亿元 是否等于 20985.91亿元、79.43亿元 加 77.5亿元 是否等于 156.93亿元，任一偏差 &amp;gt; 0.01亿元 则判定上游字段错位。&lt;/p&gt;&lt;p&gt;来源：36氪快讯（RSSHub 镜像路由） · 发布于 2026-11-27T00:47 UTC · 归类：industry-capital&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.36kr.com/newsflashes/4087290979383682" rel="noopener noreferrer"&gt;https://www.36kr.com/newsflashes/4087290979383682&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-27:5234682e5c298bc1</ns0:id>
+    <ns0:title>[产业与资本] 英国央行下调银行资本要求</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.36kr.com/newsflashes/4087235380902533" />
+    <ns0:published>2026-11-27T00:40:38Z</ns0:published>
+    <ns0:updated>2026-11-27T01:58:17.875356Z</ns0:updated>
+    <ns0:category term="industry-capital" label="产业与资本" />
+    <ns0:summary type="text">英国央行周四表示，在完成一项审查后，决定下调规模最大的本土业务型银行的资本要求。审查发现，英国本土业务占比较高的银行受到现行资本监管规则的影响尤为明显，承受的监管负担不成比例。这项改革获得英国央行金融政策委员会的支持。根据调整方案，规模最大的英国本土业务型银行的资本要求将下调60个基点，英国主要银行整体的资本要求则将下调30个基点。 （新华财经）</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;英国央行完成审查后下调银行资本要求：规模最大的本土业务型银行下调 60个基点，英国主要银行整体下调 30个基点，改革获金融政策委员会支持。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：60个基点 / 30个基点 · 相关方：英国央行 / 金融政策委员会 / 新华财经&lt;/p&gt;&lt;p&gt;英国央行周四表示，在完成一项审查后，决定下调规模最大的本土业务型银行的资本要求。审查发现，英国本土业务占比较高的银行受到现行资本监管规则的影响尤为明显，承受的监管负担不成比例。这项改革获得英国央行金融政策委员会的支持。根据调整方案，规模最大的英国本土业务型银行的资本要求将下调60个基点，英国主要银行整体的资本要求则将下调30个基点。 （新华财经）&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;60个基点 与 30个基点 是带量纲的监管调整，但摘要没给生效日、覆盖银行名单与资本充足率基线，无法复算释放规模。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 agent 部署与自动化暂无直接影响：属境外银行监管口径变更，不涉及 MCP、A2A、skill 或 WinVM 接口；只作为带单位读数的白名单正例保留。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照 2 份披露核对 60个基点 与 30个基点 分别对应的银行范围，若定义不一致 ≥ 1 处，则判定该读数只留事实层、不进结论。&lt;/p&gt;&lt;p&gt;来源：36氪快讯（RSSHub 镜像路由） · 发布于 2026-11-27T00:40 UTC · 归类：industry-capital&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.36kr.com/newsflashes/4087235380902533" rel="noopener noreferrer"&gt;https://www.36kr.com/newsflashes/4087235380902533&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-27:443eeaddf9df4cb9</ns0:id>
+    <ns0:title>[产业与资本] 新一代通信网建设“施工图”出炉，三大细分产业驶入发展“快车道”</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.36kr.com/newsflashes/4087243556665737" />
+    <ns0:published>2026-11-27T00:58:49Z</ns0:published>
+    <ns0:updated>2026-11-27T01:58:17.875356Z</ns0:updated>
+    <ns0:category term="industry-capital" label="产业与资本" />
+    <ns0:summary type="text">11月26日，工业和信息化部、国家网信办、国家发展改革委联合印发《新一代通信网建设实施方案》，以“432”框架布局四张网、三项能力、两大支撑，明确提出以5G-A/6G、万兆光网、卫星互联网为核心支撑，将新一代通信网重新定义为经济社会运行的“神经系统”。据测算，未来五年新一代通信网建设将撬动约7万亿元市场规模，成为扩大有效投资、稳定经济大盘的重要抓手。据了解，6G、低空经济、卫星直连手机等赛道被提及，有望为产业链发展打开新增长空间。（上证报）</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;工业和信息化部、国家网信办、国家发展改革委联合印发《新一代通信网建设实施方案》，以「432」框架布局四张网、三项能力、两大支撑，测算未来五年撬动约 7万亿元市场规模。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：7万亿元 · 相关方：工业和信息化部 / 国家网信办 / 国家发展改革委 / 新一代通信网建设实施方案 / 卫星互联网&lt;/p&gt;&lt;p&gt;11月26日，工业和信息化部、国家网信办、国家发展改革委联合印发《新一代通信网建设实施方案》，以“432”框架布局四张网、三项能力、两大支撑，明确提出以5G-A/6G、万兆光网、卫星互联网为核心支撑，将新一代通信网重新定义为经济社会运行的“神经系统”。据测算，未来五年新一代通信网建设将撬动约7万亿元市场规模，成为扩大有效投资、稳定经济大盘的重要抓手。据了解，6G、低空经济、卫星直连手机等赛道被提及，有望为产业链发展打开新增长空间。（上证报）&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;7万亿元 是带「据测算」前缀的规模预测，不是已发生投资额；摘要没给测算方法、分年拆解与投资主体，规模数字无法复算。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建的网络假设有间接意义：万兆光网与卫星互联网是跨机同步与远程 VM 的底层承载，但方案未给企业侧接入时点，暂不调整 WinVM Bridge 的链路预算。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照方案原文核对 7万亿元 的测算口径，若缺测算方法或分年拆解 ≥ 1 项，则判定只记录规划事实、不据此改容量规划。&lt;/p&gt;&lt;p&gt;来源：36氪快讯（RSSHub 镜像路由） · 发布于 2026-11-27T00:58 UTC · 归类：industry-capital&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.36kr.com/newsflashes/4087243556665737" rel="noopener noreferrer"&gt;https://www.36kr.com/newsflashes/4087243556665737&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-27:89151b100183e270</ns0:id>
+    <ns0:title>[文档与变更] v0.40.19</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://github.com/ollama/ollama/releases/tag/v0.40.19-rc0" />
+    <ns0:published>2026-11-26T17:52:02Z</ns0:published>
+    <ns0:updated>2026-11-27T01:58:17.875356Z</ns0:updated>
+    <ns0:category term="docs-changelog" label="文档与变更" />
+    <ns0:summary type="text">What's Changed inkling2: faster short histories, draft proposals and conv snapshots by @dhiltgen in #19881 mlxrunner: compact Engram history buffers by @pdevine in #19913 bump llama-server by @pdevine in #19917 Full Changelog: v0.40.18...v0.40.19-rc0</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;ollama 发布 v0.40.19-rc0，变更含 inkling2 短历史加速与 conv snapshots、mlxrunner 的 Engram 历史缓冲压缩，以及 llama-server 版本提升。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：0.40.19 / 0.40.18 / 0.40.19-rc0 · 相关方：inkling2 / mlxrunner / llama-server / Engram / @pdevine&lt;/p&gt;&lt;p&gt;What&amp;#x27;s Changed inkling2: faster short histories, draft proposals and conv snapshots by @dhiltgen in #19881 mlxrunner: compact Engram history buffers by @pdevine in #19913 bump llama-server by @pdevine in #19917 Full Changelog: v0.40.18...v0.40.19-rc0&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;0.40.19 与 0.40.18 是能逐字锁定的发布号，但变更清单只有 PR 编号与条目名，没有给出短历史加速的基准数值或回归结果。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 agent 部署的本地推理层直接相关：llama-server 提升与 Engram 缓冲压缩会改变会话恢复行为，升级前要核对现有快照格式是否被静默改写。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在 2 个环境各跑 1 次会话恢复 smoke，若 0.40.18→0.40.19-rc0 后 conv snapshots 解析失败 ≥ 1 次，则判定暂缓升级并固定旧版。&lt;/p&gt;&lt;p&gt;来源：ollama Releases · 发布于 2026-11-26T17:52 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/ollama/ollama/releases/tag/v0.40.19-rc0" rel="noopener noreferrer"&gt;https://github.com/ollama/ollama/releases/tag/v0.40.19-rc0&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-27:c2c799c25873001b</ns0:id>
+    <ns0:title>[Agent 与工程] Announcing: AI Safety Co-Founding Sprint in San Francisco. Starting December 3rd.</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.lesswrong.com/posts/c9wNKhKfkiD2ePpDG/announcing-ai-safety-co-founding-sprint-in-san-francisco" />
+    <ns0:published>2026-11-26T23:28:45Z</ns0:published>
+    <ns0:updated>2026-11-27T01:58:17.875356Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="Agent 与工程" />
+    <ns0:summary type="text">AI Safety needs more organizations to own problems. The funding is there, but we are orders of magnitude away from having the great organizations needed to absorb that money.That’s why we are launching the AI Safety Co-Founding Sprint, in collaboration with BlueDot Impact &amp; AI Safety Founders. We br</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;BlueDot Impact 与 AI Safety Founders 联合发起 AI Safety Co-Founding Sprint，开放约 30 个名额、申请表耗时 5-10 minutes，配两周冲刺后向孵化器与资方引荐最强团队。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：30 spots / 5-10 minutes · 相关方：BlueDot Impact / AI Safety Founders / AI Safety Co-Founding Sprint / San Francisco&lt;/p&gt;&lt;p&gt;AI Safety needs more organizations to own problems. The funding is there, but we are orders of magnitude away from having the great organizations needed to absorb that money.That’s why we are launching the AI Safety Co-Founding Sprint, in collaboration with BlueDot Impact &amp;amp; AI Safety Founders. We br&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;名额与周期是主办方自述的活动参数，不是评测或产出数据；摘要强调缺组织承接资金，却没给入选率与团队成活率。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 MCP、A2A、skill 与 WinVM 部署暂无直接影响：这是组织孵化活动，不涉及任何接口或运行时变更；仅当后续产出可复用评测规范时才纳入关注面。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对主办方公告的 30 个名额与两周窗口，若 2 份材料缺任一项定义或入选名单，则判定规模仅为活动参数、不进观察表。&lt;/p&gt;&lt;p&gt;来源：LessWrong · 发布于 2026-11-26T23:28 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.lesswrong.com/posts/c9wNKhKfkiD2ePpDG/announcing-ai-safety-co-founding-sprint-in-san-francisco" rel="noopener noreferrer"&gt;https://www.lesswrong.com/posts/c9wNKhKfkiD2ePpDG/announcing-ai-safety-co-founding-sprint-in-san-francisco&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-27:00bb51c293be1538</ns0:id>
+    <ns0:title>[Agent 与工程] How Clay Builds GTM Agents — Jeff Barg, Head of AI</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai" />
+    <ns0:published>2026-11-26T23:02:48Z</ns0:published>
+    <ns0:updated>2026-11-27T01:58:17.875356Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="Agent 与工程" />
+    <ns0:summary type="text">How $1,500 could qualify every company in the world, why customers hate the model selector, and how Clay is building go-to-market infrastructure for every agent</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Clay 的 AI 负责人 Jeff Barg 谈如何用 $1,500 完成全球公司资格判定、客户为何排斥 model selector，以及如何为每个 agent 搭建 go-to-market 基础设施。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：$1,500 · 相关方：Clay / Jeff Barg / model selector / go-to-market infrastructure&lt;/p&gt;&lt;p&gt;How $1,500 could qualify every company in the world, why customers hate the model selector, and how Clay is building go-to-market infrastructure for every agent&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;$1,500 把 agent 单任务成本写成可复算的量级，但访谈摘要没给样本量、判定口径与失败率，成本与覆盖率无法同时核对。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 skill 与 automation 最相关：GTM 资格判定正是可编排的批量任务，可拿来对照自建 agent 的单次调用成本与幂等去重策略，别把演示级数字当生产基线。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;搭 1 个 100 家公司的样本集跑 2 轮，若 $1,500 口径下字段缺失率 &amp;gt; 5% 或单轮耗时 &amp;gt; 30 分钟，则判定该成本不可复现、不进选型基线。&lt;/p&gt;&lt;p&gt;来源：Latent Space · 发布于 2026-11-26T23:02 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai" rel="noopener noreferrer"&gt;https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-27:4cd73331f9a03854</ns0:id>
+    <ns0:title>[模型与研究] MLC AI 开源 TxVerify，称已用 Lean 在 PTX 层证明 13 个 Blackwell GPU 内核并牵出 3 个同步 bug</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://arex-research.com/feeds/6dfc4fda-0539-45c9-b52d-89785b5a968b" />
+    <ns0:published>2026-11-26T19:05:00Z</ns0:published>
+    <ns0:updated>2026-11-27T01:58:17.875356Z</ns0:updated>
+    <ns0:category term="ai-models" label="模型与研究" />
+    <ns0:summary type="text">资讯｜11 月 24 日，MLC AI 发布博客文章 What Must We Trust? How TxVerify Uses a Core/Assumption Split to Formally Verify Production GPU Kernels at the PTX Level，署名作者为 Bohan Hou 与 Tianqi Chen，并同步开源…</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;MLC AI 开源 TxVerify，用 Lean 在 PTX 层形式化验证生产 GPU 内核，称证明 13 个 Blackwell GPU 内核并牵出 3 个同步 bug。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：13 / 3 · 相关方：MLC AI / TxVerify / Lean / PTX / Blackwell / Tianqi Chen&lt;/p&gt;&lt;p&gt;资讯｜11 月 24 日，MLC AI 发布博客文章 What Must We Trust? How TxVerify Uses a Core/Assumption Split to Formally Verify Production GPU Kernels at the PTX Level，署名作者为 Bohan Hou 与 Tianqi Chen，并同步开源…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;13 与 3 是能逐字复核的计数，但摘要没给内核规模、证明耗时或回归基线，形式化验证的覆盖率仍无法复算。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建与 WinVM 脚本分层有借鉴：Core/Assumption Split 把可信边界显式化，与「确定性脚本做索引、AI 只做研判」的分层同构，可用来盘查权限假设是否漏列。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;拉取开源仓库跑 1 次最小复现，若 13 个内核无法在 2 个环境全部复现、或 3 个同步 bug 与清单定位不一致 ≥ 1 处，则判定暂缓引用其结论。&lt;/p&gt;&lt;p&gt;来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-26T19:05 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://arex-research.com/feeds/6dfc4fda-0539-45c9-b52d-89785b5a968b" rel="noopener noreferrer"&gt;https://arex-research.com/feeds/6dfc4fda-0539-45c9-b52d-89785b5a968b&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:daily-info.local,2026-11-26:8c857557e3aa7d69</ns0:id>
     <ns0:title>[市场与投资] Next 20 Days Is ‘Mission Critical’ for Retailers: Yih</ns0:title>
@@ -938,75 +1008,5 @@
     <ns0:category term="ai-models" label="模型与研究" />
     <ns0:summary type="text">数据集、Agent、深度学习｜TokenEconomizer 是一款开源插件，旨在提升AI编程代理在重复代码库中的效率。它通过学习代理在仓库中的历史会话，自动复用有用知识、跳过冗余工具加载与失败策略，无需修改代理本身或其底层模型。在277个真实Bug修复任务中，该插件使多个AI编码代理的token消耗降低18.4%–30.9%，所有测试仓库成本均下降，而任务成功率基本保持稳定。其核心创新在于利用开发者反复回归同一仓库的行为模式，从会话级而非单任务级优化资源使用，显著减少重复性开销。</ns0:summary>
     <ns0:content type="html">&lt;p&gt;&lt;strong&gt;TokenEconomizer 开源插件学习 AI 编程代理在同一仓库的历史会话，复用知识并跳过冗余工具加载；277 个真实 Bug 修复任务上 token 消耗降低 18.4%–30.9%。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：277 / 18.4% / 30.9% · 相关方：TokenEconomizer / AI编程代理 / Bug&lt;/p&gt;&lt;p&gt;数据集、Agent、深度学习｜TokenEconomizer 是一款开源插件，旨在提升AI编程代理在重复代码库中的效率。它通过学习代理在仓库中的历史会话，自动复用有用知识、跳过冗余工具加载与失败策略，无需修改代理本身或其底层模型。在277个真实Bug修复任务中，该插件使多个AI编码代理的token消耗降低18.4%–30.9%，所有测试仓库成本均下降，而任务成功率基本保持稳定。其核心创新在于利用开发者反复回归同一仓库的行为模式，从会话级而非单任务级优化资源使用，显著减少重复性开销。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;省 token 的收益来自会话级复用而非换模型，把优化对象从单次调用改成跨任务的历史状态。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对我们的 automation 与 skill 部署最可直接借鉴：在重复仓库形态的流水线里缓存工具清单与失败策略，比调模型更省成本。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在本仓库连续 30 个同类任务上复现；若 token 降幅低于 18.4%，则判定不适用于我们的任务分布，暂不接入。&lt;/p&gt;&lt;p&gt;来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-16T17:35 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient" rel="noopener noreferrer"&gt;https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-17:f9ebeded97d6d4ca</ns0:id>
-    <ns0:title>[模型与研究] Qwen4-Max Lands in API, llama.cpp Hits 1.0.0, and 80B Models Run on Mobile Devices</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://dev.to/githubopensource/qwen4-max-lands-in-api-llamacpp-hits-100-and-80b-models-run-on-mobile-devices-2khm" />
-    <ns0:published>2026-11-16T19:53:50.800000Z</ns0:published>
-    <ns0:updated>2026-11-16T22:56:58.658200Z</ns0:updated>
-    <ns0:category term="ai-models" label="模型与研究" />
-    <ns0:summary type="text">TL;DR Alibaba launched Qwen4-Max into public API availability with a 1 million token context window, llama.cpp reached version 1.0.0 with… 〔Folo分类:开源项目〕</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Alibaba 把 Qwen4-Max 开放到公开 API 并给出 1 million token 上下文，同期 llama.cpp 到 1.0.0，报道还称 80B 模型已能在移动设备运行。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：1.0.0 / 80B / 1 million · 相关方：Qwen4-Max / llama.cpp / Alibaba&lt;/p&gt;&lt;p&gt;TL;DR Alibaba launched Qwen4-Max into public API availability with a 1 million token context window, llama.cpp reached version 1.0.0 with… 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;上下文长度、推理运行时版本与端侧规模三条读数同框，说明能力扩张正同时发生在云端与本地两侧。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;影响 provider 与端侧选型：1 million 上下文和 80B 端侧运行都需一手验证，未复现前不写进 WinVM 的可用能力基线。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;查 llama.cpp 1.0.0 的发布说明与 80B 端侧复现步骤；若 48 小时内无官方条目，则判定为社区汇总读数并降级为线索。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-16T19:53 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;证据状态：未独立验证&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://dev.to/githubopensource/qwen4-max-lands-in-api-llamacpp-hits-100-and-80b-models-run-on-mobile-devices-2khm" rel="noopener noreferrer"&gt;https://dev.to/githubopensource/qwen4-max-lands-in-api-llamacpp-hits-100-and-80b-models-run-on-mobile-devices-2khm&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-17:287abc5556174a6b</ns0:id>
-    <ns0:title>[Agent 与工程] From 400 miles above Earth, AI tracks invasive leafy spurge</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://phys.org/news/2026-11-miles-earth-ai-tracks-invasive.html" />
-    <ns0:published>2026-11-16T18:20:15.193000Z</ns0:published>
-    <ns0:updated>2026-11-16T22:56:58.658200Z</ns0:updated>
-    <ns0:category term="agent-engineering" label="Agent 与工程" />
-    <ns0:summary type="text">Harnessing satellite imagery, AI deep-learning models and community science data, scientists from the University of Minnesota have tracked… 〔Folo分类:重大学术科研突破〕</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;University of Minnesota 的研究者用卫星影像、AI 深度学习模型与社区科学数据，从 400 miles 高空追踪入侵植物 leafy spurge。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：400 miles · 相关方：University of Minnesota / satellite imagery / leafy spurge&lt;/p&gt;&lt;p&gt;Harnessing satellite imagery, AI deep-learning models and community science data, scientists from the University of Minnesota have tracked… 〔Folo分类:重大学术科研突破〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把观测高度写成明码距离，让遥感加社区数据的组合有了可复核的量级，而不是笼统的「AI 监测」。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建是可迁移的写法：多源数据融合应记录采集尺度与来源类型，便于我们的采集链做同类溯源标注。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对自家采集链是否记录来源尺度字段；若 3 个多源簇中少于 2 个带该字段，则判定溯源信息不足并补埋点。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-16T18:20 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://phys.org/news/2026-11-miles-earth-ai-tracks-invasive.html" rel="noopener noreferrer"&gt;https://phys.org/news/2026-11-miles-earth-ai-tracks-invasive.html&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-17:3b39199e08306e1c</ns0:id>
-    <ns0:title>[Agent 与工程] Exact VRAM &amp; Memory Bandwidth Math for Running DeepSeek-R1, Qwen-2.5-Coder-32B &amp; Llama-3.3-70B Locally</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://dev.to/sheerai/exact-vram-memory-bandwidth-math-for-running-deepseek-r1-qwen-25-coder-32b-llama-33-70b-2ojc" />
-    <ns0:published>2026-11-16T20:08:17.168000Z</ns0:published>
-    <ns0:updated>2026-11-16T22:56:58.658200Z</ns0:updated>
-    <ns0:category term="agent-engineering" label="Agent 与工程" />
-    <ns0:summary type="text">Most "can my rig run this model?" threads guess at VRAM numbers and ignore the two killers that actually cause CUDA/Metal out-of-memory… 〔Folo分类:开源项目〕</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;一篇技术文章给出 DeepSeek-R1、Qwen-2.5-Coder-32B 与 Llama-3.3-70B 本地运行的 VRAM 与显存带宽算式，指出多数讨论忽略 CUDA/Metal 内存溢出的两个主因。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：32B / 70B / 2.5 / 3.3 · 相关方：DeepSeek-R1 / Qwen-2.5-Coder-32B / Llama-3.3-70B / CUDA / Metal&lt;/p&gt;&lt;p&gt;Most &amp;quot;can my rig run this model?&amp;quot; threads guess at VRAM numbers and ignore the two killers that actually cause CUDA/Metal out-of-memory… 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把「能不能跑」从猜显存改成可计算的带宽约束，规格数字第一次与失败原因挂上钩。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 WinVM 侧自托管选型是硬输入：在把本地权重纳入 provider 前，先用同类算式核对显存与带宽，避免只按参数量做决策。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;按文中算式对本机显存跑一次核算；若 70B 规格估算超出可用显存 20% 以上，则判定该规格不可纳入自托管队列。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-16T20:08 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://dev.to/sheerai/exact-vram-memory-bandwidth-math-for-running-deepseek-r1-qwen-25-coder-32b-llama-33-70b-2ojc" rel="noopener noreferrer"&gt;https://dev.to/sheerai/exact-vram-memory-bandwidth-math-for-running-deepseek-r1-qwen-25-coder-32b-llama-33-70b-2ojc&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-17:328f5dc06ab4e34a</ns0:id>
-    <ns0:title>[Agent 与工程] v2.1.326</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://github.com/anthropics/claude-code/releases/tag/v2.1.326" />
-    <ns0:published>2026-11-16T22:11:05Z</ns0:published>
-    <ns0:updated>2026-11-16T22:56:58.658200Z</ns0:updated>
-    <ns0:category term="agent-engineering" label="Agent 与工程" />
-    <ns0:summary type="text">What's changed Added support for turning on Code Mode while agent teams are enabled; if you already turned it on, sessions with teams on now start in Code Mode Added a startup warning when an --allowedTools, --disallowedTools or --tools value has an entry that doesn't look like a complete rule Added</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;claude-code 发布 v2.1.326，支持 agent teams 下开启 Code Mode，并对 --allowedTools 不完整规则与 managed-mcp.json 致 MCP servers 停载新增提示。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：2.1.326 · 相关方：Code Mode / MCP servers / managed-mcp.json / --allowedTools&lt;/p&gt;&lt;p&gt;What&amp;#x27;s changed Added support for turning on Code Mode while agent teams are enabled; if you already turned it on, sessions with teams on now start in Code Mode Added a startup warning when an --allowedTools, --disallowedTools or --tools value has an entry that doesn&amp;#x27;t look like a complete rule Added&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把 agent 团队、工具白名单与 MCP 加载失败都做成启动期可见提示，说明配置错误正被当作可诊断事件。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;直接对应 MCP/A2A 链路：--allowedTools 规则校验与 managed-mcp.json 的优先级提示，可照搬到我们的 agent 部署前检查，减少静默降级。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;构造 3 条不完整 --allowedTools 规则启动一次；若 3 条均未触发启动警告，则判定该门禁无效，改用外部配置校验。&lt;/p&gt;&lt;p&gt;来源：claude-code Releases · 发布于 2026-11-16T22:11 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.326" rel="noopener noreferrer"&gt;https://github.com/anthropics/claude-code/releases/tag/v2.1.326&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-16:f4086cc528cd49ce</ns0:id>
-    <ns0:title>[深度长文] 12万人联名逼英伟达董事会请回黄仁勋！马斯克警告：没有老黄要丢大单</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&amp;mid=2652743100&amp;idx=1&amp;sn=e57278b28bf21f341ed34de97af26cb7&amp;chksm=f0a61ab8ea653b37b7e67eda6332cfeac5770bf1fc78b66c1f9bd872201d3f7d3f233fa9d299&amp;scene=0&amp;xtrack=1" />
-    <ns0:published>2026-11-16T00:50:00Z</ns0:published>
-    <ns0:updated>2026-11-16T02:01:41.758063Z</ns0:updated>
-    <ns0:category term="deep-read" label="深度长文" />
-    <ns0:summary type="text">强化学习、AI、深度学习｜硅谷正掀起一场“救黄”运动，要求黄仁勋重返英伟达CEO职位的“Stand with Jensen”联名请愿24小时内签名突破10万，远超前日3000人，迅速升级为逼宫董事会的行动。马斯克率先签署，并发出严厉警告：若黄仁勋不回归，英伟达将至少丧失部分关键订单，凸显其不可替代性与公司战略稳定性的紧密关联。</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;一篇转载称 Stand with Jensen 联名请愿在 24 小时内签名突破 10 万、远超前日 3000 人，并转述马斯克关于订单风险的警告。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：12万 / 24小时 / 10万 / 3000 · 相关方：黄仁勋 / 英伟达 / 马斯克 / Stand with Jensen&lt;/p&gt;&lt;p&gt;强化学习、AI、深度学习｜硅谷正掀起一场“救黄”运动，要求黄仁勋重返英伟达CEO职位的“Stand with Jensen”联名请愿24小时内签名突破10万，远超前日3000人，迅速升级为逼宫董事会的行动。马斯克率先签署，并发出严厉警告：若黄仁勋不回归，英伟达将至少丧失部分关键订单，凸显其不可替代性与公司战略稳定性的紧密关联。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;12 万与 3000 的落差是全文最硬的读数，但来源为单一转载且含立场化措辞，数字与结论需分开对待。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;暂无直接影响：属企业治理舆论，与我们的工程关注面无交集；仅作为高响度读数需一手复核的样本。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在请愿平台核对签名数是否达到 10 万且 24 小时增量属实；若查不到可核验计数，则判定为未证实传闻并移出事实引用。&lt;/p&gt;&lt;p&gt;来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-16T00:50 UTC · 归类：deep-read&lt;/p&gt;&lt;p&gt;证据状态：未独立验证&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&amp;amp;mid=2652743100&amp;amp;idx=1&amp;amp;sn=e57278b28bf21f341ed34de97af26cb7&amp;amp;chksm=f0a61ab8ea653b37b7e67eda6332cfeac5770bf1fc78b66c1f9bd872201d3f7d3f233fa9d299&amp;amp;scene=0&amp;amp;xtrack=1" rel="noopener noreferrer"&gt;https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&amp;amp;mid=2652743100&amp;amp;idx=1&amp;amp;sn=e57278b28bf21f341ed34de97af26cb7&amp;amp;chksm=f0a61ab8ea653b37b7e67eda6332cfeac5770bf1fc78b66c1f9bd872201d3f7d3f233fa9d299&amp;amp;scene=0&amp;amp;xtrack=1&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-16:a850a5bee1633730</ns0:id>
-    <ns0:title>[社区与观点] Vulcan rocket fails during return-to-flight launch, 40 Amazon satellites lost</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://www.space.com/space-exploration/launches-spacecraft/ula-vulcan-centaur-return-to-flight-amazon-leo-internet-satellite-launch" />
-    <ns0:published>2026-11-15T20:37:28.366000Z</ns0:published>
-    <ns0:updated>2026-11-16T02:01:41.758063Z</ns0:updated>
-    <ns0:category term="community" label="社区与观点" />
-    <ns0:summary type="text">Comments 〔Folo分类:开源项目〕</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Vulcan 火箭在复飞发射中失败，报道称 40 颗 Amazon 卫星损失。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：40 · 相关方：Vulcan / Amazon&lt;/p&gt;&lt;p&gt;Comments 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把一次发射失败折算成 40 颗的可数损失，说明大型系统的风险披露正从事故转向量化影响。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;暂无直接影响：航天事故与我们的关注面无关，但把故障换算成可数损失的写法可借鉴到我们自己的事故复盘模板。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在自身变更事故复盘里加入受影响对象计数字段；若连续 3 次事故仍填不出该计数，则判定可观测性不足并补埋点。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-15T20:37 UTC · 归类：community&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.space.com/space-exploration/launches-spacecraft/ula-vulcan-centaur-return-to-flight-amazon-leo-internet-satellite-launch" rel="noopener noreferrer"&gt;https://www.space.com/space-exploration/launches-spacecraft/ula-vulcan-centaur-return-to-flight-amazon-leo-internet-satellite-launch&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-16:47b57b00d8353101</ns0:id>
-    <ns0:title>[社区与观点] Ask HN: Stripe closed us after one $1,500 invoice and never asked for evidence</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://news.ycombinator.com/item?id=50510042" />
-    <ns0:published>2026-11-15T19:49:28.016000Z</ns0:published>
-    <ns0:updated>2026-11-16T02:01:41.758063Z</ns0:updated>
-    <ns0:category term="community" label="社区与观点" />
-    <ns0:summary type="text">Comments 〔Folo分类:开源项目〕</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;一位商户在 Ask HN 发帖称 Stripe 在一张 $1,500 发票后关闭其账户且从未索取凭证。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：1,500 · 相关方：Stripe&lt;/p&gt;&lt;p&gt;Comments 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;金额很小却触发关停，指向风控自动化里的申诉缺口，读数与后果之间的不匹配才是重点。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对应我们的自动化流水线设计：自动处置动作需保留人工申诉通道与可回滚记录，避免小额异常被不可逆处理。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对自家自动化里是否存在无凭证即终态的处置规则；若存在 ≥1 条且不可回滚，则补人工复核环节后再上线。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-15T19:49 UTC · 归类：community&lt;/p&gt;&lt;p&gt;证据状态：未独立验证&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://news.ycombinator.com/item?id=50510042" rel="noopener noreferrer"&gt;https://news.ycombinator.com/item?id=50510042&lt;/a&gt;&lt;/p&gt;</ns0:content>
   </ns0:entry>
 </ns0:feed>

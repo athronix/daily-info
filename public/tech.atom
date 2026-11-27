@@ -5,10 +5,50 @@
   <ns0:subtitle>挖掘 · 聚合 · 研判 · 订阅；每条附原文链接；内容仅供参考，不构成投资建议</ns0:subtitle>
   <ns0:link rel="self" type="application/atom+xml" href="https://daily-info.local/tech.atom" />
   <ns0:link rel="alternate" type="text/html" href="https://daily-info.local/index.html" />
-  <ns0:updated>2026-11-25T23:10:15.000385Z</ns0:updated>
+  <ns0:updated>2026-11-27T01:58:17.875356Z</ns0:updated>
   <ns0:author>
     <ns0:name>Personal Daily Info</ns0:name>
   </ns0:author>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-27:89151b100183e270</ns0:id>
+    <ns0:title>[文档与变更] v0.40.19</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://github.com/ollama/ollama/releases/tag/v0.40.19-rc0" />
+    <ns0:published>2026-11-26T17:52:02Z</ns0:published>
+    <ns0:updated>2026-11-27T01:58:17.875356Z</ns0:updated>
+    <ns0:category term="docs-changelog" label="文档与变更" />
+    <ns0:summary type="text">What's Changed inkling2: faster short histories, draft proposals and conv snapshots by @dhiltgen in #19881 mlxrunner: compact Engram history buffers by @pdevine in #19913 bump llama-server by @pdevine in #19917 Full Changelog: v0.40.18...v0.40.19-rc0</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;ollama 发布 v0.40.19-rc0，变更含 inkling2 短历史加速与 conv snapshots、mlxrunner 的 Engram 历史缓冲压缩，以及 llama-server 版本提升。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：0.40.19 / 0.40.18 / 0.40.19-rc0 · 相关方：inkling2 / mlxrunner / llama-server / Engram / @pdevine&lt;/p&gt;&lt;p&gt;What&amp;#x27;s Changed inkling2: faster short histories, draft proposals and conv snapshots by @dhiltgen in #19881 mlxrunner: compact Engram history buffers by @pdevine in #19913 bump llama-server by @pdevine in #19917 Full Changelog: v0.40.18...v0.40.19-rc0&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;0.40.19 与 0.40.18 是能逐字锁定的发布号，但变更清单只有 PR 编号与条目名，没有给出短历史加速的基准数值或回归结果。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 agent 部署的本地推理层直接相关：llama-server 提升与 Engram 缓冲压缩会改变会话恢复行为，升级前要核对现有快照格式是否被静默改写。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在 2 个环境各跑 1 次会话恢复 smoke，若 0.40.18→0.40.19-rc0 后 conv snapshots 解析失败 ≥ 1 次，则判定暂缓升级并固定旧版。&lt;/p&gt;&lt;p&gt;来源：ollama Releases · 发布于 2026-11-26T17:52 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/ollama/ollama/releases/tag/v0.40.19-rc0" rel="noopener noreferrer"&gt;https://github.com/ollama/ollama/releases/tag/v0.40.19-rc0&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-27:c2c799c25873001b</ns0:id>
+    <ns0:title>[Agent 与工程] Announcing: AI Safety Co-Founding Sprint in San Francisco. Starting December 3rd.</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.lesswrong.com/posts/c9wNKhKfkiD2ePpDG/announcing-ai-safety-co-founding-sprint-in-san-francisco" />
+    <ns0:published>2026-11-26T23:28:45Z</ns0:published>
+    <ns0:updated>2026-11-27T01:58:17.875356Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="Agent 与工程" />
+    <ns0:summary type="text">AI Safety needs more organizations to own problems. The funding is there, but we are orders of magnitude away from having the great organizations needed to absorb that money.That’s why we are launching the AI Safety Co-Founding Sprint, in collaboration with BlueDot Impact &amp; AI Safety Founders. We br</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;BlueDot Impact 与 AI Safety Founders 联合发起 AI Safety Co-Founding Sprint，开放约 30 个名额、申请表耗时 5-10 minutes，配两周冲刺后向孵化器与资方引荐最强团队。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：30 spots / 5-10 minutes · 相关方：BlueDot Impact / AI Safety Founders / AI Safety Co-Founding Sprint / San Francisco&lt;/p&gt;&lt;p&gt;AI Safety needs more organizations to own problems. The funding is there, but we are orders of magnitude away from having the great organizations needed to absorb that money.That’s why we are launching the AI Safety Co-Founding Sprint, in collaboration with BlueDot Impact &amp;amp; AI Safety Founders. We br&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;名额与周期是主办方自述的活动参数，不是评测或产出数据；摘要强调缺组织承接资金，却没给入选率与团队成活率。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 MCP、A2A、skill 与 WinVM 部署暂无直接影响：这是组织孵化活动，不涉及任何接口或运行时变更；仅当后续产出可复用评测规范时才纳入关注面。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;核对主办方公告的 30 个名额与两周窗口，若 2 份材料缺任一项定义或入选名单，则判定规模仅为活动参数、不进观察表。&lt;/p&gt;&lt;p&gt;来源：LessWrong · 发布于 2026-11-26T23:28 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.lesswrong.com/posts/c9wNKhKfkiD2ePpDG/announcing-ai-safety-co-founding-sprint-in-san-francisco" rel="noopener noreferrer"&gt;https://www.lesswrong.com/posts/c9wNKhKfkiD2ePpDG/announcing-ai-safety-co-founding-sprint-in-san-francisco&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-27:00bb51c293be1538</ns0:id>
+    <ns0:title>[Agent 与工程] How Clay Builds GTM Agents — Jeff Barg, Head of AI</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai" />
+    <ns0:published>2026-11-26T23:02:48Z</ns0:published>
+    <ns0:updated>2026-11-27T01:58:17.875356Z</ns0:updated>
+    <ns0:category term="agent-engineering" label="Agent 与工程" />
+    <ns0:summary type="text">How $1,500 could qualify every company in the world, why customers hate the model selector, and how Clay is building go-to-market infrastructure for every agent</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Clay 的 AI 负责人 Jeff Barg 谈如何用 $1,500 完成全球公司资格判定、客户为何排斥 model selector，以及如何为每个 agent 搭建 go-to-market 基础设施。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：$1,500 · 相关方：Clay / Jeff Barg / model selector / go-to-market infrastructure&lt;/p&gt;&lt;p&gt;How $1,500 could qualify every company in the world, why customers hate the model selector, and how Clay is building go-to-market infrastructure for every agent&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;$1,500 把 agent 单任务成本写成可复算的量级，但访谈摘要没给样本量、判定口径与失败率，成本与覆盖率无法同时核对。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 skill 与 automation 最相关：GTM 资格判定正是可编排的批量任务，可拿来对照自建 agent 的单次调用成本与幂等去重策略，别把演示级数字当生产基线。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;搭 1 个 100 家公司的样本集跑 2 轮，若 $1,500 口径下字段缺失率 &amp;gt; 5% 或单轮耗时 &amp;gt; 30 分钟，则判定该成本不可复现、不进选型基线。&lt;/p&gt;&lt;p&gt;来源：Latent Space · 发布于 2026-11-26T23:02 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai" rel="noopener noreferrer"&gt;https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-27:4cd73331f9a03854</ns0:id>
+    <ns0:title>[模型与研究] MLC AI 开源 TxVerify，称已用 Lean 在 PTX 层证明 13 个 Blackwell GPU 内核并牵出 3 个同步 bug</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://arex-research.com/feeds/6dfc4fda-0539-45c9-b52d-89785b5a968b" />
+    <ns0:published>2026-11-26T19:05:00Z</ns0:published>
+    <ns0:updated>2026-11-27T01:58:17.875356Z</ns0:updated>
+    <ns0:category term="ai-models" label="模型与研究" />
+    <ns0:summary type="text">资讯｜11 月 24 日，MLC AI 发布博客文章 What Must We Trust? How TxVerify Uses a Core/Assumption Split to Formally Verify Production GPU Kernels at the PTX Level，署名作者为 Bohan Hou 与 Tianqi Chen，并同步开源…</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;MLC AI 开源 TxVerify，用 Lean 在 PTX 层形式化验证生产 GPU 内核，称证明 13 个 Blackwell GPU 内核并牵出 3 个同步 bug。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：13 / 3 · 相关方：MLC AI / TxVerify / Lean / PTX / Blackwell / Tianqi Chen&lt;/p&gt;&lt;p&gt;资讯｜11 月 24 日，MLC AI 发布博客文章 What Must We Trust? How TxVerify Uses a Core/Assumption Split to Formally Verify Production GPU Kernels at the PTX Level，署名作者为 Bohan Hou 与 Tianqi Chen，并同步开源…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;13 与 3 是能逐字复核的计数，但摘要没给内核规模、证明耗时或回归基线，形式化验证的覆盖率仍无法复算。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建与 WinVM 脚本分层有借鉴：Core/Assumption Split 把可信边界显式化，与「确定性脚本做索引、AI 只做研判」的分层同构，可用来盘查权限假设是否漏列。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;拉取开源仓库跑 1 次最小复现，若 13 个内核无法在 2 个环境全部复现、或 3 个同步 bug 与清单定位不一致 ≥ 1 处，则判定暂缓引用其结论。&lt;/p&gt;&lt;p&gt;来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-26T19:05 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://arex-research.com/feeds/6dfc4fda-0539-45c9-b52d-89785b5a968b" rel="noopener noreferrer"&gt;https://arex-research.com/feeds/6dfc4fda-0539-45c9-b52d-89785b5a968b&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:daily-info.local,2026-11-26:8e3231b53ff57e93</ns0:id>
     <ns0:title>[模型与研究] 物理AI｜智源REAL物理AI开放日，构建适合真实世界的物理AI</ns0:title>
@@ -968,45 +1008,5 @@
     <ns0:category term="agent-engineering" label="Agent 与工程" />
     <ns0:summary type="text">aws-emulator Finally, an official emulator from AWS to run tests against a local clone of their many different services without having to provision a paid API key to do so. It's written in Rust by a huge swarm of agents - 29,684 commits in the first three weeks of the project. Swaminathan (Swami) Si</ns0:summary>
     <ns0:content type="html">&lt;p&gt;&lt;strong&gt;AWS 推出官方 aws-emulator，可在本地克隆其多项服务跑测试而无需付费 API key，Rust 代码由 agent 群写出 29,684 次提交&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：29,684 · 相关方：aws-emulator / AWS / Rust&lt;/p&gt;&lt;p&gt;aws-emulator Finally, an official emulator from AWS to run tests against a local clone of their many different services without having to provision a paid API key to do so. It&amp;#x27;s written in Rust by a huge swarm of agents - 29,684 commits in the first three weeks of the project. Swaminathan (Swami) Si&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;官方模拟器把集成测试从付费凭据里解耦，29,684 次提交也把 agent 群写代码放到可审计的规模上。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 automation 与 agent 部署有直接影响：本地服务克隆可作为 CI 依赖替代项，减少无人值守链路对外部凭据的依赖。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;把 1 条现有 AWS 集成用例迁到本地克隆跑 10 次，若 10/10 通过且全程无需 API key，判定可替换云端联调。&lt;/p&gt;&lt;p&gt;来源：Simon Willison&amp;#x27;s Weblog · 发布于 2026-11-11T21:18 UTC · 归类：agent-engineering&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://simonwillison.net/2026/Nov/11/aws-emulator" rel="noopener noreferrer"&gt;https://simonwillison.net/2026/Nov/11/aws-emulator&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-12:624a305adfa41ec6</ns0:id>
-    <ns0:title>[模型与研究] Gemini Decisions API</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://simonwillison.net/2026/Nov/11/gemini-decisions-api" />
-    <ns0:published>2026-11-11T22:03:25Z</ns0:published>
-    <ns0:updated>2026-11-11T22:57:12.685301Z</ns0:updated>
-    <ns0:category term="ai-models" label="模型与研究" />
-    <ns0:summary type="text">Gemini Decisions API Google join Jev and OpenAI in the decision model category with "Gemini Decision 1". This new model API is almost identical to Jev: it supports the same three types of questions (yes/no, choice, and rubric-scoring) and even reuses Jev's term "Noul" for a yes/no question. It's pri</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;Google 以 Gemini Decision 1 加入决策模型类别，支持与 Jev 相同的三类问题（yes/no、choice、rubric-scoring）&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：Gemini Decision 1 · 相关方：Gemini Decisions API / Google / Jev / OpenAI&lt;/p&gt;&lt;p&gt;Gemini Decisions API Google join Jev and OpenAI in the decision model category with &amp;quot;Gemini Decision 1&amp;quot;. This new model API is almost identical to Jev: it supports the same three types of questions (yes/no, choice, and rubric-scoring) and even reuses Jev&amp;#x27;s term &amp;quot;Noul&amp;quot; for a yes/no question. It&amp;#x27;s pri&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把问答式模型收窄成三类固定输出，等于用输出契约换可判定性，比自由文本更适合写断言。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 WorkBuddy 的 automation 判定环节有直接参考：固定三类输出可对照现有核验闸门，减少解析歧义。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;用 20 条已知答案的判定题跑该 API，若三类输出格式 20/20 合法且结论与人工标注一致 ≥18 条，判定可进核验链路。&lt;/p&gt;&lt;p&gt;来源：Simon Willison&amp;#x27;s Weblog · 发布于 2026-11-11T22:03 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://simonwillison.net/2026/Nov/11/gemini-decisions-api" rel="noopener noreferrer"&gt;https://simonwillison.net/2026/Nov/11/gemini-decisions-api&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-12:88494da4c56beb64</ns0:id>
-    <ns0:title>[模型与研究] How an LLM Benchmark Produces Comparable Numbers: Inside LFORLA's LLM Evaluation</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://dev.to/resk/how-an-llm-benchmark-produces-comparable-numbers-inside-lforlas-llm-evaluation-47o5" />
-    <ns0:published>2026-11-11T10:00:42.952000Z</ns0:published>
-    <ns0:updated>2026-11-11T22:57:12.685301Z</ns0:updated>
-    <ns0:category term="ai-models" label="模型与研究" />
-    <ns0:summary type="text">TL;DR: LFORLA's Capability Retention benchmark runs 20 deterministic tasks through every model with identical prompts, scores them with… 〔Folo分类:开源项目〕</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;LFORLA 的 Capability Retention 基准用 20 个确定性任务、同一套提示词跑每个模型，讨论如何让评测数字可比&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：20 · 相关方：LFORLA / Capability Retention / LLM&lt;/p&gt;&lt;p&gt;TL;DR: LFORLA&amp;#x27;s Capability Retention benchmark runs 20 deterministic tasks through every model with identical prompts, scores them with… 〔Folo分类:开源项目〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;把确定性任务与统一提示词当成可比性前提，等于承认榜单差异多来自评测口径而非模型本身。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 automation 与 skill 评测有直接影响：现有回归集应固化提示词版本与任务数，否则跨日结果不可比。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;固化同一组 20 条提示词跑 3 轮，若三轮得分极差 &amp;lt;2 个百分点，判定该回归集可作为跨版本基线。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-11T10:00 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://dev.to/resk/how-an-llm-benchmark-produces-comparable-numbers-inside-lforlas-llm-evaluation-47o5" rel="noopener noreferrer"&gt;https://dev.to/resk/how-an-llm-benchmark-produces-comparable-numbers-inside-lforlas-llm-evaluation-47o5&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-12:4ca7aee3cb7d2f9b</ns0:id>
-    <ns0:title>[模型与研究] Gemini 4 Carbon连夜上桌！力压Fable 5.2花费仅一半，还挖出了PHP同级漏洞…</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw%3D%3D&amp;mid=2247942861&amp;idx=1&amp;sn=41d0336965ce7b66565918f5d29e0dd8&amp;chksm=e9f26d6615223de84b0445235e0ab28ed341a882ea76a8605119f697ddc73487dd4166ea0227&amp;scene=0&amp;xtrack=1" />
-    <ns0:published>2026-11-11T22:30:00Z</ns0:published>
-    <ns0:updated>2026-11-11T22:57:12.685301Z</ns0:updated>
-    <ns0:category term="ai-models" label="模型与研究" />
-    <ns0:summary type="text">安全、AI｜谷歌正式上线Gemini 4 Carbon模型API，并向每月100美元的Ultra订阅用户开放。该模型被定位为对标Claude Opus 5.5与GPT-6 Astra的旗舰级AI，旨在重夺大模型竞争主动权。目前可实际体验，谷歌已用其分析阿波罗登月舱案例，验证能力。</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;谷歌上线 Gemini 4 Carbon 模型 API，向每月 100 美元 Ultra 订阅用户开放，摘要称其对标 Claude Opus 5.5 与 GPT-6 Astra&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：100美元 / 5.5 / 5.2 · 相关方：谷歌 / Gemini 4 Carbon / Claude Opus 5.5 / GPT-6 Astra / Ultra&lt;/p&gt;&lt;p&gt;安全、AI｜谷歌正式上线Gemini 4 Carbon模型API，并向每月100美元的Ultra订阅用户开放。该模型被定位为对标Claude Opus 5.5与GPT-6 Astra的旗舰级AI，旨在重夺大模型竞争主动权。目前可实际体验，谷歌已用其分析阿波罗登月舱案例，验证能力。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;定价以每月订阅档而非按量公开，说明旗舰能力先做可得性分层；对标对象写进摘要而非跑分，比较口径尚不可核验。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 WorkBuddy 模型路由与 skill 调用暂无直接影响：单一匿名来源、无公开评测集，不能据此调整默认档，仅记录为供给侧可得性变化。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;等官方模型卡或 API 文档，若 100 美元档与 5.5 / 5.2 的对标结论同时被一手来源确认，才写入候选路由表。&lt;/p&gt;&lt;p&gt;来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-11T22:30 UTC · 归类：ai-models&lt;/p&gt;&lt;p&gt;证据状态：未独立验证&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw%3D%3D&amp;amp;mid=2247942861&amp;amp;idx=1&amp;amp;sn=41d0336965ce7b66565918f5d29e0dd8&amp;amp;chksm=e9f26d6615223de84b0445235e0ab28ed341a882ea76a8605119f697ddc73487dd4166ea0227&amp;amp;scene=0&amp;amp;xtrack=1" rel="noopener noreferrer"&gt;https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw%3D%3D&amp;amp;mid=2247942861&amp;amp;idx=1&amp;amp;sn=41d0336965ce7b66565918f5d29e0dd8&amp;amp;chksm=e9f26d6615223de84b0445235e0ab28ed341a882ea76a8605119f697ddc73487dd4166ea0227&amp;amp;scene=0&amp;amp;xtrack=1&lt;/a&gt;&lt;/p&gt;</ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:daily-info.local,2026-11-11:fda2777d68cef54d</ns0:id>
-    <ns0:title>[市场与投资] CoreWeave reports Q3 revenue up 168% YoY to $3.66B, vs. $3.55B est., a net loss of $709M, and a $132.5B revenue backlog, up from $104B as of June (Jordan Novet/CNBC)</ns0:title>
-    <ns0:link rel="alternate" type="text/html" href="https://www.techmeme.com/261110/p53" />
-    <ns0:published>2026-11-10T21:40:01Z</ns0:published>
-    <ns0:updated>2026-11-10T23:04:57.316406Z</ns0:updated>
-    <ns0:category term="dev-tools" label="市场与投资" />
-    <ns0:summary type="text">Jordan Novet / CNBC: CoreWeave reports Q3 revenue up 168% YoY to $3.66B, vs. $3.55B est., a net loss of $709M, and a $132.5B revenue backlog, up from $104B as of June — CoreWeave reported better-than-expected quarterly revenue and lifted its 2026 guidance on Tuesday, showing that demand for artifici</ns0:summary>
-    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;CNBC 报道 CoreWeave Q3 营收同比增 168% 至 $3.66B（预期 $3.55B），净亏损 $709M，订单积压 $132.5B&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：168% / $3.66B / $3.55B / $709M / $132.5B · 相关方：CoreWeave / CNBC / Jordan Novet&lt;/p&gt;&lt;p&gt;Jordan Novet / CNBC: CoreWeave reports Q3 revenue up 168% YoY to $3.66B, vs. $3.55B est., a net loss of $709M, and a $132.5B revenue backlog, up from $104B as of June — CoreWeave reported better-than-expected quarterly revenue and lifted its 2026 guidance on Tuesday, showing that demand for artifici&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;营收超预期与净亏损同时扩大，$132.5B 积压说明算力需求真实，但转化为利润仍需资本开支周期。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建与成本核算有间接影响：算力供给紧俏时，无人值守任务的预算阈值要按峰值单价重算。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照下一季财报，若净亏损收窄至 $500M 以下且积压仍 ≥$100B，判定规模效应开始兑现。&lt;/p&gt;&lt;p&gt;来源：Techmeme · 发布于 2026-11-10T21:40 UTC · 归类：dev-tools&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.techmeme.com/261110/p53" rel="noopener noreferrer"&gt;https://www.techmeme.com/261110/p53&lt;/a&gt;&lt;/p&gt;</ns0:content>
   </ns0:entry>
 </ns0:feed>

@@ -1,183 +1,216 @@
 {
-  "date": "2026-11-26",
-  "headline": "版本号与金额能逐字复核，日期年份与社区热度不能：今天进门禁的是 1.8.5、$33B 与 1% 这些带单位或口径的读数",
-  "headline_short": "版本号与金额能逐字复核，日期年份与社区热度不能：今天进门",
-  "lead": "今日能逐字锁定的读数集中在版本号与金额：langchain-core 发布 1.8.5、langchain-anthropic 发布 1.7.13，ElevenLabs 目标估值 $33B 与年度经常性收入 $700M，Netflix 宣布 $380 million 收购；而 Nasdaq 100 当日跌 1%、Bloomberg 标题里的 10% 只剩一个百分比。",
-  "generated_at": "2026-11-25T23:10:15.000385Z",
+  "date": "2026-11-27",
+  "headline": "带单位的金额与版本号能逐字复核，日期年份、PR 编号与社区热度不能：今天进门禁的是 $1,500、0.40.19 与 13 个内核",
+  "headline_short": "带单位的金额与版本号能逐字复核，日期年份、PR 编号与社",
+  "lead": "今日能逐字锁定的读数分两类：一类是带单位的量值——Clay 谈 $1,500 覆盖全球公司资格判定、两市融资余额单日减少 156.93亿元、新一代通信网测算约 7万亿元、英国央行下调 60个基点；另一类是版本号与计数——ollama v0.40.19、MLC AI 用 Lean 证明 13 个内核并牵出 3 个同步 bug。两类之外，日期年份、PR 编号、HN 分数与摘要末尾的长度标注都不进门禁。",
+  "generated_at": "2026-11-27T01:58:17.875356Z",
   "themes": [
     {
-      "title": "版本号能锁，PR 编号不能",
-      "why": "langchain-core 1.8.5 与 1.8.4、langchain-anthropic 1.7.13 与 1.7.12 是能写进兼容性矩阵的发布号；同一份变更清单里的 #42103 等只是工单编号，不能当读数。",
-      "cluster_ids": [
-        "f8ccc02d19c8c13d",
-        "f44868345781a4d0"
-      ],
-      "verified_by": 2
-    },
-    {
       "title": "金额带单位才叫读数",
-      "why": "$33B 与 $22B 是估值、$700M 是 ARR、$380 million 是收购价，量纲与轮次状态都不同；把它们并排时必须各自带单位和状态列。",
+      "why": "$1,500 是单任务成本、7万亿元 是五年测算规模、156.93亿元 是单日存量变动，量纲与状态都不同；并排时必须各自带单位和口径列。",
       "cluster_ids": [
-        "c54244a7d9398b99",
-        "ca7cf797fb0254bd"
+        "00bb51c293be1538",
+        "443eeaddf9df4cb9",
+        "102960ba67d82f48"
+      ],
+      "verified_by": 3
+    },
+    {
+      "title": "版本号与计数能锁，编号不能",
+      "why": "ollama 的发布号与 TxVerify 的内核数、缺陷数能写进复现清单；同一份变更清单里的 PR 工单编号只是定位符，不能拿来当成果读数。",
+      "cluster_ids": [
+        "89151b100183e270",
+        "4cd73331f9a03854"
       ],
       "verified_by": 2
     },
     {
-      "title": "百分比要绑定统计窗口",
-      "why": "Nasdaq 100 跌 1% 是盘中快照，Bloomberg 标题里的 10% 缺起止时点；两者都只有一个数，缺窗口就无法复算，也不能换算成结论。",
+      "title": "同一个规模数字，两种读法",
+      "why": "7万亿元 是面向未来的测算值，20985.91亿元 是当日存量快照；把预测与快照混排，会把规划读成已落地的行情。",
       "cluster_ids": [
-        "f41751b650177eee",
-        "fa26aeaff4e90fed",
-        "8c857557e3aa7d69"
-      ],
-      "verified_by": 3
-    },
-    {
-      "title": "同一批市场数据，两种读法",
-      "why": "Netflix 的 $380 million 是确定报价，$1% 与 10% 是波动快照，20 天是嘉宾窗口；确定值与瞬时值混排，会把公告读成行情。",
-      "cluster_ids": [
-        "ca7cf797fb0254bd",
-        "f41751b650177eee",
-        "fa26aeaff4e90fed"
-      ],
-      "verified_by": 3
-    },
-    {
-      "title": "规模数字不等于能力证明",
-      "why": "60 余家机构参会与 $700M ARR 都是规模，不是评测分数或可用性证明；原文强调系统性评测，却没给指标与基线数值。",
-      "cluster_ids": [
-        "8e3231b53ff57e93",
-        "c54244a7d9398b99"
+        "443eeaddf9df4cb9",
+        "102960ba67d82f48"
       ],
       "verified_by": 2
     },
     {
-      "title": "依赖升级要连变更清单一起记",
-      "why": "1.8.5 改了 provider message id 复用，1.7.13 开放自定义 HTTP/SDK clients；只记发布号不记行为变更，升级后无法定位回归来源。",
+      "title": "形式化验证给的是计数不是覆盖率",
+      "why": "TxVerify 给出了可数的内核与缺陷，却没给覆盖率与基线；ollama 变更清单同理，只有条目名没有回归数值，两者都不能当质量证明。",
       "cluster_ids": [
-        "f8ccc02d19c8c13d",
-        "f44868345781a4d0",
-        "8e3231b53ff57e93"
+        "4cd73331f9a03854",
+        "89151b100183e270"
       ],
-      "verified_by": 3
+      "verified_by": 2
+    },
+    {
+      "title": "基点与亿元量纲不同，别混排",
+      "why": "英国央行调整的是比例，两市融资余额是绝对金额；一个改分母口径、一个记存量水平，省去单位就会把监管读成流动性。",
+      "cluster_ids": [
+        "5234682e5c298bc1",
+        "102960ba67d82f48"
+      ],
+      "verified_by": 2
     },
     {
       "title": "白名单挡住的是日期与热度",
-      "why": "活动日期里的年份、HN 分数与评论数、摘要末尾的「（150字）」标注、Nasdaq 100 与 3D NAND 的型号数字，都是标识符或元数据，不是新闻读数。",
+      "why": "今日多数高分簇的数字只来自日期年份、PR 编号、HN 分数与评论数、型号尾数和摘要末尾的长度标注，按口径全部留在 sections 之外。",
       "cluster_ids": [
-        "f8ccc02d19c8c13d",
-        "f44868345781a4d0",
-        "c54244a7d9398b99",
-        "f41751b650177eee"
+        "89151b100183e270",
+        "443eeaddf9df4cb9",
+        "102960ba67d82f48",
+        "5234682e5c298bc1"
       ],
       "verified_by": 4
+    },
+    {
+      "title": "规模数字都要绑定单位与窗口",
+      "why": "单任务成本、活动名额与冲刺周期、五年市场规模，三个数都只有在单位与统计窗口明确时才可复算，否则只是量级修辞。",
+      "cluster_ids": [
+        "00bb51c293be1538",
+        "c2c799c25873001b",
+        "443eeaddf9df4cb9"
+      ],
+      "verified_by": 3
     }
   ],
   "sections": [
-    {
-      "key": "docs-changelog",
-      "label": "文档与变更",
-      "items": [
-        {
-          "id": "f8ccc02d19c8c13d",
-          "title": "langchain-core==1.8.5",
-          "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.5",
-          "source": "LangChain Releases",
-          "published_at": "2026-11-25T21:52:41Z",
-          "score": 76.06,
-          "category": "docs-changelog",
-          "cluster_id": "f8ccc02d19c8c13d",
-          "summary": "Changes since langchain-core==1.8.4 release(core): 1.8.5 (#42103) fix(core): reuse provider message id on later stream chunks (#42050) docs(core): clarify v3 runtime warning behavior (#42040) docs(core): clarify supported streaming event APIs (#42038) release(standard-tests): 1.2.0 (#41996) release(",
-          "why_matters": "1.8.5 与 1.8.4 是能逐字锁定的发布号，但变更清单只列 fix/docs 条目，没有给出回归测试结果。",
-          "fact_anchor": "LangChain 发布 langchain-core 1.8.5，复用 provider message id 并澄清 v3 runtime 警告与流式事件 API 说明。",
-          "numbers": [
-            "1.8.5",
-            "1.8.4",
-            "1.2.0"
-          ],
-          "entities": [
-            "langchain-core",
-            "mistune",
-            "standard-tests"
-          ],
-          "evidence_urls": [
-            "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.5"
-          ],
-          "impact": "对 skill 与 agent 部署最相关：langchain-core 是流式输出底座，升级前要核对 provider message id 是否改变现有 stream chunk 解析。",
-          "next_action": "在 2 个环境各跑 1 次流式复现，若 provider message id 复用失败 ≥ 1 次或 1.8.4→1.8.5 后 chunk 结构变化，则判定暂缓升级。",
-          "signal_type": "release",
-          "confidence": "fact"
-        }
-      ]
-    },
-    {
-      "key": "dev-tools",
-      "label": "开发者工具与版本",
-      "items": [
-        {
-          "id": "f44868345781a4d0",
-          "title": "langchain-anthropic==1.7.13",
-          "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.13",
-          "source": "LangChain Releases",
-          "published_at": "2026-11-25T21:42:01Z",
-          "score": 74.33,
-          "category": "dev-tools",
-          "cluster_id": "f44868345781a4d0",
-          "summary": "Changes since langchain-anthropic==1.7.12 release(anthropic): 1.7.13 (#42102) feat(anthropic): accept custom HTTP and SDK clients (#42101) chore(model-profiles): refresh model profile data (#42085) chore(model-profiles): refresh model profile data (#42062) release(standard-tests): 1.2.0 (#41996)",
-          "why_matters": "1.7.13 允许注入自定义 HTTP/SDK 客户端，是代理与超时策略的入口；摘要没给兼容性与默认行为差异。",
-          "fact_anchor": "LangChain 发布 langchain-anthropic 1.7.13，新增接受自定义 HTTP 与 SDK clients，并刷新 model profile 数据。",
-          "numbers": [
-            "1.7.13",
-            "1.7.12",
-            "1.2.0"
-          ],
-          "entities": [
-            "langchain-anthropic",
-            "HTTP",
-            "SDK clients",
-            "model-profiles"
-          ],
-          "evidence_urls": [
-            "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.13"
-          ],
-          "impact": "对 agent 部署的网关配置有直接用处：自定义 client 意味着可把请求接到统一代理层，需先确认默认超时未被覆盖。",
-          "next_action": "注入 1 个自定义 HTTP client 跑 2 次调用，若 1.7.13 与 1.7.12 的超时默认值不一致 ≥ 1 处，则判定需在配置层显式固定。",
-          "signal_type": "release",
-          "confidence": "fact"
-        }
-      ]
-    },
     {
       "key": "ai-models",
       "label": "模型与研究",
       "items": [
         {
-          "id": "8e3231b53ff57e93",
-          "title": "物理AI｜智源REAL物理AI开放日，构建适合真实世界的物理AI",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzI2MDcxMzQzOA%3D%3D&mid=2247551620&idx=1&sn=eaa4b2b4d19e5c62c304b2ffa6970f75&chksm=eb5467279af72de6d30a7c7e49df62c47010b1d6b7535876dc89f02202cdd44a832868b29fd5&scene=0&xtrack=1",
+          "id": "4cd73331f9a03854",
+          "title": "MLC AI 开源 TxVerify，称已用 Lean 在 PTX 层证明 13 个 Blackwell GPU 内核并牵出 3 个同步 bug",
+          "url": "https://arex-research.com/feeds/6dfc4fda-0539-45c9-b52d-89785b5a968b",
           "source": "智源社区 · 最新分享（匿名 API）",
-          "published_at": "2026-11-25T15:10:00Z",
-          "score": 75.98,
+          "published_at": "2026-11-26T19:05:00Z",
+          "score": 71.77,
           "category": "ai-models",
-          "cluster_id": "8e3231b53ff57e93",
-          "summary": "机器人、多模态、具身智能｜2026年11月24日，北京智源人工智能研究院在中关村举办“以真实，丈量智能”物理AI开放日，汇聚60余家头部企业、高校及科研机构，聚焦物理AI在真实世界的关键技术突破、评测标准建设与规模化应用。活动强调以真实需求引领发展、系统性评测衡量能力、应用场景验证有效性。智源正式发布REAL开放创新平台，集中推出RE系列成果，推动物理AI从实验室走向产业落地。（150字）",
-          "why_matters": "60 是参会机构规模，不是评测分数；原文强调系统性评测衡量能力，却没给出任何指标或基线数值。",
-          "fact_anchor": "智源社区报道北京智源人工智能研究院举办物理AI开放日，汇聚60余家机构并发布 REAL 开放创新平台与 RE 系列成果。",
+          "cluster_id": "4cd73331f9a03854",
+          "summary": "资讯｜11 月 24 日，MLC AI 发布博客文章 What Must We Trust? How TxVerify Uses a Core/Assumption Split to Formally Verify Production GPU Kernels at the PTX Level，署名作者为 Bohan Hou 与 Tianqi Chen，并同步开源…",
+          "why_matters": "13 与 3 是能逐字复核的计数，但摘要没给内核规模、证明耗时或回归基线，形式化验证的覆盖率仍无法复算。",
+          "fact_anchor": "MLC AI 开源 TxVerify，用 Lean 在 PTX 层形式化验证生产 GPU 内核，称证明 13 个 Blackwell GPU 内核并牵出 3 个同步 bug。",
           "numbers": [
-            "60"
+            "13",
+            "3"
           ],
           "entities": [
-            "REAL",
-            "智源",
-            "物理AI"
+            "MLC AI",
+            "TxVerify",
+            "Lean",
+            "PTX",
+            "Blackwell",
+            "Tianqi Chen"
           ],
           "evidence_urls": [
-            "https://mp.weixin.qq.com/s?__biz=MzI2MDcxMzQzOA%3D%3D&mid=2247551620&idx=1&sn=eaa4b2b4d19e5c62c304b2ffa6970f75&chksm=eb5467279af72de6d30a7c7e49df62c47010b1d6b7535876dc89f02202cdd44a832868b29fd5&scene=0&xtrack=1"
+            "https://arex-research.com/feeds/6dfc4fda-0539-45c9-b52d-89785b5a968b"
           ],
-          "impact": "对 agent 评测是方法论线索：物理AI 的真实场景验证提法可借鉴，但缺可复现指标前不进自托管测试队列。",
-          "next_action": "核对开放日材料是否给出 60 家参会清单与评测指标定义；若缺任一项，则判定该规模数字不可复算，仅留事实层。",
-          "signal_type": "product",
+          "impact": "对数据基建与 WinVM 脚本分层有借鉴：Core/Assumption Split 把可信边界显式化，与「确定性脚本做索引、AI 只做研判」的分层同构，可用来盘查权限假设是否漏列。",
+          "next_action": "拉取开源仓库跑 1 次最小复现，若 13 个内核无法在 2 个环境全部复现、或 3 个同步 bug 与清单定位不一致 ≥ 1 处，则判定暂缓引用其结论。",
+          "signal_type": "research",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "agent-engineering",
+      "label": "Agent 与工程",
+      "items": [
+        {
+          "id": "00bb51c293be1538",
+          "title": "How Clay Builds GTM Agents — Jeff Barg, Head of AI",
+          "url": "https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai",
+          "source": "Latent Space",
+          "published_at": "2026-11-26T23:02:48Z",
+          "score": 75.92,
+          "category": "agent-engineering",
+          "cluster_id": "00bb51c293be1538",
+          "summary": "How $1,500 could qualify every company in the world, why customers hate the model selector, and how Clay is building go-to-market infrastructure for every agent",
+          "why_matters": "$1,500 把 agent 单任务成本写成可复算的量级，但访谈摘要没给样本量、判定口径与失败率，成本与覆盖率无法同时核对。",
+          "fact_anchor": "Clay 的 AI 负责人 Jeff Barg 谈如何用 $1,500 完成全球公司资格判定、客户为何排斥 model selector，以及如何为每个 agent 搭建 go-to-market 基础设施。",
+          "numbers": [
+            "$1,500"
+          ],
+          "entities": [
+            "Clay",
+            "Jeff Barg",
+            "model selector",
+            "go-to-market infrastructure"
+          ],
+          "evidence_urls": [
+            "https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai"
+          ],
+          "impact": "对 skill 与 automation 最相关：GTM 资格判定正是可编排的批量任务，可拿来对照自建 agent 的单次调用成本与幂等去重策略，别把演示级数字当生产基线。",
+          "next_action": "搭 1 个 100 家公司的样本集跑 2 轮，若 $1,500 口径下字段缺失率 > 5% 或单轮耗时 > 30 分钟，则判定该成本不可复现、不进选型基线。",
+          "signal_type": "opinion",
+          "confidence": "fact"
+        },
+        {
+          "id": "c2c799c25873001b",
+          "title": "Announcing: AI Safety Co-Founding Sprint in San Francisco. Starting December 3rd.",
+          "url": "https://www.lesswrong.com/posts/c9wNKhKfkiD2ePpDG/announcing-ai-safety-co-founding-sprint-in-san-francisco",
+          "source": "LessWrong",
+          "published_at": "2026-11-26T23:28:45Z",
+          "score": 72.69,
+          "category": "agent-engineering",
+          "cluster_id": "c2c799c25873001b",
+          "summary": "AI Safety needs more organizations to own problems. The funding is there, but we are orders of magnitude away from having the great organizations needed to absorb that money.That’s why we are launching the AI Safety Co-Founding Sprint, in collaboration with BlueDot Impact & AI Safety Founders. We br",
+          "why_matters": "名额与周期是主办方自述的活动参数，不是评测或产出数据；摘要强调缺组织承接资金，却没给入选率与团队成活率。",
+          "fact_anchor": "BlueDot Impact 与 AI Safety Founders 联合发起 AI Safety Co-Founding Sprint，开放约 30 个名额、申请表耗时 5-10 minutes，配两周冲刺后向孵化器与资方引荐最强团队。",
+          "numbers": [
+            "30 spots",
+            "5-10 minutes"
+          ],
+          "entities": [
+            "BlueDot Impact",
+            "AI Safety Founders",
+            "AI Safety Co-Founding Sprint",
+            "San Francisco"
+          ],
+          "evidence_urls": [
+            "https://www.lesswrong.com/posts/c9wNKhKfkiD2ePpDG/announcing-ai-safety-co-founding-sprint-in-san-francisco"
+          ],
+          "impact": "对 MCP、A2A、skill 与 WinVM 部署暂无直接影响：这是组织孵化活动，不涉及任何接口或运行时变更；仅当后续产出可复用评测规范时才纳入关注面。",
+          "next_action": "核对主办方公告的 30 个名额与两周窗口，若 2 份材料缺任一项定义或入选名单，则判定规模仅为活动参数、不进观察表。",
+          "signal_type": "opinion",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "docs-changelog",
+      "label": "文档与变更",
+      "items": [
+        {
+          "id": "89151b100183e270",
+          "title": "v0.40.19",
+          "url": "https://github.com/ollama/ollama/releases/tag/v0.40.19-rc0",
+          "source": "ollama Releases",
+          "published_at": "2026-11-26T17:52:02Z",
+          "score": 73.15,
+          "category": "docs-changelog",
+          "cluster_id": "89151b100183e270",
+          "summary": "What's Changed inkling2: faster short histories, draft proposals and conv snapshots by @dhiltgen in #19881 mlxrunner: compact Engram history buffers by @pdevine in #19913 bump llama-server by @pdevine in #19917 Full Changelog: v0.40.18...v0.40.19-rc0",
+          "why_matters": "0.40.19 与 0.40.18 是能逐字锁定的发布号，但变更清单只有 PR 编号与条目名，没有给出短历史加速的基准数值或回归结果。",
+          "fact_anchor": "ollama 发布 v0.40.19-rc0，变更含 inkling2 短历史加速与 conv snapshots、mlxrunner 的 Engram 历史缓冲压缩，以及 llama-server 版本提升。",
+          "numbers": [
+            "0.40.19",
+            "0.40.18",
+            "0.40.19-rc0"
+          ],
+          "entities": [
+            "inkling2",
+            "mlxrunner",
+            "llama-server",
+            "Engram",
+            "@pdevine"
+          ],
+          "evidence_urls": [
+            "https://github.com/ollama/ollama/releases/tag/v0.40.19-rc0"
+          ],
+          "impact": "对 agent 部署的本地推理层直接相关：llama-server 提升与 Engram 缓冲压缩会改变会话恢复行为，升级前要核对现有快照格式是否被静默改写。",
+          "next_action": "在 2 个环境各跑 1 次会话恢复 smoke，若 0.40.18→0.40.19-rc0 后 conv snapshots 解析失败 ≥ 1 次，则判定暂缓升级并固定旧版。",
+          "signal_type": "release",
           "confidence": "fact"
         }
       ]
@@ -187,35 +220,63 @@
       "label": "产业与资本",
       "items": [
         {
-          "id": "c54244a7d9398b99",
-          "title": "Sources: ElevenLabs is in early talks for a 2027 funding round at a $33B target valuation, up from $22B in September; its annual recurring revenue is now $700M (Bloomberg)",
-          "url": "https://www.techmeme.com/261125/p30",
-          "source": "Techmeme",
-          "published_at": "2026-11-25T19:00:46Z",
-          "score": 72.94,
+          "id": "443eeaddf9df4cb9",
+          "title": "新一代通信网建设“施工图”出炉，三大细分产业驶入发展“快车道”",
+          "url": "https://www.36kr.com/newsflashes/4087243556665737",
+          "source": "36氪快讯（RSSHub 镜像路由）",
+          "published_at": "2026-11-27T00:58:49Z",
+          "score": 73.49,
           "category": "industry-capital",
-          "cluster_id": "c54244a7d9398b99",
-          "summary": "Bloomberg: Sources: ElevenLabs is in early talks for a 2027 funding round at a $33B target valuation, up from $22B in September; its annual recurring revenue is now $700M — ElevenLabs, a company building artificial intelligence voice models and agents, is in early discussions for a funding round …",
-          "why_matters": "$33B 是目标估值、$22B 是上一轮参照、$700M 是 ARR，三者口径不同；early talks 与 Sources 前缀说明尚未落定。",
-          "fact_anchor": "Techmeme 转述 Bloomberg 消息人士称 ElevenLabs 就新一轮融资初步接洽，目标估值 $33B，高于此前 $22B，年度经常性收入 $700M。",
+          "cluster_id": "443eeaddf9df4cb9",
+          "summary": "11月26日，工业和信息化部、国家网信办、国家发展改革委联合印发《新一代通信网建设实施方案》，以“432”框架布局四张网、三项能力、两大支撑，明确提出以5G-A/6G、万兆光网、卫星互联网为核心支撑，将新一代通信网重新定义为经济社会运行的“神经系统”。据测算，未来五年新一代通信网建设将撬动约7万亿元市场规模，成为扩大有效投资、稳定经济大盘的重要抓手。据了解，6G、低空经济、卫星直连手机等赛道被提及，有望为产业链发展打开新增长空间。（上证报）",
+          "why_matters": "7万亿元 是带「据测算」前缀的规模预测，不是已发生投资额；摘要没给测算方法、分年拆解与投资主体，规模数字无法复算。",
+          "fact_anchor": "工业和信息化部、国家网信办、国家发展改革委联合印发《新一代通信网建设实施方案》，以「432」框架布局四张网、三项能力、两大支撑，测算未来五年撬动约 7万亿元市场规模。",
           "numbers": [
-            "$33B",
-            "$22B",
-            "$700M"
+            "7万亿元"
           ],
           "entities": [
-            "ElevenLabs",
-            "Bloomberg",
-            "voice models",
-            "agents"
+            "工业和信息化部",
+            "国家网信办",
+            "国家发展改革委",
+            "新一代通信网建设实施方案",
+            "卫星互联网"
           ],
           "evidence_urls": [
-            "https://www.techmeme.com/261125/p30"
+            "https://www.36kr.com/newsflashes/4087243556665737"
           ],
-          "impact": "对数据基建只作事实层：语音模型与 agents 的估值/收入进索引须带轮次状态列，宣称类标 unverified，不进选型依据。",
-          "next_action": "找 2 份一手公告核对 $33B 与 $700M；若一致家数少于 2 或未标轮次状态，则判定金额仅为媒体口径，留线索池。",
-          "signal_type": "funding",
-          "confidence": "unverified"
+          "impact": "对数据基建的网络假设有间接意义：万兆光网与卫星互联网是跨机同步与远程 VM 的底层承载，但方案未给企业侧接入时点，暂不调整 WinVM Bridge 的链路预算。",
+          "next_action": "对照方案原文核对 7万亿元 的测算口径，若缺测算方法或分年拆解 ≥ 1 项，则判定只记录规划事实、不据此改容量规划。",
+          "signal_type": "market-data",
+          "confidence": "fact"
+        },
+        {
+          "id": "5234682e5c298bc1",
+          "title": "英国央行下调银行资本要求",
+          "url": "https://www.36kr.com/newsflashes/4087235380902533",
+          "source": "36氪快讯（RSSHub 镜像路由）",
+          "published_at": "2026-11-27T00:40:38Z",
+          "score": 71.67,
+          "category": "industry-capital",
+          "cluster_id": "5234682e5c298bc1",
+          "summary": "英国央行周四表示，在完成一项审查后，决定下调规模最大的本土业务型银行的资本要求。审查发现，英国本土业务占比较高的银行受到现行资本监管规则的影响尤为明显，承受的监管负担不成比例。这项改革获得英国央行金融政策委员会的支持。根据调整方案，规模最大的英国本土业务型银行的资本要求将下调60个基点，英国主要银行整体的资本要求则将下调30个基点。 （新华财经）",
+          "why_matters": "60个基点 与 30个基点 是带量纲的监管调整，但摘要没给生效日、覆盖银行名单与资本充足率基线，无法复算释放规模。",
+          "fact_anchor": "英国央行完成审查后下调银行资本要求：规模最大的本土业务型银行下调 60个基点，英国主要银行整体下调 30个基点，改革获金融政策委员会支持。",
+          "numbers": [
+            "60个基点",
+            "30个基点"
+          ],
+          "entities": [
+            "英国央行",
+            "金融政策委员会",
+            "新华财经"
+          ],
+          "evidence_urls": [
+            "https://www.36kr.com/newsflashes/4087235380902533"
+          ],
+          "impact": "对 agent 部署与自动化暂无直接影响：属境外银行监管口径变更，不涉及 MCP、A2A、skill 或 WinVM 接口；只作为带单位读数的白名单正例保留。",
+          "next_action": "对照 2 份披露核对 60个基点 与 30个基点 分别对应的银行范围，若定义不一致 ≥ 1 处，则判定该读数只留事实层、不进结论。",
+          "signal_type": "market-data",
+          "confidence": "fact"
         }
       ]
     },
@@ -224,189 +285,115 @@
       "label": "市场与投资",
       "items": [
         {
-          "id": "ca7cf797fb0254bd",
-          "title": "Netflix Buys Seinfeld Studio Lot After Goldman Forecloses",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-25/netflix-buys-la-studio-lot-after-goldman-forecloses-video",
-          "source": "Bloomberg Markets",
-          "published_at": "2026-11-25T20:32:55Z",
-          "score": 75.1,
-          "category": "market-invest",
-          "cluster_id": "ca7cf797fb0254bd",
-          "summary": "Bloomberg's John Gittelsohn joins Scarlet Fu on \"Bloomberg Deals.\" Netflix announced it’s buying Radford Studio Center, the historic Los Angeles lot where Seinfeld was filmed, for $380 million after Goldman Sachs Group took control of the property. (Source: Bloomberg)",
-          "why_matters": "$380 million 是宣布的收购价，不是成交价；原文未给交割时间、面积或估值依据，金额只是单方公告口径。",
-          "fact_anchor": "Bloomberg 报道 Netflix 宣布以 $380 million 收购 Radford Studio Center，此前 Goldman Sachs Group 已接管该地产。",
+          "id": "102960ba67d82f48",
+          "title": "两市融资余额减少156.93亿元",
+          "url": "https://www.36kr.com/newsflashes/4087290979383682",
+          "source": "36氪快讯（RSSHub 镜像路由）",
+          "published_at": "2026-11-27T00:47:23Z",
+          "score": 71.75,
+          "category": "industry-capital",
+          "cluster_id": "102960ba67d82f48",
+          "summary": "36氪获悉，截至11月26日，上交所融资余额报11010.7亿元，较前一交易日减少79.43亿元；深交所融资余额报9975.21亿元，较前一交易日减少77.5亿元；两市合计20985.91亿元，较前一交易日减少156.93亿元。",
+          "why_matters": "五个读数都带单位且能逐字复核，但摘要只给单日变动，没有成交额或余额占比，无法判断这是趋势拐点还是日常噪声。",
+          "fact_anchor": "36氪披露截至 11 月 26 日两市融资余额：上交所报 11010.7亿元、深交所报 9975.21亿元、合计 20985.91亿元，较前一交易日减少 156.93亿元。",
           "numbers": [
-            "$380 million"
+            "156.93亿元",
+            "11010.7亿元",
+            "9975.21亿元",
+            "20985.91亿元",
+            "79.43亿元"
           ],
           "entities": [
-            "Netflix",
-            "Radford Studio Center",
-            "Goldman Sachs Group",
-            "Bloomberg"
+            "36氪",
+            "上交所",
+            "深交所",
+            "融资余额"
           ],
           "evidence_urls": [
-            "https://www.bloomberg.com/news/videos/2026-11-25/netflix-buys-la-studio-lot-after-goldman-forecloses-video"
+            "https://www.36kr.com/newsflashes/4087290979383682"
           ],
-          "impact": "暂无直接影响：属传媒地产交易，与 automation / MCP / 数据基建无交集；仅作金额需带交易状态列的字段样本。",
-          "next_action": "核对 2 份一手披露是否都给出 $380 million 与交割状态；若仅媒体单方报道，则判定金额标 unverified，不进成本表。",
+          "impact": "对唯一事实源的数值自洽检查有用：同一指标在标题、分市场与合计三处重复出现，正好可验证 digest 投影有没有把 156.93亿元 重复计数。",
+          "next_action": "用当日 items.csv 核对 11010.7亿元 加 9975.21亿元 是否等于 20985.91亿元、79.43亿元 加 77.5亿元 是否等于 156.93亿元，任一偏差 > 0.01亿元 则判定上游字段错位。",
           "signal_type": "market-data",
-          "confidence": "fact"
-        },
-        {
-          "id": "f41751b650177eee",
-          "title": "Stocks Pare AI-Driven Losses as Dip Buyers Emerge",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-25/stocks-pare-ai-driven-losses-as-dip-buyers-emerge-video",
-          "source": "Bloomberg Markets",
-          "published_at": "2026-11-25T22:21:45Z",
-          "score": 74.83,
-          "category": "market-invest",
-          "cluster_id": "f41751b650177eee",
-          "summary": "Wild swings lashed Wall Street again, with dip buyers fading a stock selloff that had briefly sent the Nasdaq 100 to the brink of a bear market. The tech-heavy gauge fell 1%, trimming most of plunge that was driven by worries over the outlook for the artificial-intelligence trade. Eric Weiner, Bloom",
-          "why_matters": "1% 是盘中快照跌幅，Nasdaq 100 名称里的 100 是指数标识不是读数；摘要把 AI 前景担忧与通胀并列，未给归因权重。",
-          "fact_anchor": "Bloomberg 报道科技股回落，Nasdaq 100 一度逼近熊市边缘，该科技股指标当日跌 1%，逢低买盘收复部分跌幅。",
-          "numbers": [
-            "1%"
-          ],
-          "entities": [
-            "Nasdaq 100",
-            "Bloomberg",
-            "Eric Weiner",
-            "Wall Street"
-          ],
-          "evidence_urls": [
-            "https://www.bloomberg.com/news/videos/2026-11-25/stocks-pare-ai-driven-losses-as-dip-buyers-emerge-video"
-          ],
-          "impact": "对数据基建只作事实层样本：市场数字进索引须带统计窗口、来源与状态列，不构成投资判断。",
-          "next_action": "对照 2 个行情源核对 1% 的统计窗口与收盘点位；若窗口不一致或缺收盘价，则判定该跌幅不可复算，只留线索。",
-          "signal_type": "market-data",
-          "confidence": "fact"
-        },
-        {
-          "id": "fa26aeaff4e90fed",
-          "title": "Anthropic Rebounds From 10% Drop as Markets Stage Dramatic Recovery | Closing Bell",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-25/anthropic-rebounds-from-selloff-closing-bell-video",
-          "source": "Bloomberg Markets",
-          "published_at": "2026-11-25T21:38:39Z",
-          "score": 75.89,
-          "category": "market-invest",
-          "cluster_id": "fa26aeaff4e90fed",
-          "summary": "Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Carol Massar and Lisa Mateo. (Source: Bloomberg)",
-          "why_matters": "10% 只出现在标题，摘要未给跌幅区间、计算窗口或反弹幅度；一个百分比撑不起对反弹的结论。",
-          "fact_anchor": "Bloomberg 节目标题称 Anthropic 从 10% 跌幅反弹，节目内容为当日美股收盘的跨平台综述。",
-          "numbers": [
-            "10%"
-          ],
-          "entities": [
-            "Anthropic",
-            "Closing Bell",
-            "Bloomberg",
-            "YouTube"
-          ],
-          "evidence_urls": [
-            "https://www.bloomberg.com/news/videos/2026-11-25/anthropic-rebounds-from-selloff-closing-bell-video"
-          ],
-          "impact": "对数据基建是口径提醒：标题数字与正文描述要分列，缺窗口的百分比标 unverified，不进指标表。",
-          "next_action": "核对 2 个独立来源是否给出 10% 的起止时点；若缺任一时点或仅标题单方口径，则判定标 unverified 留线索池。",
-          "signal_type": "market-data",
-          "confidence": "unverified"
-        },
-        {
-          "id": "8c857557e3aa7d69",
-          "title": "Next 20 Days Is ‘Mission Critical’ for Retailers: Yih",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-25/next-20-days-is-mission-critical-for-retailers-yih-video",
-          "source": "Bloomberg Markets",
-          "published_at": "2026-11-25T22:31:57Z",
-          "score": 74.96,
-          "category": "market-invest",
-          "cluster_id": "8c857557e3aa7d69",
-          "summary": "Adrienne Yih, Barclays Managing Director and Senior Retail Analyst, says consumer spending is holding up despite shoppers’ concerns about high prices. She argues that household income and purchasing power have adjusted alongside inflation and wage growth, helping explain continued spending. She spea",
-          "why_matters": "20 是嘉宾给出的时间窗口而非销售数据，摘要只陈述购买力已随通胀调整的判断，未提供销量或客单价。",
-          "fact_anchor": "Bloomberg 访谈标题称未来 20 天对零售商至关重要，Barclays 分析师 Yih 表示消费支出仍具韧性。",
-          "numbers": [
-            "20"
-          ],
-          "entities": [
-            "Adrienne Yih",
-            "Barclays",
-            "Bloomberg",
-            "Romaine Bostick"
-          ],
-          "evidence_urls": [
-            "https://www.bloomberg.com/news/videos/2026-11-25/next-20-days-is-mission-critical-for-retailers-yih-video"
-          ],
-          "impact": "暂无直接影响：属零售宏观观点，与 WinVM / agent 部署无交集；仅作窗口数字必须绑定口径的反例样本。",
-          "next_action": "对照 20 天窗口内的同店销售与客单价披露；若缺任一口径或窗口定义，则判定该判断不可证伪，不进观察表。",
-          "signal_type": "opinion",
           "confidence": "fact"
         }
       ]
     }
   ],
-  "editor_note": "本期最该带走的判断是：能进部署门禁的读数，必须是带单位、带口径、可回一手来源逐字核对的那一个，而不是标题里最醒目的数字。今天留下的条目里，最硬的一组是版本号与金额：langchain-core 1.8.5 与 langchain-anthropic 1.7.13 是能写进兼容性矩阵的发布号，ElevenLabs 的 $33B、$22B、$700M 与 Netflix 的 $380 million 是能回公告核对的金额；反过来，活动日期里的年份、HN 的分数与评论数、变更清单里的 PR 编号、摘要末尾的「（150字）」长度标注、Nasdaq 100 名称里的 100、3D NAND 的 3，都只是标识符或元数据，不是新闻读数。对 skill 与 agent 部署的含义很直接：langchain-core 1.8.5 改了流式 chunk 的 provider message id 复用，langchain-anthropic 1.7.13 开放了自定义 HTTP 与 SDK clients，这两条合起来就是一条升级规则，先把版本号与变更清单一并记进依赖台账，在自有环境复现流式解析通过后才允许升级，不能只看发布号就拉最新。第二条是百分比与窗口必须带统计口径。",
-  "brief": "每日信息 · 2026-11-26\n\n今日能逐字锁定的读数集中在版本号与金额：langchain-core 发布 1.8.5、langchain-anthropic 发布 1.7.13，ElevenLabs 目标估值 $33B 与年度经常性收入 $700M，Netflix 宣布 $380 million 收购；而 Nasdaq 100 当日跌 1%、Bloomberg 标题里的 10% 只剩一个百分比。\n\n【文档与变更】\n- LangChain 发布 langchain-core 1.8.5，复用 provider messag…（1.8.5 / 1.8.4）\n\n【开发者工具与版本】\n- LangChain 发布 langchain-anthropic 1.7.13，新增接受自定义 HTTP…（1.7.13 / 1.7.12）\n\n【模型与研究】\n- 智源社区报道北京智源人工智能研究院举办物理AI开放日，汇聚60余家机构并发布 REAL 开放创新平台与 …（60）\n\n【产业与资本】\n- Techmeme 转述 Bloomberg 消息人士称 ElevenLabs 就新一轮融资初步接洽，目标…（$33B / $22B）\n\n【市场与投资】\n- Bloomberg 报道 Netflix 宣布以 $380 million 收购 Radford Stu…（$380 million）\n- Bloomberg 报道科技股回落，Nasdaq 100 一度逼近熊市边缘，该科技股指标当日跌 1%，逢…（1%）\n- Bloomberg 节目标题称 Anthropic 从 10% 跌幅反弹，节目内容为当日美股收盘的跨平台…（10%）\n- Bloomberg 访谈标题称未来 20 天对零售商至关重要，Barclays 分析师 Yih 表示消费…（20）\n\n【待验证信号】\n- langchain-core 1.8.5 流式行为回归：若 在 2 个环境各跑 1 次流式复现，若 provider message id 复用失败 ≥ 1 次，则判定暂缓升级，先把变更清单写进依赖台账后再评估。\n- ElevenLabs $33B 估值与 $700M ARR 的一手佐…：若 找 2 份一手公告核对 $33B 与 $700M，若一致家数少于 2，则判定金额仅为媒体口径，标 unverified 留线索池不进选型。\n- Netflix $380 million 收购价与交割状态：若 核对 2 份一手披露，若仅 1 家给出 $380 million 或未标交割状态，则判定金额标 unverified，不进成本基线表。\n- 1% 与 10% 跌幅的统计窗口：若 对照 2 个行情源，若窗口定义不一致或缺收盘点位/起止时点，则判定该百分比不可复算，只留事实层不进指标表。\n- 未来 20 天零售窗口的可证伪性：若 对照 20 天窗口内同店销售与客单价，若缺任一口径或窗口定义，则判定该判断不可证伪，不进观察表。\n- REAL 开放日 60 家参会与评测指标：若 核对材料是否给出 60 家清单与评测指标定义，若缺任一项，则判定规模数字不可复算，平台成果仅留事实层。\n\n内容仅供参考，不构成投资建议；外部事实未独立验证；取不到可靠数据处标注「暂无可靠数据」。",
+  "editor_note": "本期最该带走的判断是：能进工程台账的读数，必须带单位、带窗口、能回一手来源逐字核对，而不是标题里最醒目的那个数字。今天留下的条目里，最硬的一组是版本号与计数：ollama 的 0.40.19 与 0.40.18 是能写进兼容性矩阵的发布号，MLC AI 的 13 个内核与 3 个同步 bug 是能回博客清单核对的计数。另一组是带单位的量值：$1,500 是单任务成本口径，156.93亿元 是单日融资余额变动，7万亿元 是五年测算规模，60个基点 与 30个基点 是监管调整幅度。反过来，日期里的年份与月份、PR 工单编号、HN 分数与评论数、摘要末尾的长度标注、型号里的 2D 与 6G 尾数，都只是标识符或元数据，不是新闻读数，一律没进 sections。对 WorkBuddy 与 skill 编排的含义很直接：Clay 把 agent 的资格判定压到 $1,500 这个量级，说明批量任务的可行性首先取决于单任务成本与字段完整率，而不是模型选型。把它接进 automation 之前，应该先用自己的样本集跑两轮，把缺失率与耗时写成可复现的门槛，再决定是否进入依赖台账。对 agent 部署与数据基建，ollama 的 v0.40.19-rc0 同时改了短历史、Engram 缓冲与 llama-server，这类底层变更最容易在会话恢复时静默失效。",
+  "brief": "每日信息 · 2026-11-27\n\n今日能逐字锁定的读数分两类：带单位的量值（$1,500、156.93亿元、7万亿元、60个基点）与版本号计数（0.40.19、13 个内核、3 个同步 bug）。日期年份、PR 编号、HN 分数与摘要长度标注都不进门禁。\n\n【Agent 与工程】\n\n- Clay 的 Jeff Barg 谈 $1,500 完成全球公司资格判定、客户排斥 model selector、为每个 agent 搭 go-to-market 基础设施（$1,500）→ 搭 100 家公司样本跑 2 轮，字段缺失率 > 5% 即判成本不可复现。\n\n- BlueDot Impact 与 AI Safety Founders 发起 Co-Founding Sprint，约 30 个名额、申请表 5-10 minutes、两周冲刺（30 spots / 5-10 minutes）→ 核对 2 份公告，缺名额或周期定义即判为活动参数。\n\n【模型与研究】\n\n- MLC AI 开源 TxVerify，用 Lean 在 PTX 层证明 13 个 Blackwell GPU 内核并牵出 3 个同步 bug（13 / 3）→ 2 个环境复现 13 个内核，与清单不一致 ≥ 1 处即暂缓引用。\n\n【文档与变更】\n\n- ollama 发布 v0.40.19-rc0，含 inkling2 短历史加速、mlxrunner 的 Engram 缓冲压缩与 llama-server 提升（0.40.19 / 0.40.18 / 0.40.19-rc0）→ 2 个环境各跑 1 次会话恢复，解析失败 ≥ 1 次即暂缓升级。\n\n【产业与资本】\n\n- 工业和信息化部、国家网信办、国家发展改革委联合印发《新一代通信网建设实施方案》，「432」框架布局四张网、三项能力、两大支撑，测算未来五年约 7万亿元市场规模（7万亿元）→ 缺测算方法或分年拆解 ≥ 1 项即只留规划事实。\n\n- 英国央行下调银行资本要求，最大本土业务型银行 60个基点、主要银行整体 30个基点（60个基点 / 30个基点）→ 2 份披露的银行范围定义不一致 ≥ 1 处即只留事实层。\n\n【市场与投资】\n\n- 36氪披露截至 11 月 26 日两市融资余额：上交所 11010.7亿元、深交所 9975.21亿元、合计 20985.91亿元，单日减少 156.93亿元（156.93亿元 / 11010.7亿元 / 9975.21亿元 / 20985.91亿元 / 79.43亿元）→ 复算 79.43亿元 加 77.5亿元，偏差 > 0.01亿元 即回查归一映射。\n\n【待验证信号】\n\n- $1,500 成本口径 / ollama 会话恢复 / TxVerify 内核清单 / 7万亿元 测算 / 156.93亿元 合计自洽 / 两个基点范围 / Sprint 名额与周期，共 7 条，每条带可证伪阈值。\n\n内容仅供参考，外部事实未独立验证，不构成投资建议；取不到可靠数据处标注「暂无可靠数据」。",
   "watch_signals": [
     {
-      "signal": "langchain-core 1.8.5 流式行为回归",
-      "threshold": "在 2 个环境各跑 1 次流式复现，若 provider message id 复用失败 ≥ 1 次",
-      "judgement": "判定暂缓升级，先把变更清单写进依赖台账后再评估"
+      "signal": "Clay $1,500 覆盖全球公司资格判定的口径",
+      "threshold": "在 1 个 100 家公司样本集跑 2 轮，若字段缺失率 > 5%",
+      "judgement": "判定该成本不可复现，只留事实层不进选型基线"
     },
     {
-      "signal": "ElevenLabs $33B 估值与 $700M ARR 的一手佐证",
-      "threshold": "找 2 份一手公告核对 $33B 与 $700M，若一致家数少于 2",
-      "judgement": "判定金额仅为媒体口径，标 unverified 留线索池不进选型"
+      "signal": "ollama v0.40.19-rc0 的 llama-server 行为变更",
+      "threshold": "在 2 个环境各跑 1 次会话恢复，若 Engram 缓冲结构差异 ≥ 1 处",
+      "judgement": "判定暂缓升级，先固定 0.40.18 并记入依赖台账"
     },
     {
-      "signal": "Netflix $380 million 收购价与交割状态",
-      "threshold": "核对 2 份一手披露，若仅 1 家给出 $380 million 或未标交割状态",
-      "judgement": "判定金额标 unverified，不进成本基线表"
+      "signal": "TxVerify 内核数与同步缺陷的一手清单",
+      "threshold": "核对 2 份一手材料，若缺内核清单或 bug 定义少于 3 条",
+      "judgement": "判定计数仅为媒体口径，标 unverified 不进工程结论"
     },
     {
-      "signal": "1% 与 10% 跌幅的统计窗口",
-      "threshold": "对照 2 个行情源，若窗口定义不一致或缺收盘点位/起止时点",
-      "judgement": "判定该百分比不可复算，只留事实层不进指标表"
+      "signal": "新一代通信网约 7万亿元 测算口径",
+      "threshold": "对照方案原文，若缺测算方法或分年拆解 ≥ 1 项",
+      "judgement": "判定规模数字不可复算，只留规划事实层"
     },
     {
-      "signal": "未来 20 天零售窗口的可证伪性",
-      "threshold": "对照 20 天窗口内同店销售与客单价，若缺任一口径或窗口定义",
-      "judgement": "判定该判断不可证伪，不进观察表"
+      "signal": "两市融资余额 156.93亿元 的合计自洽",
+      "threshold": "核对 79.43亿元 与 77.5亿元 之和，若与 156.93亿元 偏差 > 0.01亿元",
+      "judgement": "判定上游字段错位，回查归一映射而不是改日报"
     },
     {
-      "signal": "REAL 开放日 60 家参会与评测指标",
-      "threshold": "核对材料是否给出 60 家清单与评测指标定义，若缺任一项",
-      "judgement": "判定规模数字不可复算，平台成果仅留事实层"
+      "signal": "英国央行两个基点的适用银行范围",
+      "threshold": "对照 2 份披露，若两类银行范围定义不一致 ≥ 1 处",
+      "judgement": "判定基点不可复算，只留监管事实层"
+    },
+    {
+      "signal": "AI Safety Sprint 名额与两周窗口",
+      "threshold": "核对主办方公告，若 2 份材料缺名额数或冲刺周期任一定义",
+      "judgement": "判定规模数字仅为活动参数，不进观察表"
     }
   ],
   "reference_summary": [
     {
-      "domain": "bloomberg.com",
-      "count": 4
+      "domain": "36kr.com",
+      "count": 3
     },
     {
-      "domain": "github.com",
-      "count": 2
-    },
-    {
-      "domain": "mp.weixin.qq.com",
+      "domain": "arex-research.com",
       "count": 1
     },
     {
-      "domain": "techmeme.com",
+      "domain": "latent.space",
+      "count": 1
+    },
+    {
+      "domain": "lesswrong.com",
+      "count": 1
+    },
+    {
+      "domain": "github.com",
       "count": 1
     }
   ],
   "stats": {
-    "sources_ok": 181,
+    "sources_ok": 180,
     "sources_total": 185,
-    "total_items": 2530,
-    "clusters": 2477,
+    "total_items": 2722,
+    "clusters": 2643,
     "selected": 40,
-    "published_items": 8,
-    "seven_element_pass": 8,
+    "published_items": 7,
+    "seven_element_pass": 7,
     "seven_element_ratio": 1.0,
-    "items_with_numbers": 8,
+    "items_with_numbers": 7,
     "substantive_number_ratio": 1.0,
     "rejected_no_number": 0,
-    "unique_reference_domains": 4
+    "unique_reference_domains": 5
   },
   "quality": {
     "ai_status": "ok",

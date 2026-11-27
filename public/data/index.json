@@ -5,8 +5,35 @@
     "timezone": "Asia/Shanghai",
     "version": "1.0.0"
   },
-  "generated_at": "2026-11-25T23:10:15.000385Z",
+  "generated_at": "2026-11-27T01:58:17.875356Z",
   "dates": [
+    {
+      "date": "2026-11-27",
+      "headline": "带单位的金额与版本号能逐字复核，日期年份、PR 编号与社区热度不能：今天进门禁的是 $1,500、0.40.19 与 13 个内核",
+      "lead": "今日能逐字锁定的读数分两类：一类是带单位的量值——Clay 谈 $1,500 覆盖全球公司资格判定、两市融资余额单日减少 156.93亿元、新一代通信网测算约 7万亿元、英国央行下调 60个基点；另一类是版本号与计数——ollama v0.40.19、MLC AI 用 Lean 证明 13 个内核并牵出 3 个同步 bug。两类之外，日期年份、PR 编号、HN 分数与摘要末尾的长度标注都不进门禁。",
+      "demo": false,
+      "stats": {
+        "sources_ok": 180,
+        "sources_total": 185,
+        "total_items": 2722,
+        "clusters": 2643,
+        "selected": 40,
+        "published_items": 7,
+        "seven_element_pass": 7,
+        "seven_element_ratio": 1.0,
+        "items_with_numbers": 7,
+        "substantive_number_ratio": 1.0,
+        "rejected_no_number": 0,
+        "unique_reference_domains": 5
+      },
+      "section_count": 5,
+      "item_count": 7,
+      "ai_status": "ok",
+      "seven_element_ratio": 1.0,
+      "theme_count": 7,
+      "watch_signal_count": 7,
+      "reference_domains": 5
+    },
     {
       "date": "2026-11-26",
       "headline": "版本号与金额能逐字复核，日期年份与社区热度不能：今天进门禁的是 1.8.5、$33B 与 1% 这些带单位或口径的读数",
