@@ -1,0 +1,148 @@
+{
+  "checked_at": "2026-11-28T02:42:03.064360Z",
+  "base": "https://athronix.github.io/daily-info",
+  "date": "2026-11-28",
+  "workflow_run": 46099271467,
+  "workflow_conclusion": "success",
+  "commit": "0393050",
+  "urls": [
+    {
+      "path": "/",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 26833
+    },
+    {
+      "path": "/data/index.json",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 25669
+    },
+    {
+      "path": "/data/latest.json",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 32106
+    },
+    {
+      "path": "/data/feeds.json",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 1115
+    },
+    {
+      "path": "/data/2026-11-28.json",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 32106
+    },
+    {
+      "path": "/data/2026-11-27.json",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 25353
+    },
+    {
+      "path": "/data/2026-11-26.json",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 25723
+    },
+    {
+      "path": "/feed.json",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 242311
+    },
+    {
+      "path": "/feed.atom",
+      "status": 200,
+      "content_type": "application/atom+xml",
+      "bytes": 249551
+    },
+    {
+      "path": "/all.atom",
+      "status": 200,
+      "content_type": "application/atom+xml",
+      "bytes": 249551
+    },
+    {
+      "path": "/high-signal.atom",
+      "status": 200,
+      "content_type": "application/atom+xml",
+      "bytes": 249564
+    },
+    {
+      "path": "/tech.atom",
+      "status": 200,
+      "content_type": "application/atom+xml",
+      "bytes": 249114
+    },
+    {
+      "path": "/invest.atom",
+      "status": 200,
+      "content_type": "application/atom+xml",
+      "bytes": 151680
+    },
+    {
+      "path": "/docs.atom",
+      "status": 200,
+      "content_type": "application/atom+xml",
+      "bytes": 69258
+    }
+  ],
+  "checks": [
+    {
+      "check": "14 个 URL 全部 200",
+      "ok": true,
+      "detail": "14/14"
+    },
+    {
+      "check": "6 个 .atom = application/atom+xml",
+      "ok": true,
+      "detail": "/feed.atom=application/atom+xml /all.atom=application/atom+xml /high-signal.atom=application/atom+xml /tech.atom=application/atom+xml /invest.atom=application/atom+xml /docs.atom=application/atom+xml"
+    },
+    {
+      "check": "2026-11-28.json 与本地等价",
+      "ok": true,
+      "detail": "date=2026-11-28 equal=True"
+    },
+    {
+      "check": "index.json 最新为当日",
+      "ok": true,
+      "detail": "2026-11-28"
+    },
+    {
+      "check": "latest.json 日期为当日",
+      "ok": true,
+      "detail": "2026-11-28"
+    },
+    {
+      "check": "占位域名残留 0",
+      "ok": true,
+      "detail": "https://daily-info.local hits=0"
+    },
+    {
+      "check": "无 localhost/127.0.0.1 占位",
+      "ok": true,
+      "detail": "localhost+127 hits=0"
+    },
+    {
+      "check": "feed.atom 稳定 ID 本地/线上集合一致",
+      "ok": true,
+      "detail": "本地=100 线上=100 交集=100 线上重复=0"
+    },
+    {
+      "check": "6 个 Atom profile 均可解析且 ID 唯一",
+      "ok": true,
+      "detail": "/feed.atom:100/100 /all.atom:100/100 /high-signal.atom:100/100 /tech.atom:100/100 /invest.atom:65/65 /docs.atom:29/29"
+    },
+    {
+      "check": "订阅地址指向公开站点",
+      "ok": true,
+      "detail": "feeds.json len=1073 placeholder=0"
+    }
+  ],
+  "passed": 10,
+  "total": 10
+}
