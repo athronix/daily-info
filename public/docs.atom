@@ -5,10 +5,30 @@
   <ns0:subtitle>挖掘 · 聚合 · 研判 · 订阅；每条附原文链接；内容仅供参考，不构成投资建议</ns0:subtitle>
   <ns0:link rel="self" type="application/atom+xml" href="https://daily-info.local/docs.atom" />
   <ns0:link rel="alternate" type="text/html" href="https://daily-info.local/index.html" />
-  <ns0:updated>2026-11-27T01:58:17.875356Z</ns0:updated>
+  <ns0:updated>2026-11-28T02:36:46.200180Z</ns0:updated>
   <ns0:author>
     <ns0:name>Personal Daily Info</ns0:name>
   </ns0:author>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-28:80c5781889137f6e</ns0:id>
+    <ns0:title>[文档与变更] v0.40.19</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://github.com/ollama/ollama/releases/tag/v0.40.19" />
+    <ns0:published>2026-11-27T21:47:32Z</ns0:published>
+    <ns0:updated>2026-11-28T02:36:46.200180Z</ns0:updated>
+    <ns0:category term="docs-changelog" label="文档与变更" />
+    <ns0:summary type="text">What's Changed inkling2: faster short histories, draft proposals and conv snapshots by @dhiltgen in #19881 mlxrunner: compact Engram history buffers by @pdevine in #19913 bump llama-server by @pdevine in #19917 Full Changelog: v0.40.18...v0.40.19-rc0</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;ollama 发布 v0.40.19，变更含 inkling2 短历史加速与 conv snapshots、mlxrunner 的 Engram 缓冲压缩及 llama-server 提升。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：0.40.19 / 0.40.18 / 0.40.19-rc0 · 相关方：inkling2 / mlxrunner / llama-server / Engram / @pdevine&lt;/p&gt;&lt;p&gt;What&amp;#x27;s Changed inkling2: faster short histories, draft proposals and conv snapshots by @dhiltgen in #19881 mlxrunner: compact Engram history buffers by @pdevine in #19913 bump llama-server by @pdevine in #19917 Full Changelog: v0.40.18...v0.40.19-rc0&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;0.40.19 与 0.40.18 是能逐字锁定的发布号，但清单只有 PR 编号与条目名，没给短历史加速的基准数值或回归结果。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对 agent 部署的本地推理层直接相关：llama-server 提升与 Engram 缓冲压缩会改变会话恢复行为，升级前要核对现有快照格式是否被静默改写。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;在 2 个环境各跑 1 次会话恢复 smoke，若 0.40.18 升到 0.40.19 后 conv snapshots 解析失败 ≥ 1 次，则判定暂缓升级并固定旧版。&lt;/p&gt;&lt;p&gt;来源：ollama Releases · 发布于 2026-11-27T21:47 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://github.com/ollama/ollama/releases/tag/v0.40.19" rel="noopener noreferrer"&gt;https://github.com/ollama/ollama/releases/tag/v0.40.19&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-28:e82de17fd6964e62</ns0:id>
+    <ns0:title>[文档与变更] New technologies help Natural History Museum uncover 92 species in its transformed gardens</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://phys.org/news/2026-11-technologies-natural-history-museum-uncover.html" />
+    <ns0:published>2026-11-28T00:20:07.729000Z</ns0:published>
+    <ns0:updated>2026-11-28T02:36:46.200180Z</ns0:updated>
+    <ns0:category term="docs-changelog" label="文档与变更" />
+    <ns0:summary type="text">The Natural History Museum's transformed gardens in South Kensington are revealing new insights into London's urban wildlife. Among the 92… 〔Folo分类:重大学术科研突破〕</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;英国自然历史博物馆用新技术在其改造后的花园中记录到 92 个物种，作为伦敦城市野生动物研究的新结果。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：92 · 相关方：Natural History Museum / South Kensington / London&lt;/p&gt;&lt;p&gt;The Natural History Museum&amp;#x27;s transformed gardens in South Kensington are revealing new insights into London&amp;#x27;s urban wildlife. Among the 92… 〔Folo分类:重大学术科研突破〕&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;92 是能逐字锁定的计数，但摘要被截断在 Among the 92 之后，没给物种名录、采样周期与鉴定方法，计数口径无法复算。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对数据基建的采集口径有借鉴：一个被截断的摘要只能留下计数、留不下维度，正是无数字诊断清单要补上游摘要的典型样本。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;对照博物馆清单核对 92 个物种的名录与采样窗口，若缺任一项或计数偏差 ≥ 1 个物种，则判定只留事实层、不进结论。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-28T00:20 UTC · 归类：docs-changelog&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://phys.org/news/2026-11-technologies-natural-history-museum-uncover.html" rel="noopener noreferrer"&gt;https://phys.org/news/2026-11-technologies-natural-history-museum-uncover.html&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:daily-info.local,2026-11-27:89151b100183e270</ns0:id>
     <ns0:title>[文档与变更] v0.40.19</ns0:title>

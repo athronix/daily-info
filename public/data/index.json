@@ -5,8 +5,35 @@
     "timezone": "Asia/Shanghai",
     "version": "1.0.0"
   },
-  "generated_at": "2026-11-27T01:58:17.875356Z",
+  "generated_at": "2026-11-28T02:36:46.200180Z",
   "dates": [
+    {
+      "date": "2026-11-28",
+      "headline": "48 个 MCP 仓库 69% 有安全发现、0.40.19 能进兼容矩阵，而社区热度、日期年份与型号尾数都不是读数",
+      "lead": "今日能逐字锁定的读数分三类：抽样比与计数——48 个 MCP server 与 SKILL.md 仓库中 69% 有安全发现、博物馆花园记录 92 个物种；版本号——0.40.19、26.6.0 与 2.6.2，能写进兼容性矩阵；带单位的金额与规格——$198、$1,749、13MP、545 KB，每一列都要单独留单位。三类之外，社区热度分、周报日期、产品型号尾数与摘要末尾的长度标注都只是标识符或元数据，按数字白名单一律留在门禁之外；",
+      "demo": false,
+      "stats": {
+        "sources_ok": 180,
+        "sources_total": 185,
+        "total_items": 2013,
+        "clusters": 1923,
+        "selected": 40,
+        "published_items": 11,
+        "seven_element_pass": 11,
+        "seven_element_ratio": 1.0,
+        "items_with_numbers": 11,
+        "substantive_number_ratio": 1.0,
+        "rejected_no_number": 0,
+        "unique_reference_domains": 7
+      },
+      "section_count": 7,
+      "item_count": 11,
+      "ai_status": "ok",
+      "seven_element_ratio": 1.0,
+      "theme_count": 7,
+      "watch_signal_count": 7,
+      "reference_domains": 7
+    },
     {
       "date": "2026-11-27",
       "headline": "带单位的金额与版本号能逐字复核，日期年份、PR 编号与社区热度不能：今天进门禁的是 $1,500、0.40.19 与 13 个内核",

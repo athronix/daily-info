@@ -1,0 +1,549 @@
+{
+  "date": "2026-11-28",
+  "headline": "48 个 MCP 仓库 69% 有安全发现、0.40.19 能进兼容矩阵，而社区热度、日期年份与型号尾数都不是读数",
+  "headline_short": "48 个 MCP 仓库 69% 有安全发现、0.40.1",
+  "lead": "今日能逐字锁定的读数分三类：抽样比与计数——48 个 MCP server 与 SKILL.md 仓库中 69% 有安全发现、博物馆花园记录 92 个物种；版本号——0.40.19、26.6.0 与 2.6.2，能写进兼容性矩阵；带单位的金额与规格——$198、$1,749、13MP、545 KB，每一列都要单独留单位。三类之外，社区热度分、周报日期、产品型号尾数与摘要末尾的长度标注都只是标识符或元数据，按数字白名单一律留在门禁之外；",
+  "generated_at": "2026-11-28T02:36:46.200180Z",
+  "themes": [
+    {
+      "title": "带单位的量值才叫读数",
+      "why": "48 个仓库的 69%、$209 与 13MP、$198 与 $169，都带单位或比例；把单位省掉，抽样比、价格与规格就会混成一个数字。",
+      "cluster_ids": [
+        "f15a140c90bbe9a9",
+        "6fe4630731dae525",
+        "9fdfb6028ef485a4"
+      ],
+      "verified_by": 3
+    },
+    {
+      "title": "版本号能进台账，工单号不能",
+      "why": "0.40.19、26.6.0、2.6.2 是能写进兼容性矩阵的发布号；同一份 Changelog 里的 PR 编号只是定位符，不是成果读数。",
+      "cluster_ids": [
+        "80c5781889137f6e",
+        "8eeebe88ed523328",
+        "22b14364bfdca865"
+      ],
+      "verified_by": 3
+    },
+    {
+      "title": "折扣与规格是两种读数",
+      "why": "50 percent 与 60 加 $100 是门槛，$250 与 $1,749 是金额，24GB 与 48GB 是规格；并排时必须各带单位列，否则下界会被读成均值。",
+      "cluster_ids": [
+        "78335544791dd222",
+        "6b0ef3f8319591f8",
+        "8645365d203bf584"
+      ],
+      "verified_by": 3
+    },
+    {
+      "title": "抽样比与计数都只是样本口径",
+      "why": "69% 是 48 个仓库的抽样，92 是单座花园的物种数，50 percent 是促销下界；三者都没有总体或基线，不能外推成行业结论。",
+      "cluster_ids": [
+        "f15a140c90bbe9a9",
+        "e82de17fd6964e62",
+        "78335544791dd222"
+      ],
+      "verified_by": 3
+    },
+    {
+      "title": "价格能自洽，仍不等于趋势",
+      "why": "83美元 到 111.50美元 再到 81.91美元，与 $198、$1,749 都是时点快照；算式能对上，但缺成交量与窗口，就不能写成趋势或估值判断。",
+      "cluster_ids": [
+        "7de2bc413e1f944e",
+        "9fdfb6028ef485a4",
+        "8645365d203bf584"
+      ],
+      "verified_by": 3
+    },
+    {
+      "title": "规模数字必须绑定单位与窗口",
+      "why": "13MP、545 KB、24GB 与 92 分别属于规格、体积、内存与物种计数，脱离单位与采样窗口就只是量级修辞，进不了工程台账。",
+      "cluster_ids": [
+        "6fe4630731dae525",
+        "22b14364bfdca865",
+        "e82de17fd6964e62"
+      ],
+      "verified_by": 3
+    },
+    {
+      "title": "白名单挡住的是元数据不是小数字",
+      "why": "今日多数高分簇的数字只来自社区热度分、周报与公告日期、产品型号尾数与摘要末尾的长度标注，按数字白名单一律留在 sections 之外。",
+      "cluster_ids": [
+        "f15a140c90bbe9a9",
+        "80c5781889137f6e",
+        "22b14364bfdca865"
+      ],
+      "verified_by": 3
+    }
+  ],
+  "sections": [
+    {
+      "key": "agent-engineering",
+      "label": "Agent 与工程",
+      "items": [
+        {
+          "id": "f15a140c90bbe9a9",
+          "title": "I scanned 48 popular MCP server and SKILL.md repos. 69% had a security finding",
+          "url": "https://dev.to/avivgerzhue/i-scanned-48-popular-mcp-server-and-skillmd-repos-69-had-a-security-finding-35d2",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-27T22:50:53.388000Z",
+          "score": 79.92,
+          "category": "agent-engineering",
+          "cluster_id": "f15a140c90bbe9a9",
+          "summary": "AI agents write code fast and skip the boring parts, like checking whether a secret ended up in the repo. MCP servers and SKILL.md files are… 〔Folo分类:开源项目〕",
+          "why_matters": "48 与 69% 是能回标题逐字核对的抽样口径，但摘要被截断，没给扫描规则、误报率与发现分级，比例无法复算。",
+          "fact_anchor": "dev.to 作者扫描 48 个热门 MCP server 与 SKILL.md 仓库，报告 69% 存在安全发现，指向 agent 写码时把密钥带进仓库。",
+          "numbers": [
+            "48",
+            "69%"
+          ],
+          "entities": [
+            "MCP server",
+            "SKILL.md",
+            "secret"
+          ],
+          "evidence_urls": [
+            "https://dev.to/avivgerzhue/i-scanned-48-popular-mcp-server-and-skillmd-repos-69-had-a-security-finding-35d2"
+          ],
+          "impact": "直接命中 skill 与 MCP 部署面：若自建 SKILL.md 仓库沿用同一生成流程，密钥入库风险就是可复现的，应把凭据扫描提到提交前闸门。",
+          "next_action": "复扫 48 个仓库，若可复现的安全发现少于 33 个或误报超过 5 个，则判定 69% 口径不成立、不进 skill 仓库的准入基线。",
+          "signal_type": "research",
+          "confidence": "fact"
+        },
+        {
+          "id": "8645365d203bf584",
+          "title": "Apple's M6 and PROLED MacBook Pro Reach New Low Prices for Black Friday",
+          "url": "https://www.macrumors.com/2026/11/27/m6-and-proled-macbook-pro-black-friday",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-27T17:27:01.754000Z",
+          "score": 73.65,
+          "category": "agent-engineering",
+          "cluster_id": "8645365d203bf584",
+          "summary": "For Black Friday, Amazon offers significant discounts on Apple’s new MacBook Pro lineup. The 14-inch M6 model is available for $250 off, with the entry-level 16GB/1TB configuration priced at $1,749. Meanwhile, the 16-inch MacBook Pro featuring a PROLED XDR display receives discounts of up to $327. T",
+          "why_matters": "五个读数都带单位且能逐字复核，但 $250 与 $327 是降幅、$1,749 是成交价、24GB 与 48GB 是内存规格，量纲混排会读错。",
+          "fact_anchor": "MacRumors 汇总 Black Friday 的 MacBook Pro 降价：14 英寸 M6 款减 $250、16GB/1TB 配置报 $1,749，16 英寸款最多减 $327。",
+          "numbers": [
+            "$250",
+            "$1,749",
+            "$327",
+            "24GB",
+            "48GB"
+          ],
+          "entities": [
+            "Apple",
+            "MacBook Pro",
+            "Amazon",
+            "PROLED"
+          ],
+          "evidence_urls": [
+            "https://www.macrumors.com/2026/11/27/m6-and-proled-macbook-pro-black-friday"
+          ],
+          "impact": "对数据基建的字段分列有借鉴：降幅、成交价与规格三类值同处一段，正是白名单校验要逐项绑定单位、禁止跨列合计的样本。",
+          "next_action": "抽 2 个配置核价，若 $1,749 与 $250 之和不等于原价、或 24GB 与 48GB 在 2 份页面不一致 ≥ 1 处，则判定字段错位。",
+          "signal_type": "market-data",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "dev-tools",
+      "label": "开发者工具与版本",
+      "items": [
+        {
+          "id": "8eeebe88ed523328",
+          "title": "JPEXS Free Flash Decompiler 26.6.0",
+          "url": "https://dev.to/hacksgr/jpexs-free-flash-decompiler-2660-51e6",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-27T23:46:21.970000Z",
+          "score": 77.55,
+          "category": "dev-tools",
+          "cluster_id": "8eeebe88ed523328",
+          "summary": "JPEXS Free Flash Decompiler version 26.6.0 is now available. Created by Jindra Petřík, this open-source cross-platform tool for Windows… 〔Folo分类:开源项目〕",
+          "why_matters": "26.6.0 是能写进依赖台账的发布号，但摘要截断在 for Windows 被省略，没给变更清单或兼容范围，升级依据不足。",
+          "fact_anchor": "JPEXS Free Flash Decompiler 发布 26.6.0 版，仍是 Jindra Petřík 维护的开源跨平台 Windows 工具。",
+          "numbers": [
+            "26.6.0"
+          ],
+          "entities": [
+            "JPEXS Free Flash Decompiler",
+            "Jindra Petřík"
+          ],
+          "evidence_urls": [
+            "https://dev.to/hacksgr/jpexs-free-flash-decompiler-2660-51e6"
+          ],
+          "impact": "对 dev-tools 版本台账相关：发布号可作为锁定键，但 skill 与 automation 若依赖该工具解析产物，缺变更清单就不能只凭版本号拉最新。",
+          "next_action": "对照 2 个发布源核对 26.6.0 的变更清单，若缺条目或版本号不一致 ≥ 1 处，则固定当前版本、不进自动升级白名单。",
+          "signal_type": "release",
+          "confidence": "fact"
+        },
+        {
+          "id": "78335544791dd222",
+          "title": "Many of our favorite Blu-ray movies are over 50 percent off for Black Friday",
+          "url": "https://www.theverge.com/gadgets/1040471/4k-bluray-movie-film-black-friday-deal-sale",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-27T23:30:00.904000Z",
+          "score": 77.36,
+          "category": "dev-tools",
+          "cluster_id": "78335544791dd222",
+          "summary": "For Black Friday, numerous Blu-ray and 4K Blu-ray titles are discounted by more than 50 percent. Recommended deals include *Blade Runner 2049*, *The Lord of the Rings* trilogy, *Interstellar*, *Seven Samurai*, and *The Matrix* collection. Retailers such as Amazon, Barnes & Noble, Best Buy, Criterion",
+          "why_matters": "50 percent 是带单位的折扣幅度，但 over 与 more than 都是下界表述，没给原价、SKU 数与统计窗口，折扣率无法复算。",
+          "fact_anchor": "The Verge 汇总 Black Friday 蓝光碟促销，称多部 4K Blu-ray 标题折扣超过 50 percent，并列出 Amazon 等零售渠道。",
+          "numbers": [
+            "50 percent"
+          ],
+          "entities": [
+            "Blu-ray",
+            "Amazon",
+            "Criterion"
+          ],
+          "evidence_urls": [
+            "https://www.theverge.com/gadgets/1040471/4k-bluray-movie-film-black-friday-deal-sale"
+          ],
+          "impact": "对 automation 暂无直接影响：属消费促销导购，不涉及 MCP、A2A、skill 或 WinVM 接口；仅作为带单位百分比的白名单正例保留。",
+          "next_action": "抽 3 个 SKU 核对标价与原价，若实际折扣与 50 percent 偏差超过 5 个百分点，则判定该幅度仅为营销下界、不进读数表。",
+          "signal_type": "market-data",
+          "confidence": "fact"
+        },
+        {
+          "id": "6fe4630731dae525",
+          "title": "FotorGear’s $209 Retro Camera brings back the waist-level viewfinder with a 13MP Sony sensor",
+          "url": "https://www.yankodesign.com/2026/11/27/fotorgears-209-retro-camera-brings-back-the-waist-level-viewfinder-with-a-13mp-sony-sensor",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-28T00:30:55.764000Z",
+          "score": 76.48,
+          "category": "dev-tools",
+          "cluster_id": "6fe4630731dae525",
+          "summary": "For years, FotorGear’s whole business was convincing your iPhone it was a camera. The Hong Kong brand built clip-on lenses, grips, and a… 〔Folo分类:新奇产品〕",
+          "why_matters": "$209 与 13MP 是带单位的定价与规格，但摘要截断在镜头与手柄处，没给传感器尺寸或实拍样张，规格无法复核。",
+          "fact_anchor": "FotorGear 推出 $209 复古相机，带回腰平取景器并配 13MP Sony 传感器，此前主营 iPhone 外接镜头与手柄。",
+          "numbers": [
+            "$209",
+            "13MP"
+          ],
+          "entities": [
+            "FotorGear",
+            "Sony",
+            "iPhone"
+          ],
+          "evidence_urls": [
+            "https://www.yankodesign.com/2026/11/27/fotorgears-209-retro-camera-brings-back-the-waist-level-viewfinder-with-a-13mp-sony-sensor"
+          ],
+          "impact": "对 WinVM 与 agent 部署暂无直接影响：消费硬件参数不涉及 MCP、A2A 或 skill 接口；保留作金额与规格双量纲的白名单正例。",
+          "next_action": "对照 2 份产品页核对 $209 与 13MP，若任一读数不一致或缺传感器尺寸 ≥ 1 项，则判定只留事实层、不进规格台账。",
+          "signal_type": "product",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "docs-changelog",
+      "label": "文档与变更",
+      "items": [
+        {
+          "id": "e82de17fd6964e62",
+          "title": "New technologies help Natural History Museum uncover 92 species in its transformed gardens",
+          "url": "https://phys.org/news/2026-11-technologies-natural-history-museum-uncover.html",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-28T00:20:07.729000Z",
+          "score": 77.95,
+          "category": "docs-changelog",
+          "cluster_id": "e82de17fd6964e62",
+          "summary": "The Natural History Museum's transformed gardens in South Kensington are revealing new insights into London's urban wildlife. Among the 92… 〔Folo分类:重大学术科研突破〕",
+          "why_matters": "92 是能逐字锁定的计数，但摘要被截断在 Among the 92 之后，没给物种名录、采样周期与鉴定方法，计数口径无法复算。",
+          "fact_anchor": "英国自然历史博物馆用新技术在其改造后的花园中记录到 92 个物种，作为伦敦城市野生动物研究的新结果。",
+          "numbers": [
+            "92"
+          ],
+          "entities": [
+            "Natural History Museum",
+            "South Kensington",
+            "London"
+          ],
+          "evidence_urls": [
+            "https://phys.org/news/2026-11-technologies-natural-history-museum-uncover.html"
+          ],
+          "impact": "对数据基建的采集口径有借鉴：一个被截断的摘要只能留下计数、留不下维度，正是无数字诊断清单要补上游摘要的典型样本。",
+          "next_action": "对照博物馆清单核对 92 个物种的名录与采样窗口，若缺任一项或计数偏差 ≥ 1 个物种，则判定只留事实层、不进结论。",
+          "signal_type": "research",
+          "confidence": "fact"
+        },
+        {
+          "id": "80c5781889137f6e",
+          "title": "v0.40.19",
+          "url": "https://github.com/ollama/ollama/releases/tag/v0.40.19",
+          "source": "ollama Releases",
+          "published_at": "2026-11-27T21:47:32Z",
+          "score": 75.12,
+          "category": "docs-changelog",
+          "cluster_id": "80c5781889137f6e",
+          "summary": "What's Changed inkling2: faster short histories, draft proposals and conv snapshots by @dhiltgen in #19881 mlxrunner: compact Engram history buffers by @pdevine in #19913 bump llama-server by @pdevine in #19917 Full Changelog: v0.40.18...v0.40.19-rc0",
+          "why_matters": "0.40.19 与 0.40.18 是能逐字锁定的发布号，但清单只有 PR 编号与条目名，没给短历史加速的基准数值或回归结果。",
+          "fact_anchor": "ollama 发布 v0.40.19，变更含 inkling2 短历史加速与 conv snapshots、mlxrunner 的 Engram 缓冲压缩及 llama-server 提升。",
+          "numbers": [
+            "0.40.19",
+            "0.40.18",
+            "0.40.19-rc0"
+          ],
+          "entities": [
+            "inkling2",
+            "mlxrunner",
+            "llama-server",
+            "Engram",
+            "@pdevine"
+          ],
+          "evidence_urls": [
+            "https://github.com/ollama/ollama/releases/tag/v0.40.19"
+          ],
+          "impact": "对 agent 部署的本地推理层直接相关：llama-server 提升与 Engram 缓冲压缩会改变会话恢复行为，升级前要核对现有快照格式是否被静默改写。",
+          "next_action": "在 2 个环境各跑 1 次会话恢复 smoke，若 0.40.18 升到 0.40.19 后 conv snapshots 解析失败 ≥ 1 次，则判定暂缓升级并固定旧版。",
+          "signal_type": "release",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "market-invest",
+      "label": "市场与投资",
+      "items": [
+        {
+          "id": "9fdfb6028ef485a4",
+          "title": "Sony’s 1000XM4C headphones are a Black Friday bargain at $198",
+          "url": "https://www.theverge.com/gadgets/1043976/sony-wh1000xm4c-noise-canceling-headphones-black-friday-2026-deal-sale",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-28T00:30:00.817000Z",
+          "score": 76.46,
+          "category": "market-invest",
+          "cluster_id": "9fdfb6028ef485a4",
+          "summary": "Sony’s WH-1000XM4C headphones are priced at $198 during Black Friday, a $100 discount from their launch price. This model refines the popular XM4 design, offering audio quality close to the pricier XM6. Key enhancements include a 10-band equalizer that improves midrange frequencies, better noise can",
+          "why_matters": "四个读数带单位且同处一段，可交叉核对；但 10-band equalizer 是功能规格不是价格，与三个金额混排容易把规格读成折扣。",
+          "fact_anchor": "The Verge 报道 Sony WH-1000XM4C 在 Black Friday 报 $198，较发售价降 $100，并给出 WH-1000XM5 的 $169 备选价。",
+          "numbers": [
+            "$198",
+            "$100",
+            "$169",
+            "10-band"
+          ],
+          "entities": [
+            "Sony",
+            "WH-1000XM4C",
+            "WH-1000XM5",
+            "XM6"
+          ],
+          "evidence_urls": [
+            "https://www.theverge.com/gadgets/1043976/sony-wh1000xm4c-noise-canceling-headphones-black-friday-2026-deal-sale"
+          ],
+          "impact": "对唯一事实源的量纲分列有用：同一条目里金额与功能规格并存，正好验证 digest 投影有没有把 10-band 误并进价格字段。",
+          "next_action": "复算 $198 加 $100 是否等于发售价、并核对 $169 备选价，若任一偏差超过 1 美元则判定上游字段错位、回查归一映射。",
+          "signal_type": "market-data",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "industry-capital",
+      "label": "产业与资本",
+      "items": [
+        {
+          "id": "7de2bc413e1f944e",
+          "title": "Anthropic破发！史上最大IPO，4个交易日跌穿83美元",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&mid=2652745378&idx=2&sn=46191b80fc49ea0ec293ae4224ad1619&chksm=f0344fff35146f17dd4a45783f57ca637c197c76bc5f085dae26ff3c61863f9fe9980b13672f&scene=0&xtrack=1",
+          "source": "智源社区 · 最新分享（匿名 API）",
+          "published_at": "2026-11-28T01:50:00Z",
+          "score": 79.04,
+          "category": "industry-capital",
+          "cluster_id": "7de2bc413e1f944e",
+          "summary": "强化学习、AI系统、AI｜Anthropic创始人阿莫迪称其有望开创“奇迹时代”，引发华尔街热捧，IPO发行价定为83美元；11月19日上市首日股价飙升至111.50美元，涨幅超34%；但仅五日内即回落，11月24日收盘报81.91美元，首次跌破发行价，凸显市场对其高估值与盈利前景的快速重估。",
+          "why_matters": "四个读数带单位且能逐字核对，涨幅 34% 与 83 到 111.50 的算式自洽；但摘要没给交易所代码、成交量与发行规模，无法独立复核。",
+          "fact_anchor": "智源社区转述 Anthropic 上市后的三个价格快照：发行价 83美元、首日 111.50美元、随后收报 81.91美元跌破发行价。",
+          "numbers": [
+            "83美元",
+            "111.50美元",
+            "34%",
+            "81.91美元"
+          ],
+          "entities": [
+            "Anthropic",
+            "阿莫迪"
+          ],
+          "evidence_urls": [
+            "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&mid=2652745378&idx=2&sn=46191b80fc49ea0ec293ae4224ad1619&chksm=f0344fff35146f17dd4a45783f57ca637c197c76bc5f085dae26ff3c61863f9fe9980b13672f&scene=0&xtrack=1"
+          ],
+          "impact": "对唯一事实源的数值自洽检查有用：同一事件在发行价、首日高点与破发收盘价三处出现，可验证 digest 投影有没有把 34% 重复计数。",
+          "next_action": "复算 111.50 减 83 再除以 83，若与 34% 偏差超过 1 个百分点，或 81.91美元 未在 2 份材料出现，则判定上游字段错位、回查归一映射。",
+          "signal_type": "market-data",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "security-governance",
+      "label": "安全与治理",
+      "items": [
+        {
+          "id": "22b14364bfdca865",
+          "title": "WAIncognito for Chrome 2.6.2",
+          "url": "https://dev.to/hacksgr/waincognito-for-chrome-262-kbl",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-27T17:19:20.424000Z",
+          "score": 75.18,
+          "category": "security-governance",
+          "cluster_id": "22b14364bfdca865",
+          "summary": "WAIncognito version 2.6.2 for Chrome introduces updated privacy controls for WhatsApp Web. Developed as an open-source 545 KB extension by… 〔Folo分类:开源项目〕",
+          "why_matters": "2.6.2 是发布号、545 KB 是安装体积，两个量纲都逐字可查；但摘要截断在开发者署名处，没给权限变更或兼容范围。",
+          "fact_anchor": "WAIncognito for Chrome 发布 2.6.2 版，更新 WhatsApp Web 隐私控制，仍是体积 545 KB 的开源扩展。",
+          "numbers": [
+            "2.6.2",
+            "545 KB"
+          ],
+          "entities": [
+            "WAIncognito",
+            "Chrome",
+            "WhatsApp Web"
+          ],
+          "evidence_urls": [
+            "https://dev.to/hacksgr/waincognito-for-chrome-262-kbl"
+          ],
+          "impact": "对 skill 与 agent 部署的扩展治理相关：浏览器扩展的版本号与体积应一起登记，只记版本号会在权限扩大时漏掉可观测信号。",
+          "next_action": "实测安装包体积并对照 2 个发布源，若与 545 KB 偏差超过 10% 或版本号不一致 ≥ 1 处，则判定规格读数仅媒体口径。",
+          "signal_type": "release",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "community",
+      "label": "社区与观点",
+      "items": [
+        {
+          "id": "6b0ef3f8319591f8",
+          "title": "We found 60-odd Black Friday deals we love for $100 or less",
+          "url": "https://www.theverge.com/gadgets/1043445/black-friday-best-cheap-tech-deals-under-100-2026",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-28T01:30:00.031000Z",
+          "score": 77.19,
+          "category": "community",
+          "cluster_id": "6b0ef3f8319591f8",
+          "summary": "The Verge highlights over sixty Black Friday deals priced at $100 or less, covering electronics, streaming services, and games. Notable offers include discounted Beats earbuds, Amazon Echo devices, Anker chargers, and various video games like Ghost of Yōtei and 007 First Light. Additionally, subscri",
+          "why_matters": "60 与 $100 是标题里的数量与价格门槛，但 60-odd 与 or less 都是约数，摘要没给逐项价格与筛选规则，清单不可复算。",
+          "fact_anchor": "The Verge 列出 60-odd 个 Black Friday 低价方案，价格门槛为 $100 或更低，覆盖电子产品、流媒体与游戏。",
+          "numbers": [
+            "60",
+            "$100"
+          ],
+          "entities": [
+            "The Verge",
+            "Amazon Echo",
+            "Disney Plus"
+          ],
+          "evidence_urls": [
+            "https://www.theverge.com/gadgets/1043445/black-friday-best-cheap-tech-deals-under-100-2026"
+          ],
+          "impact": "对 skill 与数据基建暂无直接影响：促销清单不涉及任何接口或运行时；仅用来验证白名单对带符号金额数字的逐字匹配。",
+          "next_action": "抽查 2 个品类的条目数，若与 60 的偏差超过 10 个或存在单价高于 $100 的条目 ≥ 1 条，则判定门槛表述不成立。",
+          "signal_type": "market-data",
+          "confidence": "fact"
+        }
+      ]
+    }
+  ],
+  "editor_note": "本期最该带走的判断是：能进工程台账的读数，必须带单位、带窗口、能回一手来源逐字核对，而不是标题里最醒目的那个数字。今天留下的 11 条里，最硬的一组是版本号：ollama 的 0.40.19 与 0.40.18、JPEXS 的 26.6.0、WAIncognito 的 2.6.2，都是能写进兼容性矩阵的发布号；它们旁边的 PR 工单编号只是定位符，不能拿来当成果读数。第二组是带单位的量值：69% 是 48 个仓库的抽样比，$198 与 $1,749 是成交价，$250 与 $327 是降幅，13MP、545 KB、24GB 与 48GB 是规格，92 是单座花园的物种计数。量纲不同就不能并成一列，否则会把降幅读成价格、把规格读成折扣。反过来，社区热度分与评论数、周报与公告里的日期年份、产品型号尾数、摘要末尾的长度标注，都只是标识符或采集元数据，按数字白名单一律没进 sections。对 MCP 与 skill 部署，今天最该动手的是那条 48 个仓库的扫描：69% 有安全发现，直接指向 agent 写码时把密钥带进仓库。把它接进 automation 之前，应先用自己的样本集复扫一遍，把可复现发现数与误报数写成门槛，再决定是否把凭据扫描提到提交前闸门；",
+  "brief": "每日信息 · 2026-11-28\n\n今日能逐字锁定的读数分三类：抽样比与计数（48 个仓库 69%、92 个物种）、版本号（0.40.19、26.6.0、2.6.2）、带单位的金额与规格（$198、$1,749、13MP、545 KB）。社区热度分、日期年份、型号尾数与摘要长度标注都不进门禁。\n\n【Agent 与工程】\n\n- dev.to 作者扫描 48 个热门 MCP server 与 SKILL.md 仓库，69% 存在安全发现（48 / 69%）→ 复扫 48 个仓库，可复现发现少于 33 个或误报超 5 个即判口径不成立。\n\n- MacRumors 汇总 MacBook Pro 黑五降价：14 英寸款减 $250、16GB/1TB 报 $1,749、16 英寸款最多减 $327（$250 / $1,749 / $327 / 24GB / 48GB）→ 抽 2 个配置核价，字段错位 ≥ 1 处即回查投影。\n\n【开发者工具与版本】\n\n- JPEXS Free Flash Decompiler 发布 26.6.0（26.6.0）→ 对照 2 个发布源，缺变更清单或版本号不一致 ≥ 1 处即不进自动升级白名单。\n\n- The Verge 汇总蓝光碟黑五促销，折扣超过 50 percent（50 percent）→ 抽 3 个 SKU 核价，偏差 > 5 个百分点即判为营销下界。\n\n- FotorGear 推出 $209 复古相机，配 13MP Sony 传感器（$209 / 13MP）→ 对照 2 份产品页，读数不一致即只留事实层。\n\n【文档与变更】\n\n- 英国自然历史博物馆在改造后花园记录 92 个物种（92）→ 核对名录与采样窗口，缺 1 项或偏差 ≥ 1 个物种即不进结论层。\n\n- ollama 发布 v0.40.19，含 inkling2 短历史加速、mlxrunner 的 Engram 缓冲压缩与 llama-server 提升（0.40.19 / 0.40.18 / 0.40.19-rc0）→ 2 个环境各跑 1 次会话恢复，解析失败 ≥ 1 次即暂缓升级。\n\n【市场与投资】\n\n- Sony WH-1000XM4C 黑五报 $198、较发售价降 $100，WH-1000XM5 备选 $169（$198 / $100 / $169 / 10-band）→ 复算合计，偏差 > 1 美元即回查归一映射。\n\n【产业与资本】\n\n- 智源社区转述 Anthropic 上市后三个价格快照：发行价 83美元、首日 111.50美元、随后收报 81.91美元（83美元 / 111.50美元 / 34% / 81.91美元）→ 复算涨幅，与 34% 偏差 > 1 个百分点即回查字段。\n\n【安全与治理】\n\n- WAIncognito for Chrome 发布 2.6.2，更新 WhatsApp Web 隐私控制，体积 545 KB（2.6.2 / 545 KB）→ 实测体积，偏差 > 10% 即判仅媒体口径。\n\n【社区与观点】\n\n- The Verge 列出 60-odd 个黑五低价方案，门槛 $100 或更低（60 / $100）→ 抽查 2 个品类，偏差超 10 个或存在高于 $100 的条目即判门槛不成立。\n\n【待验证信号】",
+  "watch_signals": [
+    {
+      "signal": "48 个 MCP 与 SKILL.md 仓库的 69% 安全发现率",
+      "threshold": "复扫 48 个仓库，若可复现发现少于 33 个或误报超过 5 个",
+      "judgement": "判定 69% 口径不成立，不进 skill 仓库的准入基线"
+    },
+    {
+      "signal": "ollama v0.40.19 的 conv snapshots 兼容",
+      "threshold": "2 个环境各跑 1 次会话恢复，若解析失败 ≥ 1 次",
+      "judgement": "判定暂缓升级，固定 0.40.18 并记入依赖台账"
+    },
+    {
+      "signal": "Anthropic 三个价格读数与 34% 涨幅自洽",
+      "threshold": "复算 111.50 减 83 再除以 83，若与 34% 偏差 > 1 个百分点",
+      "judgement": "判定上游字段错位，回查归一映射而不是改日报"
+    },
+    {
+      "signal": "JPEXS 26.6.0 与 WAIncognito 2.6.2 的变更清单",
+      "threshold": "对照 2 个发布源，若版本号不一致或 545 KB 偏差 > 10%",
+      "judgement": "判定只留事实层，不进自动升级白名单"
+    },
+    {
+      "signal": "50 percent 与 $198 等 Black Friday 折扣读数",
+      "threshold": "抽 3 个 SKU 核价，若偏差 > 5 个百分点或 > 1 美元",
+      "judgement": "判定促销幅度仅为营销下界，不进读数表"
+    },
+    {
+      "signal": "自然历史博物馆 92 个物种的计数口径",
+      "threshold": "核对名录与采样窗口，若缺 1 项或计数偏差 ≥ 1 个物种",
+      "judgement": "判定只留事实层，不进结论层"
+    },
+    {
+      "signal": "MacBook Pro $1,749 与 24GB 及 48GB 的字段分列",
+      "threshold": "抽 2 个配置核价，若字段错位 ≥ 1 处",
+      "judgement": "判定量纲混排，回查 digest 投影的字段映射"
+    }
+  ],
+  "reference_summary": [
+    {
+      "domain": "dev.to",
+      "count": 3
+    },
+    {
+      "domain": "theverge.com",
+      "count": 3
+    },
+    {
+      "domain": "macrumors.com",
+      "count": 1
+    },
+    {
+      "domain": "yankodesign.com",
+      "count": 1
+    },
+    {
+      "domain": "phys.org",
+      "count": 1
+    },
+    {
+      "domain": "github.com",
+      "count": 1
+    },
+    {
+      "domain": "mp.weixin.qq.com",
+      "count": 1
+    }
+  ],
+  "stats": {
+    "sources_ok": 180,
+    "sources_total": 185,
+    "total_items": 2013,
+    "clusters": 1923,
+    "selected": 40,
+    "published_items": 11,
+    "seven_element_pass": 11,
+    "seven_element_ratio": 1.0,
+    "items_with_numbers": 11,
+    "substantive_number_ratio": 1.0,
+    "rejected_no_number": 0,
+    "unique_reference_domains": 7
+  },
+  "quality": {
+    "ai_status": "ok",
+    "missing_data_marker": "暂无可靠数据",
+    "warnings": [],
+    "id_whitelist": true,
+    "url_whitelist": true,
+    "number_whitelist": true,
+    "number_whitelist_scope": "title+summary_raw+metrics",
+    "number_whitelist_excludes": [
+      "published_at",
+      "fetched_at"
+    ],
+    "entity_whitelist": true,
+    "credential_scan": "clean",
+    "content_spec_version": "1.1.0"
+  },
+  "demo": false
+}

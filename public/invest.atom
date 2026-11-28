@@ -5,10 +5,30 @@
   <ns0:subtitle>挖掘 · 聚合 · 研判 · 订阅；每条附原文链接；内容仅供参考，不构成投资建议</ns0:subtitle>
   <ns0:link rel="self" type="application/atom+xml" href="https://daily-info.local/invest.atom" />
   <ns0:link rel="alternate" type="text/html" href="https://daily-info.local/index.html" />
-  <ns0:updated>2026-11-27T01:58:17.875356Z</ns0:updated>
+  <ns0:updated>2026-11-28T02:36:46.200180Z</ns0:updated>
   <ns0:author>
     <ns0:name>Personal Daily Info</ns0:name>
   </ns0:author>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-28:7de2bc413e1f944e</ns0:id>
+    <ns0:title>[产业与资本] Anthropic破发！史上最大IPO，4个交易日跌穿83美元</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&amp;mid=2652745378&amp;idx=2&amp;sn=46191b80fc49ea0ec293ae4224ad1619&amp;chksm=f0344fff35146f17dd4a45783f57ca637c197c76bc5f085dae26ff3c61863f9fe9980b13672f&amp;scene=0&amp;xtrack=1" />
+    <ns0:published>2026-11-28T01:50:00Z</ns0:published>
+    <ns0:updated>2026-11-28T02:36:46.200180Z</ns0:updated>
+    <ns0:category term="industry-capital" label="产业与资本" />
+    <ns0:summary type="text">强化学习、AI系统、AI｜Anthropic创始人阿莫迪称其有望开创“奇迹时代”，引发华尔街热捧，IPO发行价定为83美元；11月19日上市首日股价飙升至111.50美元，涨幅超34%；但仅五日内即回落，11月24日收盘报81.91美元，首次跌破发行价，凸显市场对其高估值与盈利前景的快速重估。</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;智源社区转述 Anthropic 上市后的三个价格快照：发行价 83美元、首日 111.50美元、随后收报 81.91美元跌破发行价。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：83美元 / 111.50美元 / 34% / 81.91美元 · 相关方：Anthropic / 阿莫迪&lt;/p&gt;&lt;p&gt;强化学习、AI系统、AI｜Anthropic创始人阿莫迪称其有望开创“奇迹时代”，引发华尔街热捧，IPO发行价定为83美元；11月19日上市首日股价飙升至111.50美元，涨幅超34%；但仅五日内即回落，11月24日收盘报81.91美元，首次跌破发行价，凸显市场对其高估值与盈利前景的快速重估。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;四个读数带单位且能逐字核对，涨幅 34% 与 83 到 111.50 的算式自洽；但摘要没给交易所代码、成交量与发行规模，无法独立复核。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对唯一事实源的数值自洽检查有用：同一事件在发行价、首日高点与破发收盘价三处出现，可验证 digest 投影有没有把 34% 重复计数。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;复算 111.50 减 83 再除以 83，若与 34% 偏差超过 1 个百分点，或 81.91美元 未在 2 份材料出现，则判定上游字段错位、回查归一映射。&lt;/p&gt;&lt;p&gt;来源：智源社区 · 最新分享（匿名 API） · 发布于 2026-11-28T01:50 UTC · 归类：industry-capital&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&amp;amp;mid=2652745378&amp;amp;idx=2&amp;amp;sn=46191b80fc49ea0ec293ae4224ad1619&amp;amp;chksm=f0344fff35146f17dd4a45783f57ca637c197c76bc5f085dae26ff3c61863f9fe9980b13672f&amp;amp;scene=0&amp;amp;xtrack=1" rel="noopener noreferrer"&gt;https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&amp;amp;mid=2652745378&amp;amp;idx=2&amp;amp;sn=46191b80fc49ea0ec293ae4224ad1619&amp;amp;chksm=f0344fff35146f17dd4a45783f57ca637c197c76bc5f085dae26ff3c61863f9fe9980b13672f&amp;amp;scene=0&amp;amp;xtrack=1&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:daily-info.local,2026-11-28:9fdfb6028ef485a4</ns0:id>
+    <ns0:title>[市场与投资] Sony’s 1000XM4C headphones are a Black Friday bargain at $198</ns0:title>
+    <ns0:link rel="alternate" type="text/html" href="https://www.theverge.com/gadgets/1043976/sony-wh1000xm4c-noise-canceling-headphones-black-friday-2026-deal-sale" />
+    <ns0:published>2026-11-28T00:30:00.817000Z</ns0:published>
+    <ns0:updated>2026-11-28T02:36:46.200180Z</ns0:updated>
+    <ns0:category term="market-invest" label="市场与投资" />
+    <ns0:summary type="text">Sony’s WH-1000XM4C headphones are priced at $198 during Black Friday, a $100 discount from their launch price. This model refines the popular XM4 design, offering audio quality close to the pricier XM6. Key enhancements include a 10-band equalizer that improves midrange frequencies, better noise can</ns0:summary>
+    <ns0:content type="html">&lt;p&gt;&lt;strong&gt;The Verge 报道 Sony WH-1000XM4C 在 Black Friday 报 $198，较发售价降 $100，并给出 WH-1000XM5 的 $169 备选价。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;关键数字：$198 / $100 / $169 / 10-band · 相关方：Sony / WH-1000XM4C / WH-1000XM5 / XM6&lt;/p&gt;&lt;p&gt;Sony’s WH-1000XM4C headphones are priced at $198 during Black Friday, a $100 discount from their launch price. This model refines the popular XM4 design, offering audio quality close to the pricier XM6. Key enhancements include a 10-band equalizer that improves midrange frequencies, better noise can&lt;/p&gt;&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;四个读数带单位且同处一段，可交叉核对；但 10-band equalizer 是功能规格不是价格，与三个金额混排容易把规格读成折扣。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;对我意味着什么：&lt;/strong&gt;对唯一事实源的量纲分列有用：同一条目里金额与功能规格并存，正好验证 digest 投影有没有把 10-band 误并进价格字段。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;下一步：&lt;/strong&gt;复算 $198 加 $100 是否等于发售价、并核对 $169 备选价，若任一偏差超过 1 美元则判定上游字段错位、回查归一映射。&lt;/p&gt;&lt;p&gt;来源：Folo 订阅池基线（人工筛选信源） · 发布于 2026-11-28T00:30 UTC · 归类：market-invest&lt;/p&gt;&lt;p&gt;→ &lt;a href="https://www.theverge.com/gadgets/1043976/sony-wh1000xm4c-noise-canceling-headphones-black-friday-2026-deal-sale" rel="noopener noreferrer"&gt;https://www.theverge.com/gadgets/1043976/sony-wh1000xm4c-noise-canceling-headphones-black-friday-2026-deal-sale&lt;/a&gt;&lt;/p&gt;</ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:daily-info.local,2026-11-27:102960ba67d82f48</ns0:id>
     <ns0:title>[市场与投资] 两市融资余额减少156.93亿元</ns0:title>

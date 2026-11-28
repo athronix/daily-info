@@ -1,178 +1,236 @@
 {
-  "date": "2026-11-27",
-  "headline": "带单位的金额与版本号能逐字复核，日期年份、PR 编号与社区热度不能：今天进门禁的是 $1,500、0.40.19 与 13 个内核",
-  "headline_short": "带单位的金额与版本号能逐字复核，日期年份、PR 编号与社",
-  "lead": "今日能逐字锁定的读数分两类：一类是带单位的量值——Clay 谈 $1,500 覆盖全球公司资格判定、两市融资余额单日减少 156.93亿元、新一代通信网测算约 7万亿元、英国央行下调 60个基点；另一类是版本号与计数——ollama v0.40.19、MLC AI 用 Lean 证明 13 个内核并牵出 3 个同步 bug。两类之外，日期年份、PR 编号、HN 分数与摘要末尾的长度标注都不进门禁。",
-  "generated_at": "2026-11-27T01:58:17.875356Z",
+  "date": "2026-11-28",
+  "headline": "48 个 MCP 仓库 69% 有安全发现、0.40.19 能进兼容矩阵，而社区热度、日期年份与型号尾数都不是读数",
+  "headline_short": "48 个 MCP 仓库 69% 有安全发现、0.40.1",
+  "lead": "今日能逐字锁定的读数分三类：抽样比与计数——48 个 MCP server 与 SKILL.md 仓库中 69% 有安全发现、博物馆花园记录 92 个物种；版本号——0.40.19、26.6.0 与 2.6.2，能写进兼容性矩阵；带单位的金额与规格——$198、$1,749、13MP、545 KB，每一列都要单独留单位。三类之外，社区热度分、周报日期、产品型号尾数与摘要末尾的长度标注都只是标识符或元数据，按数字白名单一律留在门禁之外；",
+  "generated_at": "2026-11-28T02:36:46.200180Z",
   "themes": [
     {
-      "title": "金额带单位才叫读数",
-      "why": "$1,500 是单任务成本、7万亿元 是五年测算规模、156.93亿元 是单日存量变动，量纲与状态都不同；并排时必须各自带单位和口径列。",
+      "title": "带单位的量值才叫读数",
+      "why": "48 个仓库的 69%、$209 与 13MP、$198 与 $169，都带单位或比例；把单位省掉，抽样比、价格与规格就会混成一个数字。",
       "cluster_ids": [
-        "00bb51c293be1538",
-        "443eeaddf9df4cb9",
-        "102960ba67d82f48"
+        "f15a140c90bbe9a9",
+        "6fe4630731dae525",
+        "9fdfb6028ef485a4"
       ],
       "verified_by": 3
     },
     {
-      "title": "版本号与计数能锁，编号不能",
-      "why": "ollama 的发布号与 TxVerify 的内核数、缺陷数能写进复现清单；同一份变更清单里的 PR 工单编号只是定位符，不能拿来当成果读数。",
+      "title": "版本号能进台账，工单号不能",
+      "why": "0.40.19、26.6.0、2.6.2 是能写进兼容性矩阵的发布号；同一份 Changelog 里的 PR 编号只是定位符，不是成果读数。",
       "cluster_ids": [
-        "89151b100183e270",
-        "4cd73331f9a03854"
+        "80c5781889137f6e",
+        "8eeebe88ed523328",
+        "22b14364bfdca865"
       ],
-      "verified_by": 2
+      "verified_by": 3
     },
     {
-      "title": "同一个规模数字，两种读法",
-      "why": "7万亿元 是面向未来的测算值，20985.91亿元 是当日存量快照；把预测与快照混排，会把规划读成已落地的行情。",
+      "title": "折扣与规格是两种读数",
+      "why": "50 percent 与 60 加 $100 是门槛，$250 与 $1,749 是金额，24GB 与 48GB 是规格；并排时必须各带单位列，否则下界会被读成均值。",
       "cluster_ids": [
-        "443eeaddf9df4cb9",
-        "102960ba67d82f48"
+        "78335544791dd222",
+        "6b0ef3f8319591f8",
+        "8645365d203bf584"
       ],
-      "verified_by": 2
+      "verified_by": 3
     },
     {
-      "title": "形式化验证给的是计数不是覆盖率",
-      "why": "TxVerify 给出了可数的内核与缺陷，却没给覆盖率与基线；ollama 变更清单同理，只有条目名没有回归数值，两者都不能当质量证明。",
+      "title": "抽样比与计数都只是样本口径",
+      "why": "69% 是 48 个仓库的抽样，92 是单座花园的物种数，50 percent 是促销下界；三者都没有总体或基线，不能外推成行业结论。",
       "cluster_ids": [
-        "4cd73331f9a03854",
-        "89151b100183e270"
+        "f15a140c90bbe9a9",
+        "e82de17fd6964e62",
+        "78335544791dd222"
       ],
-      "verified_by": 2
+      "verified_by": 3
     },
     {
-      "title": "基点与亿元量纲不同，别混排",
-      "why": "英国央行调整的是比例，两市融资余额是绝对金额；一个改分母口径、一个记存量水平，省去单位就会把监管读成流动性。",
+      "title": "价格能自洽，仍不等于趋势",
+      "why": "83美元 到 111.50美元 再到 81.91美元，与 $198、$1,749 都是时点快照；算式能对上，但缺成交量与窗口，就不能写成趋势或估值判断。",
       "cluster_ids": [
-        "5234682e5c298bc1",
-        "102960ba67d82f48"
+        "7de2bc413e1f944e",
+        "9fdfb6028ef485a4",
+        "8645365d203bf584"
       ],
-      "verified_by": 2
+      "verified_by": 3
     },
     {
-      "title": "白名单挡住的是日期与热度",
-      "why": "今日多数高分簇的数字只来自日期年份、PR 编号、HN 分数与评论数、型号尾数和摘要末尾的长度标注，按口径全部留在 sections 之外。",
+      "title": "规模数字必须绑定单位与窗口",
+      "why": "13MP、545 KB、24GB 与 92 分别属于规格、体积、内存与物种计数，脱离单位与采样窗口就只是量级修辞，进不了工程台账。",
       "cluster_ids": [
-        "89151b100183e270",
-        "443eeaddf9df4cb9",
-        "102960ba67d82f48",
-        "5234682e5c298bc1"
+        "6fe4630731dae525",
+        "22b14364bfdca865",
+        "e82de17fd6964e62"
       ],
-      "verified_by": 4
+      "verified_by": 3
     },
     {
-      "title": "规模数字都要绑定单位与窗口",
-      "why": "单任务成本、活动名额与冲刺周期、五年市场规模，三个数都只有在单位与统计窗口明确时才可复算，否则只是量级修辞。",
+      "title": "白名单挡住的是元数据不是小数字",
+      "why": "今日多数高分簇的数字只来自社区热度分、周报与公告日期、产品型号尾数与摘要末尾的长度标注，按数字白名单一律留在 sections 之外。",
       "cluster_ids": [
-        "00bb51c293be1538",
-        "c2c799c25873001b",
-        "443eeaddf9df4cb9"
+        "f15a140c90bbe9a9",
+        "80c5781889137f6e",
+        "22b14364bfdca865"
       ],
       "verified_by": 3
     }
   ],
   "sections": [
     {
-      "key": "ai-models",
-      "label": "模型与研究",
+      "key": "agent-engineering",
+      "label": "Agent 与工程",
       "items": [
         {
-          "id": "4cd73331f9a03854",
-          "title": "MLC AI 开源 TxVerify，称已用 Lean 在 PTX 层证明 13 个 Blackwell GPU 内核并牵出 3 个同步 bug",
-          "url": "https://arex-research.com/feeds/6dfc4fda-0539-45c9-b52d-89785b5a968b",
-          "source": "智源社区 · 最新分享（匿名 API）",
-          "published_at": "2026-11-26T19:05:00Z",
-          "score": 71.77,
-          "category": "ai-models",
-          "cluster_id": "4cd73331f9a03854",
-          "summary": "资讯｜11 月 24 日，MLC AI 发布博客文章 What Must We Trust? How TxVerify Uses a Core/Assumption Split to Formally Verify Production GPU Kernels at the PTX Level，署名作者为 Bohan Hou 与 Tianqi Chen，并同步开源…",
-          "why_matters": "13 与 3 是能逐字复核的计数，但摘要没给内核规模、证明耗时或回归基线，形式化验证的覆盖率仍无法复算。",
-          "fact_anchor": "MLC AI 开源 TxVerify，用 Lean 在 PTX 层形式化验证生产 GPU 内核，称证明 13 个 Blackwell GPU 内核并牵出 3 个同步 bug。",
+          "id": "f15a140c90bbe9a9",
+          "title": "I scanned 48 popular MCP server and SKILL.md repos. 69% had a security finding",
+          "url": "https://dev.to/avivgerzhue/i-scanned-48-popular-mcp-server-and-skillmd-repos-69-had-a-security-finding-35d2",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-27T22:50:53.388000Z",
+          "score": 79.92,
+          "category": "agent-engineering",
+          "cluster_id": "f15a140c90bbe9a9",
+          "summary": "AI agents write code fast and skip the boring parts, like checking whether a secret ended up in the repo. MCP servers and SKILL.md files are… 〔Folo分类:开源项目〕",
+          "why_matters": "48 与 69% 是能回标题逐字核对的抽样口径，但摘要被截断，没给扫描规则、误报率与发现分级，比例无法复算。",
+          "fact_anchor": "dev.to 作者扫描 48 个热门 MCP server 与 SKILL.md 仓库，报告 69% 存在安全发现，指向 agent 写码时把密钥带进仓库。",
           "numbers": [
-            "13",
-            "3"
+            "48",
+            "69%"
           ],
           "entities": [
-            "MLC AI",
-            "TxVerify",
-            "Lean",
-            "PTX",
-            "Blackwell",
-            "Tianqi Chen"
+            "MCP server",
+            "SKILL.md",
+            "secret"
           ],
           "evidence_urls": [
-            "https://arex-research.com/feeds/6dfc4fda-0539-45c9-b52d-89785b5a968b"
+            "https://dev.to/avivgerzhue/i-scanned-48-popular-mcp-server-and-skillmd-repos-69-had-a-security-finding-35d2"
           ],
-          "impact": "对数据基建与 WinVM 脚本分层有借鉴：Core/Assumption Split 把可信边界显式化，与「确定性脚本做索引、AI 只做研判」的分层同构，可用来盘查权限假设是否漏列。",
-          "next_action": "拉取开源仓库跑 1 次最小复现，若 13 个内核无法在 2 个环境全部复现、或 3 个同步 bug 与清单定位不一致 ≥ 1 处，则判定暂缓引用其结论。",
+          "impact": "直接命中 skill 与 MCP 部署面：若自建 SKILL.md 仓库沿用同一生成流程，密钥入库风险就是可复现的，应把凭据扫描提到提交前闸门。",
+          "next_action": "复扫 48 个仓库，若可复现的安全发现少于 33 个或误报超过 5 个，则判定 69% 口径不成立、不进 skill 仓库的准入基线。",
           "signal_type": "research",
+          "confidence": "fact"
+        },
+        {
+          "id": "8645365d203bf584",
+          "title": "Apple's M6 and PROLED MacBook Pro Reach New Low Prices for Black Friday",
+          "url": "https://www.macrumors.com/2026/11/27/m6-and-proled-macbook-pro-black-friday",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-27T17:27:01.754000Z",
+          "score": 73.65,
+          "category": "agent-engineering",
+          "cluster_id": "8645365d203bf584",
+          "summary": "For Black Friday, Amazon offers significant discounts on Apple’s new MacBook Pro lineup. The 14-inch M6 model is available for $250 off, with the entry-level 16GB/1TB configuration priced at $1,749. Meanwhile, the 16-inch MacBook Pro featuring a PROLED XDR display receives discounts of up to $327. T",
+          "why_matters": "五个读数都带单位且能逐字复核，但 $250 与 $327 是降幅、$1,749 是成交价、24GB 与 48GB 是内存规格，量纲混排会读错。",
+          "fact_anchor": "MacRumors 汇总 Black Friday 的 MacBook Pro 降价：14 英寸 M6 款减 $250、16GB/1TB 配置报 $1,749，16 英寸款最多减 $327。",
+          "numbers": [
+            "$250",
+            "$1,749",
+            "$327",
+            "24GB",
+            "48GB"
+          ],
+          "entities": [
+            "Apple",
+            "MacBook Pro",
+            "Amazon",
+            "PROLED"
+          ],
+          "evidence_urls": [
+            "https://www.macrumors.com/2026/11/27/m6-and-proled-macbook-pro-black-friday"
+          ],
+          "impact": "对数据基建的字段分列有借鉴：降幅、成交价与规格三类值同处一段，正是白名单校验要逐项绑定单位、禁止跨列合计的样本。",
+          "next_action": "抽 2 个配置核价，若 $1,749 与 $250 之和不等于原价、或 24GB 与 48GB 在 2 份页面不一致 ≥ 1 处，则判定字段错位。",
+          "signal_type": "market-data",
           "confidence": "fact"
         }
       ]
     },
     {
-      "key": "agent-engineering",
-      "label": "Agent 与工程",
+      "key": "dev-tools",
+      "label": "开发者工具与版本",
       "items": [
         {
-          "id": "00bb51c293be1538",
-          "title": "How Clay Builds GTM Agents — Jeff Barg, Head of AI",
-          "url": "https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai",
-          "source": "Latent Space",
-          "published_at": "2026-11-26T23:02:48Z",
-          "score": 75.92,
-          "category": "agent-engineering",
-          "cluster_id": "00bb51c293be1538",
-          "summary": "How $1,500 could qualify every company in the world, why customers hate the model selector, and how Clay is building go-to-market infrastructure for every agent",
-          "why_matters": "$1,500 把 agent 单任务成本写成可复算的量级，但访谈摘要没给样本量、判定口径与失败率，成本与覆盖率无法同时核对。",
-          "fact_anchor": "Clay 的 AI 负责人 Jeff Barg 谈如何用 $1,500 完成全球公司资格判定、客户为何排斥 model selector，以及如何为每个 agent 搭建 go-to-market 基础设施。",
+          "id": "8eeebe88ed523328",
+          "title": "JPEXS Free Flash Decompiler 26.6.0",
+          "url": "https://dev.to/hacksgr/jpexs-free-flash-decompiler-2660-51e6",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-27T23:46:21.970000Z",
+          "score": 77.55,
+          "category": "dev-tools",
+          "cluster_id": "8eeebe88ed523328",
+          "summary": "JPEXS Free Flash Decompiler version 26.6.0 is now available. Created by Jindra Petřík, this open-source cross-platform tool for Windows… 〔Folo分类:开源项目〕",
+          "why_matters": "26.6.0 是能写进依赖台账的发布号，但摘要截断在 for Windows 被省略，没给变更清单或兼容范围，升级依据不足。",
+          "fact_anchor": "JPEXS Free Flash Decompiler 发布 26.6.0 版，仍是 Jindra Petřík 维护的开源跨平台 Windows 工具。",
           "numbers": [
-            "$1,500"
+            "26.6.0"
           ],
           "entities": [
-            "Clay",
-            "Jeff Barg",
-            "model selector",
-            "go-to-market infrastructure"
+            "JPEXS Free Flash Decompiler",
+            "Jindra Petřík"
           ],
           "evidence_urls": [
-            "https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai"
+            "https://dev.to/hacksgr/jpexs-free-flash-decompiler-2660-51e6"
           ],
-          "impact": "对 skill 与 automation 最相关：GTM 资格判定正是可编排的批量任务，可拿来对照自建 agent 的单次调用成本与幂等去重策略，别把演示级数字当生产基线。",
-          "next_action": "搭 1 个 100 家公司的样本集跑 2 轮，若 $1,500 口径下字段缺失率 > 5% 或单轮耗时 > 30 分钟，则判定该成本不可复现、不进选型基线。",
-          "signal_type": "opinion",
+          "impact": "对 dev-tools 版本台账相关：发布号可作为锁定键，但 skill 与 automation 若依赖该工具解析产物，缺变更清单就不能只凭版本号拉最新。",
+          "next_action": "对照 2 个发布源核对 26.6.0 的变更清单，若缺条目或版本号不一致 ≥ 1 处，则固定当前版本、不进自动升级白名单。",
+          "signal_type": "release",
           "confidence": "fact"
         },
         {
-          "id": "c2c799c25873001b",
-          "title": "Announcing: AI Safety Co-Founding Sprint in San Francisco. Starting December 3rd.",
-          "url": "https://www.lesswrong.com/posts/c9wNKhKfkiD2ePpDG/announcing-ai-safety-co-founding-sprint-in-san-francisco",
-          "source": "LessWrong",
-          "published_at": "2026-11-26T23:28:45Z",
-          "score": 72.69,
-          "category": "agent-engineering",
-          "cluster_id": "c2c799c25873001b",
-          "summary": "AI Safety needs more organizations to own problems. The funding is there, but we are orders of magnitude away from having the great organizations needed to absorb that money.That’s why we are launching the AI Safety Co-Founding Sprint, in collaboration with BlueDot Impact & AI Safety Founders. We br",
-          "why_matters": "名额与周期是主办方自述的活动参数，不是评测或产出数据；摘要强调缺组织承接资金，却没给入选率与团队成活率。",
-          "fact_anchor": "BlueDot Impact 与 AI Safety Founders 联合发起 AI Safety Co-Founding Sprint，开放约 30 个名额、申请表耗时 5-10 minutes，配两周冲刺后向孵化器与资方引荐最强团队。",
+          "id": "78335544791dd222",
+          "title": "Many of our favorite Blu-ray movies are over 50 percent off for Black Friday",
+          "url": "https://www.theverge.com/gadgets/1040471/4k-bluray-movie-film-black-friday-deal-sale",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-27T23:30:00.904000Z",
+          "score": 77.36,
+          "category": "dev-tools",
+          "cluster_id": "78335544791dd222",
+          "summary": "For Black Friday, numerous Blu-ray and 4K Blu-ray titles are discounted by more than 50 percent. Recommended deals include *Blade Runner 2049*, *The Lord of the Rings* trilogy, *Interstellar*, *Seven Samurai*, and *The Matrix* collection. Retailers such as Amazon, Barnes & Noble, Best Buy, Criterion",
+          "why_matters": "50 percent 是带单位的折扣幅度，但 over 与 more than 都是下界表述，没给原价、SKU 数与统计窗口，折扣率无法复算。",
+          "fact_anchor": "The Verge 汇总 Black Friday 蓝光碟促销，称多部 4K Blu-ray 标题折扣超过 50 percent，并列出 Amazon 等零售渠道。",
           "numbers": [
-            "30 spots",
-            "5-10 minutes"
+            "50 percent"
           ],
           "entities": [
-            "BlueDot Impact",
-            "AI Safety Founders",
-            "AI Safety Co-Founding Sprint",
-            "San Francisco"
+            "Blu-ray",
+            "Amazon",
+            "Criterion"
           ],
           "evidence_urls": [
-            "https://www.lesswrong.com/posts/c9wNKhKfkiD2ePpDG/announcing-ai-safety-co-founding-sprint-in-san-francisco"
+            "https://www.theverge.com/gadgets/1040471/4k-bluray-movie-film-black-friday-deal-sale"
           ],
-          "impact": "对 MCP、A2A、skill 与 WinVM 部署暂无直接影响：这是组织孵化活动，不涉及任何接口或运行时变更；仅当后续产出可复用评测规范时才纳入关注面。",
-          "next_action": "核对主办方公告的 30 个名额与两周窗口，若 2 份材料缺任一项定义或入选名单，则判定规模仅为活动参数、不进观察表。",
-          "signal_type": "opinion",
+          "impact": "对 automation 暂无直接影响：属消费促销导购，不涉及 MCP、A2A、skill 或 WinVM 接口；仅作为带单位百分比的白名单正例保留。",
+          "next_action": "抽 3 个 SKU 核对标价与原价，若实际折扣与 50 percent 偏差超过 5 个百分点，则判定该幅度仅为营销下界、不进读数表。",
+          "signal_type": "market-data",
+          "confidence": "fact"
+        },
+        {
+          "id": "6fe4630731dae525",
+          "title": "FotorGear’s $209 Retro Camera brings back the waist-level viewfinder with a 13MP Sony sensor",
+          "url": "https://www.yankodesign.com/2026/11/27/fotorgears-209-retro-camera-brings-back-the-waist-level-viewfinder-with-a-13mp-sony-sensor",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-28T00:30:55.764000Z",
+          "score": 76.48,
+          "category": "dev-tools",
+          "cluster_id": "6fe4630731dae525",
+          "summary": "For years, FotorGear’s whole business was convincing your iPhone it was a camera. The Hong Kong brand built clip-on lenses, grips, and a… 〔Folo分类:新奇产品〕",
+          "why_matters": "$209 与 13MP 是带单位的定价与规格，但摘要截断在镜头与手柄处，没给传感器尺寸或实拍样张，规格无法复核。",
+          "fact_anchor": "FotorGear 推出 $209 复古相机，带回腰平取景器并配 13MP Sony 传感器，此前主营 iPhone 外接镜头与手柄。",
+          "numbers": [
+            "$209",
+            "13MP"
+          ],
+          "entities": [
+            "FotorGear",
+            "Sony",
+            "iPhone"
+          ],
+          "evidence_urls": [
+            "https://www.yankodesign.com/2026/11/27/fotorgears-209-retro-camera-brings-back-the-waist-level-viewfinder-with-a-13mp-sony-sensor"
+          ],
+          "impact": "对 WinVM 与 agent 部署暂无直接影响：消费硬件参数不涉及 MCP、A2A 或 skill 接口；保留作金额与规格双量纲的白名单正例。",
+          "next_action": "对照 2 份产品页核对 $209 与 13MP，若任一读数不一致或缺传感器尺寸 ≥ 1 项，则判定只留事实层、不进规格台账。",
+          "signal_type": "product",
           "confidence": "fact"
         }
       ]
@@ -182,17 +240,45 @@
       "label": "文档与变更",
       "items": [
         {
-          "id": "89151b100183e270",
-          "title": "v0.40.19",
-          "url": "https://github.com/ollama/ollama/releases/tag/v0.40.19-rc0",
-          "source": "ollama Releases",
-          "published_at": "2026-11-26T17:52:02Z",
-          "score": 73.15,
+          "id": "e82de17fd6964e62",
+          "title": "New technologies help Natural History Museum uncover 92 species in its transformed gardens",
+          "url": "https://phys.org/news/2026-11-technologies-natural-history-museum-uncover.html",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-28T00:20:07.729000Z",
+          "score": 77.95,
           "category": "docs-changelog",
-          "cluster_id": "89151b100183e270",
+          "cluster_id": "e82de17fd6964e62",
+          "summary": "The Natural History Museum's transformed gardens in South Kensington are revealing new insights into London's urban wildlife. Among the 92… 〔Folo分类:重大学术科研突破〕",
+          "why_matters": "92 是能逐字锁定的计数，但摘要被截断在 Among the 92 之后，没给物种名录、采样周期与鉴定方法，计数口径无法复算。",
+          "fact_anchor": "英国自然历史博物馆用新技术在其改造后的花园中记录到 92 个物种，作为伦敦城市野生动物研究的新结果。",
+          "numbers": [
+            "92"
+          ],
+          "entities": [
+            "Natural History Museum",
+            "South Kensington",
+            "London"
+          ],
+          "evidence_urls": [
+            "https://phys.org/news/2026-11-technologies-natural-history-museum-uncover.html"
+          ],
+          "impact": "对数据基建的采集口径有借鉴：一个被截断的摘要只能留下计数、留不下维度，正是无数字诊断清单要补上游摘要的典型样本。",
+          "next_action": "对照博物馆清单核对 92 个物种的名录与采样窗口，若缺任一项或计数偏差 ≥ 1 个物种，则判定只留事实层、不进结论。",
+          "signal_type": "research",
+          "confidence": "fact"
+        },
+        {
+          "id": "80c5781889137f6e",
+          "title": "v0.40.19",
+          "url": "https://github.com/ollama/ollama/releases/tag/v0.40.19",
+          "source": "ollama Releases",
+          "published_at": "2026-11-27T21:47:32Z",
+          "score": 75.12,
+          "category": "docs-changelog",
+          "cluster_id": "80c5781889137f6e",
           "summary": "What's Changed inkling2: faster short histories, draft proposals and conv snapshots by @dhiltgen in #19881 mlxrunner: compact Engram history buffers by @pdevine in #19913 bump llama-server by @pdevine in #19917 Full Changelog: v0.40.18...v0.40.19-rc0",
-          "why_matters": "0.40.19 与 0.40.18 是能逐字锁定的发布号，但变更清单只有 PR 编号与条目名，没有给出短历史加速的基准数值或回归结果。",
-          "fact_anchor": "ollama 发布 v0.40.19-rc0，变更含 inkling2 短历史加速与 conv snapshots、mlxrunner 的 Engram 历史缓冲压缩，以及 llama-server 版本提升。",
+          "why_matters": "0.40.19 与 0.40.18 是能逐字锁定的发布号，但清单只有 PR 编号与条目名，没给短历史加速的基准数值或回归结果。",
+          "fact_anchor": "ollama 发布 v0.40.19，变更含 inkling2 短历史加速与 conv snapshots、mlxrunner 的 Engram 缓冲压缩及 llama-server 提升。",
           "numbers": [
             "0.40.19",
             "0.40.18",
@@ -206,76 +292,11 @@
             "@pdevine"
           ],
           "evidence_urls": [
-            "https://github.com/ollama/ollama/releases/tag/v0.40.19-rc0"
+            "https://github.com/ollama/ollama/releases/tag/v0.40.19"
           ],
           "impact": "对 agent 部署的本地推理层直接相关：llama-server 提升与 Engram 缓冲压缩会改变会话恢复行为，升级前要核对现有快照格式是否被静默改写。",
-          "next_action": "在 2 个环境各跑 1 次会话恢复 smoke，若 0.40.18→0.40.19-rc0 后 conv snapshots 解析失败 ≥ 1 次，则判定暂缓升级并固定旧版。",
+          "next_action": "在 2 个环境各跑 1 次会话恢复 smoke，若 0.40.18 升到 0.40.19 后 conv snapshots 解析失败 ≥ 1 次，则判定暂缓升级并固定旧版。",
           "signal_type": "release",
-          "confidence": "fact"
-        }
-      ]
-    },
-    {
-      "key": "industry-capital",
-      "label": "产业与资本",
-      "items": [
-        {
-          "id": "443eeaddf9df4cb9",
-          "title": "新一代通信网建设“施工图”出炉，三大细分产业驶入发展“快车道”",
-          "url": "https://www.36kr.com/newsflashes/4087243556665737",
-          "source": "36氪快讯（RSSHub 镜像路由）",
-          "published_at": "2026-11-27T00:58:49Z",
-          "score": 73.49,
-          "category": "industry-capital",
-          "cluster_id": "443eeaddf9df4cb9",
-          "summary": "11月26日，工业和信息化部、国家网信办、国家发展改革委联合印发《新一代通信网建设实施方案》，以“432”框架布局四张网、三项能力、两大支撑，明确提出以5G-A/6G、万兆光网、卫星互联网为核心支撑，将新一代通信网重新定义为经济社会运行的“神经系统”。据测算，未来五年新一代通信网建设将撬动约7万亿元市场规模，成为扩大有效投资、稳定经济大盘的重要抓手。据了解，6G、低空经济、卫星直连手机等赛道被提及，有望为产业链发展打开新增长空间。（上证报）",
-          "why_matters": "7万亿元 是带「据测算」前缀的规模预测，不是已发生投资额；摘要没给测算方法、分年拆解与投资主体，规模数字无法复算。",
-          "fact_anchor": "工业和信息化部、国家网信办、国家发展改革委联合印发《新一代通信网建设实施方案》，以「432」框架布局四张网、三项能力、两大支撑，测算未来五年撬动约 7万亿元市场规模。",
-          "numbers": [
-            "7万亿元"
-          ],
-          "entities": [
-            "工业和信息化部",
-            "国家网信办",
-            "国家发展改革委",
-            "新一代通信网建设实施方案",
-            "卫星互联网"
-          ],
-          "evidence_urls": [
-            "https://www.36kr.com/newsflashes/4087243556665737"
-          ],
-          "impact": "对数据基建的网络假设有间接意义：万兆光网与卫星互联网是跨机同步与远程 VM 的底层承载，但方案未给企业侧接入时点，暂不调整 WinVM Bridge 的链路预算。",
-          "next_action": "对照方案原文核对 7万亿元 的测算口径，若缺测算方法或分年拆解 ≥ 1 项，则判定只记录规划事实、不据此改容量规划。",
-          "signal_type": "market-data",
-          "confidence": "fact"
-        },
-        {
-          "id": "5234682e5c298bc1",
-          "title": "英国央行下调银行资本要求",
-          "url": "https://www.36kr.com/newsflashes/4087235380902533",
-          "source": "36氪快讯（RSSHub 镜像路由）",
-          "published_at": "2026-11-27T00:40:38Z",
-          "score": 71.67,
-          "category": "industry-capital",
-          "cluster_id": "5234682e5c298bc1",
-          "summary": "英国央行周四表示，在完成一项审查后，决定下调规模最大的本土业务型银行的资本要求。审查发现，英国本土业务占比较高的银行受到现行资本监管规则的影响尤为明显，承受的监管负担不成比例。这项改革获得英国央行金融政策委员会的支持。根据调整方案，规模最大的英国本土业务型银行的资本要求将下调60个基点，英国主要银行整体的资本要求则将下调30个基点。 （新华财经）",
-          "why_matters": "60个基点 与 30个基点 是带量纲的监管调整，但摘要没给生效日、覆盖银行名单与资本充足率基线，无法复算释放规模。",
-          "fact_anchor": "英国央行完成审查后下调银行资本要求：规模最大的本土业务型银行下调 60个基点，英国主要银行整体下调 30个基点，改革获金融政策委员会支持。",
-          "numbers": [
-            "60个基点",
-            "30个基点"
-          ],
-          "entities": [
-            "英国央行",
-            "金融政策委员会",
-            "新华财经"
-          ],
-          "evidence_urls": [
-            "https://www.36kr.com/newsflashes/4087235380902533"
-          ],
-          "impact": "对 agent 部署与自动化暂无直接影响：属境外银行监管口径变更，不涉及 MCP、A2A、skill 或 WinVM 接口；只作为带单位读数的白名单正例保留。",
-          "next_action": "对照 2 份披露核对 60个基点 与 30个基点 分别对应的银行范围，若定义不一致 ≥ 1 处，则判定该读数只留事实层、不进结论。",
-          "signal_type": "market-data",
           "confidence": "fact"
         }
       ]
@@ -285,115 +306,228 @@
       "label": "市场与投资",
       "items": [
         {
-          "id": "102960ba67d82f48",
-          "title": "两市融资余额减少156.93亿元",
-          "url": "https://www.36kr.com/newsflashes/4087290979383682",
-          "source": "36氪快讯（RSSHub 镜像路由）",
-          "published_at": "2026-11-27T00:47:23Z",
-          "score": 71.75,
-          "category": "industry-capital",
-          "cluster_id": "102960ba67d82f48",
-          "summary": "36氪获悉，截至11月26日，上交所融资余额报11010.7亿元，较前一交易日减少79.43亿元；深交所融资余额报9975.21亿元，较前一交易日减少77.5亿元；两市合计20985.91亿元，较前一交易日减少156.93亿元。",
-          "why_matters": "五个读数都带单位且能逐字复核，但摘要只给单日变动，没有成交额或余额占比，无法判断这是趋势拐点还是日常噪声。",
-          "fact_anchor": "36氪披露截至 11 月 26 日两市融资余额：上交所报 11010.7亿元、深交所报 9975.21亿元、合计 20985.91亿元，较前一交易日减少 156.93亿元。",
+          "id": "9fdfb6028ef485a4",
+          "title": "Sony’s 1000XM4C headphones are a Black Friday bargain at $198",
+          "url": "https://www.theverge.com/gadgets/1043976/sony-wh1000xm4c-noise-canceling-headphones-black-friday-2026-deal-sale",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-28T00:30:00.817000Z",
+          "score": 76.46,
+          "category": "market-invest",
+          "cluster_id": "9fdfb6028ef485a4",
+          "summary": "Sony’s WH-1000XM4C headphones are priced at $198 during Black Friday, a $100 discount from their launch price. This model refines the popular XM4 design, offering audio quality close to the pricier XM6. Key enhancements include a 10-band equalizer that improves midrange frequencies, better noise can",
+          "why_matters": "四个读数带单位且同处一段，可交叉核对；但 10-band equalizer 是功能规格不是价格，与三个金额混排容易把规格读成折扣。",
+          "fact_anchor": "The Verge 报道 Sony WH-1000XM4C 在 Black Friday 报 $198，较发售价降 $100，并给出 WH-1000XM5 的 $169 备选价。",
           "numbers": [
-            "156.93亿元",
-            "11010.7亿元",
-            "9975.21亿元",
-            "20985.91亿元",
-            "79.43亿元"
+            "$198",
+            "$100",
+            "$169",
+            "10-band"
           ],
           "entities": [
-            "36氪",
-            "上交所",
-            "深交所",
-            "融资余额"
+            "Sony",
+            "WH-1000XM4C",
+            "WH-1000XM5",
+            "XM6"
           ],
           "evidence_urls": [
-            "https://www.36kr.com/newsflashes/4087290979383682"
+            "https://www.theverge.com/gadgets/1043976/sony-wh1000xm4c-noise-canceling-headphones-black-friday-2026-deal-sale"
           ],
-          "impact": "对唯一事实源的数值自洽检查有用：同一指标在标题、分市场与合计三处重复出现，正好可验证 digest 投影有没有把 156.93亿元 重复计数。",
-          "next_action": "用当日 items.csv 核对 11010.7亿元 加 9975.21亿元 是否等于 20985.91亿元、79.43亿元 加 77.5亿元 是否等于 156.93亿元，任一偏差 > 0.01亿元 则判定上游字段错位。",
+          "impact": "对唯一事实源的量纲分列有用：同一条目里金额与功能规格并存，正好验证 digest 投影有没有把 10-band 误并进价格字段。",
+          "next_action": "复算 $198 加 $100 是否等于发售价、并核对 $169 备选价，若任一偏差超过 1 美元则判定上游字段错位、回查归一映射。",
+          "signal_type": "market-data",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "industry-capital",
+      "label": "产业与资本",
+      "items": [
+        {
+          "id": "7de2bc413e1f944e",
+          "title": "Anthropic破发！史上最大IPO，4个交易日跌穿83美元",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&mid=2652745378&idx=2&sn=46191b80fc49ea0ec293ae4224ad1619&chksm=f0344fff35146f17dd4a45783f57ca637c197c76bc5f085dae26ff3c61863f9fe9980b13672f&scene=0&xtrack=1",
+          "source": "智源社区 · 最新分享（匿名 API）",
+          "published_at": "2026-11-28T01:50:00Z",
+          "score": 79.04,
+          "category": "industry-capital",
+          "cluster_id": "7de2bc413e1f944e",
+          "summary": "强化学习、AI系统、AI｜Anthropic创始人阿莫迪称其有望开创“奇迹时代”，引发华尔街热捧，IPO发行价定为83美元；11月19日上市首日股价飙升至111.50美元，涨幅超34%；但仅五日内即回落，11月24日收盘报81.91美元，首次跌破发行价，凸显市场对其高估值与盈利前景的快速重估。",
+          "why_matters": "四个读数带单位且能逐字核对，涨幅 34% 与 83 到 111.50 的算式自洽；但摘要没给交易所代码、成交量与发行规模，无法独立复核。",
+          "fact_anchor": "智源社区转述 Anthropic 上市后的三个价格快照：发行价 83美元、首日 111.50美元、随后收报 81.91美元跌破发行价。",
+          "numbers": [
+            "83美元",
+            "111.50美元",
+            "34%",
+            "81.91美元"
+          ],
+          "entities": [
+            "Anthropic",
+            "阿莫迪"
+          ],
+          "evidence_urls": [
+            "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&mid=2652745378&idx=2&sn=46191b80fc49ea0ec293ae4224ad1619&chksm=f0344fff35146f17dd4a45783f57ca637c197c76bc5f085dae26ff3c61863f9fe9980b13672f&scene=0&xtrack=1"
+          ],
+          "impact": "对唯一事实源的数值自洽检查有用：同一事件在发行价、首日高点与破发收盘价三处出现，可验证 digest 投影有没有把 34% 重复计数。",
+          "next_action": "复算 111.50 减 83 再除以 83，若与 34% 偏差超过 1 个百分点，或 81.91美元 未在 2 份材料出现，则判定上游字段错位、回查归一映射。",
+          "signal_type": "market-data",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "security-governance",
+      "label": "安全与治理",
+      "items": [
+        {
+          "id": "22b14364bfdca865",
+          "title": "WAIncognito for Chrome 2.6.2",
+          "url": "https://dev.to/hacksgr/waincognito-for-chrome-262-kbl",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-27T17:19:20.424000Z",
+          "score": 75.18,
+          "category": "security-governance",
+          "cluster_id": "22b14364bfdca865",
+          "summary": "WAIncognito version 2.6.2 for Chrome introduces updated privacy controls for WhatsApp Web. Developed as an open-source 545 KB extension by… 〔Folo分类:开源项目〕",
+          "why_matters": "2.6.2 是发布号、545 KB 是安装体积，两个量纲都逐字可查；但摘要截断在开发者署名处，没给权限变更或兼容范围。",
+          "fact_anchor": "WAIncognito for Chrome 发布 2.6.2 版，更新 WhatsApp Web 隐私控制，仍是体积 545 KB 的开源扩展。",
+          "numbers": [
+            "2.6.2",
+            "545 KB"
+          ],
+          "entities": [
+            "WAIncognito",
+            "Chrome",
+            "WhatsApp Web"
+          ],
+          "evidence_urls": [
+            "https://dev.to/hacksgr/waincognito-for-chrome-262-kbl"
+          ],
+          "impact": "对 skill 与 agent 部署的扩展治理相关：浏览器扩展的版本号与体积应一起登记，只记版本号会在权限扩大时漏掉可观测信号。",
+          "next_action": "实测安装包体积并对照 2 个发布源，若与 545 KB 偏差超过 10% 或版本号不一致 ≥ 1 处，则判定规格读数仅媒体口径。",
+          "signal_type": "release",
+          "confidence": "fact"
+        }
+      ]
+    },
+    {
+      "key": "community",
+      "label": "社区与观点",
+      "items": [
+        {
+          "id": "6b0ef3f8319591f8",
+          "title": "We found 60-odd Black Friday deals we love for $100 or less",
+          "url": "https://www.theverge.com/gadgets/1043445/black-friday-best-cheap-tech-deals-under-100-2026",
+          "source": "Folo 订阅池基线（人工筛选信源）",
+          "published_at": "2026-11-28T01:30:00.031000Z",
+          "score": 77.19,
+          "category": "community",
+          "cluster_id": "6b0ef3f8319591f8",
+          "summary": "The Verge highlights over sixty Black Friday deals priced at $100 or less, covering electronics, streaming services, and games. Notable offers include discounted Beats earbuds, Amazon Echo devices, Anker chargers, and various video games like Ghost of Yōtei and 007 First Light. Additionally, subscri",
+          "why_matters": "60 与 $100 是标题里的数量与价格门槛，但 60-odd 与 or less 都是约数，摘要没给逐项价格与筛选规则，清单不可复算。",
+          "fact_anchor": "The Verge 列出 60-odd 个 Black Friday 低价方案，价格门槛为 $100 或更低，覆盖电子产品、流媒体与游戏。",
+          "numbers": [
+            "60",
+            "$100"
+          ],
+          "entities": [
+            "The Verge",
+            "Amazon Echo",
+            "Disney Plus"
+          ],
+          "evidence_urls": [
+            "https://www.theverge.com/gadgets/1043445/black-friday-best-cheap-tech-deals-under-100-2026"
+          ],
+          "impact": "对 skill 与数据基建暂无直接影响：促销清单不涉及任何接口或运行时；仅用来验证白名单对带符号金额数字的逐字匹配。",
+          "next_action": "抽查 2 个品类的条目数，若与 60 的偏差超过 10 个或存在单价高于 $100 的条目 ≥ 1 条，则判定门槛表述不成立。",
           "signal_type": "market-data",
           "confidence": "fact"
         }
       ]
     }
   ],
-  "editor_note": "本期最该带走的判断是：能进工程台账的读数，必须带单位、带窗口、能回一手来源逐字核对，而不是标题里最醒目的那个数字。今天留下的条目里，最硬的一组是版本号与计数：ollama 的 0.40.19 与 0.40.18 是能写进兼容性矩阵的发布号，MLC AI 的 13 个内核与 3 个同步 bug 是能回博客清单核对的计数。另一组是带单位的量值：$1,500 是单任务成本口径，156.93亿元 是单日融资余额变动，7万亿元 是五年测算规模，60个基点 与 30个基点 是监管调整幅度。反过来，日期里的年份与月份、PR 工单编号、HN 分数与评论数、摘要末尾的长度标注、型号里的 2D 与 6G 尾数，都只是标识符或元数据，不是新闻读数，一律没进 sections。对 WorkBuddy 与 skill 编排的含义很直接：Clay 把 agent 的资格判定压到 $1,500 这个量级，说明批量任务的可行性首先取决于单任务成本与字段完整率，而不是模型选型。把它接进 automation 之前，应该先用自己的样本集跑两轮，把缺失率与耗时写成可复现的门槛，再决定是否进入依赖台账。对 agent 部署与数据基建，ollama 的 v0.40.19-rc0 同时改了短历史、Engram 缓冲与 llama-server，这类底层变更最容易在会话恢复时静默失效。",
-  "brief": "每日信息 · 2026-11-27\n\n今日能逐字锁定的读数分两类：带单位的量值（$1,500、156.93亿元、7万亿元、60个基点）与版本号计数（0.40.19、13 个内核、3 个同步 bug）。日期年份、PR 编号、HN 分数与摘要长度标注都不进门禁。\n\n【Agent 与工程】\n\n- Clay 的 Jeff Barg 谈 $1,500 完成全球公司资格判定、客户排斥 model selector、为每个 agent 搭 go-to-market 基础设施（$1,500）→ 搭 100 家公司样本跑 2 轮，字段缺失率 > 5% 即判成本不可复现。\n\n- BlueDot Impact 与 AI Safety Founders 发起 Co-Founding Sprint，约 30 个名额、申请表 5-10 minutes、两周冲刺（30 spots / 5-10 minutes）→ 核对 2 份公告，缺名额或周期定义即判为活动参数。\n\n【模型与研究】\n\n- MLC AI 开源 TxVerify，用 Lean 在 PTX 层证明 13 个 Blackwell GPU 内核并牵出 3 个同步 bug（13 / 3）→ 2 个环境复现 13 个内核，与清单不一致 ≥ 1 处即暂缓引用。\n\n【文档与变更】\n\n- ollama 发布 v0.40.19-rc0，含 inkling2 短历史加速、mlxrunner 的 Engram 缓冲压缩与 llama-server 提升（0.40.19 / 0.40.18 / 0.40.19-rc0）→ 2 个环境各跑 1 次会话恢复，解析失败 ≥ 1 次即暂缓升级。\n\n【产业与资本】\n\n- 工业和信息化部、国家网信办、国家发展改革委联合印发《新一代通信网建设实施方案》，「432」框架布局四张网、三项能力、两大支撑，测算未来五年约 7万亿元市场规模（7万亿元）→ 缺测算方法或分年拆解 ≥ 1 项即只留规划事实。\n\n- 英国央行下调银行资本要求，最大本土业务型银行 60个基点、主要银行整体 30个基点（60个基点 / 30个基点）→ 2 份披露的银行范围定义不一致 ≥ 1 处即只留事实层。\n\n【市场与投资】\n\n- 36氪披露截至 11 月 26 日两市融资余额：上交所 11010.7亿元、深交所 9975.21亿元、合计 20985.91亿元，单日减少 156.93亿元（156.93亿元 / 11010.7亿元 / 9975.21亿元 / 20985.91亿元 / 79.43亿元）→ 复算 79.43亿元 加 77.5亿元，偏差 > 0.01亿元 即回查归一映射。\n\n【待验证信号】\n\n- $1,500 成本口径 / ollama 会话恢复 / TxVerify 内核清单 / 7万亿元 测算 / 156.93亿元 合计自洽 / 两个基点范围 / Sprint 名额与周期，共 7 条，每条带可证伪阈值。\n\n内容仅供参考，外部事实未独立验证，不构成投资建议；取不到可靠数据处标注「暂无可靠数据」。",
+  "editor_note": "本期最该带走的判断是：能进工程台账的读数，必须带单位、带窗口、能回一手来源逐字核对，而不是标题里最醒目的那个数字。今天留下的 11 条里，最硬的一组是版本号：ollama 的 0.40.19 与 0.40.18、JPEXS 的 26.6.0、WAIncognito 的 2.6.2，都是能写进兼容性矩阵的发布号；它们旁边的 PR 工单编号只是定位符，不能拿来当成果读数。第二组是带单位的量值：69% 是 48 个仓库的抽样比，$198 与 $1,749 是成交价，$250 与 $327 是降幅，13MP、545 KB、24GB 与 48GB 是规格，92 是单座花园的物种计数。量纲不同就不能并成一列，否则会把降幅读成价格、把规格读成折扣。反过来，社区热度分与评论数、周报与公告里的日期年份、产品型号尾数、摘要末尾的长度标注，都只是标识符或采集元数据，按数字白名单一律没进 sections。对 MCP 与 skill 部署，今天最该动手的是那条 48 个仓库的扫描：69% 有安全发现，直接指向 agent 写码时把密钥带进仓库。把它接进 automation 之前，应先用自己的样本集复扫一遍，把可复现发现数与误报数写成门槛，再决定是否把凭据扫描提到提交前闸门；",
+  "brief": "每日信息 · 2026-11-28\n\n今日能逐字锁定的读数分三类：抽样比与计数（48 个仓库 69%、92 个物种）、版本号（0.40.19、26.6.0、2.6.2）、带单位的金额与规格（$198、$1,749、13MP、545 KB）。社区热度分、日期年份、型号尾数与摘要长度标注都不进门禁。\n\n【Agent 与工程】\n\n- dev.to 作者扫描 48 个热门 MCP server 与 SKILL.md 仓库，69% 存在安全发现（48 / 69%）→ 复扫 48 个仓库，可复现发现少于 33 个或误报超 5 个即判口径不成立。\n\n- MacRumors 汇总 MacBook Pro 黑五降价：14 英寸款减 $250、16GB/1TB 报 $1,749、16 英寸款最多减 $327（$250 / $1,749 / $327 / 24GB / 48GB）→ 抽 2 个配置核价，字段错位 ≥ 1 处即回查投影。\n\n【开发者工具与版本】\n\n- JPEXS Free Flash Decompiler 发布 26.6.0（26.6.0）→ 对照 2 个发布源，缺变更清单或版本号不一致 ≥ 1 处即不进自动升级白名单。\n\n- The Verge 汇总蓝光碟黑五促销，折扣超过 50 percent（50 percent）→ 抽 3 个 SKU 核价，偏差 > 5 个百分点即判为营销下界。\n\n- FotorGear 推出 $209 复古相机，配 13MP Sony 传感器（$209 / 13MP）→ 对照 2 份产品页，读数不一致即只留事实层。\n\n【文档与变更】\n\n- 英国自然历史博物馆在改造后花园记录 92 个物种（92）→ 核对名录与采样窗口，缺 1 项或偏差 ≥ 1 个物种即不进结论层。\n\n- ollama 发布 v0.40.19，含 inkling2 短历史加速、mlxrunner 的 Engram 缓冲压缩与 llama-server 提升（0.40.19 / 0.40.18 / 0.40.19-rc0）→ 2 个环境各跑 1 次会话恢复，解析失败 ≥ 1 次即暂缓升级。\n\n【市场与投资】\n\n- Sony WH-1000XM4C 黑五报 $198、较发售价降 $100，WH-1000XM5 备选 $169（$198 / $100 / $169 / 10-band）→ 复算合计，偏差 > 1 美元即回查归一映射。\n\n【产业与资本】\n\n- 智源社区转述 Anthropic 上市后三个价格快照：发行价 83美元、首日 111.50美元、随后收报 81.91美元（83美元 / 111.50美元 / 34% / 81.91美元）→ 复算涨幅，与 34% 偏差 > 1 个百分点即回查字段。\n\n【安全与治理】\n\n- WAIncognito for Chrome 发布 2.6.2，更新 WhatsApp Web 隐私控制，体积 545 KB（2.6.2 / 545 KB）→ 实测体积，偏差 > 10% 即判仅媒体口径。\n\n【社区与观点】\n\n- The Verge 列出 60-odd 个黑五低价方案，门槛 $100 或更低（60 / $100）→ 抽查 2 个品类，偏差超 10 个或存在高于 $100 的条目即判门槛不成立。\n\n【待验证信号】",
   "watch_signals": [
     {
-      "signal": "Clay $1,500 覆盖全球公司资格判定的口径",
-      "threshold": "在 1 个 100 家公司样本集跑 2 轮，若字段缺失率 > 5%",
-      "judgement": "判定该成本不可复现，只留事实层不进选型基线"
+      "signal": "48 个 MCP 与 SKILL.md 仓库的 69% 安全发现率",
+      "threshold": "复扫 48 个仓库，若可复现发现少于 33 个或误报超过 5 个",
+      "judgement": "判定 69% 口径不成立，不进 skill 仓库的准入基线"
     },
     {
-      "signal": "ollama v0.40.19-rc0 的 llama-server 行为变更",
-      "threshold": "在 2 个环境各跑 1 次会话恢复，若 Engram 缓冲结构差异 ≥ 1 处",
-      "judgement": "判定暂缓升级，先固定 0.40.18 并记入依赖台账"
+      "signal": "ollama v0.40.19 的 conv snapshots 兼容",
+      "threshold": "2 个环境各跑 1 次会话恢复，若解析失败 ≥ 1 次",
+      "judgement": "判定暂缓升级，固定 0.40.18 并记入依赖台账"
     },
     {
-      "signal": "TxVerify 内核数与同步缺陷的一手清单",
-      "threshold": "核对 2 份一手材料，若缺内核清单或 bug 定义少于 3 条",
-      "judgement": "判定计数仅为媒体口径，标 unverified 不进工程结论"
-    },
-    {
-      "signal": "新一代通信网约 7万亿元 测算口径",
-      "threshold": "对照方案原文，若缺测算方法或分年拆解 ≥ 1 项",
-      "judgement": "判定规模数字不可复算，只留规划事实层"
-    },
-    {
-      "signal": "两市融资余额 156.93亿元 的合计自洽",
-      "threshold": "核对 79.43亿元 与 77.5亿元 之和，若与 156.93亿元 偏差 > 0.01亿元",
+      "signal": "Anthropic 三个价格读数与 34% 涨幅自洽",
+      "threshold": "复算 111.50 减 83 再除以 83，若与 34% 偏差 > 1 个百分点",
       "judgement": "判定上游字段错位，回查归一映射而不是改日报"
     },
     {
-      "signal": "英国央行两个基点的适用银行范围",
-      "threshold": "对照 2 份披露，若两类银行范围定义不一致 ≥ 1 处",
-      "judgement": "判定基点不可复算，只留监管事实层"
+      "signal": "JPEXS 26.6.0 与 WAIncognito 2.6.2 的变更清单",
+      "threshold": "对照 2 个发布源，若版本号不一致或 545 KB 偏差 > 10%",
+      "judgement": "判定只留事实层，不进自动升级白名单"
     },
     {
-      "signal": "AI Safety Sprint 名额与两周窗口",
-      "threshold": "核对主办方公告，若 2 份材料缺名额数或冲刺周期任一定义",
-      "judgement": "判定规模数字仅为活动参数，不进观察表"
+      "signal": "50 percent 与 $198 等 Black Friday 折扣读数",
+      "threshold": "抽 3 个 SKU 核价，若偏差 > 5 个百分点或 > 1 美元",
+      "judgement": "判定促销幅度仅为营销下界，不进读数表"
+    },
+    {
+      "signal": "自然历史博物馆 92 个物种的计数口径",
+      "threshold": "核对名录与采样窗口，若缺 1 项或计数偏差 ≥ 1 个物种",
+      "judgement": "判定只留事实层，不进结论层"
+    },
+    {
+      "signal": "MacBook Pro $1,749 与 24GB 及 48GB 的字段分列",
+      "threshold": "抽 2 个配置核价，若字段错位 ≥ 1 处",
+      "judgement": "判定量纲混排，回查 digest 投影的字段映射"
     }
   ],
   "reference_summary": [
     {
-      "domain": "36kr.com",
+      "domain": "dev.to",
       "count": 3
     },
     {
-      "domain": "arex-research.com",
+      "domain": "theverge.com",
+      "count": 3
+    },
+    {
+      "domain": "macrumors.com",
       "count": 1
     },
     {
-      "domain": "latent.space",
+      "domain": "yankodesign.com",
       "count": 1
     },
     {
-      "domain": "lesswrong.com",
+      "domain": "phys.org",
       "count": 1
     },
     {
       "domain": "github.com",
+      "count": 1
+    },
+    {
+      "domain": "mp.weixin.qq.com",
       "count": 1
     }
   ],
   "stats": {
     "sources_ok": 180,
     "sources_total": 185,
-    "total_items": 2722,
-    "clusters": 2643,
+    "total_items": 2013,
+    "clusters": 1923,
     "selected": 40,
-    "published_items": 7,
-    "seven_element_pass": 7,
+    "published_items": 11,
+    "seven_element_pass": 11,
     "seven_element_ratio": 1.0,
-    "items_with_numbers": 7,
+    "items_with_numbers": 11,
     "substantive_number_ratio": 1.0,
     "rejected_no_number": 0,
-    "unique_reference_domains": 5
+    "unique_reference_domains": 7
   },
   "quality": {
     "ai_status": "ok",
